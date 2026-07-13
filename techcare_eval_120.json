@@ -1,0 +1,2110 @@
+[
+  {
+    "id": "qa_0001",
+    "intent": "product_price",
+    "question": "Laptop NovaBook Air 14 giá bao nhiêu?",
+    "answer": "Laptop NovaBook Air 14 hiện có giá niêm yết 14.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0002",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Laptop NovaBook Air 14 với",
+    "answer": "Laptop NovaBook Air 14 hiện có giá niêm yết 14.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0003",
+    "intent": "product_price",
+    "question": "Laptop NovaBook Air 14 hiện đang bán giá nào?",
+    "answer": "Laptop NovaBook Air 14 hiện có giá niêm yết 14.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0004",
+    "intent": "product_price",
+    "question": "Sản phẩm Laptop NovaBook Air 14 bao nhiêu tiền?",
+    "answer": "Laptop NovaBook Air 14 hiện có giá niêm yết 14.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0005",
+    "intent": "product_price",
+    "question": "Báo giá giúp mình Laptop NovaBook Air 14",
+    "answer": "Laptop NovaBook Air 14 hiện có giá niêm yết 14.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0006",
+    "intent": "product_info",
+    "question": "Laptop NovaBook Air 14 cấu hình thế nào?",
+    "answer": "Laptop NovaBook Air 14 có thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Sản phẩm phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0007",
+    "intent": "product_info",
+    "question": "Thông số chính của Laptop NovaBook Air 14 là gì?",
+    "answer": "Laptop NovaBook Air 14 có thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Sản phẩm phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0008",
+    "intent": "product_info",
+    "question": "Laptop NovaBook Air 14 có điểm gì nổi bật?",
+    "answer": "Laptop NovaBook Air 14 có thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Sản phẩm phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0009",
+    "intent": "product_info",
+    "question": "Mô tả nhanh giúp mình Laptop NovaBook Air 14",
+    "answer": "Laptop NovaBook Air 14 có thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Sản phẩm phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0010",
+    "intent": "product_info",
+    "question": "Laptop NovaBook Air 14 phù hợp với nhu cầu nào?",
+    "answer": "Laptop NovaBook Air 14 có thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Sản phẩm phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ.",
+    "source_ids": [
+      "TC-LT-001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0011",
+    "intent": "product_warranty",
+    "question": "Laptop NovaBook Air 14 bảo hành bao lâu?",
+    "answer": "Laptop NovaBook Air 14 được bảo hành 24 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-001",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0012",
+    "intent": "product_warranty",
+    "question": "Thời gian bảo hành của Laptop NovaBook Air 14 là mấy tháng?",
+    "answer": "Laptop NovaBook Air 14 được bảo hành 24 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-001",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0013",
+    "intent": "product_warranty",
+    "question": "Mua Laptop NovaBook Air 14 thì được bảo hành như thế nào?",
+    "answer": "Laptop NovaBook Air 14 được bảo hành 24 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-001",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-001",
+      "product": "Laptop NovaBook Air 14",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0014",
+    "intent": "product_price",
+    "question": "Laptop GamePro 15 giá bao nhiêu?",
+    "answer": "Laptop GamePro 15 hiện có giá niêm yết 24.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0015",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Laptop GamePro 15 với",
+    "answer": "Laptop GamePro 15 hiện có giá niêm yết 24.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0016",
+    "intent": "product_price",
+    "question": "Laptop GamePro 15 hiện đang bán giá nào?",
+    "answer": "Laptop GamePro 15 hiện có giá niêm yết 24.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0017",
+    "intent": "product_price",
+    "question": "Sản phẩm Laptop GamePro 15 bao nhiêu tiền?",
+    "answer": "Laptop GamePro 15 hiện có giá niêm yết 24.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0018",
+    "intent": "product_price",
+    "question": "Báo giá giúp mình Laptop GamePro 15",
+    "answer": "Laptop GamePro 15 hiện có giá niêm yết 24.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0019",
+    "intent": "product_info",
+    "question": "Laptop GamePro 15 cấu hình thế nào?",
+    "answer": "Laptop GamePro 15 có thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Sản phẩm phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0020",
+    "intent": "product_info",
+    "question": "Thông số chính của Laptop GamePro 15 là gì?",
+    "answer": "Laptop GamePro 15 có thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Sản phẩm phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0021",
+    "intent": "product_info",
+    "question": "Laptop GamePro 15 có điểm gì nổi bật?",
+    "answer": "Laptop GamePro 15 có thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Sản phẩm phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0022",
+    "intent": "product_info",
+    "question": "Mô tả nhanh giúp mình Laptop GamePro 15",
+    "answer": "Laptop GamePro 15 có thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Sản phẩm phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0023",
+    "intent": "product_info",
+    "question": "Laptop GamePro 15 phù hợp với nhu cầu nào?",
+    "answer": "Laptop GamePro 15 có thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Sản phẩm phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật.",
+    "source_ids": [
+      "TC-LT-002"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0024",
+    "intent": "product_warranty",
+    "question": "Laptop GamePro 15 bảo hành bao lâu?",
+    "answer": "Laptop GamePro 15 được bảo hành 24 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-002",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0025",
+    "intent": "product_warranty",
+    "question": "Thời gian bảo hành của Laptop GamePro 15 là mấy tháng?",
+    "answer": "Laptop GamePro 15 được bảo hành 24 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-002",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0026",
+    "intent": "product_warranty",
+    "question": "Mua Laptop GamePro 15 thì được bảo hành như thế nào?",
+    "answer": "Laptop GamePro 15 được bảo hành 24 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-002",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-002",
+      "product": "Laptop GamePro 15",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0027",
+    "intent": "product_price",
+    "question": "Laptop EduBook 13 giá bao nhiêu?",
+    "answer": "Laptop EduBook 13 hiện có giá niêm yết 9.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0028",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Laptop EduBook 13 với",
+    "answer": "Laptop EduBook 13 hiện có giá niêm yết 9.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0029",
+    "intent": "product_price",
+    "question": "Laptop EduBook 13 hiện đang bán giá nào?",
+    "answer": "Laptop EduBook 13 hiện có giá niêm yết 9.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0030",
+    "intent": "product_price",
+    "question": "Sản phẩm Laptop EduBook 13 bao nhiêu tiền?",
+    "answer": "Laptop EduBook 13 hiện có giá niêm yết 9.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0031",
+    "intent": "product_price",
+    "question": "Báo giá giúp mình Laptop EduBook 13",
+    "answer": "Laptop EduBook 13 hiện có giá niêm yết 9.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0032",
+    "intent": "product_info",
+    "question": "Laptop EduBook 13 cấu hình thế nào?",
+    "answer": "Laptop EduBook 13 có thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Sản phẩm phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0033",
+    "intent": "product_info",
+    "question": "Thông số chính của Laptop EduBook 13 là gì?",
+    "answer": "Laptop EduBook 13 có thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Sản phẩm phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0034",
+    "intent": "product_info",
+    "question": "Laptop EduBook 13 có điểm gì nổi bật?",
+    "answer": "Laptop EduBook 13 có thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Sản phẩm phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0035",
+    "intent": "product_info",
+    "question": "Mô tả nhanh giúp mình Laptop EduBook 13",
+    "answer": "Laptop EduBook 13 có thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Sản phẩm phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0036",
+    "intent": "product_info",
+    "question": "Laptop EduBook 13 phù hợp với nhu cầu nào?",
+    "answer": "Laptop EduBook 13 có thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Sản phẩm phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản.",
+    "source_ids": [
+      "TC-LT-003"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0037",
+    "intent": "product_warranty",
+    "question": "Laptop EduBook 13 bảo hành bao lâu?",
+    "answer": "Laptop EduBook 13 được bảo hành 18 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-003",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0038",
+    "intent": "product_warranty",
+    "question": "Thời gian bảo hành của Laptop EduBook 13 là mấy tháng?",
+    "answer": "Laptop EduBook 13 được bảo hành 18 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-003",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0039",
+    "intent": "product_warranty",
+    "question": "Mua Laptop EduBook 13 thì được bảo hành như thế nào?",
+    "answer": "Laptop EduBook 13 được bảo hành 18 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-LT-003",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-LT-003",
+      "product": "Laptop EduBook 13",
+      "category": "laptop"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0040",
+    "intent": "product_price",
+    "question": "Điện thoại PixelOne A55 giá bao nhiêu?",
+    "answer": "Điện thoại PixelOne A55 hiện có giá niêm yết 7.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0041",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Điện thoại PixelOne A55 với",
+    "answer": "Điện thoại PixelOne A55 hiện có giá niêm yết 7.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0042",
+    "intent": "product_price",
+    "question": "Điện thoại PixelOne A55 hiện đang bán giá nào?",
+    "answer": "Điện thoại PixelOne A55 hiện có giá niêm yết 7.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0043",
+    "intent": "product_price",
+    "question": "Sản phẩm Điện thoại PixelOne A55 bao nhiêu tiền?",
+    "answer": "Điện thoại PixelOne A55 hiện có giá niêm yết 7.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0044",
+    "intent": "product_price",
+    "question": "Báo giá giúp mình Điện thoại PixelOne A55",
+    "answer": "Điện thoại PixelOne A55 hiện có giá niêm yết 7.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0045",
+    "intent": "product_info",
+    "question": "Điện thoại PixelOne A55 cấu hình thế nào?",
+    "answer": "Điện thoại PixelOne A55 có thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Sản phẩm phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0046",
+    "intent": "product_info",
+    "question": "Thông số chính của Điện thoại PixelOne A55 là gì?",
+    "answer": "Điện thoại PixelOne A55 có thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Sản phẩm phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0047",
+    "intent": "product_info",
+    "question": "Điện thoại PixelOne A55 có điểm gì nổi bật?",
+    "answer": "Điện thoại PixelOne A55 có thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Sản phẩm phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0048",
+    "intent": "product_info",
+    "question": "Mô tả nhanh giúp mình Điện thoại PixelOne A55",
+    "answer": "Điện thoại PixelOne A55 có thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Sản phẩm phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0049",
+    "intent": "product_info",
+    "question": "Điện thoại PixelOne A55 phù hợp với nhu cầu nào?",
+    "answer": "Điện thoại PixelOne A55 có thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Sản phẩm phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ.",
+    "source_ids": [
+      "TC-PH-004"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0050",
+    "intent": "product_warranty",
+    "question": "Điện thoại PixelOne A55 bảo hành bao lâu?",
+    "answer": "Điện thoại PixelOne A55 được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-PH-004",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0051",
+    "intent": "product_warranty",
+    "question": "Thời gian bảo hành của Điện thoại PixelOne A55 là mấy tháng?",
+    "answer": "Điện thoại PixelOne A55 được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-PH-004",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0052",
+    "intent": "product_warranty",
+    "question": "Mua Điện thoại PixelOne A55 thì được bảo hành như thế nào?",
+    "answer": "Điện thoại PixelOne A55 được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-PH-004",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-004",
+      "product": "Điện thoại PixelOne A55",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0053",
+    "intent": "product_price",
+    "question": "Điện thoại PixelOne Pro X giá bao nhiêu?",
+    "answer": "Điện thoại PixelOne Pro X hiện có giá niêm yết 15.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0054",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Điện thoại PixelOne Pro X với",
+    "answer": "Điện thoại PixelOne Pro X hiện có giá niêm yết 15.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0055",
+    "intent": "product_price",
+    "question": "Điện thoại PixelOne Pro X hiện đang bán giá nào?",
+    "answer": "Điện thoại PixelOne Pro X hiện có giá niêm yết 15.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0056",
+    "intent": "product_price",
+    "question": "Sản phẩm Điện thoại PixelOne Pro X bao nhiêu tiền?",
+    "answer": "Điện thoại PixelOne Pro X hiện có giá niêm yết 15.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0057",
+    "intent": "product_price",
+    "question": "Báo giá giúp mình Điện thoại PixelOne Pro X",
+    "answer": "Điện thoại PixelOne Pro X hiện có giá niêm yết 15.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0058",
+    "intent": "product_info",
+    "question": "Điện thoại PixelOne Pro X cấu hình thế nào?",
+    "answer": "Điện thoại PixelOne Pro X có thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Sản phẩm phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0059",
+    "intent": "product_info",
+    "question": "Thông số chính của Điện thoại PixelOne Pro X là gì?",
+    "answer": "Điện thoại PixelOne Pro X có thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Sản phẩm phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0060",
+    "intent": "product_info",
+    "question": "Điện thoại PixelOne Pro X có điểm gì nổi bật?",
+    "answer": "Điện thoại PixelOne Pro X có thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Sản phẩm phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0061",
+    "intent": "product_info",
+    "question": "Mô tả nhanh giúp mình Điện thoại PixelOne Pro X",
+    "answer": "Điện thoại PixelOne Pro X có thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Sản phẩm phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0062",
+    "intent": "product_info",
+    "question": "Điện thoại PixelOne Pro X phù hợp với nhu cầu nào?",
+    "answer": "Điện thoại PixelOne Pro X có thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Sản phẩm phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài.",
+    "source_ids": [
+      "TC-PH-005"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0063",
+    "intent": "product_warranty",
+    "question": "Điện thoại PixelOne Pro X bảo hành bao lâu?",
+    "answer": "Điện thoại PixelOne Pro X được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-PH-005",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0064",
+    "intent": "product_warranty",
+    "question": "Thời gian bảo hành của Điện thoại PixelOne Pro X là mấy tháng?",
+    "answer": "Điện thoại PixelOne Pro X được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-PH-005",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0065",
+    "intent": "product_warranty",
+    "question": "Mua Điện thoại PixelOne Pro X thì được bảo hành như thế nào?",
+    "answer": "Điện thoại PixelOne Pro X được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-PH-005",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-PH-005",
+      "product": "Điện thoại PixelOne Pro X",
+      "category": "điện thoại"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0066",
+    "intent": "product_price",
+    "question": "Máy tính bảng TabLearn 11 giá bao nhiêu?",
+    "answer": "Máy tính bảng TabLearn 11 hiện có giá niêm yết 8.490.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0067",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Máy tính bảng TabLearn 11 với",
+    "answer": "Máy tính bảng TabLearn 11 hiện có giá niêm yết 8.490.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0068",
+    "intent": "product_price",
+    "question": "Máy tính bảng TabLearn 11 hiện đang bán giá nào?",
+    "answer": "Máy tính bảng TabLearn 11 hiện có giá niêm yết 8.490.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0069",
+    "intent": "product_price",
+    "question": "Sản phẩm Máy tính bảng TabLearn 11 bao nhiêu tiền?",
+    "answer": "Máy tính bảng TabLearn 11 hiện có giá niêm yết 8.490.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0070",
+    "intent": "product_price",
+    "question": "Báo giá giúp mình Máy tính bảng TabLearn 11",
+    "answer": "Máy tính bảng TabLearn 11 hiện có giá niêm yết 8.490.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0071",
+    "intent": "product_info",
+    "question": "Máy tính bảng TabLearn 11 cấu hình thế nào?",
+    "answer": "Máy tính bảng TabLearn 11 có thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Sản phẩm phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0072",
+    "intent": "product_info",
+    "question": "Thông số chính của Máy tính bảng TabLearn 11 là gì?",
+    "answer": "Máy tính bảng TabLearn 11 có thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Sản phẩm phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0073",
+    "intent": "product_info",
+    "question": "Máy tính bảng TabLearn 11 có điểm gì nổi bật?",
+    "answer": "Máy tính bảng TabLearn 11 có thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Sản phẩm phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0074",
+    "intent": "product_info",
+    "question": "Mô tả nhanh giúp mình Máy tính bảng TabLearn 11",
+    "answer": "Máy tính bảng TabLearn 11 có thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Sản phẩm phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0075",
+    "intent": "product_info",
+    "question": "Máy tính bảng TabLearn 11 phù hợp với nhu cầu nào?",
+    "answer": "Máy tính bảng TabLearn 11 có thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Sản phẩm phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ.",
+    "source_ids": [
+      "TC-TB-006"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0076",
+    "intent": "product_warranty",
+    "question": "Máy tính bảng TabLearn 11 bảo hành bao lâu?",
+    "answer": "Máy tính bảng TabLearn 11 được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-TB-006",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0077",
+    "intent": "product_warranty",
+    "question": "Thời gian bảo hành của Máy tính bảng TabLearn 11 là mấy tháng?",
+    "answer": "Máy tính bảng TabLearn 11 được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-TB-006",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0078",
+    "intent": "product_warranty",
+    "question": "Mua Máy tính bảng TabLearn 11 thì được bảo hành như thế nào?",
+    "answer": "Máy tính bảng TabLearn 11 được bảo hành 12 tháng. Nếu cần bảo hành, bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, mô tả lỗi và hình ảnh/video nếu có.",
+    "source_ids": [
+      "TC-TB-006",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-TB-006",
+      "product": "Máy tính bảng TabLearn 11",
+      "category": "máy tính bảng"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0079",
+    "intent": "product_price",
+    "question": "Tai nghe SonicBuds Pro giá bao nhiêu?",
+    "answer": "Tai nghe SonicBuds Pro hiện có giá niêm yết 1.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-HP-007"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-HP-007",
+      "product": "Tai nghe SonicBuds Pro",
+      "category": "tai nghe"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0080",
+    "intent": "product_price",
+    "question": "Cho mình hỏi giá Tai nghe SonicBuds Pro với",
+    "answer": "Tai nghe SonicBuds Pro hiện có giá niêm yết 1.990.000 VND. Giá thực tế có thể thay đổi nếu áp dụng voucher hoặc chương trình khuyến mãi.",
+    "source_ids": [
+      "TC-HP-007"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "sku": "TC-HP-007",
+      "product": "Tai nghe SonicBuds Pro",
+      "category": "tai nghe"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0164",
+    "intent": "order_lookup",
+    "question": "Đơn TCDH1001 đang ở đâu?",
+    "answer": "Mã đơn TCDH1001 hiện đã giao thành công ngày 05/07/2026, gồm 1 Laptop NovaBook Air 14 màu bạc.",
+    "source_ids": [
+      "order_TCDH1001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1001"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0165",
+    "intent": "order_lookup",
+    "question": "Kiểm tra giúp mình đơn hàng TCDH1001",
+    "answer": "Mã đơn TCDH1001 hiện đã giao thành công ngày 05/07/2026, gồm 1 Laptop NovaBook Air 14 màu bạc.",
+    "source_ids": [
+      "order_TCDH1001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1001"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0166",
+    "intent": "order_lookup",
+    "question": "Tình trạng đơn TCDH1001 thế nào?",
+    "answer": "Mã đơn TCDH1001 hiện đã giao thành công ngày 05/07/2026, gồm 1 Laptop NovaBook Air 14 màu bạc.",
+    "source_ids": [
+      "order_TCDH1001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1001"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0167",
+    "intent": "order_lookup",
+    "question": "Đơn hàng TCDH1001 giao chưa?",
+    "answer": "Mã đơn TCDH1001 hiện đã giao thành công ngày 05/07/2026, gồm 1 Laptop NovaBook Air 14 màu bạc.",
+    "source_ids": [
+      "order_TCDH1001"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1001"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0168",
+    "intent": "order_lookup",
+    "question": "Đơn TCDH1007 đang ở đâu?",
+    "answer": "Mã đơn TCDH1007 hiện đang vận chuyển, dự kiến giao trong ngày 07/07/2026, gồm 1 Tai nghe SonicBuds Pro màu đen.",
+    "source_ids": [
+      "order_TCDH1007"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1007"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0169",
+    "intent": "order_lookup",
+    "question": "Kiểm tra giúp mình đơn hàng TCDH1007",
+    "answer": "Mã đơn TCDH1007 hiện đang vận chuyển, dự kiến giao trong ngày 07/07/2026, gồm 1 Tai nghe SonicBuds Pro màu đen.",
+    "source_ids": [
+      "order_TCDH1007"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1007"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0170",
+    "intent": "order_lookup",
+    "question": "Tình trạng đơn TCDH1007 thế nào?",
+    "answer": "Mã đơn TCDH1007 hiện đang vận chuyển, dự kiến giao trong ngày 07/07/2026, gồm 1 Tai nghe SonicBuds Pro màu đen.",
+    "source_ids": [
+      "order_TCDH1007"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1007"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0171",
+    "intent": "order_lookup",
+    "question": "Đơn hàng TCDH1007 giao chưa?",
+    "answer": "Mã đơn TCDH1007 hiện đang vận chuyển, dự kiến giao trong ngày 07/07/2026, gồm 1 Tai nghe SonicBuds Pro màu đen.",
+    "source_ids": [
+      "order_TCDH1007"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1007"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0172",
+    "intent": "order_lookup",
+    "question": "Đơn TCDH1012 đang ở đâu?",
+    "answer": "Mã đơn TCDH1012 hiện đang chờ xác nhận thanh toán online, nhân viên cần kiểm tra giao dịch trước khi đóng gói, gồm 1 Điện thoại PixelOne Pro X màu xanh.",
+    "source_ids": [
+      "order_TCDH1012"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1012"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0173",
+    "intent": "order_lookup",
+    "question": "Kiểm tra giúp mình đơn hàng TCDH1012",
+    "answer": "Mã đơn TCDH1012 hiện đang chờ xác nhận thanh toán online, nhân viên cần kiểm tra giao dịch trước khi đóng gói, gồm 1 Điện thoại PixelOne Pro X màu xanh.",
+    "source_ids": [
+      "order_TCDH1012"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1012"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0174",
+    "intent": "order_lookup",
+    "question": "Tình trạng đơn TCDH1012 thế nào?",
+    "answer": "Mã đơn TCDH1012 hiện đang chờ xác nhận thanh toán online, nhân viên cần kiểm tra giao dịch trước khi đóng gói, gồm 1 Điện thoại PixelOne Pro X màu xanh.",
+    "source_ids": [
+      "order_TCDH1012"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1012"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0175",
+    "intent": "order_lookup",
+    "question": "Đơn hàng TCDH1012 giao chưa?",
+    "answer": "Mã đơn TCDH1012 hiện đang chờ xác nhận thanh toán online, nhân viên cần kiểm tra giao dịch trước khi đóng gói, gồm 1 Điện thoại PixelOne Pro X màu xanh.",
+    "source_ids": [
+      "order_TCDH1012"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1012"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0176",
+    "intent": "order_lookup",
+    "question": "Đơn TCDH1020 đang ở đâu?",
+    "answer": "Mã đơn TCDH1020 hiện đang đóng gói tại kho TP.HCM, gồm 1 Sạc dự phòng VoltPack 20K.",
+    "source_ids": [
+      "order_TCDH1020"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1020"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0177",
+    "intent": "order_lookup",
+    "question": "Kiểm tra giúp mình đơn hàng TCDH1020",
+    "answer": "Mã đơn TCDH1020 hiện đang đóng gói tại kho TP.HCM, gồm 1 Sạc dự phòng VoltPack 20K.",
+    "source_ids": [
+      "order_TCDH1020"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1020"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0178",
+    "intent": "order_lookup",
+    "question": "Tình trạng đơn TCDH1020 thế nào?",
+    "answer": "Mã đơn TCDH1020 hiện đang đóng gói tại kho TP.HCM, gồm 1 Sạc dự phòng VoltPack 20K.",
+    "source_ids": [
+      "order_TCDH1020"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1020"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0179",
+    "intent": "order_lookup",
+    "question": "Đơn hàng TCDH1020 giao chưa?",
+    "answer": "Mã đơn TCDH1020 hiện đang đóng gói tại kho TP.HCM, gồm 1 Sạc dự phòng VoltPack 20K.",
+    "source_ids": [
+      "order_TCDH1020"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1020"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0180",
+    "intent": "order_lookup",
+    "question": "Đơn TCDH1028 đang ở đâu?",
+    "answer": "Mã đơn TCDH1028 hiện giao không thành công lần 1 vì không liên hệ được người nhận, gồm 1 Máy tính bảng TabLearn 11.",
+    "source_ids": [
+      "order_TCDH1028"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1028"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0181",
+    "intent": "order_lookup",
+    "question": "Kiểm tra giúp mình đơn hàng TCDH1028",
+    "answer": "Mã đơn TCDH1028 hiện giao không thành công lần 1 vì không liên hệ được người nhận, gồm 1 Máy tính bảng TabLearn 11.",
+    "source_ids": [
+      "order_TCDH1028"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1028"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0182",
+    "intent": "order_lookup",
+    "question": "Tình trạng đơn TCDH1028 thế nào?",
+    "answer": "Mã đơn TCDH1028 hiện giao không thành công lần 1 vì không liên hệ được người nhận, gồm 1 Máy tính bảng TabLearn 11.",
+    "source_ids": [
+      "order_TCDH1028"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1028"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0183",
+    "intent": "order_lookup",
+    "question": "Đơn hàng TCDH1028 giao chưa?",
+    "answer": "Mã đơn TCDH1028 hiện giao không thành công lần 1 vì không liên hệ được người nhận, gồm 1 Máy tính bảng TabLearn 11.",
+    "source_ids": [
+      "order_TCDH1028"
+    ],
+    "language": "vi",
+    "requires_handoff": false,
+    "entities": {
+      "order_code": "TCDH1028"
+    },
+    "suggested_action": "answer",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0184",
+    "intent": "support_ticket",
+    "question": "Laptop của mình bị màn hình xanh thì làm sao?",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0185",
+    "intent": "support_ticket",
+    "question": "Máy mới mua bị nóng bất thường",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0186",
+    "intent": "support_ticket",
+    "question": "Điện thoại sạc không vào pin",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0187",
+    "intent": "support_ticket",
+    "question": "Tai nghe một bên không nghe được",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0188",
+    "intent": "support_ticket",
+    "question": "Laptop bị lỗi bàn phím sau vài ngày sử dụng",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0189",
+    "intent": "support_ticket",
+    "question": "Máy bị vô nước có được bảo hành không?",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0190",
+    "intent": "support_ticket",
+    "question": "Sản phẩm giao tới bị trầy xước",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0191",
+    "intent": "support_ticket",
+    "question": "Mình muốn hoàn tiền vì sản phẩm bị lỗi",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0192",
+    "intent": "support_ticket",
+    "question": "Đơn hàng giao sai sản phẩm",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0193",
+    "intent": "support_ticket",
+    "question": "Thanh toán rồi nhưng chưa thấy xác nhận đơn",
+    "answer": "Mình cần tạo ticket để nhân viên kiểm tra. Bạn vui lòng cung cấp họ tên, số điện thoại, mã đơn hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong 24 giờ làm việc.",
+    "source_ids": [
+      "policy_ticket",
+      "policy_warranty"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "technical_support"
+    },
+    "suggested_action": "create_ticket",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0194",
+    "intent": "fallback",
+    "question": "Shop có bán máy giặt không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0195",
+    "intent": "fallback",
+    "question": "TechCare có sửa tủ lạnh không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0196",
+    "intent": "fallback",
+    "question": "Có bán điều hòa không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0197",
+    "intent": "fallback",
+    "question": "Mình muốn mua xe máy điện",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0198",
+    "intent": "fallback",
+    "question": "Shop có bán bàn ghế gaming không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0199",
+    "intent": "fallback",
+    "question": "Có dịch vụ lắp camera tại nhà không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0200",
+    "intent": "fallback",
+    "question": "Có bán linh kiện mainboard rời không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0201",
+    "intent": "fallback",
+    "question": "Có nhận unlock điện thoại không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0202",
+    "intent": "fallback",
+    "question": "Có bán máy ảnh chuyên nghiệp không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  },
+  {
+    "id": "qa_0203",
+    "intent": "fallback",
+    "question": "Có thay pin laptop tại nhà không?",
+    "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn.",
+    "source_ids": [
+      "policy_ticket"
+    ],
+    "language": "vi",
+    "requires_handoff": true,
+    "entities": {
+      "topic": "out_of_scope"
+    },
+    "suggested_action": "handoff",
+    "channel": "website_chat"
+  }
+]

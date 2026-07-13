@@ -1,0 +1,501 @@
+﻿sku,intent,question,answer
+TCX-LT-001,product_price,NovaBook Air 14 Plus giá bao nhiêu?,NovaBook Air 14 Plus hiện có giá niêm yết 9.990.000 VND.
+TCX-LT-001,product_info,NovaBook Air 14 Plus có thông số gì nổi bật?,"NovaBook Air 14 Plus có thông số chính: Intel Core i5, RAM 16GB, SSD 512GB, màn hình 14 inch, pin 7-9 giờ."
+TCX-LT-001,product_recommendation,NovaBook Air 14 Plus phù hợp với nhu cầu nào?,"NovaBook Air 14 Plus phù hợp với nhu cầu: học tập, văn phòng, học online."
+TCX-LT-001,product_warranty,NovaBook Air 14 Plus bảo hành bao lâu?,NovaBook Air 14 Plus được bảo hành 24 tháng.
+TCX-LT-001,product_category,NovaBook Air 14 Plus thuộc nhóm sản phẩm nào?,NovaBook Air 14 Plus thuộc nhóm laptop.
+TCX-LT-002,product_price,NovaBook Pro 14 giá bao nhiêu?,NovaBook Pro 14 hiện có giá niêm yết 10.720.000 VND.
+TCX-LT-002,product_info,NovaBook Pro 14 có thông số gì nổi bật?,"NovaBook Pro 14 có thông số chính: Intel Core i7, RAM 16GB, SSD 1TB, màn hình 14 inch 2.5K."
+TCX-LT-002,product_recommendation,NovaBook Pro 14 phù hợp với nhu cầu nào?,"NovaBook Pro 14 phù hợp với nhu cầu: văn phòng cao cấp, lập trình, thiết kế nhẹ."
+TCX-LT-002,product_warranty,NovaBook Pro 14 bảo hành bao lâu?,NovaBook Pro 14 được bảo hành 24 tháng.
+TCX-LT-002,product_category,NovaBook Pro 14 thuộc nhóm sản phẩm nào?,NovaBook Pro 14 thuộc nhóm laptop.
+TCX-LT-003,product_price,EduBook 13 Lite giá bao nhiêu?,EduBook 13 Lite hiện có giá niêm yết 11.450.000 VND.
+TCX-LT-003,product_info,EduBook 13 Lite có thông số gì nổi bật?,"EduBook 13 Lite có thông số chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch."
+TCX-LT-003,product_recommendation,EduBook 13 Lite phù hợp với nhu cầu nào?,"EduBook 13 Lite phù hợp với nhu cầu: học sinh, sinh viên, tác vụ cơ bản."
+TCX-LT-003,product_warranty,EduBook 13 Lite bảo hành bao lâu?,EduBook 13 Lite được bảo hành 24 tháng.
+TCX-LT-003,product_category,EduBook 13 Lite thuộc nhóm sản phẩm nào?,EduBook 13 Lite thuộc nhóm laptop.
+TCX-LT-004,product_price,GamePro 15 Neo giá bao nhiêu?,GamePro 15 Neo hiện có giá niêm yết 12.180.000 VND.
+TCX-LT-004,product_info,GamePro 15 Neo có thông số gì nổi bật?,"GamePro 15 Neo có thông số chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 144Hz."
+TCX-LT-004,product_recommendation,GamePro 15 Neo phù hợp với nhu cầu nào?,"GamePro 15 Neo phù hợp với nhu cầu: chơi game, đồ họa, render video."
+TCX-LT-004,product_warranty,GamePro 15 Neo bảo hành bao lâu?,GamePro 15 Neo được bảo hành 24 tháng.
+TCX-LT-004,product_category,GamePro 15 Neo thuộc nhóm sản phẩm nào?,GamePro 15 Neo thuộc nhóm laptop.
+TCX-LT-005,product_price,GamePro 17 giá bao nhiêu?,GamePro 17 hiện có giá niêm yết 12.910.000 VND.
+TCX-LT-005,product_info,GamePro 17 có thông số gì nổi bật?,"GamePro 17 có thông số chính: Intel Core i7, RAM 32GB, SSD 1TB, GPU RTX 4070, màn hình 17 inch 165Hz."
+TCX-LT-005,product_recommendation,GamePro 17 phù hợp với nhu cầu nào?,"GamePro 17 phù hợp với nhu cầu: gaming nặng, dựng phim, 3D."
+TCX-LT-005,product_warranty,GamePro 17 bảo hành bao lâu?,GamePro 17 được bảo hành 24 tháng.
+TCX-LT-005,product_category,GamePro 17 thuộc nhóm sản phẩm nào?,GamePro 17 thuộc nhóm laptop.
+TCX-LT-006,product_price,WorkMate 15 giá bao nhiêu?,WorkMate 15 hiện có giá niêm yết 13.640.000 VND.
+TCX-LT-006,product_info,WorkMate 15 có thông số gì nổi bật?,"WorkMate 15 có thông số chính: Intel Core i5, RAM 16GB, SSD 512GB, màn hình 15.6 inch."
+TCX-LT-006,product_recommendation,WorkMate 15 phù hợp với nhu cầu nào?,"WorkMate 15 phù hợp với nhu cầu: kế toán, văn phòng, làm việc nhiều tab."
+TCX-LT-006,product_warranty,WorkMate 15 bảo hành bao lâu?,WorkMate 15 được bảo hành 24 tháng.
+TCX-LT-006,product_category,WorkMate 15 thuộc nhóm sản phẩm nào?,WorkMate 15 thuộc nhóm laptop.
+TCX-LT-007,product_price,CreatorBook 16 giá bao nhiêu?,CreatorBook 16 hiện có giá niêm yết 14.370.000 VND.
+TCX-LT-007,product_info,CreatorBook 16 có thông số gì nổi bật?,"CreatorBook 16 có thông số chính: AMD Ryzen 9, RAM 32GB, SSD 1TB, GPU RTX 4060, màn hình 16 inch 2.5K."
+TCX-LT-007,product_recommendation,CreatorBook 16 phù hợp với nhu cầu nào?,"CreatorBook 16 phù hợp với nhu cầu: thiết kế, edit video, sáng tạo nội dung."
+TCX-LT-007,product_warranty,CreatorBook 16 bảo hành bao lâu?,CreatorBook 16 được bảo hành 24 tháng.
+TCX-LT-007,product_category,CreatorBook 16 thuộc nhóm sản phẩm nào?,CreatorBook 16 thuộc nhóm laptop.
+TCX-LT-008,product_price,MiniBook Go 12 giá bao nhiêu?,MiniBook Go 12 hiện có giá niêm yết 15.100.000 VND.
+TCX-LT-008,product_info,MiniBook Go 12 có thông số gì nổi bật?,"MiniBook Go 12 có thông số chính: Intel N-series, RAM 8GB, SSD 256GB, màn hình 12 inch."
+TCX-LT-008,product_recommendation,MiniBook Go 12 phù hợp với nhu cầu nào?,"MiniBook Go 12 phù hợp với nhu cầu: mang đi học, ghi chú, làm việc nhẹ."
+TCX-LT-008,product_warranty,MiniBook Go 12 bảo hành bao lâu?,MiniBook Go 12 được bảo hành 24 tháng.
+TCX-LT-008,product_category,MiniBook Go 12 thuộc nhóm sản phẩm nào?,MiniBook Go 12 thuộc nhóm laptop.
+TCX-LT-009,product_price,UltraBook Flex 14 giá bao nhiêu?,UltraBook Flex 14 hiện có giá niêm yết 15.830.000 VND.
+TCX-LT-009,product_info,UltraBook Flex 14 có thông số gì nổi bật?,"UltraBook Flex 14 có thông số chính: Intel Core Ultra 5, RAM 16GB, SSD 512GB, màn hình cảm ứng gập 360 độ."
+TCX-LT-009,product_recommendation,UltraBook Flex 14 phù hợp với nhu cầu nào?,"UltraBook Flex 14 phù hợp với nhu cầu: thuyết trình, ghi chú, văn phòng linh hoạt."
+TCX-LT-009,product_warranty,UltraBook Flex 14 bảo hành bao lâu?,UltraBook Flex 14 được bảo hành 24 tháng.
+TCX-LT-009,product_category,UltraBook Flex 14 thuộc nhóm sản phẩm nào?,UltraBook Flex 14 thuộc nhóm laptop.
+TCX-LT-010,product_price,OfficeBook 15 Plus giá bao nhiêu?,OfficeBook 15 Plus hiện có giá niêm yết 16.560.000 VND.
+TCX-LT-010,product_info,OfficeBook 15 Plus có thông số gì nổi bật?,"OfficeBook 15 Plus có thông số chính: Intel Core i5, RAM 16GB, SSD 1TB, màn hình 15.6 inch."
+TCX-LT-010,product_recommendation,OfficeBook 15 Plus phù hợp với nhu cầu nào?,"OfficeBook 15 Plus phù hợp với nhu cầu: văn phòng, dữ liệu lớn, học tập."
+TCX-LT-010,product_warranty,OfficeBook 15 Plus bảo hành bao lâu?,OfficeBook 15 Plus được bảo hành 24 tháng.
+TCX-LT-010,product_category,OfficeBook 15 Plus thuộc nhóm sản phẩm nào?,OfficeBook 15 Plus thuộc nhóm laptop.
+TCX-PH-011,product_price,PixelOne A35 giá bao nhiêu?,PixelOne A35 hiện có giá niêm yết 3.990.000 VND.
+TCX-PH-011,product_info,PixelOne A35 có thông số gì nổi bật?,"PixelOne A35 có thông số chính: AMOLED 6.4 inch, RAM 6GB, bộ nhớ 128GB, pin 5000mAh."
+TCX-PH-011,product_recommendation,PixelOne A35 phù hợp với nhu cầu nào?,"PixelOne A35 phù hợp với nhu cầu: nghe gọi, mạng xã hội, xem phim."
+TCX-PH-011,product_warranty,PixelOne A35 bảo hành bao lâu?,PixelOne A35 được bảo hành 12 tháng.
+TCX-PH-011,product_category,PixelOne A35 thuộc nhóm sản phẩm nào?,PixelOne A35 thuộc nhóm điện thoại.
+TCX-PH-012,product_price,PixelOne A56 giá bao nhiêu?,PixelOne A56 hiện có giá niêm yết 4.720.000 VND.
+TCX-PH-012,product_info,PixelOne A56 có thông số gì nổi bật?,"PixelOne A56 có thông số chính: AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP."
+TCX-PH-012,product_recommendation,PixelOne A56 phù hợp với nhu cầu nào?,"PixelOne A56 phù hợp với nhu cầu: chụp ảnh, dùng hằng ngày, game nhẹ."
+TCX-PH-012,product_warranty,PixelOne A56 bảo hành bao lâu?,PixelOne A56 được bảo hành 12 tháng.
+TCX-PH-012,product_category,PixelOne A56 thuộc nhóm sản phẩm nào?,PixelOne A56 thuộc nhóm điện thoại.
+TCX-PH-013,product_price,PixelOne Pro X Max giá bao nhiêu?,PixelOne Pro X Max hiện có giá niêm yết 5.450.000 VND.
+TCX-PH-013,product_info,PixelOne Pro X Max có thông số gì nổi bật?,"PixelOne Pro X Max có thông số chính: OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP."
+TCX-PH-013,product_recommendation,PixelOne Pro X Max phù hợp với nhu cầu nào?,"PixelOne Pro X Max phù hợp với nhu cầu: camera tốt, hiệu năng cao."
+TCX-PH-013,product_warranty,PixelOne Pro X Max bảo hành bao lâu?,PixelOne Pro X Max được bảo hành 12 tháng.
+TCX-PH-013,product_category,PixelOne Pro X Max thuộc nhóm sản phẩm nào?,PixelOne Pro X Max thuộc nhóm điện thoại.
+TCX-PH-014,product_price,NovaPhone Lite giá bao nhiêu?,NovaPhone Lite hiện có giá niêm yết 6.180.000 VND.
+TCX-PH-014,product_info,NovaPhone Lite có thông số gì nổi bật?,"NovaPhone Lite có thông số chính: LCD 6.6 inch, RAM 4GB, bộ nhớ 64GB, pin 5000mAh."
+TCX-PH-014,product_recommendation,NovaPhone Lite phù hợp với nhu cầu nào?,NovaPhone Lite phù hợp với nhu cầu: ngân sách tiết kiệm.
+TCX-PH-014,product_warranty,NovaPhone Lite bảo hành bao lâu?,NovaPhone Lite được bảo hành 12 tháng.
+TCX-PH-014,product_category,NovaPhone Lite thuộc nhóm sản phẩm nào?,NovaPhone Lite thuộc nhóm điện thoại.
+TCX-PH-015,product_price,NovaPhone Max giá bao nhiêu?,NovaPhone Max hiện có giá niêm yết 6.910.000 VND.
+TCX-PH-015,product_info,NovaPhone Max có thông số gì nổi bật?,"NovaPhone Max có thông số chính: AMOLED 6.8 inch, RAM 8GB, bộ nhớ 256GB, pin 6000mAh."
+TCX-PH-015,product_recommendation,NovaPhone Max phù hợp với nhu cầu nào?,"NovaPhone Max phù hợp với nhu cầu: pin trâu, xem phim, giải trí."
+TCX-PH-015,product_warranty,NovaPhone Max bảo hành bao lâu?,NovaPhone Max được bảo hành 12 tháng.
+TCX-PH-015,product_category,NovaPhone Max thuộc nhóm sản phẩm nào?,NovaPhone Max thuộc nhóm điện thoại.
+TCX-PH-016,product_price,Camon V12 giá bao nhiêu?,Camon V12 hiện có giá niêm yết 7.640.000 VND.
+TCX-PH-016,product_info,Camon V12 có thông số gì nổi bật?,"Camon V12 có thông số chính: AMOLED 6.7 inch, RAM 8GB, camera selfie 32MP, camera sau 64MP."
+TCX-PH-016,product_recommendation,Camon V12 phù hợp với nhu cầu nào?,"Camon V12 phù hợp với nhu cầu: chụp ảnh, quay vlog cơ bản."
+TCX-PH-016,product_warranty,Camon V12 bảo hành bao lâu?,Camon V12 được bảo hành 12 tháng.
+TCX-PH-016,product_category,Camon V12 thuộc nhóm sản phẩm nào?,Camon V12 thuộc nhóm điện thoại.
+TCX-PH-017,product_price,RuggedPhone X1 giá bao nhiêu?,RuggedPhone X1 hiện có giá niêm yết 8.370.000 VND.
+TCX-PH-017,product_info,RuggedPhone X1 có thông số gì nổi bật?,"RuggedPhone X1 có thông số chính: màn hình 6.5 inch, pin 7000mAh, kháng nước bụi IP68."
+TCX-PH-017,product_recommendation,RuggedPhone X1 phù hợp với nhu cầu nào?,"RuggedPhone X1 phù hợp với nhu cầu: đi công trình, đi phượt."
+TCX-PH-017,product_warranty,RuggedPhone X1 bảo hành bao lâu?,RuggedPhone X1 được bảo hành 12 tháng.
+TCX-PH-017,product_category,RuggedPhone X1 thuộc nhóm sản phẩm nào?,RuggedPhone X1 thuộc nhóm điện thoại.
+TCX-PH-018,product_price,MiniPhone SE giá bao nhiêu?,MiniPhone SE hiện có giá niêm yết 9.100.000 VND.
+TCX-PH-018,product_info,MiniPhone SE có thông số gì nổi bật?,"MiniPhone SE có thông số chính: màn hình 5.8 inch, RAM 6GB, bộ nhớ 128GB."
+TCX-PH-018,product_recommendation,MiniPhone SE phù hợp với nhu cầu nào?,"MiniPhone SE phù hợp với nhu cầu: máy nhỏ gọn, dùng một tay."
+TCX-PH-018,product_warranty,MiniPhone SE bảo hành bao lâu?,MiniPhone SE được bảo hành 12 tháng.
+TCX-PH-018,product_category,MiniPhone SE thuộc nhóm sản phẩm nào?,MiniPhone SE thuộc nhóm điện thoại.
+TCX-PH-019,product_price,SpeedPhone G9 giá bao nhiêu?,SpeedPhone G9 hiện có giá niêm yết 9.830.000 VND.
+TCX-PH-019,product_info,SpeedPhone G9 có thông số gì nổi bật?,"SpeedPhone G9 có thông số chính: OLED 144Hz, RAM 12GB, chip hiệu năng cao, pin 5000mAh."
+TCX-PH-019,product_recommendation,SpeedPhone G9 phù hợp với nhu cầu nào?,SpeedPhone G9 phù hợp với nhu cầu: chơi game mobile.
+TCX-PH-019,product_warranty,SpeedPhone G9 bảo hành bao lâu?,SpeedPhone G9 được bảo hành 12 tháng.
+TCX-PH-019,product_category,SpeedPhone G9 thuộc nhóm sản phẩm nào?,SpeedPhone G9 thuộc nhóm điện thoại.
+TCX-PH-020,product_price,BusinessPhone M2 giá bao nhiêu?,BusinessPhone M2 hiện có giá niêm yết 10.560.000 VND.
+TCX-PH-020,product_info,BusinessPhone M2 có thông số gì nổi bật?,"BusinessPhone M2 có thông số chính: AMOLED 6.6 inch, RAM 8GB, bảo mật vân tay, pin 5000mAh."
+TCX-PH-020,product_recommendation,BusinessPhone M2 phù hợp với nhu cầu nào?,"BusinessPhone M2 phù hợp với nhu cầu: nhân viên văn phòng, công việc."
+TCX-PH-020,product_warranty,BusinessPhone M2 bảo hành bao lâu?,BusinessPhone M2 được bảo hành 12 tháng.
+TCX-PH-020,product_category,BusinessPhone M2 thuộc nhóm sản phẩm nào?,BusinessPhone M2 thuộc nhóm điện thoại.
+TCX-TB-021,product_price,TabLearn 11 Plus giá bao nhiêu?,TabLearn 11 Plus hiện có giá niêm yết 4.990.000 VND.
+TCX-TB-021,product_info,TabLearn 11 Plus có thông số gì nổi bật?,"TabLearn 11 Plus có thông số chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút."
+TCX-TB-021,product_recommendation,TabLearn 11 Plus phù hợp với nhu cầu nào?,"TabLearn 11 Plus phù hợp với nhu cầu: ghi chú, học online."
+TCX-TB-021,product_warranty,TabLearn 11 Plus bảo hành bao lâu?,TabLearn 11 Plus được bảo hành 12 tháng.
+TCX-TB-021,product_category,TabLearn 11 Plus thuộc nhóm sản phẩm nào?,TabLearn 11 Plus thuộc nhóm máy tính bảng.
+TCX-TB-022,product_price,TabLearn Mini 8 giá bao nhiêu?,TabLearn Mini 8 hiện có giá niêm yết 5.720.000 VND.
+TCX-TB-022,product_info,TabLearn Mini 8 có thông số gì nổi bật?,"TabLearn Mini 8 có thông số chính: màn hình 8.7 inch, RAM 4GB, bộ nhớ 64GB."
+TCX-TB-022,product_recommendation,TabLearn Mini 8 phù hợp với nhu cầu nào?,"TabLearn Mini 8 phù hợp với nhu cầu: đọc tài liệu, trẻ em học tập."
+TCX-TB-022,product_warranty,TabLearn Mini 8 bảo hành bao lâu?,TabLearn Mini 8 được bảo hành 12 tháng.
+TCX-TB-022,product_category,TabLearn Mini 8 thuộc nhóm sản phẩm nào?,TabLearn Mini 8 thuộc nhóm máy tính bảng.
+TCX-TB-023,product_price,TabPro 12 giá bao nhiêu?,TabPro 12 hiện có giá niêm yết 6.450.000 VND.
+TCX-TB-023,product_info,TabPro 12 có thông số gì nổi bật?,"TabPro 12 có thông số chính: màn hình 12.4 inch 2.5K, RAM 12GB, bộ nhớ 256GB."
+TCX-TB-023,product_recommendation,TabPro 12 phù hợp với nhu cầu nào?,"TabPro 12 phù hợp với nhu cầu: làm việc, vẽ, đa nhiệm."
+TCX-TB-023,product_warranty,TabPro 12 bảo hành bao lâu?,TabPro 12 được bảo hành 12 tháng.
+TCX-TB-023,product_category,TabPro 12 thuộc nhóm sản phẩm nào?,TabPro 12 thuộc nhóm máy tính bảng.
+TCX-TB-024,product_price,TabCinema 13 giá bao nhiêu?,TabCinema 13 hiện có giá niêm yết 7.180.000 VND.
+TCX-TB-024,product_info,TabCinema 13 có thông số gì nổi bật?,"TabCinema 13 có thông số chính: màn hình 13 inch, loa kép, pin 10000mAh."
+TCX-TB-024,product_recommendation,TabCinema 13 phù hợp với nhu cầu nào?,"TabCinema 13 phù hợp với nhu cầu: xem phim, giải trí."
+TCX-TB-024,product_warranty,TabCinema 13 bảo hành bao lâu?,TabCinema 13 được bảo hành 12 tháng.
+TCX-TB-024,product_category,TabCinema 13 thuộc nhóm sản phẩm nào?,TabCinema 13 thuộc nhóm máy tính bảng.
+TCX-TB-025,product_price,TabNote 10 giá bao nhiêu?,TabNote 10 hiện có giá niêm yết 7.910.000 VND.
+TCX-TB-025,product_info,TabNote 10 có thông số gì nổi bật?,"TabNote 10 có thông số chính: màn hình 10.5 inch, hỗ trợ bút, RAM 6GB."
+TCX-TB-025,product_recommendation,TabNote 10 phù hợp với nhu cầu nào?,"TabNote 10 phù hợp với nhu cầu: ghi chú, học tập."
+TCX-TB-025,product_warranty,TabNote 10 bảo hành bao lâu?,TabNote 10 được bảo hành 12 tháng.
+TCX-TB-025,product_category,TabNote 10 thuộc nhóm sản phẩm nào?,TabNote 10 thuộc nhóm máy tính bảng.
+TCX-TB-026,product_price,TabKids 9 giá bao nhiêu?,TabKids 9 hiện có giá niêm yết 8.640.000 VND.
+TCX-TB-026,product_info,TabKids 9 có thông số gì nổi bật?,"TabKids 9 có thông số chính: màn hình 9 inch, vỏ chống sốc, chế độ trẻ em."
+TCX-TB-026,product_recommendation,TabKids 9 phù hợp với nhu cầu nào?,TabKids 9 phù hợp với nhu cầu: học tập cho trẻ em.
+TCX-TB-026,product_warranty,TabKids 9 bảo hành bao lâu?,TabKids 9 được bảo hành 12 tháng.
+TCX-TB-026,product_category,TabKids 9 thuộc nhóm sản phẩm nào?,TabKids 9 thuộc nhóm máy tính bảng.
+TCX-TB-027,product_price,TabWork 11 LTE giá bao nhiêu?,TabWork 11 LTE hiện có giá niêm yết 9.370.000 VND.
+TCX-TB-027,product_info,TabWork 11 LTE có thông số gì nổi bật?,"TabWork 11 LTE có thông số chính: màn hình 11 inch, RAM 8GB, LTE, pin 8500mAh."
+TCX-TB-027,product_recommendation,TabWork 11 LTE phù hợp với nhu cầu nào?,TabWork 11 LTE phù hợp với nhu cầu: làm việc di động.
+TCX-TB-027,product_warranty,TabWork 11 LTE bảo hành bao lâu?,TabWork 11 LTE được bảo hành 12 tháng.
+TCX-TB-027,product_category,TabWork 11 LTE thuộc nhóm sản phẩm nào?,TabWork 11 LTE thuộc nhóm máy tính bảng.
+TCX-TB-028,product_price,TabSketch 12 giá bao nhiêu?,TabSketch 12 hiện có giá niêm yết 10.100.000 VND.
+TCX-TB-028,product_info,TabSketch 12 có thông số gì nổi bật?,"TabSketch 12 có thông số chính: màn hình 12 inch, bút cảm ứng lực nhấn."
+TCX-TB-028,product_recommendation,TabSketch 12 phù hợp với nhu cầu nào?,"TabSketch 12 phù hợp với nhu cầu: vẽ, thiết kế."
+TCX-TB-028,product_warranty,TabSketch 12 bảo hành bao lâu?,TabSketch 12 được bảo hành 12 tháng.
+TCX-TB-028,product_category,TabSketch 12 thuộc nhóm sản phẩm nào?,TabSketch 12 thuộc nhóm máy tính bảng.
+TCX-TB-029,product_price,TabLite 10 giá bao nhiêu?,TabLite 10 hiện có giá niêm yết 10.830.000 VND.
+TCX-TB-029,product_info,TabLite 10 có thông số gì nổi bật?,"TabLite 10 có thông số chính: màn hình 10 inch, RAM 4GB, bộ nhớ 64GB."
+TCX-TB-029,product_recommendation,TabLite 10 phù hợp với nhu cầu nào?,TabLite 10 phù hợp với nhu cầu: nhu cầu cơ bản.
+TCX-TB-029,product_warranty,TabLite 10 bảo hành bao lâu?,TabLite 10 được bảo hành 12 tháng.
+TCX-TB-029,product_category,TabLite 10 thuộc nhóm sản phẩm nào?,TabLite 10 thuộc nhóm máy tính bảng.
+TCX-TB-030,product_price,TabMax 14 giá bao nhiêu?,TabMax 14 hiện có giá niêm yết 11.560.000 VND.
+TCX-TB-030,product_info,TabMax 14 có thông số gì nổi bật?,"TabMax 14 có thông số chính: màn hình 14 inch, RAM 12GB, bộ nhớ 512GB."
+TCX-TB-030,product_recommendation,TabMax 14 phù hợp với nhu cầu nào?,"TabMax 14 phù hợp với nhu cầu: đa nhiệm, thay laptop nhẹ."
+TCX-TB-030,product_warranty,TabMax 14 bảo hành bao lâu?,TabMax 14 được bảo hành 12 tháng.
+TCX-TB-030,product_category,TabMax 14 thuộc nhóm sản phẩm nào?,TabMax 14 thuộc nhóm máy tính bảng.
+TCX-HP-031,product_price,SonicBuds Pro 2 giá bao nhiêu?,SonicBuds Pro 2 hiện có giá niêm yết 390.000 VND.
+TCX-HP-031,product_info,SonicBuds Pro 2 có thông số gì nổi bật?,"SonicBuds Pro 2 có thông số chính: true wireless, ANC, xuyên âm, IPX4, pin 28 giờ với hộp sạc."
+TCX-HP-031,product_recommendation,SonicBuds Pro 2 phù hợp với nhu cầu nào?,"SonicBuds Pro 2 phù hợp với nhu cầu: học online, làm việc, di chuyển."
+TCX-HP-031,product_warranty,SonicBuds Pro 2 bảo hành bao lâu?,SonicBuds Pro 2 được bảo hành 12 tháng.
+TCX-HP-031,product_category,SonicBuds Pro 2 thuộc nhóm sản phẩm nào?,SonicBuds Pro 2 thuộc nhóm tai nghe.
+TCX-HP-032,product_price,SonicBuds Lite 2 giá bao nhiêu?,SonicBuds Lite 2 hiện có giá niêm yết 1.120.000 VND.
+TCX-HP-032,product_info,SonicBuds Lite 2 có thông số gì nổi bật?,"SonicBuds Lite 2 có thông số chính: true wireless, mic đàm thoại, IPX4, pin 20 giờ."
+TCX-HP-032,product_recommendation,SonicBuds Lite 2 phù hợp với nhu cầu nào?,SonicBuds Lite 2 phù hợp với nhu cầu: nghe gọi cơ bản.
+TCX-HP-032,product_warranty,SonicBuds Lite 2 bảo hành bao lâu?,SonicBuds Lite 2 được bảo hành 12 tháng.
+TCX-HP-032,product_category,SonicBuds Lite 2 thuộc nhóm sản phẩm nào?,SonicBuds Lite 2 thuộc nhóm tai nghe.
+TCX-HP-033,product_price,SonicBuds Sport giá bao nhiêu?,SonicBuds Sport hiện có giá niêm yết 1.850.000 VND.
+TCX-HP-033,product_info,SonicBuds Sport có thông số gì nổi bật?,"SonicBuds Sport có thông số chính: true wireless, móc tai thể thao, IPX5, pin 24 giờ."
+TCX-HP-033,product_recommendation,SonicBuds Sport phù hợp với nhu cầu nào?,"SonicBuds Sport phù hợp với nhu cầu: chạy bộ, tập gym."
+TCX-HP-033,product_warranty,SonicBuds Sport bảo hành bao lâu?,SonicBuds Sport được bảo hành 12 tháng.
+TCX-HP-033,product_category,SonicBuds Sport thuộc nhóm sản phẩm nào?,SonicBuds Sport thuộc nhóm tai nghe.
+TCX-HP-034,product_price,SoundMax ANC giá bao nhiêu?,SoundMax ANC hiện có giá niêm yết 2.580.000 VND.
+TCX-HP-034,product_info,SoundMax ANC có thông số gì nổi bật?,"SoundMax ANC có thông số chính: tai nghe chụp tai, ANC, pin 40 giờ."
+TCX-HP-034,product_recommendation,SoundMax ANC phù hợp với nhu cầu nào?,"SoundMax ANC phù hợp với nhu cầu: làm việc văn phòng, chống ồn."
+TCX-HP-034,product_warranty,SoundMax ANC bảo hành bao lâu?,SoundMax ANC được bảo hành 12 tháng.
+TCX-HP-034,product_category,SoundMax ANC thuộc nhóm sản phẩm nào?,SoundMax ANC thuộc nhóm tai nghe.
+TCX-HP-035,product_price,SoundMax Studio giá bao nhiêu?,SoundMax Studio hiện có giá niêm yết 3.310.000 VND.
+TCX-HP-035,product_info,SoundMax Studio có thông số gì nổi bật?,"SoundMax Studio có thông số chính: tai nghe chụp tai, âm thanh cân bằng, đệm tai êm."
+TCX-HP-035,product_recommendation,SoundMax Studio phù hợp với nhu cầu nào?,"SoundMax Studio phù hợp với nhu cầu: nghe nhạc, học online."
+TCX-HP-035,product_warranty,SoundMax Studio bảo hành bao lâu?,SoundMax Studio được bảo hành 12 tháng.
+TCX-HP-035,product_category,SoundMax Studio thuộc nhóm sản phẩm nào?,SoundMax Studio thuộc nhóm tai nghe.
+TCX-HP-036,product_price,CallMate 300 giá bao nhiêu?,CallMate 300 hiện có giá niêm yết 4.040.000 VND.
+TCX-HP-036,product_info,CallMate 300 có thông số gì nổi bật?,"CallMate 300 có thông số chính: tai nghe bluetooth một bên, mic lọc ồn."
+TCX-HP-036,product_recommendation,CallMate 300 phù hợp với nhu cầu nào?,"CallMate 300 phù hợp với nhu cầu: tài xế, telesales."
+TCX-HP-036,product_warranty,CallMate 300 bảo hành bao lâu?,CallMate 300 được bảo hành 12 tháng.
+TCX-HP-036,product_category,CallMate 300 thuộc nhóm sản phẩm nào?,CallMate 300 thuộc nhóm tai nghe.
+TCX-HP-037,product_price,GameHead X7 giá bao nhiêu?,GameHead X7 hiện có giá niêm yết 4.770.000 VND.
+TCX-HP-037,product_info,GameHead X7 có thông số gì nổi bật?,"GameHead X7 có thông số chính: tai nghe gaming, mic rời, âm thanh vòm giả lập."
+TCX-HP-037,product_recommendation,GameHead X7 phù hợp với nhu cầu nào?,GameHead X7 phù hợp với nhu cầu: chơi game.
+TCX-HP-037,product_warranty,GameHead X7 bảo hành bao lâu?,GameHead X7 được bảo hành 12 tháng.
+TCX-HP-037,product_category,GameHead X7 thuộc nhóm sản phẩm nào?,GameHead X7 thuộc nhóm tai nghe.
+TCX-HP-038,product_price,TypeC Ear Pro giá bao nhiêu?,TypeC Ear Pro hiện có giá niêm yết 5.500.000 VND.
+TCX-HP-038,product_info,TypeC Ear Pro có thông số gì nổi bật?,"TypeC Ear Pro có thông số chính: tai nghe có dây USB-C, mic đàm thoại."
+TCX-HP-038,product_recommendation,TypeC Ear Pro phù hợp với nhu cầu nào?,TypeC Ear Pro phù hợp với nhu cầu: điện thoại không cổng 3.5mm.
+TCX-HP-038,product_warranty,TypeC Ear Pro bảo hành bao lâu?,TypeC Ear Pro được bảo hành 12 tháng.
+TCX-HP-038,product_category,TypeC Ear Pro thuộc nhóm sản phẩm nào?,TypeC Ear Pro thuộc nhóm tai nghe.
+TCX-HP-039,product_price,Classic Ear 3.5 giá bao nhiêu?,Classic Ear 3.5 hiện có giá niêm yết 6.230.000 VND.
+TCX-HP-039,product_info,Classic Ear 3.5 có thông số gì nổi bật?,"Classic Ear 3.5 có thông số chính: tai nghe có dây 3.5mm, mic cơ bản."
+TCX-HP-039,product_recommendation,Classic Ear 3.5 phù hợp với nhu cầu nào?,Classic Ear 3.5 phù hợp với nhu cầu: nghe gọi tiết kiệm.
+TCX-HP-039,product_warranty,Classic Ear 3.5 bảo hành bao lâu?,Classic Ear 3.5 được bảo hành 12 tháng.
+TCX-HP-039,product_category,Classic Ear 3.5 thuộc nhóm sản phẩm nào?,Classic Ear 3.5 thuộc nhóm tai nghe.
+TCX-HP-040,product_price,SleepBuds Mini giá bao nhiêu?,SleepBuds Mini hiện có giá niêm yết 6.960.000 VND.
+TCX-HP-040,product_info,SleepBuds Mini có thông số gì nổi bật?,"SleepBuds Mini có thông số chính: tai nghe nhỏ gọn, âm lượng thấp, pin 10 giờ."
+TCX-HP-040,product_recommendation,SleepBuds Mini phù hợp với nhu cầu nào?,"SleepBuds Mini phù hợp với nhu cầu: nghe podcast, thư giãn."
+TCX-HP-040,product_warranty,SleepBuds Mini bảo hành bao lâu?,SleepBuds Mini được bảo hành 12 tháng.
+TCX-HP-040,product_category,SleepBuds Mini thuộc nhóm sản phẩm nào?,SleepBuds Mini thuộc nhóm tai nghe.
+TCX-WA-041,product_price,FitWatch S3 giá bao nhiêu?,FitWatch S3 hiện có giá niêm yết 790.000 VND.
+TCX-WA-041,product_info,FitWatch S3 có thông số gì nổi bật?,"FitWatch S3 có thông số chính: đo nhịp tim, SpO2, giấc ngủ, 100 chế độ tập, pin 7 ngày."
+TCX-WA-041,product_recommendation,FitWatch S3 phù hợp với nhu cầu nào?,FitWatch S3 phù hợp với nhu cầu: theo dõi sức khỏe.
+TCX-WA-041,product_warranty,FitWatch S3 bảo hành bao lâu?,FitWatch S3 được bảo hành 12 tháng.
+TCX-WA-041,product_category,FitWatch S3 thuộc nhóm sản phẩm nào?,FitWatch S3 thuộc nhóm đồng hồ thông minh.
+TCX-WA-042,product_price,FitWatch Mini giá bao nhiêu?,FitWatch Mini hiện có giá niêm yết 1.520.000 VND.
+TCX-WA-042,product_info,FitWatch Mini có thông số gì nổi bật?,"FitWatch Mini có thông số chính: màn hình nhỏ gọn, đo nhịp tim, pin 5 ngày."
+TCX-WA-042,product_recommendation,FitWatch Mini phù hợp với nhu cầu nào?,FitWatch Mini phù hợp với nhu cầu: người thích đồng hồ nhỏ.
+TCX-WA-042,product_warranty,FitWatch Mini bảo hành bao lâu?,FitWatch Mini được bảo hành 12 tháng.
+TCX-WA-042,product_category,FitWatch Mini thuộc nhóm sản phẩm nào?,FitWatch Mini thuộc nhóm đồng hồ thông minh.
+TCX-WA-043,product_price,FitWatch Pro giá bao nhiêu?,FitWatch Pro hiện có giá niêm yết 2.250.000 VND.
+TCX-WA-043,product_info,FitWatch Pro có thông số gì nổi bật?,"FitWatch Pro có thông số chính: GPS, SpO2, đo stress, pin 10 ngày."
+TCX-WA-043,product_recommendation,FitWatch Pro phù hợp với nhu cầu nào?,"FitWatch Pro phù hợp với nhu cầu: chạy bộ, luyện tập."
+TCX-WA-043,product_warranty,FitWatch Pro bảo hành bao lâu?,FitWatch Pro được bảo hành 12 tháng.
+TCX-WA-043,product_category,FitWatch Pro thuộc nhóm sản phẩm nào?,FitWatch Pro thuộc nhóm đồng hồ thông minh.
+TCX-WA-044,product_price,KidWatch 4G giá bao nhiêu?,KidWatch 4G hiện có giá niêm yết 2.980.000 VND.
+TCX-WA-044,product_info,KidWatch 4G có thông số gì nổi bật?,"KidWatch 4G có thông số chính: định vị GPS, gọi video, nút SOS."
+TCX-WA-044,product_recommendation,KidWatch 4G phù hợp với nhu cầu nào?,KidWatch 4G phù hợp với nhu cầu: trẻ em.
+TCX-WA-044,product_warranty,KidWatch 4G bảo hành bao lâu?,KidWatch 4G được bảo hành 12 tháng.
+TCX-WA-044,product_category,KidWatch 4G thuộc nhóm sản phẩm nào?,KidWatch 4G thuộc nhóm đồng hồ thông minh.
+TCX-WA-045,product_price,BusinessWatch M1 giá bao nhiêu?,BusinessWatch M1 hiện có giá niêm yết 3.710.000 VND.
+TCX-WA-045,product_info,BusinessWatch M1 có thông số gì nổi bật?,"BusinessWatch M1 có thông số chính: màn hình AMOLED, nhận thông báo, pin 8 ngày."
+TCX-WA-045,product_recommendation,BusinessWatch M1 phù hợp với nhu cầu nào?,BusinessWatch M1 phù hợp với nhu cầu: nhân viên văn phòng.
+TCX-WA-045,product_warranty,BusinessWatch M1 bảo hành bao lâu?,BusinessWatch M1 được bảo hành 12 tháng.
+TCX-WA-045,product_category,BusinessWatch M1 thuộc nhóm sản phẩm nào?,BusinessWatch M1 thuộc nhóm đồng hồ thông minh.
+TCX-WA-046,product_price,SportWatch X giá bao nhiêu?,SportWatch X hiện có giá niêm yết 4.440.000 VND.
+TCX-WA-046,product_info,SportWatch X có thông số gì nổi bật?,"SportWatch X có thông số chính: chống nước 5ATM, GPS, 120 chế độ tập."
+TCX-WA-046,product_recommendation,SportWatch X phù hợp với nhu cầu nào?,SportWatch X phù hợp với nhu cầu: thể thao ngoài trời.
+TCX-WA-046,product_warranty,SportWatch X bảo hành bao lâu?,SportWatch X được bảo hành 12 tháng.
+TCX-WA-046,product_category,SportWatch X thuộc nhóm sản phẩm nào?,SportWatch X thuộc nhóm đồng hồ thông minh.
+TCX-WA-047,product_price,HealthBand 7 giá bao nhiêu?,HealthBand 7 hiện có giá niêm yết 5.170.000 VND.
+TCX-WA-047,product_info,HealthBand 7 có thông số gì nổi bật?,"HealthBand 7 có thông số chính: vòng đeo tay, đo nhịp tim, pin 14 ngày."
+TCX-WA-047,product_recommendation,HealthBand 7 phù hợp với nhu cầu nào?,HealthBand 7 phù hợp với nhu cầu: theo dõi sức khỏe giá tốt.
+TCX-WA-047,product_warranty,HealthBand 7 bảo hành bao lâu?,HealthBand 7 được bảo hành 12 tháng.
+TCX-WA-047,product_category,HealthBand 7 thuộc nhóm sản phẩm nào?,HealthBand 7 thuộc nhóm đồng hồ thông minh.
+TCX-WA-048,product_price,StyleWatch Rose giá bao nhiêu?,StyleWatch Rose hiện có giá niêm yết 5.900.000 VND.
+TCX-WA-048,product_info,StyleWatch Rose có thông số gì nổi bật?,"StyleWatch Rose có thông số chính: thiết kế mỏng, dây kim loại, AMOLED."
+TCX-WA-048,product_recommendation,StyleWatch Rose phù hợp với nhu cầu nào?,"StyleWatch Rose phù hợp với nhu cầu: thời trang, thông báo."
+TCX-WA-048,product_warranty,StyleWatch Rose bảo hành bao lâu?,StyleWatch Rose được bảo hành 12 tháng.
+TCX-WA-048,product_category,StyleWatch Rose thuộc nhóm sản phẩm nào?,StyleWatch Rose thuộc nhóm đồng hồ thông minh.
+TCX-WA-049,product_price,OutdoorWatch Trek giá bao nhiêu?,OutdoorWatch Trek hiện có giá niêm yết 6.630.000 VND.
+TCX-WA-049,product_info,OutdoorWatch Trek có thông số gì nổi bật?,"OutdoorWatch Trek có thông số chính: la bàn, cao áp kế, GPS, pin 15 ngày."
+TCX-WA-049,product_recommendation,OutdoorWatch Trek phù hợp với nhu cầu nào?,"OutdoorWatch Trek phù hợp với nhu cầu: leo núi, đi phượt."
+TCX-WA-049,product_warranty,OutdoorWatch Trek bảo hành bao lâu?,OutdoorWatch Trek được bảo hành 12 tháng.
+TCX-WA-049,product_category,OutdoorWatch Trek thuộc nhóm sản phẩm nào?,OutdoorWatch Trek thuộc nhóm đồng hồ thông minh.
+TCX-WA-050,product_price,FitWatch Lite giá bao nhiêu?,FitWatch Lite hiện có giá niêm yết 7.360.000 VND.
+TCX-WA-050,product_info,FitWatch Lite có thông số gì nổi bật?,"FitWatch Lite có thông số chính: đo bước chân, nhịp tim, thông báo, pin 7 ngày."
+TCX-WA-050,product_recommendation,FitWatch Lite phù hợp với nhu cầu nào?,FitWatch Lite phù hợp với nhu cầu: nhu cầu cơ bản.
+TCX-WA-050,product_warranty,FitWatch Lite bảo hành bao lâu?,FitWatch Lite được bảo hành 12 tháng.
+TCX-WA-050,product_category,FitWatch Lite thuộc nhóm sản phẩm nào?,FitWatch Lite thuộc nhóm đồng hồ thông minh.
+TCX-PB-051,product_price,VoltPack 10K giá bao nhiêu?,VoltPack 10K hiện có giá niêm yết 390.000 VND.
+TCX-PB-051,product_info,VoltPack 10K có thông số gì nổi bật?,"VoltPack 10K có thông số chính: 10.000mAh, sạc nhanh 18W, USB-C."
+TCX-PB-051,product_recommendation,VoltPack 10K phù hợp với nhu cầu nào?,VoltPack 10K phù hợp với nhu cầu: dùng hằng ngày.
+TCX-PB-051,product_warranty,VoltPack 10K bảo hành bao lâu?,VoltPack 10K được bảo hành 12 tháng.
+TCX-PB-051,product_category,VoltPack 10K thuộc nhóm sản phẩm nào?,VoltPack 10K thuộc nhóm sạc dự phòng.
+TCX-PB-052,product_price,VoltPack 20K Plus giá bao nhiêu?,VoltPack 20K Plus hiện có giá niêm yết 1.120.000 VND.
+TCX-PB-052,product_info,VoltPack 20K Plus có thông số gì nổi bật?,"VoltPack 20K Plus có thông số chính: 20.000mAh, USB-C PD 30W, sạc nhanh."
+TCX-PB-052,product_recommendation,VoltPack 20K Plus phù hợp với nhu cầu nào?,"VoltPack 20K Plus phù hợp với nhu cầu: đi học, đi làm, du lịch."
+TCX-PB-052,product_warranty,VoltPack 20K Plus bảo hành bao lâu?,VoltPack 20K Plus được bảo hành 12 tháng.
+TCX-PB-052,product_category,VoltPack 20K Plus thuộc nhóm sản phẩm nào?,VoltPack 20K Plus thuộc nhóm sạc dự phòng.
+TCX-PB-053,product_price,VoltPack 30K giá bao nhiêu?,VoltPack 30K hiện có giá niêm yết 1.850.000 VND.
+TCX-PB-053,product_info,VoltPack 30K có thông số gì nổi bật?,"VoltPack 30K có thông số chính: 30.000mAh, PD 45W, nhiều cổng sạc."
+TCX-PB-053,product_recommendation,VoltPack 30K phù hợp với nhu cầu nào?,VoltPack 30K phù hợp với nhu cầu: du lịch dài ngày.
+TCX-PB-053,product_warranty,VoltPack 30K bảo hành bao lâu?,VoltPack 30K được bảo hành 12 tháng.
+TCX-PB-053,product_category,VoltPack 30K thuộc nhóm sản phẩm nào?,VoltPack 30K thuộc nhóm sạc dự phòng.
+TCX-PB-054,product_price,SlimPack 5K giá bao nhiêu?,SlimPack 5K hiện có giá niêm yết 2.580.000 VND.
+TCX-PB-054,product_info,SlimPack 5K có thông số gì nổi bật?,"SlimPack 5K có thông số chính: 5.000mAh, mỏng nhẹ, USB-C."
+TCX-PB-054,product_recommendation,SlimPack 5K phù hợp với nhu cầu nào?,SlimPack 5K phù hợp với nhu cầu: mang túi nhỏ.
+TCX-PB-054,product_warranty,SlimPack 5K bảo hành bao lâu?,SlimPack 5K được bảo hành 12 tháng.
+TCX-PB-054,product_category,SlimPack 5K thuộc nhóm sản phẩm nào?,SlimPack 5K thuộc nhóm sạc dự phòng.
+TCX-PB-055,product_price,MagPack 10K giá bao nhiêu?,MagPack 10K hiện có giá niêm yết 3.310.000 VND.
+TCX-PB-055,product_info,MagPack 10K có thông số gì nổi bật?,"MagPack 10K có thông số chính: 10.000mAh, sạc không dây nam châm."
+TCX-PB-055,product_recommendation,MagPack 10K phù hợp với nhu cầu nào?,MagPack 10K phù hợp với nhu cầu: điện thoại hỗ trợ sạc nam châm.
+TCX-PB-055,product_warranty,MagPack 10K bảo hành bao lâu?,MagPack 10K được bảo hành 12 tháng.
+TCX-PB-055,product_category,MagPack 10K thuộc nhóm sản phẩm nào?,MagPack 10K thuộc nhóm sạc dự phòng.
+TCX-PB-056,product_price,LaptopPack 65W giá bao nhiêu?,LaptopPack 65W hiện có giá niêm yết 4.040.000 VND.
+TCX-PB-056,product_info,LaptopPack 65W có thông số gì nổi bật?,"LaptopPack 65W có thông số chính: 20.000mAh, PD 65W."
+TCX-PB-056,product_recommendation,LaptopPack 65W phù hợp với nhu cầu nào?,LaptopPack 65W phù hợp với nhu cầu: sạc laptop mỏng nhẹ.
+TCX-PB-056,product_warranty,LaptopPack 65W bảo hành bao lâu?,LaptopPack 65W được bảo hành 12 tháng.
+TCX-PB-056,product_category,LaptopPack 65W thuộc nhóm sản phẩm nào?,LaptopPack 65W thuộc nhóm sạc dự phòng.
+TCX-PB-057,product_price,TravelPack 20K giá bao nhiêu?,TravelPack 20K hiện có giá niêm yết 4.770.000 VND.
+TCX-PB-057,product_info,TravelPack 20K có thông số gì nổi bật?,"TravelPack 20K có thông số chính: 20.000mAh, tích hợp cáp USB-C và Lightning."
+TCX-PB-057,product_recommendation,TravelPack 20K phù hợp với nhu cầu nào?,TravelPack 20K phù hợp với nhu cầu: đi du lịch.
+TCX-PB-057,product_warranty,TravelPack 20K bảo hành bao lâu?,TravelPack 20K được bảo hành 12 tháng.
+TCX-PB-057,product_category,TravelPack 20K thuộc nhóm sản phẩm nào?,TravelPack 20K thuộc nhóm sạc dự phòng.
+TCX-PB-058,product_price,MiniPack 8K giá bao nhiêu?,MiniPack 8K hiện có giá niêm yết 5.500.000 VND.
+TCX-PB-058,product_info,MiniPack 8K có thông số gì nổi bật?,"MiniPack 8K có thông số chính: 8.000mAh, nhỏ gọn, 2 cổng ra."
+TCX-PB-058,product_recommendation,MiniPack 8K phù hợp với nhu cầu nào?,MiniPack 8K phù hợp với nhu cầu: dùng cơ bản.
+TCX-PB-058,product_warranty,MiniPack 8K bảo hành bao lâu?,MiniPack 8K được bảo hành 12 tháng.
+TCX-PB-058,product_category,MiniPack 8K thuộc nhóm sản phẩm nào?,MiniPack 8K thuộc nhóm sạc dự phòng.
+TCX-PB-059,product_price,SafePack 15K giá bao nhiêu?,SafePack 15K hiện có giá niêm yết 6.230.000 VND.
+TCX-PB-059,product_info,SafePack 15K có thông số gì nổi bật?,"SafePack 15K có thông số chính: 15.000mAh, bảo vệ quá nhiệt, màn hình LED."
+TCX-PB-059,product_recommendation,SafePack 15K phù hợp với nhu cầu nào?,SafePack 15K phù hợp với nhu cầu: an toàn khi sạc.
+TCX-PB-059,product_warranty,SafePack 15K bảo hành bao lâu?,SafePack 15K được bảo hành 12 tháng.
+TCX-PB-059,product_category,SafePack 15K thuộc nhóm sản phẩm nào?,SafePack 15K thuộc nhóm sạc dự phòng.
+TCX-PB-060,product_price,SolarPack 20K giá bao nhiêu?,SolarPack 20K hiện có giá niêm yết 6.960.000 VND.
+TCX-PB-060,product_info,SolarPack 20K có thông số gì nổi bật?,"SolarPack 20K có thông số chính: 20.000mAh, hỗ trợ sạc năng lượng mặt trời khẩn cấp."
+TCX-PB-060,product_recommendation,SolarPack 20K phù hợp với nhu cầu nào?,SolarPack 20K phù hợp với nhu cầu: dã ngoại.
+TCX-PB-060,product_warranty,SolarPack 20K bảo hành bao lâu?,SolarPack 20K được bảo hành 12 tháng.
+TCX-PB-060,product_category,SolarPack 20K thuộc nhóm sản phẩm nào?,SolarPack 20K thuộc nhóm sạc dự phòng.
+TCX-KB-061,product_price,KeyMate K1 giá bao nhiêu?,KeyMate K1 hiện có giá niêm yết 290.000 VND.
+TCX-KB-061,product_info,KeyMate K1 có thông số gì nổi bật?,"KeyMate K1 có thông số chính: bàn phím cơ 87 phím, switch red, LED trắng."
+TCX-KB-061,product_recommendation,KeyMate K1 phù hợp với nhu cầu nào?,"KeyMate K1 phù hợp với nhu cầu: gõ văn phòng, lập trình."
+TCX-KB-061,product_warranty,KeyMate K1 bảo hành bao lâu?,KeyMate K1 được bảo hành 12 tháng.
+TCX-KB-061,product_category,KeyMate K1 thuộc nhóm sản phẩm nào?,KeyMate K1 thuộc nhóm bàn phím.
+TCX-KB-062,product_price,KeyMate K2 RGB giá bao nhiêu?,KeyMate K2 RGB hiện có giá niêm yết 1.020.000 VND.
+TCX-KB-062,product_info,KeyMate K2 RGB có thông số gì nổi bật?,"KeyMate K2 RGB có thông số chính: bàn phím cơ 98 phím, RGB, hot-swap."
+TCX-KB-062,product_recommendation,KeyMate K2 RGB phù hợp với nhu cầu nào?,"KeyMate K2 RGB phù hợp với nhu cầu: gaming, làm việc."
+TCX-KB-062,product_warranty,KeyMate K2 RGB bảo hành bao lâu?,KeyMate K2 RGB được bảo hành 12 tháng.
+TCX-KB-062,product_category,KeyMate K2 RGB thuộc nhóm sản phẩm nào?,KeyMate K2 RGB thuộc nhóm bàn phím.
+TCX-KB-063,product_price,KeyMate Silent giá bao nhiêu?,KeyMate Silent hiện có giá niêm yết 1.750.000 VND.
+TCX-KB-063,product_info,KeyMate Silent có thông số gì nổi bật?,"KeyMate Silent có thông số chính: bàn phím low-profile, phím êm."
+TCX-KB-063,product_recommendation,KeyMate Silent phù hợp với nhu cầu nào?,KeyMate Silent phù hợp với nhu cầu: văn phòng yên tĩnh.
+TCX-KB-063,product_warranty,KeyMate Silent bảo hành bao lâu?,KeyMate Silent được bảo hành 12 tháng.
+TCX-KB-063,product_category,KeyMate Silent thuộc nhóm sản phẩm nào?,KeyMate Silent thuộc nhóm bàn phím.
+TCX-KB-064,product_price,KeyMate Mini 68 giá bao nhiêu?,KeyMate Mini 68 hiện có giá niêm yết 2.480.000 VND.
+TCX-KB-064,product_info,KeyMate Mini 68 có thông số gì nổi bật?,"KeyMate Mini 68 có thông số chính: bàn phím cơ 68 phím, bluetooth."
+TCX-KB-064,product_recommendation,KeyMate Mini 68 phù hợp với nhu cầu nào?,KeyMate Mini 68 phù hợp với nhu cầu: bàn làm việc nhỏ.
+TCX-KB-064,product_warranty,KeyMate Mini 68 bảo hành bao lâu?,KeyMate Mini 68 được bảo hành 12 tháng.
+TCX-KB-064,product_category,KeyMate Mini 68 thuộc nhóm sản phẩm nào?,KeyMate Mini 68 thuộc nhóm bàn phím.
+TCX-KB-065,product_price,OfficeKey 100 giá bao nhiêu?,OfficeKey 100 hiện có giá niêm yết 3.210.000 VND.
+TCX-KB-065,product_info,OfficeKey 100 có thông số gì nổi bật?,"OfficeKey 100 có thông số chính: bàn phím fullsize, phím mềm, chống nước nhẹ."
+TCX-KB-065,product_recommendation,OfficeKey 100 phù hợp với nhu cầu nào?,OfficeKey 100 phù hợp với nhu cầu: văn phòng.
+TCX-KB-065,product_warranty,OfficeKey 100 bảo hành bao lâu?,OfficeKey 100 được bảo hành 12 tháng.
+TCX-KB-065,product_category,OfficeKey 100 thuộc nhóm sản phẩm nào?,OfficeKey 100 thuộc nhóm bàn phím.
+TCX-KB-066,product_price,GameKey X5 giá bao nhiêu?,GameKey X5 hiện có giá niêm yết 3.940.000 VND.
+TCX-KB-066,product_info,GameKey X5 có thông số gì nổi bật?,"GameKey X5 có thông số chính: bàn phím gaming, RGB, macro."
+TCX-KB-066,product_recommendation,GameKey X5 phù hợp với nhu cầu nào?,GameKey X5 phù hợp với nhu cầu: chơi game.
+TCX-KB-066,product_warranty,GameKey X5 bảo hành bao lâu?,GameKey X5 được bảo hành 12 tháng.
+TCX-KB-066,product_category,GameKey X5 thuộc nhóm sản phẩm nào?,GameKey X5 thuộc nhóm bàn phím.
+TCX-KB-067,product_price,TypeMate Fold giá bao nhiêu?,TypeMate Fold hiện có giá niêm yết 4.670.000 VND.
+TCX-KB-067,product_info,TypeMate Fold có thông số gì nổi bật?,TypeMate Fold có thông số chính: bàn phím gập bluetooth.
+TCX-KB-067,product_recommendation,TypeMate Fold phù hợp với nhu cầu nào?,"TypeMate Fold phù hợp với nhu cầu: máy tính bảng, di chuyển."
+TCX-KB-067,product_warranty,TypeMate Fold bảo hành bao lâu?,TypeMate Fold được bảo hành 12 tháng.
+TCX-KB-067,product_category,TypeMate Fold thuộc nhóm sản phẩm nào?,TypeMate Fold thuộc nhóm bàn phím.
+TCX-KB-068,product_price,KeyMate Pro Aluminum giá bao nhiêu?,KeyMate Pro Aluminum hiện có giá niêm yết 5.400.000 VND.
+TCX-KB-068,product_info,KeyMate Pro Aluminum có thông số gì nổi bật?,"KeyMate Pro Aluminum có thông số chính: vỏ nhôm, gasket mount, hot-swap."
+TCX-KB-068,product_recommendation,KeyMate Pro Aluminum phù hợp với nhu cầu nào?,KeyMate Pro Aluminum phù hợp với nhu cầu: người thích custom.
+TCX-KB-068,product_warranty,KeyMate Pro Aluminum bảo hành bao lâu?,KeyMate Pro Aluminum được bảo hành 12 tháng.
+TCX-KB-068,product_category,KeyMate Pro Aluminum thuộc nhóm sản phẩm nào?,KeyMate Pro Aluminum thuộc nhóm bàn phím.
+TCX-KB-069,product_price,NumPad Pro giá bao nhiêu?,NumPad Pro hiện có giá niêm yết 6.130.000 VND.
+TCX-KB-069,product_info,NumPad Pro có thông số gì nổi bật?,"NumPad Pro có thông số chính: bàn phím số rời, bluetooth."
+TCX-KB-069,product_recommendation,NumPad Pro phù hợp với nhu cầu nào?,NumPad Pro phù hợp với nhu cầu: kế toán.
+TCX-KB-069,product_warranty,NumPad Pro bảo hành bao lâu?,NumPad Pro được bảo hành 12 tháng.
+TCX-KB-069,product_category,NumPad Pro thuộc nhóm sản phẩm nào?,NumPad Pro thuộc nhóm bàn phím.
+TCX-KB-070,product_price,ComboKey Lite giá bao nhiêu?,ComboKey Lite hiện có giá niêm yết 6.860.000 VND.
+TCX-KB-070,product_info,ComboKey Lite có thông số gì nổi bật?,ComboKey Lite có thông số chính: combo bàn phím chuột không dây.
+TCX-KB-070,product_recommendation,ComboKey Lite phù hợp với nhu cầu nào?,ComboKey Lite phù hợp với nhu cầu: văn phòng tiết kiệm.
+TCX-KB-070,product_warranty,ComboKey Lite bảo hành bao lâu?,ComboKey Lite được bảo hành 12 tháng.
+TCX-KB-070,product_category,ComboKey Lite thuộc nhóm sản phẩm nào?,ComboKey Lite thuộc nhóm bàn phím.
+TCX-MS-071,product_price,MouseMate M1 giá bao nhiêu?,MouseMate M1 hiện có giá niêm yết 190.000 VND.
+TCX-MS-071,product_info,MouseMate M1 có thông số gì nổi bật?,"MouseMate M1 có thông số chính: chuột không dây, DPI 1600, pin 6 tháng."
+TCX-MS-071,product_recommendation,MouseMate M1 phù hợp với nhu cầu nào?,MouseMate M1 phù hợp với nhu cầu: văn phòng.
+TCX-MS-071,product_warranty,MouseMate M1 bảo hành bao lâu?,MouseMate M1 được bảo hành 12 tháng.
+TCX-MS-071,product_category,MouseMate M1 thuộc nhóm sản phẩm nào?,MouseMate M1 thuộc nhóm chuột.
+TCX-MS-072,product_price,MouseMate Silent giá bao nhiêu?,MouseMate Silent hiện có giá niêm yết 920.000 VND.
+TCX-MS-072,product_info,MouseMate Silent có thông số gì nổi bật?,"MouseMate Silent có thông số chính: chuột không dây, click êm."
+TCX-MS-072,product_recommendation,MouseMate Silent phù hợp với nhu cầu nào?,"MouseMate Silent phù hợp với nhu cầu: thư viện, văn phòng."
+TCX-MS-072,product_warranty,MouseMate Silent bảo hành bao lâu?,MouseMate Silent được bảo hành 12 tháng.
+TCX-MS-072,product_category,MouseMate Silent thuộc nhóm sản phẩm nào?,MouseMate Silent thuộc nhóm chuột.
+TCX-MS-073,product_price,GameMouse X9 giá bao nhiêu?,GameMouse X9 hiện có giá niêm yết 1.650.000 VND.
+TCX-MS-073,product_info,GameMouse X9 có thông số gì nổi bật?,"GameMouse X9 có thông số chính: chuột gaming, DPI 12000, RGB."
+TCX-MS-073,product_recommendation,GameMouse X9 phù hợp với nhu cầu nào?,GameMouse X9 phù hợp với nhu cầu: chơi game.
+TCX-MS-073,product_warranty,GameMouse X9 bảo hành bao lâu?,GameMouse X9 được bảo hành 12 tháng.
+TCX-MS-073,product_category,GameMouse X9 thuộc nhóm sản phẩm nào?,GameMouse X9 thuộc nhóm chuột.
+TCX-MS-074,product_price,GameMouse Ultra giá bao nhiêu?,GameMouse Ultra hiện có giá niêm yết 2.380.000 VND.
+TCX-MS-074,product_info,GameMouse Ultra có thông số gì nổi bật?,"GameMouse Ultra có thông số chính: chuột gaming nhẹ 65g, cảm biến cao cấp."
+TCX-MS-074,product_recommendation,GameMouse Ultra phù hợp với nhu cầu nào?,GameMouse Ultra phù hợp với nhu cầu: eSports.
+TCX-MS-074,product_warranty,GameMouse Ultra bảo hành bao lâu?,GameMouse Ultra được bảo hành 12 tháng.
+TCX-MS-074,product_category,GameMouse Ultra thuộc nhóm sản phẩm nào?,GameMouse Ultra thuộc nhóm chuột.
+TCX-MS-075,product_price,ErgoMouse Vertical giá bao nhiêu?,ErgoMouse Vertical hiện có giá niêm yết 3.110.000 VND.
+TCX-MS-075,product_info,ErgoMouse Vertical có thông số gì nổi bật?,ErgoMouse Vertical có thông số chính: chuột công thái học dọc.
+TCX-MS-075,product_recommendation,ErgoMouse Vertical phù hợp với nhu cầu nào?,ErgoMouse Vertical phù hợp với nhu cầu: giảm mỏi cổ tay.
+TCX-MS-075,product_warranty,ErgoMouse Vertical bảo hành bao lâu?,ErgoMouse Vertical được bảo hành 12 tháng.
+TCX-MS-075,product_category,ErgoMouse Vertical thuộc nhóm sản phẩm nào?,ErgoMouse Vertical thuộc nhóm chuột.
+TCX-MS-076,product_price,TravelMouse Mini giá bao nhiêu?,TravelMouse Mini hiện có giá niêm yết 3.840.000 VND.
+TCX-MS-076,product_info,TravelMouse Mini có thông số gì nổi bật?,"TravelMouse Mini có thông số chính: chuột nhỏ gọn, bluetooth."
+TCX-MS-076,product_recommendation,TravelMouse Mini phù hợp với nhu cầu nào?,TravelMouse Mini phù hợp với nhu cầu: di chuyển.
+TCX-MS-076,product_warranty,TravelMouse Mini bảo hành bao lâu?,TravelMouse Mini được bảo hành 12 tháng.
+TCX-MS-076,product_category,TravelMouse Mini thuộc nhóm sản phẩm nào?,TravelMouse Mini thuộc nhóm chuột.
+TCX-MS-077,product_price,OfficeMouse Pro giá bao nhiêu?,OfficeMouse Pro hiện có giá niêm yết 4.570.000 VND.
+TCX-MS-077,product_info,OfficeMouse Pro có thông số gì nổi bật?,"OfficeMouse Pro có thông số chính: chuột nhiều nút, cuộn ngang."
+TCX-MS-077,product_recommendation,OfficeMouse Pro phù hợp với nhu cầu nào?,"OfficeMouse Pro phù hợp với nhu cầu: Excel, văn phòng."
+TCX-MS-077,product_warranty,OfficeMouse Pro bảo hành bao lâu?,OfficeMouse Pro được bảo hành 12 tháng.
+TCX-MS-077,product_category,OfficeMouse Pro thuộc nhóm sản phẩm nào?,OfficeMouse Pro thuộc nhóm chuột.
+TCX-MS-078,product_price,CreatorMouse Dial giá bao nhiêu?,CreatorMouse Dial hiện có giá niêm yết 5.300.000 VND.
+TCX-MS-078,product_info,CreatorMouse Dial có thông số gì nổi bật?,CreatorMouse Dial có thông số chính: chuột có núm xoay phụ.
+TCX-MS-078,product_recommendation,CreatorMouse Dial phù hợp với nhu cầu nào?,"CreatorMouse Dial phù hợp với nhu cầu: thiết kế, chỉnh ảnh."
+TCX-MS-078,product_warranty,CreatorMouse Dial bảo hành bao lâu?,CreatorMouse Dial được bảo hành 12 tháng.
+TCX-MS-078,product_category,CreatorMouse Dial thuộc nhóm sản phẩm nào?,CreatorMouse Dial thuộc nhóm chuột.
+TCX-MS-079,product_price,DualMouse BT giá bao nhiêu?,DualMouse BT hiện có giá niêm yết 6.030.000 VND.
+TCX-MS-079,product_info,DualMouse BT có thông số gì nổi bật?,DualMouse BT có thông số chính: kết nối 2 thiết bị bluetooth.
+TCX-MS-079,product_recommendation,DualMouse BT phù hợp với nhu cầu nào?,DualMouse BT phù hợp với nhu cầu: laptop và tablet.
+TCX-MS-079,product_warranty,DualMouse BT bảo hành bao lâu?,DualMouse BT được bảo hành 12 tháng.
+TCX-MS-079,product_category,DualMouse BT thuộc nhóm sản phẩm nào?,DualMouse BT thuộc nhóm chuột.
+TCX-MS-080,product_price,MousePad Charge giá bao nhiêu?,MousePad Charge hiện có giá niêm yết 6.760.000 VND.
+TCX-MS-080,product_info,MousePad Charge có thông số gì nổi bật?,MousePad Charge có thông số chính: bàn di chuột tích hợp sạc không dây.
+TCX-MS-080,product_recommendation,MousePad Charge phù hợp với nhu cầu nào?,MousePad Charge phù hợp với nhu cầu: bàn làm việc gọn.
+TCX-MS-080,product_warranty,MousePad Charge bảo hành bao lâu?,MousePad Charge được bảo hành 12 tháng.
+TCX-MS-080,product_category,MousePad Charge thuộc nhóm sản phẩm nào?,MousePad Charge thuộc nhóm chuột.
+TCX-MN-081,product_price,ViewCare 24F giá bao nhiêu?,ViewCare 24F hiện có giá niêm yết 2.490.000 VND.
+TCX-MN-081,product_info,ViewCare 24F có thông số gì nổi bật?,"ViewCare 24F có thông số chính: 24 inch Full HD, IPS, 75Hz."
+TCX-MN-081,product_recommendation,ViewCare 24F phù hợp với nhu cầu nào?,"ViewCare 24F phù hợp với nhu cầu: văn phòng, học tập."
+TCX-MN-081,product_warranty,ViewCare 24F bảo hành bao lâu?,ViewCare 24F được bảo hành 24 tháng.
+TCX-MN-081,product_category,ViewCare 24F thuộc nhóm sản phẩm nào?,ViewCare 24F thuộc nhóm màn hình.
+TCX-MN-082,product_price,ViewCare 27Q giá bao nhiêu?,ViewCare 27Q hiện có giá niêm yết 3.220.000 VND.
+TCX-MN-082,product_info,ViewCare 27Q có thông số gì nổi bật?,"ViewCare 27Q có thông số chính: 27 inch 2K, IPS, 100Hz."
+TCX-MN-082,product_recommendation,ViewCare 27Q phù hợp với nhu cầu nào?,ViewCare 27Q phù hợp với nhu cầu: làm việc đa nhiệm.
+TCX-MN-082,product_warranty,ViewCare 27Q bảo hành bao lâu?,ViewCare 27Q được bảo hành 24 tháng.
+TCX-MN-082,product_category,ViewCare 27Q thuộc nhóm sản phẩm nào?,ViewCare 27Q thuộc nhóm màn hình.
+TCX-MN-083,product_price,GameView 24G giá bao nhiêu?,GameView 24G hiện có giá niêm yết 3.950.000 VND.
+TCX-MN-083,product_info,GameView 24G có thông số gì nổi bật?,"GameView 24G có thông số chính: 24 inch Full HD, 165Hz, 1ms."
+TCX-MN-083,product_recommendation,GameView 24G phù hợp với nhu cầu nào?,GameView 24G phù hợp với nhu cầu: chơi game FPS.
+TCX-MN-083,product_warranty,GameView 24G bảo hành bao lâu?,GameView 24G được bảo hành 24 tháng.
+TCX-MN-083,product_category,GameView 24G thuộc nhóm sản phẩm nào?,GameView 24G thuộc nhóm màn hình.
+TCX-MN-084,product_price,GameView 27Q giá bao nhiêu?,GameView 27Q hiện có giá niêm yết 4.680.000 VND.
+TCX-MN-084,product_info,GameView 27Q có thông số gì nổi bật?,"GameView 27Q có thông số chính: 27 inch 2K, 165Hz."
+TCX-MN-084,product_recommendation,GameView 27Q phù hợp với nhu cầu nào?,GameView 27Q phù hợp với nhu cầu: gaming và đồ họa.
+TCX-MN-084,product_warranty,GameView 27Q bảo hành bao lâu?,GameView 27Q được bảo hành 24 tháng.
+TCX-MN-084,product_category,GameView 27Q thuộc nhóm sản phẩm nào?,GameView 27Q thuộc nhóm màn hình.
+TCX-MN-085,product_price,CreatorView 27C giá bao nhiêu?,CreatorView 27C hiện có giá niêm yết 5.410.000 VND.
+TCX-MN-085,product_info,CreatorView 27C có thông số gì nổi bật?,"CreatorView 27C có thông số chính: 27 inch 4K, độ phủ màu cao."
+TCX-MN-085,product_recommendation,CreatorView 27C phù hợp với nhu cầu nào?,"CreatorView 27C phù hợp với nhu cầu: thiết kế, chỉnh ảnh."
+TCX-MN-085,product_warranty,CreatorView 27C bảo hành bao lâu?,CreatorView 27C được bảo hành 24 tháng.
+TCX-MN-085,product_category,CreatorView 27C thuộc nhóm sản phẩm nào?,CreatorView 27C thuộc nhóm màn hình.
+TCX-MN-086,product_price,UltraWide 34 giá bao nhiêu?,UltraWide 34 hiện có giá niêm yết 6.140.000 VND.
+TCX-MN-086,product_info,UltraWide 34 có thông số gì nổi bật?,"UltraWide 34 có thông số chính: 34 inch ultrawide, 144Hz."
+TCX-MN-086,product_recommendation,UltraWide 34 phù hợp với nhu cầu nào?,"UltraWide 34 phù hợp với nhu cầu: đa nhiệm, dựng timeline."
+TCX-MN-086,product_warranty,UltraWide 34 bảo hành bao lâu?,UltraWide 34 được bảo hành 24 tháng.
+TCX-MN-086,product_category,UltraWide 34 thuộc nhóm sản phẩm nào?,UltraWide 34 thuộc nhóm màn hình.
+TCX-MN-087,product_price,OfficeView 22 giá bao nhiêu?,OfficeView 22 hiện có giá niêm yết 6.870.000 VND.
+TCX-MN-087,product_info,OfficeView 22 có thông số gì nổi bật?,"OfficeView 22 có thông số chính: 22 inch Full HD, tiết kiệm điện."
+TCX-MN-087,product_recommendation,OfficeView 22 phù hợp với nhu cầu nào?,OfficeView 22 phù hợp với nhu cầu: văn phòng cơ bản.
+TCX-MN-087,product_warranty,OfficeView 22 bảo hành bao lâu?,OfficeView 22 được bảo hành 24 tháng.
+TCX-MN-087,product_category,OfficeView 22 thuộc nhóm sản phẩm nào?,OfficeView 22 thuộc nhóm màn hình.
+TCX-MN-088,product_price,PortableView 15 giá bao nhiêu?,PortableView 15 hiện có giá niêm yết 7.600.000 VND.
+TCX-MN-088,product_info,PortableView 15 có thông số gì nổi bật?,PortableView 15 có thông số chính: màn hình di động 15.6 inch USB-C.
+TCX-MN-088,product_recommendation,PortableView 15 phù hợp với nhu cầu nào?,PortableView 15 phù hợp với nhu cầu: làm việc di động.
+TCX-MN-088,product_warranty,PortableView 15 bảo hành bao lâu?,PortableView 15 được bảo hành 24 tháng.
+TCX-MN-088,product_category,PortableView 15 thuộc nhóm sản phẩm nào?,PortableView 15 thuộc nhóm màn hình.
+TCX-MN-089,product_price,EyeCare 27 giá bao nhiêu?,EyeCare 27 hiện có giá niêm yết 8.330.000 VND.
+TCX-MN-089,product_info,EyeCare 27 có thông số gì nổi bật?,"EyeCare 27 có thông số chính: 27 inch Full HD, lọc ánh sáng xanh."
+TCX-MN-089,product_recommendation,EyeCare 27 phù hợp với nhu cầu nào?,EyeCare 27 phù hợp với nhu cầu: học tập lâu.
+TCX-MN-089,product_warranty,EyeCare 27 bảo hành bao lâu?,EyeCare 27 được bảo hành 24 tháng.
+TCX-MN-089,product_category,EyeCare 27 thuộc nhóm sản phẩm nào?,EyeCare 27 thuộc nhóm màn hình.
+TCX-MN-090,product_price,StudioView 32 giá bao nhiêu?,StudioView 32 hiện có giá niêm yết 9.060.000 VND.
+TCX-MN-090,product_info,StudioView 32 có thông số gì nổi bật?,"StudioView 32 có thông số chính: 32 inch 4K, IPS."
+TCX-MN-090,product_recommendation,StudioView 32 phù hợp với nhu cầu nào?,StudioView 32 phù hợp với nhu cầu: sáng tạo nội dung.
+TCX-MN-090,product_warranty,StudioView 32 bảo hành bao lâu?,StudioView 32 được bảo hành 24 tháng.
+TCX-MN-090,product_category,StudioView 32 thuộc nhóm sản phẩm nào?,StudioView 32 thuộc nhóm màn hình.
+TCX-AC-091,product_price,HubConnect 6-in-1 giá bao nhiêu?,HubConnect 6-in-1 hiện có giá niêm yết 100.000 VND.
+TCX-AC-091,product_info,HubConnect 6-in-1 có thông số gì nổi bật?,"HubConnect 6-in-1 có thông số chính: hub USB-C gồm HDMI, USB-A, SD, PD."
+TCX-AC-091,product_recommendation,HubConnect 6-in-1 phù hợp với nhu cầu nào?,HubConnect 6-in-1 phù hợp với nhu cầu: laptop mỏng nhẹ.
+TCX-AC-091,product_warranty,HubConnect 6-in-1 bảo hành bao lâu?,HubConnect 6-in-1 được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-091,product_category,HubConnect 6-in-1 thuộc nhóm sản phẩm nào?,HubConnect 6-in-1 thuộc nhóm phụ kiện.
+TCX-AC-092,product_price,HubConnect 9-in-1 giá bao nhiêu?,HubConnect 9-in-1 hiện có giá niêm yết 830.000 VND.
+TCX-AC-092,product_info,HubConnect 9-in-1 có thông số gì nổi bật?,"HubConnect 9-in-1 có thông số chính: hub USB-C nhiều cổng, LAN, HDMI, PD."
+TCX-AC-092,product_recommendation,HubConnect 9-in-1 phù hợp với nhu cầu nào?,HubConnect 9-in-1 phù hợp với nhu cầu: văn phòng.
+TCX-AC-092,product_warranty,HubConnect 9-in-1 bảo hành bao lâu?,HubConnect 9-in-1 được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-092,product_category,HubConnect 9-in-1 thuộc nhóm sản phẩm nào?,HubConnect 9-in-1 thuộc nhóm phụ kiện.
+TCX-AC-093,product_price,Cable USB-C 100W giá bao nhiêu?,Cable USB-C 100W hiện có giá niêm yết 1.560.000 VND.
+TCX-AC-093,product_info,Cable USB-C 100W có thông số gì nổi bật?,"Cable USB-C 100W có thông số chính: cáp USB-C to USB-C, hỗ trợ sạc 100W."
+TCX-AC-093,product_recommendation,Cable USB-C 100W phù hợp với nhu cầu nào?,"Cable USB-C 100W phù hợp với nhu cầu: sạc laptop, điện thoại."
+TCX-AC-093,product_warranty,Cable USB-C 100W bảo hành bao lâu?,Cable USB-C 100W được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-093,product_category,Cable USB-C 100W thuộc nhóm sản phẩm nào?,Cable USB-C 100W thuộc nhóm phụ kiện.
+TCX-AC-094,product_price,Cable Lightning Fast giá bao nhiêu?,Cable Lightning Fast hiện có giá niêm yết 2.290.000 VND.
+TCX-AC-094,product_info,Cable Lightning Fast có thông số gì nổi bật?,"Cable Lightning Fast có thông số chính: cáp Lightning, sạc nhanh, bọc dù."
+TCX-AC-094,product_recommendation,Cable Lightning Fast phù hợp với nhu cầu nào?,Cable Lightning Fast phù hợp với nhu cầu: thiết bị dùng Lightning.
+TCX-AC-094,product_warranty,Cable Lightning Fast bảo hành bao lâu?,Cable Lightning Fast được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-094,product_category,Cable Lightning Fast thuộc nhóm sản phẩm nào?,Cable Lightning Fast thuộc nhóm phụ kiện.
+TCX-AC-095,product_price,Adapter GaN 65W giá bao nhiêu?,Adapter GaN 65W hiện có giá niêm yết 3.020.000 VND.
+TCX-AC-095,product_info,Adapter GaN 65W có thông số gì nổi bật?,"Adapter GaN 65W có thông số chính: củ sạc GaN 65W, 2 USB-C, 1 USB-A."
+TCX-AC-095,product_recommendation,Adapter GaN 65W phù hợp với nhu cầu nào?,Adapter GaN 65W phù hợp với nhu cầu: sạc laptop và điện thoại.
+TCX-AC-095,product_warranty,Adapter GaN 65W bảo hành bao lâu?,Adapter GaN 65W được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-095,product_category,Adapter GaN 65W thuộc nhóm sản phẩm nào?,Adapter GaN 65W thuộc nhóm phụ kiện.
+TCX-AC-096,product_price,Adapter GaN 30W giá bao nhiêu?,Adapter GaN 30W hiện có giá niêm yết 3.750.000 VND.
+TCX-AC-096,product_info,Adapter GaN 30W có thông số gì nổi bật?,Adapter GaN 30W có thông số chính: củ sạc nhỏ gọn 30W USB-C.
+TCX-AC-096,product_recommendation,Adapter GaN 30W phù hợp với nhu cầu nào?,"Adapter GaN 30W phù hợp với nhu cầu: điện thoại, máy tính bảng."
+TCX-AC-096,product_warranty,Adapter GaN 30W bảo hành bao lâu?,Adapter GaN 30W được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-096,product_category,Adapter GaN 30W thuộc nhóm sản phẩm nào?,Adapter GaN 30W thuộc nhóm phụ kiện.
+TCX-AC-097,product_price,Laptop Stand Air giá bao nhiêu?,Laptop Stand Air hiện có giá niêm yết 4.480.000 VND.
+TCX-AC-097,product_info,Laptop Stand Air có thông số gì nổi bật?,"Laptop Stand Air có thông số chính: giá đỡ laptop nhôm, gấp gọn."
+TCX-AC-097,product_recommendation,Laptop Stand Air phù hợp với nhu cầu nào?,Laptop Stand Air phù hợp với nhu cầu: làm việc ergonomic.
+TCX-AC-097,product_warranty,Laptop Stand Air bảo hành bao lâu?,Laptop Stand Air được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-097,product_category,Laptop Stand Air thuộc nhóm sản phẩm nào?,Laptop Stand Air thuộc nhóm phụ kiện.
+TCX-AC-098,product_price,Webcam MeetCam 1080p giá bao nhiêu?,Webcam MeetCam 1080p hiện có giá niêm yết 5.210.000 VND.
+TCX-AC-098,product_info,Webcam MeetCam 1080p có thông số gì nổi bật?,"Webcam MeetCam 1080p có thông số chính: webcam Full HD, mic kép."
+TCX-AC-098,product_recommendation,Webcam MeetCam 1080p phù hợp với nhu cầu nào?,"Webcam MeetCam 1080p phù hợp với nhu cầu: họp online, học online."
+TCX-AC-098,product_warranty,Webcam MeetCam 1080p bảo hành bao lâu?,Webcam MeetCam 1080p được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-098,product_category,Webcam MeetCam 1080p thuộc nhóm sản phẩm nào?,Webcam MeetCam 1080p thuộc nhóm phụ kiện.
+TCX-AC-099,product_price,MicStream USB giá bao nhiêu?,MicStream USB hiện có giá niêm yết 5.940.000 VND.
+TCX-AC-099,product_info,MicStream USB có thông số gì nổi bật?,"MicStream USB có thông số chính: micro USB thu âm, lọc ồn cơ bản."
+TCX-AC-099,product_recommendation,MicStream USB phù hợp với nhu cầu nào?,"MicStream USB phù hợp với nhu cầu: livestream, học online."
+TCX-AC-099,product_warranty,MicStream USB bảo hành bao lâu?,MicStream USB được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-099,product_category,MicStream USB thuộc nhóm sản phẩm nào?,MicStream USB thuộc nhóm phụ kiện.
+TCX-AC-100,product_price,CleanKit Pro giá bao nhiêu?,CleanKit Pro hiện có giá niêm yết 6.670.000 VND.
+TCX-AC-100,product_info,CleanKit Pro có thông số gì nổi bật?,"CleanKit Pro có thông số chính: bộ vệ sinh màn hình, bàn phím, tai nghe."
+TCX-AC-100,product_recommendation,CleanKit Pro phù hợp với nhu cầu nào?,CleanKit Pro phù hợp với nhu cầu: vệ sinh thiết bị.
+TCX-AC-100,product_warranty,CleanKit Pro bảo hành bao lâu?,CleanKit Pro được bảo hành 6-12 tháng tùy sản phẩm.
+TCX-AC-100,product_category,CleanKit Pro thuộc nhóm sản phẩm nào?,CleanKit Pro thuộc nhóm phụ kiện.

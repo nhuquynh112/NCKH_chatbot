@@ -1,0 +1,45 @@
+# Ignore everything by default, then allow only code and runtime data.
+*
+
+# Git metadata for this allowlist.
+!.gitignore
+
+# Project instructions.
+!README.md
+
+# Source code.
+!*.py
+
+# Prompt and RAG knowledge sources.
+!system_prompt.txt
+!knowledge_base.md
+!product_catalog_extended.md
+
+# Important datasets used by chatbot, training, and evaluation.
+!eval_questions.json
+!techcare_rag_documents.json
+!techcare_products_100.json
+!techcare_eval_120.json
+!techcare_chatbot_dataset.json
+!techcare_train_pairs.jsonl
+!techcare_qa_pairs.csv
+!techcare_product_qa_500.csv
+
+# Always keep local/generated artifacts out of Git.
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+vector_index.json
+evaluation_results.json
+curated_test_results.json
+
+# Report/draft documents are intentionally not tracked.
+KHUNG_BAI_BAO_NCKH.md
+KET_QUA_THUC_NGHIEM_CHATBOT.md
+HUONG_DAN_LAM_TIEP.md
+GHI_CHU_FINE_TUNING.md
+DATASET_TECHCARE.md
+bao_cao_phan_ai_rag.md

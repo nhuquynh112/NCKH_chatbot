@@ -1,0 +1,62 @@
+[
+  {
+    "id": "eval_01",
+    "question": "Laptop NovaBook Air 14 giá bao nhiêu?",
+    "expected": "14.990.000 VND",
+    "type": "product_price"
+  },
+  {
+    "id": "eval_02",
+    "question": "Máy nào phù hợp sinh viên học online và làm Word Excel?",
+    "expected": "NovaBook Air 14 nếu ngân sách khoảng 15 triệu, EduBook 13 nếu ngân sách khoảng 10 triệu",
+    "type": "recommendation"
+  },
+  {
+    "id": "eval_03",
+    "question": "Tai nghe SonicBuds Pro có chống ồn không?",
+    "expected": "có chống ồn chủ động ANC và chế độ xuyên âm",
+    "type": "product_attribute"
+  },
+  {
+    "id": "eval_04",
+    "question": "Bảo hành điện thoại bao lâu?",
+    "expected": "điện thoại bảo hành 12 tháng",
+    "type": "warranty"
+  },
+  {
+    "id": "eval_05",
+    "question": "Laptop GamePro 15 có phù hợp render video không?",
+    "expected": "phù hợp render video, đồ họa 2D/3D và chơi game",
+    "type": "recommendation"
+  },
+  {
+    "id": "eval_06",
+    "question": "Đơn TCDH1007 đang ở đâu?",
+    "expected": "đang vận chuyển, dự kiến giao 07/07/2026",
+    "type": "order_lookup"
+  },
+  {
+    "id": "eval_07",
+    "question": "Thanh toán online bị trừ tiền nhưng đơn chưa xác nhận thì làm sao?",
+    "expected": "cung cấp số điện thoại, mã giao dịch, ảnh biên lai; nhân viên kiểm tra trong 24 giờ làm việc",
+    "type": "payment_issue"
+  },
+  {
+    "id": "eval_08",
+    "question": "Voucher TECHNEW giảm bao nhiêu?",
+    "expected": "giảm 5% cho đơn đầu tiên, tối đa 300.000 VND",
+    "type": "promotion"
+  },
+  {
+    "id": "eval_09",
+    "question": "Tôi mua laptop bị lỗi màn hình xanh thì làm sao?",
+    "expected": "xin thông tin liên hệ, mã đơn, tên sản phẩm, mô tả lỗi, hình ảnh/video; tạo ticket kỹ thuật",
+    "type": "ticket"
+  },
+  {
+    "id": "eval_10",
+    "question": "Shop có bán máy giặt không?",
+    "expected": "nếu không có trong ngữ cảnh, không bịa; đề nghị tạo ticket hoặc nhân viên hỗ trợ",
+    "type": "fallback"
+  }
+]
