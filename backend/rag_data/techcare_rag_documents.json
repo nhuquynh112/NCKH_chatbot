@@ -1,0 +1,207 @@
+[
+  {
+    "id": "TC-LT-001",
+    "type": "product",
+    "title": "Laptop NovaBook Air 14",
+    "content": "Laptop NovaBook Air 14 mã TC-LT-001 thuộc nhóm laptop. Giá niêm yết 14.990.000 VND. Thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ. Bảo hành 24 tháng.",
+    "metadata": {
+      "sku": "TC-LT-001",
+      "category": "laptop",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-LT-002",
+    "type": "product",
+    "title": "Laptop GamePro 15",
+    "content": "Laptop GamePro 15 mã TC-LT-002 thuộc nhóm laptop. Giá niêm yết 24.990.000 VND. Thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật. Bảo hành 24 tháng.",
+    "metadata": {
+      "sku": "TC-LT-002",
+      "category": "laptop",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-LT-003",
+    "type": "product",
+    "title": "Laptop EduBook 13",
+    "content": "Laptop EduBook 13 mã TC-LT-003 thuộc nhóm laptop. Giá niêm yết 9.990.000 VND. Thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản. Bảo hành 18 tháng.",
+    "metadata": {
+      "sku": "TC-LT-003",
+      "category": "laptop",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-PH-004",
+    "type": "product",
+    "title": "Điện thoại PixelOne A55",
+    "content": "Điện thoại PixelOne A55 mã TC-PH-004 thuộc nhóm điện thoại. Giá niêm yết 7.990.000 VND. Thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-PH-004",
+      "category": "điện thoại",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-PH-005",
+    "type": "product",
+    "title": "Điện thoại PixelOne Pro X",
+    "content": "Điện thoại PixelOne Pro X mã TC-PH-005 thuộc nhóm điện thoại. Giá niêm yết 15.990.000 VND. Thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-PH-005",
+      "category": "điện thoại",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-TB-006",
+    "type": "product",
+    "title": "Máy tính bảng TabLearn 11",
+    "content": "Máy tính bảng TabLearn 11 mã TC-TB-006 thuộc nhóm máy tính bảng. Giá niêm yết 8.490.000 VND. Thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-TB-006",
+      "category": "máy tính bảng",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-HP-007",
+    "type": "product",
+    "title": "Tai nghe SonicBuds Pro",
+    "content": "Tai nghe SonicBuds Pro mã TC-HP-007 thuộc nhóm tai nghe. Giá niêm yết 1.990.000 VND. Thông tin chính: true wireless, chống ồn chủ động ANC, xuyên âm, IPX4, pin 7 giờ và 28 giờ với hộp sạc. Phù hợp với nhu cầu học online, nghe nhạc, gọi điện và di chuyển ngoài đường. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-HP-007",
+      "category": "tai nghe",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-HP-008",
+    "type": "product",
+    "title": "Tai nghe SonicBuds Lite",
+    "content": "Tai nghe SonicBuds Lite mã TC-HP-008 thuộc nhóm tai nghe. Giá niêm yết 790.000 VND. Thông tin chính: true wireless, mic đàm thoại, IPX4, pin 5 giờ và 20 giờ với hộp sạc, không có ANC. Phù hợp với nhu cầu nghe gọi cơ bản, học online và ngân sách tiết kiệm. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-HP-008",
+      "category": "tai nghe",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-WA-009",
+    "type": "product",
+    "title": "Đồng hồ FitWatch S2",
+    "content": "Đồng hồ FitWatch S2 mã TC-WA-009 thuộc nhóm đồng hồ thông minh. Giá niêm yết 2.490.000 VND. Thông tin chính: đo nhịp tim, SpO2, theo dõi giấc ngủ, 100 chế độ luyện tập, pin 7 ngày, chống nước 5ATM. Phù hợp với nhu cầu theo dõi sức khỏe, luyện tập và nhận thông báo điện thoại. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-WA-009",
+      "category": "đồng hồ thông minh",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "TC-PB-010",
+    "type": "product",
+    "title": "Sạc dự phòng VoltPack 20K",
+    "content": "Sạc dự phòng VoltPack 20K mã TC-PB-010 thuộc nhóm sạc dự phòng. Giá niêm yết 890.000 VND. Thông tin chính: 20.000mAh, USB-C Power Delivery 30W, sạc nhanh điện thoại, máy tính bảng và một số laptop mỏng nhẹ. Phù hợp với nhu cầu người cần pin dự phòng dung lượng cao khi đi học, đi làm hoặc du lịch. Bảo hành 12 tháng.",
+    "metadata": {
+      "sku": "TC-PB-010",
+      "category": "sạc dự phòng",
+      "source": "synthetic_catalog"
+    }
+  },
+  {
+    "id": "policy_warranty",
+    "type": "policy",
+    "title": "Chính sách bảo hành",
+    "content": "Laptop NovaBook Air 14 và GamePro 15 bảo hành 24 tháng, EduBook 13 bảo hành 18 tháng. Điện thoại, máy tính bảng, tai nghe, đồng hồ thông minh và sạc dự phòng bảo hành 12 tháng. Khi cần bảo hành, khách cung cấp mã đơn hàng, số điện thoại mua hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video nếu có.",
+    "metadata": {
+      "source": "synthetic_policy"
+    }
+  },
+  {
+    "id": "policy_return",
+    "type": "policy",
+    "title": "Chính sách đổi trả",
+    "content": "TechCare hỗ trợ đổi trả trong 7 ngày kể từ ngày nhận hàng nếu sản phẩm còn đầy đủ hộp, phụ kiện, hóa đơn, chưa trầy xước, chưa vô nước và chưa kích hoạt bảo hành điện tử nếu sản phẩm yêu cầu kích hoạt. Nếu lỗi do nhà sản xuất trong 7 ngày đầu, TechCare hỗ trợ đổi mới cùng model nếu còn hàng.",
+    "metadata": {
+      "source": "synthetic_policy"
+    }
+  },
+  {
+    "id": "policy_shipping",
+    "type": "policy",
+    "title": "Chính sách giao hàng",
+    "content": "TechCare giao hàng toàn quốc. Nội thành TP.HCM và Hà Nội thường nhận trong 1-2 ngày làm việc. Các tỉnh thành khác thường nhận trong 3-5 ngày làm việc. Phí giao hàng tiêu chuẩn là 30.000 VND cho phụ kiện và 50.000 VND cho laptop, điện thoại, máy tính bảng. Đơn từ 5.000.000 VND được miễn phí giao hàng tiêu chuẩn.",
+    "metadata": {
+      "source": "synthetic_policy"
+    }
+  },
+  {
+    "id": "policy_payment",
+    "type": "policy",
+    "title": "Chính sách thanh toán",
+    "content": "TechCare hỗ trợ COD, chuyển khoản ngân hàng, thẻ ATM nội địa, Visa/Mastercard và ví điện tử Momo. Nếu thanh toán online bị trừ tiền nhưng đơn chưa xác nhận, khách cung cấp số điện thoại đặt hàng, mã giao dịch và ảnh chụp biên lai để nhân viên kiểm tra trong 24 giờ làm việc.",
+    "metadata": {
+      "source": "synthetic_policy"
+    }
+  },
+  {
+    "id": "policy_ticket",
+    "type": "policy",
+    "title": "Quy trình tạo ticket",
+    "content": "Chatbot nên tạo ticket khi khách cần kiểm tra đơn hàng, lỗi kỹ thuật, bảo hành, đổi trả, hoàn tiền, thanh toán lỗi, tư vấn cấu hình chi tiết hoặc câu hỏi vượt ngoài dữ liệu RAG. Thông tin cần có: họ tên, số điện thoại, email nếu có, mã đơn hàng nếu có, tên sản phẩm, số serial nếu có, vấn đề cần hỗ trợ và hình ảnh/video minh chứng. SLA phản hồi là trong 24 giờ làm việc.",
+    "metadata": {
+      "source": "synthetic_policy"
+    }
+  },
+  {
+    "id": "order_TCDH1001",
+    "type": "order",
+    "title": "Đơn hàng TCDH1001",
+    "content": "Mã đơn TCDH1001: đã giao thành công ngày 05/07/2026, gồm 1 Laptop NovaBook Air 14 màu bạc.",
+    "metadata": {
+      "source": "synthetic_order",
+      "order_code": "TCDH1001"
+    }
+  },
+  {
+    "id": "order_TCDH1007",
+    "type": "order",
+    "title": "Đơn hàng TCDH1007",
+    "content": "Mã đơn TCDH1007: đang vận chuyển, dự kiến giao trong ngày 07/07/2026, gồm 1 Tai nghe SonicBuds Pro màu đen.",
+    "metadata": {
+      "source": "synthetic_order",
+      "order_code": "TCDH1007"
+    }
+  },
+  {
+    "id": "order_TCDH1012",
+    "type": "order",
+    "title": "Đơn hàng TCDH1012",
+    "content": "Mã đơn TCDH1012: đang chờ xác nhận thanh toán online, nhân viên cần kiểm tra giao dịch trước khi đóng gói, gồm 1 Điện thoại PixelOne Pro X màu xanh.",
+    "metadata": {
+      "source": "synthetic_order",
+      "order_code": "TCDH1012"
+    }
+  },
+  {
+    "id": "order_TCDH1020",
+    "type": "order",
+    "title": "Đơn hàng TCDH1020",
+    "content": "Mã đơn TCDH1020: đang đóng gói tại kho TP.HCM, gồm 1 Sạc dự phòng VoltPack 20K.",
+    "metadata": {
+      "source": "synthetic_order",
+      "order_code": "TCDH1020"
+    }
+  },
+  {
+    "id": "order_TCDH1028",
+    "type": "order",
+    "title": "Đơn hàng TCDH1028",
+    "content": "Mã đơn TCDH1028: giao không thành công lần 1 vì không liên hệ được người nhận, gồm 1 Máy tính bảng TabLearn 11.",
+    "metadata": {
+      "source": "synthetic_order",
+      "order_code": "TCDH1028"
+    }
+  }
+]
