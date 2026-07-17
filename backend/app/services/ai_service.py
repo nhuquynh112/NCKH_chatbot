@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 class AIQueryRequest(BaseModel):
     session_id: str
     message: str
+    history: list = Field(default_factory=list)
     product_id: Optional[int] = None
 
 
@@ -59,11 +60,13 @@ class AIService:
         self,
         session_id: str,
         message: str,
+        history: list | None = None,
         product_id: Optional[int] = None,
     ) -> AIQueryResponse:
         request_data = AIQueryRequest(
             session_id=str(session_id),
             message=message,
+            history=history or [],
             product_id=product_id,
         )
 
@@ -77,6 +80,9 @@ class AIService:
                 self.chatbot.ask,
                 request_data.message,
                 settings.RAG_TOP_K,
+                request_data.history,
+                request_data.product_id,
+                request_data.session_id,
             )
             return self._to_ai_response(result)
         except (OllamaError, ChromaUnavailableError, ValueError) as exc:

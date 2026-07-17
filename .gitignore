@@ -1,23 +1,56 @@
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
 # Virtual Environment
+.venv/
 venv/
+backend/.venv/
 backend/venv/
 
-# Environment
+# Environment variables
 .env
+.env.*
 backend/.env
 
-# VSCode
+# =========================
+# IDE
+# =========================
 .vscode/
+.idea/
 
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Python cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
 # Database
+# =========================
 *.db
+*.sqlite3
 
 # Docker volume
 postgres_data/
 
-# Cache
-.pytest_cache/
+# =========================
+# Local RAG
+# =========================
+backend/chroma_db/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini

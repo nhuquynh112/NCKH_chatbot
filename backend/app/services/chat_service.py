@@ -59,11 +59,25 @@ class ChatService:
             content=request.content
         )
 
+        # 2.1 Load recent conversation history
+        recent_messages = self.chat_repo.get_recent_messages(
+            session_id=session.id,
+            limit=6
+        )
+        history = [
+            {
+                "role": msg.role,
+                "content": msg.content
+            }
+            for msg in recent_messages
+        ]
+
         # 3. Call AI Service (measure time)
         start_time = time.time()
         ai_response = await self.ai_service.query(
             session_id=str(session.id),
             message=request.content,
+            history=history,
             product_id=request.product_id
         )
         end_time = time.time()

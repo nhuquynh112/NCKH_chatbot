@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 import json
 import logging
+import re
 from pathlib import Path
 
 
@@ -21,24 +22,55 @@ class SearchResult:
     document: Document
 
 
-def split_markdown_sections(text: str) -> list[tuple[str, str]]:
-    sections: list[tuple[str, str]] = []
-    current_title = "Tong quan"
-    current_lines: list[str] = []
+def split_markdown_sections(text: str):
+    sections = []
+
+    current_parent = ""
+    current_title = "Tổng quan"
+    current_lines = []
 
     for line in text.splitlines():
-        if line.startswith("# ") or line.startswith("## "):
+
+        if re.match(r"^#\s", line):
             if current_lines:
-                sections.append((current_title, "\n".join(current_lines).strip()))
-            current_title = line.lstrip("# ").strip()
+                sections.append(
+                    (
+                        current_parent,
+                        current_title,
+                        "\n".join(current_lines).strip(),
+                    )
+                )
+
+            current_parent = line.replace("#", "").strip()
+            current_title = current_parent
             current_lines = [line]
+
+        elif re.match(r"^##\s", line):
+            if current_lines:
+                sections.append(
+                    (
+                        current_parent,
+                        current_title,
+                        "\n".join(current_lines).strip(),
+                    )
+                )
+
+            current_title = line.replace("##", "").strip()
+            current_lines = [line]
+
         else:
             current_lines.append(line)
 
     if current_lines:
-        sections.append((current_title, "\n".join(current_lines).strip()))
+        sections.append(
+            (
+                current_parent,
+                current_title,
+                "\n".join(current_lines).strip(),
+            )
+        )
 
-    return [item for item in sections if item[1]]
+    return sections
 
 
 def load_markdown_documents(paths: list[Path]) -> list[Document]:
@@ -51,13 +83,18 @@ def load_markdown_documents(paths: list[Path]) -> list[Document]:
             continue
 
         sections = split_markdown_sections(path.read_text(encoding="utf-8"))
-        for title, content in sections:
+        for parent, title, content in sections:
             documents.append(
                 Document(
                     id=f"doc_{next_id:03d}",
                     title=title,
-                    content=content,
-                    metadata={"source": path.name, "title": title},
+                    content=(
+                        f"Nguồn: {path.name}\n"
+                        f"Chủ đề: {parent}\n"
+                        f"Mục: {title}\n\n"
+                        f"{content}"
+                    ),
+                    metadata={"source": path.name, "parent": parent, "title": title},
                 )
             )
             next_id += 1
