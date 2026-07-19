@@ -1,0 +1,298 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 17 128GB",
+        "brand": "Apple",
+        "category": "Điện thoại",
+        "price": 25990000.0,
+        "description": "iPhone 17 màn hình OLED 6.3 inch, chip Apple A19, camera AI thế hệ mới.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "8GB",
+            "Chip": "Apple A19",
+            "Bộ nhớ": "128GB",
+            "Màn hình": "6.3 inch OLED"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/42/337425/iphone-17-black-thumb-600x600.jpg"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 17 Pro 256GB",
+        "brand": "Apple",
+        "category": "Điện thoại",
+        "price": 33990000.0,
+        "description": "iPhone 17 Pro khung Titan, camera AI Pro, chip Apple A19 Pro.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "12GB",
+            "Chip": "Apple A19 Pro",
+            "Bộ nhớ": "256GB",
+            "Màn hình": "6.3 inch OLED"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/42/337426/iphone-17-pro-thumb-600x600.jpg"
+    },
+    {
+        "id": 3,
+        "name": "MacBook Air M4 13 inch",
+        "brand": "Apple",
+        "category": "Laptop",
+        "price": 27990000.0,
+        "description": "MacBook Air M4 siêu mỏng nhẹ, pin lên tới 18 giờ.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Apple M4",
+            "GPU": "Apple GPU",
+            "RAM": "16GB",
+            "SSD": "512GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/44/333825/macbook-air-m4-thumb-600x600.jpg"
+    },
+    {
+        "id": 4,
+        "name": "iPad Air M3 WiFi",
+        "brand": "Apple",
+        "category": "Máy tính bảng",
+        "price": 17990000.0,
+        "description": "iPad Air M3 mạnh mẽ dành cho học tập và sáng tạo.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "8GB",
+            "Chip": "Apple M3",
+            "Storage": "128GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/522/334171/ipad-air-m3-thumb-600x600.jpg"
+    },
+    {
+        "id": 5,
+        "name": "AirPods Pro 2 USB-C",
+        "brand": "Apple",
+        "category": "Tai nghe",
+        "price": 5990000.0,
+        "description": "Tai nghe chống ồn chủ động ANC thế hệ mới.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "6 giờ",
+            "Bluetooth": "5.3",
+            "Chống nước": "IP54"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/54/315750/airpods-pro-2-type-c-thumb-600x600.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Samsung Galaxy S25 Ultra",
+        "brand": "Samsung",
+        "category": "Điện thoại",
+        "price": 32990000.0,
+        "description": "Galaxy AI mạnh mẽ, camera 200MP.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "12GB",
+            "Chip": "Snapdragon 8 Elite",
+            "Storage": "256GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/42/329143/samsung-galaxy-s25-ultra-thumb-600x600.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Samsung Galaxy S25",
+        "brand": "Samsung",
+        "category": "Điện thoại",
+        "price": 22990000.0,
+        "description": "Điện thoại AI cao cấp cho công việc và giải trí.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "12GB",
+            "Chip": "Snapdragon 8 Elite",
+            "Storage": "256GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/42/329149/samsung-galaxy-s25-thumb-600x600.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Galaxy Tab S10",
+        "brand": "Samsung",
+        "category": "Máy tính bảng",
+        "price": 18990000.0,
+        "description": "Tablet Android cao cấp hỗ trợ bút S-Pen.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "12GB",
+            "Storage": "256GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/522/329017/samsung-galaxy-tab-s10-thumb-600x600.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Galaxy Buds3 Pro",
+        "brand": "Samsung",
+        "category": "Tai nghe",
+        "price": 4990000.0,
+        "description": "Tai nghe chống ồn AI.",
+        "warranty_months": 12,
+        "specifications": {
+            "ANC": "Có",
+            "Bluetooth": "5.4"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/54/326507/galaxy-buds3-pro-thumb-600x600.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Galaxy Watch Ultra",
+        "brand": "Samsung",
+        "category": "Đồng hồ",
+        "price": 14990000.0,
+        "description": "Đồng hồ thông minh Galaxy Watch Ultra.",
+        "warranty_months": 12,
+        "specifications": {
+            "GPS": "Dual GPS",
+            "Pin": "100 giờ"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/7077/326359/galaxy-watch-ultra-thumb-600x600.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Dell Inspiron 15 3530",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 15990000.0,
+        "description": "Laptop văn phòng bán chạy.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5-1334U",
+            "RAM": "16GB",
+            "SSD": "512GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/44/319270/dell-inspiron-15-thumb-600x600.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Dell Vostro 3530",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 17990000.0,
+        "description": "Laptop doanh nghiệp ổn định.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5-1335U",
+            "RAM": "16GB",
+            "SSD": "512GB"
+        },
+        "image_url": "https://cdn.tgdd.vn/Products/Images/44/318628/dell-vostro-thumb-600x600.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Dell XPS 14",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 45990000.0,
+        "description": "Laptop cao cấp cho lập trình và thiết kế.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Core Ultra 7",
+            "RAM": "32GB",
+            "SSD": "1TB"
+        },
+        "image_url": "https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-14-9440-laptop/xps-14.png"
+    },
+    {
+        "id": 14,
+        "name": "Dell Alienware m16",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 69990000.0,
+        "description": "Gaming laptop RTX 4070.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Core i9",
+            "GPU": "RTX 4070",
+            "RAM": "32GB",
+            "SSD": "1TB"
+        },
+        "image_url": "https://i.dell.com/sites/imagecontent/products/publishingimages/alienware-m16-r2-laptop.png"
+    },
+    {
+        "id": 15,
+        "name": "Dell P2425H",
+        "brand": "Dell",
+        "category": "Màn hình",
+        "price": 4890000.0,
+        "description": "Màn hình văn phòng 24 inch IPS.",
+        "warranty_months": 36,
+        "specifications": {
+            "Refresh": "100Hz",
+            "Tấm nền": "IPS",
+            "Kích thước": "24 inch"
+        },
+        "image_url": "https://i.dell.com/sites/imagecontent/products/publishingimages/dell-24-monitor-p2425h.png"
+    },
+    {
+        "id": 16,
+        "name": "Chuột Logitech M650",
+        "brand": "Logitech",
+        "category": "Phụ kiện",
+        "price": 790000.0,
+        "description": "Chuột không dây văn phòng.",
+        "warranty_months": 24,
+        "specifications": {
+            "Pin": "24 tháng",
+            "Kết nối": "Bluetooth"
+        },
+        "image_url": "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/signature-m650/gallery/m650-graphite-top.png"
+    },
+    {
+        "id": 17,
+        "name": "Bàn phím Logitech K380",
+        "brand": "Logitech",
+        "category": "Phụ kiện",
+        "price": 890000.0,
+        "description": "Bàn phím Bluetooth đa thiết bị.",
+        "warranty_months": 24,
+        "specifications": {
+            "Pin": "24 tháng",
+            "Bluetooth": "Có"
+        },
+        "image_url": "https://resource.logitech.com/content/dam/logitech/en/products/keyboards/k380/gallery/k380-blue-top.png"
+    },
+    {
+        "id": 18,
+        "name": "SSD Kingston NV3 1TB",
+        "brand": "Kingston",
+        "category": "Phụ kiện",
+        "price": 1890000.0,
+        "description": "SSD NVMe PCIe Gen4 tốc độ cao.",
+        "warranty_months": 60,
+        "specifications": {
+            "Chuẩn": "PCIe Gen4",
+            "Dung lượng": "1TB"
+        },
+        "image_url": "https://media.kingston.com/kingston/product/ktc-product-ssd-nv3-nvme-angle-lg.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Sạc Anker Nano 65W",
+        "brand": "Anker",
+        "category": "Phụ kiện",
+        "price": 990000.0,
+        "description": "Sạc nhanh GaN 65W.",
+        "warranty_months": 18,
+        "specifications": {
+            "Cổng": "USB-C",
+            "Công suất": "65W"
+        },
+        "image_url": "https://cdn.anker.com/media/catalog/product/n/a/nano-65w.jpg"
+    },
+    {
+        "id": 20,
+        "name": "WD My Passport 2TB",
+        "brand": "Western Digital",
+        "category": "Phụ kiện",
+        "price": 2290000.0,
+        "description": "Ổ cứng di động 2TB.",
+        "warranty_months": 36,
+        "specifications": {
+            "USB": "3.2",
+            "Dung lượng": "2TB"
+        },
+        "image_url": "https://shop.westerndigital.com/content/dam/store/en-us/assets/products/portable-storage/my-passport/gallery/my-passport-black-front.png"
+    }
+]

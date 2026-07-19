@@ -65,3 +65,24 @@ class ChatRepository:
             .filter(ChatMessage.session_id == session_id)\
             .order_by(ChatMessage.created_at.asc())\
             .offset(skip).limit(limit).all()
+
+    def get_recent_messages(
+        self,
+        session_id: UUID,
+        limit: int = 6,
+    ) -> List[ChatMessage]:
+        """
+        Lấy N tin nhắn gần nhất của một phiên chat.
+        Kết quả được trả về theo đúng thứ tự thời gian (cũ -> mới)
+        để đưa vào prompt cho LLM.
+        """
+
+        messages = (
+            self.db.query(ChatMessage)
+            .filter(ChatMessage.session_id == session_id)
+            .order_by(ChatMessage.created_at.desc())
+            .limit(limit)
+            .all()
+        )
+
+        return list(reversed(messages))
