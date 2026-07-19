@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     PRODUCT_CATALOG_PATH: Path = Path("rag_data/product_catalog_extended.md")
     LEGACY_VECTOR_INDEX_PATH: Path = Path("rag_data/vector_index.json")
     RAG_DOCUMENTS_PATH: Path = Path("rag_data/techcare_rag_documents.json")
-    PRODUCTS_PATH: Path = Path("rag_data/techcare_products_100.json")
+    PRODUCTS_PATH: Path = Path("rag_data/techcare_products.json")
     RAG_TOP_K: int = 4
     MIN_RETRIEVAL_SCORE: float = 0.55
     

@@ -52,6 +52,7 @@ class ChatSession(Base):
     visitor_id = Column(String(255), nullable=False, index=True)
     customer_name = Column(String(255), nullable=True)
     customer_email = Column(String(255), nullable=True)
+    title = Column(String(255), nullable=True, default="New Chat")
     status = Column(String(30), nullable=False, default="active", index=True)
     
     started_at = Column(DateTime(timezone=True), nullable=False, default=utc_now)

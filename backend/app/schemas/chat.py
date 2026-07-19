@@ -14,12 +14,19 @@ class ChatSessionResponse(BaseModel):
     visitor_id: str
     customer_name: Optional[str] = None
     customer_email: Optional[str] = None
+    title: Optional[str] = None
     status: str
     started_at: datetime
     ended_at: Optional[datetime] = None
     updated_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
+class ChatSessionUpdate(BaseModel):
+    title: str = Field(..., max_length=255)
+
+class TitleGenerateRequest(BaseModel):
+    message: str
 
 # --- Message Schemas ---
 class ChatMessageRequest(BaseModel):

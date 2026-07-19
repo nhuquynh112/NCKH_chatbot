@@ -30,7 +30,7 @@ def seed():
         "RAM":"8GB",
         "Bộ nhớ":"128GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/42/337425/iphone-17-black-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -48,7 +48,7 @@ def seed():
         "RAM":"12GB",
         "Bộ nhớ":"256GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/42/337426/iphone-17-pro-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -66,7 +66,7 @@ def seed():
         "SSD":"512GB",
         "GPU":"Apple GPU"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/44/333825/macbook-air-m4-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -83,7 +83,7 @@ def seed():
         "RAM":"8GB",
         "Storage":"128GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/522/334171/ipad-air-m3-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -100,7 +100,7 @@ def seed():
         "Bluetooth":"5.3",
         "Chống nước":"IP54"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/54/315750/airpods-pro-2-type-c-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -121,7 +121,7 @@ def seed():
         "RAM":"12GB",
         "Storage":"256GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/42/329143/samsung-galaxy-s25-ultra-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -138,7 +138,7 @@ def seed():
         "RAM":"12GB",
         "Storage":"256GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/42/329149/samsung-galaxy-s25-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -154,7 +154,7 @@ def seed():
         "RAM":"12GB",
         "Storage":"256GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/522/329017/samsung-galaxy-tab-s10-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -170,7 +170,7 @@ def seed():
         "Bluetooth":"5.4",
         "ANC":"Có"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/54/326507/galaxy-buds3-pro-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -186,7 +186,7 @@ def seed():
         "GPS":"Dual GPS",
         "Pin":"100 giờ"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/7077/326359/galaxy-watch-ultra-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -207,7 +207,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/44/319270/dell-inspiron-15-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -224,7 +224,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"https://cdn.tgdd.vn/Products/Images/44/318628/dell-vostro-thumb-600x600.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -241,7 +241,7 @@ def seed():
         "RAM":"32GB",
         "SSD":"1TB"
     },
-    "image_url":"https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-14-9440-laptop/xps-14.png",
+    "image_url":None,
     "is_active":True
 },
 
@@ -259,7 +259,7 @@ def seed():
         "SSD":"1TB",
         "GPU":"RTX 4070"
     },
-    "image_url":"https://i.dell.com/sites/imagecontent/products/publishingimages/alienware-m16-r2-laptop.png",
+    "image_url":None,
     "is_active":True
 },
 
@@ -276,7 +276,7 @@ def seed():
         "Tấm nền":"IPS",
         "Refresh":"100Hz"
     },
-    "image_url":"https://i.dell.com/sites/imagecontent/products/publishingimages/dell-24-monitor-p2425h.png",
+    "image_url":None,
     "is_active":True
 },
 
@@ -296,7 +296,7 @@ def seed():
         "Kết nối":"Bluetooth",
         "Pin":"24 tháng"
     },
-    "image_url":"https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/signature-m650/gallery/m650-graphite-top.png",
+    "image_url":None,
     "is_active":True
 },
 
@@ -312,7 +312,7 @@ def seed():
         "Bluetooth":"Có",
         "Pin":"24 tháng"
     },
-    "image_url":"https://resource.logitech.com/content/dam/logitech/en/products/keyboards/k380/gallery/k380-blue-top.png",
+    "image_url":None,
     "is_active":True
 },
 
@@ -328,7 +328,7 @@ def seed():
         "Dung lượng":"1TB",
         "Chuẩn":"PCIe Gen4"
     },
-    "image_url":"https://media.kingston.com/kingston/product/ktc-product-ssd-nv3-nvme-angle-lg.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -344,7 +344,7 @@ def seed():
         "Công suất":"65W",
         "Cổng":"USB-C"
     },
-    "image_url":"https://cdn.anker.com/media/catalog/product/n/a/nano-65w.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -360,7 +360,7 @@ def seed():
         "Dung lượng":"2TB",
         "USB":"3.2"
     },
-    "image_url":"https://shop.westerndigital.com/content/dam/store/en-us/assets/products/portable-storage/my-passport/gallery/my-passport-black-front.png",
+    "image_url":None,
     "is_active":True
 },
 
@@ -381,7 +381,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/asus_vivobook15.jpg",
+    "image_url":"/images/products/asus-vivobook-15-oled.jpg",
     "is_active":True
 },
 
@@ -398,7 +398,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"1TB"
     },
-    "image_url":"/images/products/asus_zenbook14.jpg",
+    "image_url":"/images/products/asus-zenbook-14.png",
     "is_active":True
 },
 
@@ -416,7 +416,7 @@ def seed():
         "SSD":"1TB",
         "GPU":"RTX4060"
     },
-    "image_url":"/images/products/rog_g16.jpg",
+    "image_url":"/images/products/rog-strix-g16.png",
     "is_active":True
 },
 
@@ -434,7 +434,7 @@ def seed():
         "SSD":"512GB",
         "GPU":"RTX4050"
     },
-    "image_url":"/images/products/tuf_a15.jpg",
+    "image_url":"/images/products/asus-tuf-a15.png",
     "is_active":True
 },
 
@@ -451,7 +451,7 @@ def seed():
         "RAM":"32GB",
         "SSD":"1TB"
     },
-    "image_url":"/images/products/proart_p16.jpg",
+    "image_url":"/images/products/asus-proart-p16.avif",
     "is_active":True
 },
 
@@ -472,7 +472,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/thinkpad_e14.jpg",
+    "image_url":"/images/products/thinkpad-e14-gen6.avif",
     "is_active":True
 },
 
@@ -490,7 +490,7 @@ def seed():
         "SSD":"512GB",
         "GPU":"RTX4050"
     },
-    "image_url":"/images/products/lenovo_loq15.jpg",
+    "image_url":"/images/products/lenovo-loq-15.webp",
     "is_active":True
 },
 
@@ -507,7 +507,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"1TB"
     },
-    "image_url":"/images/products/yoga_slim7.jpg",
+    "image_url":"/images/products/yoga-slim-7.png",
     "is_active":True
 },
 
@@ -525,7 +525,7 @@ def seed():
         "SSD":"1TB",
         "GPU":"RTX4070"
     },
-    "image_url":"/images/products/legion5.jpg",
+    "image_url":"/images/products/legion-5.avif",
     "is_active":True
 },
 
@@ -541,7 +541,7 @@ def seed():
         "RAM":"8GB",
         "Storage":"256GB"
     },
-    "image_url":"/images/products/tab_p12.jpg",
+    "image_url":"/images/products/lenovo-tab-p12.png",
     "is_active":True
 },
 
@@ -562,7 +562,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/hp_pavilion15.jpg",
+    "image_url":"/images/products/hp-pavilion-15.png",
     "is_active":True
 },
 
@@ -580,7 +580,7 @@ def seed():
         "SSD":"512GB",
         "GPU":"RTX4050"
     },
-    "image_url":"/images/products/hp_victus15.jpg",
+    "image_url":"/images/products/hp-victus-15.png",
     "is_active":True
 },
 
@@ -598,7 +598,7 @@ def seed():
         "SSD":"1TB",
         "GPU":"RTX4070"
     },
-    "image_url":"/images/products/hp_omen16.jpg",
+    "image_url":"/images/products/hp-omen-16.webp",
     "is_active":True
 },
 
@@ -615,7 +615,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"1TB"
     },
-    "image_url":"/images/products/envy_x360.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -632,7 +632,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/elitebook840.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -653,7 +653,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/acer_aspire5.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -670,7 +670,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"1TB"
     },
-    "image_url":"/images/products/swift_go14.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -688,7 +688,7 @@ def seed():
         "SSD":"512GB",
         "GPU":"RTX4050"
     },
-    "image_url":"/images/products/nitro_v15.jpg",
+    "image_url":"/images/products/acer-nitro-v15.avif",
     "is_active":True
 },
 
@@ -706,7 +706,7 @@ def seed():
         "SSD":"1TB",
         "GPU":"RTX4070"
     },
-    "image_url":"/images/products/predator16.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -722,7 +722,7 @@ def seed():
         "Kích thước":"24 inch",
         "Refresh":"100Hz"
     },
-    "image_url":"/images/products/acer_ka242.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -743,7 +743,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/msi_modern15.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -761,7 +761,7 @@ def seed():
         "SSD":"1TB",
         "GPU":"RTX4060"
     },
-    "image_url":"/images/products/msi_katana15.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -779,7 +779,7 @@ def seed():
         "SSD":"2TB",
         "GPU":"RTX4080"
     },
-    "image_url":"/images/products/msi_raider.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -795,7 +795,7 @@ def seed():
         "24 inch":"IPS",
         "Refresh":"100Hz"
     },
-    "image_url":"/images/products/msi_mp2412.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -810,7 +810,7 @@ def seed():
     "specifications":{
         "Jack":"3.5mm"
     },
-    "image_url":"/images/products/msi_gh30.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -831,7 +831,7 @@ def seed():
         "RAM":"16GB",
         "SSD":"512GB"
     },
-    "image_url":"/images/products/gigabyte_g5.jpg",
+    "image_url":"/images/products/gigabyte-g5.png",
     "is_active":True
 },
 
@@ -848,7 +848,7 @@ def seed():
         "RAM":"32GB",
         "SSD":"1TB"
     },
-    "image_url":"/images/products/aorus15.jpg",
+    "image_url":"/images/products/gigabyte-aorus15.png",
     "is_active":True
 },
 
@@ -864,7 +864,7 @@ def seed():
         "27 inch":"QHD",
         "Refresh":"170Hz"
     },
-    "image_url":"/images/products/gs27q.jpg",
+    "image_url":"/images/products/gigabyte-gs27q.png",
     "is_active":True
 },
 
@@ -884,7 +884,7 @@ def seed():
         "RAM":"12GB",
         "Storage":"256GB"
     },
-    "image_url":"/images/products/xiaomi15.jpg",
+    "image_url":"/images/products/xiaomi-15.webp",
     "is_active":True
 },
 
@@ -900,7 +900,7 @@ def seed():
         "RAM":"12GB",
         "Storage":"256GB"
     },
-    "image_url":"/images/products/redmi14pro.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -916,7 +916,7 @@ def seed():
         "RAM":"8GB",
         "Storage":"256GB"
     },
-    "image_url":"/images/products/pad7pro.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -937,7 +937,7 @@ def seed():
         "RAM":"12GB",
         "Storage":"256GB"
     },
-    "image_url":"/images/products/pixel9.jpg",
+    "image_url":None,
     "is_active":True
 },
 
@@ -954,7 +954,7 @@ def seed():
         "RAM":"16GB",
         "Storage":"512GB"
     },
-    "image_url":"/images/products/pixel9pro.jpg",
+    "image_url":None,
     "is_active":True
 }
 

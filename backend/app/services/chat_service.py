@@ -26,7 +26,41 @@ class ChatService:
                 detail=f"Chat session {session_id} not found."
             )
         return session
+
+    def get_sessions_by_visitor(self, visitor_id: str):
+        return self.chat_repo.get_sessions_by_visitor(visitor_id)
+
+    def update_session_title(self, session_id: UUID, title: str):
+        session = self.chat_repo.update_session_title(session_id, title)
+        if not session:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Chat session {session_id} not found."
+            )
+        return session
+
+    def delete_session(self, session_id: UUID):
+        success = self.chat_repo.delete_session(session_id)
+        if not success:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Chat session {session_id} not found."
+            )
+        return success
         
+    async def generate_and_update_title(self, session_id: UUID, message: str) -> str:
+        # Check if session exists
+        session = self.chat_repo.get_session(session_id)
+        if not session:
+            raise HTTPException(status_code=404, detail="Session not found")
+        
+        # Call AI to generate title
+        title = await self.ai_service.generate_title(message)
+        
+        # Update DB
+        self.chat_repo.update_session_title(session_id, title)
+        return title
+
     def get_session_messages(self, session_id: UUID, skip: int = 0, limit: int = 50):
         # Verify session exists
         session = self.chat_repo.get_session(session_id)

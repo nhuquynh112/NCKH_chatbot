@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Loader, ArrowLeft, MessageSquareText, ShieldCheck, Tag } from 'lucide-react';
+import { Loader, ArrowLeft, ImageOff, MessageSquareText, ShieldCheck, Tag } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
 
 const ProductDetail = () => {
@@ -8,6 +8,7 @@ const ProductDetail = () => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [imageFailed, setImageFailed] = useState(false);
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -15,6 +16,7 @@ const ProductDetail = () => {
         const res = await axiosClient.get(`/products/${id}`);
         if (res.success) {
           setProduct(res.data);
+          setImageFailed(false);
         } else {
           setError(res.message);
         }
@@ -56,10 +58,18 @@ const ProductDetail = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           {/* Cột trái: Ảnh */}
           <div className="bg-gray-50 p-8 flex items-center justify-center border-b md:border-b-0 md:border-r border-gray-100">
-            {product.image_url ? (
-              <img src={product.image_url} alt={product.name} className="max-w-full h-auto object-contain drop-shadow-xl rounded-xl" />
+            {product.image_url && !imageFailed ? (
+              <img
+                src={product.image_url}
+                alt={product.name}
+                onError={() => setImageFailed(true)}
+                className="max-h-[420px] w-full object-contain rounded-xl"
+              />
             ) : (
-              <div className="text-gray-400">Chưa có hình ảnh</div>
+              <div className="flex min-h-[320px] flex-col items-center justify-center gap-3 text-gray-400">
+                <ImageOff className="h-10 w-10" />
+                <span className="font-medium">Dang cap nhat anh san pham</span>
+              </div>
             )}
           </div>
           

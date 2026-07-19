@@ -1,13 +1,38 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, Loader } from 'lucide-react';
+import { ImageOff, Search, Loader } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
+
+const ProductImage = ({ product }) => {
+  const [failed, setFailed] = useState(false);
+  const showImage = product.image_url && !failed;
+
+  return (
+    <div className="h-56 bg-gray-50 flex items-center justify-center overflow-hidden">
+      {showImage ? (
+        <img
+          src={product.image_url}
+          alt={product.name}
+          loading="lazy"
+          onError={() => setFailed(true)}
+          className="h-full w-full object-contain p-5"
+        />
+      ) : (
+        <div className="flex flex-col items-center justify-center gap-2 text-gray-400">
+          <ImageOff className="h-8 w-8" />
+          <span className="text-sm font-medium">Dang cap nhat anh</span>
+        </div>
+      )}
+    </div>
+  );
+};
 
 const Products = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [search, setSearch] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   
   // Pagination
   const [page, setPage] = useState(1);
@@ -38,14 +63,28 @@ const Products = () => {
     }
   };
 
+  // Debounce logic: Tự động cập nhật debouncedSearch sau 400ms khi ngừng gõ
   useEffect(() => {
-    fetchProducts(page, search);
-  }, [page]); // Chỉ tự động fetch khi đổi trang
+    const handler = setTimeout(() => {
+      if (search !== debouncedSearch) {
+        setDebouncedSearch(search);
+        setPage(1); // Quay về trang 1 khi tìm kiếm mới
+      }
+    }, 400);
+    return () => clearTimeout(handler);
+  }, [search, debouncedSearch]);
+
+  // Fetch dữ liệu mỗi khi page hoặc từ khóa tìm kiếm (đã debounce) thay đổi
+  useEffect(() => {
+    fetchProducts(page, debouncedSearch);
+  }, [page, debouncedSearch]);
 
   const handleSearch = (e) => {
     e.preventDefault();
-    setPage(1);
-    fetchProducts(1, search);
+    if (search !== debouncedSearch) {
+      setDebouncedSearch(search);
+      setPage(1);
+    }
   };
 
   return (
@@ -54,16 +93,21 @@ const Products = () => {
         <h1 className="text-3xl font-bold text-gray-900">Khám phá Sản phẩm</h1>
         
         {/* Search Bar */}
-        <form onSubmit={handleSearch} className="relative w-full md:w-96">
+        <form onSubmit={handleSearch} className="relative w-full md:w-96 flex items-center">
           <input 
             type="text" 
             placeholder="Tìm kiếm sản phẩm..." 
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 shadow-sm transition-shadow"
+            className="w-full pl-4 pr-12 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 shadow-sm transition-shadow"
           />
-          <Search className="absolute left-3 top-2.5 text-gray-400 w-5 h-5" />
-          <button type="submit" className="hidden">Tìm</button>
+          <button 
+            type="submit" 
+            className="absolute right-2 p-1.5 bg-primary-50 text-primary-600 hover:bg-primary-100 rounded-full transition-colors"
+            title="Tìm kiếm"
+          >
+            <Search className="w-4 h-4" />
+          </button>
         </form>
       </div>
 
@@ -80,15 +124,7 @@ const Products = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((p) => (
               <Link to={`/products/${p.id}`} key={p.id} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group">
-                <div className="aspect-w-1 aspect-h-1 bg-gray-100 relative">
-                  {p.image_url ? (
-                    <img src={p.image_url} alt={p.name} className="object-cover w-full h-48" />
-                  ) : (
-                    <div className="w-full h-48 flex items-center justify-center text-gray-400 bg-gray-50">
-                      No Image
-                    </div>
-                  )}
-                </div>
+                <ProductImage product={p} />
                 <div className="p-5">
                   <div className="text-xs font-semibold text-primary-600 mb-1 uppercase tracking-wider">{p.category}</div>
                   <h3 className="text-lg font-bold text-gray-900 line-clamp-2 mb-2 group-hover:text-primary-600 transition-colors">{p.name}</h3>
