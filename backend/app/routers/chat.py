@@ -6,6 +6,8 @@ from app.database import get_db
 from app.schemas.chat import (
     ChatSessionCreate, 
     ChatSessionResponse, 
+    ChatSessionUpdate,
+    TitleGenerateRequest,
     ChatMessageRequest, 
     ChatMessageResponse,
     ChatFlowResponse
@@ -29,6 +31,60 @@ def create_session(
         success=True,
         message="Chat session created successfully",
         data=session
+    )
+
+@router.get("/sessions", response_model=APIResponse[List[ChatSessionResponse]])
+def get_visitor_sessions(
+    visitor_id: str = Query(..., description="The visitor ID to fetch sessions for"),
+    db: Session = Depends(get_db)
+):
+    service = get_chat_service(db)
+    sessions = service.get_sessions_by_visitor(visitor_id)
+    return APIResponse(
+        success=True,
+        message="Sessions retrieved successfully",
+        data=sessions
+    )
+
+@router.patch("/sessions/{session_id}", response_model=APIResponse[ChatSessionResponse])
+def update_session(
+    session_id: UUID,
+    session_in: ChatSessionUpdate,
+    db: Session = Depends(get_db)
+):
+    service = get_chat_service(db)
+    session = service.update_session_title(session_id, session_in.title)
+    return APIResponse(
+        success=True,
+        message="Session updated successfully",
+        data=session
+    )
+
+@router.delete("/sessions/{session_id}", response_model=APIResponse[None])
+def delete_session(
+    session_id: UUID,
+    db: Session = Depends(get_db)
+):
+    service = get_chat_service(db)
+    service.delete_session(session_id)
+    return APIResponse(
+        success=True,
+        message="Session deleted successfully",
+        data=None
+    )
+
+@router.post("/sessions/{session_id}/generate-title", response_model=APIResponse[str])
+async def generate_session_title(
+    session_id: UUID,
+    request: TitleGenerateRequest,
+    db: Session = Depends(get_db)
+):
+    service = get_chat_service(db)
+    title = await service.generate_and_update_title(session_id, request.message)
+    return APIResponse(
+        success=True,
+        message="Title generated successfully",
+        data=title
     )
 
 @router.post("/messages", response_model=APIResponse[ChatFlowResponse], status_code=status.HTTP_201_CREATED)

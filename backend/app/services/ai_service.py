@@ -92,6 +92,26 @@ class AIService:
             logger.exception("Unexpected local AI runtime error")
             return self._service_unavailable_response()
 
+    async def generate_title(self, message: str) -> str:
+        if self.chatbot is None:
+            return "Đoạn chat mới"
+        try:
+            system_prompt = (
+                "Bạn là một trợ lý ảo. Nhiệm vụ của bạn là đọc tin nhắn của người dùng "
+                "và tóm tắt nó thành một tiêu đề ngắn gọn (không quá 5-6 từ). "
+                "Chỉ bao gồm các từ khóa chính, không giải thích, không dùng dấu ngoặc kép."
+            )
+            result = await asyncio.to_thread(
+                self.chatbot.llm_client.chat,
+                system_prompt,
+                message
+            )
+            title = result.strip().strip('"\'').strip()
+            return title if len(title) > 0 else "Đoạn chat mới"
+        except Exception as exc:
+            logger.error(f"Generate title failed: {exc}")
+            return "Đoạn chat mới"
+
     def _to_ai_response(self, result: ChatResult) -> AIQueryResponse:
         return AIQueryResponse(
             answer=result.answer,

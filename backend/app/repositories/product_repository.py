@@ -26,7 +26,13 @@ class ProductRepository:
         query = self.db.query(Product)
         
         if search:
-            query = query.filter(Product.name.ilike(f"%{search}%"))
+            query = query.filter(
+                or_(
+                    Product.name.ilike(f"%{search}%"),
+                    Product.category.ilike(f"%{search}%"),
+                    Product.brand.ilike(f"%{search}%")
+                )
+            )
         if category:
             query = query.filter(Product.category == category)
         if brand:
@@ -35,7 +41,7 @@ class ProductRepository:
             query = query.filter(Product.is_active == is_active)
 
         total = query.count()
-        products = query.offset(skip).limit(limit).all()
+        products = query.order_by(Product.id.asc()).offset(skip).limit(limit).all()
         return products, total
 
     def create(self, product_in: ProductCreate) -> Product:

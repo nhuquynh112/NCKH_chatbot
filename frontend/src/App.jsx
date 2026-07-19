@@ -8,25 +8,31 @@ import Tickets from './pages/admin/Tickets';
 import FAQs from './pages/admin/FAQs';
 import Login from './pages/admin/Login';
 
+import { ChatProvider } from './contexts/ChatContext';
+import QnAPage from './pages/QnAPage';
+
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<Navigate to="/products" replace />} />
-          <Route path="products" element={<Products />} />
-          <Route path="products/:id" element={<ProductDetail />} />
-        </Route>
-        
-        {/* Admin Routes */}
-        <Route path="/admin/login" element={<Login />} />
+    <ChatProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Navigate to="/products" replace />} />
+            <Route path="products" element={<Products />} />
+            <Route path="products/:id" element={<ProductDetail />} />
+            <Route path="faqs" element={<QnAPage />} />
+          </Route>
+          
+          {/* Admin Routes */}
+          <Route path="/admin/login" element={<Login />} />
         <Route path="/admin" element={<AdminLayout />}>
           <Route index element={<Navigate to="/admin/tickets" replace />} />
           <Route path="tickets" element={<Tickets />} />
           <Route path="faqs" element={<FAQs />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+      </BrowserRouter>
+    </ChatProvider>
   );
 }
 

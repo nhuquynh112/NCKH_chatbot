@@ -1,56 +1,24 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Loader2, User, AlertCircle, Bot } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
+import { useChat } from '../contexts/ChatContext';
 
 const ChatWidget = () => {
+  const { 
+    visitorId, sessionId, messages, isTyping, setIsTyping, 
+    changeSession, addTempMessage, refreshSessions
+  } = useChat();
+  
   const [isOpen, setIsOpen] = useState(false);
-  const [visitorId, setVisitorId] = useState('');
-  const [sessionId, setSessionId] = useState(null);
   
   // States cho Pre-chat Form
   const [customerName, setCustomerName] = useState('');
   const [customerEmail, setCustomerEmail] = useState('');
   const [isStartingSession, setIsStartingSession] = useState(false);
-
-  // States cho Chat
-  const [messages, setMessages] = useState([]);
-  const [inputValue, setInputValue] = useState('');
-  const [isTyping, setIsTyping] = useState(false);
   const [error, setError] = useState(null);
-  
+
+  const [inputValue, setInputValue] = useState('');
   const messagesEndRef = useRef(null);
-
-  // Khởi tạo Visitor ID
-  useEffect(() => {
-    let vid = localStorage.getItem('visitor_id');
-    if (!vid) {
-      vid = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15);
-      localStorage.setItem('visitor_id', vid);
-    }
-    setVisitorId(vid);
-
-    const savedSession = localStorage.getItem('chat_session_id');
-    if (savedSession) {
-      setSessionId(savedSession);
-      loadHistory(savedSession);
-    }
-  }, []);
-
-  const loadHistory = async (sid) => {
-    try {
-      const res = await axiosClient.get(`/chat/sessions/${sid}/messages`);
-      if (res.success && res.data.items) {
-        setMessages(res.data.items);
-      }
-    } catch (err) {
-      console.error('Failed to load history', err);
-      // Nếu session không tồn tại (404), xoá session cũ
-      if (err.response?.status === 404) {
-        localStorage.removeItem('chat_session_id');
-        setSessionId(null);
-      }
-    }
-  };
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -73,14 +41,14 @@ const ChatWidget = () => {
         customer_email: customerEmail || undefined,
       });
       if (res.success) {
-        setSessionId(res.data.id);
-        localStorage.setItem('chat_session_id', res.data.id);
-        setMessages([{
+        changeSession(res.data.id);
+        refreshSessions();
+        addTempMessage({
           id: 'welcome',
           role: 'assistant',
           content: 'Xin chào! Tôi là trợ lý ảo AI. Tôi có thể giúp gì cho bạn hôm nay?',
           created_at: new Date().toISOString()
-        }]);
+        });
       }
     } catch (err) {
       setError('Không thể bắt đầu phiên chat. Vui lòng thử lại.');
@@ -97,14 +65,13 @@ const ChatWidget = () => {
     setInputValue('');
     setError(null);
 
-    // Add user message to UI immediately
     const tempUserMsg = {
       id: Date.now().toString(),
       role: 'user',
       content: userText,
       created_at: new Date().toISOString()
     };
-    setMessages(prev => [...prev, tempUserMsg]);
+    addTempMessage(tempUserMsg);
     setIsTyping(true);
 
     try {
@@ -114,22 +81,29 @@ const ChatWidget = () => {
       });
 
       if (res.success) {
-        const aiMsg = res.data.message;
-        setMessages(prev => [...prev, aiMsg]);
+        addTempMessage(res.data.message);
         
+        // Sinh tiêu đề nếu là tin nhắn đầu (tiêu đề vẫn đang là "New Chat")
+        const currentSessionObj = sessions.find(s => s.id === sessionId);
+        if (currentSessionObj && currentSessionObj.title === "New Chat") {
+           axiosClient.post(`/chat/sessions/${sessionId}/generate-title`, { message: userText })
+             .then(() => refreshSessions())
+             .catch(err => console.error("Failed to generate title", err));
+        } else {
+           refreshSessions();
+        }
+
         if (res.data.ticket_created) {
-          // Add system message
-          setMessages(prev => [...prev, {
+          addTempMessage({
             id: Date.now().toString() + '-sys',
             role: 'system',
             content: '⚠️ Chú ý: Hệ thống đã tự động ghi nhận câu hỏi của bạn và chuyển cho nhân viên hỗ trợ thực. Chúng tôi sẽ phản hồi sớm nhất.',
             created_at: new Date().toISOString()
-          }]);
+          });
         }
       }
     } catch (err) {
       setError('Lỗi kết nối. Không thể gửi tin nhắn.');
-      // Remove temp user msg if needed, or just show error
     } finally {
       setIsTyping(false);
     }
@@ -187,7 +161,6 @@ const ChatWidget = () => {
                         <p className="text-sm whitespace-pre-line">{msg.content}</p>
                         <div className={`text-[10px] mt-1 ${msg.role === 'user' ? 'text-primary-200 text-right' : 'text-gray-400'}`}>
                           {new Date(msg.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                          {msg.response_time_ms && <span className="ml-2">⚡ {msg.response_time_ms}ms</span>}
                         </div>
                       </div>
                     )}
@@ -210,8 +183,11 @@ const ChatWidget = () => {
 
           {/* Footer Input */}
           {sessionId && (
-            <div className="bg-white p-3 border-t border-gray-100">
-              {error && <div className="text-red-500 text-xs mb-2 px-2 flex items-center gap-1"><AlertCircle className="w-3 h-3"/> {error}</div>}
+            <div className="bg-white p-3 border-t border-gray-100 flex flex-col gap-2">
+              <a href="/faqs" className="text-[11px] text-center text-primary-600 hover:underline">
+                Mở rộng cửa sổ Hỏi Đáp & Xem lịch sử
+              </a>
+              {error && <div className="text-red-500 text-xs px-2 flex items-center gap-1"><AlertCircle className="w-3 h-3"/> {error}</div>}
               <form onSubmit={sendMessage} className="relative flex items-center">
                 <input
                   type="text"
