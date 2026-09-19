@@ -32,10 +32,11 @@ class ChatRepository:
             self.db.refresh(session)
         return session
 
-    def get_sessions_by_visitor(self, visitor_id: str) -> List[ChatSession]:
+    def get_sessions_by_visitor(self, visitor_id: str, limit: int = 50) -> List[ChatSession]:
         return self.db.query(ChatSession)\
             .filter(ChatSession.visitor_id == visitor_id)\
             .order_by(ChatSession.updated_at.desc())\
+            .limit(limit)\
             .all()
 
     def update_session_title(self, session_id: UUID, title: str) -> Optional[ChatSession]:

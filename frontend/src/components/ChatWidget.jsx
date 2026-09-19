@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MessageSquare, X, Send, Loader2, User, AlertCircle, Bot } from 'lucide-react';
+import { MessageSquare, X, Send, Loader2, AlertCircle, Bot } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
-import { useChat } from '../contexts/ChatContext';
+import { useChat } from '../contexts/useChat';
 
 const ChatWidget = () => {
   const { 
-    visitorId, sessionId, messages, isTyping, setIsTyping, 
+    visitorId, sessionId, sessions, messages, setMessages, isTyping, setIsTyping,
     changeSession, addTempMessage, refreshSessions
   } = useChat();
   
@@ -16,6 +16,7 @@ const ChatWidget = () => {
   const [customerEmail, setCustomerEmail] = useState('');
   const [isStartingSession, setIsStartingSession] = useState(false);
   const [error, setError] = useState(null);
+  const [activeProduct, setActiveProduct] = useState(null);
 
   const [inputValue, setInputValue] = useState('');
   const messagesEndRef = useRef(null);
@@ -29,6 +30,18 @@ const ChatWidget = () => {
       scrollToBottom();
     }
   }, [messages, isOpen, isTyping]);
+
+  useEffect(() => {
+    const openForProduct = (event) => {
+      setActiveProduct(event.detail || null);
+      setIsOpen(true);
+      if (event.detail?.productName) {
+        setInputValue(`Tư vấn giúp mình về ${event.detail.productName}`);
+      }
+    };
+    window.addEventListener('techcare:open-chat', openForProduct);
+    return () => window.removeEventListener('techcare:open-chat', openForProduct);
+  }, []);
 
   const startSession = async (e) => {
     e.preventDefault();
@@ -50,7 +63,7 @@ const ChatWidget = () => {
           created_at: new Date().toISOString()
         });
       }
-    } catch (err) {
+    } catch {
       setError('Không thể bắt đầu phiên chat. Vui lòng thử lại.');
     } finally {
       setIsStartingSession(false);
@@ -77,11 +90,15 @@ const ChatWidget = () => {
     try {
       const res = await axiosClient.post('/chat/messages', {
         session_id: sessionId,
-        content: userText
+        content: userText,
+        product_id: activeProduct?.productId || undefined
       });
 
       if (res.success) {
         addTempMessage(res.data.message);
+        // product_id is only a first-message hint. Follow-ups are resolved
+        // from chat history so it cannot override a newly named model.
+        setActiveProduct(null);
         
         // Sinh tiêu đề nếu là tin nhắn đầu (tiêu đề vẫn đang là "New Chat")
         const currentSessionObj = sessions.find(s => s.id === sessionId);
@@ -102,8 +119,10 @@ const ChatWidget = () => {
           });
         }
       }
-    } catch (err) {
-      setError('Lỗi kết nối. Không thể gửi tin nhắn.');
+    } catch {
+      setError('Không gửi được tin nhắn. Nội dung vẫn được giữ để bạn thử lại.');
+      setInputValue(userText);
+      setMessages(prev => prev.filter(message => message.id !== tempUserMsg.id));
     } finally {
       setIsTyping(false);
     }
@@ -113,7 +132,7 @@ const ChatWidget = () => {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
       {/* Chat Window */}
       {isOpen && (
-        <div className="bg-white w-[350px] sm:w-[400px] h-[500px] max-h-[80vh] rounded-2xl shadow-2xl border border-gray-100 flex flex-col overflow-hidden mb-4 animate-in slide-in-from-bottom-5 duration-300">
+        <div className="bg-white w-[calc(100vw-2rem)] max-w-[400px] h-[560px] max-h-[80vh] rounded-2xl shadow-2xl border border-gray-100 flex flex-col overflow-hidden mb-4 animate-in slide-in-from-bottom-5 duration-300">
           
           {/* Header */}
           <div className="bg-primary-600 text-white p-4 flex justify-between items-center shadow-md z-10">
@@ -134,14 +153,14 @@ const ChatWidget = () => {
             {!sessionId ? (
               <form onSubmit={startSession} className="bg-white p-5 rounded-xl shadow-sm border border-gray-100 space-y-4">
                 <h4 className="font-bold text-gray-800 text-center mb-2">Bắt đầu trò chuyện</h4>
-                <p className="text-sm text-gray-500 text-center mb-4">Vui lòng để lại thông tin để chúng tôi hỗ trợ tốt hơn (Không bắt buộc)</p>
+                <p className="text-sm text-gray-500 text-center mb-4">Thông tin liên hệ giúp nhân viên phản hồi khi chatbot cần chuyển hỗ trợ (không bắt buộc).</p>
                 <div>
                   <label className="block text-xs font-medium text-gray-700 mb-1">Họ tên</label>
                   <input type="text" value={customerName} onChange={e => setCustomerName(e.target.value)} className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-primary-500 focus:outline-none text-sm" placeholder="Nguyễn Văn A" />
                 </div>
                 <div>
-                  <label className="block text-xs font-medium text-gray-700 mb-1">Email / Số điện thoại</label>
-                  <input type="text" value={customerEmail} onChange={e => setCustomerEmail(e.target.value)} className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-primary-500 focus:outline-none text-sm" placeholder="email@example.com" />
+                  <label className="block text-xs font-medium text-gray-700 mb-1">Email liên hệ</label>
+                  <input type="email" value={customerEmail} onChange={e => setCustomerEmail(e.target.value)} className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-primary-500 focus:outline-none text-sm" placeholder="email@example.com" />
                 </div>
                 {error && <div className="text-red-500 text-xs text-center">{error}</div>}
                 <button type="submit" disabled={isStartingSession} className="w-full bg-primary-600 text-white font-medium py-2 rounded-lg hover:bg-primary-700 flex justify-center items-center gap-2">
@@ -158,7 +177,19 @@ const ChatWidget = () => {
                       </div>
                     ) : (
                       <div className={`max-w-[80%] rounded-2xl px-4 py-2 shadow-sm ${msg.role === 'user' ? 'bg-primary-600 text-white rounded-tr-sm' : 'bg-white border border-gray-100 text-gray-800 rounded-tl-sm'}`}>
-                        <p className="text-sm whitespace-pre-line">{msg.content}</p>
+                        <p className="text-sm whitespace-pre-line leading-relaxed">{renderMessageContent(msg.content)}</p>
+                        {msg.role === 'assistant' && getDisplaySources(msg.sources).length > 0 && (
+                          <details className="mt-2 border-t border-gray-100 pt-2 text-xs text-gray-500">
+                            <summary className="cursor-pointer font-medium">Nguồn dữ liệu ({getDisplaySources(msg.sources).length})</summary>
+                            <ul className="mt-1 list-disc space-y-1 pl-4">
+                              {getDisplaySources(msg.sources).map(source => (
+                                <li key={`${source.id}-${source.title}`}>
+                                  {source?.metadata?.url ? <a href={source.metadata.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">{source.title}</a> : source.title}
+                                </li>
+                              ))}
+                            </ul>
+                          </details>
+                        )}
                         <div className={`text-[10px] mt-1 ${msg.role === 'user' ? 'text-primary-200 text-right' : 'text-gray-400'}`}>
                           {new Date(msg.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                         </div>
@@ -184,6 +215,12 @@ const ChatWidget = () => {
           {/* Footer Input */}
           {sessionId && (
             <div className="bg-white p-3 border-t border-gray-100 flex flex-col gap-2">
+              {activeProduct && (
+                <div className="flex items-center justify-between rounded-lg bg-blue-50 px-3 py-2 text-xs text-blue-800">
+                  <span>Đang hỏi về: <strong>{activeProduct.productName}</strong></span>
+                  <button type="button" onClick={() => setActiveProduct(null)} aria-label="Xóa sản phẩm đang chọn"><X className="h-3.5 w-3.5" /></button>
+                </div>
+              )}
               <a href="/faqs" className="text-[11px] text-center text-primary-600 hover:underline">
                 Mở rộng cửa sổ Hỏi Đáp & Xem lịch sử
               </a>
@@ -219,6 +256,26 @@ const ChatWidget = () => {
       </button>
     </div>
   );
+};
+
+const renderMessageContent = (content = '') => (
+  content.split(/(https:\/\/[^\s]+)/g).map((part, index) => (
+    part.startsWith('https://')
+      ? <a key={`${part}-${index}`} href={part} target="_blank" rel="noopener noreferrer" className="break-all font-medium text-blue-600 underline">{part}</a>
+      : <React.Fragment key={index}>{part}</React.Fragment>
+  ))
+);
+
+const getDisplaySources = (sources) => {
+  if (!Array.isArray(sources)) return [];
+  const seen = new Set();
+  return sources.filter(source => {
+    const title = typeof source?.title === 'string' ? source.title.trim() : '';
+    const key = `${title.toLowerCase()}|${source?.metadata?.source || ''}`;
+    if (!title || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 };
 
 export default ChatWidget;

@@ -61,6 +61,18 @@ class ChromaVectorStore:
     def count(self) -> int:
         return int(self.collection().count())
 
+    def is_current(self, documents: list[Document]) -> bool:
+        existing = self.get_all_documents()
+        if len(existing) != len(documents):
+            return False
+        existing_by_id = {document.id: document for document in existing}
+        return all(
+            document.id in existing_by_id
+            and existing_by_id[document.id].title == document.title
+            and existing_by_id[document.id].content == document.content
+            for document in documents
+        )
+
     def build_index(
         self,
         documents: list[Document],

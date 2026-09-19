@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const axiosClient = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api',
+  timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -12,8 +13,12 @@ axiosClient.interceptors.request.use(
   (config) => {
     // Nếu có auth token, gắn vào đây
     const token = localStorage.getItem('admin_token');
+    const visitorId = localStorage.getItem('visitor_id');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
+    }
+    if (visitorId) {
+      config.headers['X-Visitor-ID'] = visitorId;
     }
     return config;
   },

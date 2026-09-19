@@ -10,6 +10,17 @@ class TicketRepository:
     def get_by_id(self, ticket_id: int) -> Optional[Ticket]:
         return self.db.query(Ticket).filter(Ticket.id == ticket_id).first()
 
+    def get_open_by_session(self, session_id) -> Optional[Ticket]:
+        return (
+            self.db.query(Ticket)
+            .filter(
+                Ticket.session_id == session_id,
+                Ticket.status.in_(["pending", "in_progress"]),
+            )
+            .order_by(Ticket.created_at.desc())
+            .first()
+        )
+
     def get_all(
         self,
         skip: int = 0,
@@ -34,6 +45,22 @@ class TicketRepository:
         self.db.commit()
         self.db.refresh(db_ticket)
         return db_ticket
+
+    def append_customer_message(self, ticket: Ticket, content: str) -> Ticket:
+        ticket.issue = f"{ticket.issue}\nKhách bổ sung: {content}"
+        self.db.commit()
+        self.db.refresh(ticket)
+        return ticket
+
+    def update_customer_phone(self, ticket: Ticket, phone: str) -> Ticket:
+        ticket.customer_phone = phone
+        ticket.issue = (
+            f"{ticket.issue}\nKhách đã bổ sung số điện thoại liên hệ "
+            "(đã lưu trong trường customer_phone)."
+        )
+        self.db.commit()
+        self.db.refresh(ticket)
+        return ticket
 
     def update(self, db_ticket: Ticket, ticket_in: TicketUpdate) -> Ticket:
         update_data = ticket_in.model_dump(exclude_unset=True)

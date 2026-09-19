@@ -1,9 +1,6 @@
-import React, { createContext, useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import axiosClient from '../api/axiosClient';
-
-const ChatContext = createContext();
-
-export const useChat = () => useContext(ChatContext);
+import { ChatContext } from './chat-context';
 
 export const ChatProvider = ({ children }) => {
   const [visitorId, setVisitorId] = useState('');
@@ -28,7 +25,7 @@ export const ChatProvider = ({ children }) => {
   }, []);
 
   // Fetch lịch sử các đoạn chat khi có visitorId
-  const loadSessions = async () => {
+  const loadSessions = useCallback(async () => {
     if (!visitorId) return;
     try {
       const res = await axiosClient.get(`/chat/sessions?visitor_id=${visitorId}`);
@@ -38,14 +35,14 @@ export const ChatProvider = ({ children }) => {
     } catch (error) {
       console.error("Failed to load sessions:", error);
     }
-  };
+  }, [visitorId]);
 
   useEffect(() => {
     loadSessions();
-  }, [visitorId]);
+  }, [loadSessions]);
 
   // Fetch tin nhắn khi đổi Session
-  const loadMessages = async (sid) => {
+  const loadMessages = useCallback(async (sid) => {
     try {
       const res = await axiosClient.get(`/chat/sessions/${sid}/messages`);
       if (res.success && res.data.items) {
@@ -59,7 +56,7 @@ export const ChatProvider = ({ children }) => {
         setMessages([]);
       }
     }
-  };
+  }, []);
 
   useEffect(() => {
     if (sessionId) {
@@ -67,7 +64,7 @@ export const ChatProvider = ({ children }) => {
     } else {
       setMessages([]);
     }
-  }, [sessionId]);
+  }, [sessionId, loadMessages]);
 
   const changeSession = (id) => {
     setSessionId(id);

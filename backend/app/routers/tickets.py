@@ -15,7 +15,8 @@ router = APIRouter(
 @router.post("", response_model=APIResponse[TicketResponse], status_code=status.HTTP_201_CREATED)
 def create_ticket(
     ticket_in: TicketCreate,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    admin: str = Depends(verify_admin_token),
 ):
     service = get_ticket_service(db)
     ticket = service.create_ticket(ticket_in)

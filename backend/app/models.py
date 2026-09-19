@@ -1,13 +1,14 @@
 import uuid
 from datetime import datetime, timezone
 from sqlalchemy import (
-    BigInteger, Boolean, Column, DateTime, ForeignKey, 
-    Integer, Numeric, String, Text
+    BigInteger, Boolean, Column, DateTime, ForeignKey,
+    Integer, JSON, Numeric, String, Text, Uuid
 )
-from sqlalchemy.dialects.postgresql import JSONB, UUID
 from sqlalchemy.orm import relationship
 
 from .database import Base
+
+BIGINT_PK = BigInteger().with_variant(Integer, "sqlite")
 
 def utc_now():
     return datetime.now(timezone.utc)
@@ -23,7 +24,7 @@ class Product(Base):
     description = Column(Text, nullable=False)
     price = Column(Numeric(15, 2), nullable=False, default=0)
     warranty_months = Column(Integer, nullable=True)
-    specifications = Column(JSONB, nullable=False, default=dict)
+    specifications = Column(JSON, nullable=False, default=dict)
     image_url = Column(Text, nullable=True)
     is_active = Column(Boolean, nullable=False, default=True)
 
@@ -38,7 +39,7 @@ class FAQ(Base):
     question = Column(Text, nullable=False)
     answer = Column(Text, nullable=False)
     category = Column(String(100), nullable=False, index=True)
-    keywords = Column(JSONB, nullable=False, default=list)
+    keywords = Column(JSON, nullable=False, default=list)
     is_active = Column(Boolean, nullable=False, default=True)
 
     created_at = Column(DateTime(timezone=True), nullable=False, default=utc_now)
@@ -48,7 +49,7 @@ class FAQ(Base):
 class ChatSession(Base):
     __tablename__ = "chat_sessions"
 
-    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    id = Column(Uuid(as_uuid=True), primary_key=True, default=uuid.uuid4)
     visitor_id = Column(String(255), nullable=False, index=True)
     customer_name = Column(String(255), nullable=True)
     customer_email = Column(String(255), nullable=True)
@@ -66,14 +67,14 @@ class ChatSession(Base):
 class ChatMessage(Base):
     __tablename__ = "chat_messages"
 
-    id = Column(BigInteger, primary_key=True, index=True)
-    session_id = Column(UUID(as_uuid=True), ForeignKey("chat_sessions.id", ondelete="CASCADE"), nullable=False, index=True)
+    id = Column(BIGINT_PK, primary_key=True, index=True)
+    session_id = Column(Uuid(as_uuid=True), ForeignKey("chat_sessions.id", ondelete="CASCADE"), nullable=False, index=True)
     role = Column(String(30), nullable=False, index=True)
     content = Column(Text, nullable=False)
     
     confidence = Column(Numeric(5, 4), nullable=True)
     response_time_ms = Column(Integer, nullable=True)
-    sources = Column(JSONB, nullable=False, default=list)
+    sources = Column(JSON, nullable=False, default=list)
     intent = Column(String(100), nullable=True, index=True)
 
     created_at = Column(DateTime(timezone=True), nullable=False, default=utc_now, index=True)
@@ -85,8 +86,8 @@ class ChatMessage(Base):
 class Ticket(Base):
     __tablename__ = "tickets"
 
-    id = Column(BigInteger, primary_key=True, index=True)
-    session_id = Column(UUID(as_uuid=True), ForeignKey("chat_sessions.id", ondelete="CASCADE"), nullable=False, index=True)
+    id = Column(BIGINT_PK, primary_key=True, index=True)
+    session_id = Column(Uuid(as_uuid=True), ForeignKey("chat_sessions.id", ondelete="CASCADE"), nullable=False, index=True)
     trigger_message_id = Column(BigInteger, ForeignKey("chat_messages.id", ondelete="SET NULL"), nullable=True, unique=True)
     
     subject = Column(String(255), nullable=False)

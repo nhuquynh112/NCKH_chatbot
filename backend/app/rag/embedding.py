@@ -46,6 +46,20 @@ class OllamaClient:
             raise OllamaError("Ollama embedding response is missing embedding")
         return embedding
 
+    def embed_many(self, texts: list[str]) -> list[list[float]]:
+        """Use Ollama's batch endpoint to rebuild an index much faster."""
+        if not texts:
+            return []
+        result = self._post(
+            "/api/embed",
+            {"model": self.embedding_model, "input": texts},
+            timeout=300,
+        )
+        embeddings = result.get("embeddings")
+        if not isinstance(embeddings, list) or len(embeddings) != len(texts):
+            raise OllamaError("Ollama batch embedding response is invalid")
+        return embeddings
+
     def chat(self, system_prompt: str, user_prompt: str) -> str:
         result = self._post(
             "/api/chat",
@@ -56,13 +70,27 @@ class OllamaClient:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
-                "options": {"temperature": 0.2},
+                # CSKH cần câu trả lời ổn định và bám dữ liệu hơn tính sáng tạo.
+                "options": {"temperature": 0},
+                "keep_alive": "30m",
             },
         )
         try:
             return result["message"]["content"]
         except KeyError as exc:
             raise OllamaError("Ollama chat response is missing content") from exc
+
+    def warm_up(self) -> None:
+        self._post(
+            "/api/generate",
+            {
+                "model": self.chat_model,
+                "prompt": "",
+                "stream": False,
+                "keep_alive": "30m",
+            },
+            timeout=300,
+        )
 
     def is_available(self) -> bool:
         try:

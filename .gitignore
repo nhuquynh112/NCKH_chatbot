@@ -54,3 +54,6 @@ backend/chroma_db/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local report builders and render QA artifacts
+.tmp_report/

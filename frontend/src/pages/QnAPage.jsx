@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useChat } from '../contexts/ChatContext';
-import { Bot, User, Send, Loader2, Plus, MessageSquare, Trash2, Edit2, Check, X } from 'lucide-react';
+import { useChat } from '../contexts/useChat';
+import { Bot, User, Send, Plus, MessageSquare, Trash2, Edit2, Check, X } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
 
 const QnAPage = () => {
@@ -12,6 +12,7 @@ const QnAPage = () => {
   const [inputValue, setInputValue] = useState('');
   const [editingSessionId, setEditingSessionId] = useState(null);
   const [editTitle, setEditTitle] = useState('');
+  const [error, setError] = useState('');
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -28,6 +29,7 @@ const QnAPage = () => {
 
     const userText = inputValue.trim();
     setInputValue('');
+    setError('');
 
     // Nếu chưa có session, tạo session mới trước khi gửi tin nhắn
     let currentSession = sessionId;
@@ -63,6 +65,13 @@ const QnAPage = () => {
 
       if (res.success) {
         addTempMessage(res.data.message);
+        if (res.data.ticket_created) {
+          addTempMessage({
+            id: `${Date.now()}-ticket`, role: 'system',
+            content: 'Hệ thống đã tạo ticket và chuyển nội dung cho nhân viên hỗ trợ.',
+            created_at: new Date().toISOString()
+          });
+        }
         
         // Cập nhật title tự động nếu là tin nhắn đầu tiên (title đang là "New Chat")
         const currentSessionObj = sessions.find(s => s.id === currentSession);
@@ -77,6 +86,8 @@ const QnAPage = () => {
       }
     } catch (err) {
       console.error("Failed to send message", err);
+      setError('Không gửi được tin nhắn. Nội dung đã được giữ để bạn thử lại.');
+      setInputValue(userText);
     } finally {
       setIsTyping(false);
     }
@@ -188,19 +199,23 @@ const QnAPage = () => {
               <p className="mt-2 text-sm text-center max-w-md">Bạn có thể hỏi tôi về các sản phẩm, chính sách bảo hành, hoặc bất cứ thắc mắc nào về dịch vụ của chúng tôi.</p>
             </div>
           ) : (
-            messages.map((msg) => (
+            messages.map((msg) => msg.role === 'system' ? (
+              <div key={msg.id} className="mx-auto max-w-xl rounded-lg border border-amber-200 bg-amber-50 px-4 py-2 text-center text-xs text-amber-800">{msg.content}</div>
+            ) : (
               <div key={msg.id} className={`flex gap-4 ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}>
                 <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${msg.role === 'user' ? 'bg-primary-100 text-primary-700' : 'bg-green-100 text-green-700'}`}>
                   {msg.role === 'user' ? <User className="w-5 h-5" /> : <Bot className="w-5 h-5" />}
                 </div>
                 <div className={`max-w-[75%] rounded-2xl p-4 shadow-sm ${msg.role === 'user' ? 'bg-primary-600 text-white rounded-tr-sm' : 'bg-gray-50 border border-gray-100 text-gray-800 rounded-tl-sm'}`}>
-                  <p className="text-sm whitespace-pre-line leading-relaxed">{msg.content}</p>
-                  {msg.sources && msg.sources.length > 0 && (
+                  <p className="text-sm whitespace-pre-line leading-relaxed">{renderMessageContent(msg.content)}</p>
+                  {getDisplaySources(msg.sources).length > 0 && (
                     <div className="mt-3 pt-3 border-t border-gray-200">
                       <p className="text-xs font-semibold text-gray-500 mb-1">Nguồn tham khảo:</p>
                       <ul className="text-xs text-gray-400 list-disc pl-4 space-y-0.5">
-                        {msg.sources.map((src, idx) => (
-                          <li key={idx}>{src.source}</li>
+                        {getDisplaySources(msg.sources).map((src) => (
+                          <li key={`${src.id}-${src.title}`}>
+                            {src?.metadata?.url ? <a href={src.metadata.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">{src.title}</a> : src.title}
+                          </li>
                         ))}
                       </ul>
                     </div>
@@ -226,6 +241,7 @@ const QnAPage = () => {
 
         {/* Input Area */}
         <div className="p-4 bg-white border-t border-gray-100">
+          {error && <p className="mx-auto mb-2 max-w-4xl text-xs text-red-600">{error}</p>}
           <form onSubmit={handleSendMessage} className="max-w-4xl mx-auto relative flex items-center shadow-sm border border-gray-300 rounded-xl overflow-hidden focus-within:ring-2 focus-within:ring-primary-500 focus-within:border-primary-500 transition-all">
             <input
               type="text"
@@ -250,6 +266,26 @@ const QnAPage = () => {
       </div>
     </div>
   );
+};
+
+const renderMessageContent = (content = '') => (
+  content.split(/(https:\/\/[^\s]+)/g).map((part, index) => (
+    part.startsWith('https://')
+      ? <a key={`${part}-${index}`} href={part} target="_blank" rel="noopener noreferrer" className="break-all font-medium text-blue-600 underline">{part}</a>
+      : <React.Fragment key={index}>{part}</React.Fragment>
+  ))
+);
+
+const getDisplaySources = (sources) => {
+  if (!Array.isArray(sources)) return [];
+  const seen = new Set();
+  return sources.filter(source => {
+    const title = typeof source?.title === 'string' ? source.title.trim() : '';
+    const key = `${title.toLowerCase()}|${source?.metadata?.source || ''}`;
+    if (!title || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 };
 
 export default QnAPage;

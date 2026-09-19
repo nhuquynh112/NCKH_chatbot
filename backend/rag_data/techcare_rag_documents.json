@@ -1,207 +1,903 @@
 [
   {
-    "id": "TC-LT-001",
+    "id": "anker-nano-65w",
     "type": "product",
-    "title": "Laptop NovaBook Air 14",
-    "content": "Laptop NovaBook Air 14 mã TC-LT-001 thuộc nhóm laptop. Giá niêm yết 14.990.000 VND. Thông tin chính: Intel Core i5 thế hệ 13, RAM 16GB, SSD 512GB, màn hình 14 inch Full HD, pin 7-9 giờ. Phù hợp với nhu cầu sinh viên, nhân viên văn phòng, học online, Word, Excel, PowerPoint, lập trình cơ bản và thiết kế nhẹ. Bảo hành 24 tháng.",
+    "title": "Sạc Anker Nano 65W",
+    "content": "Sạc Anker Nano 65W mã anker-nano-65w thuộc nhóm Phụ kiện. Hãng: Anker. Giá niêm yết: 990.000 VNĐ. Bảo hành: 18 tháng. Mô tả: Sạc nhanh GaN 65W..\n\nThông số kỹ thuật:\n- Cổng: USB-C\n- Công suất: 65W",
     "metadata": {
-      "sku": "TC-LT-001",
-      "category": "laptop",
-      "source": "synthetic_catalog"
+      "product_id": "19",
+      "slug": "anker-nano-65w",
+      "sku": "anker-nano-65w",
+      "category": "Phụ kiện",
+      "brand": "Anker",
+      "source": "techcare_products.json",
+      "verification_status": "store_catalog_only",
+      "verified_at": "",
+      "source_urls": "[]"
     }
   },
   {
-    "id": "TC-LT-002",
+    "id": "rog-strix-g16",
     "type": "product",
-    "title": "Laptop GamePro 15",
-    "content": "Laptop GamePro 15 mã TC-LT-002 thuộc nhóm laptop. Giá niêm yết 24.990.000 VND. Thông tin chính: AMD Ryzen 7, RAM 16GB, SSD 1TB, GPU RTX 4060, màn hình 15.6 inch 144Hz. Phù hợp với nhu cầu chơi game, đồ họa 2D/3D, render video và học ngành kỹ thuật. Bảo hành 24 tháng.",
+    "title": "ASUS ROG Strix G16",
+    "content": "ASUS ROG Strix G16 mã rog-strix-g16 thuộc nhóm Laptop. Hãng: ASUS. Giá niêm yết: 36.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop gaming RTX4060..\n\nThông số kỹ thuật:\n- CPU: Core i7-14650HX\n- GPU: RTX4060\n- RAM: 16GB\n- SSD: 1TB",
     "metadata": {
-      "sku": "TC-LT-002",
-      "category": "laptop",
-      "source": "synthetic_catalog"
+      "product_id": "23",
+      "slug": "rog-strix-g16",
+      "sku": "rog-strix-g16",
+      "category": "Laptop",
+      "brand": "ASUS",
+      "source": "techcare_products.json",
+      "verification_status": "store_catalog_only",
+      "verified_at": "",
+      "source_urls": "[]"
     }
   },
   {
-    "id": "TC-LT-003",
+    "id": "legion-5",
     "type": "product",
-    "title": "Laptop EduBook 13",
-    "content": "Laptop EduBook 13 mã TC-LT-003 thuộc nhóm laptop. Giá niêm yết 9.990.000 VND. Thông tin chính: Intel Core i3, RAM 8GB, SSD 256GB, màn hình 13.3 inch Full HD, nặng 1.18kg. Phù hợp với nhu cầu học sinh, sinh viên cần máy gọn nhẹ để học online, làm bài tập, duyệt web, Word và Excel cơ bản. Bảo hành 18 tháng.",
+    "title": "Lenovo Legion 5",
+    "content": "Lenovo Legion 5 mã legion-5 thuộc nhóm Laptop. Hãng: Lenovo. Giá niêm yết: 32.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop hiệu năng cao..\n\nThông số kỹ thuật:\n- CPU: Ryzen 9\n- GPU: RTX4070\n- RAM: 32GB\n- SSD: 1TB",
     "metadata": {
-      "sku": "TC-LT-003",
-      "category": "laptop",
-      "source": "synthetic_catalog"
+      "product_id": "29",
+      "slug": "legion-5",
+      "sku": "legion-5",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "source": "techcare_products.json",
+      "verification_status": "store_catalog_only",
+      "verified_at": "",
+      "source_urls": "[]"
     }
   },
   {
-    "id": "TC-PH-004",
+    "id": "hp-pavilion-15",
     "type": "product",
-    "title": "Điện thoại PixelOne A55",
-    "content": "Điện thoại PixelOne A55 mã TC-PH-004 thuộc nhóm điện thoại. Giá niêm yết 7.990.000 VND. Thông tin chính: màn hình AMOLED 6.5 inch 120Hz, RAM 8GB, bộ nhớ 128GB, camera 64MP, pin 5000mAh. Phù hợp với nhu cầu chụp ảnh, dùng mạng xã hội, xem phim và chơi game nhẹ. Bảo hành 12 tháng.",
+    "title": "HP Pavilion 15",
+    "content": "HP Pavilion 15 mã hp-pavilion-15 thuộc nhóm Laptop. Hãng: HP. Giá niêm yết: 17.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop học tập và văn phòng..\n\nThông số kỹ thuật:\n- CPU: Core i5\n- RAM: 16GB\n- SSD: 512GB",
     "metadata": {
-      "sku": "TC-PH-004",
-      "category": "điện thoại",
-      "source": "synthetic_catalog"
+      "product_id": "31",
+      "slug": "hp-pavilion-15",
+      "sku": "hp-pavilion-15",
+      "category": "Laptop",
+      "brand": "HP",
+      "source": "techcare_products.json",
+      "verification_status": "store_catalog_only",
+      "verified_at": "",
+      "source_urls": "[]"
     }
   },
   {
-    "id": "TC-PH-005",
+    "id": "gigabyte-g5",
     "type": "product",
-    "title": "Điện thoại PixelOne Pro X",
-    "content": "Điện thoại PixelOne Pro X mã TC-PH-005 thuộc nhóm điện thoại. Giá niêm yết 15.990.000 VND. Thông tin chính: màn hình OLED 6.7 inch 120Hz, RAM 12GB, bộ nhớ 256GB, camera 108MP, tele 3x. Phù hợp với nhu cầu người cần camera tốt, hiệu năng cao, bộ nhớ lớn và dùng lâu dài. Bảo hành 12 tháng.",
+    "title": "Gigabyte G5",
+    "content": "Gigabyte G5 mã gigabyte-g5 thuộc nhóm Laptop. Hãng: Gigabyte. Giá niêm yết: 26.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop RTX4060..\n\nThông số kỹ thuật:\n- CPU: Core i7\n- RAM: 16GB\n- SSD: 512GB",
     "metadata": {
-      "sku": "TC-PH-005",
-      "category": "điện thoại",
-      "source": "synthetic_catalog"
+      "product_id": "46",
+      "slug": "gigabyte-g5",
+      "sku": "gigabyte-g5",
+      "category": "Laptop",
+      "brand": "Gigabyte",
+      "source": "techcare_products.json",
+      "verification_status": "store_catalog_only",
+      "verified_at": "",
+      "source_urls": "[]"
     }
   },
   {
-    "id": "TC-TB-006",
+    "id": "gigabyte-aorus15",
     "type": "product",
-    "title": "Máy tính bảng TabLearn 11",
-    "content": "Máy tính bảng TabLearn 11 mã TC-TB-006 thuộc nhóm máy tính bảng. Giá niêm yết 8.490.000 VND. Thông tin chính: màn hình 11 inch 2K, RAM 8GB, bộ nhớ 128GB, hỗ trợ bút cảm ứng, pin 8000mAh. Phù hợp với nhu cầu ghi chú, học online, đọc tài liệu, xem video và làm việc nhẹ. Bảo hành 12 tháng.",
+    "title": "Gigabyte Aorus 15",
+    "content": "Gigabyte Aorus 15 mã gigabyte-aorus15 thuộc nhóm Laptop. Hãng: Gigabyte. Giá niêm yết: 39.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop cao cấp..\n\nThông số kỹ thuật:\n- CPU: Core Ultra 9\n- RAM: 32GB\n- SSD: 1TB",
     "metadata": {
-      "sku": "TC-TB-006",
-      "category": "máy tính bảng",
-      "source": "synthetic_catalog"
+      "product_id": "47",
+      "slug": "gigabyte-aorus15",
+      "sku": "gigabyte-aorus15",
+      "category": "Laptop",
+      "brand": "Gigabyte",
+      "source": "techcare_products.json",
+      "verification_status": "store_catalog_only",
+      "verified_at": "",
+      "source_urls": "[]"
     }
   },
   {
-    "id": "TC-HP-007",
+    "id": "iphone-17-256gb",
     "type": "product",
-    "title": "Tai nghe SonicBuds Pro",
-    "content": "Tai nghe SonicBuds Pro mã TC-HP-007 thuộc nhóm tai nghe. Giá niêm yết 1.990.000 VND. Thông tin chính: true wireless, chống ồn chủ động ANC, xuyên âm, IPX4, pin 7 giờ và 28 giờ với hộp sạc. Phù hợp với nhu cầu học online, nghe nhạc, gọi điện và di chuyển ngoài đường. Bảo hành 12 tháng.",
+    "title": "iPhone 17 256GB",
+    "content": "iPhone 17 256GB mã iphone-17-256gb thuộc nhóm Điện thoại. Hãng: Apple. Giá niêm yết: 24.999.000 VNĐ. Bảo hành: 12 tháng. Mô tả: iPhone 17 màn hình Super Retina XDR 6,3 inch có ProMotion, chip A19 và hệ thống camera kép 48MP..\n\nThông số kỹ thuật:\n- Chip: Apple A19\n- Bộ nhớ: 256GB\n- Camera sau: Fusion Main 48MP + Fusion Ultra Wide 48MP\n- Màn hình: 6,3 inch OLED, ProMotion đến 120Hz\n- Thời lượng video: Tối đa 30 giờ\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "sku": "TC-HP-007",
-      "category": "tai nghe",
-      "source": "synthetic_catalog"
+      "product_id": "1",
+      "slug": "iphone-17-256gb",
+      "sku": "iphone-17-256gb",
+      "category": "Điện thoại",
+      "brand": "Apple",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Apple – Thông số kỹ thuật iPhone 17\", \"url\": \"https://www.apple.com/vn/iphone-17/specs/\"}, {\"title\": \"Apple Store Việt Nam – iPhone 17 256GB\", \"url\": \"https://www.apple.com/vn/shop/buy-iphone/iphone-17/m%C3%A0n-h%C3%ACnh-6%2C3-inch-256gb-%C4%91en\"}]"
     }
   },
   {
-    "id": "TC-HP-008",
+    "id": "iphone-17-pro-256gb",
     "type": "product",
-    "title": "Tai nghe SonicBuds Lite",
-    "content": "Tai nghe SonicBuds Lite mã TC-HP-008 thuộc nhóm tai nghe. Giá niêm yết 790.000 VND. Thông tin chính: true wireless, mic đàm thoại, IPX4, pin 5 giờ và 20 giờ với hộp sạc, không có ANC. Phù hợp với nhu cầu nghe gọi cơ bản, học online và ngân sách tiết kiệm. Bảo hành 12 tháng.",
+    "title": "iPhone 17 Pro 256GB",
+    "content": "iPhone 17 Pro 256GB mã iphone-17-pro-256gb thuộc nhóm Điện thoại. Hãng: Apple. Giá niêm yết: 34.999.000 VNĐ. Bảo hành: 12 tháng. Mô tả: iPhone 17 Pro 6,3 inch dùng chip A19 Pro và hệ thống ba camera Fusion 48MP..\n\nThông số kỹ thuật:\n- Chip: Apple A19 Pro, CPU 6 lõi, GPU 6 lõi\n- Bộ nhớ: 256GB\n- Camera sau: Ba camera Fusion 48MP\n- Màn hình: 6,3 inch OLED, ProMotion đến 120Hz\n- Thời lượng video: Tối đa 37 giờ\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "sku": "TC-HP-008",
-      "category": "tai nghe",
-      "source": "synthetic_catalog"
+      "product_id": "2",
+      "slug": "iphone-17-pro-256gb",
+      "sku": "iphone-17-pro-256gb",
+      "category": "Điện thoại",
+      "brand": "Apple",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Apple Support – iPhone 17 Pro Tech Specs\", \"url\": \"https://support.apple.com/en-my/125090\"}, {\"title\": \"Apple Store Việt Nam – iPhone 17 Pro 256GB\", \"url\": \"https://www.apple.com/vn/shop/buy-iphone/iphone-17-pro/m%C3%A0n-h%C3%ACnh-6%2C3-inch-256gb-b%E1%BA%A1c\"}]"
     }
   },
   {
-    "id": "TC-WA-009",
+    "id": "macbook-air-m4",
     "type": "product",
-    "title": "Đồng hồ FitWatch S2",
-    "content": "Đồng hồ FitWatch S2 mã TC-WA-009 thuộc nhóm đồng hồ thông minh. Giá niêm yết 2.490.000 VND. Thông tin chính: đo nhịp tim, SpO2, theo dõi giấc ngủ, 100 chế độ luyện tập, pin 7 ngày, chống nước 5ATM. Phù hợp với nhu cầu theo dõi sức khỏe, luyện tập và nhận thông báo điện thoại. Bảo hành 12 tháng.",
+    "title": "MacBook Air M4 13 inch",
+    "content": "MacBook Air M4 13 inch mã macbook-air-m4 thuộc nhóm Laptop. Hãng: Apple. Giá niêm yết: 27.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: MacBook Air 13 inch với chip M4, bộ nhớ thống nhất 16GB, SSD 512GB và thời lượng xem video công bố đến 18 giờ..\n\nThông số kỹ thuật:\n- CPU: Apple M4, CPU 10 lõi\n- GPU: Apple GPU\n- Pin: 53,8Wh; xem video tối đa 18 giờ\n- RAM: 16GB unified memory\n- SSD: 512GB\n- Cổng: MagSafe 3, 2 x Thunderbolt 4, jack 3,5mm\n- Màn hình: Liquid Retina 13,6 inch, 2560 x 1664, 500 nit\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "sku": "TC-WA-009",
-      "category": "đồng hồ thông minh",
-      "source": "synthetic_catalog"
+      "product_id": "3",
+      "slug": "macbook-air-m4",
+      "sku": "macbook-air-m4",
+      "category": "Laptop",
+      "brand": "Apple",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Apple Support – MacBook Air 13-inch M4 Tech Specs\", \"url\": \"https://support.apple.com/en-ie/122209\"}]"
     }
   },
   {
-    "id": "TC-PB-010",
+    "id": "ipad-air-m3",
     "type": "product",
-    "title": "Sạc dự phòng VoltPack 20K",
-    "content": "Sạc dự phòng VoltPack 20K mã TC-PB-010 thuộc nhóm sạc dự phòng. Giá niêm yết 890.000 VND. Thông tin chính: 20.000mAh, USB-C Power Delivery 30W, sạc nhanh điện thoại, máy tính bảng và một số laptop mỏng nhẹ. Phù hợp với nhu cầu người cần pin dự phòng dung lượng cao khi đi học, đi làm hoặc du lịch. Bảo hành 12 tháng.",
+    "title": "iPad Air M3 Wi‑Fi 128GB",
+    "content": "iPad Air M3 Wi‑Fi 128GB mã ipad-air-m3 thuộc nhóm Máy tính bảng. Hãng: Apple. Giá niêm yết: 17.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: iPad Air dùng chip M3, bộ nhớ 128GB; catalog cửa hàng cần xác nhận thêm kích thước 11 inch hay 13 inch trước khi chốt đơn..\n\nThông số kỹ thuật:\n- RAM: 8GB\n- Chip: Apple M3\n- Storage: 128GB\n- Bộ nhớ: 128GB\n- Kết nối: Wi‑Fi\n- Lưu ý biến thể: Cần xác nhận bản 11 inch hoặc 13 inch",
     "metadata": {
-      "sku": "TC-PB-010",
-      "category": "sạc dự phòng",
-      "source": "synthetic_catalog"
+      "product_id": "4",
+      "slug": "ipad-air-m3",
+      "sku": "ipad-air-m3",
+      "category": "Máy tính bảng",
+      "brand": "Apple",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Apple – iPad Air Tech Specs\", \"url\": \"https://www.apple.com/ipad-air/specs/\"}, {\"title\": \"Apple Newsroom Việt Nam – iPad Air M3\", \"url\": \"https://www.apple.com/vn/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/\"}]"
     }
   },
   {
-    "id": "policy_warranty",
-    "type": "policy",
-    "title": "Chính sách bảo hành",
-    "content": "Laptop NovaBook Air 14 và GamePro 15 bảo hành 24 tháng, EduBook 13 bảo hành 18 tháng. Điện thoại, máy tính bảng, tai nghe, đồng hồ thông minh và sạc dự phòng bảo hành 12 tháng. Khi cần bảo hành, khách cung cấp mã đơn hàng, số điện thoại mua hàng, tên sản phẩm, mô tả lỗi và hình ảnh/video nếu có.",
+    "id": "airpods-pro-2",
+    "type": "product",
+    "title": "AirPods Pro 2 USB-C",
+    "content": "AirPods Pro 2 USB-C mã airpods-pro-2 thuộc nhóm Tai nghe. Hãng: Apple. Giá niêm yết: 5.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: AirPods Pro 2 kèm hộp sạc MagSafe USB‑C, có chống ồn chủ động, chip H2 và chuẩn IP54..\n\nThông số kỹ thuật:\n- Pin: 6 giờ\n- Chip: Apple H2\n- Bluetooth: 5.3\n- Hộp sạc: MagSafe, Apple Watch, Qi hoặc USB‑C\n- Kết nối: Bluetooth 5.3\n- Chống ồn: Active Noise Cancellation\n- Pin tai nghe: Tối đa 6 giờ mỗi lần sạc\n- Pin kèm hộp: Tối đa 30 giờ nghe\n- Chống nước: IP54\n- Kháng bụi/nước: IP54\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_policy"
+      "product_id": "5",
+      "slug": "airpods-pro-2",
+      "sku": "airpods-pro-2",
+      "category": "Tai nghe",
+      "brand": "Apple",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Apple Support – AirPods Pro 2 USB‑C Tech Specs\", \"url\": \"https://support.apple.com/en-us/111834\"}]"
     }
   },
   {
-    "id": "policy_return",
-    "type": "policy",
-    "title": "Chính sách đổi trả",
-    "content": "TechCare hỗ trợ đổi trả trong 7 ngày kể từ ngày nhận hàng nếu sản phẩm còn đầy đủ hộp, phụ kiện, hóa đơn, chưa trầy xước, chưa vô nước và chưa kích hoạt bảo hành điện tử nếu sản phẩm yêu cầu kích hoạt. Nếu lỗi do nhà sản xuất trong 7 ngày đầu, TechCare hỗ trợ đổi mới cùng model nếu còn hàng.",
+    "id": "galaxy-s25-ultra",
+    "type": "product",
+    "title": "Samsung Galaxy S25 Ultra",
+    "content": "Samsung Galaxy S25 Ultra mã galaxy-s25-ultra thuộc nhóm Điện thoại. Hãng: Samsung. Giá niêm yết: 32.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Galaxy S25 Ultra dùng Snapdragon 8 Elite for Galaxy, màn hình 6,9 inch và camera chính 200MP..\n\nThông số kỹ thuật:\n- Pin: 5000mAh\n- RAM: 12GB\n- Chip: Snapdragon 8 Elite for Galaxy\n- Storage: 256GB\n- Bộ nhớ: 256GB\n- Camera sau: 200MP + 50MP + 50MP + 10MP\n- Màn hình: 6,9 inch Dynamic AMOLED 2X, 120Hz\n- Kháng nước/bụi: IP68\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_policy"
+      "product_id": "6",
+      "slug": "galaxy-s25-ultra",
+      "sku": "galaxy-s25-ultra",
+      "category": "Điện thoại",
+      "brand": "Samsung",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Samsung – Galaxy S25 Series B2B Spec Sheet\", \"url\": \"https://images.samsung.com/is/content/samsung/assets/us/business/mobile/phones/galaxy-s25/02052025/S25_Series_B2B_Spec_Sheet_HRc.pdf\"}]"
     }
   },
   {
-    "id": "policy_shipping",
-    "type": "policy",
-    "title": "Chính sách giao hàng",
-    "content": "TechCare giao hàng toàn quốc. Nội thành TP.HCM và Hà Nội thường nhận trong 1-2 ngày làm việc. Các tỉnh thành khác thường nhận trong 3-5 ngày làm việc. Phí giao hàng tiêu chuẩn là 30.000 VND cho phụ kiện và 50.000 VND cho laptop, điện thoại, máy tính bảng. Đơn từ 5.000.000 VND được miễn phí giao hàng tiêu chuẩn.",
+    "id": "galaxy-s25",
+    "type": "product",
+    "title": "Samsung Galaxy S25",
+    "content": "Samsung Galaxy S25 mã galaxy-s25 thuộc nhóm Điện thoại. Hãng: Samsung. Giá niêm yết: 22.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Galaxy S25 dùng Snapdragon 8 Elite for Galaxy, màn hình 6,2 inch 120Hz và camera chính 50MP..\n\nThông số kỹ thuật:\n- Pin: 4000mAh\n- RAM: 12GB\n- Chip: Snapdragon 8 Elite for Galaxy\n- Storage: 256GB\n- Bộ nhớ: 256GB\n- Camera sau: 50MP + 12MP + 10MP\n- Màn hình: 6,2 inch Dynamic AMOLED 2X, 120Hz\n- Kháng nước/bụi: IP68\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_policy"
+      "product_id": "7",
+      "slug": "galaxy-s25",
+      "sku": "galaxy-s25",
+      "category": "Điện thoại",
+      "brand": "Samsung",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Samsung – Galaxy S25 Series B2B Spec Sheet\", \"url\": \"https://images.samsung.com/is/content/samsung/assets/us/business/mobile/phones/galaxy-s25/02052025/S25_Series_B2B_Spec_Sheet_HRc.pdf\"}]"
     }
   },
   {
-    "id": "policy_payment",
-    "type": "policy",
-    "title": "Chính sách thanh toán",
-    "content": "TechCare hỗ trợ COD, chuyển khoản ngân hàng, thẻ ATM nội địa, Visa/Mastercard và ví điện tử Momo. Nếu thanh toán online bị trừ tiền nhưng đơn chưa xác nhận, khách cung cấp số điện thoại đặt hàng, mã giao dịch và ảnh chụp biên lai để nhân viên kiểm tra trong 24 giờ làm việc.",
+    "id": "galaxy-tab-s10",
+    "type": "product",
+    "title": "Samsung Galaxy Tab S10+ 12GB/256GB",
+    "content": "Samsung Galaxy Tab S10+ 12GB/256GB mã galaxy-tab-s10 thuộc nhóm Máy tính bảng. Hãng: Samsung. Giá niêm yết: 18.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Galaxy Tab S10+ có màn hình Dynamic AMOLED 2X 12,4 inch, chip Dimensity 9300+ và chuẩn IP68..\n\nThông số kỹ thuật:\n- RAM: 12GB\n- Chip: MediaTek Dimensity 9300+\n- Storage: 256GB\n- Bộ nhớ: 256GB\n- Camera sau: 13MP + 8MP\n- Màn hình: 12,4 inch Dynamic AMOLED 2X\n- Kháng nước/bụi: IP68\n- Lưu ý biến thể: Tên cũ 'Galaxy Tab S10' không phải tên model đầy đủ",
     "metadata": {
-      "source": "synthetic_policy"
+      "product_id": "8",
+      "slug": "galaxy-tab-s10",
+      "sku": "galaxy-tab-s10",
+      "category": "Máy tính bảng",
+      "brand": "Samsung",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Samsung – Galaxy Tab S10 Series\", \"url\": \"https://www.samsung.com/us/tablets/galaxy-tab-s10/\"}]"
     }
   },
   {
-    "id": "policy_ticket",
-    "type": "policy",
-    "title": "Quy trình tạo ticket",
-    "content": "Chatbot nên tạo ticket khi khách cần kiểm tra đơn hàng, lỗi kỹ thuật, bảo hành, đổi trả, hoàn tiền, thanh toán lỗi, tư vấn cấu hình chi tiết hoặc câu hỏi vượt ngoài dữ liệu RAG. Thông tin cần có: họ tên, số điện thoại, email nếu có, mã đơn hàng nếu có, tên sản phẩm, số serial nếu có, vấn đề cần hỗ trợ và hình ảnh/video minh chứng. SLA phản hồi là trong 24 giờ làm việc.",
+    "id": "galaxy-buds3-pro",
+    "type": "product",
+    "title": "Galaxy Buds3 Pro",
+    "content": "Galaxy Buds3 Pro mã galaxy-buds3-pro thuộc nhóm Tai nghe. Hãng: Samsung. Giá niêm yết: 4.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Galaxy Buds3 Pro có ANC, Bluetooth 5.4 và chuẩn kháng nước/bụi IP57..\n\nThông số kỹ thuật:\n- ANC: Có\n- Pin: Tối đa 6 giờ / 26 giờ kèm hộp khi bật ANC\n- Bluetooth: 5.4\n- Kết nối: Bluetooth 5.4\n- Chống ồn: ANC\n- Pin khi tắt ANC: Tối đa 7 giờ / 30 giờ kèm hộp\n- Kháng nước/bụi: IP57\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_policy"
+      "product_id": "9",
+      "slug": "galaxy-buds3-pro",
+      "sku": "galaxy-buds3-pro",
+      "category": "Tai nghe",
+      "brand": "Samsung",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Samsung – Galaxy Buds3 Pro Specifications\", \"url\": \"https://www.samsung.com/ca/business/audio-sound/galaxy-buds/galaxy-buds3-pro-white-sm-r630nzwaxac/\"}]"
     }
   },
   {
-    "id": "order_TCDH1001",
-    "type": "order",
-    "title": "Đơn hàng TCDH1001",
-    "content": "Mã đơn TCDH1001: đã giao thành công ngày 05/07/2026, gồm 1 Laptop NovaBook Air 14 màu bạc.",
+    "id": "galaxy-watch-ultra",
+    "type": "product",
+    "title": "Samsung Galaxy Watch Ultra 47mm LTE",
+    "content": "Samsung Galaxy Watch Ultra 47mm LTE mã galaxy-watch-ultra thuộc nhóm Đồng hồ. Hãng: Samsung. Giá niêm yết: 14.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Galaxy Watch Ultra 47mm LTE có vỏ titanium, GPS băng tần kép và pin 590mAh..\n\nThông số kỹ thuật:\n- GPS: L1+L5 dual-frequency\n- Pin: 590mAh; đến 80 giờ khi AOD tắt, 100 giờ ở chế độ tiết kiệm pin\n- Màn hình: 1,5 inch Super AMOLED, 480 x 480\n- Kết nối: Bluetooth + LTE\n- Độ bền: 10ATM + IP68, MIL-STD-810H\n- RAM/Bộ nhớ: 2GB/64GB\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_order",
-      "order_code": "TCDH1001"
+      "product_id": "10",
+      "slug": "galaxy-watch-ultra",
+      "sku": "galaxy-watch-ultra",
+      "category": "Đồng hồ",
+      "brand": "Samsung",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Samsung – Galaxy Watch Ultra 47mm Specifications\", \"url\": \"https://www.samsung.com/uk/watches/galaxy-watch/galaxy-watch-ultra-2025-47mm-titanium-blue-lte-sm-l705fzb2eua/\"}]"
     }
   },
   {
-    "id": "order_TCDH1007",
-    "type": "order",
-    "title": "Đơn hàng TCDH1007",
-    "content": "Mã đơn TCDH1007: đang vận chuyển, dự kiến giao trong ngày 07/07/2026, gồm 1 Tai nghe SonicBuds Pro màu đen.",
+    "id": "dell-inspiron-3530",
+    "type": "product",
+    "title": "Dell Inspiron 15 3530 i5-1334U 16GB/512GB",
+    "content": "Dell Inspiron 15 3530 i5-1334U 16GB/512GB mã dell-inspiron-3530 thuộc nhóm Laptop. Hãng: Dell. Giá niêm yết: 15.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop văn phòng bán chạy..\n\nThông số kỹ thuật:\n- CPU: Intel Core i5-1334U, 10 lõi, tối đa 4,6GHz\n- GPU: Intel Iris Xe\n- RAM: 16GB DDR4\n- SSD: 512GB M.2 PCIe NVMe\n- Màn hình: 15,6 inch FHD, WVA IPS, 120Hz, chống chói, 250 nit\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_order",
-      "order_code": "TCDH1007"
+      "product_id": "11",
+      "slug": "dell-inspiron-3530",
+      "sku": "dell-inspiron-3530",
+      "category": "Laptop",
+      "brand": "Dell",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Dell – Inspiron 15 3530 i5-1334U Tech Specs\", \"url\": \"https://www.dell.com/en-my/shop/laptop-notebook-computers/inspiron-15-laptop/spd/inspiron-15-3530-laptop/sin3530340701mmyh\"}]"
     }
   },
   {
-    "id": "order_TCDH1012",
-    "type": "order",
-    "title": "Đơn hàng TCDH1012",
-    "content": "Mã đơn TCDH1012: đang chờ xác nhận thanh toán online, nhân viên cần kiểm tra giao dịch trước khi đóng gói, gồm 1 Điện thoại PixelOne Pro X màu xanh.",
+    "id": "dell-vostro-3530",
+    "type": "product",
+    "title": "Dell Vostro 3530 i5-1335U 16GB/512GB",
+    "content": "Dell Vostro 3530 i5-1335U 16GB/512GB mã dell-vostro-3530 thuộc nhóm Laptop. Hãng: Dell. Giá niêm yết: 17.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop doanh nghiệp ổn định..\n\nThông số kỹ thuật:\n- CPU: Intel Core i5-1335U, 10 lõi/12 luồng, tối đa 4,6GHz\n- GPU: Intel Iris Xe\n- RAM: 16GB DDR4-3200\n- SSD: 512GB M.2 PCIe NVMe\n- Màn hình: 15,6 inch FHD, WVA, 120Hz, chống chói, 250 nit\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
     "metadata": {
-      "source": "synthetic_order",
-      "order_code": "TCDH1012"
+      "product_id": "12",
+      "slug": "dell-vostro-3530",
+      "sku": "dell-vostro-3530",
+      "category": "Laptop",
+      "brand": "Dell",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Dell – Vostro 3530 i5-1335U Tech Specs\", \"url\": \"https://www.dell.com/en-ca/shop/laptops-ultrabooks/vostro-15-laptop/spd/vostro-15-3530-laptop/caevcpbto3530fwpv\"}]"
     }
   },
   {
-    "id": "order_TCDH1020",
-    "type": "order",
-    "title": "Đơn hàng TCDH1020",
-    "content": "Mã đơn TCDH1020: đang đóng gói tại kho TP.HCM, gồm 1 Sạc dự phòng VoltPack 20K.",
+    "id": "dell-xps-14",
+    "type": "product",
+    "title": "Dell XPS 14 9440 Core Ultra 7 32GB/1TB",
+    "content": "Dell XPS 14 9440 Core Ultra 7 32GB/1TB mã dell-xps-14 thuộc nhóm Laptop. Hãng: Dell. Giá niêm yết: 45.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop cao cấp cho lập trình và thiết kế..\n\nThông số kỹ thuật:\n- CPU: Intel Core Ultra 7 155H hoặc 165H (cần đối chiếu order code)\n- RAM: 32GB LPDDR5X onboard\n- SSD: 1TB PCIe 4.0 NVMe\n- Màn hình: Tùy chọn 14,5 inch FHD+ IPS 120Hz hoặc 3.2K OLED 120Hz\n- Lưu ý biến thể: Cần order code để xác nhận CPU, màn hình và GPU",
     "metadata": {
-      "source": "synthetic_order",
-      "order_code": "TCDH1020"
+      "product_id": "13",
+      "slug": "dell-xps-14",
+      "sku": "dell-xps-14",
+      "category": "Laptop",
+      "brand": "Dell",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Dell – XPS 14 9440 Tech Specs\", \"url\": \"https://www.dell.com/en-uk/shop/laptops/14-new/spd/xps-14-9440-laptop\"}]"
     }
   },
   {
-    "id": "order_TCDH1028",
-    "type": "order",
-    "title": "Đơn hàng TCDH1028",
-    "content": "Mã đơn TCDH1028: giao không thành công lần 1 vì không liên hệ được người nhận, gồm 1 Máy tính bảng TabLearn 11.",
+    "id": "alienware-m16",
+    "type": "product",
+    "title": "Dell Alienware m16 R1 i9/32GB/1TB/RTX 4070",
+    "content": "Dell Alienware m16 R1 i9/32GB/1TB/RTX 4070 mã alienware-m16 thuộc nhóm Laptop. Hãng: Dell. Giá niêm yết: 69.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop RTX 4070..\n\nThông số kỹ thuật:\n- CPU: Intel Core i9-13900HX\n- GPU: GeForce RTX 4070 8GB GDDR6\n- RAM: 32GB DDR5\n- SSD: 1TB M.2 PCIe NVMe\n- Màn hình: 16 inch QHD+ 2560 x 1600, 240Hz\n- Lưu ý biến thể: Cần order code để xác nhận màn hình và tốc độ RAM",
     "metadata": {
-      "source": "synthetic_order",
-      "order_code": "TCDH1028"
+      "product_id": "14",
+      "slug": "alienware-m16",
+      "sku": "alienware-m16",
+      "category": "Laptop",
+      "brand": "Dell",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Dell – Alienware m16 R1 i9 RTX 4070 Tech Specs\", \"url\": \"https://www.dell.com/en-ca/shop/laptops/intel/spd/alienware-m16-r1-laptop/na15m16r1_h04e\"}]"
+    }
+  },
+  {
+    "id": "dell-p2425h",
+    "type": "product",
+    "title": "Dell P2425H",
+    "content": "Dell P2425H mã dell-p2425h thuộc nhóm Màn hình. Hãng: Dell. Giá niêm yết: 4.890.000 VNĐ. Bảo hành: 36 tháng. Mô tả: Màn hình văn phòng 24 inch IPS..\n\nThông số kỹ thuật:\n- Cổng: HDMI 1.4, DisplayPort 1.2, VGA, USB hub\n- Refresh: 100Hz\n- Màn hình: 23,8 inch IPS, 1920 x 1080\n- Màu sắc: 99% sRGB\n- Tấm nền: IPS\n- Độ sáng: 250 nit\n- Kích thước: 24 inch\n- Tần số quét: 100Hz\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "15",
+      "slug": "dell-p2425h",
+      "sku": "dell-p2425h",
+      "category": "Màn hình",
+      "brand": "Dell",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Dell – P2425H Monitor Specifications\", \"url\": \"https://www.dell.com/en-us/shop/p2425h-monitor/apd/210-bmgh/monitors-monitor-accessories\"}]"
+    }
+  },
+  {
+    "id": "logitech-m650",
+    "type": "product",
+    "title": "Chuột Logitech M650",
+    "content": "Chuột Logitech M650 mã logitech-m650 thuộc nhóm Phụ kiện. Hãng: Logitech. Giá niêm yết: 790.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Chuột không dây văn phòng..\n\nThông số kỹ thuật:\n- Pin: 1 pin AA, tối đa 24 tháng\n- Phạm vi: Tối đa 10m\n- Kết nối: Bluetooth Low Energy 5.0+ hoặc Logi Bolt\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "16",
+      "slug": "logitech-m650",
+      "sku": "logitech-m650",
+      "category": "Phụ kiện",
+      "brand": "Logitech",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Logitech – Signature M650 for Business\", \"url\": \"https://www.logitech.com/en-us/products/mice/m650-signature-for-business.910-006347.html\"}]"
+    }
+  },
+  {
+    "id": "logitech-k380",
+    "type": "product",
+    "title": "Bàn phím Logitech K380",
+    "content": "Bàn phím Logitech K380 mã logitech-k380 thuộc nhóm Phụ kiện. Hãng: Logitech. Giá niêm yết: 890.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Bàn phím Bluetooth đa thiết bị..\n\nThông số kỹ thuật:\n- Pin: 2 pin AAA, tối đa 24 tháng\n- Bluetooth: Có\n- Phạm vi: Tối đa 10m\n- Kết nối: Bluetooth Classic, chuyển nhanh giữa 3 thiết bị\n- Kiểu phím: Scissor, 79 phím\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "17",
+      "slug": "logitech-k380",
+      "sku": "logitech-k380",
+      "category": "Phụ kiện",
+      "brand": "Logitech",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Logitech – K380 Multi-Device Bluetooth Keyboard Datasheet\", \"url\": \"https://www.logitech.com/content/dam/logitech/en/business/pdf/k380-multi-device-blurtooth-keyboard.pdf\"}]"
+    }
+  },
+  {
+    "id": "kingston-nv3-1tb",
+    "type": "product",
+    "title": "SSD Kingston NV3 1TB M.2 2280",
+    "content": "SSD Kingston NV3 1TB M.2 2280 mã kingston-nv3-1tb thuộc nhóm Phụ kiện. Hãng: Kingston. Giá niêm yết: 1.890.000 VNĐ. Bảo hành: 60 tháng. Mô tả: SSD NVMe PCIe Gen4 tốc độ cao..\n\nThông số kỹ thuật:\n- Chuẩn: M.2 2280, PCIe 4.0 x4 NVMe\n- Độ bền: 320 TBW\n- Dung lượng: 1TB\n- Đọc/ghi tuần tự: Tối đa 6000/4000 MB/s\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "18",
+      "slug": "kingston-nv3-1tb",
+      "sku": "kingston-nv3-1tb",
+      "category": "Phụ kiện",
+      "brand": "Kingston",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Kingston – NV3 NVMe PCIe SSD Specifications\", \"url\": \"https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd?capacity=1\"}]"
+    }
+  },
+  {
+    "id": "wd-my-passport-2tb",
+    "type": "product",
+    "title": "WD My Passport 2TB",
+    "content": "WD My Passport 2TB mã wd-my-passport-2tb thuộc nhóm Phụ kiện. Hãng: Western Digital. Giá niêm yết: 2.290.000 VNĐ. Bảo hành: 36 tháng. Mô tả: Ổ cứng di động 2TB..\n\nThông số kỹ thuật:\n- USB: 3.2\n- Giao tiếp: USB-C, USB 3.2 Gen 1; tương thích USB 3.0/2.0\n- Dung lượng: 2TB\n- Lưu ý biến thể: Cần đối chiếu part number trên hàng thực tế để xác nhận đúng đời USB-C",
+    "metadata": {
+      "product_id": "20",
+      "slug": "wd-my-passport-2tb",
+      "sku": "wd-my-passport-2tb",
+      "category": "Phụ kiện",
+      "brand": "Western Digital",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Western Digital – My Passport USB-C Datasheet\", \"url\": \"https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/wd/product/external-storage/my_passport/my-passport-phdd-usb-c/data-sheet-my-passport-phdd-usb-c.pdf\"}]"
+    }
+  },
+  {
+    "id": "asus-vivobook-15-oled",
+    "type": "product",
+    "title": "ASUS Vivobook 15 OLED X1505 i5-13500H 16GB/512GB",
+    "content": "ASUS Vivobook 15 OLED X1505 i5-13500H 16GB/512GB mã asus-vivobook-15-oled thuộc nhóm Laptop. Hãng: ASUS. Giá niêm yết: 16.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop học tập và văn phòng với màn hình OLED sắc nét..\n\nThông số kỹ thuật:\n- CPU: Intel Core i5-13500H, 12 lõi/16 luồng\n- GPU: Intel Iris Xe\n- RAM: 16GB\n- SSD: 512GB M.2 NVMe PCIe 4.0\n- Màn hình: 15,6 inch OLED; độ phân giải/tần số tùy SKU",
+    "metadata": {
+      "product_id": "21",
+      "slug": "asus-vivobook-15-oled",
+      "sku": "asus-vivobook-15-oled",
+      "category": "Laptop",
+      "brand": "ASUS",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"ASUS – Vivobook 15 OLED X1505 Tech Specs\", \"url\": \"https://www.asus.com/laptops/for-home/vivobook/vivobook-15-oled-x1505/techspec/\"}]"
+    }
+  },
+  {
+    "id": "asus-zenbook-14",
+    "type": "product",
+    "title": "ASUS Zenbook 14 OLED UX3405 Core Ultra 7 16GB/1TB",
+    "content": "ASUS Zenbook 14 OLED UX3405 Core Ultra 7 16GB/1TB mã asus-zenbook-14 thuộc nhóm Laptop. Hãng: ASUS. Giá niêm yết: 27.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop mỏng nhẹ cao cấp cho doanh nhân..\n\nThông số kỹ thuật:\n- CPU: Intel Core Ultra 7 (cần SKU để xác nhận 155H/255H)\n- RAM: 16GB LPDDR5X onboard\n- SSD: 1TB M.2 NVMe PCIe 4.0\n- Cổng: 2 x Thunderbolt 4, USB-A, HDMI 2.1, jack 3,5mm\n- Màn hình: Tùy chọn OLED 14 inch 3K 120Hz hoặc FHD 60Hz",
+    "metadata": {
+      "product_id": "22",
+      "slug": "asus-zenbook-14",
+      "sku": "asus-zenbook-14",
+      "category": "Laptop",
+      "brand": "ASUS",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"ASUS – Zenbook 14 OLED UX3405 Tech Specs\", \"url\": \"https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/\"}]"
+    }
+  },
+  {
+    "id": "asus-tuf-a15",
+    "type": "product",
+    "title": "ASUS TUF Gaming A15 2024 Ryzen 7/16GB/512GB/RTX 4050",
+    "content": "ASUS TUF Gaming A15 2024 Ryzen 7/16GB/512GB/RTX 4050 mã asus-tuf-a15 thuộc nhóm Laptop. Hãng: ASUS. Giá niêm yết: 24.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop AMD Ryzen..\n\nThông số kỹ thuật:\n- CPU: AMD Ryzen 7 8845HS, 8 lõi/16 luồng\n- GPU: GeForce RTX 4050 6GB, tối đa 140W\n- RAM: 16GB\n- SSD: 512GB\n- Màn hình: 15,6 inch; FHD 144Hz hoặc QHD 165Hz tùy SKU",
+    "metadata": {
+      "product_id": "24",
+      "slug": "asus-tuf-a15",
+      "sku": "asus-tuf-a15",
+      "category": "Laptop",
+      "brand": "ASUS",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"ASUS – TUF Gaming A15 2024 Tech Specs\", \"url\": \"https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-a15-2024/techspec/\"}]"
+    }
+  },
+  {
+    "id": "asus-proart-p16",
+    "type": "product",
+    "title": "ASUS ProArt P16 H7606 Ryzen AI 9 32GB/1TB",
+    "content": "ASUS ProArt P16 H7606 Ryzen AI 9 32GB/1TB mã asus-proart-p16 thuộc nhóm Laptop. Hãng: ASUS. Giá niêm yết: 52.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop dành cho designer và editor..\n\nThông số kỹ thuật:\n- CPU: AMD Ryzen AI 9 HX 370\n- Pin: 90Wh\n- RAM: 32GB LPDDR5X\n- SSD: 1TB M.2 NVMe PCIe 4.0\n- Màn hình: 16 inch OLED 4K 3840 x 2400, 60Hz, 100% DCI-P3\n- Lưu ý biến thể: GPU thay đổi theo mã H7606",
+    "metadata": {
+      "product_id": "25",
+      "slug": "asus-proart-p16",
+      "sku": "asus-proart-p16",
+      "category": "Laptop",
+      "brand": "ASUS",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"ASUS – ProArt P16 H7606 Tech Specs\", \"url\": \"https://www.asus.com/ca-en/laptops/for-creators/proart/proart-p16-h7606/techspec/\"}]"
+    }
+  },
+  {
+    "id": "thinkpad-e14-gen6",
+    "type": "product",
+    "title": "Lenovo ThinkPad E14 Gen 6",
+    "content": "Lenovo ThinkPad E14 Gen 6 mã thinkpad-e14-gen6 thuộc nhóm Laptop. Hãng: Lenovo. Giá niêm yết: 21.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop doanh nghiệp nổi tiếng về độ bền..\n\nThông số kỹ thuật:\n- CPU: Intel Core Ultra 5 (tùy mã máy)\n- RAM: 16GB\n- SSD: 512GB\n- Lưu ý biến thể: Cần mã MTM để xác nhận CPU, màn hình, pin và hệ điều hành",
+    "metadata": {
+      "product_id": "26",
+      "slug": "thinkpad-e14-gen6",
+      "sku": "thinkpad-e14-gen6",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Lenovo PSREF – ThinkPad E14 Gen 6 Intel\", \"url\": \"https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_E14_Gen_6_Intel/ThinkPad_E14_Gen_6_Intel_Spec.pdf\"}]"
+    }
+  },
+  {
+    "id": "lenovo-loq-15",
+    "type": "product",
+    "title": "Lenovo LOQ 15 Core i7/16GB/512GB/RTX 4050",
+    "content": "Lenovo LOQ 15 Core i7/16GB/512GB/RTX 4050 mã lenovo-loq-15 thuộc nhóm Laptop. Hãng: Lenovo. Giá niêm yết: 24.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop gaming tầm trung..\n\nThông số kỹ thuật:\n- CPU: Intel Core i7 (cần mã máy để xác nhận thế hệ)\n- GPU: GeForce RTX 4050\n- RAM: 16GB\n- SSD: 512GB\n- Lưu ý biến thể: LOQ 15 có nhiều thế hệ; cần mã MTM để xác nhận màn hình và công suất GPU",
+    "metadata": {
+      "product_id": "27",
+      "slug": "lenovo-loq-15",
+      "sku": "lenovo-loq-15",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Lenovo – LOQ 15IRH8 Datasheet\", \"url\": \"https://psref.lenovo.com/syspool/Sys/PDF/datasheet/Lenovo_LOQ_15IRH8_Datasheet_EN.pdf\"}]"
+    }
+  },
+  {
+    "id": "yoga-slim-7",
+    "type": "product",
+    "title": "Lenovo Yoga Slim 7 Core Ultra 7 16GB/1TB",
+    "content": "Lenovo Yoga Slim 7 Core Ultra 7 16GB/1TB mã yoga-slim-7 thuộc nhóm Laptop. Hãng: Lenovo. Giá niêm yết: 28.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop mỏng nhẹ cao cấp..\n\nThông số kỹ thuật:\n- CPU: Intel Core Ultra 7 (cần MTM để xác nhận đời CPU)\n- Pin: Dòng 14ILL10 dùng pin 70Wh\n- RAM: 16GB LPDDR5X onboard\n- SSD: 1TB M.2 PCIe 4.0 NVMe\n- Lưu ý biến thể: Cần mã MTM để xác nhận kích thước và tấm nền",
+    "metadata": {
+      "product_id": "28",
+      "slug": "yoga-slim-7",
+      "sku": "yoga-slim-7",
+      "category": "Laptop",
+      "brand": "Lenovo",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Lenovo PSREF – Yoga Slim 7\", \"url\": \"https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_14ILL10/Yoga_Slim_7_14ILL10_Spec.html\"}]"
+    }
+  },
+  {
+    "id": "xiaomi-pad7-pro",
+    "type": "product",
+    "title": "Xiaomi Pad 7 Pro 8GB/256GB",
+    "content": "Xiaomi Pad 7 Pro 8GB/256GB mã xiaomi-pad7-pro thuộc nhóm Máy tính bảng. Hãng: Xiaomi. Giá niêm yết: 14.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Xiaomi Pad 7 Pro dùng Snapdragon 8s Gen 3, màn hình 11,2 inch 3.2K 144Hz và bộ nhớ 8GB/256GB..\n\nThông số kỹ thuật:\n- Pin: 8850mAh\n- RAM: 8GB LPDDR5X\n- Chip: Snapdragon 8s Gen 3\n- Sạc: 67W\n- Storage: 256GB\n- Bộ nhớ: 256GB UFS 4.0\n- Màn hình: 11,2 inch, 3200 x 2136, tối đa 144Hz, 800 nit\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "51",
+      "slug": "xiaomi-pad7-pro",
+      "sku": "xiaomi-pad7-pro",
+      "category": "Máy tính bảng",
+      "brand": "Xiaomi",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Xiaomi – Xiaomi Pad 7 Pro Specifications\", \"url\": \"https://www.mi.com/es/product/xiaomi-pad-7-pro/specs/\"}]"
+    }
+  },
+  {
+    "id": "lenovo-tab-p12",
+    "type": "product",
+    "title": "Lenovo Tab P12",
+    "content": "Lenovo Tab P12 mã lenovo-tab-p12 thuộc nhóm Máy tính bảng. Hãng: Lenovo. Giá niêm yết: 11.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Lenovo Tab P12 có màn hình 12,7 inch 3K, chip Dimensity 7050 và pin 10200mAh; cấu hình lưu trữ có thể khác theo mã máy/khu vực..\n\nThông số kỹ thuật:\n- Pin: 10200mAh, hỗ trợ sạc nhanh 30W, tối đa khoảng 10 giờ\n- RAM: 8GB LPDDR4X\n- Chip: MediaTek Dimensity 7050\n- Camera: Trước 13MP góc rộng; sau 8MP AF\n- Storage: 256GB\n- Âm thanh: 4 loa JBL, Dolby Atmos\n- Màn hình: 12,7 inch LTPS 3K, 2944 x 1840, 400 nit\n- Bộ nhớ catalog: 256GB",
+    "metadata": {
+      "product_id": "30",
+      "slug": "lenovo-tab-p12",
+      "sku": "lenovo-tab-p12",
+      "category": "Máy tính bảng",
+      "brand": "Lenovo",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Lenovo – Tab P12 Technical Specifications\", \"url\": \"https://www.lenovo.com/us/en/p/tablets/android-tablets/lenovo-tab-series/lenovo-tab-p12/zach0176us/\"}, {\"title\": \"Lenovo PSREF – Tab P12\", \"url\": \"https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_P12/Tab_P12_Spec.PDF\"}]"
+    }
+  },
+  {
+    "id": "hp-victus-15",
+    "type": "product",
+    "title": "HP Victus 15 Ryzen 7/16GB/512GB/RTX 4050",
+    "content": "HP Victus 15 Ryzen 7/16GB/512GB/RTX 4050 mã hp-victus-15 thuộc nhóm Laptop. Hãng: HP. Giá niêm yết: 23.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop RTX4050..\n\nThông số kỹ thuật:\n- CPU: AMD Ryzen 7 (cần product number để xác nhận)\n- GPU: GeForce RTX 4050 6GB\n- RAM: 16GB\n- SSD: 512GB PCIe Gen4 NVMe\n- Màn hình: 15,6 inch FHD 144Hz ở cấu hình tham chiếu",
+    "metadata": {
+      "product_id": "32",
+      "slug": "hp-victus-15",
+      "sku": "hp-victus-15",
+      "category": "Laptop",
+      "brand": "HP",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"HP – Victus 15 Ryzen 7 RTX 4050 Tech Specs\", \"url\": \"https://www.hp.com/gb-en/shop/products/laptops/victus-gaming-laptop-15-fb3007na-c0se9ea-abu\"}]"
+    }
+  },
+  {
+    "id": "hp-omen-16",
+    "type": "product",
+    "title": "HP Omen 16 Core i9/32GB/1TB/RTX 4070",
+    "content": "HP Omen 16 Core i9/32GB/1TB/RTX 4070 mã hp-omen-16 thuộc nhóm Laptop. Hãng: HP. Giá niêm yết: 38.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop cao cấp..\n\nThông số kỹ thuật:\n- CPU: Intel Core i9-13900HX ở dòng 16-wf0000\n- GPU: GeForce RTX 4070 8GB\n- RAM: 32GB DDR5\n- SSD: 1TB PCIe Gen4 NVMe\n- Màn hình: 16,1 inch; thông số thay đổi theo product number",
+    "metadata": {
+      "product_id": "33",
+      "slug": "hp-omen-16",
+      "sku": "hp-omen-16",
+      "category": "Laptop",
+      "brand": "HP",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"HP Support – OMEN 16-wf0000 Series Specifications\", \"url\": \"https://support.hp.com/ca-en/document/ish_7968187-7968239-16\"}]"
+    }
+  },
+  {
+    "id": "hp-envy-x360",
+    "type": "product",
+    "title": "HP Envy x360 16 Ryzen 7/16GB/1TB",
+    "content": "HP Envy x360 16 Ryzen 7/16GB/1TB mã hp-envy-x360 thuộc nhóm Laptop. Hãng: HP. Giá niêm yết: 26.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop xoay gập cảm ứng..\n\nThông số kỹ thuật:\n- CPU: AMD Ryzen 7 8840HS ở cấu hình tham chiếu\n- Pin: 68Wh\n- RAM: 16GB LPDDR5 onboard\n- SSD: 1TB PCIe Gen4 NVMe\n- Màn hình: 16 inch OLED 3K cảm ứng, 48–120Hz ở cấu hình tham chiếu",
+    "metadata": {
+      "product_id": "34",
+      "slug": "hp-envy-x360",
+      "sku": "hp-envy-x360",
+      "category": "Laptop",
+      "brand": "HP",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"HP – Envy x360 16-ad0097nr Tech Specs\", \"url\": \"https://www.hp.com/us-en/shop/pdp/hp-envy-x360-2-in-1-laptop-16-ad0097nr-16-%C2%A0touch-screen-%C2%A0windows-11-home-%C2%A0amd-ryzen%E2%84%A2-7-%C2%A016gb-ram-%C2%A01tb-ssd-%C2%A03k-%C2%A0meteor-silver-p-9u9v4ua-aba\"}]"
+    }
+  },
+  {
+    "id": "elitebook-840-g11",
+    "type": "product",
+    "title": "HP EliteBook 840 G11 Core Ultra 7 16GB/512GB",
+    "content": "HP EliteBook 840 G11 Core Ultra 7 16GB/512GB mã elitebook-840-g11 thuộc nhóm Laptop. Hãng: HP. Giá niêm yết: 29.990.000 VNĐ. Bảo hành: 36 tháng. Mô tả: Laptop doanh nghiệp bảo mật cao..\n\nThông số kỹ thuật:\n- CPU: Intel Core Ultra 7 155U ở cấu hình 16GB/512GB tham chiếu\n- RAM: 16GB DDR5-5600\n- SSD: 512GB PCIe NVMe\n- Màn hình: 14 inch WUXGA IPS chống chói\n- Kết nối: Wi‑Fi 6E, Bluetooth 5.3",
+    "metadata": {
+      "product_id": "35",
+      "slug": "elitebook-840-g11",
+      "sku": "elitebook-840-g11",
+      "category": "Laptop",
+      "brand": "HP",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"HP – EliteBook 840 G11 Ultra 7 16GB/512GB\", \"url\": \"https://jp.ext.hp.com/notebooks/business/elitebook_840_g11/\"}]"
+    }
+  },
+  {
+    "id": "acer-aspire-5",
+    "type": "product",
+    "title": "Acer Aspire 5 A515-58 i5-13420H 16GB/512GB",
+    "content": "Acer Aspire 5 A515-58 i5-13420H 16GB/512GB mã acer-aspire-5 thuộc nhóm Laptop. Hãng: Acer. Giá niêm yết: 15.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop văn phòng phổ thông..\n\nThông số kỹ thuật:\n- CPU: Intel Core i5-13420H, 8 lõi/12 luồng\n- RAM: 16GB; loại RAM tùy part number\n- SSD: 512GB PCIe NVMe\n- Màn hình: 15,6 inch FHD; IPS/TN và tần số thay đổi theo part number\n- Lưu ý biến thể: Cần part number NX.* để xác nhận màn hình, RAM và GPU",
+    "metadata": {
+      "product_id": "36",
+      "slug": "acer-aspire-5",
+      "sku": "acer-aspire-5",
+      "category": "Laptop",
+      "brand": "Acer",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Acer – Aspire 5 A515-58 i5-13420H Tech Specs\", \"url\": \"https://www.acer.com/mx-es/laptops/aspire/aspire-5-intel/pdp/NX.KQ9AL.004\"}]"
+    }
+  },
+  {
+    "id": "acer-swift-go-14",
+    "type": "product",
+    "title": "Acer Swift Go 14 SFG14-73 Core Ultra 7 16GB/1TB",
+    "content": "Acer Swift Go 14 SFG14-73 Core Ultra 7 16GB/1TB mã acer-swift-go-14 thuộc nhóm Laptop. Hãng: Acer. Giá niêm yết: 23.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop mỏng nhẹ OLED..\n\nThông số kỹ thuật:\n- CPU: Intel Core Ultra 7 155H\n- GPU: Intel Arc\n- RAM: 16GB LPDDR5X\n- SSD: 1TB PCIe NVMe\n- Màn hình: 14 inch OLED 2880 x 1800, 90Hz, 100% DCI-P3\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "37",
+      "slug": "acer-swift-go-14",
+      "sku": "acer-swift-go-14",
+      "category": "Laptop",
+      "brand": "Acer",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Acer – Swift Go 14 SFG14-73-71BY Tech Specs\", \"url\": \"https://www.acer.com/in-en/laptops/swift/swift-go/pdp/NX.KSGSI.002\"}]"
+    }
+  },
+  {
+    "id": "acer-nitro-v15",
+    "type": "product",
+    "title": "Acer Nitro V 15 Core i7/16GB/512GB/RTX 4050",
+    "content": "Acer Nitro V 15 Core i7/16GB/512GB/RTX 4050 mã acer-nitro-v15 thuộc nhóm Laptop. Hãng: Acer. Giá niêm yết: 22.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop RTX4050..\n\nThông số kỹ thuật:\n- CPU: Intel Core i7-13620H ở cấu hình tham chiếu\n- GPU: GeForce RTX 4050 6GB\n- RAM: 16GB DDR5\n- SSD: 512GB M.2 PCIe Gen4 NVMe\n- Màn hình: 15,6 inch FHD; 144Hz hoặc 165Hz tùy part number",
+    "metadata": {
+      "product_id": "38",
+      "slug": "acer-nitro-v15",
+      "sku": "acer-nitro-v15",
+      "category": "Laptop",
+      "brand": "Acer",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Acer – Nitro V 15 i7/16GB/512GB/RTX 4050\", \"url\": \"https://www.acer.com/br-pt/laptops/nitro/nitro-v-15/pdp/NH.QS8AL.001\"}]"
+    }
+  },
+  {
+    "id": "predator-helios-neo16",
+    "type": "product",
+    "title": "Acer Predator Helios Neo 16 PHN16-72 i9/32GB/1TB/RTX 4070",
+    "content": "Acer Predator Helios Neo 16 PHN16-72 i9/32GB/1TB/RTX 4070 mã predator-helios-neo16 thuộc nhóm Laptop. Hãng: Acer. Giá niêm yết: 38.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop hiệu năng cao..\n\nThông số kỹ thuật:\n- CPU: Intel Core i9-14900HX\n- GPU: GeForce RTX 4070 8GB, tối đa 140W\n- RAM: 32GB DDR5\n- SSD: 1TB PCIe 4.0 NVMe\n- Màn hình: 16 inch 2560 x 1600, 240Hz, 100% DCI-P3\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "39",
+      "slug": "predator-helios-neo16",
+      "sku": "predator-helios-neo16",
+      "category": "Laptop",
+      "brand": "Acer",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Acer – Predator Helios Neo 16 PHN16-72 Tech Specs\", \"url\": \"https://www.acer.com/nl-nl/predator/laptops/helios/helios-neo-16/pdp/NH.QQUEH.002\"}]"
+    }
+  },
+  {
+    "id": "acer-ka242y",
+    "type": "product",
+    "title": "Acer KA242Y",
+    "content": "Acer KA242Y mã acer-ka242y thuộc nhóm Màn hình. Hãng: Acer. Giá niêm yết: 2.990.000 VNĐ. Bảo hành: 36 tháng. Mô tả: Màn hình IPS 24 inch 100Hz..\n\nThông số kỹ thuật:\n- Cổng: HDMI, VGA\n- Refresh: 100Hz\n- Màn hình: 23,8 inch Full HD 1920 x 1080\n- Độ sáng: 250 nit\n- Đồng bộ: AMD FreeSync\n- Kích thước: 24 inch\n- Tần số quét: 100Hz",
+    "metadata": {
+      "product_id": "40",
+      "slug": "acer-ka242y",
+      "sku": "acer-ka242y",
+      "category": "Màn hình",
+      "brand": "Acer",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Acer – KA242Y Specifications\", \"url\": \"https://www.acer.com/us-en/monitors/essential/ka2/pdp/UM.QX2AA.H03\"}]"
+    }
+  },
+  {
+    "id": "msi-modern-15",
+    "type": "product",
+    "title": "MSI Modern 15 Core i5 16GB/512GB",
+    "content": "MSI Modern 15 Core i5 16GB/512GB mã msi-modern-15 thuộc nhóm Laptop. Hãng: MSI. Giá niêm yết: 17.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Laptop văn phòng thiết kế đẹp..\n\nThông số kỹ thuật:\n- CPU: Intel Core i5 (cần SKU để xác nhận đời CPU)\n- RAM: 16GB DDR4\n- SSD: 512GB NVMe\n- Màn hình: 15,6 inch FHD IPS-level 60Hz ở cấu hình B12M tham chiếu\n- Lưu ý biến thể: Modern 15 có nhiều đời B12/B13/F13",
+    "metadata": {
+      "product_id": "41",
+      "slug": "msi-modern-15",
+      "sku": "msi-modern-15",
+      "category": "Laptop",
+      "brand": "MSI",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"MSI – Modern 15 B12M 16GB/512GB Datasheet\", \"url\": \"https://storage-asset.msi.com/specSheet/ca/bnp/Modern%2015%20B12M-296CA.pdf\"}]"
+    }
+  },
+  {
+    "id": "msi-katana15",
+    "type": "product",
+    "title": "MSI Katana 15 B13VFK i7/16GB/1TB/RTX 4060",
+    "content": "MSI Katana 15 B13VFK i7/16GB/1TB/RTX 4060 mã msi-katana15 thuộc nhóm Laptop. Hãng: MSI. Giá niêm yết: 28.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming laptop RTX4060..\n\nThông số kỹ thuật:\n- CPU: Intel Core i7-13620H\n- GPU: GeForce RTX 4060 8GB\n- Pin: 53,5Wh\n- RAM: 16GB DDR5-5200\n- SSD: 1TB NVMe PCIe Gen4\n- Màn hình: 15,6 inch FHD 144Hz IPS-level\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "42",
+      "slug": "msi-katana15",
+      "sku": "msi-katana15",
+      "category": "Laptop",
+      "brand": "MSI",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"MSI Việt Nam – Katana 15 B13VFK-676VN Datasheet\", \"url\": \"https://storage-asset.msi.com/excelSku/vn/nb/Katana%2015%20B13VFK%20-%20676VN.pdf\"}]"
+    }
+  },
+  {
+    "id": "msi-raider-ge68",
+    "type": "product",
+    "title": "MSI Raider GE68 HX Core i9/32GB/2TB/RTX 4080",
+    "content": "MSI Raider GE68 HX Core i9/32GB/2TB/RTX 4080 mã msi-raider-ge68 thuộc nhóm Laptop. Hãng: MSI. Giá niêm yết: 52.990.000 VNĐ. Bảo hành: 24 tháng. Mô tả: Gaming flagship..\n\nThông số kỹ thuật:\n- CPU: Intel Core i9 HX (cần SKU để xác nhận thế hệ)\n- GPU: GeForce RTX 4080 12GB, tối đa 175W\n- RAM: 32GB DDR5\n- SSD: 2TB\n- Lưu ý biến thể: Cần SKU đầy đủ để xác nhận màn hình và CPU",
+    "metadata": {
+      "product_id": "43",
+      "slug": "msi-raider-ge68",
+      "sku": "msi-raider-ge68",
+      "category": "Laptop",
+      "brand": "MSI",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"MSI – Raider GE68 HX Specifications\", \"url\": \"https://www.msi.com/Laptop/Raider-GE68-HX-14VX/Specification\"}]"
+    }
+  },
+  {
+    "id": "msi-pro-mp2412",
+    "type": "product",
+    "title": "MSI PRO MP2412",
+    "content": "MSI PRO MP2412 mã msi-pro-mp2412 thuộc nhóm Màn hình. Hãng: MSI. Giá niêm yết: 2.790.000 VNĐ. Bảo hành: 36 tháng. Mô tả: MSI PRO MP2412 là màn hình 23,8 inch Full HD dùng tấm nền VA, tần số quét 100Hz..\n\nThông số kỹ thuật:\n- VESA: 75 x 75mm\n- Cổng: HDMI, DisplayPort\n- 24 inch: IPS\n- Refresh: 100Hz\n- Màn hình: 23,8 inch VA, 1920 x 1080\n- Độ sáng: 300 nit\n- Phản hồi: 1ms MPRT / 4ms GTG\n- Tần số quét: 100Hz\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "44",
+      "slug": "msi-pro-mp2412",
+      "sku": "msi-pro-mp2412",
+      "category": "Màn hình",
+      "brand": "MSI",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"MSI – PRO MP2412 Specifications\", \"url\": \"https://www.msi.com/Business-Productivity-Monitor/PRO-MP2412/Specification\"}]"
+    }
+  },
+  {
+    "id": "msi-gh30",
+    "type": "product",
+    "title": "MSI Immerse GH30 V2",
+    "content": "MSI Immerse GH30 V2 mã msi-gh30 thuộc nhóm Tai nghe. Hãng: MSI. Giá niêm yết: 1.290.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Tai nghe gaming có dây MSI Immerse GH30 V2 dùng driver neodymium 40mm và micro đơn hướng..\n\nThông số kỹ thuật:\n- Jack: 3.5mm\n- Micro: Đơn hướng, 100Hz–10kHz\n- Driver: Neodymium 40mm\n- Kết nối: Jack 3,5mm; cáp 1,5m và cáp chia Y 30cm\n- Trở kháng: 32 ohm ±15%\n- Tương thích: PC, Mac, PS5, PS4, Xbox Series, Nintendo Switch\n- Tần số loa: 20Hz–20kHz",
+    "metadata": {
+      "product_id": "45",
+      "slug": "msi-gh30",
+      "sku": "msi-gh30",
+      "category": "Tai nghe",
+      "brand": "MSI",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified_family",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"MSI – IMMERSE GH30 V2 Specifications\", \"url\": \"https://us.msi.com/Gaming-Gear/IMMERSE-GH30-V2/Specification\"}]"
+    }
+  },
+  {
+    "id": "gigabyte-gs27q",
+    "type": "product",
+    "title": "Gigabyte GS27Q",
+    "content": "Gigabyte GS27Q mã gigabyte-gs27q thuộc nhóm Màn hình. Hãng: Gigabyte. Giá niêm yết: 6.990.000 VNĐ. Bảo hành: 36 tháng. Mô tả: Gigabyte GS27Q là màn hình gaming 27 inch QHD SS IPS, 165Hz và có thể OC đến 170Hz..\n\nThông số kỹ thuật:\n- Cổng: 2 x HDMI 2.0, DisplayPort 1.4, jack tai nghe\n- 27 inch: QHD\n- Refresh: 170Hz\n- Màn hình: 27 inch SS IPS, 2560 x 1440 QHD\n- Màu sắc: 100% sRGB\n- Độ sáng: 300 nit\n- Phản hồi: 1ms MPRT\n- Tần số quét: 165Hz, OC 170Hz\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "48",
+      "slug": "gigabyte-gs27q",
+      "sku": "gigabyte-gs27q",
+      "category": "Màn hình",
+      "brand": "Gigabyte",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Gigabyte – GS27Q Specifications\", \"url\": \"https://www.gigabyte.com/Monitor/GS27Q/sp\"}]"
+    }
+  },
+  {
+    "id": "xiaomi-15",
+    "type": "product",
+    "title": "Xiaomi 15",
+    "content": "Xiaomi 15 mã xiaomi-15 thuộc nhóm Điện thoại. Hãng: Xiaomi. Giá niêm yết: 21.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Xiaomi 15 dùng Snapdragon 8 Elite, màn hình AMOLED 6,36 inch 120Hz và ba camera Leica 50MP..\n\nThông số kỹ thuật:\n- Pin: 5240mAh\n- RAM: 12GB\n- Chip: Snapdragon 8 Elite\n- Sạc: 90W có dây, 50W không dây\n- Storage: 256GB\n- Bộ nhớ: 256GB\n- Camera sau: 50MP chính OIS + 50MP tele OIS + 50MP góc siêu rộng\n- Màn hình: 6,36 inch AMOLED, 2670 x 1200, 1–120Hz, tối đa 3200 nit\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "49",
+      "slug": "xiaomi-15",
+      "sku": "xiaomi-15",
+      "category": "Điện thoại",
+      "brand": "Xiaomi",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Xiaomi – Xiaomi 15 Specifications\", \"url\": \"https://www.mi.com/global/product/xiaomi-15/\"}]"
+    }
+  },
+  {
+    "id": "redmi-note14-pro-plus",
+    "type": "product",
+    "title": "Redmi Note 14 Pro+ 5G 12GB/256GB",
+    "content": "Redmi Note 14 Pro+ 5G 12GB/256GB mã redmi-note14-pro-plus thuộc nhóm Điện thoại. Hãng: Xiaomi. Giá niêm yết: 10.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Redmi Note 14 Pro+ 5G dùng Snapdragon 7s Gen 3, camera chính 200MP OIS và sạc 120W..\n\nThông số kỹ thuật:\n- Pin: 5110mAh\n- RAM: 12GB\n- Chip: Snapdragon 7s Gen 3\n- Sạc: 120W\n- Storage: 256GB\n- Bộ nhớ: 256GB\n- Camera sau: 200MP OIS + 8MP góc siêu rộng + 2MP macro\n- Màn hình: 6,67 inch AMOLED, 2712 x 1220, 120Hz\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "50",
+      "slug": "redmi-note14-pro-plus",
+      "sku": "redmi-note14-pro-plus",
+      "category": "Điện thoại",
+      "brand": "Xiaomi",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Xiaomi – Redmi Note 14 Pro+ 5G Specifications\", \"url\": \"https://www.mi.com/au/product/redmi-note-14-pro-plus-5g/specs/\"}]"
+    }
+  },
+  {
+    "id": "pixel9",
+    "type": "product",
+    "title": "Google Pixel 9 12GB/256GB",
+    "content": "Google Pixel 9 12GB/256GB mã pixel9 thuộc nhóm Điện thoại. Hãng: Google. Giá niêm yết: 20.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Google Pixel 9 dùng chip Tensor G4, màn hình OLED 6,3 inch 120Hz và RAM 12GB..\n\nThông số kỹ thuật:\n- Pin: 4700mAh điển hình\n- RAM: 12GB\n- Chip: Google Tensor G4\n- Storage: 256GB\n- Bộ nhớ: 256GB\n- Màn hình: 6,3 inch OLED, 60–120Hz\n- Sạc có dây: Tối đa 27W\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "52",
+      "slug": "pixel9",
+      "sku": "pixel9",
+      "category": "Điện thoại",
+      "brand": "Google",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Google Pixel Help – Pixel phone hardware specifications\", \"url\": \"https://support.google.com/pixelphone/answer/7158570?hl=en\"}]"
+    }
+  },
+  {
+    "id": "pixel9-pro-xl",
+    "type": "product",
+    "title": "Google Pixel 9 Pro XL 16GB/512GB",
+    "content": "Google Pixel 9 Pro XL 16GB/512GB mã pixel9-pro-xl thuộc nhóm Điện thoại. Hãng: Google. Giá niêm yết: 30.990.000 VNĐ. Bảo hành: 12 tháng. Mô tả: Google Pixel 9 Pro XL dùng chip Tensor G4, màn hình LTPO OLED 6,8 inch 120Hz và RAM 16GB..\n\nThông số kỹ thuật:\n- Pin: 5060mAh điển hình\n- RAM: 16GB\n- Chip: Google Tensor G4\n- Storage: 512GB\n- Bộ nhớ: 512GB\n- Camera sau: 50MP góc rộng + 48MP góc siêu rộng Macro Focus + 48MP tele 5x\n- Màn hình: 6,8 inch LTPO OLED, 1–120Hz\n- Sạc có dây: Tối đa 37W\n- Camera trước: 42MP Dual PD tự động lấy nét\n\nThông số được đối chiếu nguồn hãng ngày 2026-09-16.",
+    "metadata": {
+      "product_id": "53",
+      "slug": "pixel9-pro-xl",
+      "sku": "pixel9-pro-xl",
+      "category": "Điện thoại",
+      "brand": "Google",
+      "source": "techcare_products.json",
+      "verification_status": "official_verified",
+      "verified_at": "2026-09-16",
+      "source_urls": "[{\"title\": \"Google Pixel Help – Pixel phone hardware specifications\", \"url\": \"https://support.google.com/pixelphone/answer/7158570?hl=en\"}]"
     }
   }
 ]

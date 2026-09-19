@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Loader, ArrowLeft, ImageOff, MessageSquareText, ShieldCheck, Tag } from 'lucide-react';
+import { Loader, ArrowLeft, MessageSquareText, ShieldCheck, Tag } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
 
 const ProductDetail = () => {
@@ -8,7 +8,6 @@ const ProductDetail = () => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [imageFailed, setImageFailed] = useState(false);
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -16,11 +15,11 @@ const ProductDetail = () => {
         const res = await axiosClient.get(`/products/${id}`);
         if (res.success) {
           setProduct(res.data);
-          setImageFailed(false);
         } else {
           setError(res.message);
         }
       } catch (err) {
+        console.error(err);
         setError('Không thể tải thông tin sản phẩm');
       } finally {
         setLoading(false);
@@ -58,18 +57,10 @@ const ProductDetail = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           {/* Cột trái: Ảnh */}
           <div className="bg-gray-50 p-8 flex items-center justify-center border-b md:border-b-0 md:border-r border-gray-100">
-            {product.image_url && !imageFailed ? (
-              <img
-                src={product.image_url}
-                alt={product.name}
-                onError={() => setImageFailed(true)}
-                className="max-h-[420px] w-full object-contain rounded-xl"
-              />
+            {product.image_url ? (
+              <img src={product.image_url} alt={product.name} className="max-w-full h-auto object-contain drop-shadow-xl rounded-xl" />
             ) : (
-              <div className="flex min-h-[320px] flex-col items-center justify-center gap-3 text-gray-400">
-                <ImageOff className="h-10 w-10" />
-                <span className="font-medium">Dang cap nhat anh san pham</span>
-              </div>
+              <div className="text-gray-400">Chưa có hình ảnh</div>
             )}
           </div>
           
@@ -103,8 +94,12 @@ const ProductDetail = () => {
               <span>Bảo hành chính hãng: <strong className="text-gray-900">{product.warranty_months} tháng</strong></span>
             </div>
 
-            {/* Nút Chat AI (Sẽ kích hoạt Widget ở Giai đoạn 3) */}
-            <button className="w-full sm:w-auto px-8 py-4 bg-gray-900 hover:bg-gray-800 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 transform hover:-translate-y-0.5">
+            <button
+              onClick={() => window.dispatchEvent(new CustomEvent('techcare:open-chat', {
+                detail: { productId: product.id, productName: product.name }
+              }))}
+              className="w-full sm:w-auto px-8 py-4 bg-gray-900 hover:bg-gray-800 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 transform hover:-translate-y-0.5"
+            >
               <MessageSquareText className="w-5 h-5" />
               Hỏi AI về sản phẩm này
             </button>
