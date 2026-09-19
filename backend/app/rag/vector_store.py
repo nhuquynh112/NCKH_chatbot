@@ -82,7 +82,11 @@ def load_markdown_documents(paths: list[Path]) -> list[Document]:
             logger.warning("Knowledge source does not exist: %s", path)
             continue
 
-        sections = split_markdown_sections(path.read_text(encoding="utf-8"))
+        source_text = path.read_text(encoding="utf-8")
+        if path.name == "product_catalog_extended.md":
+            sections = split_product_catalog(source_text)
+        else:
+            sections = split_markdown_sections(source_text)
         for parent, title, content in sections:
             documents.append(
                 Document(
@@ -101,6 +105,18 @@ def load_markdown_documents(paths: list[Path]) -> list[Document]:
 
     logger.info("Loaded %s knowledge documents", len(documents))
     return documents
+
+
+def split_product_catalog(text: str) -> list[tuple[str, str, str]]:
+    """Keep each product in one RAG chunk so price, description and specs agree."""
+    matches = list(re.finditer(r"(?m)^# (?!DANH MỤC)(.+?)\s*$", text))
+    sections: list[tuple[str, str, str]] = []
+    for index, match in enumerate(matches):
+        name = match.group(1).strip()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        content = text[match.start():end].strip().removesuffix("---").strip()
+        sections.append(("Danh mục sản phẩm", name, content))
+    return sections
 
 
 def load_legacy_vector_index(path: Path) -> tuple[list[Document], dict[str, list[float]]]:

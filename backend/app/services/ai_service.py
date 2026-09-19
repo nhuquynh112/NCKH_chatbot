@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import re
 import threading
 from typing import Optional
 
@@ -19,6 +20,7 @@ class AIQueryRequest(BaseModel):
     message: str
     history: list = Field(default_factory=list)
     product_id: Optional[int] = None
+    faq_documents: list[dict] = Field(default_factory=list)
 
 
 class AIQueryResponse(BaseModel):
@@ -62,12 +64,14 @@ class AIService:
         message: str,
         history: list | None = None,
         product_id: Optional[int] = None,
+        faq_documents: list[dict] | None = None,
     ) -> AIQueryResponse:
         request_data = AIQueryRequest(
             session_id=str(session_id),
             message=message,
             history=history or [],
             product_id=product_id,
+            faq_documents=faq_documents or [],
         )
 
         if self.chatbot is None:
@@ -76,15 +80,25 @@ class AIService:
             return self._service_unavailable_response()
 
         try:
-            result = await asyncio.to_thread(
-                self.chatbot.ask,
-                request_data.message,
-                settings.RAG_TOP_K,
-                request_data.history,
-                request_data.product_id,
-                request_data.session_id,
+            result = await asyncio.wait_for(
+                asyncio.to_thread(
+                    self.chatbot.ask,
+                    request_data.message,
+                    settings.RAG_TOP_K,
+                    request_data.history,
+                    request_data.product_id,
+                    request_data.session_id,
+                    request_data.faq_documents,
+                ),
+                timeout=settings.ai_response_timeout_seconds,
             )
             return self._to_ai_response(result)
+        except TimeoutError:
+            logger.error(
+                "Local AI service timed out after %.1f seconds",
+                settings.ai_response_timeout_seconds,
+            )
+            return self._service_unavailable_response()
         except (OllamaError, ChromaUnavailableError, ValueError) as exc:
             logger.error("Local AI service failed: %s", exc)
             return self._service_unavailable_response()
@@ -94,7 +108,7 @@ class AIService:
 
     def _to_ai_response(self, result: ChatResult) -> AIQueryResponse:
         return AIQueryResponse(
-            answer=result.answer,
+            answer=self._clean_answer(result.answer),
             confidence=self._confidence_from_result(result),
             intent=result.mode,
             sources=self._sources_from_result(result),
@@ -112,16 +126,36 @@ class AIService:
 
     def _sources_from_result(self, result: ChatResult) -> list[dict]:
         sources = []
+        seen: set[tuple[str, str]] = set()
         for hit in result.sources:
+            title = str(hit.document.title or "").strip()
+            source_name = str(hit.document.metadata.get("source") or "").strip()
+            if not title:
+                continue
+            source_key = (title.casefold(), source_name.casefold())
+            if source_key in seen:
+                continue
+            seen.add(source_key)
             sources.append(
                 {
                     "id": hit.document.id,
-                    "title": hit.document.title,
+                    "title": title,
                     "score": round(hit.score, 4),
                     "metadata": hit.document.metadata,
                 }
             )
         return sources
+
+    @staticmethod
+    def _clean_answer(answer: str) -> str:
+        # Sources are rendered from trusted metadata in the UI. Remove only a
+        # malformed appendix containing a heading and empty Markdown bullets.
+        return re.sub(
+            r"\s*(?:\*\*)?Nguồn tham khảo:(?:\*\*)?\s*(?:\n\s*-\s*)+$",
+            "",
+            answer.strip(),
+            flags=re.IGNORECASE,
+        ).strip()
 
     def _service_unavailable_response(self) -> AIQueryResponse:
         return AIQueryResponse(
@@ -133,3 +167,28 @@ class AIService:
             intent="ai_unavailable",
             needs_human=True,
         )
+
+    async def generate_title(self, message: str) -> str:
+        """Generate a short sidebar title, with a deterministic fallback."""
+        fallback = self._fallback_title(message)
+        if self.chatbot is None:
+            return fallback
+        try:
+            result = await asyncio.to_thread(
+                self.chatbot.llm_client.chat,
+                (
+                    "Tóm tắt tin nhắn thành tiêu đề tiếng Việt tối đa 6 từ. "
+                    "Chỉ trả về tiêu đề, không giải thích và không dùng dấu ngoặc kép."
+                ),
+                message,
+            )
+            title = result.strip().strip('"\'').strip()
+            return title[:80] if title else fallback
+        except Exception as exc:
+            logger.warning("Could not generate chat title: %s", exc)
+            return fallback
+
+    @staticmethod
+    def _fallback_title(message: str) -> str:
+        words = re.findall(r"\w+", message, flags=re.UNICODE)[:6]
+        return " ".join(words).strip().capitalize() or "Đoạn chat mới"

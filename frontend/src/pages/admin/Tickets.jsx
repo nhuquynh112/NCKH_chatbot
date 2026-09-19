@@ -21,6 +21,7 @@ const Tickets = () => {
         setError(res.message);
       }
     } catch (err) {
+      console.error(err);
       setError('Lỗi khi tải danh sách tickets');
     } finally {
       setLoading(false);
@@ -39,6 +40,7 @@ const Tickets = () => {
         setTickets(tickets.map(t => t.id === id ? { ...t, status: newStatus } : t));
       }
     } catch (err) {
+      console.error(err);
       alert('Không thể cập nhật trạng thái');
     }
   };
@@ -52,6 +54,7 @@ const Tickets = () => {
         setChatHistory(res.data.items);
       }
     } catch (err) {
+      console.error(err);
       alert('Lỗi tải lịch sử chat');
     } finally {
       setLoadingChat(false);

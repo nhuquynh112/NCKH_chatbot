@@ -1,8 +1,11 @@
 import json
+import sys
 from pathlib import Path
 
 from app.database import SessionLocal
 from app.models import Product, FAQ
+from app.product_enrichment import merge_verified_product
+from app.rag.document_builder import write_product_rag_documents
 
 # ==========================================================
 # Output Paths
@@ -32,9 +35,11 @@ def export_products_json(db):
 
     for p in products:
 
-        data.append(
+        item = merge_verified_product(
             {
                 "id": p.id,
+                "slug": p.slug,
+                "sku": p.slug,
                 "name": p.name,
                 "brand": p.brand,
                 "category": p.category,
@@ -45,6 +50,7 @@ def export_products_json(db):
                 "image_url": p.image_url,
             }
         )
+        data.append(item)
 
     PRODUCT_JSON.write_text(
         json.dumps(data, ensure_ascii=False, indent=4),
@@ -134,6 +140,8 @@ def export_faq_markdown(db):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
 
     db = SessionLocal()
 
@@ -144,6 +152,13 @@ def main():
         export_products_markdown(db)
 
         export_faq_markdown(db)
+
+        count, issues = write_product_rag_documents(
+            PRODUCT_JSON, OUTPUT_DIR / "techcare_rag_documents.json"
+        )
+        for issue in issues:
+            print(issue.format())
+        print(f"✓ Generated {count} product RAG documents")
 
     finally:
 

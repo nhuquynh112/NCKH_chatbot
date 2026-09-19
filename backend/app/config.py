@@ -1,10 +1,12 @@
 from pathlib import Path
-from typing import Optional
+from typing import Literal, Optional
 
+from pydantic import model_validator
 from pydantic_settings import BaseSettings
 
 
 BACKEND_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_DATABASE_URL = f"sqlite:///{(BACKEND_ROOT / 'techcare.db').as_posix()}"
 
 
 def _resolve_backend_path(path: Path) -> Path:
@@ -12,7 +14,12 @@ def _resolve_backend_path(path: Path) -> Path:
 
 
 class Settings(BaseSettings):
-    DATABASE_URL: str
+    ENVIRONMENT: Literal["development", "test", "production"] = "development"
+    # SQLite keeps the demo runnable without Docker. Production can override this
+    # with a PostgreSQL URL in .env.
+    # Keep one stable database even when uvicorn is started from the project
+    # root instead of the backend directory.
+    DATABASE_URL: str = DEFAULT_DATABASE_URL
     AI_SERVICE_URL: Optional[str] = None
 
     # Local RAG / Ollama settings
@@ -26,9 +33,20 @@ class Settings(BaseSettings):
     PRODUCT_CATALOG_PATH: Path = Path("rag_data/product_catalog_extended.md")
     LEGACY_VECTOR_INDEX_PATH: Path = Path("rag_data/vector_index.json")
     RAG_DOCUMENTS_PATH: Path = Path("rag_data/techcare_rag_documents.json")
-    PRODUCTS_PATH: Path = Path("rag_data/techcare_products_100.json")
-    RAG_TOP_K: int = 4
-    MIN_RETRIEVAL_SCORE: float = 0.55
+    # This file is exported from the same Product table shown on the website.
+    PRODUCTS_PATH: Path = Path("rag_data/techcare_products.json")
+    VECTOR_STORE_BACKEND: Literal["json", "chroma", "auto"] = "json"
+    RAG_TOP_K: int = 5
+    MIN_RETRIEVAL_SCORE: float = 0.38
+    CORS_ORIGINS: str = (
+        "http://localhost:5173,http://127.0.0.1:5173,"
+        "http://localhost:4173,http://127.0.0.1:4173"
+    )
+    AUTO_SEED: bool = True
+    WARM_AI_ON_STARTUP: bool = True
+    AI_RESPONSE_TIMEOUT_SECONDS: float = 25.0
+    CHAT_RATE_LIMIT_PER_MINUTE: int = 120
+    LOGIN_RATE_LIMIT_PER_MINUTE: int = 10
     
     # JWT Settings
     SECRET_KEY: str = "super_secret_key_change_in_production"
@@ -90,10 +108,40 @@ class Settings(BaseSettings):
         return self.MIN_RETRIEVAL_SCORE
 
     @property
+    def vector_store_backend(self) -> str:
+        return self.VECTOR_STORE_BACKEND
+
+    @property
+    def ai_response_timeout_seconds(self) -> float:
+        return max(1.0, float(self.AI_RESPONSE_TIMEOUT_SECONDS))
+
+    @property
+    def cors_origins(self) -> list[str]:
+        return [item.strip() for item in self.CORS_ORIGINS.split(",") if item.strip()]
+
+    @property
     def knowledge_paths(self) -> list[Path]:
         return [self.knowledge_base_path, self.product_catalog_path]
 
+    @model_validator(mode="after")
+    def reject_insecure_production_defaults(self):
+        if self.ENVIRONMENT != "production":
+            return self
+        problems: list[str] = []
+        if self.SECRET_KEY == "super_secret_key_change_in_production" or len(self.SECRET_KEY) < 32:
+            problems.append("SECRET_KEY must be a unique value of at least 32 characters")
+        if self.ADMIN_PASSWORD == "admin123" or len(self.ADMIN_PASSWORD) < 12:
+            problems.append("ADMIN_PASSWORD must be changed and contain at least 12 characters")
+        if self.AUTO_SEED:
+            problems.append("AUTO_SEED must be false")
+        if any("localhost" in origin or "127.0.0.1" in origin for origin in self.cors_origins):
+            problems.append("CORS_ORIGINS must contain the deployed website origins")
+        if problems:
+            raise ValueError("Unsafe production configuration: " + "; ".join(problems))
+        return self
+
     class Config:
         env_file = ".env"
+        extra = "ignore"
 
 settings = Settings()

@@ -5,6 +5,7 @@ import unicodedata
 QUERY_REWRITE_RULES = [
     (r"\bbn\b", "bao nhiêu"),
     (r"\bbao nhieu\b", "bao nhiêu"),
+    (r"\bbao lau\b", "thời gian bao lâu"),
     (r"\bgia\b", "giá"),
     (r"\bbh\b", "bảo hành"),
     (r"\bbao hanh\b", "bảo hành"),
@@ -34,6 +35,8 @@ QUERY_REWRITE_RULES = [
 
 
 def strip_accents(text: str) -> str:
+    # Unicode decomposition does not turn Vietnamese đ/Đ into d/D.
+    text = text.replace("đ", "d").replace("Đ", "D")
     normalized = unicodedata.normalize("NFD", text)
     return "".join(char for char in normalized if unicodedata.category(char) != "Mn")
 

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, Loader } from 'lucide-react';
+import { Search, Loader } from 'lucide-react';
 import axiosClient from '../api/axiosClient';
 
 const Products = () => {
@@ -8,12 +8,13 @@ const Products = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [search, setSearch] = useState('');
+  const [submittedSearch, setSubmittedSearch] = useState('');
   
   // Pagination
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
 
-  const fetchProducts = async (currentPage, searchQuery) => {
+  const fetchProducts = useCallback(async (currentPage, searchQuery) => {
     setLoading(true);
     setError(null);
     try {
@@ -32,20 +33,21 @@ const Products = () => {
         setError(res.message);
       }
     } catch (err) {
+      console.error(err);
       setError('Lỗi khi tải danh sách sản phẩm');
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
-    fetchProducts(page, search);
-  }, [page]); // Chỉ tự động fetch khi đổi trang
+    fetchProducts(page, submittedSearch);
+  }, [page, submittedSearch, fetchProducts]);
 
   const handleSearch = (e) => {
     e.preventDefault();
     setPage(1);
-    fetchProducts(1, search);
+    setSubmittedSearch(search.trim());
   };
 
   return (

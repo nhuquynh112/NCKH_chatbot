@@ -19,6 +19,7 @@ const ProductDetail = () => {
           setError(res.message);
         }
       } catch (err) {
+        console.error(err);
         setError('Không thể tải thông tin sản phẩm');
       } finally {
         setLoading(false);
@@ -93,8 +94,12 @@ const ProductDetail = () => {
               <span>Bảo hành chính hãng: <strong className="text-gray-900">{product.warranty_months} tháng</strong></span>
             </div>
 
-            {/* Nút Chat AI (Sẽ kích hoạt Widget ở Giai đoạn 3) */}
-            <button className="w-full sm:w-auto px-8 py-4 bg-gray-900 hover:bg-gray-800 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 transform hover:-translate-y-0.5">
+            <button
+              onClick={() => window.dispatchEvent(new CustomEvent('techcare:open-chat', {
+                detail: { productId: product.id, productName: product.name }
+              }))}
+              className="w-full sm:w-auto px-8 py-4 bg-gray-900 hover:bg-gray-800 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 transform hover:-translate-y-0.5"
+            >
               <MessageSquareText className="w-5 h-5" />
               Hỏi AI về sản phẩm này
             </button>

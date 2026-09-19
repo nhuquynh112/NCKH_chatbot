@@ -1,5 +1,6 @@
 from app.database import engine, Base, SessionLocal
 from app.models import Product, FAQ
+from app.product_enrichment import merge_verified_products
 import datetime
 
 def seed():
@@ -959,7 +960,17 @@ def seed():
 }
 
 ]
-        products = [Product(**item) for item in products_data]
+        # Apply the same reviewed corrections used by the live chatbot so a
+        # fresh database cannot re-introduce known catalog mistakes.
+        products_data = merge_verified_products(products_data)
+        product_fields = {
+            "name", "slug", "category", "brand", "description", "price",
+            "warranty_months", "specifications", "image_url", "is_active",
+        }
+        products = [
+            Product(**{key: value for key, value in item.items() if key in product_fields})
+            for item in products_data
+        ]
         db.add_all(products)
     
     if db.query(FAQ).count() == 0:

@@ -16,6 +16,7 @@ const FAQs = () => {
         setError(res.message);
       }
     } catch (err) {
+      console.error(err);
       setError('Lỗi khi tải danh sách FAQs');
     } finally {
       setLoading(false);
@@ -34,11 +35,11 @@ const FAQs = () => {
         setFaqs(faqs.filter(f => f.id !== id));
       }
     } catch (err) {
+      console.error(err);
       alert('Không thể xoá FAQ');
     }
   };
 
-  // Mock add/edit for now to keep it simple, or we can use a prompt
   const addFaq = async () => {
     const q = prompt('Nhập câu hỏi:');
     if (!q) return;
@@ -55,7 +56,24 @@ const FAQs = () => {
         setFaqs([...faqs, res.data]);
       }
     } catch (err) {
+      console.error(err);
       alert('Lỗi tạo FAQ');
+    }
+  };
+
+  const editFaq = async (faq) => {
+    const question = prompt('Sửa câu hỏi:', faq.question);
+    if (!question) return;
+    const answer = prompt('Sửa câu trả lời:', faq.answer);
+    if (!answer) return;
+    try {
+      const res = await axiosClient.put(`/faqs/${faq.id}`, { question, answer });
+      if (res.success) {
+        setFaqs(current => current.map(item => item.id === faq.id ? res.data : item));
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Không thể cập nhật FAQ');
     }
   };
 
@@ -91,7 +109,7 @@ const FAQs = () => {
                     <td className="p-4 text-sm text-gray-600 max-w-md truncate" title={f.answer}>{f.answer}</td>
                     <td className="p-4 text-sm text-gray-500">{f.category}</td>
                     <td className="p-4 text-right space-x-2">
-                      <button onClick={() => alert('Tính năng Edit đang phát triển')} className="text-blue-600 hover:bg-blue-50 p-2 rounded-lg">
+                      <button onClick={() => editFaq(f)} className="text-blue-600 hover:bg-blue-50 p-2 rounded-lg" title="Sửa FAQ">
                         <Edit className="w-4 h-4" />
                       </button>
                       <button onClick={() => deleteFaq(f.id)} className="text-red-600 hover:bg-red-50 p-2 rounded-lg">

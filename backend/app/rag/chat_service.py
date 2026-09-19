@@ -6,13 +6,13 @@ from app.config import Settings, settings as app_settings
 from app.rag.chroma_store import ChromaVectorStore
 from app.rag.embedding import OllamaClient
 from app.rag.guardrails import GuardrailPolicy, ProductCatalog
+from app.rag.json_store import JsonVectorStore
 from app.rag.prompt import FALLBACK_ANSWER, PromptBuilder
 from app.rag.query_rewriter import QueryRewriter, strip_accents
 from app.rag.retriever import Retriever
 from app.rag.vector_store import (
     Document,
     SearchResult,
-    load_legacy_vector_index,
     load_markdown_documents,
 )
 
@@ -48,6 +48,7 @@ class ChatService:
         history: list[dict] | None = None,
         product_id: int | None = None,
         session_id: str | None = None,
+        extra_documents: list[dict] | None = None,
     ) -> ChatResult:
         question = question.strip()
         if not question:
@@ -57,24 +58,150 @@ class ChatService:
             history,
             current_question=question,
         )
+        recommendation_candidates = self._recommendation_candidates_from_history(
+            recent_history
+        )
+        shown_recommendations = self._all_recommendation_candidates_from_history(
+            recent_history
+        )
+        recommendation_refinement = (
+            len(recommendation_candidates) >= 2
+            and self.guardrails.is_recommendation_refinement(question)
+        )
+        alternative_request = (
+            bool(shown_recommendations)
+            and self.guardrails.is_alternative_request(question)
+        )
+        current_category = self.guardrails.find_category(question)
+        history_category = self._latest_category_from_history(recent_history)
+        budget_category_refinement = (
+            self.guardrails.extract_budget(question) is not None
+            and current_category is None
+            and history_category is not None
+        )
+        explicit_category_query = (
+            current_category is not None
+            and (
+                self.guardrails.is_category_availability_question(question)
+                or self.guardrails.is_recommendation_question(question)
+                or self.guardrails.extract_budget(question) is not None
+            )
+        )
         use_history_for_retrieval = (
             bool(recent_history)
-            and self.prompt_builder.is_context_dependent(question)
+            and (
+                self.prompt_builder.is_context_dependent(question)
+                or recommendation_refinement
+                or budget_category_refinement
+            )
         )
-        resolved_product = self._resolve_product_from_history(
-            question,
-            recent_history,
+        # A product named in the current message must always beat page/history
+        # context. Conversely, an explicit unknown model must not be silently
+        # rewritten to the product page the customer opened earlier.
+        current_products = self.guardrails.mentioned_products(question)
+        explicit_unknown_product = (
+            self.guardrails.is_unknown_product_availability_question(question)
+            or self.guardrails.looks_like_unknown_model(question)
+            or (
+                self.guardrails.has_availability_phrase(question)
+                and self.guardrails.is_clearly_out_of_scope(question)
+            )
         )
+        if current_products:
+            resolved_product = current_products[0]
+        elif explicit_unknown_product:
+            resolved_product = None
+        elif (
+            recommendation_refinement
+            or budget_category_refinement
+            or explicit_category_query
+        ):
+            # A refinement such as "máy mạnh", "chơi mượt và pin trâu"
+            # applies to the recommendation set, not the last product printed.
+            resolved_product = None
+        else:
+            resolved_product = self._resolve_product_from_history(
+                question,
+                recent_history,
+                product_id,
+            )
         retrieval_question = (
             self._question_with_resolved_product(question, resolved_product)
             if resolved_product
             else self.prompt_builder.question_for_retrieval(question, recent_history)
         )
-        guardrail_question = retrieval_question if use_history_for_retrieval else question
+        # An explicit category in the current turn (e.g. "điện thoại dưới
+        # 10tr") must not inherit a product name from old assistant messages.
+        guardrail_question = (
+            retrieval_question
+            if use_history_for_retrieval and not explicit_category_query
+            else question
+        )
 
-        direct_answer = self.guardrails.deterministic_answer(guardrail_question)
+        if alternative_request:
+            direct_answer = self.guardrails.recommendation_answer(
+                guardrail_question,
+                current_question=question,
+                excluded=shown_recommendations,
+                alternative=True,
+            )
+        elif recommendation_refinement:
+            direct_answer = self.guardrails.recommendation_answer(
+                guardrail_question,
+                candidates=recommendation_candidates,
+                current_question=question,
+            )
+        elif budget_category_refinement:
+            direct_answer = self.guardrails.recommendation_answer(
+                f"{question}\nDanh mục đang tư vấn: {history_category}",
+                current_question=question,
+            )
+        else:
+            direct_answer = (
+                self.guardrails.product_fact_answer(question, resolved_product)
+                if resolved_product
+                else None
+            )
+        if not direct_answer:
+            direct_answer = self.guardrails.deterministic_answer(guardrail_question)
         if direct_answer:
-            hits = self.retriever.direct_source_hits(guardrail_question, [])
+            hide_sources = (
+                "https://www.google.com/" in direct_answer
+                or self.guardrails.is_greeting(question)
+                or self.guardrails.is_prompt_injection(question)
+                or self.guardrails.is_unrelated_request(question)
+                or self.guardrails.is_too_vague_for_rag(question)
+                or self.guardrails.is_order_lookup(question)
+                or self.guardrails.is_support_issue(question)
+            )
+            hits = (
+                []
+                if hide_sources
+                else self.retriever.direct_source_hits(guardrail_question, [])
+            )
+            if recommendation_refinement or alternative_request:
+                source_candidates = (
+                    self.guardrails.mentioned_products(direct_answer)
+                    if alternative_request
+                    else recommendation_candidates
+                )
+                candidate_hits = [
+                    self._product_search_result(product)
+                    for product in source_candidates
+                ]
+                deduplicated_hits: list[SearchResult] = []
+                seen_document_ids: set[str] = set()
+                for hit in [*candidate_hits, *hits]:
+                    if hit.document.id in seen_document_ids:
+                        continue
+                    seen_document_ids.add(hit.document.id)
+                    deduplicated_hits.append(hit)
+                hits = deduplicated_hits
+            source_product = resolved_product or self.guardrails.mentioned_known_product(
+                guardrail_question
+            )
+            if source_product:
+                hits = [*self._verified_source_hits(source_product), *hits]
             logger.info("Answered question with deterministic guardrail")
             return ChatResult(
                 answer=direct_answer,
@@ -85,6 +212,23 @@ class ChatService:
 
         search_question = retrieval_question if use_history_for_retrieval else question
         hits = self.retriever.search(search_question, top_k=top_k)
+        if extra_documents:
+            extra_hits = [
+                SearchResult(
+                    score=float(item.get("score", 1.0)),
+                    document=Document(
+                        id=str(item["id"]),
+                        title=str(item["title"]),
+                        content=str(item["content"]),
+                        metadata={
+                            str(key): str(value)
+                            for key, value in (item.get("metadata") or {}).items()
+                        },
+                    ),
+                )
+                for item in extra_documents
+            ]
+            hits = sorted([*extra_hits, *hits], key=lambda hit: hit.score, reverse=True)[:top_k]
         if resolved_product:
             hits = self._prioritize_active_product_hits(hits, resolved_product)
         if self.guardrails.should_fallback(search_question, hits):
@@ -119,11 +263,40 @@ class ChatService:
             mode="llm+rag",
         )
 
+    def _verified_source_hits(self, product: dict) -> list[SearchResult]:
+        hits: list[SearchResult] = []
+        for index, source in enumerate(product.get("source_urls") or [], start=1):
+            title = str(source.get("title") or "").strip()
+            url = str(source.get("url") or "").strip()
+            if not title or not url:
+                continue
+            hits.append(
+                SearchResult(
+                    score=1.0,
+                    document=Document(
+                        id=f"official-{product.get('slug') or product.get('sku')}-{index}",
+                        title=title,
+                        content=f"Nguồn hãng cho {product.get('name', '')}",
+                        metadata={
+                            "source": "official_manufacturer",
+                            "url": url,
+                            "verified_at": str(product.get("verified_at") or ""),
+                        },
+                    ),
+                )
+            )
+        return hits
+
     def _resolve_product_from_history(
         self,
         question: str,
         history: list[dict[str, str]],
+        product_id: int | None = None,
     ) -> dict | None:
+        page_product = self.guardrails.product_by_id(product_id)
+        if page_product:
+            return page_product
+
         if not history or not self.prompt_builder.is_context_dependent(question):
             return None
 
@@ -132,6 +305,50 @@ class ChatService:
             or self._latest_product_by_role(history, "user")
             or self._latest_product_in_messages(history)
         )
+
+    def _recommendation_candidates_from_history(
+        self,
+        history: list[dict[str, str]],
+    ) -> list[dict]:
+        """Return the latest multi-product recommendation shown to the user."""
+        for message in reversed(history):
+            if message.get("role") != "assistant":
+                continue
+            products = self.guardrails.mentioned_products(message.get("content", ""))
+            if len(products) >= 2:
+                return products
+        return []
+
+    def _all_recommendation_candidates_from_history(
+        self,
+        history: list[dict[str, str]],
+    ) -> list[dict]:
+        """Collect every product recently shown so alternatives do not repeat."""
+        products: list[dict] = []
+        seen: set[str] = set()
+        for message in reversed(history):
+            if message.get("role") != "assistant":
+                continue
+            for product in self.guardrails.mentioned_products(message.get("content", "")):
+                key = self._compact_text(product.get("sku") or product.get("name", ""))
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                products.append(product)
+        return products
+
+    def _latest_category_from_history(
+        self,
+        history: list[dict[str, str]],
+    ) -> str | None:
+        for role in ("user", "assistant"):
+            for message in reversed(history):
+                if message.get("role") != role:
+                    continue
+                category = self.guardrails.find_category(message.get("content", ""))
+                if category:
+                    return category
+        return None
 
     def _latest_product_by_role(
         self,
@@ -157,12 +374,12 @@ class ChatService:
         return None
 
     def _latest_product_in_text(self, text: str) -> dict | None:
-        matches: list[tuple[int, dict]] = []
+        matches: list[tuple[int, int, dict]] = []
         folded_text = self._fold_text(text)
         compact_text = self._compact_text(text)
 
         for product in self._known_product_candidates():
-            positions: list[int] = []
+            positions: list[tuple[int, int]] = []
             for term in self._product_terms(product):
                 folded_term = self._fold_text(term)
                 compact_term = self._compact_text(term)
@@ -171,19 +388,22 @@ class ChatService:
 
                 folded_index = folded_text.rfind(folded_term)
                 if folded_index >= 0:
-                    positions.append(folded_index)
+                    positions.append((folded_index, len(folded_term)))
 
                 compact_index = compact_text.rfind(compact_term)
                 if compact_index >= 0:
-                    positions.append(compact_index)
+                    positions.append((compact_index, len(compact_term)))
 
             if positions:
-                matches.append((max(positions), product))
+                best_position, best_length = max(positions, key=lambda item: (item[0], item[1]))
+                matches.append((best_position, best_length, product))
 
         if not matches:
             return None
-        matches.sort(key=lambda item: item[0], reverse=True)
-        return matches[0][1]
+        # When names overlap ("iPhone 17" and "iPhone 17 Pro"), prefer the
+        # longer, more specific term at the latest position.
+        matches.sort(key=lambda item: (item[0], item[1]), reverse=True)
+        return matches[0][2]
 
     def _known_product_candidates(self) -> list[dict]:
         candidates: list[dict] = []
@@ -212,10 +432,10 @@ class ChatService:
         candidates.append(product)
 
     def _product_from_document(self, document: Document) -> dict | None:
+        if document.metadata.get("source") != "product_catalog_extended.md":
+            return None
         title = document.title.strip()
         if not title:
-            return None
-        if self._fold_text(title) in {"gioi thieu", "cau hoi thuong gap"}:
             return None
 
         price = self._first_match(
@@ -372,11 +592,7 @@ def create_default_chat_service(
         chat_model=config.chat_model,
         embedding_model=config.embedding_model,
     )
-    vector_store = ChromaVectorStore(
-        persist_dir=config.chroma_persist_dir,
-        collection_name=config.collection_name,
-        embedding_client=llm_client,
-    )
+    vector_store = _create_vector_store(config, llm_client)
     guardrails = GuardrailPolicy(
         product_catalog=ProductCatalog(
             rag_documents_path=config.rag_documents_path,
@@ -390,15 +606,10 @@ def create_default_chat_service(
         guardrails=guardrails,
     )
     if ensure_index:
-        if retriever.vector_store.count() == 0:
-            if config.legacy_vector_index_path.exists():
-                documents, embeddings_by_id = load_legacy_vector_index(
-                    config.legacy_vector_index_path
-                )
-                retriever.rebuild_index(documents, embeddings_by_id=embeddings_by_id)
-            else:
-                documents = load_markdown_documents(config.knowledge_paths)
-                retriever.rebuild_index(documents)
+        documents = load_markdown_documents(config.knowledge_paths)
+        if not retriever.vector_store.is_current(documents):
+            logger.warning("RAG index is missing or stale; rebuilding it from current data")
+            retriever.rebuild_index(documents)
 
     return ChatService(
         retriever=retriever,
@@ -417,11 +628,7 @@ def rebuild_index(config: Settings | None = None):
         embedding_model=config.embedding_model,
     )
 
-    vector_store = ChromaVectorStore(
-        persist_dir=config.chroma_persist_dir,
-        collection_name=config.collection_name,
-        embedding_client=llm_client,
-    )
+    vector_store = _create_vector_store(config, llm_client)
 
     guardrails = GuardrailPolicy(
         product_catalog=ProductCatalog(
@@ -444,3 +651,21 @@ def rebuild_index(config: Settings | None = None):
     retriever.rebuild_index(documents)
 
     print(f"Indexed {len(documents)} documents successfully.")
+
+
+def _create_vector_store(config: Settings, llm_client: OllamaClient):
+    if config.vector_store_backend == "json":
+        return JsonVectorStore(config.legacy_vector_index_path, llm_client)
+
+    chroma_store = ChromaVectorStore(
+        persist_dir=config.chroma_persist_dir,
+        collection_name=config.collection_name,
+        embedding_client=llm_client,
+    )
+    if config.vector_store_backend == "chroma":
+        return chroma_store
+
+    if chroma_store.is_available():
+        return chroma_store
+    logger.warning("ChromaDB is unavailable; using the portable JSON vector store")
+    return JsonVectorStore(config.legacy_vector_index_path, llm_client)

@@ -1,3 +1,4 @@
+import re
 from typing import Protocol
 
 from app.rag.guardrails import GuardrailPolicy
@@ -20,6 +21,9 @@ class VectorStore(Protocol):
         ...
 
     def count(self) -> int:
+        ...
+
+    def is_current(self, documents: list[Document]) -> bool:
         ...
 
 
@@ -83,6 +87,36 @@ class Retriever:
             if hits:
                 return hits[:4]
 
+        if self.guardrails.is_order_lookup(question):
+            hits = [
+                SearchResult(1.0, doc)
+                for doc in documents
+                if any(
+                    keyword in strip_accents(doc.title.lower())
+                    for keyword in ["kiem tra don hang", "quy trinh tao ticket"]
+                )
+            ]
+            if hits:
+                return hits[:4]
+
+        known_product = self.guardrails.mentioned_known_product(question)
+        if known_product:
+            name = re.sub(
+                r"[^a-z0-9]+", "", strip_accents(known_product["name"].lower())
+            )
+            hits = [
+                SearchResult(1.0, doc)
+                for doc in documents
+                if name in re.sub(
+                    r"[^a-z0-9]+", "", strip_accents(doc.title.lower())
+                )
+                or re.sub(
+                    r"[^a-z0-9]+", "", strip_accents(doc.title.lower())
+                ) in name
+            ]
+            if hits:
+                return hits[:1]
+
         if self.guardrails.is_greeting(question) or self.guardrails.is_too_vague_for_rag(question):
             return [
                 SearchResult(1.0, doc)
@@ -135,6 +169,40 @@ class Retriever:
         text = title_lower + " " + content_lower
         adjustment = 0.0
 
+        # Small multilingual embedding models can confuse nearby policies (for
+        # example refund vs warranty). Exact lexical overlap keeps the matching
+        # FAQ/section title ahead of merely semantically similar documents.
+        folded_question = strip_accents(question_lower)
+        if "bao lau" in folded_question:
+            folded_question += " thoi gian"
+        folded_title = strip_accents(title_lower)
+        folded_content = strip_accents(content_lower)
+        stop_words = {
+            "cua", "cho", "toi", "minh", "ban", "shop", "techcare", "la",
+            "co", "khong", "duoc", "nhung", "nao", "gi", "ve", "the",
+        }
+        query_tokens = {
+            token
+            for token in folded_question.replace("?", " ").replace(",", " ").split()
+            if len(token) >= 2 and token not in stop_words
+        }
+        if query_tokens:
+            title_overlap = sum(token in folded_title for token in query_tokens)
+            content_overlap = sum(token in folded_content for token in query_tokens)
+            adjustment += 0.45 * title_overlap / len(query_tokens)
+            adjustment += 0.12 * content_overlap / len(query_tokens)
+
+        topics = [
+            "hoan tien", "bao hanh", "doi tra", "giao hang", "phi giao hang",
+            "thanh toan", "tra gop", "hoa don", "voucher", "kiem tra hang",
+            "huy don hang",
+        ]
+        for topic in (item for item in topics if item in folded_question):
+            if topic in folded_title:
+                adjustment += 0.45
+            elif topic in folded_content:
+                adjustment += 0.20
+
         recommendation_words = [
             "chơi game", "gaming", "render", "đồ họa", "do hoa",
             "học online", "hoc online", "sinh viên", "sinh vien",
@@ -172,8 +240,8 @@ class Retriever:
             if any(word in title_lower for word in ["chính sách", "giao hàng", "thanh toán", "ticket", "trạng thái", "đơn hàng"]):
                 adjustment += 0.10
 
-        for token in question_lower.replace("?", " ").replace(",", " ").split():
-            if len(token) >= 5 and token in title_lower:
+        for token in folded_question.replace("?", " ").replace(",", " ").split():
+            if len(token) >= 5 and token in folded_title:
                 adjustment += 0.03
 
         return adjustment

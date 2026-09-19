@@ -1,5 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
-from pydantic import BaseModel
+from hmac import compare_digest
+
+from pydantic import BaseModel, ConfigDict, Field
 from app.config import settings
 from app.core.security import create_access_token
 from app.schemas.common import APIResponse
@@ -10,12 +12,16 @@ router = APIRouter(
 )
 
 class LoginRequest(BaseModel):
-    username: str
-    password: str
+    username: str = Field(..., min_length=1, max_length=100)
+    password: str = Field(..., min_length=1, max_length=255)
+
+    model_config = ConfigDict(extra="forbid")
 
 @router.post("/login", response_model=APIResponse[dict])
 def login(request: LoginRequest):
-    if request.username == settings.ADMIN_USERNAME and request.password == settings.ADMIN_PASSWORD:
+    username_ok = compare_digest(request.username, settings.ADMIN_USERNAME)
+    password_ok = compare_digest(request.password, settings.ADMIN_PASSWORD)
+    if username_ok and password_ok:
         token = create_access_token(data={"sub": request.username})
         return APIResponse(
             success=True,

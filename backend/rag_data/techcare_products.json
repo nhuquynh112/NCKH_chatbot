@@ -1,274 +1,8 @@
 [
     {
-        "id": 1,
-        "name": "iPhone 17 128GB",
-        "brand": "Apple",
-        "category": "Điện thoại",
-        "price": 25990000.0,
-        "description": "iPhone 17 màn hình OLED 6.3 inch, chip Apple A19, camera AI thế hệ mới.",
-        "warranty_months": 12,
-        "specifications": {
-            "RAM": "8GB",
-            "Chip": "Apple A19",
-            "Bộ nhớ": "128GB",
-            "Màn hình": "6.3 inch OLED"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/42/337425/iphone-17-black-thumb-600x600.jpg"
-    },
-    {
-        "id": 2,
-        "name": "iPhone 17 Pro 256GB",
-        "brand": "Apple",
-        "category": "Điện thoại",
-        "price": 33990000.0,
-        "description": "iPhone 17 Pro khung Titan, camera AI Pro, chip Apple A19 Pro.",
-        "warranty_months": 12,
-        "specifications": {
-            "RAM": "12GB",
-            "Chip": "Apple A19 Pro",
-            "Bộ nhớ": "256GB",
-            "Màn hình": "6.3 inch OLED"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/42/337426/iphone-17-pro-thumb-600x600.jpg"
-    },
-    {
-        "id": 3,
-        "name": "MacBook Air M4 13 inch",
-        "brand": "Apple",
-        "category": "Laptop",
-        "price": 27990000.0,
-        "description": "MacBook Air M4 siêu mỏng nhẹ, pin lên tới 18 giờ.",
-        "warranty_months": 24,
-        "specifications": {
-            "CPU": "Apple M4",
-            "GPU": "Apple GPU",
-            "RAM": "16GB",
-            "SSD": "512GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/44/333825/macbook-air-m4-thumb-600x600.jpg"
-    },
-    {
-        "id": 4,
-        "name": "iPad Air M3 WiFi",
-        "brand": "Apple",
-        "category": "Máy tính bảng",
-        "price": 17990000.0,
-        "description": "iPad Air M3 mạnh mẽ dành cho học tập và sáng tạo.",
-        "warranty_months": 12,
-        "specifications": {
-            "RAM": "8GB",
-            "Chip": "Apple M3",
-            "Storage": "128GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/522/334171/ipad-air-m3-thumb-600x600.jpg"
-    },
-    {
-        "id": 5,
-        "name": "AirPods Pro 2 USB-C",
-        "brand": "Apple",
-        "category": "Tai nghe",
-        "price": 5990000.0,
-        "description": "Tai nghe chống ồn chủ động ANC thế hệ mới.",
-        "warranty_months": 12,
-        "specifications": {
-            "Pin": "6 giờ",
-            "Bluetooth": "5.3",
-            "Chống nước": "IP54"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/54/315750/airpods-pro-2-type-c-thumb-600x600.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Samsung Galaxy S25 Ultra",
-        "brand": "Samsung",
-        "category": "Điện thoại",
-        "price": 32990000.0,
-        "description": "Galaxy AI mạnh mẽ, camera 200MP.",
-        "warranty_months": 12,
-        "specifications": {
-            "RAM": "12GB",
-            "Chip": "Snapdragon 8 Elite",
-            "Storage": "256GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/42/329143/samsung-galaxy-s25-ultra-thumb-600x600.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Samsung Galaxy S25",
-        "brand": "Samsung",
-        "category": "Điện thoại",
-        "price": 22990000.0,
-        "description": "Điện thoại AI cao cấp cho công việc và giải trí.",
-        "warranty_months": 12,
-        "specifications": {
-            "RAM": "12GB",
-            "Chip": "Snapdragon 8 Elite",
-            "Storage": "256GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/42/329149/samsung-galaxy-s25-thumb-600x600.jpg"
-    },
-    {
-        "id": 8,
-        "name": "Galaxy Tab S10",
-        "brand": "Samsung",
-        "category": "Máy tính bảng",
-        "price": 18990000.0,
-        "description": "Tablet Android cao cấp hỗ trợ bút S-Pen.",
-        "warranty_months": 12,
-        "specifications": {
-            "RAM": "12GB",
-            "Storage": "256GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/522/329017/samsung-galaxy-tab-s10-thumb-600x600.jpg"
-    },
-    {
-        "id": 9,
-        "name": "Galaxy Buds3 Pro",
-        "brand": "Samsung",
-        "category": "Tai nghe",
-        "price": 4990000.0,
-        "description": "Tai nghe chống ồn AI.",
-        "warranty_months": 12,
-        "specifications": {
-            "ANC": "Có",
-            "Bluetooth": "5.4"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/54/326507/galaxy-buds3-pro-thumb-600x600.jpg"
-    },
-    {
-        "id": 10,
-        "name": "Galaxy Watch Ultra",
-        "brand": "Samsung",
-        "category": "Đồng hồ",
-        "price": 14990000.0,
-        "description": "Đồng hồ thông minh Galaxy Watch Ultra.",
-        "warranty_months": 12,
-        "specifications": {
-            "GPS": "Dual GPS",
-            "Pin": "100 giờ"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/7077/326359/galaxy-watch-ultra-thumb-600x600.jpg"
-    },
-    {
-        "id": 11,
-        "name": "Dell Inspiron 15 3530",
-        "brand": "Dell",
-        "category": "Laptop",
-        "price": 15990000.0,
-        "description": "Laptop văn phòng bán chạy.",
-        "warranty_months": 24,
-        "specifications": {
-            "CPU": "Intel Core i5-1334U",
-            "RAM": "16GB",
-            "SSD": "512GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/44/319270/dell-inspiron-15-thumb-600x600.jpg"
-    },
-    {
-        "id": 12,
-        "name": "Dell Vostro 3530",
-        "brand": "Dell",
-        "category": "Laptop",
-        "price": 17990000.0,
-        "description": "Laptop doanh nghiệp ổn định.",
-        "warranty_months": 24,
-        "specifications": {
-            "CPU": "Intel Core i5-1335U",
-            "RAM": "16GB",
-            "SSD": "512GB"
-        },
-        "image_url": "https://cdn.tgdd.vn/Products/Images/44/318628/dell-vostro-thumb-600x600.jpg"
-    },
-    {
-        "id": 13,
-        "name": "Dell XPS 14",
-        "brand": "Dell",
-        "category": "Laptop",
-        "price": 45990000.0,
-        "description": "Laptop cao cấp cho lập trình và thiết kế.",
-        "warranty_months": 24,
-        "specifications": {
-            "CPU": "Core Ultra 7",
-            "RAM": "32GB",
-            "SSD": "1TB"
-        },
-        "image_url": "https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-14-9440-laptop/xps-14.png"
-    },
-    {
-        "id": 14,
-        "name": "Dell Alienware m16",
-        "brand": "Dell",
-        "category": "Laptop",
-        "price": 69990000.0,
-        "description": "Gaming laptop RTX 4070.",
-        "warranty_months": 24,
-        "specifications": {
-            "CPU": "Core i9",
-            "GPU": "RTX 4070",
-            "RAM": "32GB",
-            "SSD": "1TB"
-        },
-        "image_url": "https://i.dell.com/sites/imagecontent/products/publishingimages/alienware-m16-r2-laptop.png"
-    },
-    {
-        "id": 15,
-        "name": "Dell P2425H",
-        "brand": "Dell",
-        "category": "Màn hình",
-        "price": 4890000.0,
-        "description": "Màn hình văn phòng 24 inch IPS.",
-        "warranty_months": 36,
-        "specifications": {
-            "Refresh": "100Hz",
-            "Tấm nền": "IPS",
-            "Kích thước": "24 inch"
-        },
-        "image_url": "https://i.dell.com/sites/imagecontent/products/publishingimages/dell-24-monitor-p2425h.png"
-    },
-    {
-        "id": 16,
-        "name": "Chuột Logitech M650",
-        "brand": "Logitech",
-        "category": "Phụ kiện",
-        "price": 790000.0,
-        "description": "Chuột không dây văn phòng.",
-        "warranty_months": 24,
-        "specifications": {
-            "Pin": "24 tháng",
-            "Kết nối": "Bluetooth"
-        },
-        "image_url": "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/signature-m650/gallery/m650-graphite-top.png"
-    },
-    {
-        "id": 17,
-        "name": "Bàn phím Logitech K380",
-        "brand": "Logitech",
-        "category": "Phụ kiện",
-        "price": 890000.0,
-        "description": "Bàn phím Bluetooth đa thiết bị.",
-        "warranty_months": 24,
-        "specifications": {
-            "Pin": "24 tháng",
-            "Bluetooth": "Có"
-        },
-        "image_url": "https://resource.logitech.com/content/dam/logitech/en/products/keyboards/k380/gallery/k380-blue-top.png"
-    },
-    {
-        "id": 18,
-        "name": "SSD Kingston NV3 1TB",
-        "brand": "Kingston",
-        "category": "Phụ kiện",
-        "price": 1890000.0,
-        "description": "SSD NVMe PCIe Gen4 tốc độ cao.",
-        "warranty_months": 60,
-        "specifications": {
-            "Chuẩn": "PCIe Gen4",
-            "Dung lượng": "1TB"
-        },
-        "image_url": "https://media.kingston.com/kingston/product/ktc-product-ssd-nv3-nvme-angle-lg.jpg"
-    },
-    {
         "id": 19,
+        "slug": "anker-nano-65w",
+        "sku": "anker-nano-65w",
         "name": "Sạc Anker Nano 65W",
         "brand": "Anker",
         "category": "Phụ kiện",
@@ -279,10 +13,648 @@
             "Cổng": "USB-C",
             "Công suất": "65W"
         },
-        "image_url": "https://cdn.anker.com/media/catalog/product/n/a/nano-65w.jpg"
+        "image_url": null,
+        "verification_status": "store_catalog_only",
+        "verification_note": "Cấu hình cửa hàng chưa được đối chiếu vì tên sản phẩm thiếu mã SKU/part number."
+    },
+    {
+        "id": 23,
+        "slug": "rog-strix-g16",
+        "sku": "rog-strix-g16",
+        "name": "ASUS ROG Strix G16",
+        "brand": "ASUS",
+        "category": "Laptop",
+        "price": 36990000.0,
+        "description": "Laptop gaming RTX4060.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Core i7-14650HX",
+            "GPU": "RTX4060",
+            "RAM": "16GB",
+            "SSD": "1TB"
+        },
+        "image_url": "/images/products/rog-strix-g16.png",
+        "verification_status": "store_catalog_only",
+        "verification_note": "Cấu hình cửa hàng chưa được đối chiếu vì tên sản phẩm thiếu mã SKU/part number."
+    },
+    {
+        "id": 29,
+        "slug": "legion-5",
+        "sku": "legion-5",
+        "name": "Lenovo Legion 5",
+        "brand": "Lenovo",
+        "category": "Laptop",
+        "price": 32990000.0,
+        "description": "Gaming laptop hiệu năng cao.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Ryzen 9",
+            "GPU": "RTX4070",
+            "RAM": "32GB",
+            "SSD": "1TB"
+        },
+        "image_url": "/images/products/legion-5.avif",
+        "verification_status": "store_catalog_only",
+        "verification_note": "Cấu hình cửa hàng chưa được đối chiếu vì tên sản phẩm thiếu mã SKU/part number."
+    },
+    {
+        "id": 31,
+        "slug": "hp-pavilion-15",
+        "sku": "hp-pavilion-15",
+        "name": "HP Pavilion 15",
+        "brand": "HP",
+        "category": "Laptop",
+        "price": 17990000.0,
+        "description": "Laptop học tập và văn phòng.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Core i5",
+            "RAM": "16GB",
+            "SSD": "512GB"
+        },
+        "image_url": "/images/products/hp-pavilion-15.png",
+        "verification_status": "store_catalog_only",
+        "verification_note": "Cấu hình cửa hàng chưa được đối chiếu vì tên sản phẩm thiếu mã SKU/part number."
+    },
+    {
+        "id": 46,
+        "slug": "gigabyte-g5",
+        "sku": "gigabyte-g5",
+        "name": "Gigabyte G5",
+        "brand": "Gigabyte",
+        "category": "Laptop",
+        "price": 26990000.0,
+        "description": "Gaming laptop RTX4060.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Core i7",
+            "RAM": "16GB",
+            "SSD": "512GB"
+        },
+        "image_url": "/images/products/gigabyte-g5.png",
+        "verification_status": "store_catalog_only",
+        "verification_note": "Cấu hình cửa hàng chưa được đối chiếu vì tên sản phẩm thiếu mã SKU/part number."
+    },
+    {
+        "id": 47,
+        "slug": "gigabyte-aorus15",
+        "sku": "gigabyte-aorus15",
+        "name": "Gigabyte Aorus 15",
+        "brand": "Gigabyte",
+        "category": "Laptop",
+        "price": 39990000.0,
+        "description": "Gaming laptop cao cấp.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Core Ultra 9",
+            "RAM": "32GB",
+            "SSD": "1TB"
+        },
+        "image_url": "/images/products/gigabyte-aorus15.png",
+        "verification_status": "store_catalog_only",
+        "verification_note": "Cấu hình cửa hàng chưa được đối chiếu vì tên sản phẩm thiếu mã SKU/part number."
+    },
+    {
+        "id": 1,
+        "slug": "iphone-17-256gb",
+        "sku": "iphone-17-256gb",
+        "name": "iPhone 17 256GB",
+        "brand": "Apple",
+        "category": "Điện thoại",
+        "price": 24999000,
+        "description": "iPhone 17 màn hình Super Retina XDR 6,3 inch có ProMotion, chip A19 và hệ thống camera kép 48MP.",
+        "warranty_months": 12,
+        "specifications": {
+            "Chip": "Apple A19",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "Fusion Main 48MP + Fusion Ultra Wide 48MP",
+            "Màn hình": "6,3 inch OLED, ProMotion đến 120Hz",
+            "Thời lượng video": "Tối đa 30 giờ"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Apple – Thông số kỹ thuật iPhone 17",
+                "url": "https://www.apple.com/vn/iphone-17/specs/"
+            },
+            {
+                "title": "Apple Store Việt Nam – iPhone 17 256GB",
+                "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-17/m%C3%A0n-h%C3%ACnh-6%2C3-inch-256gb-%C4%91en"
+            }
+        ],
+        "canonical_slug": "iphone-17-256gb"
+    },
+    {
+        "id": 2,
+        "slug": "iphone-17-pro-256gb",
+        "sku": "iphone-17-pro-256gb",
+        "name": "iPhone 17 Pro 256GB",
+        "brand": "Apple",
+        "category": "Điện thoại",
+        "price": 34999000,
+        "description": "iPhone 17 Pro 6,3 inch dùng chip A19 Pro và hệ thống ba camera Fusion 48MP.",
+        "warranty_months": 12,
+        "specifications": {
+            "Chip": "Apple A19 Pro, CPU 6 lõi, GPU 6 lõi",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "Ba camera Fusion 48MP",
+            "Màn hình": "6,3 inch OLED, ProMotion đến 120Hz",
+            "Thời lượng video": "Tối đa 37 giờ"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Apple Support – iPhone 17 Pro Tech Specs",
+                "url": "https://support.apple.com/en-my/125090"
+            },
+            {
+                "title": "Apple Store Việt Nam – iPhone 17 Pro 256GB",
+                "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-17-pro/m%C3%A0n-h%C3%ACnh-6%2C3-inch-256gb-b%E1%BA%A1c"
+            }
+        ],
+        "canonical_slug": "iphone-17-pro-256gb"
+    },
+    {
+        "id": 3,
+        "slug": "macbook-air-m4",
+        "sku": "macbook-air-m4",
+        "name": "MacBook Air M4 13 inch",
+        "brand": "Apple",
+        "category": "Laptop",
+        "price": 27990000.0,
+        "description": "MacBook Air 13 inch với chip M4, bộ nhớ thống nhất 16GB, SSD 512GB và thời lượng xem video công bố đến 18 giờ.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Apple M4, CPU 10 lõi",
+            "GPU": "Apple GPU",
+            "Pin": "53,8Wh; xem video tối đa 18 giờ",
+            "RAM": "16GB unified memory",
+            "SSD": "512GB",
+            "Cổng": "MagSafe 3, 2 x Thunderbolt 4, jack 3,5mm",
+            "Màn hình": "Liquid Retina 13,6 inch, 2560 x 1664, 500 nit"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Apple Support – MacBook Air 13-inch M4 Tech Specs",
+                "url": "https://support.apple.com/en-ie/122209"
+            }
+        ],
+        "canonical_slug": "macbook-air-m4"
+    },
+    {
+        "id": 4,
+        "slug": "ipad-air-m3",
+        "sku": "ipad-air-m3",
+        "name": "iPad Air M3 Wi‑Fi 128GB",
+        "brand": "Apple",
+        "category": "Máy tính bảng",
+        "price": 17990000.0,
+        "description": "iPad Air dùng chip M3, bộ nhớ 128GB; catalog cửa hàng cần xác nhận thêm kích thước 11 inch hay 13 inch trước khi chốt đơn.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "8GB",
+            "Chip": "Apple M3",
+            "Storage": "128GB",
+            "Bộ nhớ": "128GB",
+            "Kết nối": "Wi‑Fi",
+            "Lưu ý biến thể": "Cần xác nhận bản 11 inch hoặc 13 inch"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Apple – iPad Air Tech Specs",
+                "url": "https://www.apple.com/ipad-air/specs/"
+            },
+            {
+                "title": "Apple Newsroom Việt Nam – iPad Air M3",
+                "url": "https://www.apple.com/vn/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+            }
+        ],
+        "canonical_slug": "ipad-air-m3"
+    },
+    {
+        "id": 5,
+        "slug": "airpods-pro-2",
+        "sku": "airpods-pro-2",
+        "name": "AirPods Pro 2 USB-C",
+        "brand": "Apple",
+        "category": "Tai nghe",
+        "price": 5990000.0,
+        "description": "AirPods Pro 2 kèm hộp sạc MagSafe USB‑C, có chống ồn chủ động, chip H2 và chuẩn IP54.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "6 giờ",
+            "Chip": "Apple H2",
+            "Bluetooth": "5.3",
+            "Hộp sạc": "MagSafe, Apple Watch, Qi hoặc USB‑C",
+            "Kết nối": "Bluetooth 5.3",
+            "Chống ồn": "Active Noise Cancellation",
+            "Pin tai nghe": "Tối đa 6 giờ mỗi lần sạc",
+            "Pin kèm hộp": "Tối đa 30 giờ nghe",
+            "Chống nước": "IP54",
+            "Kháng bụi/nước": "IP54"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Apple Support – AirPods Pro 2 USB‑C Tech Specs",
+                "url": "https://support.apple.com/en-us/111834"
+            }
+        ],
+        "canonical_slug": "airpods-pro-2"
+    },
+    {
+        "id": 6,
+        "slug": "galaxy-s25-ultra",
+        "sku": "galaxy-s25-ultra",
+        "name": "Samsung Galaxy S25 Ultra",
+        "brand": "Samsung",
+        "category": "Điện thoại",
+        "price": 32990000.0,
+        "description": "Galaxy S25 Ultra dùng Snapdragon 8 Elite for Galaxy, màn hình 6,9 inch và camera chính 200MP.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "5000mAh",
+            "RAM": "12GB",
+            "Chip": "Snapdragon 8 Elite for Galaxy",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "200MP + 50MP + 50MP + 10MP",
+            "Màn hình": "6,9 inch Dynamic AMOLED 2X, 120Hz",
+            "Kháng nước/bụi": "IP68"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Samsung – Galaxy S25 Series B2B Spec Sheet",
+                "url": "https://images.samsung.com/is/content/samsung/assets/us/business/mobile/phones/galaxy-s25/02052025/S25_Series_B2B_Spec_Sheet_HRc.pdf"
+            }
+        ],
+        "canonical_slug": "galaxy-s25-ultra"
+    },
+    {
+        "id": 7,
+        "slug": "galaxy-s25",
+        "sku": "galaxy-s25",
+        "name": "Samsung Galaxy S25",
+        "brand": "Samsung",
+        "category": "Điện thoại",
+        "price": 22990000.0,
+        "description": "Galaxy S25 dùng Snapdragon 8 Elite for Galaxy, màn hình 6,2 inch 120Hz và camera chính 50MP.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "4000mAh",
+            "RAM": "12GB",
+            "Chip": "Snapdragon 8 Elite for Galaxy",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "50MP + 12MP + 10MP",
+            "Màn hình": "6,2 inch Dynamic AMOLED 2X, 120Hz",
+            "Kháng nước/bụi": "IP68"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Samsung – Galaxy S25 Series B2B Spec Sheet",
+                "url": "https://images.samsung.com/is/content/samsung/assets/us/business/mobile/phones/galaxy-s25/02052025/S25_Series_B2B_Spec_Sheet_HRc.pdf"
+            }
+        ],
+        "canonical_slug": "galaxy-s25"
+    },
+    {
+        "id": 8,
+        "slug": "galaxy-tab-s10",
+        "sku": "galaxy-tab-s10",
+        "name": "Samsung Galaxy Tab S10+ 12GB/256GB",
+        "brand": "Samsung",
+        "category": "Máy tính bảng",
+        "price": 18990000.0,
+        "description": "Galaxy Tab S10+ có màn hình Dynamic AMOLED 2X 12,4 inch, chip Dimensity 9300+ và chuẩn IP68.",
+        "warranty_months": 12,
+        "specifications": {
+            "RAM": "12GB",
+            "Chip": "MediaTek Dimensity 9300+",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "13MP + 8MP",
+            "Màn hình": "12,4 inch Dynamic AMOLED 2X",
+            "Kháng nước/bụi": "IP68",
+            "Lưu ý biến thể": "Tên cũ 'Galaxy Tab S10' không phải tên model đầy đủ"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Samsung – Galaxy Tab S10 Series",
+                "url": "https://www.samsung.com/us/tablets/galaxy-tab-s10/"
+            }
+        ],
+        "canonical_slug": "galaxy-tab-s10"
+    },
+    {
+        "id": 9,
+        "slug": "galaxy-buds3-pro",
+        "sku": "galaxy-buds3-pro",
+        "name": "Galaxy Buds3 Pro",
+        "brand": "Samsung",
+        "category": "Tai nghe",
+        "price": 4990000.0,
+        "description": "Galaxy Buds3 Pro có ANC, Bluetooth 5.4 và chuẩn kháng nước/bụi IP57.",
+        "warranty_months": 12,
+        "specifications": {
+            "ANC": "Có",
+            "Pin": "Tối đa 6 giờ / 26 giờ kèm hộp khi bật ANC",
+            "Bluetooth": "5.4",
+            "Kết nối": "Bluetooth 5.4",
+            "Chống ồn": "ANC",
+            "Pin khi tắt ANC": "Tối đa 7 giờ / 30 giờ kèm hộp",
+            "Kháng nước/bụi": "IP57"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Samsung – Galaxy Buds3 Pro Specifications",
+                "url": "https://www.samsung.com/ca/business/audio-sound/galaxy-buds/galaxy-buds3-pro-white-sm-r630nzwaxac/"
+            }
+        ],
+        "canonical_slug": "galaxy-buds3-pro"
+    },
+    {
+        "id": 10,
+        "slug": "galaxy-watch-ultra",
+        "sku": "galaxy-watch-ultra",
+        "name": "Samsung Galaxy Watch Ultra 47mm LTE",
+        "brand": "Samsung",
+        "category": "Đồng hồ",
+        "price": 14990000.0,
+        "description": "Galaxy Watch Ultra 47mm LTE có vỏ titanium, GPS băng tần kép và pin 590mAh.",
+        "warranty_months": 12,
+        "specifications": {
+            "GPS": "L1+L5 dual-frequency",
+            "Pin": "590mAh; đến 80 giờ khi AOD tắt, 100 giờ ở chế độ tiết kiệm pin",
+            "Màn hình": "1,5 inch Super AMOLED, 480 x 480",
+            "Kết nối": "Bluetooth + LTE",
+            "Độ bền": "10ATM + IP68, MIL-STD-810H",
+            "RAM/Bộ nhớ": "2GB/64GB"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Samsung – Galaxy Watch Ultra 47mm Specifications",
+                "url": "https://www.samsung.com/uk/watches/galaxy-watch/galaxy-watch-ultra-2025-47mm-titanium-blue-lte-sm-l705fzb2eua/"
+            }
+        ],
+        "canonical_slug": "galaxy-watch-ultra"
+    },
+    {
+        "id": 11,
+        "slug": "dell-inspiron-3530",
+        "sku": "dell-inspiron-3530",
+        "name": "Dell Inspiron 15 3530 i5-1334U 16GB/512GB",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 15990000.0,
+        "description": "Laptop văn phòng bán chạy.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5-1334U, 10 lõi, tối đa 4,6GHz",
+            "GPU": "Intel Iris Xe",
+            "RAM": "16GB DDR4",
+            "SSD": "512GB M.2 PCIe NVMe",
+            "Màn hình": "15,6 inch FHD, WVA IPS, 120Hz, chống chói, 250 nit"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Dell – Inspiron 15 3530 i5-1334U Tech Specs",
+                "url": "https://www.dell.com/en-my/shop/laptop-notebook-computers/inspiron-15-laptop/spd/inspiron-15-3530-laptop/sin3530340701mmyh"
+            }
+        ],
+        "canonical_slug": "dell-inspiron-3530"
+    },
+    {
+        "id": 12,
+        "slug": "dell-vostro-3530",
+        "sku": "dell-vostro-3530",
+        "name": "Dell Vostro 3530 i5-1335U 16GB/512GB",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 17990000.0,
+        "description": "Laptop doanh nghiệp ổn định.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5-1335U, 10 lõi/12 luồng, tối đa 4,6GHz",
+            "GPU": "Intel Iris Xe",
+            "RAM": "16GB DDR4-3200",
+            "SSD": "512GB M.2 PCIe NVMe",
+            "Màn hình": "15,6 inch FHD, WVA, 120Hz, chống chói, 250 nit"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Dell – Vostro 3530 i5-1335U Tech Specs",
+                "url": "https://www.dell.com/en-ca/shop/laptops-ultrabooks/vostro-15-laptop/spd/vostro-15-3530-laptop/caevcpbto3530fwpv"
+            }
+        ],
+        "canonical_slug": "dell-vostro-3530"
+    },
+    {
+        "id": 13,
+        "slug": "dell-xps-14",
+        "sku": "dell-xps-14",
+        "name": "Dell XPS 14 9440 Core Ultra 7 32GB/1TB",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 45990000.0,
+        "description": "Laptop cao cấp cho lập trình và thiết kế.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core Ultra 7 155H hoặc 165H (cần đối chiếu order code)",
+            "RAM": "32GB LPDDR5X onboard",
+            "SSD": "1TB PCIe 4.0 NVMe",
+            "Màn hình": "Tùy chọn 14,5 inch FHD+ IPS 120Hz hoặc 3.2K OLED 120Hz",
+            "Lưu ý biến thể": "Cần order code để xác nhận CPU, màn hình và GPU"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Dell – XPS 14 9440 Tech Specs",
+                "url": "https://www.dell.com/en-uk/shop/laptops/14-new/spd/xps-14-9440-laptop"
+            }
+        ],
+        "canonical_slug": "dell-xps-14"
+    },
+    {
+        "id": 14,
+        "slug": "alienware-m16",
+        "sku": "alienware-m16",
+        "name": "Dell Alienware m16 R1 i9/32GB/1TB/RTX 4070",
+        "brand": "Dell",
+        "category": "Laptop",
+        "price": 69990000.0,
+        "description": "Gaming laptop RTX 4070.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i9-13900HX",
+            "GPU": "GeForce RTX 4070 8GB GDDR6",
+            "RAM": "32GB DDR5",
+            "SSD": "1TB M.2 PCIe NVMe",
+            "Màn hình": "16 inch QHD+ 2560 x 1600, 240Hz",
+            "Lưu ý biến thể": "Cần order code để xác nhận màn hình và tốc độ RAM"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Dell – Alienware m16 R1 i9 RTX 4070 Tech Specs",
+                "url": "https://www.dell.com/en-ca/shop/laptops/intel/spd/alienware-m16-r1-laptop/na15m16r1_h04e"
+            }
+        ],
+        "canonical_slug": "alienware-m16"
+    },
+    {
+        "id": 15,
+        "slug": "dell-p2425h",
+        "sku": "dell-p2425h",
+        "name": "Dell P2425H",
+        "brand": "Dell",
+        "category": "Màn hình",
+        "price": 4890000.0,
+        "description": "Màn hình văn phòng 24 inch IPS.",
+        "warranty_months": 36,
+        "specifications": {
+            "Cổng": "HDMI 1.4, DisplayPort 1.2, VGA, USB hub",
+            "Refresh": "100Hz",
+            "Màn hình": "23,8 inch IPS, 1920 x 1080",
+            "Màu sắc": "99% sRGB",
+            "Tấm nền": "IPS",
+            "Độ sáng": "250 nit",
+            "Kích thước": "24 inch",
+            "Tần số quét": "100Hz"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Dell – P2425H Monitor Specifications",
+                "url": "https://www.dell.com/en-us/shop/p2425h-monitor/apd/210-bmgh/monitors-monitor-accessories"
+            }
+        ],
+        "canonical_slug": "dell-p2425h"
+    },
+    {
+        "id": 16,
+        "slug": "logitech-m650",
+        "sku": "logitech-m650",
+        "name": "Chuột Logitech M650",
+        "brand": "Logitech",
+        "category": "Phụ kiện",
+        "price": 790000.0,
+        "description": "Chuột không dây văn phòng.",
+        "warranty_months": 24,
+        "specifications": {
+            "Pin": "1 pin AA, tối đa 24 tháng",
+            "Phạm vi": "Tối đa 10m",
+            "Kết nối": "Bluetooth Low Energy 5.0+ hoặc Logi Bolt"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Logitech – Signature M650 for Business",
+                "url": "https://www.logitech.com/en-us/products/mice/m650-signature-for-business.910-006347.html"
+            }
+        ],
+        "canonical_slug": "logitech-m650"
+    },
+    {
+        "id": 17,
+        "slug": "logitech-k380",
+        "sku": "logitech-k380",
+        "name": "Bàn phím Logitech K380",
+        "brand": "Logitech",
+        "category": "Phụ kiện",
+        "price": 890000.0,
+        "description": "Bàn phím Bluetooth đa thiết bị.",
+        "warranty_months": 24,
+        "specifications": {
+            "Pin": "2 pin AAA, tối đa 24 tháng",
+            "Bluetooth": "Có",
+            "Phạm vi": "Tối đa 10m",
+            "Kết nối": "Bluetooth Classic, chuyển nhanh giữa 3 thiết bị",
+            "Kiểu phím": "Scissor, 79 phím"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Logitech – K380 Multi-Device Bluetooth Keyboard Datasheet",
+                "url": "https://www.logitech.com/content/dam/logitech/en/business/pdf/k380-multi-device-blurtooth-keyboard.pdf"
+            }
+        ],
+        "canonical_slug": "logitech-k380"
+    },
+    {
+        "id": 18,
+        "slug": "kingston-nv3-1tb",
+        "sku": "kingston-nv3-1tb",
+        "name": "SSD Kingston NV3 1TB M.2 2280",
+        "brand": "Kingston",
+        "category": "Phụ kiện",
+        "price": 1890000.0,
+        "description": "SSD NVMe PCIe Gen4 tốc độ cao.",
+        "warranty_months": 60,
+        "specifications": {
+            "Chuẩn": "M.2 2280, PCIe 4.0 x4 NVMe",
+            "Độ bền": "320 TBW",
+            "Dung lượng": "1TB",
+            "Đọc/ghi tuần tự": "Tối đa 6000/4000 MB/s"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Kingston – NV3 NVMe PCIe SSD Specifications",
+                "url": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd?capacity=1"
+            }
+        ],
+        "canonical_slug": "kingston-nv3-1tb"
     },
     {
         "id": 20,
+        "slug": "wd-my-passport-2tb",
+        "sku": "wd-my-passport-2tb",
         "name": "WD My Passport 2TB",
         "brand": "Western Digital",
         "category": "Phụ kiện",
@@ -291,8 +663,835 @@
         "warranty_months": 36,
         "specifications": {
             "USB": "3.2",
-            "Dung lượng": "2TB"
+            "Giao tiếp": "USB-C, USB 3.2 Gen 1; tương thích USB 3.0/2.0",
+            "Dung lượng": "2TB",
+            "Lưu ý biến thể": "Cần đối chiếu part number trên hàng thực tế để xác nhận đúng đời USB-C"
         },
-        "image_url": "https://shop.westerndigital.com/content/dam/store/en-us/assets/products/portable-storage/my-passport/gallery/my-passport-black-front.png"
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Western Digital – My Passport USB-C Datasheet",
+                "url": "https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/wd/product/external-storage/my_passport/my-passport-phdd-usb-c/data-sheet-my-passport-phdd-usb-c.pdf"
+            }
+        ],
+        "canonical_slug": "wd-my-passport-2tb"
+    },
+    {
+        "id": 21,
+        "slug": "asus-vivobook-15-oled",
+        "sku": "asus-vivobook-15-oled",
+        "name": "ASUS Vivobook 15 OLED X1505 i5-13500H 16GB/512GB",
+        "brand": "ASUS",
+        "category": "Laptop",
+        "price": 16990000.0,
+        "description": "Laptop học tập và văn phòng với màn hình OLED sắc nét.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5-13500H, 12 lõi/16 luồng",
+            "GPU": "Intel Iris Xe",
+            "RAM": "16GB",
+            "SSD": "512GB M.2 NVMe PCIe 4.0",
+            "Màn hình": "15,6 inch OLED; độ phân giải/tần số tùy SKU"
+        },
+        "image_url": "/images/products/asus-vivobook-15-oled.jpg",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "ASUS – Vivobook 15 OLED X1505 Tech Specs",
+                "url": "https://www.asus.com/laptops/for-home/vivobook/vivobook-15-oled-x1505/techspec/"
+            }
+        ],
+        "canonical_slug": "asus-vivobook-15-oled"
+    },
+    {
+        "id": 22,
+        "slug": "asus-zenbook-14",
+        "sku": "asus-zenbook-14",
+        "name": "ASUS Zenbook 14 OLED UX3405 Core Ultra 7 16GB/1TB",
+        "brand": "ASUS",
+        "category": "Laptop",
+        "price": 27990000.0,
+        "description": "Laptop mỏng nhẹ cao cấp cho doanh nhân.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core Ultra 7 (cần SKU để xác nhận 155H/255H)",
+            "RAM": "16GB LPDDR5X onboard",
+            "SSD": "1TB M.2 NVMe PCIe 4.0",
+            "Cổng": "2 x Thunderbolt 4, USB-A, HDMI 2.1, jack 3,5mm",
+            "Màn hình": "Tùy chọn OLED 14 inch 3K 120Hz hoặc FHD 60Hz"
+        },
+        "image_url": "/images/products/asus-zenbook-14.png",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "ASUS – Zenbook 14 OLED UX3405 Tech Specs",
+                "url": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/"
+            }
+        ],
+        "canonical_slug": "asus-zenbook-14"
+    },
+    {
+        "id": 24,
+        "slug": "asus-tuf-a15",
+        "sku": "asus-tuf-a15",
+        "name": "ASUS TUF Gaming A15 2024 Ryzen 7/16GB/512GB/RTX 4050",
+        "brand": "ASUS",
+        "category": "Laptop",
+        "price": 24990000.0,
+        "description": "Gaming laptop AMD Ryzen.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "AMD Ryzen 7 8845HS, 8 lõi/16 luồng",
+            "GPU": "GeForce RTX 4050 6GB, tối đa 140W",
+            "RAM": "16GB",
+            "SSD": "512GB",
+            "Màn hình": "15,6 inch; FHD 144Hz hoặc QHD 165Hz tùy SKU"
+        },
+        "image_url": "/images/products/asus-tuf-a15.png",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "ASUS – TUF Gaming A15 2024 Tech Specs",
+                "url": "https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-a15-2024/techspec/"
+            }
+        ],
+        "canonical_slug": "asus-tuf-a15"
+    },
+    {
+        "id": 25,
+        "slug": "asus-proart-p16",
+        "sku": "asus-proart-p16",
+        "name": "ASUS ProArt P16 H7606 Ryzen AI 9 32GB/1TB",
+        "brand": "ASUS",
+        "category": "Laptop",
+        "price": 52990000.0,
+        "description": "Laptop dành cho designer và editor.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "AMD Ryzen AI 9 HX 370",
+            "Pin": "90Wh",
+            "RAM": "32GB LPDDR5X",
+            "SSD": "1TB M.2 NVMe PCIe 4.0",
+            "Màn hình": "16 inch OLED 4K 3840 x 2400, 60Hz, 100% DCI-P3",
+            "Lưu ý biến thể": "GPU thay đổi theo mã H7606"
+        },
+        "image_url": "/images/products/asus-proart-p16.avif",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "ASUS – ProArt P16 H7606 Tech Specs",
+                "url": "https://www.asus.com/ca-en/laptops/for-creators/proart/proart-p16-h7606/techspec/"
+            }
+        ],
+        "canonical_slug": "asus-proart-p16"
+    },
+    {
+        "id": 26,
+        "slug": "thinkpad-e14-gen6",
+        "sku": "thinkpad-e14-gen6",
+        "name": "Lenovo ThinkPad E14 Gen 6",
+        "brand": "Lenovo",
+        "category": "Laptop",
+        "price": 21990000.0,
+        "description": "Laptop doanh nghiệp nổi tiếng về độ bền.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core Ultra 5 (tùy mã máy)",
+            "RAM": "16GB",
+            "SSD": "512GB",
+            "Lưu ý biến thể": "Cần mã MTM để xác nhận CPU, màn hình, pin và hệ điều hành"
+        },
+        "image_url": "/images/products/thinkpad-e14-gen6.avif",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Lenovo PSREF – ThinkPad E14 Gen 6 Intel",
+                "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_E14_Gen_6_Intel/ThinkPad_E14_Gen_6_Intel_Spec.pdf"
+            }
+        ],
+        "canonical_slug": "thinkpad-e14-gen6"
+    },
+    {
+        "id": 27,
+        "slug": "lenovo-loq-15",
+        "sku": "lenovo-loq-15",
+        "name": "Lenovo LOQ 15 Core i7/16GB/512GB/RTX 4050",
+        "brand": "Lenovo",
+        "category": "Laptop",
+        "price": 24990000.0,
+        "description": "Laptop gaming tầm trung.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i7 (cần mã máy để xác nhận thế hệ)",
+            "GPU": "GeForce RTX 4050",
+            "RAM": "16GB",
+            "SSD": "512GB",
+            "Lưu ý biến thể": "LOQ 15 có nhiều thế hệ; cần mã MTM để xác nhận màn hình và công suất GPU"
+        },
+        "image_url": "/images/products/lenovo-loq-15.webp",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Lenovo – LOQ 15IRH8 Datasheet",
+                "url": "https://psref.lenovo.com/syspool/Sys/PDF/datasheet/Lenovo_LOQ_15IRH8_Datasheet_EN.pdf"
+            }
+        ],
+        "canonical_slug": "lenovo-loq-15"
+    },
+    {
+        "id": 28,
+        "slug": "yoga-slim-7",
+        "sku": "yoga-slim-7",
+        "name": "Lenovo Yoga Slim 7 Core Ultra 7 16GB/1TB",
+        "brand": "Lenovo",
+        "category": "Laptop",
+        "price": 28990000.0,
+        "description": "Laptop mỏng nhẹ cao cấp.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core Ultra 7 (cần MTM để xác nhận đời CPU)",
+            "Pin": "Dòng 14ILL10 dùng pin 70Wh",
+            "RAM": "16GB LPDDR5X onboard",
+            "SSD": "1TB M.2 PCIe 4.0 NVMe",
+            "Lưu ý biến thể": "Cần mã MTM để xác nhận kích thước và tấm nền"
+        },
+        "image_url": "/images/products/yoga-slim-7.png",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Lenovo PSREF – Yoga Slim 7",
+                "url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_14ILL10/Yoga_Slim_7_14ILL10_Spec.html"
+            }
+        ],
+        "canonical_slug": "yoga-slim-7"
+    },
+    {
+        "id": 51,
+        "slug": "xiaomi-pad7-pro",
+        "sku": "xiaomi-pad7-pro",
+        "name": "Xiaomi Pad 7 Pro 8GB/256GB",
+        "brand": "Xiaomi",
+        "category": "Máy tính bảng",
+        "price": 14990000.0,
+        "description": "Xiaomi Pad 7 Pro dùng Snapdragon 8s Gen 3, màn hình 11,2 inch 3.2K 144Hz và bộ nhớ 8GB/256GB.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "8850mAh",
+            "RAM": "8GB LPDDR5X",
+            "Chip": "Snapdragon 8s Gen 3",
+            "Sạc": "67W",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB UFS 4.0",
+            "Màn hình": "11,2 inch, 3200 x 2136, tối đa 144Hz, 800 nit"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Xiaomi – Xiaomi Pad 7 Pro Specifications",
+                "url": "https://www.mi.com/es/product/xiaomi-pad-7-pro/specs/"
+            }
+        ],
+        "canonical_slug": "xiaomi-pad7-pro"
+    },
+    {
+        "id": 30,
+        "slug": "lenovo-tab-p12",
+        "sku": "lenovo-tab-p12",
+        "name": "Lenovo Tab P12",
+        "brand": "Lenovo",
+        "category": "Máy tính bảng",
+        "price": 11990000.0,
+        "description": "Lenovo Tab P12 có màn hình 12,7 inch 3K, chip Dimensity 7050 và pin 10200mAh; cấu hình lưu trữ có thể khác theo mã máy/khu vực.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "10200mAh, hỗ trợ sạc nhanh 30W, tối đa khoảng 10 giờ",
+            "RAM": "8GB LPDDR4X",
+            "Chip": "MediaTek Dimensity 7050",
+            "Camera": "Trước 13MP góc rộng; sau 8MP AF",
+            "Storage": "256GB",
+            "Âm thanh": "4 loa JBL, Dolby Atmos",
+            "Màn hình": "12,7 inch LTPS 3K, 2944 x 1840, 400 nit",
+            "Bộ nhớ catalog": "256GB"
+        },
+        "image_url": "/images/products/lenovo-tab-p12.png",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Lenovo – Tab P12 Technical Specifications",
+                "url": "https://www.lenovo.com/us/en/p/tablets/android-tablets/lenovo-tab-series/lenovo-tab-p12/zach0176us/"
+            },
+            {
+                "title": "Lenovo PSREF – Tab P12",
+                "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_P12/Tab_P12_Spec.PDF"
+            }
+        ],
+        "canonical_slug": "lenovo-tab-p12"
+    },
+    {
+        "id": 32,
+        "slug": "hp-victus-15",
+        "sku": "hp-victus-15",
+        "name": "HP Victus 15 Ryzen 7/16GB/512GB/RTX 4050",
+        "brand": "HP",
+        "category": "Laptop",
+        "price": 23990000.0,
+        "description": "Gaming laptop RTX4050.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "AMD Ryzen 7 (cần product number để xác nhận)",
+            "GPU": "GeForce RTX 4050 6GB",
+            "RAM": "16GB",
+            "SSD": "512GB PCIe Gen4 NVMe",
+            "Màn hình": "15,6 inch FHD 144Hz ở cấu hình tham chiếu"
+        },
+        "image_url": "/images/products/hp-victus-15.png",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "HP – Victus 15 Ryzen 7 RTX 4050 Tech Specs",
+                "url": "https://www.hp.com/gb-en/shop/products/laptops/victus-gaming-laptop-15-fb3007na-c0se9ea-abu"
+            }
+        ],
+        "canonical_slug": "hp-victus-15"
+    },
+    {
+        "id": 33,
+        "slug": "hp-omen-16",
+        "sku": "hp-omen-16",
+        "name": "HP Omen 16 Core i9/32GB/1TB/RTX 4070",
+        "brand": "HP",
+        "category": "Laptop",
+        "price": 38990000.0,
+        "description": "Gaming laptop cao cấp.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i9-13900HX ở dòng 16-wf0000",
+            "GPU": "GeForce RTX 4070 8GB",
+            "RAM": "32GB DDR5",
+            "SSD": "1TB PCIe Gen4 NVMe",
+            "Màn hình": "16,1 inch; thông số thay đổi theo product number"
+        },
+        "image_url": "/images/products/hp-omen-16.webp",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "HP Support – OMEN 16-wf0000 Series Specifications",
+                "url": "https://support.hp.com/ca-en/document/ish_7968187-7968239-16"
+            }
+        ],
+        "canonical_slug": "hp-omen-16"
+    },
+    {
+        "id": 34,
+        "slug": "hp-envy-x360",
+        "sku": "hp-envy-x360",
+        "name": "HP Envy x360 16 Ryzen 7/16GB/1TB",
+        "brand": "HP",
+        "category": "Laptop",
+        "price": 26990000.0,
+        "description": "Laptop xoay gập cảm ứng.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "AMD Ryzen 7 8840HS ở cấu hình tham chiếu",
+            "Pin": "68Wh",
+            "RAM": "16GB LPDDR5 onboard",
+            "SSD": "1TB PCIe Gen4 NVMe",
+            "Màn hình": "16 inch OLED 3K cảm ứng, 48–120Hz ở cấu hình tham chiếu"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "HP – Envy x360 16-ad0097nr Tech Specs",
+                "url": "https://www.hp.com/us-en/shop/pdp/hp-envy-x360-2-in-1-laptop-16-ad0097nr-16-%C2%A0touch-screen-%C2%A0windows-11-home-%C2%A0amd-ryzen%E2%84%A2-7-%C2%A016gb-ram-%C2%A01tb-ssd-%C2%A03k-%C2%A0meteor-silver-p-9u9v4ua-aba"
+            }
+        ],
+        "canonical_slug": "hp-envy-x360"
+    },
+    {
+        "id": 35,
+        "slug": "elitebook-840-g11",
+        "sku": "elitebook-840-g11",
+        "name": "HP EliteBook 840 G11 Core Ultra 7 16GB/512GB",
+        "brand": "HP",
+        "category": "Laptop",
+        "price": 29990000.0,
+        "description": "Laptop doanh nghiệp bảo mật cao.",
+        "warranty_months": 36,
+        "specifications": {
+            "CPU": "Intel Core Ultra 7 155U ở cấu hình 16GB/512GB tham chiếu",
+            "RAM": "16GB DDR5-5600",
+            "SSD": "512GB PCIe NVMe",
+            "Màn hình": "14 inch WUXGA IPS chống chói",
+            "Kết nối": "Wi‑Fi 6E, Bluetooth 5.3"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "HP – EliteBook 840 G11 Ultra 7 16GB/512GB",
+                "url": "https://jp.ext.hp.com/notebooks/business/elitebook_840_g11/"
+            }
+        ],
+        "canonical_slug": "elitebook-840-g11"
+    },
+    {
+        "id": 36,
+        "slug": "acer-aspire-5",
+        "sku": "acer-aspire-5",
+        "name": "Acer Aspire 5 A515-58 i5-13420H 16GB/512GB",
+        "brand": "Acer",
+        "category": "Laptop",
+        "price": 15990000.0,
+        "description": "Laptop văn phòng phổ thông.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5-13420H, 8 lõi/12 luồng",
+            "RAM": "16GB; loại RAM tùy part number",
+            "SSD": "512GB PCIe NVMe",
+            "Màn hình": "15,6 inch FHD; IPS/TN và tần số thay đổi theo part number",
+            "Lưu ý biến thể": "Cần part number NX.* để xác nhận màn hình, RAM và GPU"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Acer – Aspire 5 A515-58 i5-13420H Tech Specs",
+                "url": "https://www.acer.com/mx-es/laptops/aspire/aspire-5-intel/pdp/NX.KQ9AL.004"
+            }
+        ],
+        "canonical_slug": "acer-aspire-5"
+    },
+    {
+        "id": 37,
+        "slug": "acer-swift-go-14",
+        "sku": "acer-swift-go-14",
+        "name": "Acer Swift Go 14 SFG14-73 Core Ultra 7 16GB/1TB",
+        "brand": "Acer",
+        "category": "Laptop",
+        "price": 23990000.0,
+        "description": "Laptop mỏng nhẹ OLED.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core Ultra 7 155H",
+            "GPU": "Intel Arc",
+            "RAM": "16GB LPDDR5X",
+            "SSD": "1TB PCIe NVMe",
+            "Màn hình": "14 inch OLED 2880 x 1800, 90Hz, 100% DCI-P3"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Acer – Swift Go 14 SFG14-73-71BY Tech Specs",
+                "url": "https://www.acer.com/in-en/laptops/swift/swift-go/pdp/NX.KSGSI.002"
+            }
+        ],
+        "canonical_slug": "acer-swift-go-14"
+    },
+    {
+        "id": 38,
+        "slug": "acer-nitro-v15",
+        "sku": "acer-nitro-v15",
+        "name": "Acer Nitro V 15 Core i7/16GB/512GB/RTX 4050",
+        "brand": "Acer",
+        "category": "Laptop",
+        "price": 22990000.0,
+        "description": "Gaming laptop RTX4050.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i7-13620H ở cấu hình tham chiếu",
+            "GPU": "GeForce RTX 4050 6GB",
+            "RAM": "16GB DDR5",
+            "SSD": "512GB M.2 PCIe Gen4 NVMe",
+            "Màn hình": "15,6 inch FHD; 144Hz hoặc 165Hz tùy part number"
+        },
+        "image_url": "/images/products/acer-nitro-v15.avif",
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Acer – Nitro V 15 i7/16GB/512GB/RTX 4050",
+                "url": "https://www.acer.com/br-pt/laptops/nitro/nitro-v-15/pdp/NH.QS8AL.001"
+            }
+        ],
+        "canonical_slug": "acer-nitro-v15"
+    },
+    {
+        "id": 39,
+        "slug": "predator-helios-neo16",
+        "sku": "predator-helios-neo16",
+        "name": "Acer Predator Helios Neo 16 PHN16-72 i9/32GB/1TB/RTX 4070",
+        "brand": "Acer",
+        "category": "Laptop",
+        "price": 38990000.0,
+        "description": "Gaming laptop hiệu năng cao.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i9-14900HX",
+            "GPU": "GeForce RTX 4070 8GB, tối đa 140W",
+            "RAM": "32GB DDR5",
+            "SSD": "1TB PCIe 4.0 NVMe",
+            "Màn hình": "16 inch 2560 x 1600, 240Hz, 100% DCI-P3"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Acer – Predator Helios Neo 16 PHN16-72 Tech Specs",
+                "url": "https://www.acer.com/nl-nl/predator/laptops/helios/helios-neo-16/pdp/NH.QQUEH.002"
+            }
+        ],
+        "canonical_slug": "predator-helios-neo16"
+    },
+    {
+        "id": 40,
+        "slug": "acer-ka242y",
+        "sku": "acer-ka242y",
+        "name": "Acer KA242Y",
+        "brand": "Acer",
+        "category": "Màn hình",
+        "price": 2990000.0,
+        "description": "Màn hình IPS 24 inch 100Hz.",
+        "warranty_months": 36,
+        "specifications": {
+            "Cổng": "HDMI, VGA",
+            "Refresh": "100Hz",
+            "Màn hình": "23,8 inch Full HD 1920 x 1080",
+            "Độ sáng": "250 nit",
+            "Đồng bộ": "AMD FreeSync",
+            "Kích thước": "24 inch",
+            "Tần số quét": "100Hz"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Acer – KA242Y Specifications",
+                "url": "https://www.acer.com/us-en/monitors/essential/ka2/pdp/UM.QX2AA.H03"
+            }
+        ],
+        "canonical_slug": "acer-ka242y"
+    },
+    {
+        "id": 41,
+        "slug": "msi-modern-15",
+        "sku": "msi-modern-15",
+        "name": "MSI Modern 15 Core i5 16GB/512GB",
+        "brand": "MSI",
+        "category": "Laptop",
+        "price": 17990000.0,
+        "description": "Laptop văn phòng thiết kế đẹp.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i5 (cần SKU để xác nhận đời CPU)",
+            "RAM": "16GB DDR4",
+            "SSD": "512GB NVMe",
+            "Màn hình": "15,6 inch FHD IPS-level 60Hz ở cấu hình B12M tham chiếu",
+            "Lưu ý biến thể": "Modern 15 có nhiều đời B12/B13/F13"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "MSI – Modern 15 B12M 16GB/512GB Datasheet",
+                "url": "https://storage-asset.msi.com/specSheet/ca/bnp/Modern%2015%20B12M-296CA.pdf"
+            }
+        ],
+        "canonical_slug": "msi-modern-15"
+    },
+    {
+        "id": 42,
+        "slug": "msi-katana15",
+        "sku": "msi-katana15",
+        "name": "MSI Katana 15 B13VFK i7/16GB/1TB/RTX 4060",
+        "brand": "MSI",
+        "category": "Laptop",
+        "price": 28990000.0,
+        "description": "Gaming laptop RTX4060.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i7-13620H",
+            "GPU": "GeForce RTX 4060 8GB",
+            "Pin": "53,5Wh",
+            "RAM": "16GB DDR5-5200",
+            "SSD": "1TB NVMe PCIe Gen4",
+            "Màn hình": "15,6 inch FHD 144Hz IPS-level"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "MSI Việt Nam – Katana 15 B13VFK-676VN Datasheet",
+                "url": "https://storage-asset.msi.com/excelSku/vn/nb/Katana%2015%20B13VFK%20-%20676VN.pdf"
+            }
+        ],
+        "canonical_slug": "msi-katana15"
+    },
+    {
+        "id": 43,
+        "slug": "msi-raider-ge68",
+        "sku": "msi-raider-ge68",
+        "name": "MSI Raider GE68 HX Core i9/32GB/2TB/RTX 4080",
+        "brand": "MSI",
+        "category": "Laptop",
+        "price": 52990000.0,
+        "description": "Gaming flagship.",
+        "warranty_months": 24,
+        "specifications": {
+            "CPU": "Intel Core i9 HX (cần SKU để xác nhận thế hệ)",
+            "GPU": "GeForce RTX 4080 12GB, tối đa 175W",
+            "RAM": "32GB DDR5",
+            "SSD": "2TB",
+            "Lưu ý biến thể": "Cần SKU đầy đủ để xác nhận màn hình và CPU"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "MSI – Raider GE68 HX Specifications",
+                "url": "https://www.msi.com/Laptop/Raider-GE68-HX-14VX/Specification"
+            }
+        ],
+        "canonical_slug": "msi-raider-ge68"
+    },
+    {
+        "id": 44,
+        "slug": "msi-pro-mp2412",
+        "sku": "msi-pro-mp2412",
+        "name": "MSI PRO MP2412",
+        "brand": "MSI",
+        "category": "Màn hình",
+        "price": 2790000.0,
+        "description": "MSI PRO MP2412 là màn hình 23,8 inch Full HD dùng tấm nền VA, tần số quét 100Hz.",
+        "warranty_months": 36,
+        "specifications": {
+            "VESA": "75 x 75mm",
+            "Cổng": "HDMI, DisplayPort",
+            "24 inch": "IPS",
+            "Refresh": "100Hz",
+            "Màn hình": "23,8 inch VA, 1920 x 1080",
+            "Độ sáng": "300 nit",
+            "Phản hồi": "1ms MPRT / 4ms GTG",
+            "Tần số quét": "100Hz"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "MSI – PRO MP2412 Specifications",
+                "url": "https://www.msi.com/Business-Productivity-Monitor/PRO-MP2412/Specification"
+            }
+        ],
+        "canonical_slug": "msi-pro-mp2412"
+    },
+    {
+        "id": 45,
+        "slug": "msi-gh30",
+        "sku": "msi-gh30",
+        "name": "MSI Immerse GH30 V2",
+        "brand": "MSI",
+        "category": "Tai nghe",
+        "price": 1290000.0,
+        "description": "Tai nghe gaming có dây MSI Immerse GH30 V2 dùng driver neodymium 40mm và micro đơn hướng.",
+        "warranty_months": 12,
+        "specifications": {
+            "Jack": "3.5mm",
+            "Micro": "Đơn hướng, 100Hz–10kHz",
+            "Driver": "Neodymium 40mm",
+            "Kết nối": "Jack 3,5mm; cáp 1,5m và cáp chia Y 30cm",
+            "Trở kháng": "32 ohm ±15%",
+            "Tương thích": "PC, Mac, PS5, PS4, Xbox Series, Nintendo Switch",
+            "Tần số loa": "20Hz–20kHz"
+        },
+        "image_url": null,
+        "verification_status": "official_verified_family",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "MSI – IMMERSE GH30 V2 Specifications",
+                "url": "https://us.msi.com/Gaming-Gear/IMMERSE-GH30-V2/Specification"
+            }
+        ],
+        "canonical_slug": "msi-gh30"
+    },
+    {
+        "id": 48,
+        "slug": "gigabyte-gs27q",
+        "sku": "gigabyte-gs27q",
+        "name": "Gigabyte GS27Q",
+        "brand": "Gigabyte",
+        "category": "Màn hình",
+        "price": 6990000.0,
+        "description": "Gigabyte GS27Q là màn hình gaming 27 inch QHD SS IPS, 165Hz và có thể OC đến 170Hz.",
+        "warranty_months": 36,
+        "specifications": {
+            "Cổng": "2 x HDMI 2.0, DisplayPort 1.4, jack tai nghe",
+            "27 inch": "QHD",
+            "Refresh": "170Hz",
+            "Màn hình": "27 inch SS IPS, 2560 x 1440 QHD",
+            "Màu sắc": "100% sRGB",
+            "Độ sáng": "300 nit",
+            "Phản hồi": "1ms MPRT",
+            "Tần số quét": "165Hz, OC 170Hz"
+        },
+        "image_url": "/images/products/gigabyte-gs27q.png",
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Gigabyte – GS27Q Specifications",
+                "url": "https://www.gigabyte.com/Monitor/GS27Q/sp"
+            }
+        ],
+        "canonical_slug": "gigabyte-gs27q"
+    },
+    {
+        "id": 49,
+        "slug": "xiaomi-15",
+        "sku": "xiaomi-15",
+        "name": "Xiaomi 15",
+        "brand": "Xiaomi",
+        "category": "Điện thoại",
+        "price": 21990000.0,
+        "description": "Xiaomi 15 dùng Snapdragon 8 Elite, màn hình AMOLED 6,36 inch 120Hz và ba camera Leica 50MP.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "5240mAh",
+            "RAM": "12GB",
+            "Chip": "Snapdragon 8 Elite",
+            "Sạc": "90W có dây, 50W không dây",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "50MP chính OIS + 50MP tele OIS + 50MP góc siêu rộng",
+            "Màn hình": "6,36 inch AMOLED, 2670 x 1200, 1–120Hz, tối đa 3200 nit"
+        },
+        "image_url": "/images/products/xiaomi-15.webp",
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Xiaomi – Xiaomi 15 Specifications",
+                "url": "https://www.mi.com/global/product/xiaomi-15/"
+            }
+        ],
+        "canonical_slug": "xiaomi-15"
+    },
+    {
+        "id": 50,
+        "slug": "redmi-note14-pro-plus",
+        "sku": "redmi-note14-pro-plus",
+        "name": "Redmi Note 14 Pro+ 5G 12GB/256GB",
+        "brand": "Xiaomi",
+        "category": "Điện thoại",
+        "price": 10990000.0,
+        "description": "Redmi Note 14 Pro+ 5G dùng Snapdragon 7s Gen 3, camera chính 200MP OIS và sạc 120W.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "5110mAh",
+            "RAM": "12GB",
+            "Chip": "Snapdragon 7s Gen 3",
+            "Sạc": "120W",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB",
+            "Camera sau": "200MP OIS + 8MP góc siêu rộng + 2MP macro",
+            "Màn hình": "6,67 inch AMOLED, 2712 x 1220, 120Hz"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Xiaomi – Redmi Note 14 Pro+ 5G Specifications",
+                "url": "https://www.mi.com/au/product/redmi-note-14-pro-plus-5g/specs/"
+            }
+        ],
+        "canonical_slug": "redmi-note14-pro-plus"
+    },
+    {
+        "id": 52,
+        "slug": "pixel9",
+        "sku": "pixel9",
+        "name": "Google Pixel 9 12GB/256GB",
+        "brand": "Google",
+        "category": "Điện thoại",
+        "price": 20990000.0,
+        "description": "Google Pixel 9 dùng chip Tensor G4, màn hình OLED 6,3 inch 120Hz và RAM 12GB.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "4700mAh điển hình",
+            "RAM": "12GB",
+            "Chip": "Google Tensor G4",
+            "Storage": "256GB",
+            "Bộ nhớ": "256GB",
+            "Màn hình": "6,3 inch OLED, 60–120Hz",
+            "Sạc có dây": "Tối đa 27W"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Google Pixel Help – Pixel phone hardware specifications",
+                "url": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+            }
+        ],
+        "canonical_slug": "pixel9"
+    },
+    {
+        "id": 53,
+        "slug": "pixel9-pro-xl",
+        "sku": "pixel9-pro-xl",
+        "name": "Google Pixel 9 Pro XL 16GB/512GB",
+        "brand": "Google",
+        "category": "Điện thoại",
+        "price": 30990000.0,
+        "description": "Google Pixel 9 Pro XL dùng chip Tensor G4, màn hình LTPO OLED 6,8 inch 120Hz và RAM 16GB.",
+        "warranty_months": 12,
+        "specifications": {
+            "Pin": "5060mAh điển hình",
+            "RAM": "16GB",
+            "Chip": "Google Tensor G4",
+            "Storage": "512GB",
+            "Bộ nhớ": "512GB",
+            "Camera sau": "50MP góc rộng + 48MP góc siêu rộng Macro Focus + 48MP tele 5x",
+            "Màn hình": "6,8 inch LTPO OLED, 1–120Hz",
+            "Sạc có dây": "Tối đa 37W",
+            "Camera trước": "42MP Dual PD tự động lấy nét"
+        },
+        "image_url": null,
+        "verification_status": "official_verified",
+        "verified_at": "2026-09-16",
+        "source_urls": [
+            {
+                "title": "Google Pixel Help – Pixel phone hardware specifications",
+                "url": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+            }
+        ],
+        "canonical_slug": "pixel9-pro-xl"
     }
 ]
