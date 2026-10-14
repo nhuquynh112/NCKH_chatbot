@@ -11,6 +11,8 @@ from app.schemas.chat import ChatSessionCreate, ChatMessageRequest
 from app.schemas.ticket import TicketCreate
 from app.models import ChatSession, ChatMessage
 from app.rag.query_rewriter import strip_accents
+from app.rag.faq_matcher import rank_admin_faqs
+from app.rag.guardrails import GuardrailPolicy
 
 class ChatService:
     def __init__(self, db: Session):
@@ -52,7 +54,7 @@ class ChatService:
         return session
 
     def update_session_title(self, session_id: UUID, title: str):
-        session = self.chat_repo.update_session_title(session_id, title.strip()[:255])
+        session = self.chat_repo.update_session_title(session_id, self._redact_for_storage(title).strip()[:255])
         if not session:
             raise HTTPException(status_code=404, detail="Session not found")
         return session
@@ -65,7 +67,7 @@ class ChatService:
     async def generate_and_update_title(self, session_id: UUID, message: str) -> str:
         if not self.chat_repo.get_session(session_id):
             raise HTTPException(status_code=404, detail="Session not found")
-        title = await self.ai_service.generate_title(message)
+        title = await self.ai_service.generate_title(self._redact_for_storage(message))
         self.chat_repo.update_session_title(session_id, title)
         return title
 
@@ -112,7 +114,7 @@ class ChatService:
         # 2.1 Load recent conversation history
         recent_messages = self.chat_repo.get_recent_messages(
             session_id=session.id,
-            limit=6
+            limit=12
         )
         history = [
             {
@@ -186,32 +188,19 @@ class ChatService:
             return assistant_message, ticket_created
 
         if open_ticket:
-            self.ticket_repo.append_customer_message(open_ticket, request.content)
+            self.ticket_repo.append_customer_message(open_ticket, stored_content)
 
-        # 3. Call AI Service (measure time). An exact admin FAQ is already a
-        # trusted final answer, so it does not need a slower LLM round-trip.
+        # 3. Use one router for safety, current product facts and curated FAQs.
+        # The FAQ path returns directly inside ask(), without a model call.
         start_time = time.time()
         faq_documents = self._relevant_faq_documents(request.content)
-        exact_faq = next((item for item in faq_documents if item.get("exact")), None)
-        if exact_faq:
-            ai_response = AIQueryResponse(
-                answer=exact_faq["answer"],
-                confidence=1.0,
-                intent="faq",
-                sources=[
-                    {
-                        "id": exact_faq["id"],
-                        "title": exact_faq["title"],
-                        "score": 1.0,
-                        "metadata": exact_faq["metadata"],
-                    }
-                ],
-                needs_human=False,
-            )
+        ticket_status_answer = self._ticket_status_answer(session.id, stored_content)
+        if ticket_status_answer and not GuardrailPolicy.is_prompt_injection(request.content):
+            ai_response = AIQueryResponse(answer=ticket_status_answer, confidence=1.0, intent="ticket_status", needs_human=False)
         else:
             ai_response = await self.ai_service.query(
                 session_id=str(session.id),
-                message=request.content,
+                message=stored_content,
                 history=history,
                 product_id=request.product_id,
                 faq_documents=faq_documents,
@@ -233,6 +222,7 @@ class ChatService:
         ticket_created = False
         
         # 5. Create ticket if needed
+        open_ticket = self.ticket_repo.get_open_by_session(session.id)
         if (ai_response.needs_human or ai_response.confidence < 0.5) and not open_ticket:
             user_context = " | ".join(
                 message["content"]
@@ -252,6 +242,18 @@ class ChatService:
             ticket_created = True
 
         return assistant_message, ticket_created
+
+    def _ticket_status_answer(self, session_id, question: str) -> str | None:
+        folded = strip_accents(question.lower())
+        if "ticket" not in folded or not any(term in folded for term in ["trang thai", "xu ly", "kiem tra", "tra cuu", "den dau", "status"]):
+            return None
+        match = re.search(r"\bticket\s*#?\s*(\d+)\b", folded)
+        ticket = self.ticket_repo.get_latest_by_session(session_id, int(match.group(1)) if match else None)
+        if not ticket:
+            return "Mình chưa tìm thấy ticket bạn hỏi trong phiên chat này. Bạn có thể mô tả yêu cầu để nhân viên tiếp nhận; mình không truy cập ticket của phiên khác."
+        labels = {"pending":"đang chờ tiếp nhận", "in_progress":"đang được xử lý", "resolved":"đã được giải quyết", "closed":"đã đóng"}
+        state = labels.get(ticket.status, "cần nhân viên xác nhận")
+        return f"Ticket #{ticket.id} trong phiên chat này hiện {state}. Đây là trạng thái ghi nhận trong hệ thống; mình chưa có thời điểm hoàn tất được xác nhận."
 
     @staticmethod
     def _extract_phone_number(text: str) -> str | None:
@@ -289,15 +291,18 @@ class ChatService:
     @classmethod
     def _redact_for_storage(cls, text: str) -> str:
         safe = text
-        phone = cls._extract_phone_number(safe)
-        if phone:
-            raw_phone = re.search(r"(?<!\d)(?:\+?84|0)(?:[\s.\-]*\d){9}(?!\d)", safe)
-            if raw_phone:
-                safe = safe[:raw_phone.start()] + cls._mask_phone(phone) + safe[raw_phone.end():]
+        def mask_phone(match):
+            phone = cls._extract_phone_number(match.group(0))
+            return cls._mask_phone(phone) if phone else match.group(0)
+        safe = re.sub(r"(?<!\d)(?:\+?84|0)(?:[\s.\-]*\d){9}(?!\d)", mask_phone, safe)
         safe = re.sub(
             r"(?i)(\b(?:otp|mã otp|ma otp)\b[^\d\r\n]{0,40})\d{4,8}\b",
             r"\1[ĐÃ ẨN]",
             safe,
+        )
+        safe = re.sub(
+            r"(?i)\b\d{4,8}\b(?=.{0,30}\b(?:otp|mã otp|ma otp)\b)",
+            "[ĐÃ ẨN]", safe,
         )
         safe = re.sub(
             r"(?i)\b(?:mật khẩu|mat khau|password|passwd)\b\s*(?:là|la|:|=)?\s*\S+",
@@ -329,40 +334,10 @@ class ChatService:
         return False
 
     def _relevant_faq_documents(self, question: str) -> list[dict]:
-        folded_question = strip_accents(question.lower())
-        question_tokens = self._meaningful_tokens(folded_question)
-        if not question_tokens:
-            return []
-
-        ranked: list[tuple[float, object, bool]] = []
-        for faq in self.faq_repo.get_active():
-            folded_faq_question = strip_accents(faq.question.lower())
-            faq_text = strip_accents(
-                f"{faq.question} {faq.answer} {' '.join(faq.keywords or [])}".lower()
-            )
-            faq_tokens = self._meaningful_tokens(faq_text)
-            overlap = len(question_tokens & faq_tokens) / len(question_tokens)
-            exact = folded_question.strip(" ?!.") == folded_faq_question.strip(" ?!.")
-            if exact:
-                overlap = 1.0
-            if overlap >= 0.60:
-                ranked.append((overlap, faq, exact))
-
-        ranked.sort(key=lambda item: item[0], reverse=True)
-        return [
-            {
-                "id": f"faq-{faq.id}",
-                "title": faq.question,
-                "content": f"FAQ do quản trị viên cập nhật:\nCâu hỏi: {faq.question}\nCâu trả lời: {faq.answer}",
-                "answer": faq.answer,
-                "exact": exact,
-                # Admin-managed FAQs are curated first-party answers and take
-                # precedence over semantically related knowledge-base chunks.
-                "score": 2.0 + min(1.0, score),
-                "metadata": {"source": "faq_database", "category": faq.category},
-            }
-            for score, faq, exact in ranked[:2]
-        ]
+        ranked = rank_admin_faqs(question, self.faq_repo.get_active())
+        inactive = [{"id":f"faq-{faq.id}", "title":faq.question, "content":"", "inactive":True,
+                     "metadata":{"source":"faq_database"}} for faq in self.faq_repo.get_inactive()]
+        return [*ranked, *inactive]
 
     @staticmethod
     def _meaningful_tokens(text: str) -> set[str]:

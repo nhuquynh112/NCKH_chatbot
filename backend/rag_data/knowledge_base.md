@@ -1,5 +1,7 @@
 # TECHCARE ELECTRONICS KNOWLEDGE BASE
 
+Tài liệu mô phỏng phục vụ đề tài nghiên cứu, không phải chính sách bán hàng đã xác nhận của một doanh nghiệp đang hoạt động. Khoảng thời gian giao/hoàn tiền dưới đây là tham khảo trong demo. FAQ được biên tập tại faq_curated.json và FAQ quản trị đang hoạt động được ưu tiên; không suy đoán ưu đãi, lịch giao, hotline hoặc tồn kho thực tế.
+
 ---
 
 # GIỚI THIỆU TECHCARE ELECTRONICS

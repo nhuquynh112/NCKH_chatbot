@@ -121,7 +121,7 @@
         "name": "iPhone 17 256GB",
         "brand": "Apple",
         "category": "Điện thoại",
-        "price": 24999000,
+        "price": 24999000.0,
         "description": "iPhone 17 màn hình Super Retina XDR 6,3 inch có ProMotion, chip A19 và hệ thống camera kép 48MP.",
         "warranty_months": 12,
         "specifications": {
@@ -153,7 +153,7 @@
         "name": "iPhone 17 Pro 256GB",
         "brand": "Apple",
         "category": "Điện thoại",
-        "price": 34999000,
+        "price": 34999000.0,
         "description": "iPhone 17 Pro 6,3 inch dùng chip A19 Pro và hệ thống ba camera Fusion 48MP.",
         "warranty_months": 12,
         "specifications": {

@@ -6,12 +6,14 @@ from app.database import SessionLocal
 from app.models import Product, FAQ
 from app.product_enrichment import merge_verified_product
 from app.rag.document_builder import write_product_rag_documents
+from app.config import BACKEND_ROOT
+from app.rag.faq_matcher import load_curated_faqs, LEGACY_UNVERIFIED_ANSWERS
 
 # ==========================================================
 # Output Paths
 # ==========================================================
 
-OUTPUT_DIR = Path("rag_data")
+OUTPUT_DIR = BACKEND_ROOT / "rag_data"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 PRODUCT_JSON = OUTPUT_DIR / "techcare_products.json"
@@ -48,7 +50,7 @@ def export_products_json(db):
                 "warranty_months": p.warranty_months,
                 "specifications": p.specifications,
                 "image_url": p.image_url,
-            }
+            }, preserve_store_fields=True
         )
         data.append(item)
 
@@ -117,11 +119,14 @@ def export_products_markdown(db):
 
 def export_faq_markdown(db):
 
-    faqs = db.query(FAQ).all()
+    faqs = [faq for faq in db.query(FAQ).filter(FAQ.is_active.is_(True)).order_by(FAQ.id).all()
+            if faq.answer not in LEGACY_UNVERIFIED_ANSWERS]
+    curated_count = 0
 
     with open(FAQ_MD, "w", encoding="utf-8") as f:
 
         f.write("# FAQ TECHCARE\n\n")
+        f.write("FAQ trong môi trường nghiên cứu; chính sách demo cần xác nhận trước khi dùng cho doanh nghiệp thật.\n\n")
 
         for faq in faqs:
 
@@ -131,7 +136,13 @@ def export_faq_markdown(db):
 
             f.write("---\n\n")
 
-    print(f"✓ Exported {len(faqs)} FAQs -> {FAQ_MD}")
+        existing_questions = {faq.question for faq in faqs}
+        for faq in load_curated_faqs():
+            if faq["question"] not in existing_questions:
+                f.write(f"## {faq['question']}\n\n{faq['answer']}\n\n---\n\n")
+                curated_count += 1
+
+    print(f"✓ Exported {len(faqs)} active admin FAQs + {curated_count} curated demo FAQs -> {FAQ_MD}")
 
 
 # ==========================================================

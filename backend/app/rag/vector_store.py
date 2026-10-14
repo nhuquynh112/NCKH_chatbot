@@ -83,11 +83,21 @@ def load_markdown_documents(paths: list[Path]) -> list[Document]:
             continue
 
         source_text = path.read_text(encoding="utf-8")
+        if path.suffix == ".json":
+            for faq in json.loads(source_text).get("faqs", []):
+                documents.append(Document(
+                    id="curated-" + faq["id"], title=faq["question"],
+                    content=f"Câu hỏi: {faq['question']}\nCâu trả lời: {faq['answer']}\nCách hỏi khác: " + "; ".join(faq.get("variants", []) + faq.get("triggers", [])),
+                    metadata={"source":path.name, "category":faq["category"], "status":"research_demo_policy"},
+                ))
+            continue
         if path.name == "product_catalog_extended.md":
             sections = split_product_catalog(source_text)
         else:
             sections = split_markdown_sections(source_text)
         for parent, title, content in sections:
+            if path.name == "knowledge_base.md" and any(term in parent for term in ["QUY TẮC", "NGUYÊN TẮC", "KẾT LUẬN", "THÁI ĐỘ", "XỬ LÝ"]):
+                continue
             documents.append(
                 Document(
                     id=f"doc_{next_id:03d}",
@@ -121,6 +131,8 @@ def split_product_catalog(text: str) -> list[tuple[str, str, str]]:
 
 def load_legacy_vector_index(path: Path) -> tuple[list[Document], dict[str, list[float]]]:
     records = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(records, dict):
+        records = records["records"]
     documents: list[Document] = []
     embeddings_by_id: dict[str, list[float]] = {}
 

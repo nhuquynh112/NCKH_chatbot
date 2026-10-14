@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import os
 import statistics
 import sys
 import time
@@ -10,6 +11,17 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from uuid import uuid4
+
+from evaluation_paths import temporary_directory
+
+# Never seed, create test sessions or delete them in the user's live database.
+# A fresh SQLite file is enough for the deterministic regression suite.
+if __name__ == "__main__":
+    import tempfile
+    _evaluation_temp = tempfile.TemporaryDirectory(prefix="techcare-regression-", dir=temporary_directory())
+    os.environ["DATABASE_URL"] = "sqlite:///" + (Path(_evaluation_temp.name) / "test.db").as_posix()
+    os.environ["ENVIRONMENT"] = "test"
+    os.environ["WARM_AI_ON_STARTUP"] = "false"
 
 from fastapi.testclient import TestClient
 
@@ -494,9 +506,9 @@ def main() -> int:
 
     lines = [
         "# BÁO CÁO KIỂM THỬ CHATBOT TECHCARE", "",
-        "Đây là báo cáo duy nhất được tạo bởi `evaluate_chatbot.py`.", "",
+        "Bộ hồi quy nội bộ được tạo bởi `evaluate_chatbot.py`, chạy trên SQLite thử riêng. Không phải độ chính xác LLM trên khách thật; xem CHATBOT_EVALUATION_REPORT.md cho đánh giá bổ sung.", "",
         f"- Hội thoại đạt: **{passed_count}/{len(results)}**",
-        f"- Độ chính xác: **{passed_count / len(results):.2%}**",
+        f"- Tỷ lệ đạt tiêu chí hồi quy: **{passed_count / len(results):.2%}**",
         f"- Kiểm tra API/đầu vào/bảo mật đạt: **{api_passed}/{len(api_checks)}**",
         f"- Tải đồng thời: **{load['passed']}/{load['requests']}**; trung bình {load['average_ms']} ms; p95 {load['p95_ms']} ms",
         f"- Phản hồi hội thoại trung bình: **{average_ms} ms**", "",
@@ -537,4 +549,9 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    finally:
+        from app.database import engine
+        engine.dispose()
+        _evaluation_temp.cleanup()

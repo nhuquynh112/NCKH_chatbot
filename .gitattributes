@@ -1,0 +1,2 @@
+backend/models/**/*.gguf filter=lfs diff=lfs merge=lfs -text
+backend/models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text

@@ -21,6 +21,12 @@ class TicketRepository:
             .first()
         )
 
+    def get_latest_by_session(self, session_id, ticket_id: int | None = None) -> Optional[Ticket]:
+        query = self.db.query(Ticket).filter(Ticket.session_id == session_id)
+        if ticket_id is not None:
+            query = query.filter(Ticket.id == ticket_id)
+        return query.order_by(Ticket.created_at.desc(), Ticket.id.desc()).first()
+
     def get_all(
         self,
         skip: int = 0,

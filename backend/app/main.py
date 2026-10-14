@@ -3,6 +3,8 @@ import logging
 import threading
 
 from fastapi import FastAPI
+from fastapi.responses import JSONResponse
+from sqlalchemy.exc import SQLAlchemyError
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 from app.routers import products, faqs, tickets, chat, auth
@@ -41,6 +43,16 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(title="AI Customer Service Chatbot", lifespan=lifespan)
+
+
+@app.exception_handler(SQLAlchemyError)
+async def database_error_handler(_request, exc):
+    logger.error("Database operation unavailable (%s)", type(exc).__name__)
+    return JSONResponse(status_code=503, content={
+        "success":False,
+        "message":"Dữ liệu đang tạm gián đoạn. Bạn vui lòng thử lại sau; hệ thống chưa xác nhận thao tác này.",
+        "data":None,
+    })
 
 app.add_middleware(
     RateLimitMiddleware,
@@ -94,6 +106,7 @@ def readiness():
         "status": "ready" if database_ok and ai_ok else "degraded",
         "database": "ok" if database_ok else "unavailable",
         "ai": "ok" if ai_ok else "unavailable",
+        "chat_model": settings.chat_model,
         "deterministic_answers_available": database_ok,
         "vector_store": settings.vector_store_backend,
     }

@@ -36,6 +36,7 @@ def verification_record_for_slug(
 def merge_verified_product(
     product: dict[str, Any],
     data: dict[str, Any] | None = None,
+    preserve_store_fields: bool = False,
 ) -> dict[str, Any]:
     """Return a copy with reviewed corrections and provenance attached."""
     data = data or load_verification_data()
@@ -49,7 +50,7 @@ def merge_verified_product(
         return merged
 
     for field in ("name", "slug", "description", "price", "warranty_months"):
-        if field in record:
+        if field in record and not (preserve_store_fields and field in product):
             merged[field] = record[field]
 
     specifications = deepcopy(merged.get("specifications") or {})

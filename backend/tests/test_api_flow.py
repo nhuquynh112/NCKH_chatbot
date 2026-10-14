@@ -16,6 +16,45 @@ class CustomerSupportApiFlowTests(unittest.TestCase):
     def setUpClass(cls):
         cls.client = TestClient(app)
 
+    def test_database_outage_returns_503_without_internal_details(self):
+        from sqlalchemy.exc import OperationalError
+        visitor = f"outage-{uuid4()}"
+        with patch("app.routers.chat.get_chat_service") as service:
+            service.return_value.create_session.side_effect = OperationalError("SELECT secret", {}, Exception("private database error"))
+            response = self.client.post("/api/chat/sessions", json={"visitor_id":visitor}, headers={"X-Visitor-ID":visitor})
+        self.assertEqual(response.status_code, 503)
+        self.assertNotIn("private database", response.text)
+
+    def test_generated_and_renamed_titles_redact_credentials(self):
+        visitor = f"private-title-{uuid4()}"
+        headers = {"X-Visitor-ID":visitor}
+        session = self.client.post("/api/chat/sessions", json={"visitor_id":visitor}, headers=headers).json()["data"]["id"]
+        generated = self.client.post(f"/api/chat/sessions/{session}/generate-title", json={"message":"OTP là 654321"}, headers=headers)
+        self.assertEqual(generated.status_code, 200)
+        self.assertNotIn("654321", generated.json()["data"])
+        renamed = self.client.patch(f"/api/chat/sessions/{session}", json={"title":"password: secret321"}, headers=headers)
+        self.assertEqual(renamed.status_code, 200)
+        self.assertNotIn("secret321", renamed.json()["data"]["title"])
+
+    def test_ticket_status_stays_with_its_own_chat_session(self):
+        visitor = f"ticket-status-{uuid4()}"
+        headers = {"X-Visitor-ID":visitor}
+        session = self.client.post("/api/chat/sessions", json={"visitor_id":visitor}, headers=headers).json()["data"]["id"]
+        self.client.post("/api/chat/messages", json={"session_id":session, "content":"cho mình gặp nhân viên tư vấn"}, headers=headers)
+        result = self.client.post("/api/chat/messages", json={"session_id":session, "content":"ticket của mình xử lý đến đâu rồi?"}, headers=headers)
+        self.assertEqual(result.status_code, 201)
+        self.assertEqual(result.json()["data"]["message"]["intent"], "ticket_status")
+        self.assertIn("chờ tiếp nhận", result.json()["data"]["message"]["content"])
+        self.assertFalse(result.json()["data"]["ticket_created"])
+        other = f"other-status-{uuid4()}"
+        other_headers = {"X-Visitor-ID":other}
+        other_session = self.client.post("/api/chat/sessions", json={"visitor_id":other}, headers=other_headers).json()["data"]["id"]
+        with SessionLocal() as db:
+            ticket_id = db.query(Ticket).filter(Ticket.session_id == UUID(session)).one().id
+        response = self.client.post("/api/chat/messages", json={"session_id":other_session, "content":f"kiểm tra trạng thái ticket #{ticket_id}"}, headers=other_headers)
+        self.assertIn("chưa tìm thấy", response.json()["data"]["message"]["content"])
+        self.assertNotIn("chờ tiếp nhận", response.json()["data"]["message"]["content"])
+
     def test_issue_then_phone_updates_one_ticket(self):
         visitor_id = f"test-{uuid4()}"
         headers = {"X-Visitor-ID": visitor_id}

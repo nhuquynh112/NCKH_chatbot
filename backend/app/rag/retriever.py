@@ -4,6 +4,11 @@ from typing import Protocol
 from app.rag.guardrails import GuardrailPolicy
 from app.rag.query_rewriter import QueryRewriter, strip_accents
 from app.rag.vector_store import Document, SearchResult
+from app.rag.embedding import OllamaError
+from app.rag.lexical import bm25_search
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class VectorStore(Protocol):
@@ -37,6 +42,8 @@ class Retriever:
         self.vector_store = vector_store
         self.query_rewriter = query_rewriter
         self.guardrails = guardrails
+        self.source_documents: list[Document] | None = None
+        self.semantic_enabled = True
 
     def ensure_index(self, documents: list[Document]) -> None:
         if self.vector_store.count() == 0:
@@ -50,14 +57,28 @@ class Retriever:
         self.vector_store.build_index(documents, embeddings_by_id=embeddings_by_id)
 
     def all_documents(self) -> list[Document]:
-        return self.vector_store.get_all_documents()
+        return self.source_documents if self.source_documents is not None else self.vector_store.get_all_documents()
 
     def search(self, question: str, top_k: int) -> list[SearchResult]:
         retrieval_question = self.query_rewriter.expand_for_retrieval(question)
-        raw_hits = self.vector_store.search(retrieval_question, max(top_k * 4, top_k))
+        documents = self.all_documents()
+        lexical = bm25_search(question, documents, max(top_k * 4, top_k))
+        semantic = []
+        if self.semantic_enabled:
+            try:
+                semantic = self.vector_store.search(retrieval_question, max(top_k * 4, top_k))
+            except OllamaError:
+                logger.warning("Semantic retrieval unavailable; using current BM25 documents")
+        semantic_scores = {hit.document.id:hit.score for hit in semantic}
+        lexical_scores = {hit.document.id:hit.score / (hit.score + 3.0) for hit in lexical}
+        candidates = {hit.document.id:hit.document for hit in [*semantic, *lexical]}
+        raw_hits = [SearchResult(
+            score=.60 * max(0., semantic_scores.get(key, 0.)) + .40 * lexical_scores.get(key, 0.),
+            document=document,
+        ) for key, document in candidates.items()]
         adjusted = [
             SearchResult(
-                score=hit.score + self.score_adjustment(question, hit.document),
+                score=max(0.0, min(1.0, hit.score + self.score_adjustment(question, hit.document))),
                 document=hit.document,
             )
             for hit in raw_hits
@@ -68,7 +89,7 @@ class Retriever:
     def direct_source_hits(
         self, question: str, default_hits: list[SearchResult] | None = None
     ) -> list[SearchResult]:
-        documents = self.vector_store.get_all_documents()
+        documents = self.all_documents()
         default_hits = default_hits or []
 
         if self.guardrails.is_support_issue(question):
@@ -248,4 +269,16 @@ class Retriever:
 
     @staticmethod
     def context_from_hits(hits: list[SearchResult]) -> str:
-        return "\n\n---\n\n".join(hit.document.content for hit in hits)
+        # Bound prompt size and discard weak tail hits. Metadata remains
+        # outside generation, so a model cannot forge the source panel.
+        blocks = []
+        remaining = 10000
+        for hit in hits:
+            if hit.score < .38 or remaining <= 0:
+                continue
+            content = "\n".join(line for line in hit.document.content.splitlines()
+                                if not GuardrailPolicy.is_prompt_injection(line))
+            block = f"Tài liệu: {hit.document.title}\n{content[:3000]}"
+            blocks.append(block[:remaining])
+            remaining -= len(block) + 9
+        return "\n\n---\n\n".join(blocks)

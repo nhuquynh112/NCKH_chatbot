@@ -169,24 +169,8 @@ class AIService:
         )
 
     async def generate_title(self, message: str) -> str:
-        """Generate a short sidebar title, with a deterministic fallback."""
-        fallback = self._fallback_title(message)
-        if self.chatbot is None:
-            return fallback
-        try:
-            result = await asyncio.to_thread(
-                self.chatbot.llm_client.chat,
-                (
-                    "Tóm tắt tin nhắn thành tiêu đề tiếng Việt tối đa 6 từ. "
-                    "Chỉ trả về tiêu đề, không giải thích và không dùng dấu ngoặc kép."
-                ),
-                message,
-            )
-            title = result.strip().strip('"\'').strip()
-            return title[:80] if title else fallback
-        except Exception as exc:
-            logger.warning("Could not generate chat title: %s", exc)
-            return fallback
+        """Sidebar titles do not need a model call or an additional timeout."""
+        return self._fallback_title(message)
 
     @staticmethod
     def _fallback_title(message: str) -> str:

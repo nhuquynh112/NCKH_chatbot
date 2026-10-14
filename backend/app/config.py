@@ -1,4 +1,6 @@
+import json
 from pathlib import Path
+import re
 from typing import Literal, Optional
 
 from pydantic import model_validator
@@ -25,11 +27,14 @@ class Settings(BaseSettings):
     # Local RAG / Ollama settings
     OLLAMA_BASE_URL: str = "http://localhost:11434"
     CHAT_MODEL: str = "qwen2.5:3b"
+    USE_PROJECT_CHAT_MODEL: bool = True
+    CHAT_MODEL_PROFILE_PATH: Path = Path("rag_data/model_profile.json")
     EMBEDDING_MODEL: str = "nomic-embed-text"
     CHROMA_COLLECTION: str = "techcare_rag"
     CHROMA_PERSIST_DIR: Path = Path("chroma_db")
     PROMPT_PATH: Path = Path("rag_data/system_prompt.txt")
     KNOWLEDGE_BASE_PATH: Path = Path("rag_data/knowledge_base.md")
+    CURATED_FAQ_PATH: Path = Path("rag_data/faq_curated.json")
     PRODUCT_CATALOG_PATH: Path = Path("rag_data/product_catalog_extended.md")
     LEGACY_VECTOR_INDEX_PATH: Path = Path("rag_data/vector_index.json")
     RAG_DOCUMENTS_PATH: Path = Path("rag_data/techcare_rag_documents.json")
@@ -61,7 +66,20 @@ class Settings(BaseSettings):
 
     @property
     def chat_model(self) -> str:
-        return self.CHAT_MODEL
+        if not self.USE_PROJECT_CHAT_MODEL:
+            return self.CHAT_MODEL
+        profile_path = _resolve_backend_path(self.CHAT_MODEL_PROFILE_PATH)
+        if not profile_path.is_file():
+            return self.CHAT_MODEL
+        profile = json.loads(profile_path.read_text(encoding="utf-8"))
+        # Keep custom deployments explicit. The project profile replaces only
+        # its declared base tag, including existing .env files using that tag.
+        if not profile.get("enabled") or profile.get("base_model") != self.CHAT_MODEL:
+            return self.CHAT_MODEL
+        model = profile.get("model", "")
+        if not isinstance(model, str) or not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._/-]*:[a-zA-Z0-9._-]+", model) or "cloud" in model.lower():
+            raise ValueError("Project chat model must be a valid local Ollama tag")
+        return model
 
     @property
     def embedding_model(self) -> str:
@@ -121,7 +139,7 @@ class Settings(BaseSettings):
 
     @property
     def knowledge_paths(self) -> list[Path]:
-        return [self.knowledge_base_path, self.product_catalog_path]
+        return [self.knowledge_base_path, self.product_catalog_path, _resolve_backend_path(self.CURATED_FAQ_PATH)]
 
     @model_validator(mode="after")
     def reject_insecure_production_defaults(self):

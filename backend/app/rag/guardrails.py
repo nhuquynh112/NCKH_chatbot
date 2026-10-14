@@ -1,6 +1,8 @@
 import json
 import logging
 import re
+from contextlib import contextmanager
+from contextvars import ContextVar
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -123,8 +125,22 @@ class ProductCatalog:
     def __init__(self, rag_documents_path: Path, products_path: Path):
         self.rag_documents_path = rag_documents_path
         self.products_path = products_path
+        self._snapshot = ContextVar(f"catalog_{id(self)}", default=None)
+
+    @contextmanager
+    def snapshot(self):
+        """One catalog read per request, with no cache shared across visitors."""
+        current = self._snapshot.get()
+        token = self._snapshot.set(current if current is not None else self.load_products())
+        try:
+            yield
+        finally:
+            self._snapshot.reset(token)
 
     def load_products(self) -> tuple[dict, ...]:
+        snapshot = self._snapshot.get()
+        if snapshot is not None:
+            return snapshot
         # The live Product table is the source of truth. It is intentionally
         # queried on each request so admin price/active-status changes are
         # visible to the chatbot immediately without rebuilding the RAG index.
@@ -132,16 +148,21 @@ class ProductCatalog:
 
         # Exported files keep the evaluator and first startup usable before the
         # database exists, but are never preferred over live store data.
-        if not products and self.products_path.exists():
+        database_unavailable = products is None
+        products = products if products is not None else []
+        if database_unavailable and self.products_path.exists():
             raw_products = json.loads(self.products_path.read_text(encoding="utf-8"))
             products.extend(self._normalize_product(item) for item in raw_products)
-        elif not products and self.rag_documents_path.exists():
+        elif database_unavailable and self.rag_documents_path.exists():
             docs = json.loads(self.rag_documents_path.read_text(encoding="utf-8"))
             products.extend(
                 self._product_from_rag_document(doc)
                 for doc in docs
                 if doc.get("type") == "product"
             )
+        if database_unavailable:
+            for product in products:
+                product["catalog_source"] = "export_snapshot"
 
         deduplicated: dict[str, dict] = {}
         for product in products:
@@ -150,7 +171,7 @@ class ProductCatalog:
                 deduplicated[key] = product
         return tuple(deduplicated.values())
 
-    def _load_database_products(self) -> list[dict]:
+    def _load_database_products(self) -> list[dict] | None:
         try:
             from app.database import SessionLocal
             from app.models import Product
@@ -175,13 +196,13 @@ class ProductCatalog:
                             "warranty_months": row.warranty_months,
                             "specifications": row.specifications,
                             "updated_at": row.updated_at,
-                        })
+                        }, preserve_store_fields=True)
                     )
                     for row in rows
                 ]
         except Exception as exc:  # File fallback also supports standalone tools.
             logger.debug("Live product database unavailable; using exported catalog: %s", exc)
-            return []
+            return None
 
     def _normalize_product(self, product: dict) -> dict:
         product_id = product.get("id")
@@ -322,7 +343,15 @@ class GuardrailPolicy:
             return (
                 "Mình sẽ tạo ticket để nhân viên kỹ thuật kiểm tra trường hợp này. "
                 "Bạn vui lòng cung cấp mã đơn hàng, số điện thoại mua hàng, tên sản phẩm, mô tả lỗi cụ thể "
-                "và hình ảnh/video minh chứng nếu có. Nhân viên TechCare sẽ phản hồi trong tối đa 24 giờ làm việc."
+                "và hình ảnh/video minh chứng nếu có. Mốc phản hồi tham khảo của demo là 24 giờ làm việc; "
+                "thời gian thực tế cần nhân viên xác nhận."
+            )
+
+        if self.is_human_request(question):
+            return (
+                "Mình sẽ tạo ticket để nhân viên TechCare tiếp nhận yêu cầu. "
+                "Bạn mô tả nội dung cần hỗ trợ và cung cấp số điện thoại liên hệ nếu muốn được gọi lại. "
+                "Bạn không cần gửi mật khẩu, OTP hay thông tin thẻ."
             )
 
         policy_answer = self.policy_faq_answer(folded)
@@ -742,7 +771,7 @@ class GuardrailPolicy:
                 "ram", "chip", "cpu", "ssd", "bo nho", "storage", "dung luong",
                 "memory", "processor", "gpu", "graphics", "card do hoa", "man hinh", "screen",
                 "display", "hz", "pin", "battery", "thoi luong", "camera",
-                "chup anh", "quay video", "mau gi", "mau nao", "mau sac",
+                "chup anh", "quay video", "mau gi", "mau nao", "mau sac", "co mau",
             ]
         )
         asks_price = any(
@@ -769,7 +798,7 @@ class GuardrailPolicy:
             ("màn hình", ["man hinh", "screen", "display", "hz"], ["man hinh", "display", "screen"]),
             ("pin", ["pin", "battery", "thoi luong"], ["pin", "battery"]),
             ("camera", ["camera", "chup anh", "chup hinh", "quay video", "quay phim"], ["camera"]),
-            ("màu sắc", ["mau gi", "mau nao", "mau sac"], ["mau", "color"]),
+            ("màu sắc", ["mau gi", "mau nao", "mau sac", "co mau"], ["mau", "color"]),
         ]
         asked_spec_groups = [
             (label, evidence_terms)
@@ -825,12 +854,13 @@ class GuardrailPolicy:
 
             verification_note = freshness if (asked_spec_groups or effective_general_specs) else ""
             variant_note = self.variant_warning(product) if asked_spec_groups else ""
-            return f"{name}: {'; '.join(parts)}.{verification_note}{variant_note}"
+            stock_note = " Mình chưa có dữ liệu tồn kho thực tế để xác nhận còn hàng." if asks_availability else ""
+            return f"{name}: {'; '.join(parts)}.{verification_note}{variant_note}{stock_note}"
 
         if asks_availability:
             return (
                 f"TechCare đang niêm yết {name} với giá {product['price']}."
-                f"{freshness}"
+                f"{freshness} Mình chưa có dữ liệu tồn kho thực tế để xác nhận còn hàng."
             )
         if asks_price:
             return (
@@ -916,6 +946,8 @@ class GuardrailPolicy:
 
     @staticmethod
     def product_freshness_note(product: dict) -> str:
+        if product.get("catalog_source") == "export_snapshot":
+            return " Database đang gián đoạn; đây là dữ liệu bản xuất, cần xác nhận lại giá với nhân viên."
         verified_at = product.get("verified_at")
         if verified_at:
             try:
@@ -1017,6 +1049,7 @@ class GuardrailPolicy:
         current_question: str | None = None,
         excluded: list[dict] | None = None,
         alternative: bool = False,
+        budget_override: int | None = None,
     ) -> str | None:
         products = list(candidates) if candidates else list(self.product_catalog.load_products())
         if excluded:
@@ -1044,21 +1077,20 @@ class GuardrailPolicy:
             if len(context_categories) == 1:
                 category = next(iter(context_categories))
         if category:
-            category_key = canonical_text(category)
+            allowed_skus = {product["sku"] for product in self.products_by_category(category)}
             category_products = [
                 product
                 for product in products
-                if category_key in canonical_text(product["category"])
-                or canonical_text(product["category"]) in category_key
+                if product["sku"] in allowed_skus
             ]
             if category_products:
                 products = category_products
-            elif alternative:
+            else:
                 return f"Hiện mình chưa còn mẫu {category} khác trong danh mục để gợi ý."
 
         # In a follow-up, the combined context also contains prices printed by
         # the bot. Only the current user message is allowed to define a budget.
-        budget = self.extract_budget(current_question or question)
+        budget = self.extract_budget(current_question or question) or budget_override
         if budget:
             within_budget = [product for product in products if 0 < parse_price(product["price"]) <= budget]
             if within_budget:
@@ -1198,8 +1230,8 @@ class GuardrailPolicy:
             lines.append(f"- {product['name']} — {product['price']}: {reason}.")
         if performance_priority and candidates:
             lines.append(
-                f"Nếu ưu tiên chơi mượt/hiệu năng, {candidates[0]['name']} là mẫu mạnh nhất "
-                "trong các lựa chọn trên dựa trên cấu hình CPU, GPU và RAM đang có."
+                f"Nếu ưu tiên chơi mượt/hiệu năng, {candidates[0]['name']} là mẫu đáng cân nhắc "
+                "theo các thông số CPU, GPU và RAM đang có; catalog chưa có benchmark để khẳng định FPS hay mẫu mạnh nhất."
             )
         if battery_priority:
             battery_evidence = [
@@ -1378,6 +1410,14 @@ class GuardrailPolicy:
             return False
         patterns = [r"\bbi loi\b", r"\bhong\b", r"\bbi hong\b", r"khong len", r"man hinh xanh", r"sac khong vao", r"nong bat thuong", r"vo nuoc", r"roi vo", r"muon hoan tien", r"chua nhan duoc tien hoan", r"khieu nai", r"giao sai"]
         return any(re.search(pattern, folded) for pattern in patterns)
+
+    @staticmethod
+    def is_human_request(question: str) -> bool:
+        folded = canonical_text(question)
+        return any(phrase in folded for phrase in [
+            "gap nhan vien", "gap nguoi that", "chuyen nhan vien", "tu van vien",
+            "noi chuyen voi nguoi", "human agent", "talk to a person",
+        ])
 
     def should_fallback(self, question: str, hits: list[SearchResult]) -> bool:
         if self.is_clearly_out_of_scope(question) or self.is_short_noisy_question(question):

@@ -1,0 +1,17 @@
+{
+  "source": "ura-hcmut/Vietnamese-Customer-Support-QA",
+  "revision": "ae8232e93a2ce4edb15560f6ef8e52f38ce1733d",
+  "verified_files": [
+    {
+      "file": "test-00000-of-00001.parquet",
+      "sha256": "b3070c1d1a3a3d53aace601df40dc7665b0c5b0ef529e7d588e1ccf1d0ac25b2",
+      "bytes": 203545
+    },
+    {
+      "file": "train-00000-of-00001.parquet",
+      "sha256": "03a6b01c16fba952852a38ee84247942a9436a4822f3aa8acffdd32d1f3cc954",
+      "bytes": 1257972
+    }
+  ],
+  "official_test_used_for_training": false
+}

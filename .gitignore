@@ -57,3 +57,6 @@ desktop.ini
 
 # Local report builders and render QA artifacts
 .tmp_report/
+
+# Build output; experiments and training live outside the checkout.
+frontend/dist/

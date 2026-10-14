@@ -1,0 +1,6 @@
+{
+  "frozen_utc": "2026-10-14T11:24:07.905792+00:00",
+  "sha256": "994297f21596b6a985b8d834edb48607f113c9a6d6b9820a4e7f947e9ed7989f",
+  "rows": 12,
+  "method": "New agent-authored synthetic contexts and questions, frozen before selecting the prompt configuration. Not used in training; initial 21-case holdout was exposed and is not reused as independent test. Fictional prices/specs are test-only and never live catalog facts."
+}

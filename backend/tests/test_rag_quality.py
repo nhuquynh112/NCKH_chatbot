@@ -4,6 +4,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+from evaluation_paths import temporary_directory
+
 from app.config import settings
 from app.rag.chat_service import ChatService
 from app.rag.guardrails import GuardrailPolicy, ProductCatalog
@@ -297,7 +299,7 @@ class JsonVectorStoreTests(unittest.TestCase):
             Document("1", "Laptop", "laptop gaming mạnh", {"source": "test"}),
             Document("2", "Bảo hành", "bao hanh sản phẩm", {"source": "test"}),
         ]
-        with tempfile.TemporaryDirectory() as directory:
+        with tempfile.TemporaryDirectory(dir=temporary_directory()) as directory:
             store = JsonVectorStore(Path(directory) / "index.json", FakeEmbeddingClient())
             store.build_index(documents)
             self.assertTrue(store.is_current(documents))

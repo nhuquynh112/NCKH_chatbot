@@ -27,16 +27,23 @@ class JsonVectorStore:
         self.embedding_client = embedding_client
         self._records: list[tuple[Document, list[float]]] | None = None
         self._lock = threading.RLock()
+        self._signature: str | None = None
+        self._loaded_stat: tuple[int, int] | None = None
 
     def _load(self) -> list[tuple[Document, list[float]]]:
         with self._lock:
-            if self._records is not None:
+            file_stat = self.path.stat() if self.path.exists() else None
+            stamp = (file_stat.st_mtime_ns, file_stat.st_size) if file_stat else None
+            if self._records is not None and self._loaded_stat == stamp:
                 return self._records
             if not self.path.exists():
                 self._records = []
                 return self._records
 
             raw_records = json.loads(self.path.read_text(encoding="utf-8"))
+            if isinstance(raw_records, dict):
+                self._signature = raw_records.get("embedding_signature")
+                raw_records = raw_records.get("records", [])
             records: list[tuple[Document, list[float]]] = []
             for record in raw_records:
                 embedding = record.get("embedding")
@@ -57,6 +64,7 @@ class JsonVectorStore:
                     )
                 )
             self._records = records
+            self._loaded_stat = stamp
             return records
 
     def count(self) -> int:
@@ -67,6 +75,8 @@ class JsonVectorStore:
 
     def is_current(self, documents: list[Document]) -> bool:
         existing = self.get_all_documents()
+        if self._signature != getattr(self.embedding_client, "embedding_signature", None):
+            return False
         if len(existing) != len(documents):
             return False
         return all(
@@ -104,7 +114,12 @@ class JsonVectorStore:
         else:
             for index, document in enumerate(documents, start=1):
                 logger.info("Embedding document %s/%s: %s", index, len(documents), document.title)
-                records.append((document, self.embedding_client.embed(document.content)))
+                embed_document = getattr(self.embedding_client, "embed_document", self.embedding_client.embed)
+                records.append((document, embed_document(document.content)))
+
+        dimensions = {len(embedding) for _, embedding in records}
+        if len(dimensions) > 1 or 0 in dimensions or any(not math.isfinite(v) for _, vector in records for v in vector):
+            raise ValueError("Embedding vectors must be finite and have one consistent dimension")
 
         payload = [
             {
@@ -116,6 +131,8 @@ class JsonVectorStore:
             }
             for document, embedding in records
         ]
+        signature = getattr(self.embedding_client, "embedding_signature", None)
+        payload = {"schema_version":2, "embedding_signature":signature, "records":payload}
         self.path.parent.mkdir(parents=True, exist_ok=True)
         temporary_path = self.path.with_suffix(self.path.suffix + ".tmp")
         temporary_path.write_text(
@@ -124,13 +141,21 @@ class JsonVectorStore:
         temporary_path.replace(self.path)
         with self._lock:
             self._records = records
+            self._signature = signature
+            file_stat = self.path.stat()
+            self._loaded_stat = (file_stat.st_mtime_ns, file_stat.st_size)
         logger.info("JSON vector index rebuilt with %s documents", len(records))
 
     def search(self, query: str, top_k: int) -> list[SearchResult]:
         records = self._load()
         if not records:
             return []
-        query_embedding = self.embedding_client.embed(query)
+        if self._signature != getattr(self.embedding_client, "embedding_signature", None):
+            raise ValueError("Embedding model/prefix changed; run rebuild_rag.py before semantic search")
+        embed_query = getattr(self.embedding_client, "embed_query", self.embedding_client.embed)
+        query_embedding = embed_query(query)
+        if any(len(query_embedding) != len(embedding) for _, embedding in records):
+            raise ValueError("Embedding dimensions differ; rebuild index with the configured model")
         hits = [
             SearchResult(
                 score=self._cosine_similarity(query_embedding, embedding),

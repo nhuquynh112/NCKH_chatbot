@@ -10,14 +10,16 @@ class FAQRepository:
     def get_by_id(self, faq_id: int) -> Optional[FAQ]:
         return self.db.query(FAQ).filter(FAQ.id == faq_id).first()
 
-    def get_active(self, limit: int = 100) -> List[FAQ]:
-        return (
+    def get_active(self, limit: int | None = None) -> List[FAQ]:
+        query = (
             self.db.query(FAQ)
             .filter(FAQ.is_active.is_(True))
             .order_by(FAQ.updated_at.desc())
-            .limit(limit)
-            .all()
         )
+        return (query.limit(limit) if limit is not None else query).all()
+
+    def get_inactive(self) -> List[FAQ]:
+        return self.db.query(FAQ).filter(FAQ.is_active.is_(False)).all()
 
     def get_all(
         self,

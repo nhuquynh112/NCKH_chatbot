@@ -62,6 +62,8 @@ class ChromaVectorStore:
         return int(self.collection().count())
 
     def is_current(self, documents: list[Document]) -> bool:
+        if (self.collection().metadata or {}).get("embedding_signature") != self.embedding_client.embedding_signature:
+            return False
         existing = self.get_all_documents()
         if len(existing) != len(documents):
             return False
@@ -79,6 +81,11 @@ class ChromaVectorStore:
         embeddings_by_id: dict[str, list[float]] | None = None,
     ) -> None:
         client = self.client()
+        # An embedding outage must leave the previous index untouched.
+        if embeddings_by_id is not None:
+            embeddings = [embeddings_by_id[doc.id] for doc in documents]
+        else:
+            embeddings = self.embedding_client.embed_many([doc.content for doc in documents])
         try:
             client.delete_collection(self.collection_name)
         except ValueError:
@@ -86,21 +93,13 @@ class ChromaVectorStore:
 
         self._collection = client.get_or_create_collection(
             name=self.collection_name,
-            metadata={"hnsw:space": "cosine"},
+            metadata={"hnsw:space": "cosine", "embedding_signature":self.embedding_client.embedding_signature},
         )
         if not documents:
             logger.warning("No documents were provided for ChromaDB indexing")
             return
 
         logger.info("Building ChromaDB index with %s documents", len(documents))
-        if embeddings_by_id is not None:
-            embeddings = [embeddings_by_id[doc.id] for doc in documents]
-            logger.info("Using precomputed embeddings for ChromaDB import")
-        else:
-            embeddings = []
-            for index, doc in enumerate(documents, start=1):
-                logger.info("Embedding document %s/%s: %s", index, len(documents), doc.title)
-                embeddings.append(self.embedding_client.embed(doc.content))
         self._collection.add(
             ids=[doc.id for doc in documents],
             documents=[doc.content for doc in documents],
@@ -136,7 +135,9 @@ class ChromaVectorStore:
             logger.warning("ChromaDB collection is empty: %s", self.collection_name)
             return []
 
-        query_embedding = self.embedding_client.embed(query)
+        if (self.collection().metadata or {}).get("embedding_signature") != self.embedding_client.embedding_signature:
+            raise ValueError("Embedding model/prefix changed; rebuild the Chroma index")
+        query_embedding = self.embedding_client.embed_query(query)
         result = self.collection().query(
             query_embeddings=[query_embedding],
             n_results=top_k,
