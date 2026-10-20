@@ -1,12 +1,12 @@
 # Giao thức Chương 5 — bộ 24 câu được nhóm duyệt
 
-Đọc kết quả ở [CHAPTER5_EXPERIMENTS_24.md](CHAPTER5_EXPERIMENTS_24.md) và thao tác chụp ảnh ở [DEMO_UI_CHAPTER5.md](DEMO_UI_CHAPTER5.md). Bộ này tách khỏi benchmark M1–M4 trên 20 câu cũ. Không đổi nhãn M3 cũ thành hai baseline: trước tác vụ này chưa có B2 riêng; B2 đã được hiện thực và kiểm tra trước khi chạy bộ 24 câu.
+Đọc [bằng chứng đã lưu](research/chapter5-24/README.md) và [hướng dẫn chụp ảnh](LOCAL_BENCHMARK_DEMO.md). Bộ này tách khỏi benchmark M1–M4 trên 20 câu cũ. Không đổi nhãn M3 cũ thành hai baseline: trước tác vụ này chưa có B2 riêng; B2 đã được hiện thực và kiểm tra trước khi chạy bộ 24 câu.
 
-Nguồn giao thức: `D:/NCKH/2026_Chatbot/BaoCao_15_10/BaoCao.docx`, mục 4.2–4.6, 5.2–5.3 và 5.6.1. Tệp trong `De_Cuong_20_10` là mẫu trống, không có thiết kế 5.5/5.6.1. Báo cáo Word trong repo là bản cũ với cấu trúc mục 5.5 khác. Không sửa các tệp Word này.
+Nguồn giao thức là báo cáo nhóm ngày 15/10/2026, mục 4.2–4.6, 5.2–5.3 và 5.6.1. Đây là giao thức nghiên cứu; không thay đổi nội dung Word hoặc số liệu đã lưu.
 
 ## Dữ liệu và sự phê duyệt
 
-Bộ gốc: `D:/NCKH/2026_Chatbot/BoTest_Chatbot_Nho_24Cau/BoTest_Chatbot_Nho_24Cau`. Manifest gốc ghi chưa được duyệt; người dùng đã xác nhận trực tiếp trong chat: **“Đã duyệt cả câu hỏi và đáp án; dùng nguyên bản”**. Ghi nhận này nằm trong audit và protocol mới, không sửa manifest gốc để che lịch sử.
+Bản sao nguyên byte của bộ gốc nằm tại `backend/benchmark/datasets/chapter5_24/`. Manifest gốc ghi chưa được duyệt; người dùng đã xác nhận trực tiếp: **“Đã duyệt cả câu hỏi và đáp án; dùng nguyên bản”**. `approval_record.json` giữ trích dẫn từ protocol, không sửa manifest gốc để che lịch sử.
 
 Có 24 ca: 20 câu đơn và 4 câu có lịch sử cố định. TC01/TC05 cùng family, nên có 23 family. Giữ nguyên câu hỏi, thứ tự, lịch sử và answer key. Không tự sinh lại các lượt assistant của bốn ca lịch sử. Đây chưa phải phép đo hội thoại chạy tự do.
 
@@ -47,45 +47,27 @@ Giữ K=5, ngưỡng 0,38, hệ số 0,60/0,40, temperature=0, context 4096, out
 
 ## Lệnh tái lập
 
-Tất cả lệnh dưới đây chạy trong `backend` bằng Python của môi trường ứng dụng. Runtime GPU chỉ dùng khi khởi động server 7B.
+Làm theo [hướng dẫn tạo study mới](REPRODUCING_RESEARCH.md) từ bộ dữ liệu đi kèm. Không chạy ghi đè study cũ. Bảng kết quả đã lưu dùng snapshot v2 với timestamp database cố định; không gắn số đo của code hiện tại vào kết quả cũ.
 
-Study dùng cho bảng kết quả chính là **v2**. V1 được giữ nguyên nhưng loại khỏi bảng chính do timestamp kỹ thuật của database chưa cố định. V2 dùng thời điểm tạo snapshot cho created_at/updated_at của mọi bản ghi thử; đây không phải ngày xác minh hãng mới. Controller kiểm tra trực tiếp timestamp và giá/bảo hành/spec của cả 53 bản ghi trong mỗi worker.
-
-Study đã khóa ở:
-
-```text
-D:/NCKH/2026_Chatbot/Code/NCKH_chatbot/.local/chapter5-24-20261015T145015Z/study-v2
-```
-
-Tạo study mới (đường dẫn đích phải chưa tồn tại), không sửa study cũ:
+Sau khi prepare, biến `$study` trỏ tới study mới. Chạy từ `backend` bằng Python môi trường ứng dụng; runtime GPU riêng chỉ dùng để phục vụ 7B:
 
 ```powershell
-python -B -m benchmark.chapter5 prepare --package 'D:\NCKH\2026_Chatbot\BoTest_Chatbot_Nho_24Cau\BoTest_Chatbot_Nho_24Cau' --study '<study-v3>' --approval-record '..\.local\chapter5-24-20261015T145015Z\audit\initial.json'
+& .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase smoke --methods B0 B1 B2 P P-no-query-normalization P-no-bm25 P-no-domain-ranking P-no-product-context P-no-postcheck P-no-rule-routing --timeout 60
+& .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase main --methods B0 B1 B2 P --timeout 60
+& .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase ablation --methods P P-no-query-normalization P-no-bm25 P-no-domain-ranking P-no-product-context P-no-postcheck P-no-rule-routing --timeout 60
 ```
 
-Trong terminal chạy thử, đặt database dự phòng tách khỏi database ứng dụng:
+Smoke dùng ba case đã khóa: TC05, TC11, TC23. Controller chỉ cho chạy main/ablation sau khi smoke đúng model, input/history, routing và cấu hình đã đạt. Unit test có nguồn giả không thay benchmark model thật.
+
+P+FT cần [server và artifact 7B gốc](MODELS_AND_BENCHMARK.md). Chờ health đúng identity và ready trước khi chạy riêng:
 
 ```powershell
-$env:DATABASE_URL='sqlite:///D:/NCKH/2026_Chatbot/Code/NCKH_chatbot/.local/chapter5-24-20261015T145015Z/controller-only.db'
-$env:ENVIRONMENT='test'
-$env:WARM_AI_ON_STARTUP='false'
-$study='..\.local\chapter5-24-20261015T145015Z\study-v2'
-python -B -m benchmark.chapter5 run --study $study --phase smoke --methods B0 B1 B2 P P-no-query-normalization P-no-bm25 P-no-domain-ranking P-no-product-context P-no-postcheck P-no-rule-routing --timeout 60
-python -B -m benchmark.chapter5 run --study $study --phase main --methods B0 B1 B2 P --timeout 60
-python -B -m benchmark.chapter5 run --study $study --phase ablation --methods P P-no-query-normalization P-no-bm25 P-no-domain-ranking P-no-product-context P-no-postcheck P-no-rule-routing --timeout 60
+& .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase smoke --methods 'P+FT' --timeout 60
+& .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase supplementary --methods 'P+FT' --timeout 60
+& .\.venv\Scripts\python.exe -B -m benchmark.chapter5 collect --study $study
 ```
 
-Smoke dùng đúng ba case đã khóa trước chạy: TC05 (không dấu), TC11 (thiếu căn cứ biến thể), TC23 (history ANC). Controller chỉ cho chạy main/ablation sau khi smoke đúng model, input/history, routing và cấu hình đã đạt. Unit test với nguồn giả được ghi là unit; kết quả benchmark luôn là model thật.
-
-P+FT: xem [cách khởi động server](MODELS_AND_BENCHMARK.md). Kiểm tra `ollama ps`, dừng model chat 3B đang chiếm VRAM nếu cần, chờ `/health` có đúng identity và ready. Không tự tắt server/dịch vụ không thuộc phiên thử.
-
-```powershell
-python -B -m benchmark.chapter5 run --study $study --phase smoke --methods 'P+FT' --timeout 60
-python -B -m benchmark.chapter5 run --study $study --phase supplementary --methods 'P+FT' --timeout 60
-python -B -m benchmark.chapter5 collect --study $study
-```
-
-Mỗi lần run tạo thư mục UTC+UUID, raw JSONL/CSV, manifest, request/response/worker log và protocol_validation. Mỗi worker có database riêng. Controller chặn khi hash code, input, corpus hoặc prompt đổi. Những lỗi vận hành được giữ nguyên; không lấy số hoàn tất làm số đúng.
+Mỗi run có thư mục UTC+UUID và database worker riêng. Controller chặn khi hash code/input/corpus/prompt đổi; không lấy số lượt hoàn tất làm số đúng.
 
 ## Chấm và metric
 

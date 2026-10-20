@@ -38,6 +38,23 @@ frontend/dist-ssr/
 benchmark_results/
 training_cache/
 training_runs/
+backend/artifacts/
+
+# Internal notes retained locally; not part of the public demo tree.
+docs/RELEASE_CHECKS.md
+docs/LLM_RAG_INVESTIGATION_20261020.md
+docs/DEMO_RELEASE.md
+docs/INTEGRATION_PLAN.md
+docs/INTEGRATION_RESULTS.md
+docs/CHAPTER5_EXPERIMENTS_24.md
+docs/DEMO_UI_CHAPTER5.md
+docs/history/CHATBOT_AUDIT.md
+docs/history/CHATBOT_EVALUATION_REPORT.md
+docs/history/CHATBOT_IMPROVEMENTS.md
+docs/history/DATASET_CANDIDATES.md
+docs/history/EVALUATION_REPORT.md
+# Export output, not an input in Settings.knowledge_paths or benchmark corpus.
+backend/rag_data/faq_generated.md
 
 # Only the selected release weights are distributed via Git LFS
 *.gguf

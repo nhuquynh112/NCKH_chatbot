@@ -1,12 +1,12 @@
 # Chạy demo 7B và benchmark M1–M4
 
-Đọc [audit/kế hoạch](INTEGRATION_PLAN.md), [kết quả kiểm tra](INTEGRATION_RESULTS.md) và [schema, rubric benchmark](../backend/benchmark/README.md). Tích hợp này dùng lại adapter đã train ngày 14/10/2026; không huấn luyện mới, merge hoặc chuyển đổi weights.
+Đọc [schema, rubric benchmark](../backend/benchmark/README.md) và [hướng dẫn tái lập](REPRODUCING_RESEARCH.md). Tích hợp này dùng lại adapter đã train ngày 14/10/2026; không huấn luyện mới, merge hoặc chuyển đổi weights.
 
 ## Môi trường và lựa chọn model
 
 Backend ứng dụng dùng `backend/requirements.txt`; frontend dùng `frontend/package-lock.json`. Giữ môi trường hiện có nếu đã cài. Với môi trường ứng dụng mới, chạy `python -m venv .venv`, kích hoạt rồi `pip install -r requirements.txt` trong `backend`; chạy `npm ci` trong `frontend`. Không cài thư viện GPU vào môi trường web.
 
-Runtime GPU đã có trên máy này: `D:/NCKH/Codex/.venv-training/Scripts/python.exe`, Python 3.14, torch 2.14.1+cu126, Transformers 5.19.0, PEFT 0.21.2, bitsandbytes 0.50.2. Đã nạp NF4/BF16 trên RTX 3060 12 GiB. Không cài/nâng cấp dependency trong lần tích hợp này. Máy khác cần kiểm tra runtime tương thích riêng; không coi Python >=3.11 của backend là cam kết chạy được runtime GPU này.
+Runtime GPU từng được dùng: Python 3.14, torch 2.14.1+cu126, Transformers 5.19.0, PEFT 0.21.2, bitsandbytes 0.50.2. Đã nạp NF4/BF16 trên RTX 3060 12 GiB. Không cài/nâng cấp dependency trong lần tích hợp này. Máy khác cần kiểm tra runtime tương thích riêng; không coi Python >=3.11 của backend là cam kết chạy được runtime GPU này.
 
 | Cấu hình backend | Model chat thực tế |
 |---|---|
@@ -18,10 +18,12 @@ Alias 7B là tên giao thức của server mới, không phải model Ollama đ�
 
 ## Artifact gốc và kiểm tra identity
 
+Artifact 7B không có trong bản clone. Cần nhận bản gốc hợp lệ và đặt theo cấu trúc dưới đây hoặc dùng profile riêng ngoài Git. `$gpuPython` là đường dẫn Python GPU đã cài trên máy của bạn.
+
 Profile nhỏ nằm tại `backend/model_serving/profiles/qwen25_7b.json` và tham chiếu:
 
-- Checkpoint: `D:/NCKH/Codex/training_cache/qwen25_7b_nf4`, repo `unsloth/Qwen2.5-7B-Instruct-bnb-4bit`, revision `bdd404162d94997f390efbfa660eb3f21cbbc81d`.
-- Adapter: `D:/NCKH/Codex/training_runs/csconda_7b_epoch1_20261014/adapter/adapter_model.safetensors`.
+- Checkpoint: `artifacts/qwen25_7b/checkpoint` (tương đối với `backend`), repo `unsloth/Qwen2.5-7B-Instruct-bnb-4bit`, revision `bdd404162d94997f390efbfa660eb3f21cbbc81d`.
+- Adapter: `artifacts/qwen25_7b/run/adapter/adapter_model.safetensors`.
 - Provenance: `run.json` tại thư mục run trên; checkpoint có `checkpoint_manifest.json`.
 
 SHA256 checkpoint `model.safetensors`:
@@ -41,7 +43,7 @@ Server kiểm tra trạng thái completed, repo/revision trong run và manifest,
 Đối chiếu mà không nạp GPU, từ `backend`:
 
 ```powershell
-& 'D:\NCKH\Codex\.venv-training\Scripts\python.exe' -B -m model_serving.server --check-only
+& $gpuPython -B -m model_serving.server --check-only
 ```
 
 Lệnh đọc lại checkpoint hơn 5 GB nên có thể mất vài phút. Nếu chuyển thư mục artifact, tạo bản sao profile nhỏ ngoài Git và truyền `--profile <đường-dẫn>`; chỉ đổi đường dẫn, giữ model/revision/hash. Client vẫn khóa identity gốc. Không sửa hoặc ghi đè artifact huấn luyện.
@@ -51,8 +53,8 @@ Lệnh đọc lại checkpoint hơn 5 GB nên có thể mất vài phút. Nếu 
 Mở terminal GPU, vào thư mục `backend`. Kiểm tra `ollama ps` và `nvidia-smi`. Server cần ít nhất 9 GiB VRAM trống lúc nạp; dừng model chat Ollama đang chiếm VRAM bằng `ollama stop <tag-đang-chạy>` nếu cần. Ollama vẫn cần hoạt động để chạy embedding `nomic-embed-text` đã có trên máy.
 
 ```powershell
-cd D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\backend
-& 'D:\NCKH\Codex\.venv-training\Scripts\python.exe' -B -u -m model_serving.server
+# Chạy từ backend; $gpuPython là Python của môi trường GPU riêng.
+& $gpuPython -B -u -m model_serving.server
 ```
 
 Ở terminal khác:

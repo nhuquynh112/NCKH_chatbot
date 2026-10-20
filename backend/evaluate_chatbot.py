@@ -512,7 +512,7 @@ def main() -> int:
 
     lines = [
         "# BÁO CÁO KIỂM THỬ CHATBOT TECHCARE", "",
-        "Bộ hồi quy nội bộ được tạo bởi `evaluate_chatbot.py`, chạy trên SQLite thử riêng. Không phải độ chính xác LLM trên khách thật; xem docs/history/CHATBOT_EVALUATION_REPORT.md cho đánh giá lịch sử.", "",
+        "Bộ hồi quy nội bộ được tạo bởi `evaluate_chatbot.py`, chạy trên SQLite thử riêng. Không phải độ chính xác LLM trên khách thật; xem docs/REPRODUCING_RESEARCH.md cho nguồn và giao thức nghiên cứu.", "",
         f"- Hội thoại đạt: **{passed_count}/{len(results)}**",
         f"- Tỷ lệ đạt tiêu chí hồi quy: **{passed_count / len(results):.2%}**",
         f"- Kiểm tra API/đầu vào/bảo mật đạt: **{api_passed}/{len(api_checks)}**",

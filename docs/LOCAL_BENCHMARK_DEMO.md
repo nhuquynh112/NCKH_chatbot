@@ -7,7 +7,7 @@ Trang demo không gắn `ChatProvider` và dùng khóa localStorage riêng.
 **Lưu ý bản demo 20/10:** bản vá website đã đổi source hash toàn bộ app. Study
 16/10 không chạy trực tiếp bằng source hiện tại; harness sẽ chặn theo protocol.
 Không sửa hash để bỏ qua kiểm tra. Dùng runtime snapshot trước vá đã xác minh trên
-máy gốc (xem [báo cáo điều tra](LLM_RAG_INVESTIGATION_20261020.md)), hoặc tạo study
+máy gốc với source hash trùng protocol, hoặc tạo study
 mới theo [hướng dẫn tái lập](REPRODUCING_RESEARCH.md). Kết quả mới cần lưu riêng.
 
 ## Khởi chạy
@@ -35,7 +35,7 @@ npm.cmd run dev -- --host 127.0.0.1 --port 5174 --strictPort
 Mở **http://127.0.0.1:5174/benchmark-demo**. Không cần chạy backend website ở
 cổng8000 hoặc dịch vụ7B. Ollama cần có `qwen2.5:3b` và `nomic-embed-text`.
 
-Máy gốc dùng study `D:\NCKH\Codex\comparison24_P_20261016T065655Z_e0611f3d\study`.
+Study cần có `package/test_inputs.jsonl` và snapshot của lượt benchmark gốc.
 Harness còn cần `P_results.jsonl` ở thư mục cha và database P/TC01 trong study,
 đồng thời source hash phải khớp. GitHub không chứa toàn bộ thư mục này; thiếu
 snapshot thì báo lỗi, không tự lấy raw responses để giả lập. Xem
