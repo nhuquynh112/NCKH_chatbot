@@ -1,16 +1,16 @@
-# React + Vite
+# Frontend TechCare
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React/Vite, Tailwind CSS, Axios, React Router và Lucide. Xem [README chính](../README.md) để cài backend/model.
 
-Currently, two official plugins are available:
+Chạy trong thư mục này:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```powershell
+npm.cmd ci
+npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort
+npm.cmd run lint
+npm.cmd run build
+```
 
-## React Compiler
+API mặc định: `http://localhost:8000/api`; đổi bằng `VITE_API_BASE_URL` trước khi chạy Vite. Khi đổi cổng, cập nhật CORS backend.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Demo B0/B1/B2/P chỉ có trong development với `VITE_BENCHMARK_DEMO=true`; xem [hướng dẫn](../docs/LOCAL_BENCHMARK_DEMO.md). Production build không bật route demo.

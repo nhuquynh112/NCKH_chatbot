@@ -13,7 +13,7 @@ import tempfile
 from training.data import AssistantCollator, encode_example, normalized, read_jsonl, sha256_file
 
 PROJECT = Path(os.environ.get("CHATBOT_PROJECT_DIR", str(Path(__file__).resolve().parents[2])))
-ROOT = Path(os.environ.get("CHATBOT_WORK_DIR", "D:/NCKH/Codex" if os.name == "nt" else str(Path(tempfile.gettempdir()) / "nckh-chatbot")))
+ROOT = Path(os.environ.get("CHATBOT_WORK_DIR", str(Path(tempfile.gettempdir()) / "TechCare")))
 MODEL_DIRECTORY = PROJECT / "backend/models/techcare-support-3b-v1"
 
 

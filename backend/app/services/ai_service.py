@@ -7,7 +7,9 @@ from typing import Optional
 from pydantic import BaseModel, Field
 
 from app.config import settings
-from app.rag.chat_service import ChatResult, create_default_chat_service
+from app.rag.chat_service import ChatResult
+from app.rag.website_service import create_website_chat_service as create_default_chat_service
+from app.website_transport import website_request
 from app.rag.chroma_store import ChromaUnavailableError
 from app.rag.embedding import OllamaError
 
@@ -79,7 +81,14 @@ class AIService:
                 logger.error("Local AI service is unavailable: %s", self.startup_error)
             return self._service_unavailable_response()
 
+        async with website_request(settings.ai_response_timeout_seconds, getattr(self.chatbot, "observer", None)):
+            return await self._query_once(request_data)
+
+    async def _query_once(self, request_data: AIQueryRequest) -> AIQueryResponse:
         try:
+            if settings.CHAT_PROVIDER == "hf_lora":
+                # Surface unavailable/mismatched 7B even for a rule/FAQ answer.
+                await asyncio.to_thread(self.chatbot.llm_client.identity)
             result = await asyncio.wait_for(
                 asyncio.to_thread(
                     self.chatbot.ask,
@@ -160,7 +169,8 @@ class AIService:
     def _service_unavailable_response(self) -> AIQueryResponse:
         return AIQueryResponse(
             answer=(
-                "Xin lỗi, hệ thống AI đang gặp sự cố. "
+                ("Mô hình 7B đang được chọn nhưng chưa sẵn sàng. "
+                 if settings.CHAT_PROVIDER == "hf_lora" else "Xin lỗi, hệ thống AI đang gặp sự cố. ") +
                 "Mình sẽ tạo ticket để nhân viên hỗ trợ kiểm tra và phản hồi cho bạn."
             ),
             confidence=0.0,

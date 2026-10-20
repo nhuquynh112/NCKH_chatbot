@@ -11,6 +11,7 @@ from app.routers import products, faqs, tickets, chat, auth
 from app.config import settings
 from app.database import engine, Base, SessionLocal
 from app.rag.embedding import OllamaClient, OllamaError
+from app.model_client import create_model_client
 from app.middleware.rate_limit import RateLimitMiddleware
 import app.models  # Ensure models are loaded before creating tables
 from seed import seed
@@ -25,12 +26,8 @@ logger = logging.getLogger(__name__)
 
 def _warm_ai_model() -> None:
     try:
-        OllamaClient(
-            settings.ollama_base_url,
-            settings.chat_model,
-            settings.embedding_model,
-        ).warm_up()
-        logger.info("Ollama chat model is warm")
+        create_model_client(settings).warm_up()
+        logger.info("Chat provider %s is ready", settings.CHAT_PROVIDER)
     except OllamaError as exc:
         logger.warning("Could not warm Ollama model: %s", exc)
 
@@ -97,11 +94,7 @@ def readiness():
     except Exception as exc:
         logger.error("Database readiness check failed: %s", exc)
 
-    ai_ok = OllamaClient(
-        settings.ollama_base_url,
-        settings.chat_model,
-        settings.embedding_model,
-    ).is_available()
+    ai_ok = create_model_client(settings).is_available()
     return {
         "status": "ready" if database_ok and ai_ok else "degraded",
         "database": "ok" if database_ok else "unavailable",

@@ -5,7 +5,7 @@ import tempfile
 
 
 def work_directory():
-    default = Path("D:/NCKH/Codex") if os.name == "nt" else Path(tempfile.gettempdir()) / "nckh-chatbot"
+    default = Path(tempfile.gettempdir()) / "TechCare"
     path = Path(os.environ.get("CHATBOT_WORK_DIR", str(default))).resolve()
     path.mkdir(parents=True, exist_ok=True)
     return path

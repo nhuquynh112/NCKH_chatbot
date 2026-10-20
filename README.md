@@ -1,108 +1,171 @@
-# TechCare Electronics — chatbot chăm sóc khách hàng
+# TechCare Electronics — website và chatbot chăm sóc khách hàng
 
-Ứng dụng demo gồm website bán thiết bị công nghệ, chatbox AI/RAG, lưu lịch sử hội thoại, tự tạo ticket khi không đủ dữ liệu và trang quản trị FAQ/ticket.
+Website thiết bị công nghệ với chatbot tiếng Việt chạy LLM local + RAG, lịch sử hội thoại, ticket hỗ trợ và quản trị FAQ/ticket. **Giá, sản phẩm và chính sách là dữ liệu mô phỏng nghiên cứu**, không phải cam kết bán hàng.
 
-## Yêu cầu
+> Bản demo phục vụ quay video và báo cáo nhóm ngày 20/10/2026. Đã sửa bước xét bằng chứng kỹ thuật và transport của website; kiểm thử API với model thật có kết quả trong [báo cáo điều tra](docs/LLM_RAG_INVESTIGATION_20261020.md). Xem [ghi chú demo và lệnh quay video](docs/DEMO_RELEASE.md). Đây là môi trường thực nghiệm, chưa phải bản triển khai production.
 
-- Python 3.11 trở lên
-- Node.js 20 trở lên
-- [Ollama](https://ollama.com/) với `techcare-support:3b-v1` (3B đã fine-tune) và `nomic-embed-text`; giữ `qwen2.5:3b` để so sánh hoặc quay lại bản gốc.
+![Giao diện demo bốn phương pháp](docs/images/chatbot-comparison.jpg)
 
-## Bản 3B đã train và chuyển sang laptop
+*Ảnh local thật ngày 16/10/2026. B1/B2/P trong ảnh dùng base 3B của nghiên cứu; website mặc định dùng model demo 3B đã fine-tune.*
 
-Bản `techcare-support:3b-v1` đã được cài trên máy bàn, dùng làm model chính qua `backend/rag_data/model_profile.json`, không thay `.env`. QLoRA chạy trên RTX 3060 với 170 mẫu, 2 epoch. Model đã xác nhận, adapter, dữ liệu đã lọc và kết quả cần cho đề tài nằm trong `backend/models/techcare-support-3b-v1`; mã huấn luyện ở `backend/training`. Môi trường GPU, cache, log và thử nghiệm chưa chọn vẫn ở `D:\NCKH\Codex`.
+## Kiến trúc và cấu trúc
 
-Sao chép cả project sang laptop hoặc clone với Git LFS rồi chạy từ thư mục gốc project:
+React/Vite → FastAPI → nghiệp vụ hội thoại → luật/catalog/FAQ hoặc hybrid retrieval → prompt + LLM → kiểm tra dữ kiện → câu trả lời/ticket. SQLAlchemy lưu SQLite mặc định; PostgreSQL tùy chọn.
+
+Model website là Ollama `techcare-support:3b-v1` qua `backend/rag_data/model_profile.json`; embedding `nomic-embed-text`. RAG dùng JSON index, semantic + BM25, KB/catalog/FAQ. Đường website xét thêm bằng chứng phù hợp cho câu hỏi kỹ thuật chung. Luật/FAQ có thể trả lời trước LLM nên không phải mọi câu đều gọi model. Giá/tồn kho là dữ liệu nghiệp vụ, không lấy từ trí nhớ model.
+
+Corpus kỹ thuật chưa đầy đủ: các câu giải thích dual-channel, NVMe hoặc OLED có thể nhận thông báo thiếu tài liệu và ticket. Đây là fallback có chủ đích; không coi danh sách thông số sản phẩm là định nghĩa. Hiệu năng phụ thuộc GPU/CPU, VRAM, độ dài hội thoại và trạng thái model đã nạp; chưa kiểm thử trên laptop RTX 3050.
+
+B1/B2/P trong nghiên cứu khóa **base** `qwen2.5:3b`. P+FT 7B là thử nghiệm bổ sung, không thuộc bốn phương pháp chính.
+
+```text
+backend/
+  app/                     API, nghiệp vụ, RAG, bảo mật
+  rag_data/                KB, FAQ, catalog, prompt, profile, index
+  models/techcare-support-3b-v1/   GGUF + adapter LFS, data, license, evidence
+  benchmark/               B0/B1/B2/P, ablation, M1–M4, bộ 24 câu
+  model_serving/           Server adapter 7B; checkpoint ngoài repo
+  training/                Mã tái tạo huấn luyện, môi trường GPU riêng
+  tests/                   Unit, integration, regression
+frontend/                  Website, chat widget, demo nghiên cứu local
+docs/                      Hướng dẫn, bằng chứng, tài liệu lịch sử
+BaoCao/                    Các bản Word gốc
+install_trained_model.ps1
+run_tests.ps1
+docker-compose.yml         PostgreSQL tùy chọn
+```
+
+## 1. Chuẩn bị Windows và clone
+
+Môi trường kiểm tra release: **Python 3.14.3, Node.js 24.14.0, npm 11.9.0, Git LFS 3.6.1, Ollama 0.40.6**. Vite trong lockfile yêu cầu Node `^20.19.0 || >=22.12.0`. Các phiên bản khác chưa được xác nhận trong lần kiểm thử này.
+
+Cài [Python](https://www.python.org/downloads/windows/), [Node.js](https://nodejs.org/), [Git](https://git-scm.com/download/win), [Git LFS](https://git-lfs.com/) và [Ollama](https://ollama.com/download/windows). Mở Ollama trước khi cài model. Cần dung lượng cho dependencies, GGUF khoảng 1,93 GB, adapter khoảng 120 MB và embedding. Hiệu năng RTX 3050 laptop chưa được đo trong lần release.
 
 ```powershell
+git lfs install
+git clone --branch chatbot-v1 https://github.com/nhuquynh112/NCKH_chatbot.git
+Set-Location NCKH_chatbot
 git lfs pull
+git lfs ls-files
+.\install_trained_model.ps1 -VerifyOnly
+```
+
+GGUF/safetensors phải là trọng số thật, không phải pointer vài trăm byte. Nếu LFS lỗi quota/quyền truy cập, xử lý với chủ repo; không đẩy trọng số vào Git thông thường. Chưa có link tải thay thế được công bố. Có thể sao chép trực tiếp project đã chạy được nếu giữ đủ file và SHA256 khớp profile.
+
+Nếu PowerShell chặn script, dùng `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install_trained_model.ps1` hoặc tương tự cho `run_tests.ps1`; không cần đổi chính sách toàn máy.
+
+## 2. Model và backend
+
+Từ gốc project:
+
+```powershell
 .\install_trained_model.ps1
 ollama pull nomic-embed-text
+ollama list
+python -m venv backend\.venv
+& .\backend\.venv\Scripts\python.exe -m pip install -r .\backend\requirements.txt
+if (-not (Test-Path .\backend\.env)) {
+    Copy-Item .\backend\.env.example .\backend\.env
+}
 ```
 
-File model khoảng 1,93 GB. Script đối chiếu SHA256, import local và giữ file tạm ngoài project. Nếu laptop không có ổ D, truyền thêm `-WorkDir "$env:TEMP\TechCare"`. Khởi động lại backend sau khi cài. `/ready` phải có `chat_model: techcare-support:3b-v1` và `ai: ok`.
+Installer kiểm tra kích thước/SHA256 rồi import GGUF local; không train hoặc tự thay model. File tạm mặc định ở Temp Windows; có thể truyền `-WorkDir 'E:\TechCareWork'` hoặc `CHATBOT_WORK_DIR`, ngoài project. Không cần tải base 3B để dùng GGUF hoàn chỉnh.
 
-Các file GGUF và safetensors được quản lý bằng [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage), vì vượt giới hạn file Git thông thường. Cài Git LFS trước khi clone/push; sau clone chạy `git lfs pull` để lấy trọng số. Khi sao chép project trực tiếp, không cần bước tải LFS. Xem README trong thư mục model để tái tạo huấn luyện.
+Với clone mới, giữ `DATABASE_URL=sqlite:///./techcare.db`, `ENVIRONMENT=development` và `CHAT_PROVIDER=ollama`. `CHAT_MODEL=qwen2.5:3b` vẫn được profile đổi thành `techcare-support:3b-v1` khi `USE_PROJECT_CHAT_MODEL=true`. Cấu hình tùy chỉnh khác được ưu tiên theo code. Không chép đè `.env` đang có vì có thể nó trỏ tới database thật.
 
-Để quay lại model gốc, cài `qwen2.5:3b`, đặt `$env:USE_PROJECT_CHAT_MODEL='false'` trong terminal chạy backend rồi khởi động lại. Model tuỳ chỉnh khác trong `CHAT_MODEL` vẫn được ưu tiên. Bản 3B tuân theo **Qwen Research License**, được giữ trong Modelfile; dữ liệu giá/chính sách vẫn là mô phỏng nghiên cứu.
-
-## Chạy nhanh trên Windows
-
-Mở terminal thứ nhất:
+Khởi tạo **database demo mới** và chạy:
 
 ```powershell
-cd backend
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-ollama pull qwen2.5:3b
-ollama pull nomic-embed-text
-..\install_trained_model.ps1
-python rebuild_rag.py
-uvicorn app.main:app --reload
+Set-Location backend
+& .\.venv\Scripts\python.exe seed.py
+# Chỉ rebuild khi đổi dữ liệu/index hoặc cần tạo lại index:
+# & .\.venv\Scripts\python.exe rebuild_rag.py
+& .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
-Mở terminal thứ hai:
+`seed.py` nạp sản phẩm/FAQ khi bảng tương ứng trống; app cũng gọi seed khi `AUTO_SEED=true`. Kiểm tra `DATABASE_URL` trước khi chạy. Rebuild cập nhật tài liệu/index, không train model. Semantic RAG chưa sẵn sàng nếu Ollama/embedding chưa hoạt động, dù câu luật/FAQ vẫn có thể trả lời.
+
+## 3. Frontend và URL
+
+Mở terminal thứ hai tại gốc project:
 
 ```powershell
-cd frontend
-npm install
-npm run dev
+Set-Location frontend
+npm.cmd ci
+if (-not (Test-Path .\.env)) {
+    Copy-Item .\.env.example .\.env
+}
+npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort
 ```
 
-Truy cập `http://localhost:5173`. API docs ở `http://localhost:8000/docs`.
+| Chức năng | URL |
+|---|---|
+| Website | http://127.0.0.1:5173/products |
+| Hội thoại | http://127.0.0.1:5173/faqs |
+| Admin | http://127.0.0.1:5173/admin/login |
+| API docs | http://127.0.0.1:8000/docs |
+| Health | http://127.0.0.1:8000/health |
+| Readiness | http://127.0.0.1:8000/ready |
 
-Nếu project đang có `backend/.env` trỏ tới PostgreSQL thì cấu hình đó vẫn được ưu tiên. Muốn chạy bản demo độc lập, sao chép `.env.example` thành `.env` hoặc đổi `DATABASE_URL` sang SQLite như ví dụ.
+`/ready` cần có `chat_model: techcare-support:3b-v1` và `ai: ok`. `status: degraded` vẫn trả HTTP 200, phải đọc JSON. Endpoint chưa kiểm tra embedding/index; cần rebuild thành công và thử câu RAG. Một câu FAQ trả được chưa chứng minh LLM hoạt động.
 
-Mặc định dự án dùng SQLite tại `backend/techcare.db` và tự nạp dữ liệu mẫu, nên không cần Docker/PostgreSQL. Nếu muốn dùng PostgreSQL, đặt lại `DATABASE_URL` trong `backend/.env` rồi chạy `python seed.py`.
+Frontend gọi `http://localhost:8000/api`; đổi bằng `VITE_API_BASE_URL` trước khi chạy Vite. Nếu đổi cổng frontend, cập nhật `CORS_ORIGINS` backend.
 
-## Chạy kiểm thử
+### PostgreSQL tùy chọn
 
-Từ thư mục gốc dự án, cách đơn giản nhất:
+SQLite đủ cho demo laptop. Nếu có Docker Compose, từ gốc:
+
+```powershell
+$env:POSTGRES_PASSWORD = Read-Host 'Mật khẩu PostgreSQL demo do bạn chọn'
+docker compose up -d postgres
+Remove-Item Env:POSTGRES_PASSWORD
+```
+
+Đặt `DATABASE_URL=postgresql://postgres:<mat-khau-da-chon>@localhost:5432/nckh_chatbot` trong `backend/.env`; URL-encode mật khẩu có ký tự đặc biệt. Chạy seed/backend như trên. Compose chỉ bind loopback; không đổi mật khẩu volume đã tồn tại. Docker chưa được kiểm thử runtime trong lần release này.
+
+## 4. Kiểm thử và đổi model
+
+Từ gốc:
 
 ```powershell
 .\run_tests.ps1
+# Hoặc chọn thư mục ngoài project:
+.\run_tests.ps1 -WorkDir "$env:TEMP\TechCareChecks" -EvaluationLabel release
 ```
 
-Script dùng database kiểm thử riêng để chạy unit test backend, hồi quy catalog/API/tải đồng thời, bộ FAQ/RAG cố định, tình huống Ollama gián đoạn, frontend lint và production build. Database tạm, cache và kết quả nằm ngoài repo tại `D:\NCKH\Codex`; có thể đổi bằng `-WorkDir` hoặc `CHATBOT_WORK_DIR`. Xem [cải tiến và cách demo](CHATBOT_IMPROVEMENTS.md), [audit](CHATBOT_AUDIT.md), [kết quả đo](CHATBOT_EVALUATION_REPORT.md) và [nguồn dataset](DATASET_CANDIDATES.md).
+Sáu nhóm: backend unit/integration, catalog/API, 32 câu FAQ/RAG, Ollama offline, frontend lint và production build. Mỗi lượt tạo `tests-UTC-UUID`, SQLite tạm và log/phản hồi riêng; không ghi đè báo cáo lịch sử/benchmark. Cần dependencies và Ollama cho nhánh online. Unit test có mock không thay benchmark LLM thật; tỷ lệ đạt luật/FAQ không phải accuracy khách thật.
 
-`evaluate_chatbot.py` giữ 225 tình huống hồi quy, kiểm tra 53 sản phẩm và 16 yêu cầu API đồng thời; kết quả ở `backend/EVALUATION_REPORT.md`. `evaluate_quality.py` dùng 32 câu cố định có FAQ/paraphrase, nhiều lượt, thiếu dữ liệu và bảo mật. Model 3B đã xác nhận, dữ liệu chọn lọc và bằng chứng chính được giữ cùng project; thử nghiệm, checkpoint nguồn/cache và log nằm tại `D:\NCKH\Codex`. Báo cáo tổng hợp ở `CHATBOT_EVALUATION_REPORT.md`. Tỷ lệ đạt tiêu chí của pipeline luật/FAQ không phải độ chính xác LLM.
-
-Đây là kiểm thử hồi quy trên dữ liệu TechCare, không phải cam kết rằng chatbot đúng 100% với mọi câu ngoài đời. Muốn dùng cho khách thật, quản trị viên phải cập nhật giá, sản phẩm active, thông số và chính sách trong database/FAQ; chatbot sẽ từ chối suy đoán trường dữ liệu chưa có.
-
-## Kiến trúc trả lời
-
-1. Lớp luật xử lý các dữ kiện cần chính xác tuyệt đối: giá, bảo hành, so sánh, ngân sách, tra cứu đơn và sự cố kỹ thuật.
-   Danh mục sản phẩm đang hoạt động được đọc trực tiếp từ bảng `products`; file JSON chỉ là dữ liệu dự phòng khi database chưa sẵn sàng.
-2. FAQ quản trị phù hợp và 30 FAQ biên tập được ưu tiên; retriever kết hợp semantic và BM25 tìm ngữ cảnh trong Knowledge Base, catalog và FAQ. FAQ vô hiệu hóa không được hồi sinh từ bản biên tập cùng câu hỏi.
-3. Ollama diễn đạt câu trả lời dựa trên ngữ cảnh; không có dữ liệu thì fallback và tạo ticket.
-4. Chỉ mục JSON là mặc định để demo chạy ổn định. Có thể cài `requirements-chroma.txt` và đặt `VECTOR_STORE_BACKEND=chroma` để dùng ChromaDB.
-5. Với model không có trong catalog, chatbot không đoán giá hoặc tồn kho mà tạo link tìm kiếm Google và Google Shopping theo tên sản phẩm. Giao diện tự hiển thị các URL này thành liên kết mở ở tab mới và kèm cảnh báo TechCare không xác minh nguồn bán bên ngoài.
-6. Tin nhắn có số điện thoại được che bớt trong lịch sử. Mật khẩu, OTP, CVV/CVC và số thẻ bị thay bằng nhãn đã ẩn, không được chuyển vào RAG hay tự động tạo ticket.
-7. Các yêu cầu tiết lộ prompt hệ thống, khóa truy cập hoặc bỏ qua quy tắc an toàn được chặn ở lớp luật trước khi gọi mô hình.
-8. Lời gọi AI có thời gian chờ tối đa; nếu Ollama treo hoặc mất kết nối, hệ thống trả lời an toàn và chuyển ticket thay vì để giao diện chờ vô hạn. Endpoint `/ready` cho biết riêng trạng thái database và Ollama.
-9. Mọi thao tác đọc, gửi, sửa hoặc xóa phiên chat đều phải có `X-Visitor-ID` trùng với chủ phiên; quản trị viên có JWT hợp lệ vẫn xem được hội thoại gắn với ticket.
-10. Endpoint đăng nhập và tạo phiên/tin nhắn có giới hạn tần suất. Endpoint tạo ticket trực tiếp chỉ dành cho quản trị viên; chatbot nội bộ vẫn tự tạo ticket khi thật sự cần.
-11. Giá/thông số cần chính xác lấy catalog, không lấy FAQ giá cũ. Yêu cầu gặp nhân viên và tra trạng thái ticket trong phiên chat được xử lý bằng dữ liệu nghiệp vụ. Index thiếu/cũ dùng nguồn lexical mới; chạy rebuild và khởi động lại backend để dùng semantic.
-
-## Dữ liệu và lưu ý demo
-
-- `backend/seed.py` là dữ liệu khởi tạo website.
-- `backend/rag_data/product_verified_specs.json` là lớp hiệu chỉnh thông số có nguồn hãng và ngày đối chiếu; file này cũng được áp dụng khi tạo database mới.
-- `backend/PRODUCT_DATA_AUDIT.md` ghi tỷ lệ bao phủ và các sản phẩm còn cần SKU/part number.
-- `backend/rag_data/techcare_products.json` và `product_catalog_extended.md` là bản xuất dùng cho chatbot; `faq_curated.json` là 30 FAQ gốc cho demo, không phải dữ liệu đã fine-tune.
-- Giá, mô tả và tồn kho trong đề tài là dữ liệu mô phỏng phục vụ nghiên cứu, không phải cam kết bán hàng thực tế.
-- Sau khi duyệt thay đổi catalog/knowledge base, chạy trong thư mục `backend`:
+Chuyển về base 3B trong terminal backend:
 
 ```powershell
-python export_rag.py
-python rebuild_rag.py
+ollama pull qwen2.5:3b
+$env:CHAT_PROVIDER='ollama'
+$env:CHAT_MODEL='qwen2.5:3b'
+$env:USE_PROJECT_CHAT_MODEL='false'
+# Dừng và khởi động lại uvicorn.
 ```
 
-`sync_verified_products.py` là thao tác cập nhật database, chỉ chạy khi nhóm đã duyệt thay đổi thông số. Các cải tiến không cần chạy script này, không thay `.env` hoặc dữ liệu khách hàng. CSConDa đã được duyệt, lọc và dùng cho pilot; model chính hiện là bản 3B đã train. Thử nghiệm 7B được giữ làm bằng chứng riêng trong báo cáo đánh giá.
+Về model demo: bỏ override bằng `Remove-Item Env:USE_PROJECT_CHAT_MODEL`, khởi động lại với cấu hình mặc định.
 
-Không nhập tự động kết quả Google vào catalog. Google chỉ giúp tìm nguồn; thông số dùng để tư vấn phải được đối chiếu với trang hãng và lưu URL nguồn.
+## 5. Nghiên cứu và cập nhật dữ liệu
 
-Tài khoản quản trị mặc định phục vụ demo: `admin` / `admin123`. Hãy đổi các biến tương ứng trong `.env` trước khi triển khai thật.
+- [Tái lập trên máy khác](docs/REPRODUCING_RESEARCH.md): bộ 24 câu, B0/B1/B2/P, P+FT và bằng chứng đã đóng gói.
+- [Demo chụp ảnh](docs/LOCAL_BENCHMARK_DEMO.md): TC01/11/18/21 và đúng vai trò lịch sử TC21. Cần study gốc/đúng source hash; clone chưa chứa toàn bộ database của lượt chạy cũ. Source hash đã đổi sau bản vá website nên không chạy study cũ trực tiếp bằng code hiện tại; dùng runtime snapshot gốc hoặc tạo study mới, không sửa protocol cũ.
+- [Giao thức Chương 5](docs/CHAPTER5_RUNBOOK.md), [benchmark M1–M4](backend/benchmark/README.md), [server 7B](docs/MODELS_AND_BENCHMARK.md).
+- [Model 3B, nguồn và tái tạo](backend/models/techcare-support-3b-v1/README.md). Không cài runtime GPU vào FastAPI. Checkpoint/adapter 7B gốc giữ ngoài repo, không bắt buộc cho website.
+- [Mục lục tài liệu](docs/README.md), [ghi chú demo hiện tại](docs/DEMO_RELEASE.md), [kiểm tra đóng gói trước bản vá](docs/RELEASE_CHECKS.md).
 
-Khi triển khai thật, đặt `ENVIRONMENT=production`, `AUTO_SEED=false`, một `SECRET_KEY` riêng dài tối thiểu 32 ký tự, mật khẩu quản trị dài tối thiểu 12 ký tự và `CORS_ORIGINS` đúng tên miền website. Backend sẽ từ chối khởi động ở chế độ production nếu còn cấu hình demo không an toàn.
+Admin cập nhật FAQ/ticket qua website. Sau khi duyệt dữ liệu, từ `backend` chạy:
+
+```powershell
+& .\.venv\Scripts\python.exe export_rag.py
+& .\.venv\Scripts\python.exe rebuild_rag.py
+```
+
+Export đọc catalog/FAQ active từ database. `knowledge_base.md` và `faq_curated.json` là nguồn biên tập riêng; `product_verified_specs.json` giữ mức xác minh và URL hãng. `sync_verified_products.py` sửa database, chỉ chạy sau khi duyệt. Khởi động lại backend sau rebuild. Không nhập đáp án test hoặc giá/chính sách của dataset khác vào tri thức TechCare.
+
+## Bảo mật và giấy phép
+
+`admin / admin123` chỉ dùng **demo local**, đúng với Settings. Trước triển khai thật: `ENVIRONMENT=production`, `AUTO_SEED=false`, secret riêng tối thiểu 32 ký tự, mật khẩu admin tối thiểu 12 ký tự, CORS đúng tên miền. Backend kiểm tra các điều kiện này.
+
+Không commit `.env`, database, lịch sử khách hàng, token, cache hoặc log. Giữ [Qwen Research License](backend/models/techcare-support-3b-v1/LICENSE), [giấy phép dữ liệu](backend/models/techcare-support-3b-v1/data/LICENSE), [thông báo nguồn](docs/THIRD_PARTY_NOTICES.md). Nhóm chưa gán giấy phép chung cho toàn bộ mã nguồn. Đường dẫn ổ D trong hồ sơ cũ là provenance, không phải yêu cầu cài đặt.

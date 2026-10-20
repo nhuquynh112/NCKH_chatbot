@@ -5,6 +5,8 @@ import re
 from app.config import Settings, settings as app_settings
 from app.rag.chroma_store import ChromaVectorStore
 from app.rag.embedding import OllamaClient, OllamaError
+from app.model_client import create_model_client, ModelNotReady
+from app.rag.components import RagComponents
 from app.rag.faq_matcher import match_curated_faqs, normalize as normalize_faq
 from app.rag.grounding import unsupported_claims
 from app.rag.guardrails import GuardrailPolicy, ProductCatalog
@@ -42,6 +44,8 @@ class ChatService:
         self.prompt_builder = prompt_builder
         self.llm_client = llm_client
         self.guardrails = guardrails
+        self.components = RagComponents()
+        self.trace_observer = None
 
     def ask(
         self, question: str, top_k: int = 4, history: list[dict] | None = None,
@@ -72,13 +76,15 @@ class ChatService:
             or self.guardrails.is_order_lookup(question)
             or self.guardrails.is_human_request(question)
         )
-        if preempt:
+        if self.components.rule_routing and preempt:
             answer = self.guardrails.deterministic_answer(question)
             if answer:
                 return ChatResult(answer, [], self.guardrails.needs_human(answer, "rule+rag"), "rule+rag")
-        live_faq = next((item for item in (extra_documents or []) if item.get("direct")), None)
+        live_faq = (next((item for item in (extra_documents or []) if item.get("direct")), None)
+                    if self.components.rule_routing else None)
         folded = self._fold_text(question)
-        if (self.guardrails.is_unknown_product_availability_question(question)
+        if self.components.rule_routing and (
+                self.guardrails.is_unknown_product_availability_question(question)
                 or self.guardrails.looks_like_unknown_model(question)):
             return ChatResult(self.guardrails.external_product_answer(question), [], False, "rule+rag")
         fact_terms = ["gia", "price", "how much", "ram", "cpu", "gpu", "ssd", "chip", "pin", "man hinh", "bao hanh", "bh", "warranty"]
@@ -92,7 +98,8 @@ class ChatService:
         if live_faq:
             hit = SearchResult(1.0, Document(live_faq["id"], live_faq["title"], live_faq["content"], live_faq["metadata"]))
             return ChatResult(live_faq["answer"], [hit], False, "faq")
-        curated = [] if is_product_fact else match_curated_faqs(question)
+        curated = ([] if is_product_fact or not self.components.rule_routing
+                   else match_curated_faqs(question))
         inactive_titles = {normalize_faq(item["title"]) for item in (extra_documents or []) if item.get("inactive")}
         if any(normalize_faq(faq["question"]) in inactive_titles for faq in curated):
             return ChatResult("Chính sách bạn hỏi đang chờ cập nhật hoặc xác nhận. Mình sẽ tạo ticket để nhân viên kiểm tra nội dung áp dụng cho trường hợp của bạn.", [], True, "fallback")
@@ -108,12 +115,17 @@ class ChatService:
         prior_budget = next((self.guardrails.extract_budget(item.get("content", ""))
                              for item in reversed(history or [])
                              if item.get("role") == "user" and self.guardrails.extract_budget(item.get("content", ""))), None)
+        if not self.components.product_context:
+            prior_budget = None
         recommendation_candidates = self._recommendation_candidates_from_history(
             recent_history
         )
         shown_recommendations = self._all_recommendation_candidates_from_history(
             recent_history
         )
+        if not self.components.product_context:
+            recommendation_candidates = []
+            shown_recommendations = []
         recommendation_refinement = (
             len(recommendation_candidates) >= 2
             and self.guardrails.is_recommendation_refinement(question)
@@ -123,11 +135,13 @@ class ChatService:
             and self.guardrails.is_alternative_request(question)
         )
         current_category = self.guardrails.find_category(question)
-        if (current_category and not self.guardrails.products_by_category(current_category)
+        if (self.components.rule_routing and current_category and not self.guardrails.products_by_category(current_category)
                 and (self.guardrails.is_category_availability_question(question)
                      or self.guardrails.is_recommendation_question(question))):
             return ChatResult(f"Hiện danh mục đang hoạt động chưa có sản phẩm {current_category} phù hợp để mình giới thiệu. Bạn muốn nhân viên kiểm tra thêm mẫu cụ thể nào?", [], False, "clarification")
         history_category = self._latest_category_from_history(recent_history)
+        if not self.components.product_context:
+            history_category = None
         budget_category_refinement = (
             self.guardrails.extract_budget(question) is not None
             and current_category is None
@@ -142,7 +156,7 @@ class ChatService:
             )
         )
         use_history_for_retrieval = (
-            bool(recent_history)
+            self.components.product_context and bool(recent_history)
             and (
                 self.prompt_builder.is_context_dependent(question)
                 or recommendation_refinement
@@ -162,14 +176,16 @@ class ChatService:
             )
         )
         if (
-            not current_products and not product_id and len(recommendation_candidates) >= 2
+            self.components.rule_routing and not current_products and not product_id and len(recommendation_candidates) >= 2
             and self.prompt_builder.is_context_dependent(question)
             and not recommendation_refinement and not budget_category_refinement
             and not explicit_category_query and not explicit_unknown_product
         ):
             names = ", ".join(product["name"] for product in recommendation_candidates)
             return ChatResult(f"Bạn muốn hỏi mẫu nào trong các mẫu vừa trao đổi: {names}? Bạn gửi tên mẫu để mình trả lời chính xác nhé.", [], False, "clarification")
-        if current_products:
+        if not self.components.product_context:
+            resolved_product = None
+        elif current_products:
             resolved_product = current_products[0]
         elif explicit_unknown_product:
             resolved_product = None
@@ -199,8 +215,17 @@ class ChatService:
             if use_history_for_retrieval and not explicit_category_query
             else question
         )
+        if self.trace_observer:
+            self.trace_observer({"stage": "product_context",
+                "enabled": self.components.product_context,
+                "resolved_product": (resolved_product.get("sku") if resolved_product else None),
+                "use_history_for_retrieval": bool(use_history_for_retrieval),
+                "retrieval_question": retrieval_question,
+                "history_messages": len(recent_history)})
 
-        if len(current_products) >= 2 and self.guardrails.is_comparison_question(question):
+        if not self.components.rule_routing:
+            direct_answer = None
+        elif len(current_products) >= 2 and self.guardrails.is_comparison_question(question):
             direct_answer = self.guardrails.comparison_answer(current_products[:2])
         elif alternative_request:
             direct_answer = self.guardrails.recommendation_answer(
@@ -228,7 +253,7 @@ class ChatService:
                 if resolved_product
                 else None
             )
-        if not direct_answer:
+        if self.components.rule_routing and not direct_answer:
             direct_answer = self.guardrails.deterministic_answer(guardrail_question)
         if direct_answer:
             hide_sources = (
@@ -320,12 +345,18 @@ class ChatService:
                     question, context, recent_history, active_product=resolved_product,
                 ),
             )
+        except ModelNotReady:
+            raise
         except OllamaError:
             logger.warning("Local generation unavailable; returning grounded support fallback")
             return ChatResult(FALLBACK_ANSWER, hits, True, "fallback")
         if not answer.strip():
             return ChatResult(FALLBACK_ANSWER, hits, True, "fallback")
-        if unsupported_claims(answer, context):
+        blocked = bool(unsupported_claims(answer, context)) if self.components.postcheck else False
+        if self.trace_observer:
+            self.trace_observer({"stage": "postcheck", "enabled": self.components.postcheck,
+                                "evaluated": self.components.postcheck, "blocked": blocked})
+        if blocked:
             logger.warning("Generated answer contains unsupported facts or operations")
             return ChatResult(FALLBACK_ANSWER, hits, True, "fallback")
         logger.info("Answered question with LLM + RAG")
@@ -651,12 +682,7 @@ def create_default_chat_service(
     ensure_index: bool = True,
 ) -> ChatService:
     config = config or app_settings
-    llm_client = OllamaClient(
-        base_url=config.ollama_base_url,
-        chat_model=config.chat_model,
-        embedding_model=config.embedding_model,
-        request_timeout=max(1, config.ai_response_timeout_seconds - 9),
-    )
+    llm_client = create_model_client(config)
     vector_store = _create_vector_store(config, llm_client)
     guardrails = GuardrailPolicy(
         product_catalog=ProductCatalog(

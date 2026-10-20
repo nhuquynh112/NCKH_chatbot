@@ -6,6 +6,7 @@ from app.rag.query_rewriter import QueryRewriter, strip_accents
 from app.rag.vector_store import Document, SearchResult
 from app.rag.embedding import OllamaError
 from app.rag.lexical import bm25_search
+from app.rag.components import RagComponents
 import logging
 
 logger = logging.getLogger(__name__)
@@ -44,6 +45,8 @@ class Retriever:
         self.guardrails = guardrails
         self.source_documents: list[Document] | None = None
         self.semantic_enabled = True
+        self.components = RagComponents()
+        self.trace_observer = None
 
     def ensure_index(self, documents: list[Document]) -> None:
         if self.vector_store.count() == 0:
@@ -60,9 +63,11 @@ class Retriever:
         return self.source_documents if self.source_documents is not None else self.vector_store.get_all_documents()
 
     def search(self, question: str, top_k: int) -> list[SearchResult]:
-        retrieval_question = self.query_rewriter.expand_for_retrieval(question)
+        retrieval_question = (self.query_rewriter.expand_for_retrieval(question)
+                              if self.components.query_normalization else question)
         documents = self.all_documents()
-        lexical = bm25_search(question, documents, max(top_k * 4, top_k))
+        lexical = (bm25_search(question, documents, max(top_k * 4, top_k))
+                   if self.components.bm25 else [])
         semantic = []
         if self.semantic_enabled:
             try:
@@ -76,14 +81,28 @@ class Retriever:
             score=.60 * max(0., semantic_scores.get(key, 0.)) + .40 * lexical_scores.get(key, 0.),
             document=document,
         ) for key, document in candidates.items()]
+        adjustments = {hit.document.id: self.score_adjustment(question, hit.document)
+                       if self.components.domain_ranking else 0.0 for hit in raw_hits}
         adjusted = [
             SearchResult(
-                score=max(0.0, min(1.0, hit.score + self.score_adjustment(question, hit.document))),
+                score=max(0.0, min(1.0, hit.score + adjustments[hit.document.id])),
                 document=hit.document,
             )
             for hit in raw_hits
         ]
         adjusted.sort(key=lambda item: item.score, reverse=True)
+        if self.trace_observer:
+            self.trace_observer({"question": question, "semantic_query": retrieval_question,
+                "semantic_enabled": self.semantic_enabled,
+                "bm25_enabled": self.components.bm25,
+                "domain_ranking_enabled": self.components.domain_ranking,
+                "candidates": [{"id": hit.document.id, "title": hit.document.title,
+                    "metadata": hit.document.metadata, "content": hit.document.content,
+                    "vector_score": semantic_scores.get(hit.document.id),
+                    "bm25_score": next((x.score for x in lexical if x.document.id == hit.document.id), None),
+                    "hybrid_score": next(x.score for x in raw_hits if x.document.id == hit.document.id),
+                    "domain_adjustment": adjustments[hit.document.id], "final_score": hit.score}
+                    for hit in adjusted], "selected_ids": [h.document.id for h in adjusted[:top_k]]})
         return adjusted[:top_k]
 
     def direct_source_hits(

@@ -1,82 +1,80 @@
-param(
-    [string]$WorkDir = 'D:\NCKH\Codex',
+﻿param(
+    [string]$WorkDir = $(if ($env:CHATBOT_WORK_DIR) { $env:CHATBOT_WORK_DIR } else { Join-Path ([IO.Path]::GetTempPath()) 'TechCare' }),
     [ValidatePattern('^[a-zA-Z0-9_-]+$')][string]$EvaluationLabel = 'after'
 )
 
-$ErrorActionPreference = "Stop"
-$PSNativeCommandUseErrorActionPreference = $true
-$env:PYTHONIOENCODING = "utf-8"
-
+$ErrorActionPreference = 'Stop'
+# Check native exit codes explicitly, including on Windows PowerShell 5.1.
+$PSNativeCommandUseErrorActionPreference = $false
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$backendRoot = Join-Path $projectRoot "backend"
-$frontendRoot = Join-Path $projectRoot "frontend"
-$python = Join-Path $backendRoot ".venv\Scripts\python.exe"
-
-if (-not (Test-Path -LiteralPath $python)) {
-    $pythonCommand = Get-Command python -ErrorAction SilentlyContinue
-    if (-not $pythonCommand) {
-        throw "Không tìm thấy Python. Hãy cài Python hoặc tạo backend\.venv trước."
-    }
-    $python = $pythonCommand.Source
+$backendRoot = Join-Path $projectRoot 'backend'
+$frontendRoot = Join-Path $projectRoot 'frontend'
+$python = Join-Path $backendRoot '.venv\Scripts\python.exe'
+if (-not (Test-Path -LiteralPath $python)) { $python = (Get-Command python -ErrorAction Stop).Source }
+$npm = (Get-Command npm.cmd -ErrorAction Stop).Source
+$workRoot = [IO.Path]::GetFullPath($WorkDir).TrimEnd('\')
+if ($workRoot.Equals($projectRoot, [StringComparison]::OrdinalIgnoreCase) -or $workRoot.StartsWith($projectRoot + '\', [StringComparison]::OrdinalIgnoreCase)) {
+    throw 'WorkDir phải nằm ngoài repository.'
 }
-
-$testEnvironment = @{}
-foreach ($key in @('DATABASE_URL', 'ENVIRONMENT', 'WARM_AI_ON_STARTUP', 'TEMP', 'TMP', 'CHATBOT_WORK_DIR', 'PYTHONPYCACHEPREFIX')) {
-    $testEnvironment[$key] = [Environment]::GetEnvironmentVariable($key, 'Process')
-}
-$testWorkRoot = [IO.Path]::GetFullPath($WorkDir).TrimEnd('\')
-$testTempRoot = Join-Path $testWorkRoot 'test_tmp'
+$runRoot = Join-Path $workRoot ('tests-' + [DateTime]::UtcNow.ToString('yyyyMMddTHHmmssZ') + '-' + [Guid]::NewGuid().ToString('N').Substring(0, 8))
+$testTempRoot = Join-Path $runRoot 'tmp'
 New-Item -ItemType Directory -Path $testTempRoot -Force | Out-Null
-$env:CHATBOT_WORK_DIR = $testWorkRoot
-$env:TEMP = $testTempRoot
-$env:TMP = $testTempRoot
-$env:PYTHONPYCACHEPREFIX = Join-Path $testWorkRoot 'python_cache'
-$testDbPath = Join-Path $testTempRoot ("techcare-unit-" + [Guid]::NewGuid().ToString('N') + '.db')
-$env:DATABASE_URL = 'sqlite:///' + $testDbPath.Replace('\', '/')
-$env:ENVIRONMENT = 'test'
-$env:WARM_AI_ON_STARTUP = 'false'
+$environmentKeys = @('DATABASE_URL', 'ENVIRONMENT', 'AUTO_SEED', 'WARM_AI_ON_STARTUP', 'CHAT_PROVIDER', 'TEMP', 'TMP', 'CHATBOT_WORK_DIR', 'PYTHONPYCACHEPREFIX', 'PYTHONIOENCODING')
+$savedEnvironment = @{}
+foreach ($key in $environmentKeys) { $savedEnvironment[$key] = [Environment]::GetEnvironmentVariable($key, 'Process') }
 
-Write-Host "[1/6] Backend unit tests (database thử riêng)" -ForegroundColor Cyan
-Push-Location $backendRoot
+function Invoke-TestStep {
+    param([string]$Label, [string]$Executable, [string[]]$CommandArguments)
+    Write-Host $Label -ForegroundColor Cyan
+    $stepPreference = $ErrorActionPreference
+    try {
+        # Windows PowerShell 5.1 wraps native stderr as ErrorRecord, including
+        # harmless library warnings. The native exit code decides success.
+        $ErrorActionPreference = 'Continue'
+        & $Executable @CommandArguments 2>&1 | Tee-Object -FilePath (Join-Path $runRoot ($Label.Substring(0, 2) + '.log'))
+        $stepExitCode = $LASTEXITCODE
+    }
+    finally { $ErrorActionPreference = $stepPreference }
+    if ($stepExitCode -ne 0) { throw "$Label failed (exit $stepExitCode). Logs: $runRoot" }
+}
+
+$testDbPath = Join-Path $testTempRoot 'unit.db'
+$buildRoot = Join-Path $runRoot 'frontend-build'
 try {
-    & $python -m unittest discover -s tests -v
-    if ($LASTEXITCODE -ne 0) { throw 'Backend unit tests failed.' }
-    Write-Host "[2/6] Bộ hồi quy catalog/API" -ForegroundColor Cyan
-    & $python evaluate_chatbot.py
-    if ($LASTEXITCODE -ne 0) { throw 'Catalog/API regression failed.' }
-    Write-Host "[3/6] FAQ/RAG trên câu hỏi cố định" -ForegroundColor Cyan
-    & $python evaluate_quality.py --label $EvaluationLabel --legacy-faqs
-    if ($LASTEXITCODE -ne 0) { throw 'FAQ/RAG evaluation failed.' }
-    Write-Host "[4/6] Ollama gián đoạn" -ForegroundColor Cyan
-    $offlineLabel = if ($EvaluationLabel -eq 'after') { 'offline' } else { $EvaluationLabel + '-offline' }
-    & $python evaluate_quality.py --label $offlineLabel --offline --legacy-faqs
-    if ($LASTEXITCODE -ne 0) { throw 'Offline evaluation failed.' }
+    $env:PYTHONIOENCODING = 'utf-8'
+    $env:PYTHONPYCACHEPREFIX = Join-Path $runRoot 'python_cache'
+    $env:CHATBOT_WORK_DIR = $runRoot
+    $env:TEMP = $testTempRoot
+    $env:TMP = $testTempRoot
+    $env:DATABASE_URL = 'sqlite:///' + $testDbPath.Replace('\', '/')
+    $env:ENVIRONMENT = 'test'
+    $env:AUTO_SEED = 'true'
+    $env:WARM_AI_ON_STARTUP = 'false'
+    $env:CHAT_PROVIDER = 'ollama'
+    Push-Location $backendRoot
+    try {
+        Invoke-TestStep '01 Backend unit/integration' $python @('-B', '-m', 'unittest', 'discover', '-s', 'tests', '-v')
+        Invoke-TestStep '02 Catalog/API regression' $python @('-B', 'evaluate_chatbot.py')
+        Invoke-TestStep '03 FAQ/RAG fixed cases' $python @('-B', 'evaluate_quality.py', '--label', $EvaluationLabel, '--legacy-faqs')
+        $offlineLabel = $EvaluationLabel + '-offline'
+        Invoke-TestStep '04 Offline Ollama' $python @('-B', 'evaluate_quality.py', '--label', $offlineLabel, '--offline', '--legacy-faqs')
+    }
+    finally { Pop-Location }
+    Push-Location $frontendRoot
+    try {
+        Invoke-TestStep '05 Frontend lint' $npm @('run', 'lint')
+        Invoke-TestStep '06 Production build' $npm @('run', 'build', '--', '--outDir', $buildRoot)
+    }
+    finally { Pop-Location }
+    Write-Host "Hoàn tất 6 nhóm kiểm thử. Log và phản hồi mới: $runRoot" -ForegroundColor Green
+    # Remove only this run's generated build; keep test evidence outside Git.
+    if ([IO.Path]::GetFullPath($buildRoot).StartsWith($runRoot + '\', [StringComparison]::OrdinalIgnoreCase) -and (Test-Path -LiteralPath $buildRoot)) {
+        Remove-Item -LiteralPath $buildRoot -Recurse -Force
+    }
 }
 finally {
-    foreach ($key in $testEnvironment.Keys) {
-        [Environment]::SetEnvironmentVariable($key, $testEnvironment[$key], 'Process')
-    }
-    Pop-Location
-    if (([IO.Path]::GetFullPath($testDbPath)).StartsWith($testTempRoot + '\', [StringComparison]::OrdinalIgnoreCase) -and (Test-Path -LiteralPath $testDbPath)) {
+    foreach ($key in $environmentKeys) { [Environment]::SetEnvironmentVariable($key, $savedEnvironment[$key], 'Process') }
+    if ([IO.Path]::GetFullPath($testDbPath).StartsWith($testTempRoot + '\', [StringComparison]::OrdinalIgnoreCase) -and (Test-Path -LiteralPath $testDbPath)) {
         Remove-Item -LiteralPath $testDbPath -Force
     }
 }
-
-Write-Host "[5/6] Frontend lint" -ForegroundColor Cyan
-Push-Location $frontendRoot
-try {
-    npm run lint
-    if ($LASTEXITCODE -ne 0) { throw 'Frontend lint failed.' }
-    Write-Host "[6/6] Frontend production build" -ForegroundColor Cyan
-    $testBuildRoot = Join-Path $testWorkRoot ('frontend-test-build-' + [Guid]::NewGuid().ToString('N'))
-    npm run build -- --outDir $testBuildRoot
-    if ($LASTEXITCODE -ne 0) { throw 'Frontend build failed.' }
-}
-finally {
-    if ($testBuildRoot -and ([IO.Path]::GetFullPath($testBuildRoot)).StartsWith($testWorkRoot + '\', [StringComparison]::OrdinalIgnoreCase) -and (Test-Path -LiteralPath $testBuildRoot)) {
-        Remove-Item -LiteralPath $testBuildRoot -Recurse -Force
-    }
-    Pop-Location
-}
-
-Write-Host "Hoàn tất. Báo cáo nằm ở CHATBOT_EVALUATION_REPORT.md; output thử nghiệm ở $testWorkRoot\evaluation_artifacts." -ForegroundColor Green

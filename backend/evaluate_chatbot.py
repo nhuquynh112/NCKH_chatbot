@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import math
 import os
 import statistics
@@ -12,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from uuid import uuid4
 
-from evaluation_paths import temporary_directory
+from evaluation_paths import artifact_directory, temporary_directory
 
 # Never seed, create test sessions or delete them in the user's live database.
 # A fresh SQLite file is enough for the deterministic regression suite.
@@ -33,7 +34,7 @@ from app.rag.query_rewriter import strip_accents
 
 
 ROOT = Path(__file__).resolve().parent
-REPORT_PATH = ROOT / "EVALUATION_REPORT.md"
+REPORT_PATH = artifact_directory() / f"regression-{uuid4().hex[:12]}.md"
 
 
 RELIABILITY_CASES = [
@@ -144,7 +145,8 @@ def run_api_checks() -> tuple[list[dict], dict]:
             headers=worker_headers,
         )
         if session_response.status_code != 201:
-            return {"passed": False, "status": session_response.status_code, "elapsed_ms": 0}
+            return {"passed": False, "status": session_response.status_code, "elapsed_ms": 0,
+                    "index": index, "stage": "create_session", "response": session_response.json()}
         worker_session = session_response.json()["data"]["id"]
         response = client.post(
             "/api/chat/messages",
@@ -162,6 +164,9 @@ def run_api_checks() -> tuple[list[dict], dict]:
             "passed": response.status_code == 201 and bool(answer),
             "status": response.status_code,
             "elapsed_ms": elapsed_ms,
+            "index": index,
+            "stage": "send_message",
+            "response": payload,
         }
 
     load_results: list[dict] = []
@@ -176,6 +181,7 @@ def run_api_checks() -> tuple[list[dict], dict]:
         "passed": sum(item["passed"] for item in load_results),
         "average_ms": round(statistics.mean(elapsed)),
         "p95_ms": sorted(elapsed)[max(0, round(len(elapsed) * 0.95) - 1)],
+        "results": load_results,
     }
     checks.append({
         "name": "16 yêu cầu API đồng thời",
@@ -506,7 +512,7 @@ def main() -> int:
 
     lines = [
         "# BÁO CÁO KIỂM THỬ CHATBOT TECHCARE", "",
-        "Bộ hồi quy nội bộ được tạo bởi `evaluate_chatbot.py`, chạy trên SQLite thử riêng. Không phải độ chính xác LLM trên khách thật; xem CHATBOT_EVALUATION_REPORT.md cho đánh giá bổ sung.", "",
+        "Bộ hồi quy nội bộ được tạo bởi `evaluate_chatbot.py`, chạy trên SQLite thử riêng. Không phải độ chính xác LLM trên khách thật; xem docs/history/CHATBOT_EVALUATION_REPORT.md cho đánh giá lịch sử.", "",
         f"- Hội thoại đạt: **{passed_count}/{len(results)}**",
         f"- Tỷ lệ đạt tiêu chí hồi quy: **{passed_count / len(results):.2%}**",
         f"- Kiểm tra API/đầu vào/bảo mật đạt: **{api_passed}/{len(api_checks)}**",
@@ -542,6 +548,10 @@ def main() -> int:
             f"- Trả lời: {item['answer']}", "",
         ])
     REPORT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    REPORT_PATH.with_suffix(".json").write_text(json.dumps(
+        {"conversation": results, "api_checks": api_checks, "load": load},
+        ensure_ascii=False, indent=2,
+    ) + "\n", encoding="utf-8")
     print(f"\nConversation: {passed_count}/{len(results)} = {passed_count / len(results):.2%}")
     print(f"API: {api_passed}/{len(api_checks)}; Concurrent: {load['passed']}/{load['requests']}")
     print(f"Saved: {REPORT_PATH}")

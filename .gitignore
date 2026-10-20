@@ -1,62 +1,54 @@
-# =========================
-# Python
-# =========================
+# Python / dependency caches
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Virtual Environment
 .venv/
 venv/
-backend/.venv/
-backend/venv/
-
-# Environment variables
-.env
-.env.*
-backend/.env
-
-# =========================
-# IDE
-# =========================
-.vscode/
-.idea/
-
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Python cache
-# =========================
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.cache/
 
-# =========================
-# Database
-# =========================
+# Local secrets; sanitized examples belong in Git
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated databases and personal conversations
 *.db
+*.db-*
+*.sqlite
+*.sqlite-*
 *.sqlite3
-
-# Docker volume
+*.sqlite3-*
 postgres_data/
-
-# =========================
-# Local RAG
-# =========================
 backend/chroma_db/
 
-# =========================
-# OS files
-# =========================
+# Node / generated output
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.log
+
+# Local experiments, source renderers and test output (retain research docs)
+.local/
+.tmp_report/
+benchmark_results/
+training_cache/
+training_runs/
+
+# Only the selected release weights are distributed via Git LFS
+*.gguf
+*.safetensors
+!backend/models/techcare-support-3b-v1/techcare-support-3b-v1-Q4_K_M.gguf
+!backend/models/techcare-support-3b-v1/adapter/adapter_model.safetensors
+
+# Editors / OS / Word lock files
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Local report builders and render QA artifacts
-.tmp_report/
-
-# Build output; experiments and training live outside the checkout.
-frontend/dist/
+~$*.docx

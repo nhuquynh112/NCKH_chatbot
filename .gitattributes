@@ -1,2 +1,8 @@
 backend/models/**/*.gguf filter=lfs diff=lfs merge=lfs -text
 backend/models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+# Frozen research packages are hashed byte-for-byte, including line endings.
+# Accept original CRLF while retaining the usual whitespace checks.
+backend/benchmark/datasets/chapter5_24/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/research/chapter5-24/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Original multiline CSV cells retain whitespace as research data.
+docs/research/chapter5-24/*.csv -text -whitespace

@@ -11,7 +11,20 @@ import Login from './pages/admin/Login';
 import { ChatProvider } from './contexts/ChatContext';
 import QnAPage from './pages/QnAPage';
 
+const LocalBenchmarkDemo = import.meta.env.DEV && import.meta.env.VITE_BENCHMARK_DEMO === 'true'
+  ? React.lazy(() => import('./pages/BenchmarkDemoPage'))
+  : null;
+
 function App() {
+  // Keep the demo outside ChatProvider: it must never load customer sessions.
+  if (LocalBenchmarkDemo && window.location.pathname === '/benchmark-demo') {
+    return (
+      <React.Suspense fallback={<p>Đang mở demo local…</p>}>
+        <LocalBenchmarkDemo />
+      </React.Suspense>
+    );
+  }
+
   return (
     <ChatProvider>
       <BrowserRouter>

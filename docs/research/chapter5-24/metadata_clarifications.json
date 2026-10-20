@@ -1,0 +1,6 @@
+{
+  "new_protocol_inherited_parent_warmup_description": true,
+  "actual_new_execution": "Only P; one unscored3B greeting,24 scored P workers, no7Bserver start or P+FT rerun. See command.json,base_unscored_preflight.json,P_only.log.",
+  "runner_generic_manifest_warmup_note": "Generic benchmark.run manifest text was not edited; actual external warmup is recorded separately, as in parent run.",
+  "aggregation_resume": "Initial aggregate validation compared in-memory integer Counter keys with JSON string keys. Normalized key types, verified identical already-created derived files, then continued. No raw inference or earlier scores changed."
+}

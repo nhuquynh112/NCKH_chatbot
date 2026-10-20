@@ -8,6 +8,8 @@ from pydantic_settings import BaseSettings
 
 
 BACKEND_ROOT = Path(__file__).resolve().parents[1]
+BASELINE_CHAT_MODEL = "qwen2.5:3b"
+HF_LORA_MODEL = "qwen2.5-7b-finetuned"
 DEFAULT_DATABASE_URL = f"sqlite:///{(BACKEND_ROOT / 'techcare.db').as_posix()}"
 
 
@@ -26,7 +28,9 @@ class Settings(BaseSettings):
 
     # Local RAG / Ollama settings
     OLLAMA_BASE_URL: str = "http://localhost:11434"
-    CHAT_MODEL: str = "qwen2.5:3b"
+    CHAT_PROVIDER: Literal["ollama", "hf_lora"] = "ollama"
+    HF_LORA_BASE_URL: str = "http://127.0.0.1:8011"
+    CHAT_MODEL: str = BASELINE_CHAT_MODEL
     USE_PROJECT_CHAT_MODEL: bool = True
     CHAT_MODEL_PROFILE_PATH: Path = Path("rag_data/model_profile.json")
     EMBEDDING_MODEL: str = "nomic-embed-text"
@@ -66,6 +70,8 @@ class Settings(BaseSettings):
 
     @property
     def chat_model(self) -> str:
+        if self.CHAT_PROVIDER == "hf_lora":
+            return HF_LORA_MODEL
         if not self.USE_PROJECT_CHAT_MODEL:
             return self.CHAT_MODEL
         profile_path = _resolve_backend_path(self.CHAT_MODEL_PROFILE_PATH)
