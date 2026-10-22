@@ -3,9 +3,9 @@
   "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
   "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
   "checkpoint_path": "artifacts/qwen25_7b/checkpoint",
-  "adapter_path": "artifacts/qwen25_7b/run/adapter",
+  "adapter_path": "models/qwen2.5-7b-ft/run/adapter",
   "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
   "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
   "provenance": "Original completed 7B pilot: 37 train, 9 validation, 1 epoch. Direct PEFT loading; no merge, conversion or retraining.",
-  "benchmark_role": "Supplementary M4; differs from M3 in base size, precision, runtime and fine-tuning. Not an isolated fine-tuning ablation."
+  "benchmark_role": "Supplementary P+FT (legacy M4), outside B0/B1/B2/P. The historical P baseline was base 3B; the new main study uses base 7B FP16. Do not mix results or attribute differences solely to fine-tuning."
 }

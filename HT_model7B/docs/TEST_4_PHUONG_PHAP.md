@@ -10,7 +10,9 @@ PowerShell, tại nơi muốn lưu source:
 
 ```powershell
 git lfs install
-git clone --branch chatbotv1-demo https://github.com/nhuquynh112/NCKH_chatbot.git
+$env:GIT_LFS_SKIP_SMUDGE='1'
+git clone --branch benmark-chatbot https://github.com/nhuquynh112/NCKH_chatbot.git
+Remove-Item Env:GIT_LFS_SKIP_SMUDGE
 Set-Location NCKH_chatbot\HT_model7B
 python -m venv backend\.venv
 & .\backend\.venv\Scripts\python.exe -m pip install -r .\backend\requirements.txt

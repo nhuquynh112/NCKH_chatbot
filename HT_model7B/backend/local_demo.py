@@ -23,9 +23,11 @@ import sys
 import time
 from uuid import UUID, uuid4
 
+from benchmark.protocol import MAIN_METHODS
+
 BACKEND = Path(__file__).resolve().parent
 REPOSITORY = BACKEND.parent.parent if BACKEND.parent.name in {"HT_model3B", "HT_model7B"} else BACKEND.parent
-METHODS = ("B0", "B1", "B2", "P")
+METHODS = MAIN_METHODS
 CASE_IDS = ("TC01", "TC11", "TC18", "TC21")
 PIPELINES = {"B0": "RuleMethod", "B1": "PlainLlmMethod", "B2": "BasicRagMethod", "P": "RagMethod"}
 

@@ -1,11 +1,23 @@
-# TechCare Chatbot — hai phiên bản model
+# TechCare Chatbot — benchmark B0/B1/B2/P và P+FT
 
-Repository chứa hai bản hệ thống tách riêng để chạy và so sánh:
+Nhánh `benmark-chatbot` dùng **`HT_model7B` làm hệ thống nghiên cứu chính**. Bốn phương pháp chính là B0/B1/B2/P; **P không fine-tune**. P+FT là nhánh fine-tune 7B bổ sung, không gộp vào bốn phương pháp chính. Xem [bảng phương pháp, dữ liệu và cách chạy P+FT](HT_model7B/docs/BENCHMARK_METHODS.md).
+
+| Phương pháp | Cách trả lời | Fine-tune thêm bởi nhóm |
+|---|---|---|
+| B0 | Luật/catalog/FAQ, không LLM | Không |
+| B1 | Qwen2.5-7B-Instruct FP16 gốc, không RAG | Không |
+| B2 | Cùng model gốc + RAG cơ bản | Không |
+| P | Cùng model gốc + pipeline RAG nhóm đề xuất | Không |
+| P+FT (bổ sung) | Pipeline P + adapter QLoRA 7B, NF4/BF16 | 37 train, 9 validation, 1 epoch |
+
+Đổi model nền từ 3B gốc sang 7B gốc không phải huấn luyện. Corpus RAG và bộ test không phải tập train. Số **170 mẫu train** thuộc model demo 3B cũ, không phải P hoặc P+FT 7B.
+
+Các thư mục trong repository:
 
 | Thư mục | Model website mặc định | Vai trò |
 |---|---|---|
-| [HT_model3B](HT_model3B/README.md) | `techcare-support:3b-v1` đã fine-tune từ trước | Giữ hệ thống 3B trước khi chuyển; benchmark lịch sử B1/B2/P dùng `qwen2.5:3b` gốc |
-| [HT_model7B](HT_model7B/README.md) | `qwen2.5:7b-instruct-fp16` gốc qua Ollama | Bản mới, trọng số FP16; B1/B2/P cùng dùng 7B, không fine-tune |
+| [HT_model7B](HT_model7B/README.md) | `qwen2.5:7b-instruct-fp16` gốc qua Ollama | Bản chính; bốn phương pháp và P+FT bổ sung có adapter riêng |
+| [HT_model3B](HT_model3B/README.md) | `techcare-support:3b-v1` đã fine-tune từ trước | Lưu trữ demo cũ, không dùng làm P hoặc làm model nền cho benchmark mới |
 | BaoCao | — | Báo cáo Word gốc, không thuộc code ứng dụng |
 
 Mỗi bản có `backend/`, `frontend/`, `docs/` và script kiểm thử riêng. Dữ liệu/prompt/cấu hình truy xuất của phép so sánh được giữ nguyên; kết quả 3B đã lưu không phải kết quả 7B. Chỉ chạy một bản mỗi lần với cổng mặc định 8000/5173.
@@ -14,11 +26,15 @@ Mỗi bản có `backend/`, `frontend/`, `docs/` và script kiểm thử riêng.
 
 ```powershell
 git lfs install
-git clone --branch chatbotv1-demo https://github.com/nhuquynh112/NCKH_chatbot.git
+$env:GIT_LFS_SKIP_SMUDGE='1'
+git clone --branch benmark-chatbot https://github.com/nhuquynh112/NCKH_chatbot.git
+Remove-Item Env:GIT_LFS_SKIP_SMUDGE
 Set-Location NCKH_chatbot
 ```
 
-Git LFS dùng cho trọng số 3B được lưu trữ. Model 7B FP16 khoảng 15 GB tải riêng bằng Ollama theo hướng dẫn dưới đây. FP16 vượt VRAM 12 GB nếu nạp toàn bộ lên GPU; Ollama có thể chia tải sang RAM và chạy chậm hơn bản Q4. Chưa kiểm thử laptop RTX 3050.
+Clone này bỏ qua tải trọng số LFS để chạy bốn phương pháp chính bằng model Ollama tải riêng. Adapter P+FT gốc khoảng 10 MB được đóng gói qua Git LFS; tải khi cần bằng lệnh trong [hướng dẫn P+FT](HT_model7B/docs/BENCHMARK_METHODS.md). Trọng số 3B cũ chỉ cần khi tái lập demo cũ.
+
+Model 7B FP16 khoảng 15 GB tải riêng bằng Ollama theo hướng dẫn dưới đây. FP16 vượt VRAM 12 GB nếu nạp toàn bộ lên GPU; Ollama có thể chia tải sang RAM và chạy chậm hơn bản Q4. Chưa kiểm thử laptop RTX 3050.
 
 ## Chạy bản 7B
 

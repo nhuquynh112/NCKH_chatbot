@@ -1,9 +1,13 @@
 """Selection controls for original FP16 7B; algorithms stay in existing methods."""
 import json
+import hashlib
+import io
 import os
 from pathlib import Path
+import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from unittest.mock import patch
 
 from fastapi.testclient import TestClient
@@ -12,12 +16,43 @@ from app.config import Settings
 from app.model_client import create_model_client, HfLoraClient
 from benchmark.chapter5 import prepare
 from benchmark.methods import build_method, method_settings, GENERATION
+from benchmark.protocol import MAIN_METHODS, SUPPLEMENTARY_METHODS, method_spec
+from benchmark.run import main as benchmark_main
 from local_demo import create_demo_app
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class OriginalSevenBTests(unittest.TestCase):
+    def test_runner_defaults_to_four_main_methods_and_requires_explicit_ft(self):
+        for selection, expected in (([], list(MAIN_METHODS)), (["--methods", "P+FT"], ["P+FT"])):
+            with self.subTest(selection=selection):
+                output = io.StringIO()
+                with patch.object(sys, "argv", ["benchmark.run", "--validate-only", *selection]), redirect_stdout(output):
+                    benchmark_main()
+                result = json.loads(output.getvalue())
+                self.assertEqual(result["status"], "valid")
+                self.assertEqual(result["methods"], expected)
+        self.assertEqual(MAIN_METHODS, ("B0", "B1", "B2", "P"))
+        self.assertEqual(SUPPLEMENTARY_METHODS, ("P+FT",))
+
+    def test_packaged_ft_adapter_matches_pinned_identity_and_metadata(self):
+        profile = json.loads((ROOT / "model_serving/profiles/qwen25_7b.json").read_text(encoding="utf-8"))
+        adapter = ROOT / profile["adapter_path"]
+        self.assertEqual(hashlib.sha256((adapter / "adapter_model.safetensors").read_bytes()).hexdigest(), profile["adapter_sha256"])
+        run = json.loads((adapter.parent / "run.json").read_text(encoding="utf-8"))
+        self.assertEqual(run["status"], "completed")
+        self.assertEqual(run["checkpoint"]["repo"], profile["base_repo"])
+        self.assertEqual(run["checkpoint"]["revision"], profile["base_revision"])
+        self.assertEqual(run["source"]["train_rows"], 37)
+        self.assertEqual(run["source"]["validation_rows"], 9)
+        self.assertEqual(run["training_metrics"]["epoch"], 1.0)
+        self.assertEqual(run["release_export"]["original_run_sha256"], "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a")
+        self.assertFalse(run["release_export"]["adapter_weights_changed"])
+        self.assertFalse(run["source"]["official_test_used_for_training"])
+        self.assertEqual(method_spec("P")["components"], method_spec("P+FT")["components"])
+        self.assertEqual(method_settings("P+FT", 60, ROOT / "rag_data", "unused", "unused").chat_model, "qwen2.5-7b-finetuned")
+
     def test_clean_website_selects_original_7b_without_adapter(self):
         with patch.dict(os.environ, {}, clear=True):
             config = Settings(_env_file=None)

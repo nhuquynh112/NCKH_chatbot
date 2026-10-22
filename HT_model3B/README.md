@@ -1,4 +1,4 @@
-> Bản 3B được giữ trước khi chuyển 7B. Chạy các lệnh dưới đây trong `HT_model3B`; model website vẫn là `techcare-support:3b-v1` đã fine-tune từ trước.
+> **Lưu trữ demo cũ, không phải bản nghiên cứu chính của nhánh `benmark-chatbot`.** `techcare-support:3b-v1` đã fine-tune với 170 train/9 validation, nhưng không được dùng làm P trong benchmark. Bản chính và P+FT 7B ở [HT_model7B](../HT_model7B/README.md); P+FT dùng 37 train/9 validation, không phải 170. Các lệnh dưới đây chỉ dùng khi cần tái lập demo 3B cũ.
 
 # Chatbot hỗ trợ chăm sóc khách hàng cho website TechCare Electronics
 

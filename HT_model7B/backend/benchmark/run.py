@@ -1,4 +1,4 @@
-"""Repeatable M1-M4 benchmark with subprocess isolation and immutable per-run output."""
+"""Run B0/B1/B2/P by default; P+FT and legacy methods require explicit selection."""
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -15,7 +15,7 @@ from uuid import uuid4
 from benchmark.schema import load_cases, HumanReview
 from benchmark.scoring import objective_checks, summarize
 from app.config import BASELINE_CHAT_MODEL, HF_LORA_MODEL
-from benchmark.protocol import METHOD_NAMES, method_spec
+from benchmark.protocol import MAIN_METHODS, METHOD_NAMES, method_spec
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS_FILES = ["knowledge_base.md","product_catalog_extended.md","faq_curated.json","techcare_products.json",
@@ -50,7 +50,7 @@ def export_tables(directory, rows, reviews=()):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", type=Path, default=ROOT / "benchmark/datasets/techcare_v1.json")
-    parser.add_argument("--methods", nargs="+", choices=METHOD_NAMES, default=["M1","M2","M3","M4"])
+    parser.add_argument("--methods", nargs="+", choices=METHOD_NAMES, default=list(MAIN_METHODS))
     parser.add_argument("--corpus", type=Path, default=ROOT/"rag_data")
     parser.add_argument("--study-manifest", type=Path)
     parser.add_argument("--snapshot-timestamp", help="Freeze technical Product timestamps in isolated databases")
@@ -69,7 +69,7 @@ def main():
         if missing: parser.error(f"Unknown case IDs: {sorted(missing)}")
         cases = [c for c in cases if c.id in args.case_ids]
     if args.validate_only:
-        print(json.dumps({"status":"valid","cases":len(cases),"dataset_sha256":digest(args.dataset)}))
+        print(json.dumps({"status":"valid","cases":len(cases),"methods":args.methods,"dataset_sha256":digest(args.dataset)}))
         return
     if not 1 <= args.repeats <= 100 or not 10 <= args.timeout <= 120:
         parser.error("Use 1-100 repeats and a 10-120 second case deadline")

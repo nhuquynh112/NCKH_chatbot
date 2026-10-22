@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "checkpoint": {
+    "repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "license": "Apache-2.0"
+  },
+  "source": {
+    "source": "ura-hcmut/Vietnamese-Customer-Support-QA",
+    "train_rows": 37,
+    "validation_rows": 9,
+    "official_test_used_for_training": false
+  },
+  "training_metrics": {
+    "epoch": 1.0
+  },
+  "release_export": {
+    "kind": "Metadata summary only; training examples and generation traces are not distributed.",
+    "original_run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "adapter_weights_changed": false
+  }
+}

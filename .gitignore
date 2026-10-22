@@ -31,6 +31,7 @@ training_runs/
 *.safetensors
 !HT_model3B/backend/models/techcare-support-3b-v1/techcare-support-3b-v1-Q4_K_M.gguf
 !HT_model3B/backend/models/techcare-support-3b-v1/adapter/adapter_model.safetensors
+!HT_model7B/backend/models/qwen2.5-7b-ft/run/adapter/adapter_model.safetensors
 ~$*.docx
 .DS_Store
 Thumbs.db

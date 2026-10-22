@@ -4,6 +4,9 @@ from typing import Literal, get_args
 
 from app.rag.components import RagComponents
 
+MAIN_METHODS = ("B0", "B1", "B2", "P")
+SUPPLEMENTARY_METHODS = ("P+FT",)
+
 MethodName = Literal["M1", "M2", "M3", "M4", "B0", "B1", "B2", "P", "P+FT",
     "P-no-query-normalization", "P-no-bm25", "P-no-domain-ranking",
     "P-no-product-context", "P-no-postcheck", "P-no-rule-routing"]

@@ -1,12 +1,24 @@
-# Benchmark TechCare M1–M4
+# Benchmark TechCare B0/B1/B2/P và P+FT bổ sung
 
-Trong bản hệ thống 7B, B1/B2/P (và M2/M3) cùng dùng `qwen2.5:7b-instruct-fp16` gốc. B0 không gọi LLM; M4/P+FT là nhánh bổ sung lịch sử, không thuộc bốn phương pháp chính. Kết quả 3B đã lưu giữ riêng, không đổi nhãn hay số liệu.
+Trong bản hệ thống 7B, B1/B2/P cùng dùng `qwen2.5:7b-instruct-fp16` gốc, không fine-tune. B0 không gọi LLM. **P là phương pháp nhóm đề xuất và không huấn luyện thêm.** P+FT dùng adapter 7B gốc 37 train/9 validation/1 epoch đã đóng gói qua Git LFS, không thuộc bốn phương pháp chính. Model demo 3B cũ (170 train) không dùng trong benchmark này. [Bảng phương pháp và cách chạy](../../docs/BENCHMARK_METHODS.md).
 
 Bộ 24 câu được nhóm duyệt cho Chương 5 có giao thức B0/B1/B2/P và sáu ablation riêng; xem [runbook Chương 5](../../docs/CHAPTER5_RUNBOOK.md). Không dùng M3 cũ đồng thời làm B2 và P. Những mô tả M1–M4 dưới đây giữ cho bộ phát triển 20 câu trước đó.
 
-Chạy từ `backend`: `python -B -m benchmark.run --methods M1 M2 M3`. Xem [hướng dẫn dịch vụ 7B và hai pha chạy](../../docs/MODELS_AND_BENCHMARK.md). Công cụ độc lập giao diện demo; không dùng frontend hoặc database thật.
+Chạy từ `backend`: `python -B -m benchmark.run --methods B0 B1 B2 P`. Runner mặc định cũng chọn đúng bốn phương pháp này trên bộ phát triển 20 câu; P+FT chỉ chạy khi chọn rõ bằng `--methods 'P+FT'`. Với bộ 24 câu Chương 5, dùng [hướng dẫn tái lập](../../docs/REPRODUCING_RESEARCH.md), chạy phase main và supplementary riêng. Công cụ độc lập giao diện demo; không dùng database khách hàng thật.
 
 ## Phương pháp và dữ liệu
+
+### Bốn phương pháp chính và nhánh bổ sung
+
+| Mã | Thực hiện | Model |
+|---|---|---|
+| B0 | Luật/catalog/FAQ | Không LLM |
+| B1 | LLM thuần, không RAG | 7B FP16 gốc |
+| B2 | Semantic top-5 + LLM, không hybrid/routing/postcheck của P | Cùng 7B FP16 gốc |
+| P | Pipeline đầy đủ do nhóm đề xuất | Cùng 7B FP16 gốc, không fine-tune |
+| P+FT | Cùng pipeline P, provider `hf_lora` | 7B NF4/BF16 + adapter QLoRA, bổ sung |
+
+### Mã tương thích bộ phát triển cũ
 
 | Mã | Thực hiện | Model |
 |---|---|---|

@@ -1,8 +1,8 @@
-# Server adapter 7B lịch sử và benchmark M1–M4
+# Server adapter P+FT 7B và benchmark bổ sung
 
 Website hiện tại và các baseline gốc mới dùng `qwen2.5:7b-instruct-fp16` Ollama, không dùng server adapter ở dưới. Server này chỉ giữ để tái lập thử nghiệm bổ sung cũ; không cần chạy cho phép so sánh B0/B1/B2/P mới.
 
-Đọc [schema, rubric benchmark](../backend/benchmark/README.md) và [hướng dẫn tái lập](REPRODUCING_RESEARCH.md). Tích hợp này dùng lại adapter đã train ngày 14/10/2026; không huấn luyện mới, merge hoặc chuyển đổi weights.
+Đọc [bảng bốn phương pháp và P+FT](BENCHMARK_METHODS.md), [schema, rubric benchmark](../backend/benchmark/README.md) và [hướng dẫn tái lập](REPRODUCING_RESEARCH.md). Tích hợp này dùng lại adapter đã train ngày 14/10/2026 với 37 train/9 validation/1 epoch; không huấn luyện mới, merge hoặc chuyển đổi weights.
 
 ## Môi trường và lựa chọn model
 
@@ -20,13 +20,13 @@ Alias 7B là tên giao thức của server mới, không phải model Ollama đ�
 
 ## Artifact gốc và kiểm tra identity
 
-Artifact 7B không có trong bản clone. Cần nhận bản gốc hợp lệ và đặt theo cấu trúc dưới đây hoặc dùng profile riêng ngoài Git. `$gpuPython` là đường dẫn Python GPU đã cài trên máy của bạn.
+Adapter 7B gốc và run.json đã nằm trong bản clone tại `backend/models/qwen2.5-7b-ft/`; tải trọng số adapter bằng Git LFS. Checkpoint nền tải riêng từ Hugging Face đúng revision, kiểm tra hash bằng manifest đã đóng gói theo [hướng dẫn chuẩn bị P+FT](BENCHMARK_METHODS.md). `$gpuPython` là đường dẫn Python GPU đã cài trên máy của bạn.
 
 Profile nhỏ nằm tại `backend/model_serving/profiles/qwen25_7b.json` và tham chiếu:
 
 - Checkpoint: `artifacts/qwen25_7b/checkpoint` (tương đối với `backend`), repo `unsloth/Qwen2.5-7B-Instruct-bnb-4bit`, revision `bdd404162d94997f390efbfa660eb3f21cbbc81d`.
-- Adapter: `artifacts/qwen25_7b/run/adapter/adapter_model.safetensors`.
-- Provenance: `run.json` tại thư mục run trên; checkpoint có `checkpoint_manifest.json`.
+- Adapter: `models/qwen2.5-7b-ft/run/adapter/adapter_model.safetensors`.
+- Provenance: `models/qwen2.5-7b-ft/run/run.json`; checkpoint cần bản `checkpoint_manifest.json` đã đóng gói trong thư mục model.
 
 SHA256 checkpoint `model.safetensors`:
 

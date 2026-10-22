@@ -1,6 +1,10 @@
 # Original 3B weights remain Git LFS objects after the directory split.
 HT_model3B/backend/models/**/*.gguf filter=lfs diff=lfs merge=lfs -text
 HT_model3B/backend/models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+# Original P+FT adapter; base checkpoint is downloaded separately at its pinned revision.
+HT_model7B/backend/models/qwen2.5-7b-ft/run/adapter/adapter_model.safetensors filter=lfs diff=lfs merge=lfs -text
+HT_model7B/backend/models/qwen2.5-7b-ft/run/** -text whitespace=cr-at-eol
+HT_model7B/backend/models/qwen2.5-7b-ft/checkpoint_manifest.json -text whitespace=cr-at-eol
 # Preserve original research bytes, including CRLF and multiline CSV whitespace.
 **/backend/benchmark/datasets/chapter5_24/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 **/docs/research/chapter5-24/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

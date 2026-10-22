@@ -14,11 +14,11 @@ import sys
 from uuid import uuid4
 
 from app.config import BASELINE_CHAT_MODEL
-from benchmark.protocol import ABLATIONS, METHOD_NAMES, method_spec
+from benchmark.protocol import ABLATIONS, MAIN_METHODS, METHOD_NAMES, method_spec
 from benchmark.run import CORPUS_FILES, ROOT, digest, write_json
 from benchmark.schema import Case
 
-MAIN = ["B0", "B1", "B2", "P"]
+MAIN = list(MAIN_METHODS)
 SMOKE_IDS = ["TC05", "TC11", "TC23"]
 ERRORS = {"error", "timeout", "not_ready"}
 

@@ -1,6 +1,6 @@
 # Giao thức Chương 5 — bộ 24 câu được nhóm duyệt
 
-**Phạm vi lịch sử:** các mô tả base 3B và P+FT dưới đây thuộc phép đo cũ. Trong `HT_model7B`, study mới dùng cùng thuật toán nhưng B1/B2/P đều chọn `qwen2.5:7b-instruct-fp16` gốc; protocol v3 ghi rõ model. Kết quả mới lưu riêng theo [hướng dẫn tái lập](REPRODUCING_RESEARCH.md).
+**Study mới trên nhánh `benmark-chatbot`:** B1/B2/P dùng cùng `qwen2.5:7b-instruct-fp16` gốc, không fine-tune; B0 không LLM. P là phương pháp chính nhóm đề xuất. P+FT là nhánh bổ sung, có adapter 7B gốc 37 train/9 validation/1 epoch đã đóng gói; không dùng model demo `3b-v1` (170 train). Kết quả cũ dùng base 3B giữ riêng, không đổi nhãn thành kết quả 7B. Xem [bảng phương pháp](BENCHMARK_METHODS.md) và [hướng dẫn tái lập](REPRODUCING_RESEARCH.md).
 
 Đọc [bằng chứng đã lưu](research/chapter5-24/README.md) và [hướng dẫn chụp ảnh](LOCAL_BENCHMARK_DEMO.md). Bộ này tách khỏi benchmark M1–M4 trên 20 câu cũ. Không đổi nhãn M3 cũ thành hai baseline: trước tác vụ này chưa có B2 riêng; B2 đã được hiện thực và kiểm tra trước khi chạy bộ 24 câu.
 
@@ -21,12 +21,12 @@ Schema adapter chỉ đổi tên trường để dùng runner: case_id → id, g
 | Nhãn | Hiện thực | Những bước được dùng |
 |---|---|---|
 | B0 | GuardrailPolicy + matcher FAQ bằng luật | Đọc catalog/FAQ chuẩn; không vector/LLM; không khớp ghi no_rule_match; baseline luật không giải quyết history bằng mô hình |
-| B1 | PlainLlmMethod | Base Qwen2.5-3B; prompt trung tính và history cố định; không KB/catalog/FAQ/vector/embedding |
-| B2 | BasicRagMethod mới | Base 3B; raw semantic cosine top-5, ghép history vào query theo mẫu chung, PromptBuilder + LLM; không QueryRewriter/BM25/điều chỉnh miền/catalog routing/quản lý active product/postcheck; luôn thử gọi LLM |
-| P | RagMethod và factory hiện có | Base 3B; sáu thành phần đều bật; giữ luật, FAQ, catalog, hybrid retrieval, fallback và prompt hiện hành |
+| B1 | PlainLlmMethod | Base Qwen2.5-7B-Instruct FP16 gốc; prompt trung tính và history cố định; không KB/catalog/FAQ/vector/embedding |
+| B2 | BasicRagMethod | Cùng base 7B FP16; raw semantic cosine top-5, ghép history vào query theo mẫu chung, PromptBuilder + LLM; không QueryRewriter/BM25/điều chỉnh miền/catalog routing/quản lý active product/postcheck; luôn thử gọi LLM |
+| P | RagMethod và factory hiện có | Cùng base 7B FP16, không fine-tune; sáu thành phần đều bật; giữ luật, FAQ, catalog, hybrid retrieval, fallback và prompt hiện hành |
 | P+FT | Cùng RagMethod và sáu thành phần của P | Adapter 7B gốc đã xác minh qua HF NF4/BF16; chạy riêng |
 
-B1/B2/P khóa `qwen2.5:3b`, `USE_PROJECT_CHAT_MODEL=false`, không lấy `techcare-support:3b-v1` từ profile demo. P+FT khóa alias, checkpoint revision và hash adapter đã xác minh; không thay bằng Ollama base 7B hoặc fallback 3B.
+B1/B2/P khóa `qwen2.5:7b-instruct-fp16`, `USE_PROJECT_CHAT_MODEL=false`, không lấy `techcare-support:3b-v1` từ profile demo. P+FT khóa alias, checkpoint revision và hash adapter đã xác minh; không thay bằng Ollama base 7B hoặc fallback 3B. Protocol lịch sử giữ base 3B như lần chạy cũ; không sửa file evidence để khớp bảng mới.
 
 B2/P chia sẻ file system prompt, PromptBuilder, giới hạn context và generation settings. B2 không có structured active-product field. P có thể thêm ngữ cảnh sản phẩm theo thành phần quản lý sản phẩm; đó là khác biệt đã định nghĩa, không phải sửa prompt giữa các phương pháp. B1 dùng prompt trung tính của đối chứng không RAG; prompt thực tế từng lần gọi được lưu trong calls.
 

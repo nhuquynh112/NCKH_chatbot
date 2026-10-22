@@ -59,6 +59,9 @@ backend/rag_data/faq_generated.md
 # Only the selected release weights are distributed via Git LFS
 *.gguf
 *.safetensors
+!backend/models/qwen2.5-7b-ft/run/adapter/adapter_model.safetensors
+# Training examples stay local; the public release contains metadata only.
+backend/models/qwen2.5-7b-ft/data/
 
 # Editors / OS / Word lock files
 .vscode/

@@ -19,7 +19,7 @@ $study = Join-Path $researchWork 'study'
 $env:DATABASE_URL = 'sqlite:///' + (Join-Path $researchWork 'controller.db').Replace('\','/')
 $env:ENVIRONMENT='test'
 $env:WARM_AI_ON_STARTUP='false'
-Set-Location backend
+Set-Location HT_model7B\backend
 & .\.venv\Scripts\python.exe -B -m benchmark.chapter5 prepare --package '.\benchmark\datasets\chapter5_24' --study $study --approval-record '.\benchmark\datasets\chapter5_24\approval_record.json'
 & .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase smoke --methods B0 B1 B2 P --timeout 60
 & .\.venv\Scripts\python.exe -B -m benchmark.chapter5 run --study $study --phase main --methods B0 B1 B2 P --timeout 60
@@ -32,9 +32,9 @@ Mỗi study/run là mới, hash code/corpus/prompt/model được ghi lại. Cod
 
 Sáu ablation và các giới hạn diễn giải giữ ở [giao thức Chương 5](CHAPTER5_RUNBOOK.md). Phải smoke các biến thể trước phase ablation. Đóng gói release không chạy lại hoặc thay số liệu mục 5.6.
 
-## P+FT 7B là thí nghiệm bổ sung lịch sử
+## P+FT 7B là thí nghiệm bổ sung
 
-Không chép checkpoint vào repo. Giữ profile gốc ở `backend/model_serving/profiles/qwen25_7b.json`, hash checkpoint/adapter và mã serving. Máy khác cần nhận artifact gốc hợp lệ cùng manifest/run.json và runtime GPU tương thích; bản clone riêng lẻ chưa đủ để chạy P+FT. Server yêu cầu CUDA/BF16 và ít nhất 9 GiB VRAM trống, do đó không phải cấu hình demo cho laptop RTX 3050 6 GB.
+Adapter QLoRA gốc đã được đóng gói qua Git LFS tại `backend/models/qwen2.5-7b-ft/run/adapter`, cùng run.json tóm tắt metadata 37 train/9 validation/1 epoch; không phát hành mẫu dữ liệu hoặc log huấn luyện đầy đủ. Không chép checkpoint nền vào repo; tải đúng revision riêng và kiểm tra manifest/hash theo [hướng dẫn P+FT](BENCHMARK_METHODS.md). Profile mặc định ở `backend/model_serving/profiles/qwen25_7b.json` trỏ adapter đã đóng gói. Server yêu cầu CUDA/BF16 và ít nhất 9 GiB VRAM trống, do đó không phải cấu hình demo cho laptop RTX 3050 6 GB.
 
 Để đổi đường dẫn, tạo một bản sao profile **ngoài repo**, chỉ sửa `checkpoint_path` và `adapter_path`, giữ nguyên repo/revision/hash/model. Chạy từ `backend` bằng Python môi trường GPU riêng:
 

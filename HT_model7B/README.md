@@ -46,6 +46,8 @@ Không cần `.env` cho demo mặc định. Backend tự tạo SQLite `backend/t
 
 ## So sánh nghiên cứu
 
+Đây là bản chính của nhánh `benmark-chatbot`. [Bảng phương pháp và P+FT](docs/BENCHMARK_METHODS.md) phân biệt rõ model gốc, corpus RAG, dữ liệu fine-tune và dữ liệu đánh giá. Model demo cũ `techcare-support:3b-v1` không thuộc phép so sánh này.
+
 Nhóm muốn tự nhập 50 câu và chạy **từng phương pháp trên web**: xem [TEST_4_PHUONG_PHAP.md](docs/TEST_4_PHUONG_PHAP.md). Backend dùng `python comparison_demo.py`, frontend dùng `npm.cmd run test:methods`; kết quả mới tách khỏi lịch sử khách hàng và benchmark cũ.
 
 | Phương pháp | Model của lượt chạy mới |
@@ -55,7 +57,7 @@ Nhóm muốn tự nhập 50 câu và chạy **từng phương pháp trên web**:
 | B2 | `qwen2.5:7b-instruct-fp16`, RAG cơ bản |
 | P | `qwen2.5:7b-instruct-fp16`, pipeline đề xuất |
 
-Giữ nguyên thuật toán, dữ liệu, câu hỏi/lịch sử, prompt và generation settings: temperature 0, context 4096, output 384, repeat_penalty 1; K=5, threshold 0,38. Mỗi study mới ghi model trong protocol/manifest và identity/digest thực tế trong kết quả. Bản vá website có sẵn không được dùng thay pipeline P trong benchmark. P+FT chỉ là thử nghiệm lịch sử, không thuộc phép so sánh 7B gốc này.
+Giữ nguyên thuật toán, dữ liệu, câu hỏi/lịch sử, prompt và generation settings: temperature 0, context 4096, output 384, repeat_penalty 1; K=5, threshold 0,38. Mỗi study mới ghi model trong protocol/manifest và identity/digest thực tế trong kết quả. Bản vá website có sẵn không được dùng thay pipeline P trong benchmark. P+FT là thử nghiệm bổ sung, không thuộc bốn phương pháp chính: [adapter QLoRA 7B gốc](backend/models/qwen2.5-7b-ft/README.md) đã đóng gói cùng hồ sơ 37 train/9 validation/1 epoch. Không huấn luyện mới trong lần đóng gói này.
 
 [Kết quả 3B đã đóng gói](docs/research/chapter5-24/README.md) được giữ nguyên; chưa được gọi là kết quả 7B. Lượt smoke 7B Q4 trước khi đổi precision cũng không phải kết quả FP16. [Hướng dẫn tái lập](docs/REPRODUCING_RESEARCH.md) tạo study mới và không ghi đè lượt cũ. Không train hoặc nạp đáp án test vào RAG.
 
