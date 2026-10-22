@@ -1,0 +1,23 @@
+{
+  "new_scored_runs": [
+    "P"
+  ],
+  "previous_methods_rerun": [],
+  "main_methods": [
+    "B0",
+    "B1",
+    "B2",
+    "P"
+  ],
+  "main_rows": 96,
+  "supplementary_rows": 24,
+  "same_inputs_and_history": true,
+  "same_corpus_code_prompt_hashes_as_parent": true,
+  "same_technical_database_snapshot_time": true,
+  "same_timeout_seconds": 90,
+  "same_base_and_embedding_digest": true,
+  "previous_scores_and_metrics_unchanged": true,
+  "execution_batch_difference": "P executed in a later separate batch on 2026-10-16, same host/hardware/software; cache, background load and run order not jointly randomized or repeated. Branch label chatbot-v1 vs prior frontend-chat-integration; HEAD and hashed source unchanged.",
+  "model_difference": "B1/B2/P base3B Q4_K_M Ollama; supplementary P+FT7B NF4/BF16 HF/PEFT LoRA. Not a controlled FT-only comparison.",
+  "review_difference": "Same rubric and one assistant AI preliminary review. P method was known at scoring;17 exactly identical bypass answers retained existing judgments. One new medium-confidence P/TC08 plus three prior medium-confidence labels await group review."
+}

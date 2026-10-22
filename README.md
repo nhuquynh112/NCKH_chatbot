@@ -1,98 +1,53 @@
-# Chatbot hỗ trợ chăm sóc khách hàng cho website TechCare Electronics
+# TechCare Chatbot — hai phiên bản model
 
-Đề tài xây dựng chatbot trả lời khách hàng dựa trên dữ liệu sản phẩm, FAQ và tài liệu của hệ thống. Dữ liệu giá, sản phẩm, chính sách và hội thoại mẫu phục vụ nghiên cứu; đây là bản demo local, chưa phải hệ thống production.
+Repository chứa hai bản hệ thống tách riêng để chạy và so sánh:
 
-## Chức năng và công nghệ
+| Thư mục | Model website mặc định | Vai trò |
+|---|---|---|
+| [HT_model3B](HT_model3B/README.md) | `techcare-support:3b-v1` đã fine-tune từ trước | Giữ hệ thống 3B trước khi chuyển; benchmark lịch sử B1/B2/P dùng `qwen2.5:3b` gốc |
+| [HT_model7B](HT_model7B/README.md) | `qwen2.5:7b-instruct-fp16` gốc qua Ollama | Bản mới, trọng số FP16; B1/B2/P cùng dùng 7B, không fine-tune |
+| BaoCao | — | Báo cáo Word gốc, không thuộc code ứng dụng |
 
-- Website sản phẩm, chat widget và trang hỏi đáp; lưu và mở lại lịch sử hội thoại.
-- Trả lời bằng luật/catalog/FAQ hoặc RAG kết hợp LLM; tiếp nhận yêu cầu qua ticket và giao diện quản trị FAQ/ticket.
-- React/Vite, FastAPI, SQLAlchemy; SQLite mặc định, PostgreSQL tùy chọn.
-- Ollama chạy model demo `techcare-support:3b-v1` (Qwen2.5-3B đã fine-tune), embedding `nomic-embed-text`. RAG truy xuất hybrid semantic/BM25 từ chỉ mục JSON. Một số câu được trả lời bằng luật trước khi gọi LLM.
+Mỗi bản có `backend/`, `frontend/`, `docs/` và script kiểm thử riêng. Dữ liệu/prompt/cấu hình truy xuất của phép so sánh được giữ nguyên; kết quả 3B đã lưu không phải kết quả 7B. Chỉ chạy một bản mỗi lần với cổng mặc định 8000/5173.
 
-## Cấu trúc
-
-```text
-backend/app/           API, nghiệp vụ hội thoại, RAG, quản trị
-backend/rag_data/      FAQ, catalog, tài liệu, prompt, profile và chỉ mục
-backend/models/        Model 3B, giấy phép, nguồn dữ liệu và mã tái tạo
-backend/tests/         Kiểm thử backend
-backend/benchmark/     Phương pháp và bộ test nghiên cứu
-backend/model_serving/ Serving 7B bổ sung, không cần cho website demo
-backend/training/      Mã huấn luyện, dùng môi trường GPU riêng
-frontend/              Website React/Vite
-docs/                 Hướng dẫn và bằng chứng nghiên cứu
-BaoCao/                Tài liệu báo cáo gốc
-```
-
-## Cài đặt trên Windows PowerShell
-
-Cần [Python](https://www.python.org/downloads/windows/), [Node.js](https://nodejs.org/), [Git](https://git-scm.com/download/win), [Git LFS](https://git-lfs.com/) và [Ollama](https://ollama.com/download/windows). Môi trường kiểm tra: Python 3.14.3, Node.js 24.14.0, npm 11.9.0, Git LFS 3.6.1, Ollama 0.40.6. Vite yêu cầu Node `^20.19.0 || >=22.12.0`. Chưa kiểm thử trên laptop RTX 3050.
+## Lấy source
 
 ```powershell
 git lfs install
 git clone --branch chatbotv1-demo https://github.com/nhuquynh112/NCKH_chatbot.git
 Set-Location NCKH_chatbot
-git lfs pull
-python -m venv backend\.venv
-& .\backend\.venv\Scripts\python.exe -m pip install -r .\backend\requirements.txt
 ```
 
-Mở ứng dụng Ollama trước, sau đó cài model từ GGUF đi kèm và tải embedding:
+Git LFS dùng cho trọng số 3B được lưu trữ. Model 7B FP16 khoảng 15 GB tải riêng bằng Ollama theo hướng dẫn dưới đây. FP16 vượt VRAM 12 GB nếu nạp toàn bộ lên GPU; Ollama có thể chia tải sang RAM và chạy chậm hơn bản Q4. Chưa kiểm thử laptop RTX 3050.
+
+## Chạy bản 7B
+
+Để nhóm **test 50 câu trên web lần lượt B0/B1/B2/P**, dùng [hướng dẫn bốn phương pháp](HT_model7B/docs/TEST_4_PHUONG_PHAP.md). Chế độ chạy độc lập trên 8012/5174, có câu hỏi tự nhập, lưu kết quả và xuất CSV; không cần snapshot riêng của máy tác giả.
+
+Cần Python, Node.js và Ollama. Cài dependencies theo [README 7B](HT_model7B/README.md); model 7B nằm trong kho Ollama, không được chép trọng số vào Git:
 
 ```powershell
-.\install_trained_model.ps1
+ollama pull qwen2.5:7b-instruct-fp16
 ollama pull nomic-embed-text
-ollama list
 ```
 
-Installer kiểm tra SHA256 rồi import model local, không huấn luyện. GGUF khoảng 1,93 GB và adapter khoảng 120 MB được quản lý bằng Git LFS. Nếu tải về chỉ có pointer nhỏ, chạy lại `git lfs pull`; nếu lỗi quota/quyền truy cập, liên hệ chủ repo. Không có nguồn tải trọng số thay thế được công bố. Có thể chỉ kiểm tra file bằng `.\install_trained_model.ps1 -VerifyOnly`.
-
-## Chạy demo
-
-Giữ Ollama hoạt động. Terminal thứ nhất, từ gốc project:
+Sau khi đã cài thư viện, giữ Ollama hoạt động. Terminal backend tại gốc repository:
 
 ```powershell
-Set-Location backend
-& .\.venv\Scripts\python.exe run.py
+Set-Location HT_model7B\backend
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
-Không cần tạo `.env` cho demo mặc định. Backend tự tạo `backend/techcare.db`, tạo bảng và nạp sản phẩm/FAQ khi bảng tương ứng trống. Các lần khởi động sau giữ dữ liệu đã có. Database cần cho sản phẩm/FAQ, lịch sử chat, ticket và quản trị; kho tài liệu/chỉ mục RAG nằm riêng trong `rag_data/`. Không tự tải model hoặc rebuild chỉ mục khi khởi động.
-
-Nếu cần tùy chỉnh, sao chép `backend/.env.example` thành `backend/.env` **khi file chưa tồn tại**. Biến môi trường terminal ưu tiên hơn `.env`; kiểm tra cấu hình cũ nếu dùng lại máy phát triển. Không sao chép `.env` cá nhân sang máy khác. [Chi tiết cấu hình và dữ liệu](docs/README.md).
-
-Terminal thứ hai, từ gốc project:
+Terminal frontend mới tại gốc repository:
 
 ```powershell
-Set-Location frontend
+Set-Location HT_model7B\frontend
 npm.cmd ci
 npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort
 ```
 
-| Nội dung | Địa chỉ |
-|---|---|
-| Website / hỏi đáp | http://127.0.0.1:5173/products / http://127.0.0.1:5173/faqs |
-| Quản trị | http://127.0.0.1:5173/admin/login |
-| API docs | http://127.0.0.1:8000/docs |
-| Health / readiness | http://127.0.0.1:8000/health / http://127.0.0.1:8000/ready |
+Mở http://127.0.0.1:5173/products, API docs http://127.0.0.1:8000/docs và readiness http://127.0.0.1:8000/ready. Bản 7B dùng SQLite riêng tại `HT_model7B/backend/techcare.db`, tự tạo bảng và dữ liệu demo khi trống; không cần `.env`.
 
-Tài khoản `admin / admin123` chỉ dành cho demo local. `/ready` cần có `chat_model: techcare-support:3b-v1`, `ai: ok`; HTTP 200 với `status: degraded` chưa phải AI sẵn sàng. Endpoint này chưa kiểm tra embedding/index; cần thử thêm câu RAG, không chỉ câu FAQ.
+Để chạy lại bản 3B, dùng đường dẫn `HT_model3B` tương ứng và đọc [hướng dẫn 3B](HT_model3B/README.md). Trọng số 3B cũ vẫn được Git LFS quản lý. Cấu hình/lịch sử cá nhân có sẵn được giữ cùng bản 3B và bị Git bỏ qua; không sao chép `.env` đó sang bản 7B.
 
-### Lỗi thường gặp
-
-- PowerShell chặn script: dùng `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install_trained_model.ps1` từ gốc project.
-- Model chưa sẵn sàng: kiểm tra Ollama, `ollama list`, installer và `/ready`. Câu đầu có thể chậm khi nạp model.
-- Không kết nối API: kiểm tra backend cổng 8000; frontend mặc định gọi `http://localhost:8000/api`. Khi đổi địa chỉ/cổng, đặt `VITE_API_BASE_URL` và `CORS_ORIGINS` tương ứng.
-- Thiếu/cũ chỉ mục sau khi duyệt thay đổi tài liệu: từ `backend` chạy `& .\.venv\Scripts\python.exe rebuild_rag.py` khi Ollama/embedding đang chạy, rồi khởi động lại backend. Không cần làm bước này mỗi lần chạy.
-
-## Phạm vi và tài liệu thêm
-
-Corpus kỹ thuật còn thiếu; chatbot có thể báo thiếu thông tin và tạo ticket. Chất lượng và tốc độ phụ thuộc tài liệu, CPU/GPU, VRAM và độ dài hội thoại. Không cam kết hiệu năng trên máy chưa thử.
-
-`npm ci` hiện có cảnh báo bảo mật trong chuỗi dependency Tailwind phục vụ build. Chưa nâng Tailwind major trong bản demo này; cần rà soát trước khi triển khai công khai.
-
-- [Cấu hình, cập nhật dữ liệu, kiểm thử và đổi model](docs/README.md).
-- [Tái lập nghiên cứu](docs/REPRODUCING_RESEARCH.md): B0/B1/B2/P dùng base 3B; P+FT 7B là thử nghiệm bổ sung, không phải model website. Điểm AI sơ bộ cần nhóm duyệt.
-- [Demo bốn phương pháp](docs/LOCAL_BENCHMARK_DEMO.md): cần snapshot study và source hash phù hợp; bản clone không đủ để mở lại phiên benchmark cũ.
-- [Model 3B và nguồn](backend/models/techcare-support-3b-v1/README.md), [thông báo giấy phép](docs/THIRD_PARTY_NOTICES.md). Giữ nguyên giấy phép model/dataset; nhóm chưa gán giấy phép chung cho toàn bộ mã nguồn.
-
-Không đưa `.env`, database phát sinh, log hoặc thông tin khách hàng lên Git. Cấu hình production có kiểm tra secret, mật khẩu admin và CORS riêng; không dùng tài khoản demo để triển khai công khai.
+Dữ liệu sản phẩm/chính sách là mô phỏng nghiên cứu. Hiệu năng phụ thuộc phần cứng; chưa kiểm thử trên laptop RTX 3050. Bản 7B vẫn giữ các luật nghiệp vụ hiện có, nên đổi model không tự sửa các lỗi lọc hãng hoặc nguồn tham khảo trong luật.

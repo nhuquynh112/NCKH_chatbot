@@ -1,0 +1,14 @@
+{
+  "name": "TechCare pilot 24",
+  "created_date": "2026-10-15",
+  "status": "pilot_unexecuted_requires_human_review",
+  "cases": 24,
+  "single_turn": 20,
+  "fixed_history": 4,
+  "repo_commit": "1cef995f95b3b315037e2102fd82488e621e0370",
+  "sources": {
+    "techcare_products.json": "9a1d940dae3bcb1b15aa00f5a39a89709d597f91ce649d922ae89d6846c6ee46",
+    "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e"
+  },
+  "note": "Frozen catalog/demo FAQ truth, not verified live commercial facts. No benchmark scores have been generated."
+}

@@ -1,0 +1,1336 @@
+{
+  "review_status": "AI_PRELIMINARY_NOT_HUMAN_APPROVED",
+  "n_results": 96,
+  "repeats_per_case": 1,
+  "methods": [
+    {
+      "method": "B0",
+      "n": 24,
+      "full_2_points": 8,
+      "full_rate_pct": 33.333333333333336,
+      "mean_score_0_2": 0.9166666666666666,
+      "score_counts": {
+        "2": 8,
+        "0": 10,
+        "1": 6
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 24,
+      "operational_errors": 0,
+      "answered": 24,
+      "no_rule_match": 8,
+      "latency_samples": 24,
+      "median_ms": 19.096800000170333,
+      "p95_ms": 41.91720000017085,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule": 16,
+        "no_rule_match": 8
+      },
+      "single_turn": {
+        "n": 20,
+        "full_2_points": 8,
+        "full_rate_pct": 40.0,
+        "mean_score_0_2": 1.05,
+        "score_counts": {
+          "2": 8,
+          "0": 7,
+          "1": 5
+        },
+        "unsupported_count": 0,
+        "unsupported_rate_pct": 0.0,
+        "unsupported_judged": 20,
+        "operational_errors": 0,
+        "answered": 20,
+        "no_rule_match": 4,
+        "latency_samples": 20,
+        "median_ms": 18.827800000053685,
+        "p95_ms": 40.62199999998484,
+        "llm_called_cases": 0,
+        "llm_call_rate_pct": 0.0,
+        "actual_final_llm_calls": 0,
+        "mode_counts": {
+          "rule": 16,
+          "no_rule_match": 4
+        }
+      },
+      "fixed_history": {
+        "n": 4,
+        "full_2_points": 0,
+        "full_rate_pct": 0.0,
+        "mean_score_0_2": 0.25,
+        "score_counts": {
+          "0": 3,
+          "1": 1
+        },
+        "unsupported_count": 0,
+        "unsupported_rate_pct": 0.0,
+        "unsupported_judged": 4,
+        "operational_errors": 0,
+        "answered": 4,
+        "no_rule_match": 4,
+        "latency_samples": 4,
+        "median_ms": 39.80520000004617,
+        "p95_ms": null,
+        "llm_called_cases": 0,
+        "llm_call_rate_pct": 0.0,
+        "actual_final_llm_calls": 0,
+        "mode_counts": {
+          "no_rule_match": 4
+        }
+      },
+      "generation_subset": null
+    },
+    {
+      "method": "B1",
+      "n": 24,
+      "full_2_points": 2,
+      "full_rate_pct": 8.333333333333334,
+      "mean_score_0_2": 0.2916666666666667,
+      "score_counts": {
+        "0": 19,
+        "1": 3,
+        "2": 2
+      },
+      "unsupported_count": 15,
+      "unsupported_rate_pct": 62.5,
+      "unsupported_judged": 24,
+      "operational_errors": 0,
+      "answered": 24,
+      "no_rule_match": 0,
+      "latency_samples": 24,
+      "median_ms": 690.221000000065,
+      "p95_ms": 1166.5250000000924,
+      "llm_called_cases": 24,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 24,
+      "mode_counts": {
+        "llm_without_rag": 24
+      },
+      "single_turn": {
+        "n": 20,
+        "full_2_points": 2,
+        "full_rate_pct": 10.0,
+        "mean_score_0_2": 0.35,
+        "score_counts": {
+          "0": 15,
+          "1": 3,
+          "2": 2
+        },
+        "unsupported_count": 12,
+        "unsupported_rate_pct": 60.0,
+        "unsupported_judged": 20,
+        "operational_errors": 0,
+        "answered": 20,
+        "no_rule_match": 0,
+        "latency_samples": 20,
+        "median_ms": 698.9548000003651,
+        "p95_ms": 1166.5250000000924,
+        "llm_called_cases": 20,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 20,
+        "mode_counts": {
+          "llm_without_rag": 20
+        }
+      },
+      "fixed_history": {
+        "n": 4,
+        "full_2_points": 0,
+        "full_rate_pct": 0.0,
+        "mean_score_0_2": 0.0,
+        "score_counts": {
+          "0": 4
+        },
+        "unsupported_count": 3,
+        "unsupported_rate_pct": 75.0,
+        "unsupported_judged": 4,
+        "operational_errors": 0,
+        "answered": 4,
+        "no_rule_match": 0,
+        "latency_samples": 4,
+        "median_ms": 648.5410499999489,
+        "p95_ms": null,
+        "llm_called_cases": 4,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 4,
+        "mode_counts": {
+          "llm_without_rag": 4
+        }
+      },
+      "generation_subset": {
+        "n": 24,
+        "full_2_points": 2,
+        "full_rate_pct": 8.333333333333334,
+        "mean_score_0_2": 0.2916666666666667,
+        "score_counts": {
+          "0": 19,
+          "1": 3,
+          "2": 2
+        },
+        "unsupported_count": 15,
+        "unsupported_rate_pct": 62.5,
+        "unsupported_judged": 24,
+        "operational_errors": 0,
+        "answered": 24,
+        "no_rule_match": 0,
+        "latency_samples": 24,
+        "median_ms": 690.221000000065,
+        "p95_ms": 1166.5250000000924,
+        "llm_called_cases": 24,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 24,
+        "mode_counts": {
+          "llm_without_rag": 24
+        }
+      }
+    },
+    {
+      "method": "B2",
+      "n": 24,
+      "full_2_points": 14,
+      "full_rate_pct": 58.333333333333336,
+      "mean_score_0_2": 1.2916666666666667,
+      "score_counts": {
+        "2": 14,
+        "1": 3,
+        "0": 7
+      },
+      "unsupported_count": 7,
+      "unsupported_rate_pct": 29.166666666666668,
+      "unsupported_judged": 24,
+      "operational_errors": 0,
+      "answered": 24,
+      "no_rule_match": 0,
+      "latency_samples": 24,
+      "median_ms": 881.6725500000757,
+      "p95_ms": 1048.765099999855,
+      "llm_called_cases": 24,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 24,
+      "mode_counts": {
+        "basic_rag_llm": 24
+      },
+      "single_turn": {
+        "n": 20,
+        "full_2_points": 11,
+        "full_rate_pct": 55.0,
+        "mean_score_0_2": 1.25,
+        "score_counts": {
+          "2": 11,
+          "1": 3,
+          "0": 6
+        },
+        "unsupported_count": 6,
+        "unsupported_rate_pct": 30.0,
+        "unsupported_judged": 20,
+        "operational_errors": 0,
+        "answered": 20,
+        "no_rule_match": 0,
+        "latency_samples": 20,
+        "median_ms": 886.516550000124,
+        "p95_ms": 1048.765099999855,
+        "llm_called_cases": 20,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 20,
+        "mode_counts": {
+          "basic_rag_llm": 20
+        }
+      },
+      "fixed_history": {
+        "n": 4,
+        "full_2_points": 3,
+        "full_rate_pct": 75.0,
+        "mean_score_0_2": 1.5,
+        "score_counts": {
+          "2": 3,
+          "0": 1
+        },
+        "unsupported_count": 1,
+        "unsupported_rate_pct": 25.0,
+        "unsupported_judged": 4,
+        "operational_errors": 0,
+        "answered": 4,
+        "no_rule_match": 0,
+        "latency_samples": 4,
+        "median_ms": 828.523400000222,
+        "p95_ms": null,
+        "llm_called_cases": 4,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 4,
+        "mode_counts": {
+          "basic_rag_llm": 4
+        }
+      },
+      "generation_subset": {
+        "n": 24,
+        "full_2_points": 14,
+        "full_rate_pct": 58.333333333333336,
+        "mean_score_0_2": 1.2916666666666667,
+        "score_counts": {
+          "2": 14,
+          "1": 3,
+          "0": 7
+        },
+        "unsupported_count": 7,
+        "unsupported_rate_pct": 29.166666666666668,
+        "unsupported_judged": 24,
+        "operational_errors": 0,
+        "answered": 24,
+        "no_rule_match": 0,
+        "latency_samples": 24,
+        "median_ms": 881.6725500000757,
+        "p95_ms": 1048.765099999855,
+        "llm_called_cases": 24,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 24,
+        "mode_counts": {
+          "basic_rag_llm": 24
+        }
+      }
+    },
+    {
+      "method": "P",
+      "n": 24,
+      "full_2_points": 12,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.2083333333333333,
+      "score_counts": {
+        "2": 12,
+        "1": 5,
+        "0": 7
+      },
+      "unsupported_count": 3,
+      "unsupported_rate_pct": 12.5,
+      "unsupported_judged": 24,
+      "operational_errors": 0,
+      "answered": 24,
+      "no_rule_match": 0,
+      "latency_samples": 24,
+      "median_ms": 63.30150000030699,
+      "p95_ms": 1317.8239999997459,
+      "llm_called_cases": 7,
+      "llm_call_rate_pct": 29.166666666666668,
+      "actual_final_llm_calls": 7,
+      "mode_counts": {
+        "rule+rag": 16,
+        "llm+rag": 6,
+        "fallback": 1,
+        "faq": 1
+      },
+      "single_turn": {
+        "n": 20,
+        "full_2_points": 9,
+        "full_rate_pct": 45.0,
+        "mean_score_0_2": 1.15,
+        "score_counts": {
+          "2": 9,
+          "1": 5,
+          "0": 6
+        },
+        "unsupported_count": 2,
+        "unsupported_rate_pct": 10.0,
+        "unsupported_judged": 20,
+        "operational_errors": 0,
+        "answered": 20,
+        "no_rule_match": 0,
+        "latency_samples": 20,
+        "median_ms": 55.53814999984752,
+        "p95_ms": 1109.6927000007781,
+        "llm_called_cases": 4,
+        "llm_call_rate_pct": 20.0,
+        "actual_final_llm_calls": 4,
+        "mode_counts": {
+          "rule+rag": 15,
+          "llm+rag": 3,
+          "fallback": 1,
+          "faq": 1
+        }
+      },
+      "fixed_history": {
+        "n": 4,
+        "full_2_points": 3,
+        "full_rate_pct": 75.0,
+        "mean_score_0_2": 1.5,
+        "score_counts": {
+          "2": 3,
+          "0": 1
+        },
+        "unsupported_count": 1,
+        "unsupported_rate_pct": 25.0,
+        "unsupported_judged": 4,
+        "operational_errors": 0,
+        "answered": 4,
+        "no_rule_match": 0,
+        "latency_samples": 4,
+        "median_ms": 1032.6349000006303,
+        "p95_ms": null,
+        "llm_called_cases": 3,
+        "llm_call_rate_pct": 75.0,
+        "actual_final_llm_calls": 3,
+        "mode_counts": {
+          "rule+rag": 1,
+          "llm+rag": 3
+        }
+      },
+      "generation_subset": {
+        "n": 7,
+        "full_2_points": 3,
+        "full_rate_pct": 42.857142857142854,
+        "mean_score_0_2": 0.8571428571428571,
+        "score_counts": {
+          "2": 3,
+          "0": 4
+        },
+        "unsupported_count": 3,
+        "unsupported_rate_pct": 42.857142857142854,
+        "unsupported_judged": 7,
+        "operational_errors": 0,
+        "answered": 7,
+        "no_rule_match": 0,
+        "latency_samples": 7,
+        "median_ms": 1099.1002999999182,
+        "p95_ms": null,
+        "llm_called_cases": 7,
+        "llm_call_rate_pct": 100.0,
+        "actual_final_llm_calls": 7,
+        "mode_counts": {
+          "llm+rag": 6,
+          "fallback": 1
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "method": "B0",
+      "group": "Dữ kiện",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.25,
+      "score_counts": {
+        "2": 2,
+        "0": 1,
+        "1": 1
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 18.815549999999348,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule": 4
+      }
+    },
+    {
+      "method": "B0",
+      "group": "Diễn đạt",
+      "n": 2,
+      "full_2_points": 1,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "2": 1,
+        "0": 1
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 19.072950000236233,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule": 2
+      }
+    },
+    {
+      "method": "B0",
+      "group": "Chính sách",
+      "n": 4,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.0,
+      "score_counts": {
+        "0": 4
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 3,
+      "latency_samples": 4,
+      "median_ms": 40.5076500001087,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "no_rule_match": 3,
+        "rule": 1
+      }
+    },
+    {
+      "method": "B0",
+      "group": "Thiếu căn cứ",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.25,
+      "score_counts": {
+        "2": 2,
+        "1": 1,
+        "0": 1
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 1,
+      "latency_samples": 4,
+      "median_ms": 18.741299999874172,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule": 3,
+        "no_rule_match": 1
+      }
+    },
+    {
+      "method": "B0",
+      "group": "Tư vấn ràng buộc",
+      "n": 2,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "1": 2
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 19.262949999983903,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule": 2
+      }
+    },
+    {
+      "method": "B0",
+      "group": "Kiểm soát bịa đặt",
+      "n": 4,
+      "full_2_points": 3,
+      "full_rate_pct": 75.0,
+      "mean_score_0_2": 1.75,
+      "score_counts": {
+        "1": 1,
+        "2": 3
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 18.616150000070775,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule": 4
+      }
+    },
+    {
+      "method": "B0",
+      "group": "Ngữ cảnh",
+      "n": 4,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.25,
+      "score_counts": {
+        "0": 3,
+        "1": 1
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 4,
+      "latency_samples": 4,
+      "median_ms": 39.80520000004617,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "no_rule_match": 4
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Dữ kiện",
+      "n": 4,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.0,
+      "score_counts": {
+        "0": 4
+      },
+      "unsupported_count": 2,
+      "unsupported_rate_pct": 50.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 827.5437499999043,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "llm_without_rag": 4
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Diễn đạt",
+      "n": 2,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.0,
+      "score_counts": {
+        "0": 2
+      },
+      "unsupported_count": 2,
+      "unsupported_rate_pct": 100.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 616.3563000000067,
+      "p95_ms": null,
+      "llm_called_cases": 2,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 2,
+      "mode_counts": {
+        "llm_without_rag": 2
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Chính sách",
+      "n": 4,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.25,
+      "score_counts": {
+        "0": 3,
+        "1": 1
+      },
+      "unsupported_count": 3,
+      "unsupported_rate_pct": 75.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 798.4450499998275,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "llm_without_rag": 4
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Thiếu căn cứ",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "0": 2,
+        "2": 2
+      },
+      "unsupported_count": 2,
+      "unsupported_rate_pct": 50.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 620.9464500000195,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "llm_without_rag": 4
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Tư vấn ràng buộc",
+      "n": 2,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.0,
+      "score_counts": {
+        "0": 2
+      },
+      "unsupported_count": 2,
+      "unsupported_rate_pct": 100.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 649.5207999998911,
+      "p95_ms": null,
+      "llm_called_cases": 2,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 2,
+      "mode_counts": {
+        "llm_without_rag": 2
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Kiểm soát bịa đặt",
+      "n": 4,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.5,
+      "score_counts": {
+        "0": 2,
+        "1": 2
+      },
+      "unsupported_count": 1,
+      "unsupported_rate_pct": 25.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 705.5704000001697,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "llm_without_rag": 4
+      }
+    },
+    {
+      "method": "B1",
+      "group": "Ngữ cảnh",
+      "n": 4,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.0,
+      "score_counts": {
+        "0": 4
+      },
+      "unsupported_count": 3,
+      "unsupported_rate_pct": 75.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 648.5410499999489,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "llm_without_rag": 4
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Dữ kiện",
+      "n": 4,
+      "full_2_points": 4,
+      "full_rate_pct": 100.0,
+      "mean_score_0_2": 2.0,
+      "score_counts": {
+        "2": 4
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 827.2432999999637,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "basic_rag_llm": 4
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Diễn đạt",
+      "n": 2,
+      "full_2_points": 2,
+      "full_rate_pct": 100.0,
+      "mean_score_0_2": 2.0,
+      "score_counts": {
+        "2": 2
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 876.7967500000395,
+      "p95_ms": null,
+      "llm_called_cases": 2,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 2,
+      "mode_counts": {
+        "basic_rag_llm": 2
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Chính sách",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.5,
+      "score_counts": {
+        "2": 2,
+        "1": 2
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 910.0398999999015,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "basic_rag_llm": 4
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Thiếu căn cứ",
+      "n": 4,
+      "full_2_points": 1,
+      "full_rate_pct": 25.0,
+      "mean_score_0_2": 0.5,
+      "score_counts": {
+        "0": 3,
+        "2": 1
+      },
+      "unsupported_count": 3,
+      "unsupported_rate_pct": 75.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 886.1061000000063,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "basic_rag_llm": 4
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Tư vấn ràng buộc",
+      "n": 2,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 0.5,
+      "score_counts": {
+        "1": 1,
+        "0": 1
+      },
+      "unsupported_count": 1,
+      "unsupported_rate_pct": 50.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 1081.6696500000944,
+      "p95_ms": null,
+      "llm_called_cases": 2,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 2,
+      "mode_counts": {
+        "basic_rag_llm": 2
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Kiểm soát bịa đặt",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "0": 2,
+        "2": 2
+      },
+      "unsupported_count": 2,
+      "unsupported_rate_pct": 50.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 777.6723499998752,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "basic_rag_llm": 4
+      }
+    },
+    {
+      "method": "B2",
+      "group": "Ngữ cảnh",
+      "n": 4,
+      "full_2_points": 3,
+      "full_rate_pct": 75.0,
+      "mean_score_0_2": 1.5,
+      "score_counts": {
+        "2": 3,
+        "0": 1
+      },
+      "unsupported_count": 1,
+      "unsupported_rate_pct": 25.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 828.523400000222,
+      "p95_ms": null,
+      "llm_called_cases": 4,
+      "llm_call_rate_pct": 100.0,
+      "actual_final_llm_calls": 4,
+      "mode_counts": {
+        "basic_rag_llm": 4
+      }
+    },
+    {
+      "method": "P",
+      "group": "Dữ kiện",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.5,
+      "score_counts": {
+        "2": 2,
+        "1": 2
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 53.78775000008318,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule+rag": 4
+      }
+    },
+    {
+      "method": "P",
+      "group": "Diễn đạt",
+      "n": 2,
+      "full_2_points": 1,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "2": 1,
+        "0": 1
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 56.31890000040585,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule+rag": 2
+      }
+    },
+    {
+      "method": "P",
+      "group": "Chính sách",
+      "n": 4,
+      "full_2_points": 1,
+      "full_rate_pct": 25.0,
+      "mean_score_0_2": 0.5,
+      "score_counts": {
+        "2": 1,
+        "0": 3
+      },
+      "unsupported_count": 1,
+      "unsupported_rate_pct": 25.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 1080.2865499999825,
+      "p95_ms": null,
+      "llm_called_cases": 3,
+      "llm_call_rate_pct": 75.0,
+      "actual_final_llm_calls": 3,
+      "mode_counts": {
+        "llm+rag": 2,
+        "rule+rag": 1,
+        "fallback": 1
+      }
+    },
+    {
+      "method": "P",
+      "group": "Thiếu căn cứ",
+      "n": 4,
+      "full_2_points": 2,
+      "full_rate_pct": 50.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "2": 2,
+        "0": 2
+      },
+      "unsupported_count": 1,
+      "unsupported_rate_pct": 25.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 54.526850000002014,
+      "p95_ms": null,
+      "llm_called_cases": 1,
+      "llm_call_rate_pct": 25.0,
+      "actual_final_llm_calls": 1,
+      "mode_counts": {
+        "rule+rag": 2,
+        "llm+rag": 1,
+        "faq": 1
+      }
+    },
+    {
+      "method": "P",
+      "group": "Tư vấn ràng buộc",
+      "n": 2,
+      "full_2_points": 0,
+      "full_rate_pct": 0.0,
+      "mean_score_0_2": 1.0,
+      "score_counts": {
+        "1": 2
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 2,
+      "operational_errors": 0,
+      "answered": 2,
+      "no_rule_match": 0,
+      "latency_samples": 2,
+      "median_ms": 55.02299999989191,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule+rag": 2
+      }
+    },
+    {
+      "method": "P",
+      "group": "Kiểm soát bịa đặt",
+      "n": 4,
+      "full_2_points": 3,
+      "full_rate_pct": 75.0,
+      "mean_score_0_2": 1.75,
+      "score_counts": {
+        "1": 1,
+        "2": 3
+      },
+      "unsupported_count": 0,
+      "unsupported_rate_pct": 0.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 55.05059999995865,
+      "p95_ms": null,
+      "llm_called_cases": 0,
+      "llm_call_rate_pct": 0.0,
+      "actual_final_llm_calls": 0,
+      "mode_counts": {
+        "rule+rag": 4
+      }
+    },
+    {
+      "method": "P",
+      "group": "Ngữ cảnh",
+      "n": 4,
+      "full_2_points": 3,
+      "full_rate_pct": 75.0,
+      "mean_score_0_2": 1.5,
+      "score_counts": {
+        "2": 3,
+        "0": 1
+      },
+      "unsupported_count": 1,
+      "unsupported_rate_pct": 25.0,
+      "unsupported_judged": 4,
+      "operational_errors": 0,
+      "answered": 4,
+      "no_rule_match": 0,
+      "latency_samples": 4,
+      "median_ms": 1032.6349000006303,
+      "p95_ms": null,
+      "llm_called_cases": 3,
+      "llm_call_rate_pct": 75.0,
+      "actual_final_llm_calls": 3,
+      "mode_counts": {
+        "rule+rag": 1,
+        "llm+rag": 3
+      }
+    }
+  ],
+  "score_matrix": {
+    "TC01": {
+      "B0": 2,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC02": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 2,
+      "P": 1
+    },
+    "TC03": {
+      "B0": 2,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC04": {
+      "B0": 1,
+      "B1": 0,
+      "B2": 2,
+      "P": 1
+    },
+    "TC05": {
+      "B0": 2,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC06": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 2,
+      "P": 0
+    },
+    "TC07": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC08": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 2,
+      "P": 0
+    },
+    "TC09": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 1,
+      "P": 0
+    },
+    "TC10": {
+      "B0": 0,
+      "B1": 1,
+      "B2": 1,
+      "P": 0
+    },
+    "TC11": {
+      "B0": 2,
+      "B1": 0,
+      "B2": 0,
+      "P": 2
+    },
+    "TC12": {
+      "B0": 1,
+      "B1": 0,
+      "B2": 0,
+      "P": 0
+    },
+    "TC13": {
+      "B0": 0,
+      "B1": 2,
+      "B2": 0,
+      "P": 0
+    },
+    "TC14": {
+      "B0": 2,
+      "B1": 2,
+      "B2": 2,
+      "P": 2
+    },
+    "TC15": {
+      "B0": 1,
+      "B1": 0,
+      "B2": 1,
+      "P": 1
+    },
+    "TC16": {
+      "B0": 1,
+      "B1": 0,
+      "B2": 0,
+      "P": 1
+    },
+    "TC17": {
+      "B0": 1,
+      "B1": 0,
+      "B2": 0,
+      "P": 1
+    },
+    "TC18": {
+      "B0": 2,
+      "B1": 1,
+      "B2": 0,
+      "P": 2
+    },
+    "TC19": {
+      "B0": 2,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC20": {
+      "B0": 2,
+      "B1": 1,
+      "B2": 2,
+      "P": 2
+    },
+    "TC21": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC22": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    },
+    "TC23": {
+      "B0": 0,
+      "B1": 0,
+      "B2": 0,
+      "P": 0
+    },
+    "TC24": {
+      "B0": 1,
+      "B1": 0,
+      "B2": 2,
+      "P": 2
+    }
+  },
+  "medium_confidence": [
+    {
+      "method": "B1",
+      "case_id": "TC07",
+      "score": 0,
+      "notes": "Thiếu ngày làm việc; khẳng định thời gian hoàn toàn phụ thuộc ngân hàng và ngân hàng sẽ kiểm tra thông tin là quy trình không được nguồn xác nhận."
+    },
+    {
+      "method": "B1",
+      "case_id": "TC24",
+      "score": 0,
+      "notes": "Không cam kết cứng nhưng đoán có thể về ngày mai không được khoảng dự kiến3–7ngày hoặc trạng thái giao dịch hỗ trợ."
+    },
+    {
+      "method": "B2",
+      "case_id": "TC08",
+      "score": 2,
+      "notes": "Đúng dự kiến3–7 ngày làm việc; hiểu ngày nghỉ cuối tuần là những ngày thực sự nghỉ, không nêu cố định thứ Bảy/Chủ nhật cho mọi hãng. Cần nhóm duyệt cách diễn giải này."
+    },
+    {
+      "method": "P",
+      "case_id": "TC08",
+      "score": 0,
+      "notes": "Có ngày làm việc nhưng tự loại toàn bộ các ngày cuối tuần, trong khi nguồn không quy định lịch nghỉ; thay khoảng dự kiến bằng cách nói chỉ hỗ trợ trong 3–7 ngày và lạc sang giao trong ngày. Cần nhóm duyệt cách hiểu lịch nghỉ; B2/TC08 cũ có chữ “ngày nghỉ cuối tuần”, được chấm 2 với độ chắc chắn trung bình và vẫn giữ nguyên để không sửa kết quả cũ."
+    }
+  ]
+}

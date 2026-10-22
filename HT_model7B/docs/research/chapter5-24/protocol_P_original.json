@@ -1,0 +1,361 @@
+{
+  "version": "chapter5-approved24-P-addendum-v1",
+  "created_utc": "2026-10-16T06:57:02.093178+00:00",
+  "snapshot_timestamp": "2026-10-16T05:18:28.805304+00:00",
+  "timestamp_role": "Technical database snapshot creation time, identical across workers; not manufacturer verification time or a new business fact.",
+  "approval": {
+    "source": "Direct current user attachment 56da437e-0b4f-4c01-b877-ee042a12e326 and prior explicit approval for preliminary AI scores",
+    "text": "Run P once on the original 24 cases, preserve prior B0/B1/B2/P+FT results, rewrite section5.5 only; do not edit DOCX/5.6 or commit/push."
+  },
+  "original_manifest": {
+    "name": "TechCare pilot 24",
+    "created_date": "2026-10-15",
+    "status": "pilot_unexecuted_requires_human_review",
+    "cases": 24,
+    "single_turn": 20,
+    "fixed_history": 4,
+    "repo_commit": "1cef995f95b3b315037e2102fd82488e621e0370",
+    "sources": {
+      "techcare_products.json": "9a1d940dae3bcb1b15aa00f5a39a89709d597f91ce649d922ae89d6846c6ee46",
+      "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e"
+    },
+    "note": "Frozen catalog/demo FAQ truth, not verified live commercial facts. No benchmark scores have been generated."
+  },
+  "source_equivalence": {
+    "techcare_products.json": {
+      "json_content_equal": true,
+      "byte_equal": false,
+      "line_ending_normalized_equal": true
+    },
+    "faq_curated.json": {
+      "json_content_equal": true,
+      "byte_equal": true,
+      "line_ending_normalized_equal": true
+    }
+  },
+  "original_package": "D:\\NCKH\\2026_Chatbot\\BoTest_Chatbot_Nho_24Cau\\BoTest_Chatbot_Nho_24Cau",
+  "package_sha256": {
+    "answer_key.jsonl": "8d53b737f4f0fa100729f5f28f6ad9d6260f2c6e2fe61fb52d376cf3c847ce08",
+    "HUONG_DAN_VA_DAP_AN.md": "5e014a4cb766d6af40a6fa5b5a19326e60e049a463b0cb05d73fd82bc4736b4e",
+    "manifest.json": "ec8a281f356d47a79e72117a84475059277fd4359cf5fbb921966499ffc12714",
+    "overlap_check.json": "8e704c7f21034f924a4c439205076e471a5861fbecb95b7ed73436e9e5836805",
+    "results_template.jsonl": "03ca03b485a7e01373ed9b989b32e5e529e8f865e769ada6ed24e5545e0907b8",
+    "test_inputs.jsonl": "2b9457298c1ff6da02c6b34d51ed700b3ec741caffdf5ef68a67285caa406838",
+    "sources\\faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e",
+    "sources\\techcare_products.json": "9a1d940dae3bcb1b15aa00f5a39a89709d597f91ce649d922ae89d6846c6ee46"
+  },
+  "adapted_inputs_sha256": "c4629e86e4595d57659ddc23331bd199fce8b7e65ceee383e5ac4dc536149cfb",
+  "corpus_sha256": {
+    "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e",
+    "knowledge_base.md": "abd3e66eacddcc2278e46900e1280e91592ab55bd96f6d8df927afcc9d873321",
+    "product_catalog_extended.md": "d384b3165b24249d8aee007173797acf31a0a680abe391c4e834a9894de1fb3b",
+    "product_verified_specs.json": "f8425d14337049e1c3bb322b057ebe389bc046182e17920c17a09bb5502ff5f1",
+    "system_prompt.txt": "fc970752acd70806074668ca16ea7289da5a62b15a10573014bd23983855dac4",
+    "techcare_products.json": "9a1d940dae3bcb1b15aa00f5a39a89709d597f91ce649d922ae89d6846c6ee46",
+    "techcare_rag_documents.json": "2c39e433b7f854c5f84ce1a9386ddf84ed3f25c683a595ec658a50ac7bcc0279",
+    "vector_index.json": "c0121355ef8de737eda51fe98cfe6eaaa91e2e76bd88c2df60a62fc1371ad261"
+  },
+  "code_sha256": {
+    "app\\config.py": "58956433e02af9fbccf855f58e00176123cc1712256f02150c80b63199aa241c",
+    "app\\core\\security.py": "a7b601e9b8d8298ab1a408c95f4b74cb1fbaf313b56cf407e8696afd7ce6ea67",
+    "app\\database.py": "ee40e0c2e6a556238f781be55601c25233bd763935f83bf4eaa1c1079c3b2c7e",
+    "app\\main.py": "ec3a1e030bd18f129536f1f854a52ec3dcab57548ffba0442e908565b37a92d5",
+    "app\\middleware\\__init__.py": "436592b6869039638495ff6ce4ba695d88344af837c8ad12d7acbd0605b511d1",
+    "app\\middleware\\rate_limit.py": "1bec12e95075dd0de71ce043f2f34d136271ce5ac548684842c8d029c45672bc",
+    "app\\model_client.py": "d7c2d86644d1ecbcf6f76ffdce396af0b914281c78438e698ffa9494da448903",
+    "app\\models.py": "eb4faafd01b01d536c7326f273f0302c68382721748b822935b48bd5569a585a",
+    "app\\product_enrichment.py": "e3d412c27d6df77b20202ae16d337869805578bc1173863bb7d601cd87f424c7",
+    "app\\rag\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app\\rag\\chat_service.py": "de3705f70534eb1bcd5704d603d6970c711f93cd4ddc5e8dd4a5e7ea19785bf6",
+    "app\\rag\\chroma_store.py": "a001d0f12dfa008904b27d72b2afa7036c9e9f42d3267414f323a4042f88a79b",
+    "app\\rag\\components.py": "35ff56c1e41b274116e74c6cc9d841526a205a84fd0f759c6c62b2d00ba002b8",
+    "app\\rag\\dataset_hash.py": "7145e62223c1f0b8cf013d81068ffb622fddec6f3dad1868623973bd76549e75",
+    "app\\rag\\document_builder.py": "bb73143d990f7cc0c53d1addc95c195fc7c443328bb0a1e4b2f40972e47a3e7f",
+    "app\\rag\\embedding.py": "db851bcf01e969ba44f33c8668cbbc8a2a7f05ab4f3e7cb312575fc34c46845f",
+    "app\\rag\\faq_matcher.py": "aaa94afbf48eb583554171aff77812d82a089ed1070010fbda716a48663f1d5f",
+    "app\\rag\\grounding.py": "a42bde9c995e111f24f7bfb2832fa45c70333ab980f2d8d49a4a57066f354392",
+    "app\\rag\\guardrails.py": "7b85986e17deb8799eed2702ac8e4e74d931c588037e2c3db5b6ac4e393cb295",
+    "app\\rag\\json_store.py": "442fda5fe0b0adae2d599b07aa13649ab5df1cf5af1bba825557bec3dfae17e6",
+    "app\\rag\\lexical.py": "216d68986194d55612f8f9faf163c753633e8bd9e4f2670d368a9b15d3209f4f",
+    "app\\rag\\product_schema.py": "9e51c26de585920f0d221582ac020e409c372f020e21cfe45bdc9c478bd55f00",
+    "app\\rag\\prompt.py": "99e342302bf9274589aa943eec593d5a3cbdb50ddfa6ff429eedad5c505fce49",
+    "app\\rag\\query_rewriter.py": "4d3e549dad6490777674e231bbdcb3c01b43b48b51f8ed0d1b978b68a6b05848",
+    "app\\rag\\retriever.py": "7826007863dd158697b21359ed583558169ae94faa5336e277d3c54c92a2807f",
+    "app\\rag\\vector_store.py": "7922dda6666e29d0715dec71a659401882c5a0acdd5f6274e9bfec1339b284e1",
+    "app\\repositories\\chat_repository.py": "334dbd0a1f053fc46b75f9199f150d1086221a77e5a5164c42144b5fdcd55e8a",
+    "app\\repositories\\faq_repository.py": "8f8c181b8fa2c476251569f62a9a7c093ca9e44219b27d8b81b9d53cb9141dfb",
+    "app\\repositories\\product_repository.py": "7249cae3f85d7215d96909d1121a61cd945b5f3bd1ce2e962411cc3549841f94",
+    "app\\repositories\\ticket_repository.py": "a84899b2bab082fadcacfe6958df0ace3a6869d9ce71ea44285c75a1d59d72de",
+    "app\\routers\\auth.py": "5f93891e1a422c1bb215d6df63ca6d720ffec2e8d8d9edb612e74f82112bb86f",
+    "app\\routers\\chat.py": "abb0f7a7848e53629ff8844d6ce51cc3fb452d811e0dfd378a97fe1b7914ae26",
+    "app\\routers\\faqs.py": "0f2b2b9bd6ec6e30102982ca54b506893111f32f65308cd572efcf3789d5c8b0",
+    "app\\routers\\products.py": "80f81f6cbab0ff1146665fcfc304d5474eea112ae736def8e1c6ae0990b24a2d",
+    "app\\routers\\tickets.py": "116e0052461cf3ecf1c6f3664e570e1e804c6e3631e2f7cdd9d0d70d19cba329",
+    "app\\schemas\\__init__.py": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "app\\schemas\\chat.py": "68c1e7a7166b95b61303324e12a96c6af81fcd5bdd4d2d3d797c13c0aaac0b9c",
+    "app\\schemas\\common.py": "acd2aed71374782497657ff7f6b21e4360482c991fc1a565dd7e0d6c7ec440db",
+    "app\\schemas\\faq.py": "c92ed8330c18a05684da48a0e46dbaf349e5b83fc121dc31f4bf82f625741016",
+    "app\\schemas\\product.py": "c0ac9e257c16a3154b04878a601dd1551082210fd580f468894a0f67daa160cd",
+    "app\\schemas\\ticket.py": "3f5f95420c2be7ac54422a4a48c2dfa6bffec4fba3511c86ba4c793819b15983",
+    "app\\services\\ai_service.py": "23dd0fc407968d04d8ecb4dda6742fb42669eca01a08d54a00aca334a346e020",
+    "app\\services\\chat_service.py": "d1d9d5bbe79da8a5e8a78348378383852a9f0bd26351cc771a853fbc35133424",
+    "app\\services\\faq_service.py": "0aa5efa5b79c089dc33edd73e513b0ec27e2a2a50d74c351c3a4a89e212a2b52",
+    "app\\services\\product_service.py": "ff9715996a68d61316d2bb1322e6eae8ab8d02ddf85aca9ff3a91041bf5f035c",
+    "app\\services\\ticket_service.py": "71d6e79db41a174b45a8e2537dfb52e084b9249e8f54c5aaebb7b8a0929eb93c",
+    "benchmark\\__init__.py": "ed1b15b1a8f4e4aa689e7a120bdc3187803cb9741d33c6db14b9cec8bb05295b",
+    "benchmark\\chapter5.py": "2ae9ba12c66b25718df1880cbcb8f384609063e235ded3a286f2194a28beb11f",
+    "benchmark\\demo.py": "f8efafea16dd6b02aa79f2bf13464f531056ceca8ccc729584278614fe327c74",
+    "benchmark\\methods.py": "2247d244c00dfec1fd01da0ac2ce0695e0ab364bcc4489d3e38d99151bfd4114",
+    "benchmark\\protocol.py": "eeb16fcdfa8b58371007fc32c2739dbafd6370c09d5db59b60aded75290cd413",
+    "benchmark\\review.py": "0a0d404c64fdb20055130b711c32af993022c51c60bb89538cea2774533cf8e9",
+    "benchmark\\run.py": "04531c5bd256c6d7b58744d3c0af75a05ef9a35860067a331f1cb1437c54f572",
+    "benchmark\\schema.py": "bc3dc26e019220fc9fcb8bf8182ad54c22bc39867bb68c5760030bfa1b8bb0b9",
+    "benchmark\\scoring.py": "b960b521d8482057e0d8b1c1e9264afbc7ca57e2a1cf8c4f7283146eb53374cb",
+    "benchmark\\worker.py": "5793ac10f36b04b8da1d4be4327ccbabea07e2294b994f67e44149bc11aa76a4",
+    "model_serving\\__init__.py": "3c56e545a1ea319304baa8ab90cbad1a3fb02464b3694285e5f45715aca74fd3",
+    "model_serving\\server.py": "d38b526428dc5bd294410f98e04fd7bf0554bc51298d4f27f20f1effaa7bf5a1"
+  },
+  "neutral_prompt_sha256": "ca01f3f2da47f679c9942d9bb9c2f6734763504cd69c8051aefdfc03523f11c7",
+  "methods": {
+    "B0": {
+      "method": "B0",
+      "kind": "rules",
+      "provider": "ollama",
+      "components": null,
+      "removed_component": null,
+      "curated_faq_rules": true,
+      "history_policy": "stateless_rules_receiving_fixed_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "B1": {
+      "method": "B1",
+      "kind": "plain",
+      "provider": "ollama",
+      "components": null,
+      "removed_component": null,
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "B2": {
+      "method": "B2",
+      "kind": "basic_rag",
+      "provider": "ollama",
+      "components": null,
+      "removed_component": null,
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P": {
+      "method": "P",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": true,
+        "bm25": true,
+        "domain_ranking": true,
+        "product_context": true,
+        "postcheck": true,
+        "rule_routing": true
+      },
+      "removed_component": null,
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P+FT": {
+      "method": "P+FT",
+      "kind": "proposed",
+      "provider": "hf_lora",
+      "components": {
+        "query_normalization": true,
+        "bm25": true,
+        "domain_ranking": true,
+        "product_context": true,
+        "postcheck": true,
+        "rule_routing": true
+      },
+      "removed_component": null,
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P-no-query-normalization": {
+      "method": "P-no-query-normalization",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": false,
+        "bm25": true,
+        "domain_ranking": true,
+        "product_context": true,
+        "postcheck": true,
+        "rule_routing": true
+      },
+      "removed_component": "query_normalization",
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P-no-bm25": {
+      "method": "P-no-bm25",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": true,
+        "bm25": false,
+        "domain_ranking": true,
+        "product_context": true,
+        "postcheck": true,
+        "rule_routing": true
+      },
+      "removed_component": "bm25",
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P-no-domain-ranking": {
+      "method": "P-no-domain-ranking",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": true,
+        "bm25": true,
+        "domain_ranking": false,
+        "product_context": true,
+        "postcheck": true,
+        "rule_routing": true
+      },
+      "removed_component": "domain_ranking",
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P-no-product-context": {
+      "method": "P-no-product-context",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": true,
+        "bm25": true,
+        "domain_ranking": true,
+        "product_context": false,
+        "postcheck": true,
+        "rule_routing": true
+      },
+      "removed_component": "product_context",
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P-no-postcheck": {
+      "method": "P-no-postcheck",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": true,
+        "bm25": true,
+        "domain_ranking": true,
+        "product_context": true,
+        "postcheck": false,
+        "rule_routing": true
+      },
+      "removed_component": "postcheck",
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    },
+    "P-no-rule-routing": {
+      "method": "P-no-rule-routing",
+      "kind": "proposed",
+      "provider": "ollama",
+      "components": {
+        "query_normalization": true,
+        "bm25": true,
+        "domain_ranking": true,
+        "product_context": true,
+        "postcheck": true,
+        "rule_routing": false
+      },
+      "removed_component": "rule_routing",
+      "curated_faq_rules": false,
+      "history_policy": "fixed_input_history",
+      "bm25_ablation_policy": "Remove lexical candidates/contribution; retain vector coefficient 0.60, ranking and threshold unchanged."
+    }
+  },
+  "smoke_ids": [
+    "TC05",
+    "TC11",
+    "TC23"
+  ],
+  "case_order": [
+    "TC01",
+    "TC02",
+    "TC03",
+    "TC04",
+    "TC05",
+    "TC06",
+    "TC07",
+    "TC08",
+    "TC09",
+    "TC10",
+    "TC11",
+    "TC12",
+    "TC13",
+    "TC14",
+    "TC15",
+    "TC16",
+    "TC17",
+    "TC18",
+    "TC19",
+    "TC20",
+    "TC21",
+    "TC22",
+    "TC23",
+    "TC24"
+  ],
+  "counts": {
+    "cases": 24,
+    "single_turn": 20,
+    "fixed_history": 4,
+    "families": 23
+  },
+  "retrieval": {
+    "top_k": 5,
+    "threshold": 0.38,
+    "hybrid_vector_weight": 0.6,
+    "bm25_weight": 0.4,
+    "bm25_scale": 3
+  },
+  "generation": {
+    "temperature": 0,
+    "num_ctx": 4096,
+    "num_predict": 384,
+    "repeat_penalty": 1
+  },
+  "scope": "Same unchanged 24-case pilot, P-only extension; AI preliminary scoring with unchanged parent rubric. Main B0/B1/B2/P; supplementary P+FT kept separately.",
+  "semantic_review": "NOT_REVIEWED; human 0-2 rubric, two independent blinded reviewers required",
+  "P_FT_limits": "Supplementary 7B QLoRA NF4/BF16 differs from base 3B GGUF Q4_K_M in model size, weights, precision and runtime; no isolated fine-tuning causal claim.",
+  "warmup": "One unscored neutral greeting inference for each generation model before its block. No parameter selection against test outputs. P+FT runs first so GPU models do not compete.",
+  "retrieval_metrics": "Recall/MRR NOT_REVIEWED: package labels logical source records, not exhaustive relevant chunk IDs.",
+  "interactions": [
+    "Disabling BM25 retains 0.60 vector weight and threshold; no re-normalization.",
+    "Routing can bypass retrieval/postcheck; disabled components may not be reached on some cases.",
+    "Product-context ablation removes structured current/history/page resolution, history recommendation/budget state, priority/context injection; catalog truth, generic history and direct rules remain.",
+    "No-rule variant disables direct catalog/FAQ/intent responses; retrieval admission, context filtering and postcheck remain.",
+    "Query-normalization ablation disables QueryRewriter only; BM25 tokenization and intent folding remain.",
+    "Latency cold/warm state and desktop load are not fully controlled; one 24-case pass is exploratory."
+  ],
+  "selected_methods": [
+    "P"
+  ],
+  "execution_order": [
+    "P"
+  ],
+  "timeout_seconds": 90,
+  "review_status": "AI_PRELIMINARY; group review pending",
+  "role_of_P": "Main fourth method B0/B1/B2/P. P+FT is supplementary, preserved from prior run.",
+  "parent_study": "D:\\NCKH\\Codex\\comparison24_20261016_83c93ecd\\study",
+  "parent_protocol_sha256": "dcab32b2be30244d47bc49f991a6c2f7186a6bd7771115f011a61f978e4547fb"
+}

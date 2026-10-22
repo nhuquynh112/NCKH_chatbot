@@ -1,0 +1,172 @@
+import json
+from pathlib import Path
+import re
+from typing import Literal, Optional
+
+from pydantic import model_validator
+from pydantic_settings import BaseSettings
+
+
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
+# Website and new comparisons use the same original 7B FP16 weights.
+BASELINE_CHAT_MODEL = "qwen2.5:7b-instruct-fp16"
+HF_LORA_MODEL = "qwen2.5-7b-finetuned"
+DEFAULT_DATABASE_URL = f"sqlite:///{(BACKEND_ROOT / 'techcare.db').as_posix()}"
+
+
+def _resolve_backend_path(path: Path) -> Path:
+    return path if path.is_absolute() else BACKEND_ROOT / path
+
+
+class Settings(BaseSettings):
+    ENVIRONMENT: Literal["development", "test", "production"] = "development"
+    # SQLite keeps the demo runnable without Docker. Production can override this
+    # with a PostgreSQL URL in .env.
+    # Keep one stable database even when uvicorn is started from the project
+    # root instead of the backend directory.
+    DATABASE_URL: str = DEFAULT_DATABASE_URL
+    AI_SERVICE_URL: Optional[str] = None
+
+    # Local RAG / Ollama settings
+    OLLAMA_BASE_URL: str = "http://localhost:11434"
+    CHAT_PROVIDER: Literal["ollama", "hf_lora"] = "ollama"
+    HF_LORA_BASE_URL: str = "http://127.0.0.1:8011"
+    CHAT_MODEL: str = BASELINE_CHAT_MODEL
+    USE_PROJECT_CHAT_MODEL: bool = True
+    CHAT_MODEL_PROFILE_PATH: Path = Path("rag_data/model_profile.json")
+    EMBEDDING_MODEL: str = "nomic-embed-text"
+    CHROMA_COLLECTION: str = "techcare_rag"
+    CHROMA_PERSIST_DIR: Path = Path("chroma_db")
+    PROMPT_PATH: Path = Path("rag_data/system_prompt.txt")
+    KNOWLEDGE_BASE_PATH: Path = Path("rag_data/knowledge_base.md")
+    CURATED_FAQ_PATH: Path = Path("rag_data/faq_curated.json")
+    PRODUCT_CATALOG_PATH: Path = Path("rag_data/product_catalog_extended.md")
+    LEGACY_VECTOR_INDEX_PATH: Path = Path("rag_data/vector_index.json")
+    RAG_DOCUMENTS_PATH: Path = Path("rag_data/techcare_rag_documents.json")
+    # This file is exported from the same Product table shown on the website.
+    PRODUCTS_PATH: Path = Path("rag_data/techcare_products.json")
+    VECTOR_STORE_BACKEND: Literal["json", "chroma", "auto"] = "json"
+    RAG_TOP_K: int = 5
+    MIN_RETRIEVAL_SCORE: float = 0.38
+    CORS_ORIGINS: str = (
+        "http://localhost:5173,http://127.0.0.1:5173,"
+        "http://localhost:4173,http://127.0.0.1:4173"
+    )
+    AUTO_SEED: bool = True
+    WARM_AI_ON_STARTUP: bool = True
+    AI_RESPONSE_TIMEOUT_SECONDS: float = 25.0
+    CHAT_RATE_LIMIT_PER_MINUTE: int = 120
+    LOGIN_RATE_LIMIT_PER_MINUTE: int = 10
+    
+    # JWT Settings
+    SECRET_KEY: str = "super_secret_key_change_in_production"
+    ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_DAYS: int = 7
+    ADMIN_USERNAME: str = "admin"
+    ADMIN_PASSWORD: str = "admin123"
+
+    @property
+    def ollama_base_url(self) -> str:
+        return self.OLLAMA_BASE_URL
+
+    @property
+    def chat_model(self) -> str:
+        if self.CHAT_PROVIDER == "hf_lora":
+            return HF_LORA_MODEL
+        if not self.USE_PROJECT_CHAT_MODEL:
+            return self.CHAT_MODEL
+        profile_path = _resolve_backend_path(self.CHAT_MODEL_PROFILE_PATH)
+        if not profile_path.is_file():
+            return self.CHAT_MODEL
+        profile = json.loads(profile_path.read_text(encoding="utf-8"))
+        # Keep custom deployments explicit. The project profile replaces only
+        # its declared base tag, including existing .env files using that tag.
+        if not profile.get("enabled") or profile.get("base_model") != self.CHAT_MODEL:
+            return self.CHAT_MODEL
+        model = profile.get("model", "")
+        if not isinstance(model, str) or not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._/-]*:[a-zA-Z0-9._-]+", model) or "cloud" in model.lower():
+            raise ValueError("Project chat model must be a valid local Ollama tag")
+        return model
+
+    @property
+    def embedding_model(self) -> str:
+        return self.EMBEDDING_MODEL
+
+    @property
+    def collection_name(self) -> str:
+        return self.CHROMA_COLLECTION
+
+    @property
+    def chroma_persist_dir(self) -> Path:
+        return _resolve_backend_path(self.CHROMA_PERSIST_DIR)
+
+    @property
+    def prompt_path(self) -> Path:
+        return _resolve_backend_path(self.PROMPT_PATH)
+
+    @property
+    def knowledge_base_path(self) -> Path:
+        return _resolve_backend_path(self.KNOWLEDGE_BASE_PATH)
+
+    @property
+    def product_catalog_path(self) -> Path:
+        return _resolve_backend_path(self.PRODUCT_CATALOG_PATH)
+
+    @property
+    def legacy_vector_index_path(self) -> Path:
+        return _resolve_backend_path(self.LEGACY_VECTOR_INDEX_PATH)
+
+    @property
+    def rag_documents_path(self) -> Path:
+        return _resolve_backend_path(self.RAG_DOCUMENTS_PATH)
+
+    @property
+    def products_path(self) -> Path:
+        return _resolve_backend_path(self.PRODUCTS_PATH)
+
+    @property
+    def default_top_k(self) -> int:
+        return self.RAG_TOP_K
+
+    @property
+    def min_retrieval_score(self) -> float:
+        return self.MIN_RETRIEVAL_SCORE
+
+    @property
+    def vector_store_backend(self) -> str:
+        return self.VECTOR_STORE_BACKEND
+
+    @property
+    def ai_response_timeout_seconds(self) -> float:
+        return max(1.0, float(self.AI_RESPONSE_TIMEOUT_SECONDS))
+
+    @property
+    def cors_origins(self) -> list[str]:
+        return [item.strip() for item in self.CORS_ORIGINS.split(",") if item.strip()]
+
+    @property
+    def knowledge_paths(self) -> list[Path]:
+        return [self.knowledge_base_path, self.product_catalog_path, _resolve_backend_path(self.CURATED_FAQ_PATH)]
+
+    @model_validator(mode="after")
+    def reject_insecure_production_defaults(self):
+        if self.ENVIRONMENT != "production":
+            return self
+        problems: list[str] = []
+        if self.SECRET_KEY == "super_secret_key_change_in_production" or len(self.SECRET_KEY) < 32:
+            problems.append("SECRET_KEY must be a unique value of at least 32 characters")
+        if self.ADMIN_PASSWORD == "admin123" or len(self.ADMIN_PASSWORD) < 12:
+            problems.append("ADMIN_PASSWORD must be changed and contain at least 12 characters")
+        if self.AUTO_SEED:
+            problems.append("AUTO_SEED must be false")
+        if any("localhost" in origin or "127.0.0.1" in origin for origin in self.cors_origins):
+            problems.append("CORS_ORIGINS must contain the deployed website origins")
+        if problems:
+            raise ValueError("Unsafe production configuration: " + "; ".join(problems))
+        return self
+
+    class Config:
+        env_file = ".env"
+        extra = "ignore"
+
+settings = Settings()
