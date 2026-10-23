@@ -1947,58 +1947,6 @@
         "selected_color": null
     },
     {
-        "id": 92,
-        "slug": "may-tinh-bang-alldocube-iplay-80-mini-turbo",
-        "sku": "may-tinh-bang-alldocube-iplay-80-mini-turbo",
-        "name": "Alldocube iPlay 80 mini Turbo 4G 8GB 256GB",
-        "brand": "Hãng khác",
-        "category": "Máy tính bảng",
-        "price": 7490000.0,
-        "description": "Alldocube iPlay 80 mini Turbo 4G 8GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: MTK Dimensity 7400; Dung lượng RAM: 8 GB.",
-        "warranty_months": 12,
-        "specifications": {
-            "Hệ điều hành khi ra mắt": "Android 16",
-            "Chipset": "MTK Dimensity 7400",
-            "Dung lượng RAM": "8 GB",
-            "Bộ nhớ trong": "128 GB",
-            "Loại CPU": "4×Cortex-A78@2.6GHz, 4×Cortex-A55@2.0GHz",
-            "GPU": "Arm Mali-G615 MC2 1,35GHz",
-            "Kích thước màn hình": "8.8 inches",
-            "Công nghệ màn hình": "IPS",
-            "Tính năng màn hình": "343 PPI, 16,7 triệu màu Độ sáng 400 nit Tỷ lệ tương phản 1500:1 Tối thiểu 1000:1 Cảm ứng đa điểm điện dung Chạm 10 điểm Incell cán màng đầy đủ Tốc độ làm mới 120 Hz",
-            "Camera sau": "12.89 MP",
-            "Camera trước": "4,92 MP",
-            "Pin": "6500 mAh",
-            "Hỗ trợ mạng": "4G",
-            "Thẻ SIM": "2 Nano-SIM"
-        },
-        "image_url": "/images/products/cellphones_151/may-tinh-bang-alldocube-iplay-80-mini-turbo.jpg",
-        "verification_status": "retailer_reported",
-        "verified_at": null,
-        "source_urls": [
-            {
-                "title": "CellphoneS – Alldocube iPlay 80 mini Turbo 4G 8GB 256GB",
-                "url": "https://cellphones.com.vn/may-tinh-bang-alldocube-iplay-80-mini-turbo.html"
-            }
-        ],
-        "canonical_slug": "may-tinh-bang-alldocube-iplay-80-mini-turbo",
-        "verification_note": "Thông số do CellphoneS công bố, chưa đối chiếu hãng. Giá tham khảo ngày 23/10/2026 được dùng cho cửa hàng demo; không bảo đảm giá hoặc tồn kho thời gian thực. Chính sách bảo hành của nguồn chưa phải chính sách TechCare.",
-        "price_basis": "retailer_reference_snapshot_for_research",
-        "collected_at": "2026-10-23",
-        "warranty_source_text": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.",
-        "warranty_policy": {
-            "source_scope": "CellphoneS",
-            "source_text": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.",
-            "period": {
-                "value": 12,
-                "unit": "tháng"
-            },
-            "conditions_must_be_preserved": true,
-            "type": "stated_period"
-        },
-        "selected_color": null
-    },
-    {
         "id": 93,
         "slug": "may-tinh-bang-teclast-4g-p50-4gb-128gb",
         "sku": "may-tinh-bang-teclast-4g-p50-4gb-128gb",

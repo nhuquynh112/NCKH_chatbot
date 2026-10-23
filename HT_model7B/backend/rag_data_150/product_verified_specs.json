@@ -1106,35 +1106,6 @@
       "selected_color": null,
       "sku": "may-tinh-bang-nubia-pad-pro"
     },
-    "may-tinh-bang-alldocube-iplay-80-mini-turbo": {
-      "catalog_slugs": [
-        "may-tinh-bang-alldocube-iplay-80-mini-turbo"
-      ],
-      "status": "retailer_reported",
-      "verified_at": null,
-      "collected_at": "2026-10-23",
-      "sources": [
-        {
-          "title": "CellphoneS – Alldocube iPlay 80 mini Turbo 4G 8GB 256GB",
-          "url": "https://cellphones.com.vn/may-tinh-bang-alldocube-iplay-80-mini-turbo.html"
-        }
-      ],
-      "verification_note": "Thông số do CellphoneS công bố, chưa đối chiếu hãng. Giá tham khảo ngày 23/10/2026 được dùng cho cửa hàng demo; không bảo đảm giá hoặc tồn kho thời gian thực. Chính sách bảo hành của nguồn chưa phải chính sách TechCare.",
-      "price_basis": "retailer_reference_snapshot_for_research",
-      "warranty_source_text": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.",
-      "warranty_policy": {
-        "source_scope": "CellphoneS",
-        "source_text": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.",
-        "period": {
-          "value": 12,
-          "unit": "tháng"
-        },
-        "conditions_must_be_preserved": true,
-        "type": "stated_period"
-      },
-      "selected_color": null,
-      "sku": "may-tinh-bang-alldocube-iplay-80-mini-turbo"
-    },
     "may-tinh-bang-teclast-4g-p50-4gb-128gb": {
       "catalog_slugs": [
         "may-tinh-bang-teclast-4g-p50-4gb-128gb"

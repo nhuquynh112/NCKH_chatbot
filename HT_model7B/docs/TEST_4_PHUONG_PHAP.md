@@ -2,7 +2,9 @@
 
 Dùng bản `HT_model7B`. B1/B2/P gọi **Qwen2.5-7B-Instruct FP16 gốc**, không fine-tune; B0 không gọi LLM. P+FT không thuộc bốn phương pháp này. Các lượt test mới do nhóm tự chấm, không phải kết quả 24 câu cũ.
 
-Lượt web mới lấy snapshot từ `backend/rag_data_150`: 151 sản phẩm CellphoneS, thu thập 23/10/2026. B0/B2/P dùng cùng snapshot này; B1 không dùng RAG. Kho `rag_data` và kết quả 24 câu cũ được giữ nguyên. Phải tạo workspace mới khi đổi corpus; không dùng kết quả mới như kết quả của study cũ.
+Lượt web mới lấy snapshot từ `backend/rag_data_150`: 150 sản phẩm CellphoneS đang sử dụng, từ 151 link nguồn thu thập 23/10/2026; đã loại một mẫu có thông số không nhất quán. B0/B2/P dùng cùng snapshot này; B1 không dùng RAG. Kho `rag_data` và kết quả 24 câu cũ được giữ nguyên. Phải tạo workspace mới khi đổi corpus; không dùng kết quả mới như kết quả của study cũ.
+
+Bộ [80 ca v1.1](evaluation/blind_60_20261023/HUONG_DAN.md) được giữ nguyên từ commit `c621cb8`, sử dụng snapshot **151 sản phẩm** trước khi gỡ Alldocube. Manifest nguồn của bộ đó không khớp catalog 150 hiện tại; riêng S48 và H10 còn tham chiếu Alldocube. Muốn tái lập đúng bộ đề đã có, dùng code/corpus tại commit đó trong checkout riêng. Nếu chấm catalog 150 mới, nhóm cần duyệt lại các ca bị ảnh hưởng và khóa phiên bản đề/đáp án/manifest mới trước khi chạy; không trộn hai phiên bản kết quả. Không đưa câu hỏi hoặc đáp án vào RAG.
 
 ## 1. Chuẩn bị một lần
 
@@ -65,7 +67,7 @@ Cùng mã câu phải giữ nguyên câu hỏi và lịch sử cho bốn phươn
 
 Mỗi người clone/cập nhật cùng commit của nhánh `chatbotv1-demo`, cài cùng model FP16 và embedding rồi chạy hai terminal như trên trên máy của mình. Tạo workspace mới để dùng corpus `rag_data_150`; không mở lại workspace catalog cũ. Chốt trước cùng 50 mã câu, nguyên văn câu hỏi và lịch sử; chia phương pháp để chạy hoặc chạy độc lập rồi đối chiếu. Mỗi máy xuất CSV và giữ raw JSON riêng.
 
-Kiểm tra thông tin cấu hình trên web: dataset `rag_data_150`, 300 tài liệu, model `qwen2.5:7b-instruct-fp16` và precision `F16`. B0 không gọi LLM; B1 không đọc catalog/RAG nên không được bổ sung tài liệu cho riêng B1. Kết quả chất lượng cần chấm theo cùng tiêu chí; thời gian phản hồi giữa hai máy khác phần cứng không phải phép so sánh tốc độ có kiểm soát. Một backend test chỉ nhận một lượt suy luận tại một thời điểm; hai người không chạy đồng thời trên cùng backend.
+Kiểm tra thông tin cấu hình trên web: dataset `rag_data_150`, 299 tài liệu, model `qwen2.5:7b-instruct-fp16` và precision `F16`. B0 không gọi LLM; B1 không đọc catalog/RAG nên không được bổ sung tài liệu cho riêng B1. Kết quả chất lượng cần chấm theo cùng tiêu chí; thời gian phản hồi giữa hai máy khác phần cứng không phải phép so sánh tốc độ có kiểm soát. Một backend test chỉ nhận một lượt suy luận tại một thời điểm; hai người không chạy đồng thời trên cùng backend.
 
 ### Câu nhiều lượt
 

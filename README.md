@@ -9,7 +9,7 @@ Hệ thống hỗ trợ hỏi đáp sản phẩm, giá, bảo hành và chính s
 | Thư mục | Nội dung |
 |---|---|
 | `HT_model7B/backend` | FastAPI, SQLite, chatbot/RAG và bộ so sánh bốn phương pháp |
-| `HT_model7B/backend/rag_data_150` | Catalog 151 sản phẩm, FAQ, nguồn và chỉ mục RAG hiện tại |
+| `HT_model7B/backend/rag_data_150` | Catalog 150 sản phẩm, FAQ, nguồn và chỉ mục RAG hiện tại |
 | `HT_model7B/frontend` | React/Vite, giao diện website và ảnh sản phẩm |
 | `HT_model7B/docs` | Hướng dẫn chạy, test và tái lập nghiên cứu |
 | `HT_model3B` | Bản lưu lịch sử, có cấu hình/model riêng; không phải bản chạy hiện tại |
@@ -74,7 +74,9 @@ Kết quả test được lưu riêng ngoài repository và ngoài lịch sử k
 
 ## Dữ liệu và giới hạn
 
-Catalog hiện tại có 151 sản phẩm và 300 tài liệu trong chỉ mục, lấy nguồn tham khảo từ các link CellphoneS do nhóm chọn, thu thập ngày 23/10/2026. Giá là snapshot phục vụ demo; dữ kiện do nhà bán lẻ công bố chưa được đối chiếu toàn bộ với hãng. Chính sách TechCare và các luồng nghiệp vụ là dữ liệu nghiên cứu. Kho `rag_data` và kết quả cũ được giữ riêng, không dùng để tuyên bố kết quả của catalog mới.
+Catalog hiện tại có 150 sản phẩm và 299 tài liệu trong chỉ mục, từ 151 link CellphoneS ban đầu do nhóm chọn, thu thập ngày 23/10/2026; đã loại một mẫu có thông số không nhất quán. Giá là snapshot phục vụ demo; dữ kiện do nhà bán lẻ công bố chưa được đối chiếu toàn bộ với hãng. Chính sách TechCare và các luồng nghiệp vụ là dữ liệu nghiên cứu. Kho `rag_data` và kết quả cũ được giữ riêng, không dùng để tuyên bố kết quả của catalog mới.
+
+Máy đã có database catalog cũ cần đồng bộ một lần theo [hướng dẫn cập nhật catalog](HT_model7B/README.md), rồi khởi động lại backend. Pull source không tự ghi đè database hoặc lịch sử đang có. Phiên test mới lấy snapshot 150 sản phẩm; giữ nguyên snapshot/code của lượt đang chấm.
 
 Để chạy lại bản 3B, dùng đường dẫn `HT_model3B` tương ứng và đọc [hướng dẫn 3B](HT_model3B/README.md). Trọng số 3B cũ vẫn được Git LFS quản lý. Cấu hình/lịch sử cá nhân có sẵn được giữ cùng bản 3B và bị Git bỏ qua; không sao chép `.env` đó sang bản 7B.
 

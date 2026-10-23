@@ -1,13 +1,13 @@
 {
-  "dataset_id": "cellphones_151_20261023",
-  "product_count": 151,
-  "folder_name_note": "Tên rag_data_150 theo yêu cầu; người dùng đã chọn giữ đủ 151 link.",
+  "dataset_id": "cellphones_150_20261023_r2",
+  "product_count": 150,
+  "folder_name_note": "rag_data_150: 150 sản phẩm đang sử dụng; 151 link nguồn ban đầu, đã loại một mẫu theo yêu cầu nhóm.",
   "collected_at": "2026-10-23",
   "source": "https://cellphones.com.vn/",
   "verification_status": "retailer_reported",
   "categories": {
     "Điện thoại": 22,
-    "Máy tính bảng": 18,
+    "Máy tính bảng": 17,
     "Laptop": 24,
     "PC": 11,
     "Màn hình": 1,
@@ -62,7 +62,6 @@
     "may-tinh-bang-honor-pad-v9-wifi": "a3328b44b8627434272523ceb240ed3ebef6912c0c22ff307d549e400fcc6110",
     "may-tinh-bang-oppo-pad-5": "1f38be28fd5edbcc0da794605d3d7bbfe0998adcadc6645fbe90d56fd0a7571f",
     "may-tinh-bang-nubia-pad-pro": "ef6ab38d6d7014c96e1781a099e1119c2e78d8cacc594996eb539215bbb3f85e",
-    "may-tinh-bang-alldocube-iplay-80-mini-turbo": "de0128d86235791be2db478c394f9dcd818d6e346c948eb48adb544ab472a680",
     "may-tinh-bang-teclast-4g-p50-4gb-128gb": "605ad5ed43d8ef6670d5efb1ed62e77b8e03dfdf84971fd2ee4cc689da92ee2d",
     "laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark": "3481705ae89f2ea699dc160867b294f6b14326e4a60671e4acb63472ae0c9b60",
     "laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark": "8e2fc1ad318f360872f5cea914f3412f282aefbe2d1b37b0a41e5d0bba2b6b81",
@@ -176,5 +175,16 @@
     "chuot-gaming-khong-day-asus-rog-strix-impact-iii-wl": "54e0fec7b329c88b564b8aef6795ce98fdd815e6b630cc2d29e84c4bb092dc3e",
     "chuot-khong-day-bluetooth-rapoo-mt560": "eb05cd52bf0c2e9bff0d620b7921c76aba55852da4a891d98eae92abf84980a6"
   },
-  "name_normalization": "Hai PC Creator dùng tên model H950/H780 trên catalog; CPU/GPU giữ trong thông số và tên đầy đủ ở link nguồn."
+  "name_normalization": "Hai PC Creator dùng tên model H950/H780 trên catalog; CPU/GPU giữ trong thông số và tên đầy đủ ở link nguồn.",
+  "source_product_count": 151,
+  "document_count": 299,
+  "updated_at": "2026-10-23T14:34:17.618644+00:00",
+  "excluded_products": [
+    {
+      "slug": "may-tinh-bang-alldocube-iplay-80-mini-turbo",
+      "name": "Alldocube iPlay 80 mini Turbo 4G 8GB 256GB",
+      "reason": "Removed at user request: product name says 256GB but collected storage specification says 128GB.",
+      "status": "excluded_from_active_catalog_and_rag"
+    }
+  ]
 }

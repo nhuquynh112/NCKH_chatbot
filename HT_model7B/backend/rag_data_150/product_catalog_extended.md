@@ -1453,45 +1453,6 @@ Nguồn tham khảo: CellphoneS – Nubia Pad Pro 12GB 256GB — https://cellpho
 
 ---
 
-# Alldocube iPlay 80 mini Turbo 4G 8GB 256GB
-
-## Thông tin chung
-
-Hãng: Hãng khác
-
-Danh mục: Máy tính bảng
-
-Giá: 7,490,000 VNĐ
-
-Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
-
-Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
-
-## Mô tả
-
-Alldocube iPlay 80 mini Turbo 4G 8GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: MTK Dimensity 7400; Dung lượng RAM: 8 GB.
-
-## Thông số kỹ thuật
-
-- Hệ điều hành khi ra mắt: Android 16
-- Chipset: MTK Dimensity 7400
-- Dung lượng RAM: 8 GB
-- Bộ nhớ trong: 128 GB
-- Loại CPU: 4×Cortex-A78@2.6GHz, 4×Cortex-A55@2.0GHz
-- GPU: Arm Mali-G615 MC2 1,35GHz
-- Kích thước màn hình: 8.8 inches
-- Công nghệ màn hình: IPS
-- Tính năng màn hình: 343 PPI, 16,7 triệu màu Độ sáng 400 nit Tỷ lệ tương phản 1500:1 Tối thiểu 1000:1 Cảm ứng đa điểm điện dung Chạm 10 điểm Incell cán màng đầy đủ Tốc độ làm mới 120 Hz
-- Camera sau: 12.89 MP
-- Camera trước: 4,92 MP
-- Pin: 6500 mAh
-- Hỗ trợ mạng: 4G
-- Thẻ SIM: 2 Nano-SIM
-
-Nguồn tham khảo: CellphoneS – Alldocube iPlay 80 mini Turbo 4G 8GB 256GB — https://cellphones.com.vn/may-tinh-bang-alldocube-iplay-80-mini-turbo.html
-
----
-
 # Máy tính bảng Teclast 4G P50 4GB 128GB
 
 ## Thông tin chung

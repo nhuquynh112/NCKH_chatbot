@@ -44,19 +44,17 @@ npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort
 
 `/ready` cần có `chat_model: qwen2.5:7b-instruct-fp16`, `ai: ok`, `status: ready`. Readiness chưa kiểm tra embedding/index; cần thử thêm câu RAG thực tế. Dừng bản 3B trước nếu đang dùng các cổng này.
 
-Không cần `.env` cho demo mặc định. Backend tự tạo SQLite `backend/techcare.db`, bảng và 151 sản phẩm/30 FAQ khi bảng trống; các lần sau giữ dữ liệu đã có. Database cần cho sản phẩm/FAQ, lịch sử, ticket và quản trị. Kho đang dùng là `backend/rag_data_150/` (tên theo yêu cầu, thực tế 151 sản phẩm); `backend/rag_data/` giữ nguyên làm corpus lịch sử. Nếu tùy chỉnh, sao chép `backend/.env.example` khi chưa có `.env`; không dùng file cấu hình cá nhân của bản 3B. Biến môi trường terminal ưu tiên hơn default.
+Không cần `.env` cho demo mặc định. Backend tự tạo SQLite `backend/techcare.db`, bảng và 150 sản phẩm/30 FAQ khi bảng trống; các lần sau giữ dữ liệu đã có. Database cần cho sản phẩm/FAQ, lịch sử, ticket và quản trị. Kho đang dùng là `backend/rag_data_150/`; `backend/rag_data/` giữ nguyên làm corpus lịch sử. Nếu tùy chỉnh, sao chép `backend/.env.example` khi chưa có `.env`; không dùng file cấu hình cá nhân của bản 3B. Biến môi trường terminal ưu tiên hơn default.
 
-Catalog mới lấy từ 151 link CellphoneS do nhóm chọn, thu thập ngày 23/10/2026. Thông số được ghi là do nhà bán lẻ công bố, chưa mặc định đã đối chiếu hãng. Giá được dùng làm giá demo tại thời điểm thu thập; điều kiện bảo hành của nguồn không tự động trở thành chính sách TechCare. Ảnh và nguồn xem trên trang chi tiết; danh sách nguồn/phiên bản nằm trong `rag_data_150/catalog_manifest.json` và `product_verified_specs.json`.
+Catalog mới lấy từ 151 link CellphoneS do nhóm chọn, thu thập ngày 23/10/2026; bản hiện tại còn 150 sản phẩm sau khi loại mẫu có thông số không nhất quán. Chỉ mục hiện có 299 tài liệu. Thông số được ghi là do nhà bán lẻ công bố, chưa mặc định đã đối chiếu hãng. Giá được dùng làm giá demo tại thời điểm thu thập; điều kiện bảo hành của nguồn không tự động trở thành chính sách TechCare. Ảnh và nguồn xem trên trang chi tiết; danh sách nguồn/phiên bản và mẫu bị loại nằm trong `rag_data_150/catalog_manifest.json` và `product_verified_specs.json`.
 
-Máy đã có database catalog cũ cần đồng bộ **một lần**, từ thư mục backend. Bản sao database được lưu ngoài repository; sản phẩm cũ chỉ bị ẩn, không xóa lịch sử/ticket:
+Máy đã có database catalog cũ cần dừng backend và đồng bộ **một lần**, từ thư mục backend. Bản sao database được lưu ngoài repository; sản phẩm cũ chỉ bị ẩn, không xóa lịch sử/ticket:
 
 ```powershell
-python sync_catalog.py --replace-active --backup-dir D:\TechCareBackup
-python export_rag.py
-python rebuild_rag.py
+& .\.venv\Scripts\python.exe sync_catalog.py --replace-active --backup-dir D:\TechCareBackup
 ```
 
-Chỉ mục đi kèm dùng `nomic-embed-text`; khi thay dữ liệu thì xuất lại và rebuild embedding/index, không train LLM. Các lệnh trên mặc định chỉ ghi vào `rag_data_150`. Dừng và mở lại backend sau khi đổi nguồn dữ liệu.
+Khi pull catalog và chỉ mục đã đóng gói, chỉ cần lệnh đồng bộ trên rồi mở lại backend; không cần dựng lại chỉ mục. Khi nhóm tự chỉnh dữ liệu sản phẩm, xuất lại và rebuild embedding/index bằng `export_rag.py` và `rebuild_rag.py` (cùng Python của `.venv`). Các script mặc định ghi vào `rag_data_150`, không train LLM; embedding dùng `nomic-embed-text`.
 
 ## So sánh nghiên cứu
 
@@ -83,6 +81,6 @@ Từ `HT_model7B`, khi đã cài dependencies backend/frontend và có Ollama:
 
 Runner dùng DB thử và lưu output ngoài project. [Cấu hình và cập nhật dữ liệu](docs/README.md), [demo bốn phương pháp](docs/LOCAL_BENCHMARK_DEMO.md), [giấy phép](docs/THIRD_PARTY_NOTICES.md).
 
-Unit tests có kiểm tra catalog 151 sản phẩm mới. Các script đánh giá với câu hỏi/đáp án cố định cũ được runner giữ trên corpus `rag_data`; chúng là kiểm tra hồi quy, không phải điểm chất lượng của lượt test 50 câu mới.
+Unit tests có kiểm tra catalog 150 sản phẩm mới. Các script đánh giá với câu hỏi/đáp án cố định cũ được runner giữ trên corpus `rag_data`; chúng là kiểm tra hồi quy, không phải điểm chất lượng của lượt test 50 câu mới.
 
 Corpus kỹ thuật còn thiếu; có fallback/ticket khi thiếu bằng chứng. Các lỗi trong luật lọc sản phẩm không tự biến mất khi đổi model. Chưa đo hiệu năng laptop RTX 3050; không cam kết chạy hoàn toàn trên GPU 6 GB. npm còn cảnh báo dependency Tailwind cần rà soát trước triển khai công khai. Đây là bản nghiên cứu local, chưa phải production.
