@@ -38,13 +38,13 @@ class Settings(BaseSettings):
     CHROMA_COLLECTION: str = "techcare_rag"
     CHROMA_PERSIST_DIR: Path = Path("chroma_db")
     PROMPT_PATH: Path = Path("rag_data/system_prompt.txt")
-    KNOWLEDGE_BASE_PATH: Path = Path("rag_data/knowledge_base.md")
-    CURATED_FAQ_PATH: Path = Path("rag_data/faq_curated.json")
-    PRODUCT_CATALOG_PATH: Path = Path("rag_data/product_catalog_extended.md")
-    LEGACY_VECTOR_INDEX_PATH: Path = Path("rag_data/vector_index.json")
-    RAG_DOCUMENTS_PATH: Path = Path("rag_data/techcare_rag_documents.json")
+    KNOWLEDGE_BASE_PATH: Path = Path("rag_data_150/knowledge_base.md")
+    CURATED_FAQ_PATH: Path = Path("rag_data_150/faq_curated.json")
+    PRODUCT_CATALOG_PATH: Path = Path("rag_data_150/product_catalog_extended.md")
+    LEGACY_VECTOR_INDEX_PATH: Path = Path("rag_data_150/vector_index.json")
+    RAG_DOCUMENTS_PATH: Path = Path("rag_data_150/techcare_rag_documents.json")
     # This file is exported from the same Product table shown on the website.
-    PRODUCTS_PATH: Path = Path("rag_data/techcare_products.json")
+    PRODUCTS_PATH: Path = Path("rag_data_150/techcare_products.json")
     VECTOR_STORE_BACKEND: Literal["json", "chroma", "auto"] = "json"
     RAG_TOP_K: int = 5
     MIN_RETRIEVAL_SCORE: float = 0.38

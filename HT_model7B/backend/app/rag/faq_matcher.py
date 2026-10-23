@@ -9,7 +9,11 @@ from functools import lru_cache
 from app.rag.query_rewriter import QueryRewriter, strip_accents
 
 
-DEFAULT_FAQ_PATH = Path(__file__).resolve().parents[2] / "rag_data" / "faq_curated.json"
+from app.config import settings
+
+DEFAULT_FAQ_PATH = settings.CURATED_FAQ_PATH
+if not DEFAULT_FAQ_PATH.is_absolute():
+    DEFAULT_FAQ_PATH = Path(__file__).resolve().parents[2] / DEFAULT_FAQ_PATH
 STOP = {"co", "khong", "ko", "k", "a", "ah", "oi", "la", "gi", "j", "nao", "the", "toi", "minh", "ban", "shop", "cua", "ve", "cho", "techcare", "ho", "tro", "hang", "vay", "duoc", "hay", "va"}
 LEGACY_UNVERIFIED_ANSWERS = {
     "Chào bạn, TechCare hỗ trợ trả góp 0% qua thẻ tín dụng và qua các công ty tài chính như Home Credit, HD Saison. Thủ tục rất đơn giản và duyệt nhanh trong 15 phút.",

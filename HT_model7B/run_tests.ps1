@@ -19,7 +19,15 @@ if ($workRoot.Equals($projectRoot, [StringComparison]::OrdinalIgnoreCase) -or $w
 $runRoot = Join-Path $workRoot ('tests-' + [DateTime]::UtcNow.ToString('yyyyMMddTHHmmssZ') + '-' + [Guid]::NewGuid().ToString('N').Substring(0, 8))
 $testTempRoot = Join-Path $runRoot 'tmp'
 New-Item -ItemType Directory -Path $testTempRoot -Force | Out-Null
-$environmentKeys = @('DATABASE_URL', 'ENVIRONMENT', 'AUTO_SEED', 'WARM_AI_ON_STARTUP', 'CHAT_PROVIDER', 'TEMP', 'TMP', 'CHATBOT_WORK_DIR', 'PYTHONPYCACHEPREFIX', 'PYTHONIOENCODING')
+$historicalInputs = @{
+    PRODUCTS_PATH = 'techcare_products.json'
+    RAG_DOCUMENTS_PATH = 'techcare_rag_documents.json'
+    PRODUCT_CATALOG_PATH = 'product_catalog_extended.md'
+    KNOWLEDGE_BASE_PATH = 'knowledge_base.md'
+    CURATED_FAQ_PATH = 'faq_curated.json'
+    LEGACY_VECTOR_INDEX_PATH = 'vector_index.json'
+}
+$environmentKeys = @('DATABASE_URL', 'ENVIRONMENT', 'AUTO_SEED', 'WARM_AI_ON_STARTUP', 'CHAT_PROVIDER', 'TEMP', 'TMP', 'CHATBOT_WORK_DIR', 'PYTHONPYCACHEPREFIX', 'PYTHONIOENCODING') + @($historicalInputs.Keys)
 $savedEnvironment = @{}
 foreach ($key in $environmentKeys) { $savedEnvironment[$key] = [Environment]::GetEnvironmentVariable($key, 'Process') }
 
@@ -54,6 +62,11 @@ try {
     Push-Location $backendRoot
     try {
         Invoke-TestStep '01 Backend unit/integration' $python @('-B', '-m', 'unittest', 'discover', '-s', 'tests', '-v')
+        # The fixed evaluation questions/answers describe the preserved catalog.
+        # Keep them on that corpus; the unit suite above also checks rag_data_150.
+        foreach ($key in $historicalInputs.Keys) {
+            [Environment]::SetEnvironmentVariable($key, (Join-Path $backendRoot ('rag_data\' + $historicalInputs[$key])), 'Process')
+        }
         Invoke-TestStep '02 Catalog/API regression' $python @('-B', 'evaluate_chatbot.py')
         Invoke-TestStep '03 FAQ/RAG fixed cases' $python @('-B', 'evaluate_quality.py', '--label', $EvaluationLabel, '--legacy-faqs')
         $offlineLabel = $EvaluationLabel + '-offline'

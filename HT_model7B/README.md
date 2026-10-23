@@ -42,7 +42,19 @@ npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort
 
 `/ready` cần có `chat_model: qwen2.5:7b-instruct-fp16`, `ai: ok`, `status: ready`. Readiness chưa kiểm tra embedding/index; cần thử thêm câu RAG thực tế. Dừng bản 3B trước nếu đang dùng các cổng này.
 
-Không cần `.env` cho demo mặc định. Backend tự tạo SQLite `backend/techcare.db`, bảng và 53 sản phẩm/30 FAQ khi bảng trống; các lần sau giữ dữ liệu đã có. Database cần cho sản phẩm/FAQ, lịch sử, ticket và quản trị; kho RAG nằm riêng ở `backend/rag_data/`. Nếu tùy chỉnh, sao chép `backend/.env.example` khi chưa có `.env`; không dùng file cấu hình cá nhân của bản 3B. Biến môi trường terminal ưu tiên hơn default.
+Không cần `.env` cho demo mặc định. Backend tự tạo SQLite `backend/techcare.db`, bảng và 151 sản phẩm/30 FAQ khi bảng trống; các lần sau giữ dữ liệu đã có. Database cần cho sản phẩm/FAQ, lịch sử, ticket và quản trị. Kho đang dùng là `backend/rag_data_150/` (tên theo yêu cầu, thực tế 151 sản phẩm); `backend/rag_data/` giữ nguyên làm corpus lịch sử. Nếu tùy chỉnh, sao chép `backend/.env.example` khi chưa có `.env`; không dùng file cấu hình cá nhân của bản 3B. Biến môi trường terminal ưu tiên hơn default.
+
+Catalog mới lấy từ 151 link CellphoneS do nhóm chọn, thu thập ngày 23/10/2026. Thông số được ghi là do nhà bán lẻ công bố, chưa mặc định đã đối chiếu hãng. Giá được dùng làm giá demo tại thời điểm thu thập; điều kiện bảo hành của nguồn không tự động trở thành chính sách TechCare. Ảnh và nguồn xem trên trang chi tiết; danh sách nguồn/phiên bản nằm trong `rag_data_150/catalog_manifest.json` và `product_verified_specs.json`.
+
+Máy đã có database catalog cũ cần đồng bộ **một lần**, từ thư mục backend. Bản sao database được lưu ngoài repository; sản phẩm cũ chỉ bị ẩn, không xóa lịch sử/ticket:
+
+```powershell
+python sync_catalog.py --replace-active --backup-dir D:\TechCareBackup
+python export_rag.py
+python rebuild_rag.py
+```
+
+Chỉ mục đi kèm dùng `nomic-embed-text`; khi thay dữ liệu thì xuất lại và rebuild embedding/index, không train LLM. Các lệnh trên mặc định chỉ ghi vào `rag_data_150`. Dừng và mở lại backend sau khi đổi nguồn dữ liệu.
 
 ## So sánh nghiên cứu
 
@@ -55,7 +67,7 @@ Nhóm muốn tự nhập 50 câu và chạy **từng phương pháp trên web**:
 | B2 | `qwen2.5:7b-instruct-fp16`, RAG cơ bản |
 | P | `qwen2.5:7b-instruct-fp16`, pipeline đề xuất |
 
-Giữ nguyên thuật toán, dữ liệu, câu hỏi/lịch sử, prompt và generation settings: temperature 0, context 4096, output 384, repeat_penalty 1; K=5, threshold 0,38. Mỗi study mới ghi model trong protocol/manifest và identity/digest thực tế trong kết quả. Bản vá website có sẵn không được dùng thay pipeline P trong benchmark. P+FT chỉ là thử nghiệm lịch sử, không thuộc phép so sánh 7B gốc này.
+Giữ nguyên thuật toán, prompt và generation settings: temperature 0, context 4096, output 384, repeat_penalty 1; K=5, threshold 0,38. Lượt test web mới dùng snapshot `rag_data_150` cho B0/B2/P; B1 không đọc corpus. Cùng một lượt so sánh phải giữ nguyên corpus và câu hỏi/lịch sử. Không so trực tiếp số liệu catalog mới với benchmark 24 câu trên catalog cũ. Mỗi study mới ghi model trong protocol/manifest và identity/digest thực tế trong kết quả. Bản vá website có sẵn không được dùng thay pipeline P trong benchmark. P+FT chỉ là thử nghiệm lịch sử, không thuộc phép so sánh 7B gốc này.
 
 [Kết quả 3B đã đóng gói](docs/research/chapter5-24/README.md) được giữ nguyên; chưa được gọi là kết quả 7B. Lượt smoke 7B Q4 trước khi đổi precision cũng không phải kết quả FP16. [Hướng dẫn tái lập](docs/REPRODUCING_RESEARCH.md) tạo study mới và không ghi đè lượt cũ. Không train hoặc nạp đáp án test vào RAG.
 
@@ -68,5 +80,7 @@ Từ `HT_model7B`, khi đã cài dependencies backend/frontend và có Ollama:
 ```
 
 Runner dùng DB thử và lưu output ngoài project. [Cấu hình và cập nhật dữ liệu](docs/README.md), [demo bốn phương pháp](docs/LOCAL_BENCHMARK_DEMO.md), [giấy phép](docs/THIRD_PARTY_NOTICES.md).
+
+Unit tests có kiểm tra catalog 151 sản phẩm mới. Các script đánh giá với câu hỏi/đáp án cố định cũ được runner giữ trên corpus `rag_data`; chúng là kiểm tra hồi quy, không phải điểm chất lượng của lượt test 50 câu mới.
 
 Corpus kỹ thuật còn thiếu; có fallback/ticket khi thiếu bằng chứng. Các lỗi trong luật lọc sản phẩm không tự biến mất khi đổi model. Chưa đo hiệu năng laptop RTX 3050; không cam kết chạy hoàn toàn trên GPU 6 GB. npm còn cảnh báo dependency Tailwind cần rà soát trước triển khai công khai. Đây là bản nghiên cứu local, chưa phải production.

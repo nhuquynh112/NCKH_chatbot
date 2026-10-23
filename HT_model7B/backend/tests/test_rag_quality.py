@@ -16,6 +16,7 @@ from app.rag.retriever import Retriever
 from app.rag.vector_store import Document
 from app.services.ai_service import AIService
 from app.services.chat_service import ChatService as CustomerChatService
+from tests.catalog_fixture import pin_historical_catalog
 
 
 class FakeEmbeddingClient:
@@ -52,10 +53,10 @@ class EmptyVectorStore:
 class GuardrailQualityTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        catalog = ProductCatalog(settings.rag_documents_path, settings.products_path)
+        catalog = pin_historical_catalog(ProductCatalog(settings.rag_documents_path, settings.products_path))
         cls.policy = GuardrailPolicy(catalog, settings.min_retrieval_score)
 
-    def test_catalog_matches_website_export(self):
+    def test_preserved_historical_catalog_has_53_products(self):
         self.assertEqual(len(self.policy.product_catalog.load_products()), 53)
 
     def test_vietnamese_d_is_normalized(self):
@@ -317,7 +318,7 @@ class QueryRewriteTests(unittest.TestCase):
 class ConversationMemoryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        catalog = ProductCatalog(settings.rag_documents_path, settings.products_path)
+        catalog = pin_historical_catalog(ProductCatalog(settings.rag_documents_path, settings.products_path))
         policy = GuardrailPolicy(catalog, settings.min_retrieval_score)
         cls.service = ChatService(
             retriever=Retriever(EmptyVectorStore(), QueryRewriter(), policy),

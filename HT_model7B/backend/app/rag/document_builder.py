@@ -18,16 +18,23 @@ def product_to_rag_document(product: ProductRecord) -> dict[str, Any]:
         for key, value in product.specifications.items()
     )
     specs_block = f"\n\nThông số kỹ thuật:\n{specs}" if specs else ""
+    warranty = product.warranty_source_text or (
+        f"{product.warranty_months} tháng" if product.warranty_months else "chưa xác nhận"
+    )
     content = (
         f"{product.name} mã {product.sku} thuộc nhóm {product.category}. "
         f"Hãng: {product.brand or 'chưa có dữ liệu'}. "
         f"Giá niêm yết: {format_price_vnd(product.price)}. "
-        f"Bảo hành: {product.warranty_months} tháng. "
+        f"Bảo hành: {warranty}. "
         f"Mô tả: {product.description}."
         f"{specs_block}"
     )
     if product.verification_status == "official_verified":
         content += f"\n\nThông số được đối chiếu nguồn hãng ngày {product.verified_at}."
+    elif product.verification_status == "retailer_reported":
+        content += f"\n\nThông số do nhà bán lẻ công bố, thu thập ngày {product.collected_at}. Giá/chính sách nguồn là tham khảo phục vụ demo, chưa xác nhận tồn kho hoặc chính sách TechCare."
+    for source in product.source_urls:
+        content += f"\nNguồn: {source.get('title', '')} — {source.get('url', '')}"
 
     return {
         "id": product.sku,

@@ -85,14 +85,39 @@ const ProductDetail = () => {
               {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(product.price)}
             </div>
 
+            {product.price_basis === 'retailer_reference_snapshot_for_research' && (
+              <p className="text-sm text-gray-500 mb-4">
+                Giá tham khảo từ CellphoneS ngày {product.collected_at}, dùng cho cửa hàng demo.
+                Thông số do nhà bán lẻ công bố; chưa đối chiếu toàn bộ với hãng.
+                {product.selected_color && ` Biến thể: ${product.selected_color}.`}
+              </p>
+            )}
+
             <p className="text-gray-600 mb-8 leading-relaxed whitespace-pre-line">
               {product.description}
             </p>
 
             <div className="flex items-center gap-3 text-sm text-gray-600 mb-8 p-4 bg-gray-50 rounded-xl border border-gray-100">
               <ShieldCheck className="w-5 h-5 text-green-500" />
-              <span>Bảo hành chính hãng: <strong className="text-gray-900">{product.warranty_months} tháng</strong></span>
+              <span>
+                {product.verification_status === 'retailer_reported' ? 'Bảo hành tại nguồn tham khảo: ' : 'Bảo hành: '}
+                <strong className="text-gray-900">
+                  {product.warranty_source_text || (product.warranty_months != null ? `${product.warranty_months} tháng` : 'Chưa xác nhận')}
+                </strong>
+              </span>
             </div>
+
+            {product.source_urls?.length > 0 && (
+              <div className="text-sm text-gray-600 mb-6 space-y-2">
+                <p>Nguồn thông tin sản phẩm:</p>
+                {product.source_urls.map(source => (
+                  <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer" className="block text-primary-600 underline break-words">
+                    {source.title}
+                  </a>
+                ))}
+                <p>Điều kiện bảo hành/đổi trả của nguồn chưa tự động áp dụng thành chính sách TechCare.</p>
+              </div>
+            )}
 
             <button
               onClick={() => window.dispatchEvent(new CustomEvent('techcare:open-chat', {

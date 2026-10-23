@@ -8,7 +8,7 @@ Repository chứa hai bản hệ thống tách riêng để chạy và so sánh:
 | [HT_model7B](HT_model7B/README.md) | `qwen2.5:7b-instruct-fp16` gốc qua Ollama | Bản mới, trọng số FP16; B1/B2/P cùng dùng 7B, không fine-tune |
 | BaoCao | — | Báo cáo Word gốc, không thuộc code ứng dụng |
 
-Mỗi bản có `backend/`, `frontend/`, `docs/` và script kiểm thử riêng. Dữ liệu/prompt/cấu hình truy xuất của phép so sánh được giữ nguyên; kết quả 3B đã lưu không phải kết quả 7B. Chỉ chạy một bản mỗi lần với cổng mặc định 8000/5173.
+Mỗi bản có `backend/`, `frontend/`, `docs/` và script kiểm thử riêng. Bản 7B hiện dùng catalog 151 sản phẩm trong `backend/rag_data_150/`, gồm ảnh và nguồn CellphoneS; `rag_data/` và kết quả nghiên cứu cũ được giữ nguyên. Không trộn kết quả giữa hai corpus. Chỉ chạy một bản mỗi lần với cổng mặc định 8000/5173.
 
 ## Lấy source
 
@@ -22,7 +22,7 @@ Git LFS dùng cho trọng số 3B được lưu trữ. Model 7B FP16 khoảng 15
 
 ## Chạy bản 7B
 
-Để nhóm **test 50 câu trên web lần lượt B0/B1/B2/P**, dùng [hướng dẫn bốn phương pháp](HT_model7B/docs/TEST_4_PHUONG_PHAP.md). Chế độ chạy độc lập trên 8012/5174, có câu hỏi tự nhập, lưu kết quả và xuất CSV; không cần snapshot riêng của máy tác giả.
+Để nhóm **test 50 câu trên web lần lượt B0/B1/B2/P**, dùng [hướng dẫn bốn phương pháp](HT_model7B/docs/TEST_4_PHUONG_PHAP.md). Chế độ chạy độc lập trên 8012/5174, có câu hỏi tự nhập, lưu kết quả và xuất CSV; không cần snapshot riêng của máy tác giả. Hai người có thể chạy trên hai máy với cùng phiên bản code, corpus và bộ câu hỏi/lịch sử; mỗi máy lưu kết quả riêng.
 
 Cần Python, Node.js và Ollama. Cài dependencies theo [README 7B](HT_model7B/README.md); model 7B nằm trong kho Ollama, không được chép trọng số vào Git:
 

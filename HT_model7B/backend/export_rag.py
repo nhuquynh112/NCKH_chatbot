@@ -6,18 +6,18 @@ from app.database import SessionLocal
 from app.models import Product, FAQ
 from app.product_enrichment import merge_verified_product
 from app.rag.document_builder import write_product_rag_documents
-from app.config import BACKEND_ROOT
+from app.config import settings
 from app.rag.faq_matcher import load_curated_faqs, LEGACY_UNVERIFIED_ANSWERS
 
 # ==========================================================
 # Output Paths
 # ==========================================================
 
-OUTPUT_DIR = BACKEND_ROOT / "rag_data"
+OUTPUT_DIR = settings.products_path.parent
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-PRODUCT_JSON = OUTPUT_DIR / "techcare_products.json"
-PRODUCT_MD = OUTPUT_DIR / "product_catalog_extended.md"
+PRODUCT_JSON = settings.products_path
+PRODUCT_MD = settings.product_catalog_path
 FAQ_MD = OUTPUT_DIR / "faq_generated.md"
 
 # ==========================================================
@@ -81,6 +81,11 @@ def export_products_markdown(db):
 
         for p in products:
 
+            item = merge_verified_product({
+                "slug": p.slug, "name": p.name, "warranty_months": p.warranty_months,
+                "specifications": p.specifications,
+            }, preserve_store_fields=True)
+
             f.write(f"# {p.name}\n\n")
 
             f.write("## Thông tin chung\n\n")
@@ -91,7 +96,12 @@ def export_products_markdown(db):
 
             f.write(f"Giá: {int(p.price):,} VNĐ\n\n")
 
-            f.write(f"Bảo hành: {p.warranty_months} tháng\n\n")
+            warranty = item.get("warranty_source_text") or (
+                f"{p.warranty_months} tháng" if p.warranty_months is not None else "Chưa xác nhận"
+            )
+            f.write(f"Bảo hành tham khảo: {warranty}\n\n")
+            if item.get("price_basis") == "retailer_reference_snapshot_for_research":
+                f.write(f"Dữ liệu tham khảo CellphoneS ngày {item.get('collected_at')}; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n")
 
             f.write("## Mô tả\n\n")
 
@@ -107,7 +117,10 @@ def export_products_markdown(db):
 
                 f.write("\n")
 
-            f.write("---\n\n")
+            for source in item.get("source_urls", []):
+                f.write(f"Nguồn tham khảo: {source['title']} — {source['url']}\n\n")
+
+            f.write("---\n" if p is products[-1] else "---\n\n")
 
     print(f"✓ Exported Product Catalog -> {PRODUCT_MD}")
 

@@ -1,0 +1,5213 @@
+# DANH MỤC SẢN PHẨM TECHCARE
+
+# iPhone 18 Pro 256GB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Điện thoại
+
+Giá: 38,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPhone 18 Pro 256GB. Hệ điều hành khi ra mắt: iOS 27; Chipset: A20 Pro; Bộ nhớ trong: 256 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: iOS 27
+- Chipset: A20 Pro
+- Bộ nhớ trong: 256 GB
+- Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất
+- GPU: GPU 7 lõi
+- Kích thước màn hình: 6.3 inches
+- Công nghệ màn hình: Super Retina XDR
+- Độ phân giải màn hình: 2622 x 1206 pixels
+- Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 3000 nits ngoài trời Độ sáng 1000 nit tiêu chuẩn Độ sáng đỉnh 1600 nit HDR Độ sáng tối thiểu 1 nit Dynamic Island Màn hình Luôn Bật ProMotion HDR True Tone Dải màu rộng P3 Haptic Touch
+- Camera sau: 48 MP Fusion Main, f/1,48 / f/1,8 / f/2,8 / f/4,0 48 MP Fusion Ultra Wide, f/2,2 48 MP Fusion Telephoto, f/2,8 Telephoto 2x chất lượng quang học 12 MP Telephoto 8x chất lượng quang học 12 MP, f/2,8
+- Camera trước: 18 MP Center Stage f/1,9 Tự động lấy nét theo pha Focus Pixels
+- Pin: Pin lithium-ion tích hợp
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Nano-SIM + eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 09/2026
+
+Nguồn tham khảo: CellphoneS – iPhone 18 Pro 256GB — https://cellphones.com.vn/iphone-18-pro.html?product_id=141671
+
+---
+
+# iPhone 18 Pro 512GB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Điện thoại
+
+Giá: 45,490,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPhone 18 Pro 512GB. Hệ điều hành khi ra mắt: iOS 27; Chipset: A20 Pro; Bộ nhớ trong: 512 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: iOS 27
+- Chipset: A20 Pro
+- Bộ nhớ trong: 512 GB
+- Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất
+- GPU: GPU 7 lõi
+- Kích thước màn hình: 6.3 inches
+- Công nghệ màn hình: Super Retina XDR
+- Độ phân giải màn hình: 2622 x 1206 pixels
+- Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 3000 nits ngoài trời Độ sáng 1000 nit tiêu chuẩn Độ sáng đỉnh 1600 nit HDR Độ sáng tối thiểu 1 nit Dynamic Island Màn hình Luôn Bật ProMotion HDR True Tone Dải màu rộng P3 Haptic Touch
+- Camera sau: 48 MP Fusion Main, f/1,48 / f/1,8 / f/2,8 / f/4,0 48 MP Fusion Ultra Wide, f/2,2 48 MP Fusion Telephoto, f/2,8 Telephoto 2x chất lượng quang học 12 MP Telephoto 8x chất lượng quang học 12 MP, f/2,8
+- Camera trước: 18 MP Center Stage f/1,9 Tự động lấy nét theo pha Focus Pixels
+- Pin: Pin lithium-ion tích hợp
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Nano-SIM + eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 09/2026
+
+Nguồn tham khảo: CellphoneS – iPhone 18 Pro 512GB — https://cellphones.com.vn/iphone-18-pro-512gb.html?product_id=141666
+
+---
+
+# Samsung Galaxy Z Fold8 5G 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Samsung
+
+Danh mục: Điện thoại
+
+Giá: 40,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Samsung Galaxy Z Fold8 5G 12GB 256GB. Hệ điều hành khi ra mắt: Android 17, One UI 9; Chipset: Snapdragon® 8 Elite Gen 5; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 17, One UI 9
+- Chipset: Snapdragon® 8 Elite Gen 5
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- GPU: 8 nhân: 2 nhân 4.74 GHz và 6 nhân 3.62 GHz
+- Kích thước màn hình: Chính 7.6 inches, Phụ 5.5 inches
+- Công nghệ màn hình: Dynamic AMOLED 2X
+- Độ phân giải màn hình: Chính: 2448 x 1848 pixels (QXGA+) - Phụ: 1972 x 1248 pixels (FHD+)
+- Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 3000 nits Kính Corning Gorilla Glass Ceramic 3
+- Camera sau: Góc rộng 50 MP, f/1.9 Góc siêu rộng 50 MP, f/1.8
+- Camera trước: 10 MP, f/2.2 10 MP
+- Pin: 4800 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Nano-SIM + eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 08/2026
+
+Nguồn tham khảo: CellphoneS – Samsung Galaxy Z Fold8 5G 12GB 256GB — https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8.html
+
+---
+
+# OPPO A7 PRO 5G
+
+## Thông tin chung
+
+Hãng: OPPO
+
+Danh mục: Điện thoại
+
+Giá: 12,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+OPPO A7 PRO 5G. Hệ điều hành khi ra mắt: ColorOS 16, nền tảng Android 16; Chipset: MediaTek Dimensity 6360 MAX 5G; Dung lượng RAM: 6 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: ColorOS 16, nền tảng Android 16
+- Chipset: MediaTek Dimensity 6360 MAX 5G
+- Dung lượng RAM: 6 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: ARM Mali-G57 MC2
+- Kích thước màn hình: 6.57 inches
+- Công nghệ màn hình: AMOLED
+- Độ phân giải màn hình: 1080 x 2372 pixels (FullHD+)
+- Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 1400 nits 1 tỷ màu Kính cường lực AGC DT-Star D+
+- Camera sau: 50 MP, f/1.9 2 MP, f/2.4
+- Camera trước: 50 MP, f/2.1
+- Pin: 8000 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Dual nano-SIM hoặc 1 nano-SIM + 1 thẻ nhớ
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 10/2026
+
+Nguồn tham khảo: CellphoneS – OPPO A7 PRO 5G — https://cellphones.com.vn/dien-thoai-oppo-a7-pro-5g.html
+
+---
+
+# Xiaomi 17 Ultra 5G 16GB 1TB
+
+## Thông tin chung
+
+Hãng: Xiaomi
+
+Danh mục: Điện thoại
+
+Giá: 34,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Xiaomi 17 Ultra 5G 16GB 1TB. Hệ điều hành khi ra mắt: Android 16 với HyperOS; Chipset: Qualcomm Snapdragon 8 Elite Gen 5; Dung lượng RAM: 16 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 16 với HyperOS
+- Chipset: Qualcomm Snapdragon 8 Elite Gen 5
+- Dung lượng RAM: 16 GB
+- Bộ nhớ trong: 1 TB
+- Loại CPU: 8 nhân
+- GPU: Adreno 840
+- Kích thước màn hình: 6.9 inches
+- Công nghệ màn hình: LTPO OLED
+- Tính năng màn hình: Độ phân giải màn hình: 2608 × 1200 pixels Độ sáng tối đa 3500 nits
+- Camera sau: Camera chính: 200 MP Góc siêu rộng: 50 MP
+- Camera trước: 50 MP
+- Pin: 6000 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: 2 Nano-SIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 02/2026
+
+Nguồn tham khảo: CellphoneS – Xiaomi 17 Ultra 5G 16GB 1TB — https://cellphones.com.vn/dien-thoai-xiaomi-17-ultra-16gb-1tb.html?product_id=125475
+
+---
+
+# Samsung Galaxy S26 5G 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Samsung
+
+Danh mục: Điện thoại
+
+Giá: 21,290,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Samsung Galaxy S26 5G 12GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: Exynos 2600 (2nm); Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 16
+- Chipset: Exynos 2600 (2nm)
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: 10 nhân
+- GPU: Xclipse 960
+- Kích thước màn hình: 6.3 inches
+- Công nghệ màn hình: Dynamic AMOLED 2X
+- Độ phân giải màn hình: 2340 x 1080-pixel
+- Tính năng màn hình: 16 triệu màu Độ sáng tối đa 2600 nits
+- Camera sau: Góc rộng 50MP, f/1.8 Góc siêu rộng 12MP, f/2.2 Tele 10MP, f/2.4
+- Camera trước: 12 MP, f/2.2
+- Pin: 4300 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: 2 Nano SIM hoặc 2 eSIM hoặc 1 Nano SIM + 1 eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 02/2026
+
+Nguồn tham khảo: CellphoneS – Samsung Galaxy S26 5G 12GB 256GB — https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26.html
+
+---
+
+# Huawei Mate X7 16GB 512GB
+
+## Thông tin chung
+
+Hãng: Huawei
+
+Danh mục: Điện thoại
+
+Giá: 42,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Huawei Mate X7 16GB 512GB. Hệ điều hành khi ra mắt: EMUI 15.0; Dung lượng RAM: 16 GB; Bộ nhớ trong: 512 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: EMUI 15.0
+- Dung lượng RAM: 16 GB
+- Bộ nhớ trong: 512 GB
+- Kích thước màn hình: 8.0 inches
+- Công nghệ màn hình: OLED
+- Tính năng màn hình: Màn hình: 1.07 tỷ màu, gam màu rộng P3 Màn hình chính: 2416 × 2210 pixel Màn hình ngoài: 2444 × 1080 pixel Tốc độ làm mới thích ứng LTPO 1-120 Hz, thay đổi cường độ sáng PWM tần số cao 1440 Hz Mật độ điểm ảnh 412 PPI
+- Camera sau: Camera chính Ultra Lighting HDR 50MP (OIS, khẩu độ F1.49 - F4.0) Camera góc siêu rộng 40MP Camera telephoto macro 50MP (OIS)
+- Camera trước: Khi gập lại: Camera 8 MP (khẩu độ F2.4) Khi mở ra: Camera 8 MP (khẩu độ F2.2)
+- Pin: 5600 mAh
+- Hỗ trợ mạng: 4G
+- Công nghệ NFC: Có
+
+Nguồn tham khảo: CellphoneS – Huawei Mate X7 16GB 512GB — https://cellphones.com.vn/dien-thoai-huawei-mate-x7.html?product_id=122938
+
+---
+
+# vivo Y16 4GB 128GB
+
+## Thông tin chung
+
+Hãng: Vivo
+
+Danh mục: Điện thoại
+
+Giá: 4,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+vivo Y16 4GB 128GB. Kích thước màn hình: 6.51 inches; Công nghệ màn hình: IPS LCD; Camera sau: Cảm biến chính 13 MP, khẩu độ f/2.2 Ống kính macro kiêm độ sâu 2 MP, khẩu độ f/2.4, đèn flash LED.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 6.51 inches
+- Công nghệ màn hình: IPS LCD
+- Camera sau: Cảm biến chính 13 MP, khẩu độ f/2.2 Ống kính macro kiêm độ sâu 2 MP, khẩu độ f/2.4, đèn flash LED
+- Camera trước: 5 MP
+- Chipset: MediaTek Helio P35 8 nhân
+- Công nghệ NFC: Không
+- Dung lượng RAM: 4GB + Mở rộng 1GB
+- Bộ nhớ trong: 128 GB
+- Pin: 5.000 mAh
+- Thẻ SIM: 2 SIM (Nano-SIM)
+- Hệ điều hành: Android 12 với giao diện FunTouch OS 12
+- Độ phân giải màn hình: 720 x 1600 pixel
+- Tính năng màn hình: Độ phủ màu: 72% NTSC Độ sáng tối đa: 400nit
+- Loại CPU: 4 nhân 2.3 GHz & 4 nhân 1.8 GHz
+
+Nguồn tham khảo: CellphoneS – vivo Y16 4GB 128GB — https://cellphones.com.vn/vivo-y16.html
+
+---
+
+# realme 13+ 5G 8GB 256GB
+
+## Thông tin chung
+
+Hãng: Realme
+
+Danh mục: Điện thoại
+
+Giá: 6,590,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+realme 13+ 5G 8GB 256GB. Kích thước màn hình: 6.67 inches; Công nghệ màn hình: OLED; Camera sau: 50MP 882 OIS + 2MP + Flicker.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 6.67 inches
+- Công nghệ màn hình: OLED
+- Camera sau: 50MP 882 OIS + 2MP + Flicker
+- Camera trước: 16MP, f/2.4
+- Chipset: Dimensity 7300 Energy 5G
+- Công nghệ NFC: Có
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 256 GB
+- Pin: 5000 mAh
+- Thẻ SIM: 2 Nano-SIM
+- Hệ điều hành: Android 14
+- Độ phân giải màn hình: 1080 x 2400 pixels (FullHD+)
+- Tính năng màn hình: 16.7 triệu màu, 2000nits, 120Hz AGC DT STAR2
+- Loại CPU: Lõi tám nhân 4*A78 @2.5 GHz，4*A55 @2.5 GHz
+
+Nguồn tham khảo: CellphoneS – realme 13+ 5G 8GB 256GB — https://cellphones.com.vn/dien-thoai-realme-13-plus-5g.html
+
+---
+
+# OPPO Find N6 16GB 512GB
+
+## Thông tin chung
+
+Hãng: OPPO
+
+Danh mục: Điện thoại
+
+Giá: 64,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+OPPO Find N6 16GB 512GB. Hệ điều hành khi ra mắt: ColorOS 16.0; Chipset: Snapdragon 8 Elite Gen 5; Dung lượng RAM: 16 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: ColorOS 16.0
+- Chipset: Snapdragon 8 Elite Gen 5
+- Dung lượng RAM: 16 GB
+- Bộ nhớ trong: 512 GB
+- Loại CPU: 7 nhân
+- GPU: Adreno 840
+- Kích thước màn hình: Chính 8.12 inches - Phụ 6.62 inches
+- Công nghệ màn hình: AMOLED
+- Độ phân giải màn hình: Chính: 2480 x 2248 pixels - Phụ: 2616 x 1140 pixels
+- Tính năng màn hình: Tần số quét 120Hz Độ sáng tối đa 1800 nits 1.07 tỉ màu 100% DCI-P3 Màn hình chính 412 PPI Màn hình phụ 431 PPI
+- Camera sau: Chính 200 MP, f/1.8 Góc siêu rộng 50 MP, f/2.0 Telephoto 50 MP, f/2.7 Monochrome 2 MP, f/2.4
+- Camera trước: Trong 20 MP, f/2.4 Ngoài 20 MP, f/2.4
+- Pin: 6000 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Dual nano-SIM hoặc 1 nano-SIM + 1 eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 03/2026
+
+Nguồn tham khảo: CellphoneS – OPPO Find N6 16GB 512GB — https://cellphones.com.vn/dien-thoai-oppo-find-n6.html
+
+---
+
+# Samsung Galaxy Z Fold8 Ultra 5G 16GB 1TB
+
+## Thông tin chung
+
+Hãng: Samsung
+
+Danh mục: Điện thoại
+
+Giá: 63,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Samsung Galaxy Z Fold8 Ultra 5G 16GB 1TB. Hệ điều hành khi ra mắt: Android 17, One UI 9; Chipset: Snapdragon® 8 Elite Gen 5; Dung lượng RAM: 16 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 17, One UI 9
+- Chipset: Snapdragon® 8 Elite Gen 5
+- Dung lượng RAM: 16 GB
+- Bộ nhớ trong: 1 TB
+- GPU: 8 nhân - 2 nhân 4.74 GHz và 6 nhân 3.62 GHz
+- Kích thước màn hình: Chính 8.0 inches, Phụ 6.5 inches
+- Công nghệ màn hình: Dynamic AMOLED 2X
+- Độ phân giải màn hình: Chính: 2184 x 1968 Chính: 1080 × 2520 pixels (FHD+) - Phụ: 1048 × 948 pixels (QXGA+) - Phụ: 2520 x 1080 Chính: 1080 × 2520 pixels (FHD+) - Phụ: 1048 × 948 pixels (FHD+)
+- Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 3000 nits Mặt kính Corning Gorilla Glass Ceramic 3 16 triệu màu
+- Camera sau: Góc rộng 200 MP, f/1.7 Góc siêu rộng 50 MP, f/2.2 Tele 10 MP, f/2.4
+- Camera trước: 10 MP, f/2.2 10 MP
+- Pin: 5000 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Nano-SIM + eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 08/2026
+
+Nguồn tham khảo: CellphoneS – Samsung Galaxy Z Fold8 Ultra 5G 16GB 1TB — https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-ultra-1tb.html
+
+---
+
+# iPhone 17 Pro Max 2TB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Điện thoại
+
+Giá: 60,290,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPhone 17 Pro Max 2TB. Hệ điều hành khi ra mắt: iOS 26; Chipset: Chip A19 Pro; Bộ nhớ trong: 2 TB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: iOS 26
+- Chipset: Chip A19 Pro
+- Bộ nhớ trong: 2 TB
+- Loại CPU: CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện
+- GPU: GPU 6 lõi với Neural Accelerator
+- Kích thước màn hình: 6.9 inches
+- Công nghệ màn hình: Super Retina XDR
+- Độ phân giải màn hình: 2868 x 1320 pixels
+- Tính năng màn hình: Màn hình Luôn Bật, ProMotion 120Hz, HDR, True Tone, Dải màu rộng (P3), Haptic Touch, Tỷ lệ tương phản 2.000.000:1, Độ sáng 1000 nit (tiêu chuẩn), 1600 nit (HDR), 3000 nit (ngoài trời) / tối thiểu 1 nit, Lớp phủ kháng dầu, Chống phản chiếu, Hỗ trợ đa ngôn
+- Camera sau: Chính: 48MP khẩu độ ƒ/1.6 OIS hỗ trợ chụp 24MP hoặc 48MP Góc Siêu Rộng: 48MP khẩu độ ƒ/2.2 góc nhìn 120° Telephoto: 48MP khẩu độ ƒ/2.8 OIS zoom quang học lên đến 8x
+- Camera trước: Camera 18MP Center Stage Khẩu độ ƒ/1.9
+- Hỗ trợ mạng: 5G
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 09/2025
+
+Nguồn tham khảo: CellphoneS – iPhone 17 Pro Max 2TB | Chính hãng — https://cellphones.com.vn/iphone-17-pro-max-2tb.html
+
+---
+
+# OPPO Find X9 Ultra 12GB 512GB
+
+## Thông tin chung
+
+Hãng: OPPO
+
+Danh mục: Điện thoại
+
+Giá: 45,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+OPPO Find X9 Ultra 12GB 512GB. Hệ điều hành khi ra mắt: ColorOS 16 Android 16; Chipset: Snapdragon 8 Elite Gen 5; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: ColorOS 16 Android 16
+- Chipset: Snapdragon 8 Elite Gen 5
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 512 GB
+- Loại CPU: 8 nhân
+- GPU: Adreno 840
+- Kích thước màn hình: 6.82 inches
+- Công nghệ màn hình: AMOLED
+- Độ phân giải màn hình: 3168 x 1440 pixel
+- Tính năng màn hình: Độ sáng tối đa 3600 nits Tần số lấy mẫu cảm ứng tối đa 300Hz 1.07 tỷ màu 510 PPI 100% DCI-P3
+- Camera sau: Góc siêu rộng 50 MP, f/2.0 Góc rộng 200 MP, f/1.5 Tele 200 MP, f/2.2 Tele siêu xa 50 MP, f/3.5 Đơn sắc 3.2 MP, f/2.4
+- Camera trước: 50 MP, f/2.4
+- Pin: 7050 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: 2 Nano SIM hoặc 2 eSIM hoặc 1 Nano SIM + 1 eSIM
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 5/2026
+
+Nguồn tham khảo: CellphoneS – OPPO Find X9 Ultra 12GB 512GB — https://cellphones.com.vn/dien-thoai-oppo-find-x9-ultra.html
+
+---
+
+# Sony Xperia 1 VIII 5G 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Sony
+
+Danh mục: Điện thoại
+
+Giá: 37,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Sony Xperia 1 VIII 5G 12GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: Snapdragon® 8 Elite Gen 5; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 16
+- Chipset: Snapdragon® 8 Elite Gen 5
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Kích thước màn hình: 6.5 inches
+- Công nghệ màn hình: OLED
+- Độ phân giải màn hình: 1080 x 2340 pixels (FullHD+)
+- Tính năng màn hình: Tần số quét 120 Hz HDR DCI-P3 100% BRAVIA Sunlight Vision
+- Camera sau: 52 MP, f/1.9 Tele 50 MP, f/2.8 Góc siêu rộng 50 MP, f/2.0
+- Camera trước: 12MP, f/2.0
+- Pin: 5000 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: 2 SIM (Nano-SIM)
+- Công nghệ NFC: Có
+- Thời điểm ra mắt: 08/2026
+
+Nguồn tham khảo: CellphoneS – Sony Xperia 1 VIII 5G 12GB 256GB — https://cellphones.com.vn/dien-thoai-sony-xperia-1-viii.html
+
+---
+
+# Masstel izi S5 4G
+
+## Thông tin chung
+
+Hãng: Masstel
+
+Danh mục: Điện thoại
+
+Giá: 440,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Masstel izi S5 4G. Chipset: UNISOC T107; Kích thước màn hình: 1.77 inches; Độ phân giải màn hình: 128 x 160 pixels (QVGA).
+
+## Thông số kỹ thuật
+
+- Chipset: UNISOC T107
+- Kích thước màn hình: 1.77 inches
+- Độ phân giải màn hình: 128 x 160 pixels (QVGA)
+- Tính năng màn hình: 262K màu
+- Pin: Pin rời 1000mAh
+- Hỗ trợ mạng: 4G
+- Thẻ SIM: 2 SIM (Nano-SIM)
+
+Nguồn tham khảo: CellphoneS – Masstel izi S5 4G — https://cellphones.com.vn/dien-thoai-masstel-izi-s5.html
+
+---
+
+# Nokia HMD 105 4G
+
+## Thông tin chung
+
+Hãng: Nokia
+
+Danh mục: Điện thoại
+
+Giá: 750,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Nokia HMD 105 4G. Kích thước màn hình: 2.4 inches; Chipset: Unisoc 8910 & T127; Bộ nhớ trong: 128 MB.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 2.4 inches
+- Chipset: Unisoc 8910 & T127
+- Bộ nhớ trong: 128 MB
+- Pin: 1450 mAh
+- Tính năng màn hình: QVGA
+
+Nguồn tham khảo: CellphoneS – Nokia HMD 105 4G — https://cellphones.com.vn/nokia-hmd-105-4g.html
+
+---
+
+# Nokia 110 4G Pro
+
+## Thông tin chung
+
+Hãng: Nokia
+
+Danh mục: Điện thoại
+
+Giá: 850,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Nokia 110 4G Pro. Kích thước màn hình: 1.77 inches; Công nghệ màn hình: IPS LCD; Camera sau: QVGA.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 1.77 inches
+- Công nghệ màn hình: IPS LCD
+- Camera sau: QVGA
+- Chipset: Unisoc T107
+- Bộ nhớ trong: 128 MB
+- Pin: 1450mAh
+- Thẻ SIM: 2 SIM (Nano-SIM)
+- Hệ điều hành: S30+
+
+Nguồn tham khảo: CellphoneS – Nokia 110 4G Pro — https://cellphones.com.vn/nokia-110-4g-pro.html
+
+---
+
+# Điện thoại trẻ em Masstel Alfa 5
+
+## Thông tin chung
+
+Hãng: Masstel
+
+Danh mục: Điện thoại
+
+Giá: 1,050,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Điện thoại trẻ em Masstel Alfa 5. Kích thước màn hình: 3.5 inches; Công nghệ màn hình: IPS LCD; Chipset: ASR.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 3.5 inches
+- Công nghệ màn hình: IPS LCD
+- Chipset: ASR
+- Bộ nhớ trong: 128 MB
+- Pin: 1750 mAh
+- Thẻ SIM: Nano-SIM
+- Độ phân giải màn hình: 240 x 320 pixels
+- Tính năng màn hình: 262K màu
+
+Nguồn tham khảo: CellphoneS – Điện thoại trẻ em Masstel Alfa 5 — https://cellphones.com.vn/dien-thoai-masstel-alfa-5.html
+
+---
+
+# Điện thoại Nubia A56 4GB 128GB
+
+## Thông tin chung
+
+Hãng: Nubia
+
+Danh mục: Điện thoại
+
+Giá: 3,390,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Điện thoại Nubia A56 4GB 128GB. Kích thước màn hình: 6.75 inches; Công nghệ màn hình: IPS LCD; Camera sau: 13MP AF + 0.08MP + 0.08MP.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 6.75 inches
+- Công nghệ màn hình: IPS LCD
+- Camera sau: 13MP AF + 0.08MP + 0.08MP
+- Camera trước: 8MP, FF
+- Công nghệ NFC: Không
+- Dung lượng RAM: 4 GB
+- Bộ nhớ trong: 128 GB
+- Pin: 5000 mAh
+- Thẻ SIM: 2 Nano-SIM
+- Hệ điều hành: Android 15
+- Độ phân giải màn hình: 720 x 1600 pixel
+- Tính năng màn hình: Tần số quét 90Hz
+- Loại CPU: T7200
+
+Nguồn tham khảo: CellphoneS – Điện thoại Nubia A56 4GB 128GB — https://cellphones.com.vn/dien-thoai-nubia-a56-4gb-128gb.html
+
+---
+
+# TECNO Spark Go 3 4GB 64GB
+
+## Thông tin chung
+
+Hãng: Tecno
+
+Danh mục: Điện thoại
+
+Giá: 3,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 13 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+TECNO Spark Go 3 4GB 64GB. Hệ điều hành khi ra mắt: Android 15; Chipset: UNISOC T7250; Dung lượng RAM: 4 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 15
+- Chipset: UNISOC T7250
+- Dung lượng RAM: 4 GB
+- Bộ nhớ trong: 64 GB
+- Loại CPU: 2 nhân 2.2 GHz & 6 nhân 2.0 GHz
+- GPU: Mali-G57 MC2
+- Kích thước màn hình: 6.75 inches
+- Độ phân giải màn hình: 720 x 1600 pixel
+- Tính năng màn hình: Độ sáng tối đa 600 nits
+- Camera sau: 13 MP + đèn flash kép
+- Camera trước: 8 MP
+- Pin: 5000 mAh
+- Hỗ trợ mạng: 4G
+- Thẻ SIM: 2 Nano-SIM
+- Thời điểm ra mắt: 04/2026
+
+Nguồn tham khảo: CellphoneS – TECNO Spark Go 3 4GB 64GB — https://cellphones.com.vn/dien-thoai-tecno-spark-go-3.html
+
+---
+
+# Điện thoại Itel P55 Plus NFC 8GB 256GB
+
+## Thông tin chung
+
+Hãng: Itel
+
+Danh mục: Điện thoại
+
+Giá: 3,590,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Điện thoại Itel P55 Plus NFC 8GB 256GB. Hệ điều hành khi ra mắt: Android 13; Chipset: Unisoc T606; Dung lượng RAM: 8 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 13
+- Chipset: Unisoc T606
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: Octa-core Processor
+- Kích thước màn hình: 6.6 inches
+- Tính năng màn hình: Tần số quét 90Hz
+- Camera sau: Camera góc rộng: 50 MP
+- Camera trước: 8 MP
+- Pin: 5000mAh
+- Hỗ trợ mạng: 4G
+- Công nghệ NFC: Có
+
+Nguồn tham khảo: CellphoneS – Điện thoại Itel P55 Plus NFC 8GB 256GB — https://cellphones.com.vn/dien-thoai-itel-p55-plus-8gb-256gb.html
+
+---
+
+# TECNO Spark 40 Pro+ 8GB 256GB
+
+## Thông tin chung
+
+Hãng: TECNO
+
+Danh mục: Điện thoại
+
+Giá: 5,190,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 13 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+TECNO Spark 40 Pro+ 8GB 256GB. Kích thước màn hình: 6.78 inches; Công nghệ màn hình: AMOLED; Camera sau: 50 MP.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 6.78 inches
+- Công nghệ màn hình: AMOLED
+- Camera sau: 50 MP
+- Camera trước: 13 MP
+- Chipset: MediaTek Helio G200
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 256 GB
+- Pin: 5200mAh, 45W
+- Thẻ SIM: 2 SIM (Nano-SIM)
+- Hệ điều hành: Android 15
+- Tính năng màn hình: 1224 x 2720 pixels 6.78'' 144Hz & 1.5K 3D AMOLED Display
+
+Nguồn tham khảo: CellphoneS – TECNO Spark 40 Pro+ 8GB 256GB — https://cellphones.com.vn/dien-thoai-tecno-spark-40-pro-plus.html
+
+---
+
+# iPad Pro chip M5 13 inch 5G 2TB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Máy tính bảng
+
+Giá: 77,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPad Pro chip M5 13 inch 5G 2TB. Hệ điều hành khi ra mắt: iPadOS 26; Chipset: Apple M5; Dung lượng RAM: 16 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: iPadOS 26
+- Chipset: Apple M5
+- Dung lượng RAM: 16 GB
+- Bộ nhớ trong: 2 TB
+- Loại CPU: CPU 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện
+- GPU: 10 lõi
+- Kích thước màn hình: 13 inches
+- Công nghệ màn hình: Ultra Retina XDR
+- Độ phân giải màn hình: 2752x2064 pixels
+- Tính năng màn hình: Công nghệ ProMotion –120Hz Mật độ 264 ppi True Tone Dải màu rộng (P3) Lớp phủ chống phản chiếu Kháng dầu chống bám vân tay Công nghệ ép kín Lớp phủ chống phản chiếu
+- Camera sau: 12MP Wide, khẩu độ ƒ/1.8
+- Camera trước: 12MP, khẩu độ ƒ/2.0, Center Stage (cạnh ngang)
+- Pin: Pin Li-Po 38,99 watt‑giờ, thời gian sử dụng Wi-Fi đến 10 giờ
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: 1 eSIM
+- Công nghệ NFC: Không
+- Thời điểm ra mắt: 10/2025
+
+Nguồn tham khảo: CellphoneS – iPad Pro chip M5 13 inch 5G 2TB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/ipad-pro-m5-13-inch-5g-2tb.html
+
+---
+
+# iPad Pro M4 13 inch 5G 2TB Nano
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Máy tính bảng
+
+Giá: 46,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPad Pro M4 13 inch 5G 2TB Nano. Hệ điều hành khi ra mắt: iPadOS 17; Chipset: Apple M4; Dung lượng RAM: 8 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: iPadOS 17
+- Chipset: Apple M4
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 2 TB
+- Loại CPU: CPU 9 lõi với 3 lõi hiệu năng và 6 lõi tiết kiệm điện
+- GPU: Apple GPU 10 nhân
+- Kích thước màn hình: 13 inches
+- Công nghệ màn hình: Ultra Retina XDR
+- Độ phân giải màn hình: 2752x2064 pixels
+- Tính năng màn hình: Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120hz True Tone Công nghệ ép kín Dải màu rộng (P3)
+- Camera sau: Camera góc siêu rộng 12MP, ƒ/2.4
+- Camera trước: Camera góc rộng: 12MP, ƒ/1.8
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: 1 eSIM
+- Công nghệ NFC: Không
+- Thời điểm ra mắt: 05/2024
+
+Nguồn tham khảo: CellphoneS – iPad Pro M4 13 inch 5G 2TB Nano I Chính hãng Apple Việt Nam — https://cellphones.com.vn/ipad-pro-m4-13-inch-2tb-5g-nano.html
+
+---
+
+# Samsung Galaxy Tab S12 Ultra 5G 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Samsung
+
+Danh mục: Máy tính bảng
+
+Giá: 41,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Samsung Galaxy Tab S12 Ultra 5G 12GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: MediaTek Dimensity 9500; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 16
+- Chipset: MediaTek Dimensity 9500
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: 8 nhân 4.21GHz,3.5GHz,2.7GHz
+- Kích thước màn hình: 14.6 inches
+- Công nghệ màn hình: Dynamic AMOLED 2X
+- Độ phân giải màn hình: 1848 x 2960 Pixels
+- Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 1600 nits 16 triệu màu
+- Camera sau: 13 MP 8 MP
+- Camera trước: 12 MP
+- Pin: 11600 mAh
+- Hỗ trợ mạng: 5G
+- Thẻ SIM: Nano-SIM + eSIM
+- Thời điểm ra mắt: 10/2026
+
+Nguồn tham khảo: CellphoneS – Samsung Galaxy Tab S12 Ultra 5G 12GB 256GB — https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s12-ultra-5g.html
+
+---
+
+# Samsung Galaxy Tab S11 Ultra 5G 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Samsung
+
+Danh mục: Máy tính bảng
+
+Giá: 31,090,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Samsung Galaxy Tab S11 Ultra 5G 12GB 256GB. Kích thước màn hình: 14.6 inches; Công nghệ màn hình: Dynamic AMOLED 2X; Camera sau: Chính 13 MP - Phụ 8 MP.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 14.6 inches
+- Công nghệ màn hình: Dynamic AMOLED 2X
+- Camera sau: Chính 13 MP - Phụ 8 MP
+- Camera trước: 12 MP
+- Chipset: MediaTek Dimensity 9400+
+- Công nghệ NFC: Không
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Pin: 11600 mAh
+- Thẻ SIM: Nano-SIM + eSIM
+- Hệ điều hành: Android 16
+- Độ phân giải màn hình: 1848 x 2960 Pixels
+- Tính năng màn hình: Tần số quét120 Hz
+- Loại CPU: 8 nhân
+- Tương thích: Bút S Pen
+
+Nguồn tham khảo: CellphoneS – Samsung Galaxy Tab S11 Ultra 5G 12GB 256GB — https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s11-ultra.html
+
+---
+
+# iPad Air 13 inch M4 5G 128GB 2026
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Máy tính bảng
+
+Giá: 29,190,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPad Air 13 inch M4 5G 128GB 2026. Kích thước màn hình: 13 inches; Công nghệ màn hình: Liquid Retina; Camera sau: 12MP, f/1.8, Độ thu phóng kỹ thuật số lên đến 5x Chụp ảnh toàn cảnh Panorama (lên đến 63MP).
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 13 inches
+- Công nghệ màn hình: Liquid Retina
+- Camera sau: 12MP, f/1.8, Độ thu phóng kỹ thuật số lên đến 5x Chụp ảnh toàn cảnh Panorama (lên đến 63MP)
+- Camera trước: 12MP Center Stage, ƒ/2.0
+- Chipset: Chip Apple M4
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 128 GB
+- Pin: Tích hợp pin sạc Li-Po 36,59 watt‑giờ
+- Thẻ SIM: 1 eSIM
+- Hệ điều hành: iPadOS 26
+- Độ phân giải màn hình: 2732 x 2048 pixels
+- Tính năng màn hình: Màn hình Multi-Touch với công nghệ LED nền và IPS Độ sáng 600 nit 264 ppi Dải màu rộng (P3) True Tone Lớp phủ chống phản chiếu Công nghệ ép kín
+- Loại CPU: 8 lõi với 3 lõi hiệu năng và 5 lõi tiết kiệm điện
+- Tương thích: Hỗ trợ Apple Pencil Pro Hỗ trợ Apple Pencil (USB-C) Hỗ trợ Magic Keyboard cho iPad Air
+
+Nguồn tham khảo: CellphoneS – iPad Air 13 inch M4 5G 128GB 2026 | Chính hãng — https://cellphones.com.vn/apple-ipad-air-m4-13-inch-128gb-5g.html
+
+---
+
+# iPad Air 11 inch M4 Wifi 512GB 2026
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Máy tính bảng
+
+Giá: 27,890,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPad Air 11 inch M4 Wifi 512GB 2026. Hệ điều hành khi ra mắt: iPadOS 26; Chipset: Chip Apple M4; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: iPadOS 26
+- Chipset: Chip Apple M4
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 512 GB
+- Loại CPU: 8 lõi với 3 lõi hiệu năng và 5 lõi tiết kiệm điện
+- GPU: GPU 9 lõi Neural Engine 16 lõi Công nghệ dò tia tốc độ cao bằng phần cứng
+- Kích thước màn hình: 11 inches
+- Công nghệ màn hình: Liquid Retina
+- Độ phân giải màn hình: 2360 x 1640 pixel
+- Tính năng màn hình: Màn hình Multi-Touch với công nghệ LED nền và IPS Độ sáng 500 nit 264 ppi Dải màu rộng (P3) True Tone Lớp phủ chống phản chiếu Công nghệ ép kín
+- Camera sau: 12MP, f/1.8, Độ thu phóng kỹ thuật số lên đến 5x Chụp ảnh toàn cảnh Panorama (lên đến 63MP)
+- Camera trước: 12MP Center Stage, ƒ/2.0
+- Pin: Tích hợp pin sạc Li-Po 28,93 watt‑giờ
+
+Nguồn tham khảo: CellphoneS – iPad Air 11 inch M4 Wifi 512GB 2026 | Chính hãng — https://cellphones.com.vn/apple-ipad-air-m4-11-inch-512gb-wifi.html
+
+---
+
+# Lenovo Legion Tab Gen 5 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Lenovo
+
+Danh mục: Máy tính bảng
+
+Giá: 23,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Lenovo Legion Tab Gen 5 12GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: Snapdragon 8 Elite Gen 5; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 16
+- Chipset: Snapdragon 8 Elite Gen 5
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: 8 nhân, 2 nhân Prime tối đa 4.6GHz + 6 nhân Performance tối đa 3.62GHz
+- GPU: Qualcomm Adreno A840 GPU
+- Kích thước màn hình: 8.8 inches
+- Công nghệ màn hình: IPS LCD
+- Độ phân giải màn hình: 3040 x 1904 pixels
+- Tính năng màn hình: Tần số quét 165 Hz Độ sáng tối đa 800 nits Độ sáng 600 nits thông thường Tốc độ lấy mẫu cảm ứng lên đến 480Hz 99% DCI-P3 10 điểm chạm Độ phân giải cảm ứng 10x
+- Camera sau: 50MP
+- Camera trước: 8 MP
+- Pin: 9000 mAh
+- Thời điểm ra mắt: 01/2026
+
+Nguồn tham khảo: CellphoneS – Lenovo Legion Tab Gen 5 12GB 256GB — https://cellphones.com.vn/may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn.html
+
+---
+
+# Huawei MatePad Pro 12.2 2025 12GB 512GB - Kèm bàn phím
+
+## Thông tin chung
+
+Hãng: Huawei
+
+Danh mục: Máy tính bảng
+
+Giá: 22,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Huawei MatePad Pro 12.2 2025 12GB 512GB - Kèm bàn phím. Hệ điều hành: HarmonyOS 4.3; Dung lượng RAM: 12 GB; Bộ nhớ trong: 512 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành: HarmonyOS 4.3
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 512 GB
+- Kích thước màn hình: 12.2 inches
+- Công nghệ màn hình: Tandem OLED PaperMatte
+- Độ phân giải màn hình: 2800 x 1840 pixels
+- Tính năng màn hình: 1.07 tỷ màu 2000 nits Gam màu rộng P3 274 ppi Độ tương phản 2,000,000:1
+- Camera sau: 50 MP (f/1.8, AF) + 8 MP góc rộng (f/2.2, FF)
+- Camera trước: 8 MP (f/2.0, FF)
+- Pin: 10.100 mAh
+
+Nguồn tham khảo: CellphoneS – Huawei MatePad Pro 12.2 2025 12GB 512GB - Kèm bàn phím — https://cellphones.com.vn/may-tinh-bang-huawei-matepad-pro-12-2-inch-2025.html
+
+---
+
+# HUAWEI MatePad Air 8GB 256GB
+
+## Thông tin chung
+
+Hãng: Huawei
+
+Danh mục: Máy tính bảng
+
+Giá: 21,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+HUAWEI MatePad Air 8GB 256GB. Hệ điều hành khi ra mắt: HarmonyOS 4.3.0; Dung lượng RAM: 8 GB; Bộ nhớ trong: 256 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: HarmonyOS 4.3.0
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 256 GB
+- Kích thước màn hình: 12 inches
+- Độ phân giải màn hình: 2800 x 1840 pixels
+- Tính năng màn hình: Màn hình OLED PaperMatte Màu màn hình: 1.07 tỷ màu, gam màu rộng P3 Độ sáng: 1200 nit Tỷ lệ màn hình/thân máy 92% 275 PPI
+- Camera sau: 50 MP (khẩu độ f/1.8, AF)
+- Camera trước: Lên đến 1080P (1920 × 1080)
+- Pin: 10100 mAh
+
+Nguồn tham khảo: CellphoneS – HUAWEI MatePad Air 8GB 256GB — https://cellphones.com.vn/may-tinh-bang-huawei-matepad-air.html
+
+---
+
+# iPad mini 7 2024 5G 128GB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Máy tính bảng
+
+Giá: 20,490,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iPad mini 7 2024 5G 128GB. Kích thước màn hình: 8.3 inches; Công nghệ màn hình: Liquid Retina; Camera sau: Camera Wide 12MP, khẩu độ ƒ/1.8.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 8.3 inches
+- Công nghệ màn hình: Liquid Retina
+- Camera sau: Camera Wide 12MP, khẩu độ ƒ/1.8
+- Camera trước: Camera trước Ultra Wide 12MP, Khẩu độ ƒ/2.4
+- Chipset: Chip A17 Pro
+- Bộ nhớ trong: 128 GB
+- Pin: Tích hợp pin sạc Li-Po 19,3 watt‑giờ
+- Thẻ SIM: 1 eSIM
+- Hệ điều hành: iPadOS 18
+- Độ phân giải màn hình: 2266 x 1488 pixels
+- Tính năng màn hình: Màn hình Multi-Touch Dải màu rộng (P3) True Tone Lớp phủ kháng dầu chống in dấu vân tay Công nghệ ép kín Độ sáng 500 nit Lớp phủ chống phản chiếu
+- Loại CPU: CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện
+- Tương thích: Hỗ trợ Apple Pencil Pro + Apple Pencil (USB‑C) Tính năng lướt của Apple Pencil
+
+Nguồn tham khảo: CellphoneS – iPad mini 7 2024 5G 128GB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/ipad-mini-7-5g.html
+
+---
+
+# Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím
+
+## Thông tin chung
+
+Hãng: Lenovo
+
+Danh mục: Máy tính bảng
+
+Giá: 18,290,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím. Hệ điều hành khi ra mắt: Android™ 16 trở lên; Chipset: Qualcomm Snapdragon 8s Gen 4; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android™ 16 trở lên
+- Chipset: Qualcomm Snapdragon 8s Gen 4
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 512 GB
+- Loại CPU: 8 nhân, 1x Cortex-X4 @3.2GHz + 3x Cortex-A720 @3.0GHz + 2x Cortex-A720 @2.8GHz + 2x Cortex-A720 @2.0GHz
+- GPU: Integrated Qualcomm Adreno 825
+- Kích thước màn hình: 13 inches
+- Công nghệ màn hình: LTPS, IPS
+- Tính năng màn hình: Tần số quét 144 Hz Độ sáng tối đa 800 nits Độ sáng tiêu chuẩn 600 nits 3.5K Chống chói Paper-like Anti-glare 99% DCI-P3 Cảm ứng đa điểm 10 điểm
+- Camera sau: 13MP
+- Camera trước: 8MP
+- Pin: 10200 mAh
+- Thời điểm ra mắt: 03/2026
+
+Nguồn tham khảo: CellphoneS – Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím — https://cellphones.com.vn/may-tinh-bang-idea-legion-tab-pro-gen-2-12gb-512gb-zahd0469vn-kem-but-ban-phim.html
+
+---
+
+# Samsung Galaxy Tab S10 FE 5G 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Samsung
+
+Danh mục: Máy tính bảng
+
+Giá: 16,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Samsung Galaxy Tab S10 FE 5G 12GB 256GB. Kích thước màn hình: 10.9 inches; Công nghệ màn hình: TFT LCD; Camera sau: 13.0 MP.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 10.9 inches
+- Công nghệ màn hình: TFT LCD
+- Camera sau: 13.0 MP
+- Camera trước: 12.0 MP
+- Chipset: Exynos 1580 (4 nm)
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Pin: 8,000 mAh
+- Thẻ SIM: 1 SIM thường/1 eSIM (chỉ dành cho bản 5G)
+- Hệ điều hành: Android 15
+- Độ phân giải màn hình: 2304 x 1440 pixels
+- Tính năng màn hình: Tần số 90Hz, Độ sáng màn hình 800 nits, 16 triệu màu
+- Loại CPU: 2.9GHz,2.6GHz,1.9GHz
+- Tương thích: Bút S Pen
+
+Nguồn tham khảo: CellphoneS – Samsung Galaxy Tab S10 FE 5G 12GB 256GB — https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s10-fe-5g-12gb-256gb.html
+
+---
+
+# Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím
+
+## Thông tin chung
+
+Hãng: Huawei
+
+Danh mục: Máy tính bảng
+
+Giá: 13,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại CellphoneS, 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím. Hệ điều hành khi ra mắt: HarmonyOS 4.3; Dung lượng RAM: 12 GB; Bộ nhớ trong: 256 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: HarmonyOS 4.3
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Kích thước màn hình: 12 inches
+- Công nghệ màn hình: PaperMatte (IPS)
+- Độ phân giải màn hình: 2800 x 1840 pixels
+- Tính năng màn hình: Tần số quét 144 Hz 280 PPI Độ sáng 1000 nit 16.7 triệu màu Gam màu rộng P3 Chống lóa Chứng nhận TÜV Rheinland và SGS
+- Camera sau: 50 MP (f/1.8, AF)
+- Camera trước: 8 MP (f/2.2, FF)
+- Pin: 10.100 mAh
+
+Nguồn tham khảo: CellphoneS – Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím — https://cellphones.com.vn/may-tinh-bang-huawei-matepad-12-x-kem-ban-phim.html
+
+---
+
+# HONOR Pad V9 Wifi 8GB 256GB
+
+## Thông tin chung
+
+Hãng: HONOR
+
+Danh mục: Máy tính bảng
+
+Giá: 13,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 18 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 100 ngày nếu có lỗi phần cứng nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+HONOR Pad V9 Wifi 8GB 256GB. Hệ điều hành khi ra mắt: MagicOS 9.0, nền tảng Android 15; Chipset: MediaTek Dimensity 8350 Elite; Dung lượng RAM: 8 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: MagicOS 9.0, nền tảng Android 15
+- Chipset: MediaTek Dimensity 8350 Elite
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: 8 nhân
+- Kích thước màn hình: 11.5 inches
+- Công nghệ màn hình: LCD
+- Độ phân giải màn hình: 2800 x 1840 pixels
+- Tính năng màn hình: Tần số quét 144Hz 1.07 tỷ màu Dải màu rộng DCI-P3 Công nghệ AI Defocus bảo vệ mắt
+- Camera sau: 13MP, f/2.0
+- Pin: 10100 mAh
+- Thời điểm ra mắt: 06/2026
+
+Nguồn tham khảo: CellphoneS – HONOR Pad V9 Wifi 8GB 256GB — https://cellphones.com.vn/may-tinh-bang-honor-pad-v9-wifi.html
+
+---
+
+# OPPO Pad 5 8GB 256GB
+
+## Thông tin chung
+
+Hãng: OPPO
+
+Danh mục: Máy tính bảng
+
+Giá: 13,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+OPPO Pad 5 8GB 256GB. Kích thước màn hình: 12.1 inches; Công nghệ màn hình: LTPS LCD; Camera sau: 8MP, f/2.0.
+
+## Thông số kỹ thuật
+
+- Kích thước màn hình: 12.1 inches
+- Công nghệ màn hình: LTPS LCD
+- Camera sau: 8MP, f/2.0
+- Camera trước: 8MP
+- Chipset: MediaTek Dimensity 7300-Ultra
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 256 GB
+- Pin: 10050 mAh
+- Hệ điều hành: ColorOS 16
+- Độ phân giải màn hình: 2800 × 1980 pixels
+- Tính năng màn hình: Tần số quét 120Hz, 10 tỷ màu (8 + 4bit)
+
+Nguồn tham khảo: CellphoneS – OPPO Pad 5 8GB 256GB — https://cellphones.com.vn/may-tinh-bang-oppo-pad-5.html
+
+---
+
+# Nubia Pad Pro 12GB 256GB
+
+## Thông tin chung
+
+Hãng: Nubia
+
+Danh mục: Máy tính bảng
+
+Giá: 12,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Nubia Pad Pro 12GB 256GB. Hệ điều hành khi ra mắt: MyOS 15.0; Chipset: Snapdragon 8 Gen 3; Dung lượng RAM: 12 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: MyOS 15.0
+- Chipset: Snapdragon 8 Gen 3
+- Dung lượng RAM: 12 GB
+- Bộ nhớ trong: 256 GB
+- Loại CPU: 8 nhân
+- GPU: Adreno
+- Kích thước màn hình: 10.9 inches
+- Công nghệ màn hình: TFT LCD
+- Độ phân giải màn hình: 2880 x 1800 pixels
+- Tính năng màn hình: Tần số quét 144Hz Hiển thị 1.07 tỷ màu Hỗ trợ dải màu P3 Color Gamut Chứng nhận bảo vệ mắt SGS Low Blue Light
+- Camera sau: 13MP
+- Camera trước: 20MP
+- Pin: 10100 mAh
+
+Nguồn tham khảo: CellphoneS – Nubia Pad Pro 12GB 256GB — https://cellphones.com.vn/may-tinh-bang-nubia-pad-pro.html
+
+---
+
+# Alldocube iPlay 80 mini Turbo 4G 8GB 256GB
+
+## Thông tin chung
+
+Hãng: Hãng khác
+
+Danh mục: Máy tính bảng
+
+Giá: 7,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Alldocube iPlay 80 mini Turbo 4G 8GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: MTK Dimensity 7400; Dung lượng RAM: 8 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 16
+- Chipset: MTK Dimensity 7400
+- Dung lượng RAM: 8 GB
+- Bộ nhớ trong: 128 GB
+- Loại CPU: 4×Cortex-A78@2.6GHz, 4×Cortex-A55@2.0GHz
+- GPU: Arm Mali-G615 MC2 1,35GHz
+- Kích thước màn hình: 8.8 inches
+- Công nghệ màn hình: IPS
+- Tính năng màn hình: 343 PPI, 16,7 triệu màu Độ sáng 400 nit Tỷ lệ tương phản 1500:1 Tối thiểu 1000:1 Cảm ứng đa điểm điện dung Chạm 10 điểm Incell cán màng đầy đủ Tốc độ làm mới 120 Hz
+- Camera sau: 12.89 MP
+- Camera trước: 4,92 MP
+- Pin: 6500 mAh
+- Hỗ trợ mạng: 4G
+- Thẻ SIM: 2 Nano-SIM
+
+Nguồn tham khảo: CellphoneS – Alldocube iPlay 80 mini Turbo 4G 8GB 256GB — https://cellphones.com.vn/may-tinh-bang-alldocube-iplay-80-mini-turbo.html
+
+---
+
+# Máy tính bảng Teclast 4G P50 4GB 128GB
+
+## Thông tin chung
+
+Hãng: Teclast
+
+Danh mục: Máy tính bảng
+
+Giá: 3,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Máy tính bảng Teclast 4G P50 4GB 128GB. Hệ điều hành khi ra mắt: Android 15; Chipset: Unisoc T606; Dung lượng RAM: 4 GB.
+
+## Thông số kỹ thuật
+
+- Hệ điều hành khi ra mắt: Android 15
+- Chipset: Unisoc T606
+- Dung lượng RAM: 4 GB
+- Bộ nhớ trong: 128 GB
+- Loại CPU: 8-core
+- GPU: Mali-G57
+- Kích thước màn hình: 11 inches
+- Công nghệ màn hình: IPS LCD
+- Độ phân giải màn hình: 1280 x 800 pixels
+- Tính năng màn hình: Hỗ trợ giảm ánh sáng xanh, chế độ bảo vệ mắt, Đa chạm, Không sử dụng PWM
+- Camera sau: 8MP
+- Camera trước: 5MP
+- Pin: 7000 mAh
+- Hỗ trợ mạng: 4G
+- Thẻ SIM: 2 Nano-SIM
+
+Nguồn tham khảo: CellphoneS – Máy tính bảng Teclast 4G P50 4GB 128GB — https://cellphones.com.vn/may-tinh-bang-teclast-4g-p50-4gb-128gb.html
+
+---
+
+# Laptop MSI Prestige N16 Flip AI+ C1XMT-016VN
+
+## Thông tin chung
+
+Hãng: MSI
+
+Danh mục: Laptop
+
+Giá: 222,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop MSI Prestige N16 Flip AI+ C1XMT-016VN. Chip AI: 1000 (1 PFLOPS); Loại card đồ họa: NVIDIA Blackwell RTX 6144-core GPU; Dung lượng RAM: 128GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: 1000 (1 PFLOPS)
+- Loại card đồ họa: NVIDIA Blackwell RTX 6144-core GPU
+- Dung lượng RAM: 128GB
+- Loại RAM: LPDDR5x
+- Số khe ram: 1 khe không nâng cấp
+- Ổ cứng: 2TB*1; 1x M.2 SSD slot (NVMe PCIe Gen4)
+- Công nghệ màn hình: Độ phủ màu 100% DCI-P3 Độ sáng 630 nits Chứng nhận ánh sáng xanh thấp và chống nhấp nháy từ SGS Chuẩn VESA DisplayHDR True Black 1000 Hỗ trợ bút cảm ứng MSI Nano Pen
+- Hệ điều hành khi ra mắt: Windows 11 Pro
+- Loại CPU: NVIDIA RTX Spark N1X (up to 6144-core GPU, 20-core CPU)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 3840 x 2400 pixel (4K)
+- Pin: 4Cell - 99.9Whr Battery (Whr)
+- Cổng giao tiếp: 2x Type-C (hỗ trợ USB4, DisplayPort, Power Delivery 3.1, Thunderbolt 4) 2x Type-A USB 3.2 Gen 2 1x HDMI 2.1 (hỗ trợ 8K @ 120Hz) 1x Đầu đọc thẻ nhớ SD
+
+Nguồn tham khảo: CellphoneS – Laptop MSI Prestige N16 Flip AI+ C1XMT-016VN — https://cellphones.com.vn/laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark.html
+
+---
+
+# Laptop MSI Prestige N16 Flip AI+ C1XMT-017VN
+
+## Thông tin chung
+
+Hãng: MSI
+
+Danh mục: Laptop
+
+Giá: 139,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop MSI Prestige N16 Flip AI+ C1XMT-017VN. Chip AI: 1000 (1 PFLOPS); Loại card đồ họa: NVIDIA Blackwell RTX 6144-core GPU; Dung lượng RAM: 64GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: 1000 (1 PFLOPS)
+- Loại card đồ họa: NVIDIA Blackwell RTX 6144-core GPU
+- Dung lượng RAM: 64GB
+- Loại RAM: LPDDR5x
+- Số khe ram: 1 khe không nâng cấp
+- Ổ cứng: 2TB*1; 1x M.2 SSD slot (NVMe PCIe Gen4)
+- Công nghệ màn hình: Độ phủ màu 100% DCI-P3 Độ sáng 450 nits Chứng nhận ánh sáng xanh thấp và chống nhấp nháy từ SGS Chuẩn VESA DisplayHDR True Black 1000 Hỗ trợ bút cảm ứng MSI Nano Pen
+- Hệ điều hành khi ra mắt: Windows 11 Pro
+- Loại CPU: NVIDIA RTX Spark N1X (up to 6144-core GPU, 20-core CPU)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2880 x 1800 pixels
+- Pin: 4Cell - 99.9Whr Battery (Whr)
+- Cổng giao tiếp: 2x Type-C (hỗ trợ USB4, DisplayPort, Power Delivery 3.1, Thunderbolt 4) 2x Type-A USB 3.2 Gen 2 1x HDMI 2.1 (hỗ trợ 8K @ 120Hz) 1x Đầu đọc thẻ nhớ SD
+
+Nguồn tham khảo: CellphoneS – Laptop MSI Prestige N16 Flip AI+ C1XMT-017VN — https://cellphones.com.vn/laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark.html
+
+---
+
+# MacBook Pro M5 Max 16 inch 2026 18CPU 40GPU 48GB 2TB Sạc 140W
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Laptop
+
+Giá: 133,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+MacBook Pro M5 Max 16 inch 2026 18CPU 40GPU 48GB 2TB Sạc 140W. Loại card đồ họa: GPU 40 lõi Neural Accelerators Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 614GB/s; Dung lượng RAM: 48GB; Ổ cứng: 2TB.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: GPU 40 lõi Neural Accelerators Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 614GB/s
+- Dung lượng RAM: 48GB
+- Ổ cứng: 2TB
+- Công nghệ màn hình: Màn hình Liquid Retina XDR Tỷ lệ tương phản 1.000.000:1 Độ sáng XDR: 1.000 nit, tối đa 1.600 nit3 (chỉ nội dung HDR) Độ sáng SDR: lên đến 1.000 nit (ngoài trời) 1 tỷ màu Dải màu rộng (P3) Công nghệ True Tone Công nghệ ProMotion
+- Hệ điều hành khi ra mắt: macOS
+- Loại CPU: Chip Apple M5 Max CPU 18 lõi với 6 lõi siêu xử lý và 12 lõi hiệu năng
+- Kích thước màn hình: 16.2 inches
+- Độ phân giải màn hình: 3456 x 2234 pixels
+- Pin: Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ
+- Cổng giao tiếp: Khe thẻ nhớ SDXC Cổng HDMI Jack cắm tai nghe 3.5 mm Cổng MagSafe 3 Ba cổng Thunderbolt 5 (USB-C) hỗ trợ: Sạc / DisplayPort / Thunderbolt 5 (lên đến 120Gb/s) / USB 4 (lên đến 120Gb/s)
+
+Nguồn tham khảo: CellphoneS – MacBook Pro M5 Max 16 inch 2026 18CPU 40GPU 48GB 2TB Sạc 140W | Chính hãng Apple Việt Nam — https://cellphones.com.vn/macbook-pro-16-m5-max-18cpu-40-gpu-48gb-2tb.html
+
+---
+
+# Laptop ASUS ROG Zephyrus G16 GU606AW-TB121W
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Laptop
+
+Giá: 119,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop ASUS ROG Zephyrus G16 GU606AW-TB121W. Chip AI: Intel NPU up to 50TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5080 16GB GDDR7 Intel Graphics; Dung lượng RAM: 32GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Intel NPU up to 50TOPS
+- Loại card đồ họa: NVIDIA GeForce RTX 5080 16GB GDDR7 Intel Graphics
+- Dung lượng RAM: 32GB
+- Loại RAM: LPDDR5X 8533 Onboard
+- Số khe ram: Không nâng cấp
+- Ổ cứng: 1TB PCIe 4.0 NVMe M.2 SSD (2 Khe cắm M.2 hỗ trợ cả SATA hoặc NVMe, tối đa 2TB)
+- Công nghệ màn hình: Độ sáng tối đa 1100 nits (Peak) Tỷ lệ tương phản 1.000.000:1 Màn hình chống chói NVIDIA G-SYNC Chứng nhận màu sắc Pantone Validated ROG Nebula HDR Display Hỗ trợ Dolby Vision HDR
+- Hệ điều hành khi ra mắt: Windows 11 Home
+- Loại CPU: Intel Core Ultra 9 386H 2.1 GHz (18MB Cache, up to 4.9 GHz, 16 lõi, 16 luồng)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2560 x 1600 pixels (2.5K)
+- Pin: 90WHrs, 4S1P, 4-cell Li-ion Sạc từ 0-50% trong 30 phút
+- Cổng giao tiếp: 1x Thunderbolt 4 (DisplayPort, Sạc, 40Gbps) 1x USB-C 3.2 Gen 2 (DisplayPort, Sạc, G-SYNC, 10Gbps) 2x USB-A 3.2 Gen 2 (10Gbps) 1x đầu đọc thẻ SD (UHS-II, tốc độ lên đến 312MB/s) 1x HDMI 2.1 FRL 1x jack âm thanh 3.5mm Combo Audio
+
+Nguồn tham khảo: CellphoneS – Laptop ASUS ROG Zephyrus G16 GU606AW-TB121W — https://cellphones.com.vn/laptop-asus-rog-zephyrus-g16-gu606aw-tb121w.html
+
+---
+
+# Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS
+
+## Thông tin chung
+
+Hãng: Acer
+
+Danh mục: Laptop
+
+Giá: 115,000,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng (áp dụng cho hóa đơn mua từ 1.1.2025, các máy mua trước đó áp dụng bảo hành 12 tháng). 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS. Chip AI: Hiệu suất AI GPU (TOPs) 992 TOPS Hiệu suất AI NPU (TOPs) 13 TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5070 Ti với 12 GB GDDR7 VRAM chuyên dụng, hỗ trợ 5888 lõi NVIDIA CUDA; Dung lượng RAM: 64GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Hiệu suất AI GPU (TOPs) 992 TOPS Hiệu suất AI NPU (TOPs) 13 TOPS
+- Loại card đồ họa: NVIDIA GeForce RTX 5070 Ti với 12 GB GDDR7 VRAM chuyên dụng, hỗ trợ 5888 lõi NVIDIA CUDA
+- Dung lượng RAM: 64GB
+- Loại RAM: DDR5 Up to 6400 MT/s
+- Số khe ram: 2 khe (2x 32GB, Nâng cấp tối đa 96GB)
+- Ổ cứng: 2 TB M.2 NVMe (2 khe, 1TB*2)
+- Công nghệ màn hình: AcerCineCrystal True Black HDR 500(@HDR 500 Có khả năng Nvidia Advanced Optimus Độ phủ màu 100% DCI-P3 Độ sáng 500nits
+- Hệ điều hành khi ra mắt: Windows 11 Home Single Language
+- Loại CPU: Intel Core Ultra 9 275HX (24 lõi / 24 luồng, 4.6 GHz (e-core) 5.4 GHz 36MB Cache)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2560 x 1600 pixels (2K)
+- Pin: 76Wh 4-cell Li-ion 230W 5.5 PHY PCR 50% AC adapter
+- Cổng giao tiếp: 2x USB Type-C 3x USB-A 1x HDMI 2.1 hỗ trợ HDCP 1x Ethernet (RJ-45) 1x đầu đọc thẻ Micro SD 1x giắc cắm DC-in cho bộ đổi nguồn AC 1x giắc cắm tai nghe/loa 3.5 mm, hỗ trợ tai nghe có tích hợp micrô
+
+Nguồn tham khảo: CellphoneS – Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS — https://cellphones.com.vn/laptop-acer-gaming-predator-helios-neo-16s-ai-phn16s-71-95ms.html
+
+---
+
+# Laptop ASUS ROG Flow Z13 GZ302EA-RU232WS
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Laptop
+
+Giá: 109,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop ASUS ROG Flow Z13 GZ302EA-RU232WS. Chip AI: AMD XDNA NPU up to 50TOPS; Loại card đồ họa: AMD Radeon 8060S Graphics; Dung lượng RAM: 64GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: AMD XDNA NPU up to 50TOPS
+- Loại card đồ họa: AMD Radeon 8060S Graphics
+- Dung lượng RAM: 64GB
+- Loại RAM: LPDDR5X 8000 on board
+- Số khe ram: Không nâng cấp
+- Ổ cứng: 1TB PCIe 4.0 NVMe M.2 SSD (2230)
+- Công nghệ màn hình: Độ sáng 500 nits Độ tương phản tĩnh 1500:1 Độ phủ màu 100% DCI-P3 Chống chói, chống phản chiếu (AGLR) Công nghệ Adaptive-Sync ROG Nebula Display Hỗ trợ Dolby Vision HDR Hỗ trợ bút cảm ứng (Stylus)
+- Hệ điều hành khi ra mắt: Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic (with 100GB of cloud storage)
+- Loại CPU: AMD Ryzen AI MAX+ 395 3.0GHz (80MB Cache, up to 5.1GHz, 16 lõi, 32 luồng)
+- Kích thước màn hình: 13.4 inches
+- Độ phân giải màn hình: 2560 x 1600 (WQXGA)
+- Pin: 70WHrs, 4S1P, 4-cell Li-ion Sạc từ 0-50% trong 30 phút
+- Cổng giao tiếp: 2 x USB4 Type-C (40Gbps, hỗ trợ DisplayPort, Power Delivery) 1 x USB-A 3.2 Gen 2 (10Gbps) 1 x Khe đọc thẻ microSD (UHS-II) 1 x HDMI 2.1 FRL 1 x Jack tai nghe/mic 3.5 mm Micro tích hợp dạng mảng 3 mic
+
+Nguồn tham khảo: CellphoneS – Laptop ASUS ROG Flow Z13 GZ302EA-RU232WS — https://cellphones.com.vn/laptop-asus-rog-flow-z13-gz302ea-ru232ws.html
+
+---
+
+# Apple Mac Studio M4 Max 16CPU 40GPU 48GB 1TB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: PC
+
+Giá: 107,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Apple Mac Studio M4 Max 16CPU 40GPU 48GB 1TB. Loại card đồ họa: GPU 40 lõi và Neural Engine 16 lõi (Băng thông bộ nhớ 546GB/s); Dung lượng RAM: 48GB; Ổ cứng: 1TB.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: GPU 40 lõi và Neural Engine 16 lõi (Băng thông bộ nhớ 546GB/s)
+- Dung lượng RAM: 48GB
+- Ổ cứng: 1TB
+- Công nghệ màn hình: Hỗ trợ đồng thời lên đến năm màn hình
+- Hệ điều hành: macOS
+- Loại CPU: CPU 16 lõi
+- Cổng giao tiếp: 4x Thunderbolt 5 (USB‑C) hỗ trợ: Thunderbolt 5 (120Gb/s) / USB 4 (120Gb/s) /USB 3 (10Gb/s) / DisplayPort 2.1 2x USB 3 (USB‑A) (5Gb/s) Cổng HDMI 2.1 Ethernet 10Gb Jack cắm tai nghe 3.5 mm Mặt trước: 2x USB‑C (10Gb/s), Khe thẻ nhớ SDXC
+
+Nguồn tham khảo: CellphoneS – Apple Mac Studio M4 Max 16CPU 40GPU 48GB 1TB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/mac-studio-m4-max-16cpu-40gpu-48gb-1tb.html
+
+---
+
+# MacBook Pro 16 M4 Max 16CPU 40GPU 48GB 1TB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Laptop
+
+Giá: 95,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+MacBook Pro 16 M4 Max 16CPU 40GPU 48GB 1TB. Loại card đồ họa: 40 lõi Neural Engine 16 lõi; Dung lượng RAM: 48GB; Ổ cứng: 1TB.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: 40 lõi Neural Engine 16 lõi
+- Dung lượng RAM: 48GB
+- Ổ cứng: 1TB
+- Kích thước màn hình: 16.2 inches
+- Công nghệ màn hình: Màn hình Liquid Retina XDR XDR (Extreme Dynamic Range) Độ sáng XDR: 1.000 nit ở chế độ toàn màn hình, độ sáng đỉnh 1.600 nit (chỉ nội dung HDR) 1 tỷ màu Dải màu rộng (P3) Công nghệ True Tone Hỗ trợ tối đa bốn màn hình ngoài
+- Pin: Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 21 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ
+- Hệ điều hành: macOS
+- Độ phân giải màn hình: 3456 x 2234 pixels
+- Loại CPU: Apple M4 Max 16 lõi với 12 lõi hiệu năng và 4 lõi tiết kiệm điện
+- Cổng giao tiếp: Khe thẻ nhớ SDXC Cổng HDMI Jack cắm tai nghe 3.5 mm Cổng MagSafe 3 Ba cổng Thunderbolt 5 (USB‑C) hỗ trợ: Sạc, DisplayPort, Thunderbolt 5 (lên đến 120Gb/s), Thunderbolt 4 (lên đến 40Gb/s), USB 4 (lên đến 40Gb/s)
+
+Nguồn tham khảo: CellphoneS – MacBook Pro 16 M4 Max 16CPU 40GPU 48GB 1TB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/macbook-pro-16-inch-m4-max-48gb-1tb.html
+
+---
+
+# Laptop MSI Stealth 16 AI+ B3WG-008VN
+
+## Thông tin chung
+
+Hãng: MSI
+
+Danh mục: Laptop
+
+Giá: 82,590,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 36 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop MSI Stealth 16 AI+ B3WG-008VN. Loại card đồ họa: NVIDIA GeForce RTX 5070 GDDR7 8GB Intel Graphics; Dung lượng RAM: 32GB; Loại RAM: DDR5-7200.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: NVIDIA GeForce RTX 5070 GDDR7 8GB Intel Graphics
+- Dung lượng RAM: 32GB
+- Loại RAM: DDR5-7200
+- Số khe ram: 2 khe (2 x 16GB, nâng cấp tối đa 128GB)
+- Ổ cứng: 1TB*1, 2x M.2 SSD slot (NVMe PCIe Gen4) Max 4TB
+- Công nghệ màn hình: Độ phủ màu 100% DCI-P3 typ
+- Hệ điều hành khi ra mắt: Windows 11 Home Single Language
+- Loại CPU: Intel Core Ultra 9 386H, 16 lõi (4 P-cores + 8 E-cores + 4 Low Power E-cores), 16 luồng, 18MB Intel Smart Cache, Max Turbo Frequency 4.9 GHz
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2560 x 1600 pixels (QHD+)
+- Pin: 4 Cells 90 Whrs
+- Cổng giao tiếp: 2 x Thunderbolt 4 (DisplayPort, Power Delivery 3.0) 2 x USB 3.2 Gen 2 Type-A 1 x HDMI 2.1 (8K@60Hz / 4K@120Hz) 1 x RJ45
+
+Nguồn tham khảo: CellphoneS – Laptop MSI Stealth 16 AI+ B3WG-008VN — https://cellphones.com.vn/laptop-msi-stealth-16-ai-b3wg-008vn.html
+
+---
+
+# Apple Studio Display XDR 27 5K Ngàm VESA 2026
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Màn hình
+
+Giá: 79,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Apple Studio Display XDR 27 5K Ngàm VESA 2026. Treo tường: 100 x 100 mm; Kích thước màn hình: 27 inches; Công nghệ màn hình: Màn hình Retina XDR 5K Đèn nền mini-LED với 2304 vùng làm tối Độ sáng lên đến 1000 nit (SDR) Độ sáng đỉnh 2000 nit (HDR) Hỗ trợ 1 tỷ màu Dải màu rộng P3 + Adobe RGB Công nghệ True Tone.
+
+## Thông số kỹ thuật
+
+- Treo tường: 100 x 100 mm
+- Kích thước màn hình: 27 inches
+- Công nghệ màn hình: Màn hình Retina XDR 5K Đèn nền mini-LED với 2304 vùng làm tối Độ sáng lên đến 1000 nit (SDR) Độ sáng đỉnh 2000 nit (HDR) Hỗ trợ 1 tỷ màu Dải màu rộng P3 + Adobe RGB Công nghệ True Tone
+- Độ phân giải màn hình: 5120 x 2880 pixels
+- Cổng giao tiếp: 2x Thunderbolt 5 (120Gb/s), 1 cổng ngược dòng dành cho thiết bị chính (140W), 1 cổng xuôi dòng để kết nối phụ kiện tốc độ cao hoặc kết nối chuỗi các màn hình khác với nhau 2x USB-C (10Gb/s) để kết nối các thiết bị ngoại vi, lưu trữ và kết nối mạng
+
+Nguồn tham khảo: CellphoneS – Apple Studio Display XDR 27 5K Ngàm VESA 2026 | Chính hãng Apple Việt Nam — https://cellphones.com.vn/apple-studio-display-xdr-27-5k-ngam-vesa-2026.html
+
+---
+
+# MacBook Pro M5 Pro 14 inch 2026 15CPU 16GPU 24GB 2TB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Laptop
+
+Giá: 79,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+MacBook Pro M5 Pro 14 inch 2026 15CPU 16GPU 24GB 2TB. Loại card đồ họa: GPU 16 lõi Neural Accelerators Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 307GB/s; Dung lượng RAM: 24GB; Ổ cứng: 2TB.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: GPU 16 lõi Neural Accelerators Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 307GB/s
+- Dung lượng RAM: 24GB
+- Ổ cứng: 2TB
+- Công nghệ màn hình: Màn hình Liquid Retina XDR Tỷ lệ tương phản 1.000.000:1 Độ sáng XDR: 1.000 nit, tối đa 1.600 nit3 (chỉ nội dung HDR) Độ sáng SDR: lên đến 1.000 nit (ngoài trời) 1 tỷ màu Dải màu rộng (P3) Công nghệ True Tone Công nghệ ProMotion
+- Hệ điều hành khi ra mắt: macOS
+- Loại CPU: Chip Apple M5 Pro CPU 15 lõi với 5 lõi siêu xử lý và 10 lõi hiệu năng
+- Kích thước màn hình: 14.2 inches
+- Độ phân giải màn hình: 3024 x 1964 pixels
+- Pin: Pin Li-Po 72,4 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ
+- Cổng giao tiếp: Khe thẻ nhớ SDXC Cổng HDMI Jack cắm tai nghe 3.5 mm Cổng MagSafe 3 Ba cổng Thunderbolt 5 (USB-C) hỗ trợ: Sạc / DisplayPort / Thunderbolt 5 (lên đến 120Gb/s) / USB 4 (lên đến 120Gb/s)
+
+Nguồn tham khảo: CellphoneS – MacBook Pro M5 Pro 14 inch 2026 15CPU 16GPU 24GB 2TB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/macbook-pro-14-m5-pro-15cpu-16-gpu-24gb-2tb.html
+
+---
+
+# Laptop Lenovo Legion 7 16IAX10 83KY001UVN
+
+## Thông tin chung
+
+Hãng: Lenovo
+
+Danh mục: Laptop
+
+Giá: 78,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 36 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Lenovo Legion 7 16IAX10 83KY001UVN. Chip AI: Intel AI Boost, up to 13 TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7, Boost Clock 2497MHz, TGP 115W, 572 AI TOPS; Dung lượng RAM: 32GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Intel AI Boost, up to 13 TOPS
+- Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7, Boost Clock 2497MHz, TGP 115W, 572 AI TOPS
+- Dung lượng RAM: 32GB
+- Loại RAM: DDR5-5600
+- Số khe ram: 2 khe (2 x 16GB, tối đa 32GB)
+- Ổ cứng: 1TB SSD M.2 2242 PCIe 4.0x4 NVMe (Tối đa hai ổ đĩa, 2x SSD M.2, mỗi ổ có dung lượng tối đa 1TB)
+- Công nghệ màn hình: Độ sáng 500nits (Điển hình) / 1100nits (Cao) Độ phủ màu 100% DCI-P3 DisplayHDR True Black 1000 Dolby Vision G-SYNC Ánh sáng xanh thấp Hiệu suất chơi game cao Không nhấp nháy
+- Hệ điều hành khi ra mắt: Windows 11 Home Single Language, English + Office Home 2024 + Lenovo AI Now
+- Loại CPU: Intel Core Ultra 9 275HX, 24 lõi (8P + 16E) / 24 luồng, Max Turbo up to 5.4GHz, 36MB
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2560 x 1600 (WQXGA)
+- Pin: 84Wh, 245W Slim Tip (3-pin)
+- Cổng giao tiếp: 2x USB-A (5Gbps) 1x USB-C (10Gbps), USB PD 65-100W và DP 2.1 1x USB-C (Thunderbolt 4 / 40Gbps), USB PD 65-100W và DP 2.1 1x HDMI 2.1, lên đến 8K/60Hz 1x Giắc cắm kết hợp tai nghe/micrô (3.5mm) 1x Đầu đọc thẻ 1x Đầu nối nguồn
+
+Nguồn tham khảo: CellphoneS – Laptop Lenovo Legion 7 16IAX10 83KY001UVN — https://cellphones.com.vn/laptop-lenovo-legion-7-16iax10-83ky001uvn.html
+
+---
+
+# Laptop ASUS Zenbook Duo UX8407AA-SN439WS
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Laptop
+
+Giá: 78,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop ASUS Zenbook Duo UX8407AA-SN439WS. Chip AI: Intel NPU up to 50TOPS; Loại card đồ họa: Intel Arc Graphics; Dung lượng RAM: 32GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Intel NPU up to 50TOPS
+- Loại card đồ họa: Intel Arc Graphics
+- Dung lượng RAM: 32GB
+- Loại RAM: LPDDR5X Onboard
+- Ổ cứng: 512GB M.2 NVMe PCIe 4.0 SSD
+- Công nghệ màn hình: Thời gian phản hồi 0.2 ms Độ sáng 500 nits Tối đa 1000 nits HDR Độ phủ màu 100% DCI-P3 Hỗ trợ gamut mapping VESA DisplayHDR True Black 1000 1.07 tỷ màu Màn hình chống chói Giảm 70% ánh sáng xanh Hỗ trợ bút cảm ứng
+- Hệ điều hành: Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic (bao gồm 100GB dung lượng lưu trữ đám mây)
+- Loại CPU: Intel Core Ultra X7 358H 1.9 GHz (18MB Cache, up to 4.8 GHz, 16 lõi, 16 luồng)
+- Kích thước màn hình: 14 inches
+- Độ phân giải màn hình: 2880 x 1800 pixels
+- Pin: 99WHrs, 4S1P, 4-cell Li-ion
+- Cổng giao tiếp: 1 x USB 3.2 Gen 2 Type-A (10Gbps) 2 x Thunderbolt 4 (40Gbps, hỗ trợ Display/Power Delivery) 1 x HDMI 2.1 FRL
+
+Nguồn tham khảo: CellphoneS – Laptop ASUS Zenbook Duo UX8407AA-SN439WS — https://cellphones.com.vn/laptop-asus-zenbook-duo-ux8407aa-sn439ws.html
+
+---
+
+# Laptop Acer Predator Helios Neo 16S PHN16S-I51-97T9
+
+## Thông tin chung
+
+Hãng: Acer
+
+Danh mục: Laptop
+
+Giá: 75,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Acer Predator Helios Neo 16S PHN16S-I51-97T9. Chip AI: 798 TOPs; Loại card đồ họa: NVIDIA GeForce RTX 5070 8 GB GDDR7 VRAM, hỗ trợ 4608 NVIDIA CUDA Cores; Dung lượng RAM: 16GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: 798 TOPs
+- Loại card đồ họa: NVIDIA GeForce RTX 5070 8 GB GDDR7 VRAM, hỗ trợ 4608 NVIDIA CUDA Cores
+- Dung lượng RAM: 16GB
+- Loại RAM: DDR5 6400 MHz
+- Số khe ram: 2 khe (2 x 8GB, nâng cấp tối đa 96GB)
+- Ổ cứng: 512GB PCIe NVMe SSD (Nâng cấp tối đa 4TB)
+- Công nghệ màn hình: Độ sáng 500 nits Độ phủ màu 100% DCI-P3 (typical) Màn hình Acer CineCrystal Tỷ lệ 16:10 Chứng nhận True Black HDR 500 Hỗ trợ NVIDIA Advanced Optimus Góc nhìn rộng
+- Hệ điều hành khi ra mắt: Windows 11 Home Single Language
+- Loại CPU: Intel Core Ultra 9 386H (16 lõi / 16 luồng, 2.1 GHz - 4.9 GHz, 18 MB Intel Smart Cache)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2560 x 1600 pixels (2K)
+- Pin: 92Wh 4-cell Li-ion 230W 5.5 PHY AC adapter
+- Cổng giao tiếp: 2 x USB-C (DP 2.1, sạc, DC-in 90/100W; 1 Thunderbolt 4) 3 x USB-A (1 x Gen 1, 2 x Gen 2, 1 cổng hỗ trợ sạc khi tắt máy) 1 x khe thẻ microSD 1 x Jack tai nghe 3.5 mm (hỗ trợ headset mic) 1 x HDMI 2.1 1 x RJ-45 1 x Cổng nguồn
+
+Nguồn tham khảo: CellphoneS – Laptop Acer Predator Helios Neo 16S PHN16S-I51-97T9 — https://cellphones.com.vn/laptop-acer-predator-helios-neo-16s-phn16s-i51-97t9.html
+
+---
+
+# Laptop Lenovo Yoga Slim 7 Ultra 14IPH11 83QK009PVN
+
+## Thông tin chung
+
+Hãng: Lenovo
+
+Danh mục: Laptop
+
+Giá: 75,690,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 36 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Lenovo Yoga Slim 7 Ultra 14IPH11 83QK009PVN. Chip AI: Up to 50 TOPS; Loại card đồ họa: Intel Arc B390 GPU; Dung lượng RAM: 32GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Up to 50 TOPS
+- Loại card đồ họa: Intel Arc B390 GPU
+- Dung lượng RAM: 32GB
+- Loại RAM: LPDDR5X-9600 Onboard
+- Số khe ram: Không nâng cấp
+- Ổ cứng: 1TB SSD M.2 2242 PCIe 4.0x4 NVMe (Một ổ đĩa, SSD M.2 2242 dung lượng lên đến 2TB)
+- Công nghệ màn hình: Độ sáng 500 nits (điển hình), 1100 nits (tối đa) Màn hình gương, chống bám vân tay Độ phủ màu 100% P3, 100% sRGB Eyesafe, Flicker Free Dolby Vision, DisplayHDR True Black 1000 Corning Gorilla Glass 3 TCON, PureSight Pro
+- Hệ điều hành khi ra mắt: Windows 11 Home Single Language, English + Microsoft 365 Basic + Office Home 2024 + Lenovo AI Now
+- Loại CPU: Intel Core Ultra X9 378H, 16 lõi (4P + 8E + 4LPE) / 16 luồng, Max Turbo up to 5.0GHz, 18MB Intel Smart Cache
+- Kích thước màn hình: 14 inches
+- Độ phân giải màn hình: 2880 x 1800 pixels
+- Pin: 75Wh, 65W USB-C Slim (2-pin, Wall-mount)
+- Cổng giao tiếp: 3x Thunderbolt 4, với USB PD 45-65W và DisplayPort 2.1
+
+Nguồn tham khảo: CellphoneS – Laptop Lenovo Yoga Slim 7 Ultra 14IPH11 83QK009PVN — https://cellphones.com.vn/laptop-lenovo-yoga-slim-7-ultra-14iph11-83qk009pvn.html
+
+---
+
+# Laptop MSI Prestige 14 Flip AI+ Vincent van Gogh Edition - Starry Night Over the Rhône 14T234-260VN
+
+## Thông tin chung
+
+Hãng: MSI
+
+Danh mục: Laptop
+
+Giá: 60,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop MSI Prestige 14 Flip AI+ Vincent van Gogh Edition - Starry Night Over the Rhône 14T234-260VN. Chip AI: Intel AI Boost 50 TOPS; Loại card đồ họa: Intel Arc B390; Dung lượng RAM: 32GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Intel AI Boost 50 TOPS
+- Loại card đồ họa: Intel Arc B390
+- Dung lượng RAM: 32GB
+- Loại RAM: LPDDR5x
+- Số khe ram: Onboard, không nâng cấp
+- Ổ cứng: 1TB NVMe PCIe Gen4 SSD, 1x M.2 SSD slot
+- Công nghệ màn hình: Độ phủ màu 120% sRGB Chứng nhận giảm ánh sáng xanh SGS SGS Eye Care Display Hỗ trợ bút MSI Nano Pen
+- Hệ điều hành khi ra mắt: Windows 11 Home
+- Loại CPU: Intel Core Ultra X9-378H ( 2.0GHz - 5.00GHz / 18MB / 16 nhân, 16 luồng ), Copilot+ PC
+- Kích thước màn hình: 14 inches
+- Độ phân giải màn hình: 1920 x 1200 pixels (FullHD+)
+- Pin: 4-Cell (81 Whrs)
+- Cổng giao tiếp: 1 x HDMI 2.1 (8K@60Hz / 4K@120Hz) 2 x Thunderbolt 4 (DisplayPort / Power Delivery 3.0) 2 x USB-A 3.2 Gen 2 1 x Jack tai nghe/mic 3.5 mm
+
+Nguồn tham khảo: CellphoneS – Laptop MSI Prestige 14 Flip AI+ Vincent van Gogh Edition - Starry Night Over the Rhône 14T234-260VN — https://cellphones.com.vn/laptop-msi-prestige-14-flip-ai-vincent-van-gogh-edition-starry-night-over-the-rhone-14t234-260vn.html
+
+---
+
+# iMac M4 2024 24 inch 10CPU 10GPU 24GB 512GB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: PC
+
+Giá: 57,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+iMac M4 2024 24 inch 10CPU 10GPU 24GB 512GB. Loại card đồ họa: GPU 10 lõi; Dung lượng RAM: 24GB; Ổ cứng: 512GB.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: GPU 10 lõi
+- Dung lượng RAM: 24GB
+- Ổ cứng: 512GB
+- Kích thước màn hình: 24 inches
+- Công nghệ màn hình: Màn hình Retina 4.5K 1 tỷ màu Độ sáng 500 nit Dải màu rộng (P3) Công nghệ True Tone
+- Hệ điều hành: macOS
+- Độ phân giải màn hình: 4480 x 2520 (4.5K)
+- Loại CPU: Apple M4 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện Neural Engine 16 lõi
+- Cổng giao tiếp: 4x Thunderbolt 4 (lên đến 40Gb/s) USB 4 (lên đến 40Gb/s) USB 3.1 Gen 2 (lên đến 10Gb/s) DisplayPort Jack cắm tai nghe 3.5 mm có hỗ trợ nâng cao cho tai nghe trở kháng cao Gigabit Ethernet
+
+Nguồn tham khảo: CellphoneS – iMac M4 2024 24 inch 10CPU 10GPU 24GB 512GB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/imac-m4-24-inch-10cpu-10gpu-24gb-512gb.html
+
+---
+
+# Laptop HP Dragonfly G4 A9VD6PT
+
+## Thông tin chung
+
+Hãng: HP
+
+Danh mục: Laptop
+
+Giá: 54,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 36 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop HP Dragonfly G4 A9VD6PT. Loại card đồ họa: Intel Iris Xe Graphics; Dung lượng RAM: 32GB; Loại RAM: LPDDR5 4800MHz Onboard.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: Intel Iris Xe Graphics
+- Dung lượng RAM: 32GB
+- Loại RAM: LPDDR5 4800MHz Onboard
+- Số khe ram: Onboard
+- Ổ cứng: 1TB SSD PCIe (M.2 2280)
+- Kích thước màn hình: 13.5 inches
+- Công nghệ màn hình: BrightView HP Sure View (màn hình chống nhìn trộm tích hợp)
+- Pin: 6 Cell Int (68.4Wh)
+- Hệ điều hành: Windows 11 Pro 64-bit
+- Độ phân giải màn hình: 1920 x 1280 pixels (WUXGA+)
+- Loại CPU: Intel Core i7-1365U (10 lõi) - Max Turbo Frequency: 5.20 GHz, 12MB cache
+- Cổng giao tiếp: 2 x Thunderbolt 4 (Power Delivery, DisplayPort) 1 x USB-A 3.2 Gen 1 1 x HDMI 1 x jack tai nghe/micro 3.5mm
+
+Nguồn tham khảo: CellphoneS – Laptop HP Dragonfly G4 A9VD6PT — https://cellphones.com.vn/laptop-hp-dragonfly-g4-a9vd6pt.html
+
+---
+
+# Laptop ASUS TUF Gaming A16 FA608UMI-TU162W
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Laptop
+
+Giá: 51,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop ASUS TUF Gaming A16 FA608UMI-TU162W. Chip AI: AMD XDNA NPU up to 16TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7 AMD Radeon 780M Graphics; Dung lượng RAM: 16GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: AMD XDNA NPU up to 16TOPS
+- Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7 AMD Radeon 780M Graphics
+- Dung lượng RAM: 16GB
+- Loại RAM: DDR5-5600 SO-DIMM
+- Số khe ram: 2 khe (Nâng cấp tối đa 64GB)
+- Ổ cứng: 512GB PCIe 4.0 NVMe M.2 SSD (2 Khe cắm M.2 hỗ trợ cả SATA hoặc NVMe, tối đa 2TB)
+- Công nghệ màn hình: Độ sáng 300 nits Tỷ lệ tương phản 1000:1 Độ phủ màu: 72% NTSC / 100% sRGB / 75.35% Adobe RGB Màn hình chống chói Hỗ trợ NVIDIA G-SYNC
+- Hệ điều hành khi ra mắt: Windows 11 Home
+- Loại CPU: AMD Ryzen 7 260 3.8GHz (24MB Cache, up to 5.1 GHz, 8 lõi, 16 luồng)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 1920 x 1200 pixels (FullHD+)
+- Pin: 70WHrs, 4S1P, 4-cell Li-ion Sạc từ 0-50% trong 30 phút
+- Cổng giao tiếp: 1 x RJ45 LAN 1 x USB 2.0 Type-A (480Mbps) 1 x USB 3.2 Gen 2 Type-C (10Gbps, hỗ trợ DisplayPort, Power Delivery, G-SYNC) 2 x USB 3.2 Gen 2 Type-A (10Gbps) 1 x HDMI 2.1 FRL 1 x Jack tai nghe/mic 3.5 mm Micro tích hợp (array)
+
+Nguồn tham khảo: CellphoneS – Laptop ASUS TUF Gaming A16 FA608UMI-TU162W — https://cellphones.com.vn/laptop-asus-tuf-gaming-a16-fa608umi-tu162w.html
+
+---
+
+# Laptop ASUS Zenbook A16 UX3607OA-SQ137WS
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Laptop
+
+Giá: 49,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop ASUS Zenbook A16 UX3607OA-SQ137WS. Chip AI: Qualcomm Hexagon NPU up to 80TOPS; Loại card đồ họa: Qualcomm Adreno GPU; Dung lượng RAM: 24GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Qualcomm Hexagon NPU up to 80TOPS
+- Loại card đồ họa: Qualcomm Adreno GPU
+- Dung lượng RAM: 24GB
+- Loại RAM: LPDDR5X
+- Ổ cứng: 512GB M.2 NVMe PCIe 4.0 SSD
+- Công nghệ màn hình: Thời gian phản hồi 0.2ms Độ sáng 500 nits (1100 nits HDR) Độ tương phản 1.000.000:1 Độ phủ màu 100% DCI-P3 1.07 tỷ màu VESA DisplayHDR True Black 1000 Giảm 70% ánh sáng xanh TÜV Rheinland, SGS Eye Care Display
+- Hệ điều hành khi ra mắt: Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic (kèm 100GB dung lượng lưu trữ đám mây)
+- Loại CPU: Snapdragon X2 Elite Extreme X2E94100 24GB(53MB Cache, Single-core Boost Fequency 5.0GHz, Multi-core max up to 4.4GHz, 18 lõi, 18 luồng, Memory Bandwith 228GB/s)
+- Kích thước màn hình: 16 inches
+- Độ phân giải màn hình: 2880 x 1800 pixels
+- Pin: 70WHrs, 3S1P, 3-cell Li-ion
+- Cổng giao tiếp: 1x USB-A 3.2 Gen 2 (10Gbps) 2x USB4 Type-C (DisplayPort, Power Delivery, 40Gbps) 1x HDMI 2.1 TMDS 1x jack tai nghe/micro 3.5mm 1x đầu đọc thẻ SD 4.0
+
+Nguồn tham khảo: CellphoneS – Laptop ASUS Zenbook A16 UX3607OA-SQ137WS — https://cellphones.com.vn/laptop-asus-zenbook-a16-ux3607oa-sq137ws-snapdragon-x2-elite.html
+
+---
+
+# Laptop Lenovo LOQ 15IPH11 83SL000LVN
+
+## Thông tin chung
+
+Hãng: Lenovo
+
+Danh mục: Laptop
+
+Giá: 49,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Lenovo LOQ 15IPH11 83SL000LVN. Chip AI: Up to 50 TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7, Boost Clock 1455MHz, TGP 115W, 572 AI TOPS; Dung lượng RAM: 16GB.
+
+## Thông số kỹ thuật
+
+- Chip AI: Up to 50 TOPS
+- Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7, Boost Clock 1455MHz, TGP 115W, 572 AI TOPS
+- Dung lượng RAM: 16GB
+- Loại RAM: SODIMM DDR5-5600
+- Số khe ram: 2 khe (1 x 16GGB, nâng cấp tối đa 32GB)
+- Ổ cứng: 512GB SSD M.2 2242 PCIe 4.0x4 NVMe (Hỗ trợ tối đa hai ổ đĩa, 2 ổ SSD M.2, dung lượng lên đến 1TB)
+- Công nghệ màn hình: Độ sáng 300 nits Màn hình chống chói Độ phủ màu 100% sRGB FreeSync G-SYNC Low Blue Light
+- Hệ điều hành: Windows 11 Home Single Language, English
+- Loại CPU: Intel Core Ultra 7 356H, 16 lõi (4P + 8E + 4LPE) / 16 luồng, Max Turbo up to 4.7GHz, 18MB Intel Smart Cache
+- Kích thước màn hình: 15.3 inches
+- Độ phân giải màn hình: 1920 x 1200 pixels (WUXGA)
+- Pin: 60Wh, 245W Slim Tip (3-pin)
+- Cổng giao tiếp: 2x USB-A (5Gbps) 1x USB-A (10Gbps) 1x Thunderbolt 4 (PD 65–100W, DisplayPort 2.1) 1x HDMI 2.1 (tối đa 8K/60Hz) 1x jack tai nghe/micro 3.5mm 1x Ethernet (RJ-45) 1x cổng nguồn Slim Tip
+
+Nguồn tham khảo: CellphoneS – Laptop Lenovo LOQ 15IPH11 83SL000LVN — https://cellphones.com.vn/laptop-lenovo-loq-15iph11-83sl000lvn.html
+
+---
+
+# Laptop Lenovo LOQ 15IRX9 83DV01ALVN
+
+## Thông tin chung
+
+Hãng: Lenovo
+
+Danh mục: Laptop
+
+Giá: 39,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Lenovo LOQ 15IRX9 83DV01ALVN. Loại card đồ họa: NVIDIA GeForce RTX 4050 6GB GDDR6, Boost Clock 2370MHz, TGP 105W, 194 AI TOPS; Dung lượng RAM: 16GB; Loại RAM: SO-DIMM DDR5-4800.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: NVIDIA GeForce RTX 4050 6GB GDDR6, Boost Clock 2370MHz, TGP 105W, 194 AI TOPS
+- Dung lượng RAM: 16GB
+- Loại RAM: SO-DIMM DDR5-4800
+- Số khe ram: 2 khe (1 x 16GB, nâng cấp tối đa 32GB DDR5-4800)
+- Ổ cứng: 512GB SSD M.2 2242 PCIe 4.0x4 NVMe (Tối đa hai ổ đĩa, 2x SSD M.2 • SSD M.2 2242, mỗi ổ có dung lượng tối đa 1TB)
+- Kích thước màn hình: 15.6 inches
+- Công nghệ màn hình: Độ sáng 300nits Màn hình chống chói Độ phủ màu 100% sRGB G-SYNC
+- Pin: 60Wh, 170W Slim Tip (3-pin)
+- Hệ điều hành: Windows 11 Home Single Language, English
+- Độ phân giải màn hình: 1920 x 1080 pixels (FullHD)
+- Loại CPU: Intel Core i7-13650HX, 14 lõi (6P + 8E) / 20 luồng, P-core 2.6 / 4.9GHz, E-core 1.9 / 3.6GHz, 24MB
+- Cổng giao tiếp: 3x USB-A (5Gbps / USB 3.2 Gen 1) 1x USB-C (10Gbps / USB 3.2 Gen 2), với Lenovo PD 140W và DisplayPort 1.4 1x HDMI 2.1, lên đến 8K/60Hz 1x Giắc cắm kết hợp tai nghe/micrô (3.5mm) 1x Ethernet (RJ-45) 1x Đầu nối nguồn
+
+Nguồn tham khảo: CellphoneS – Laptop Lenovo LOQ 15IRX9 83DV01ALVN — https://cellphones.com.vn/laptop-lenovo-loq-15irx9-83dv01alvn.html
+
+---
+
+# Laptop Thunderobot T-Book 15A
+
+## Thông tin chung
+
+Hãng: Thunderobot
+
+Danh mục: Laptop
+
+Giá: 13,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Thunderobot T-Book 15A. Loại card đồ họa: AMD Radeon Vega 3 (Integrated GPU); Dung lượng RAM: 8GB; Loại RAM: DDR4 SODIMM.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: AMD Radeon Vega 3 (Integrated GPU)
+- Dung lượng RAM: 8GB
+- Loại RAM: DDR4 SODIMM
+- Ổ cứng: 512 GB PCIe SSD, PCIe 3.0 × 4
+- Công nghệ màn hình: Độ sáng 300 nits (điển hình), tối thiểu 255 nits Độ phủ màu 45% NTSC Chăm sóc mắt, lọc ánh sáng xanh Số lượng màu: 6-bit + FRC Thời gian phản hồi: 20ms (điển hình), tối đa 25ms (Tr+Tf)
+- Hệ điều hành khi ra mắt: Windows 11 Pro
+- Loại CPU: AMD Ryzen 3 - 3200U (2 lõi / 4 luồng, 2.6 GHz / tối đa 3.5 GHz)
+- Kích thước màn hình: 15.6 inches
+- Độ phân giải màn hình: 1920 x 1080 pixels (FullHD)
+- Pin: Lithium-ion Polymer, 11.4V, 4000mAh, 45.6Wh
+- Cổng giao tiếp: 1 x USB-A 2.0 2 x USB-A 3.0 1 x USB-C Full Function 1 x USB-C 2.0 (truyền dữ liệu) 1 x HDMI 1.4A 1 x Jack tai nghe/mic 3.5 mm 1 x RJ-45 (LAN 10/100/1000Mbps) Sạc USB-C PD 65W
+
+Nguồn tham khảo: CellphoneS – Laptop Thunderobot T-Book 15A — https://cellphones.com.vn/laptop-thunderobot-t-book-15a.html
+
+---
+
+# Laptop HP 250R G9 AX3C8AT
+
+## Thông tin chung
+
+Hãng: HP
+
+Danh mục: Laptop
+
+Giá: 16,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành chính hãng 12 tháng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop HP 250R G9 AX3C8AT. Loại card đồ họa: Intel UHD Graphics; Dung lượng RAM: 8GB; Loại RAM: DDR4 3200MHz.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: Intel UHD Graphics
+- Dung lượng RAM: 8GB
+- Loại RAM: DDR4 3200MHz
+- Số khe ram: 2 khe (1 x 8GB)
+- Ổ cứng: 512GB SSD PCIe (M.2 2280)
+- Kích thước màn hình: 15.6 inches
+- Công nghệ màn hình: Màn hình chống chói Viền mỏng
+- Pin: 3 Cell Int (41.04Wh)
+- Hệ điều hành: Windows 11 Home Single Language 64-bit
+- Độ phân giải màn hình: 1920 x 1080 pixels (FullHD)
+- Loại CPU: Intel Core i3-1315U (6 lõi) - Max Turbo Frequency: 4.50 GHz
+- Cổng giao tiếp: 2 x USB 3.2 Gen 1 Type-A 1 x USB 3.2 Gen 2 Type-C (Power Delivery, DisplayPort) 1 x HDMI 1 x RJ45 (LAN) 1 x Jack tai nghe/mic 3.5 mm SD-Card
+
+Nguồn tham khảo: CellphoneS – Laptop HP 250R G9 AX3C8AT — https://cellphones.com.vn/laptop-hp-250r-g9-ax3c8at.html
+
+---
+
+# MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB
+
+## Thông tin chung
+
+Hãng: Apple
+
+Danh mục: Laptop
+
+Giá: 18,790,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB. Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s; Dung lượng RAM: 8GB; Ổ cứng: 256GB.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s
+- Dung lượng RAM: 8GB
+- Ổ cứng: 256GB
+- Công nghệ màn hình: Màn hình Liquid Retina Màn hình có đèn nền LED Mật độ 219 pixel mỗi inch Độ sáng 500 nit Hỗ trợ 1 tỷ màu Màu sRGB Hỗ trợ một màn hình ngoài có độ phân giải gốc lên đến 4K ở tần số 60Hz
+- Hệ điều hành khi ra mắt: macOS
+- Loại CPU: Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện
+- Kích thước màn hình: 13 inches
+- Độ phân giải màn hình: 2408 x 1506 pixels
+- Pin: Thời gian xem video trực tuyến lên đến 16 giờ Thời gian duyệt web trên mạng không dây lên đến 11 giờ Pin lithium-ion 36.5 watt‑giờ tích hợp
+- Cổng giao tiếp: Một cổng USB 3 (USB-C) hỗ trợ: Sạc / DisplayPort / USB 3 (lên đến 10Gb/s) Một cổng USB 2 (USB-C) hỗ trợ: Sạc / USB 2 (lên đến 480Mb/s) Jack cắm tai nghe 3,5 mm
+
+Nguồn tham khảo: CellphoneS – MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb.html
+
+---
+
+# Laptop HP 250 G10 B1RY5PT
+
+## Thông tin chung
+
+Hãng: HP
+
+Danh mục: Laptop
+
+Giá: 19,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop HP 250 G10 B1RY5PT. Loại card đồ họa: Intel UHD Graphics; Dung lượng RAM: 8GB; Loại RAM: DDR4/ 3200MHz.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: Intel UHD Graphics
+- Dung lượng RAM: 8GB
+- Loại RAM: DDR4/ 3200MHz
+- Số khe ram: 2 khe (1 x 8GB)
+- Ổ cứng: 512GB SSD PCIe (M.2 2280)
+- Kích thước màn hình: 15.6 inches
+- Công nghệ màn hình: Màn hình chống chói
+- Pin: 3 Cell Int (41.04Wh)
+- Hệ điều hành: Windows 11 Home Single Language 64-bit
+- Độ phân giải màn hình: 1920 x 1080 pixels (FullHD)
+- Loại CPU: Intel Core i5-1335U (10 lõi) - Max Turbo Frequency: 4.60 GHz
+- Cổng giao tiếp: 2 x USB 3.2 Gen 1 Type-A 1 x USB 3.2 Gen 1 Type-C 1 x HDMI 1 x Jack tai nghe/mic 3.5 mm
+
+Nguồn tham khảo: CellphoneS – Laptop HP 250 G10 B1RY5PT — https://cellphones.com.vn/laptop-hp-250-g10-b1ry5pt.html
+
+---
+
+# Laptop Acer Swift Air 14 SFA14-I31-55NR
+
+## Thông tin chung
+
+Hãng: Acer
+
+Danh mục: Laptop
+
+Giá: 24,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Laptop Acer Swift Air 14 SFA14-I31-55NR. Loại card đồ họa: Intel Graphics; Dung lượng RAM: 12GB; Loại RAM: LPDDR5X 7467 MT/s Onboard.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: Intel Graphics
+- Dung lượng RAM: 12GB
+- Loại RAM: LPDDR5X 7467 MT/s Onboard
+- Số khe ram: Không nâng cấp
+- Ổ cứng: 512GB PCIe NVMe SSD (Nâng cấp tối đa 2TB)
+- Công nghệ màn hình: Độ sáng 350 nits Tỉ lệ màn hình 16:10 Độ phủ màu 100% sRGB Góc nhìn 170° Màn hình LED-backlit TFT LCD
+- Hệ điều hành khi ra mắt: Windows 11 Home
+- Loại CPU: Intel Core 5 320 (6 lõi / 6 luồng, Tần số cơ bản của nhân hiệu năng cao 1.5 GHz, 3.0 up to 4.6 GHz, 6 MB Smart Cache)
+- Kích thước màn hình: 14 inches
+- Độ phân giải màn hình: 1920 x 1200 pixels (WUXGA)
+- Pin: 70 Wh 3-cell Li-ion battery 3-pin 100 W PD PCR 50%, TCO 9.0 AC adapter
+- Cổng giao tiếp: 2x USB-C (USB4 40Gbps, Thunderbolt 4, sạc 5V/3A) 1x USB-C (DC-in 20V/100W) 1x USB-A 3.2 Gen 1
+
+Nguồn tham khảo: CellphoneS – Laptop Acer Swift Air 14 SFA14-I31-55NR — https://cellphones.com.vn/laptop-acer-swift-air-14-sfa14-i31-55nr.html
+
+---
+
+# Tai nghe Bluetooth chụp tai Sony WH-1000XM6
+
+## Thông tin chung
+
+Hãng: Sony
+
+Danh mục: Tai nghe
+
+Giá: 9,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe Bluetooth chụp tai Sony WH-1000XM6. Kích thước: Dài 20 cm - Rộng 7.83 cm - Cao 25.69 cm; Trọng lượng: 254g; Công nghệ âm thanh: Công nghệ Adaptive NC Optimizer DSEE Extreme (Cơ chế tăng cường âm thanh kỹ thuật số) Hi-Res Audio 360 Reality Audio Equalizer.
+
+## Thông số kỹ thuật
+
+- Kích thước: Dài 20 cm - Rộng 7.83 cm - Cao 25.69 cm
+- Trọng lượng: 254g
+- Công nghệ âm thanh: Công nghệ Adaptive NC Optimizer DSEE Extreme (Cơ chế tăng cường âm thanh kỹ thuật số) Hi-Res Audio 360 Reality Audio Equalizer
+- Micro: Có
+- Cổng kết nối: 3.5mm
+- Thời lượng sử dụng Pin: Tắt chống ồn: 40 giờ Bật chống ồn: 30 giờ
+- Phương thức điều khiển: Nút bấm vật lý Cảm ứng
+- Tính năng khác: Chế độ âm thanh xung quanh Fast pair Dual connect Cảm biến tiệm cận Tương thích trợ lý ảo Sạc nhanh Micro chống ồn, lọc gió
+- Hãng sản xuất: Sony
+
+Nguồn tham khảo: CellphoneS – Tai nghe Bluetooth chụp tai Sony WH-1000XM6 — https://cellphones.com.vn/tai-nghe-chup-tai-sony-wh-1000xm6.html
+
+---
+
+# Tai nghe Bluetooth chụp tai Sony WH-CH520
+
+## Thông tin chung
+
+Hãng: Sony
+
+Danh mục: Tai nghe
+
+Giá: 890,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe Bluetooth chụp tai Sony WH-CH520. Kích thước: Dài 22.8 cm - Rộng 17.2 cm - Cao 4.4 cm; Trọng lượng: 147 gram; Công nghệ âm thanh: Âm thanh kỹ thuật số Công nghệ ENC 360 Reality Audio DSEE Equalizer.
+
+## Thông số kỹ thuật
+
+- Kích thước: Dài 22.8 cm - Rộng 17.2 cm - Cao 4.4 cm
+- Trọng lượng: 147 gram
+- Công nghệ âm thanh: Âm thanh kỹ thuật số Công nghệ ENC 360 Reality Audio DSEE Equalizer
+- Micro: Có
+- Thời lượng sử dụng Pin: 50 giờ
+- Phương thức điều khiển: Nút bấm vật lý
+- Tính năng khác: Sạc nhanh Chống ồn đàm thoại
+- Hãng sản xuất: Sony
+
+Nguồn tham khảo: CellphoneS – Tai nghe Bluetooth chụp tai Sony WH-CH520 — https://cellphones.com.vn/tai-nghe-chup-tai-sony-wh-ch520.html
+
+---
+
+# Tai nghe chống ồn không dây Sony 1000X The Collexion
+
+## Thông tin chung
+
+Hãng: Sony
+
+Danh mục: Tai nghe
+
+Giá: 16,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe chống ồn không dây Sony 1000X The Collexion. Kích thước: 320 g; Công nghệ âm thanh: Chế độ 360 Upmix High-Res Audio High-Res Audio Wireless; Micro: Có.
+
+## Thông số kỹ thuật
+
+- Kích thước: 320 g
+- Công nghệ âm thanh: Chế độ 360 Upmix High-Res Audio High-Res Audio Wireless
+- Micro: Có
+- Cổng kết nối: 3.5mm
+- Thời lượng sử dụng Pin: Bật ANC: 24 giờ Tắt ANC: 32 giờ
+- Phương thức điều khiển: Nút bấm vật lý
+- Tính năng khác: Tính năng Head tracking
+- Hãng sản xuất: Sony
+
+Nguồn tham khảo: CellphoneS – Tai nghe chống ồn không dây Sony 1000X The Collexion — https://cellphones.com.vn/tai-nghe-chup-tai-sony-wh-1000x.html
+
+---
+
+# Tai nghe chụp tai Gaming HyperX Cloud Stinger 2 Core
+
+## Thông tin chung
+
+Hãng: HyperX
+
+Danh mục: Tai nghe
+
+Giá: 750,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 24 tháng - 1 đổi 1 tại trung tâm bảo hành chính hãng
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe chụp tai Gaming HyperX Cloud Stinger 2 Core. Công nghệ âm thanh: Âm thanh 3D; Micro: Có; Cổng kết nối: 3.5mm.
+
+## Thông số kỹ thuật
+
+- Công nghệ âm thanh: Âm thanh 3D
+- Micro: Có
+- Cổng kết nối: 3.5mm
+- Hãng sản xuất: HyperX
+
+Nguồn tham khảo: CellphoneS – Tai nghe chụp tai Gaming HyperX Cloud Stinger 2 Core — https://cellphones.com.vn/tai-nghe-gaming-hyperx-cloud-stinger-ii-core.html
+
+---
+
+# Tai nghe chụp tai có dây Gaming Havit H2040D
+
+## Thông tin chung
+
+Hãng: Havit
+
+Danh mục: Tai nghe
+
+Giá: 250,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 1 đổi 1 trong 12 tháng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe chụp tai có dây Gaming Havit H2040D. Micro: Có; Tính năng khác: Thu âm đa hướng; Hãng sản xuất: Havit.
+
+## Thông số kỹ thuật
+
+- Micro: Có
+- Tính năng khác: Thu âm đa hướng
+- Hãng sản xuất: Havit
+
+Nguồn tham khảo: CellphoneS – Tai nghe chụp tai có dây Gaming Havit H2040D — https://cellphones.com.vn/tai-nghe-gaming-havit-h2040d.html
+
+---
+
+# Tai nghe chụp tai có dây ROBOT RH-P20
+
+## Thông tin chung
+
+Hãng: Robot
+
+Danh mục: Tai nghe
+
+Giá: 159,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe chụp tai có dây ROBOT RH-P20. Micro: Có; Cổng kết nối: 3.5mm; Hãng sản xuất: Robot.
+
+## Thông số kỹ thuật
+
+- Micro: Có
+- Cổng kết nối: 3.5mm
+- Hãng sản xuất: Robot
+
+Nguồn tham khảo: CellphoneS – Tai nghe chụp tai có dây ROBOT RH-P20 — https://cellphones.com.vn/tai-nghe-chup-tai-robot-rh-p20.html
+
+---
+
+# Tai nghe có dây Havit E48P (Cổng jack 3.5)
+
+## Thông tin chung
+
+Hãng: Havit
+
+Danh mục: Tai nghe
+
+Giá: 120,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 1 đổi 1 trong 12 tháng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe có dây Havit E48P (Cổng jack 3.5). Micro: Có; Cổng kết nối: 3.5mm; Phương thức điều khiển: Nút bấm vật lý.
+
+## Thông số kỹ thuật
+
+- Micro: Có
+- Cổng kết nối: 3.5mm
+- Phương thức điều khiển: Nút bấm vật lý
+- Tính năng khác: Tần số đáp ứng: 20Hz to 20kHz
+- Hãng sản xuất: Havit
+
+Nguồn tham khảo: CellphoneS – Tai nghe có dây Havit E48P (Cổng jack 3.5) — https://cellphones.com.vn/tai-nghe-co-day-havit-e48p-jack-3-5.html
+
+---
+
+# Tai nghe Bluetooth True Wireless GOOJODOQ J241
+
+## Thông tin chung
+
+Hãng: Goojodoq
+
+Danh mục: Tai nghe
+
+Giá: 159,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 3 tháng chính hãng, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe Bluetooth True Wireless GOOJODOQ J241. Micro: Có; Thời lượng sử dụng Pin: Tai nghe: 6 giờ Hộp sạc: 30 giờ; Phương thức điều khiển: Cảm ứng chạm.
+
+## Thông số kỹ thuật
+
+- Micro: Có
+- Thời lượng sử dụng Pin: Tai nghe: 6 giờ Hộp sạc: 30 giờ
+- Phương thức điều khiển: Cảm ứng chạm
+- Hãng sản xuất: Goojodoq
+
+Nguồn tham khảo: CellphoneS – Tai nghe Bluetooth True Wireless GOOJODOQ J241 — https://cellphones.com.vn/tai-nghe-bluetooth-goojodoq-j241.html
+
+---
+
+# Tai nghe Sony không dây chống ồn WF-1000XM6
+
+## Thông tin chung
+
+Hãng: Sony
+
+Danh mục: Tai nghe
+
+Giá: 7,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe Sony không dây chống ồn WF-1000XM6. Trọng lượng: Tai nghe: 6.5g Hộp sạc: 47g; Micro: Có; Thời lượng sử dụng Pin: Tai nghe: 5 giờ Hộp sạc: 5.5 giờ (Bật ANC) Tai nghe: 8 giờ Hộp sạc: 12 giờ (Tắt ANC).
+
+## Thông số kỹ thuật
+
+- Trọng lượng: Tai nghe: 6.5g Hộp sạc: 47g
+- Micro: Có
+- Thời lượng sử dụng Pin: Tai nghe: 5 giờ Hộp sạc: 5.5 giờ (Bật ANC) Tai nghe: 8 giờ Hộp sạc: 12 giờ (Tắt ANC)
+- Tính năng khác: Kháng nước: IPX4 Kết nối đa điểm DSEE EXTREME
+- Hãng sản xuất: Sony
+
+Nguồn tham khảo: CellphoneS – Tai nghe Sony không dây chống ồn WF-1000XM6 — https://cellphones.com.vn/tai-nghe-khong-day-sony-wf-1000xm6.html
+
+---
+
+# Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Tai nghe
+
+Giá: 3,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành uỷ quyền CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4). Kích thước: Tai nghe: 30.2 x 18.3 x 18.1 mm Hộp sạc: 46.2 x 50.1 x 21.2 mm; Trọng lượng: Tai nghe: 4.3g Hộp sạc: 34.7g; Công nghệ âm thanh: Trình điều khiển & bộ khuếch đại Apple tùy chỉnh Chủ Động Khử Tiếng Ồn Âm thanh thích ứng & xuyên âm Nhận biết cuộc hội thoại & tách lời nói Cá nhân hóa âm thanh EQ Thích ỨngGhi âm chuẩn studio Hệ thống thông hơi cân bằng áp suất.
+
+## Thông số kỹ thuật
+
+- Kích thước: Tai nghe: 30.2 x 18.3 x 18.1 mm Hộp sạc: 46.2 x 50.1 x 21.2 mm
+- Trọng lượng: Tai nghe: 4.3g Hộp sạc: 34.7g
+- Công nghệ âm thanh: Trình điều khiển & bộ khuếch đại Apple tùy chỉnh Chủ Động Khử Tiếng Ồn Âm thanh thích ứng & xuyên âm Nhận biết cuộc hội thoại & tách lời nói Cá nhân hóa âm thanh EQ Thích ỨngGhi âm chuẩn studio Hệ thống thông hơi cân bằng áp suất
+- Micro: Có
+- Thời lượng sử dụng Pin: Thời lượng pin tai nghe: thời gian lên đến 4 giờ với một lần sạc khi bật Chủ Động Khử Tiếng Ồn Thời lượng pin với hộp sạc: thời gian đàm thoại lên đến 20 giờ khi bật Chủ Động Khử Tiếng Ồn
+- Phương thức điều khiển: Cảm biến lực
+- Chipset: Chip tai nghe H2
+- Hãng sản xuất: Apple Chính hãng
+- Tiện ích: Hỗ trợ Siri AI Dịch Trực Tiếp (Live Translation)
+
+Nguồn tham khảo: CellphoneS – Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4) — https://cellphones.com.vn/apple-airpods-5.html
+
+---
+
+# Tai nghe có dây Gaming HyperX Cloud Earbuds 3
+
+## Thông tin chung
+
+Hãng: HyperX
+
+Danh mục: Tai nghe
+
+Giá: 990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại CellphoneS. 1 đổi 1 trong 15 ngày nếu có lỗi nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Tai nghe có dây Gaming HyperX Cloud Earbuds 3. Micro: Có; Cổng kết nối: 3.5mm; Phương thức điều khiển: Nút bấm vật lý.
+
+## Thông số kỹ thuật
+
+- Micro: Có
+- Cổng kết nối: 3.5mm
+- Phương thức điều khiển: Nút bấm vật lý
+- Hãng sản xuất: HyperX
+
+Nguồn tham khảo: CellphoneS – Tai nghe có dây Gaming HyperX Cloud Earbuds 3 — https://cellphones.com.vn/tai-nghe-gaming-hyperx-cloud-earbuds-3.html
+
+---
+
+# PC CPS X ASUS ROG Edition 20 Full Set
+
+## Thông tin chung
+
+Hãng: Gigabyte
+
+Danh mục: PC
+
+Giá: 489,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS X ASUS ROG Edition 20 Full Set. Dung lượng RAM: 64GB; Màn hình: Màn hình Gaming ASUS ROG Swift OLED PG27AQWP-G EDITION 20TH 27 inch; CPU: CPU AMD Ryzen 9 9950X3D2 Dual Edition (Tray).
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 64GB
+- Màn hình: Màn hình Gaming ASUS ROG Swift OLED PG27AQWP-G EDITION 20TH 27 inch
+- CPU: CPU AMD Ryzen 9 9950X3D2 Dual Edition (Tray)
+- VGA: VGA Asus ROG Astral Geforce RTX 5090 Edition 20
+- RAM: RAM PC GSkill Trident Z5 RGB DDR5 6000Mhz 32GB (1*32GB) F5-6000J3636F32GX1-TZ5RK đen
+- SSD: Ổ cứng SSD Kingston Fury Renegade G5 PCie 5.0 NVMe M.2 SSD SFYR2S/2T0 2TB
+- Mainboard: Mainboard Asus ROG Crosshair X870E Edition 20
+
+Nguồn tham khảo: CellphoneS – PC CPS X ASUS ROG Edition 20 Full Set — https://cellphones.com.vn/pc-cps-asus-rog-edition-20-full-set.html
+
+---
+
+# PC CPS Creator Ultra AI H950
+
+## Thông tin chung
+
+Hãng: AMD
+
+Danh mục: PC
+
+Giá: 261,190,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS Creator Ultra AI H950 AMD Ryzen 9 9950X3D/ RTX 5090. Dung lượng RAM: 64GB; Loại RAM: DDR5; CPU: AMD Ryzen 9 9950X3D.
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 64GB
+- Loại RAM: DDR5
+- CPU: AMD Ryzen 9 9950X3D
+- VGA: VGA MSI Geforce RTX 5090 32G Gaming Trio OC
+- RAM: Ram PC Kingston Fury Beast RGB DDR5 5600MHz 64GB (2*32GB)
+- SSD: Ổ cứng SSD Kingston SKC3000 M2 PCIe NVME Gen 4 1TB
+- Mainboard: Mainboard Asrock X870 Steel Legend Wifi D5
+- Tản nhiệt: Tản Nhiệt Nước Corsair iCUE Link Titan 360 RX RGB Đen Fan Case Corsair RS120 ARGB Black (3 Pack)
+- Chipset (PC lắp ráp): X870
+
+Nguồn tham khảo: CellphoneS – PC CPS Creator Ultra AI H950 AMD Ryzen 9 9950X3D/ RTX 5090 — https://cellphones.com.vn/pc-cps-creator-ultra-ai-h950.html
+
+---
+
+# PC CPS Creator AI H780
+
+## Thông tin chung
+
+Hãng: AMD
+
+Danh mục: PC
+
+Giá: 82,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS Creator AI H780 AMD Ryzen 7 7800X3D / RTX 5080. Dung lượng RAM: 32GB; CPU: CPU AMD Ryzen 7 7800X3D; VGA: VGA Gigabyte Geforce RTX 5080 WindForce 16GB GV-N5080WF3OC-16GD.
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 32GB
+- CPU: CPU AMD Ryzen 7 7800X3D
+- VGA: VGA Gigabyte Geforce RTX 5080 WindForce 16GB GV-N5080WF3OC-16GD
+- RAM: Ram PC Kingston Fury DDR5 5600MHz 32GB (2*16) KF556C40BBK2-32WP
+- SSD: Ổ cứng SSD Kingston NV3 PCIe 4.0 NVMe 1TB
+- Mainboard: Mainboard Asrock X870 Steel Legend Wifi D5
+- Tản nhiệt: Tản nhiệt nước Xigmatek Fenix II 360 Arctic Fan Case Corsair RS120 ARGB White (3 Pack)
+- Chipset (PC lắp ráp): X870
+
+Nguồn tham khảo: CellphoneS – PC CPS Creator AI H780 AMD Ryzen 7 7800X3D / RTX 5080 — https://cellphones.com.vn/pc-cps-creator-ai-h780.html
+
+---
+
+# PC CPS X ASUS Gaming Intel i7 Gen 12 Kèm màn hình
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: PC
+
+Giá: 50,690,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS X ASUS Gaming Intel i7 Gen 12 Kèm màn hình. Dung lượng RAM: 16GB; Màn hình: Màn hình Gaming ASUS TUF VG259Q5A 25 inch (FHD/IPS/200HZ/0.3MS); CPU: CPU Intel Core i7 12700 (Tray).
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 16GB
+- Màn hình: Màn hình Gaming ASUS TUF VG259Q5A 25 inch (FHD/IPS/200HZ/0.3MS)
+- CPU: CPU Intel Core i7 12700 (Tray)
+- VGA: VGA Asus Tuf Gaming Geforce RTX 5070 OC 12GB TUF-RTX5070-O12G-GAMING
+- RAM: RAM PC ADATA XPG D50 RGB 16GB (1x16GB) 3200MHz DDR4
+- SSD: SSD ADATA LEGEND 860 PCIE GEN4 X4 M.2 2280 (R 6000/W 5000) 500GB
+- Mainboard: Asus TUF Gaming B760M-PLUS Wifi D4
+- Chipset (PC lắp ráp): B760M
+
+Nguồn tham khảo: CellphoneS – PC CPS X ASUS Gaming Intel i7 Gen 12 Kèm màn hình — https://cellphones.com.vn/pc-cps-asus-gaming-intel-i7-gen-12.html
+
+---
+
+# PC CPS X ASUS Gaming Intel I5 Gen 14 kèm màn hình - Trắng
+
+## Thông tin chung
+
+Hãng: Hãng khác
+
+Danh mục: PC
+
+Giá: 32,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS X ASUS Gaming Intel I5 Gen 14 kèm màn hình - Trắng. Dung lượng RAM: 16GB; Loại RAM: DDR4; Màn hình: Màn hình Gaming ASUS ROG Strix XG27ACMES 27 inch.
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 16GB
+- Loại RAM: DDR4
+- Màn hình: Màn hình Gaming ASUS ROG Strix XG27ACMES 27 inch
+- CPU: CPU Intel Core i5 14400F
+- VGA: VGA Asus Dual Raeon RX 7600 OC 8GB DUAL-RX7600-O8G-EVO
+- RAM: RAM PC ADATA XPG D50 RGB 16GB (1x16GB) 3200MHz DDR4
+- SSD: Ổ cứng SSD Transcend 110S NVMe PCIe Gen3 x4 256GB
+- Mainboard: Mainboard Asus Prime B760M-A DDR4
+- Socket: LGA 1700
+- Tản nhiệt: Tản nhiệt nước Xigmatek Fenix II 240 Arctic
+- Chipset (PC lắp ráp): B760M
+
+Nguồn tham khảo: CellphoneS – PC CPS X ASUS Gaming Intel I5 Gen 14 kèm màn hình - Trắng — https://cellphones.com.vn/pc-cps-x-asus-gaming-intel-i5-gen-14.html
+
+---
+
+# Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN
+
+## Thông tin chung
+
+Hãng: MSI
+
+Danh mục: PC
+
+Giá: 20,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN. Loại card đồ họa: Intel UHD Graphics; Dung lượng RAM: 8GB; Loại RAM: DDR4.
+
+## Thông số kỹ thuật
+
+- Loại card đồ họa: Intel UHD Graphics
+- Dung lượng RAM: 8GB
+- Loại RAM: DDR4
+- Số khe ram: 2 x DDR4 3200MHz SO-DIMMs, hỗ trợ đến 64GB
+- Ổ cứng: SSD 250GB
+- Kích thước màn hình: 23.8 inches
+- Hệ điều hành: Windows 11 Home SL
+- Độ phân giải màn hình: 1920 x 1080 pixels (FullHD)
+- Cổng I/O mặt sau: 1x USB 3.2 Gen 2 Type C 1x USB 3.2 Gen 2 Type A 2x USB 3.2 Gen 1 Type A 2x USB 2.0 Type A 1x RJ45 1x HDMI 1x DP 1x Mic- vào
+- Loại CPU: Intel® Core™ i5 12400
+
+Nguồn tham khảo: CellphoneS – Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN — https://cellphones.com.vn/may-tinh-all-in-one-msi-pro-ap242-12m-213vn.html
+
+---
+
+# PC CPS X MSI Gaming AMD R5 Kèm màn hình
+
+## Thông tin chung
+
+Hãng: MSI
+
+Danh mục: PC
+
+Giá: 16,290,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS X MSI Gaming AMD R5 Kèm màn hình. Dung lượng RAM: 8GB; Màn hình: Màn hình MSI Pro MP243L E14 24 inch; CPU: AMD Ryzen 5 5500.
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 8GB
+- Màn hình: Màn hình MSI Pro MP243L E14 24 inch
+- CPU: AMD Ryzen 5 5500
+- VGA: GeForce RTX 3050 VENTUS 2X 6G OC
+- RAM: RAM PC ADATA XPG D50 RGB 8GB (1x8GB) 3200MHz DDR4
+- SSD: Ổ cứng SSD Transcend 110S NVMe PCIe Gen3 x4 256GB
+- Mainboard: Mainboard MSI A520M-A Pro D4 AM4
+
+Nguồn tham khảo: CellphoneS – PC CPS X MSI Gaming AMD R5 Kèm màn hình — https://cellphones.com.vn/pc-cps-msi-gaming-amd-r5.html
+
+---
+
+# PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình
+
+## Thông tin chung
+
+Hãng: intel
+
+Danh mục: PC
+
+Giá: 12,390,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình. Dung lượng RAM: 8GB; Màn hình: Màn hình VSP IP2404S 24 (FHD/IPS/120HZ/1MS); CPU: CPU Intel Core i5 12400.
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 8GB
+- Màn hình: Màn hình VSP IP2404S 24 (FHD/IPS/120HZ/1MS)
+- CPU: CPU Intel Core i5 12400
+- VGA: Onboard
+- RAM: RAM PC VSP DDR4 3200MHZ 8GB (1*8GB)
+- SSD: Ổ cứng SSD VSP 860G SATA III 2.5" 256GB
+- Mainboard: Mainboard ASRock H610M-HVS/M.2 R2.0
+- Socket: LGA 1700
+- Tản nhiệt: Tản nhiệt khí CPU Jonsbo CR-1200E RGB
+- Chipset (PC lắp ráp): H610M
+
+Nguồn tham khảo: CellphoneS – PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình — https://cellphones.com.vn/may-tinh-pc-cps-van-phong-intel-i5-gen-12.html
+
+---
+
+# PC CPS văn phòng AMD R5 3400G kèm màn hình
+
+## Thông tin chung
+
+Hãng: AMD
+
+Danh mục: PC
+
+Giá: 8,090,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành theo linh kiện
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+PC CPS văn phòng AMD R5 3400G kèm màn hình. Dung lượng RAM: 8GB; Màn hình: Màn hình VSP V2204H 120HZ 22 inch; CPU: CPU AMD Ryzen 5 3400G.
+
+## Thông số kỹ thuật
+
+- Dung lượng RAM: 8GB
+- Màn hình: Màn hình VSP V2204H 120HZ 22 inch
+- CPU: CPU AMD Ryzen 5 3400G
+- RAM: Ram PC VSP DDR4 3200MHZ 8GB (1*8GB)
+- SSD: Ổ cứng SSD VSP 860G SATA III 2.5" 256GB
+- Mainboard: Mainboard ASRock A520M/AC D4 AM4 Wifi
+- Chipset (PC lắp ráp): A520M
+
+Nguồn tham khảo: CellphoneS – PC CPS văn phòng AMD R5 3400G kèm màn hình — https://cellphones.com.vn/pc-van-phong-cps-amd-r5-3400g.html
+
+---
+
+# Microphone thu âm Podcast/phòng thu/Livestream Shure SM7DB
+
+## Thông tin chung
+
+Hãng: Shure
+
+Danh mục: Microphone
+
+Giá: 14,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone thu âm Podcast/phòng thu/Livestream Shure SM7DB. Kết nối: XLR, male; Tỷ lệ tín hiệu trên tạp âm: 11 dB; Tần số đáp ứng: 50 - 20,000 Hz.
+
+## Thông số kỹ thuật
+
+- Kết nối: XLR, male
+- Tỷ lệ tín hiệu trên tạp âm: 11 dB
+- Tần số đáp ứng: 50 - 20,000 Hz
+- Hãng sản xuất: Shure
+
+Nguồn tham khảo: CellphoneS – Microphone thu âm Podcast/phòng thu/Livestream Shure SM7DB — https://cellphones.com.vn/microphone-thu-am-shure-sm7db.html
+
+---
+
+# Bộ micro Insta360 Mic Pro (2 bộ phát + 1 bộ thu)
+
+## Thông tin chung
+
+Hãng: Insta360
+
+Danh mục: Microphone
+
+Giá: 9,650,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bộ micro Insta360 Mic Pro (2 bộ phát + 1 bộ thu). Loại micro: Type-C; Dung lượng pin: 240mAh; Tỷ lệ lấy mẫu: 48 kHz 32-bit float/24-bit.
+
+## Thông số kỹ thuật
+
+- Loại micro: Type-C
+- Dung lượng pin: 240mAh
+- Tỷ lệ lấy mẫu: 48 kHz 32-bit float/24-bit
+- Tần số đáp ứng: 2.400-2.4835 GHz
+- Hãng sản xuất: Insta360
+
+Nguồn tham khảo: CellphoneS – Bộ micro Insta360 Mic Pro (2 bộ phát + 1 bộ thu) — https://cellphones.com.vn/insta360-mic-pro-2tx-1rx.html
+
+---
+
+# Microphone thu âm Podcast/phòng thu/Livestream Shure MV7+ Kit
+
+## Thông tin chung
+
+Hãng: Shure
+
+Danh mục: Microphone
+
+Giá: 9,265,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone thu âm Podcast/phòng thu/Livestream Shure MV7+ Kit. Loại micro: Type-C; Kết nối: USB-C, XLR, 1/8″ (tai nghe); Tỷ lệ lấy mẫu: 24-bit/48kHz.
+
+## Thông số kỹ thuật
+
+- Loại micro: Type-C
+- Kết nối: USB-C, XLR, 1/8″ (tai nghe)
+- Tỷ lệ lấy mẫu: 24-bit/48kHz
+- Tần số đáp ứng: 50 Hz -16 kHz
+- Hãng sản xuất: Shure
+
+Nguồn tham khảo: CellphoneS – Microphone thu âm Podcast/phòng thu/Livestream Shure MV7+ Kit — https://cellphones.com.vn/microphone-thu-am-shure-mv7-plus-kit.html
+
+---
+
+# Micro Condenser AKG C114
+
+## Thông tin chung
+
+Hãng: AKG
+
+Danh mục: Microphone
+
+Giá: 6,900,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Micro Condenser AKG C114. Tỷ lệ tín hiệu trên tạp âm: 82dB re 1 Pa; Tần số đáp ứng: 20Hz - 20kHz; Hãng sản xuất: AKG.
+
+## Thông số kỹ thuật
+
+- Tỷ lệ tín hiệu trên tạp âm: 82dB re 1 Pa
+- Tần số đáp ứng: 20Hz - 20kHz
+- Hãng sản xuất: AKG
+
+Nguồn tham khảo: CellphoneS – Micro Condenser AKG C114 — https://cellphones.com.vn/micro-thu-am-condenser-akg-c114.html
+
+---
+
+# Microphone thu âm Podcast/phòng thu/Livestream Audio AKG P220
+
+## Thông tin chung
+
+Hãng: AKG
+
+Danh mục: Microphone
+
+Giá: 4,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone thu âm Podcast/phòng thu/Livestream Audio AKG P220. Tỷ lệ tín hiệu trên tạp âm: 78 dB-A; Tần số đáp ứng: 20 - 20,000Hz; Hãng sản xuất: AKG.
+
+## Thông số kỹ thuật
+
+- Tỷ lệ tín hiệu trên tạp âm: 78 dB-A
+- Tần số đáp ứng: 20 - 20,000Hz
+- Hãng sản xuất: AKG
+
+Nguồn tham khảo: CellphoneS – Microphone thu âm Podcast/phòng thu/Livestream Audio AKG P220 — https://cellphones.com.vn/microphone-thu-am-audio-akg-p220.html
+
+---
+
+# Micro không dây JBL Easysing Mic Mini
+
+## Thông tin chung
+
+Hãng: JBL
+
+Danh mục: Microphone
+
+Giá: 3,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Micro không dây JBL Easysing Mic Mini. Loại micro: Type-C; Kết nối: USB-C Aux; Dung lượng pin: Micro: Pin Li-ion 240 mAh, 3.7 V Dongle: Pin Li-ion 350 mAh, 3.7 V.
+
+## Thông số kỹ thuật
+
+- Loại micro: Type-C
+- Kết nối: USB-C Aux
+- Dung lượng pin: Micro: Pin Li-ion 240 mAh, 3.7 V Dongle: Pin Li-ion 350 mAh, 3.7 V
+- Tỷ lệ tín hiệu trên tạp âm: 59 dBA
+- Tần số đáp ứng: 50 Hz ~ 15 kHz
+- Hãng sản xuất: JBL
+
+Nguồn tham khảo: CellphoneS – Micro không dây JBL Easysing Mic Mini — https://cellphones.com.vn/micro-jbl-easysing-mic-mini.html
+
+---
+
+# Microphone Saramonic Air SE-(1RX x 2TX)
+
+## Thông tin chung
+
+Hãng: Saramonic
+
+Danh mục: Microphone
+
+Giá: 1,530,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone Saramonic Air SE-(1RX x 2TX). Loại micro: Type-C, Lightning; Phạm vi sử dụng: 200 m; Dung lượng pin: 1300mAh.
+
+## Thông số kỹ thuật
+
+- Loại micro: Type-C, Lightning
+- Phạm vi sử dụng: 200 m
+- Dung lượng pin: 1300mAh
+- Tỷ lệ lấy mẫu: 48 kHz (Sample Rate)
+- Tỷ lệ tín hiệu trên tạp âm: > 80 dB (SNR)
+- Tần số đáp ứng: 20 Hz - 20 kHz
+- Hãng sản xuất: Saramonic
+
+Nguồn tham khảo: CellphoneS – Microphone Saramonic Air SE-(1RX x 2TX) — https://cellphones.com.vn/microphone-saramonic-air-se-2tx-1rx.html
+
+---
+
+# Microphone thu âm không dây Gochek Ultra S24 - S2403
+
+## Thông tin chung
+
+Hãng: Gochek
+
+Danh mục: Microphone
+
+Giá: 1,440,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone thu âm không dây Gochek Ultra S24 - S2403. Loại micro: Type-C, Lightning; Phạm vi sử dụng: Không vật cản: 50m Có vật cản: 6 đến 10m; Dung lượng pin: 150mAh.
+
+## Thông số kỹ thuật
+
+- Loại micro: Type-C, Lightning
+- Phạm vi sử dụng: Không vật cản: 50m Có vật cản: 6 đến 10m
+- Dung lượng pin: 150mAh
+- Tần số đáp ứng: 35Hz - 20kHz
+- Hãng sản xuất: Gochek
+- Độ phân giải màn hình: RX: 8g TX: 12g
+
+Nguồn tham khảo: CellphoneS – Microphone thu âm không dây Gochek Ultra S24 - S2403 — https://cellphones.com.vn/microphone-thu-am-khong-day-gochek-ultra-s24-s2403.html
+
+---
+
+# Microphone thu âm không dây Boya BY-V2 V2.0
+
+## Thông tin chung
+
+Hãng: Boya
+
+Danh mục: Microphone
+
+Giá: 890,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone thu âm không dây Boya BY-V2 V2.0. Pin: Pin Lithium-ion tích hợp; Loại micro: Lightning; Phạm vi sử dụng: 100 mét.
+
+## Thông số kỹ thuật
+
+- Pin: Pin Lithium-ion tích hợp
+- Loại micro: Lightning
+- Phạm vi sử dụng: 100 mét
+- Tỷ lệ lấy mẫu: 48 kHz / 16-bit
+- Tỷ lệ tín hiệu trên tạp âm: 80 dB
+- Tần số đáp ứng: 20 Hz - 16 kHz
+- Hãng sản xuất: Boya
+
+Nguồn tham khảo: CellphoneS – Microphone thu âm không dây Boya BY-V2 V2.0 — https://cellphones.com.vn/microphone-khong-day-boya-by-v2.html
+
+---
+
+# Microphone thu âm Podcast/phòng thu/livestream Boya K3
+
+## Thông tin chung
+
+Hãng: Boya
+
+Danh mục: Microphone
+
+Giá: 730,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Microphone thu âm Podcast/phòng thu/livestream Boya K3. Loại micro: Type-C; Tỷ lệ lấy mẫu: 24bit / 48 kHz; Tỷ lệ tín hiệu trên tạp âm: 75 dB.
+
+## Thông số kỹ thuật
+
+- Loại micro: Type-C
+- Tỷ lệ lấy mẫu: 24bit / 48 kHz
+- Tỷ lệ tín hiệu trên tạp âm: 75 dB
+- Tần số đáp ứng: 20 Hz - 20 kHz
+- Hãng sản xuất: Boya
+
+Nguồn tham khảo: CellphoneS – Microphone thu âm Podcast/phòng thu/livestream Boya K3 — https://cellphones.com.vn/microphone-thu-am-boya-k3.html
+
+---
+
+# Đồng hồ thông minh Garmin Fenix 9 Pro 43mm AMOLED viền Titanium
+
+## Thông tin chung
+
+Hãng: Garmin
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 30,290,000 VNĐ
+
+Bảo hành tham khảo: Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh Garmin Fenix 9 Pro 43mm AMOLED viền Titanium. Công nghệ màn hình: AMOLED, độ sáng lên đến 3000 NITS; Kích thước màn hình: 1.3 inch; Đường kính mặt: 43mm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: AMOLED, độ sáng lên đến 3000 NITS
+- Kích thước màn hình: 1.3 inch
+- Đường kính mặt: 43mm
+- Kích thước cổ tay phù hợp: Từ 10.8 - 18.2 cm
+- Nghe,gọi: Nghe gọi qua Bluetooth
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Cảnh báo nhịp tim bất thường, Tính tuổi thể chất, Đo chỉ số năng lượng cơ thể, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thở, Thiền, Nhắc nhở uống nước, Bài tập thư giãn
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: Android, iOS
+- Thời lượng pin: Đồng hồ thông minh: Lên đến 10 ngày Tiết kiệm pin: Lên đến 15 ngày Hoạt động (Bình thường): Lên đến 18 giờ Hoạt động + Âm nhạc (Bình thường): Lên đến 7 giờ Hoạt động (Thời lượng pin tối đa): Lên đến 50 giờ Thám hiểm: Lên đến 10 ngày
+- Hãng sản xuất: Garmin
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh Garmin Fenix 9 Pro 43mm AMOLED viền Titanium — https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-9-pro-43mm.html
+
+---
+
+# Đồng hồ thông minh Garmin Fenix 9 Pro 47mm AMOLED viền titan xám Carbon
+
+## Thông tin chung
+
+Hãng: Garmin
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 30,290,000 VNĐ
+
+Bảo hành tham khảo: Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh Garmin Fenix 9 Pro 47mm AMOLED viền titan xám Carbon. Công nghệ màn hình: AMOLED, độ sáng lên đến 3000 nits; Kích thước màn hình: 1.4 inch; Đường kính mặt: 47mm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: AMOLED, độ sáng lên đến 3000 nits
+- Kích thước màn hình: 1.4 inch
+- Đường kính mặt: 47mm
+- Kích thước cổ tay phù hợp: Từ 12.5 - 20.8 cm
+- Nghe,gọi: Nghe gọi qua Bluetooth
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Cảnh báo nhịp tim bất thường, Tính tuổi thể chất, Đo chỉ số năng lượng cơ thể, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thở, Thiền, Nhắc nhở uống nước, Bài tập thư giãn
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: Android, iOS
+- Thời lượng pin: Đồng hồ thông minh: Lên đến 18 ngày Tiết kiệm pin: Lên đến 24 ngày Hoạt động (Bình thường): Lên đến 32 giờ Hoạt động + Âm nhạc (Bình thường): Lên đến 13 giờ Hoạt động (Thời lượng pin tối đa): Lên đến 87 giờ Thám hiểm: Lên đến 18 ngày
+- Hãng sản xuất: Garmin
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh Garmin Fenix 9 Pro 47mm AMOLED viền titan xám Carbon — https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-9-pro-vien-titanium-xam-carbon.html
+
+---
+
+# Đồng hồ thông minh Garmin Fenix 9 Pro 47mm Solar viền titan
+
+## Thông tin chung
+
+Hãng: Garmin
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 28,990,000 VNĐ
+
+Bảo hành tham khảo: Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh Garmin Fenix 9 Pro 47mm Solar viền titan. Công nghệ màn hình: Màn hình memory-in-pixel (MIP) phản chiếu ánh sáng mặt trời, có thể nhìn dưới nắng; Kích thước màn hình: 1.3 inch; Đường kính mặt: 47mm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: Màn hình memory-in-pixel (MIP) phản chiếu ánh sáng mặt trời, có thể nhìn dưới nắng
+- Kích thước màn hình: 1.3 inch
+- Đường kính mặt: 47mm
+- Kích thước cổ tay phù hợp: Từ 12.5 - 20.8 cm
+- Nghe,gọi: Nghe gọi qua Bluetooth
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Cảnh báo nhịp tim bất thường, Tính tuổi thể chất, Đo chỉ số năng lượng cơ thể, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thở, Thiền, Nhắc nhở uống nước, Bài tập thư giãn
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: Android, iOS
+- Thời lượng pin: Đồng hồ thông minh 21 ngày/34 ngày với solar Tiết kiệm pin 37 ngày/119 ngày với solar Hoạt động (Bình thường) 54 giờ/81 giờ với solar Hoạt động + Âm nhạc 15 giờ/16 giờ với solar Hoạt động (Thời lượng pin tối đa) 132 giờ/740 giờ với solar
+- Hãng sản xuất: Garmin
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh Garmin Fenix 9 Pro 47mm Solar viền titan — https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-9-pro-solar.html
+
+---
+
+# Apple Watch Series 12 46mm (5G) Viền Gốm Dây Cao Su Size S/M
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 28,290,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Apple Watch Series 12 46mm (5G) Viền Gốm Dây Cao Su Size S/M. Công nghệ màn hình: Màn hình Retina OLED LTPO3 luôn bật, tần số quét 1Hz Độ sáng tối đa 2000 nit, tối thiểu 1 nit; Đường kính mặt: 46 mm; Kích thước cổ tay phù hợp: Vừa với cổ tay 14 - 19 cm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: Màn hình Retina OLED LTPO3 luôn bật, tần số quét 1Hz Độ sáng tối đa 2000 nit, tối thiểu 1 nit
+- Đường kính mặt: 46 mm
+- Kích thước cổ tay phù hợp: Vừa với cổ tay 14 - 19 cm
+- Nghe,gọi: Nghe gọi qua eSim
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo điện tâm đồ, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thở, Nhắc nhở ít vận động, Thiền, Bài tập thư giãn, Phát hiện chứng ngưng thở khi ngủ, Theo dõi chỉ số AGEs
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: iPhone 11 trở lên, bao gồm iPhone SE (thế hệ thứ 2 trở lên), sử dụng iOS 27 trở lên
+- Thời lượng pin: Thời lượng pin lên đến 24 giờ Chế độ nguồn điện thấp lên đến 38 giờ Tập luyện ngoài trời lên đến 10 giờ
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Apple Watch Series 12 46mm (5G) Viền Gốm Dây Cao Su Size S/M — https://cellphones.com.vn/apple-watch-series-12-46mm-5g-vien-gom-day-cao-su-s-m.html
+
+---
+
+# Apple Watch Ultra 4 49mm (5G) Viền Titan Dây Titan Size L
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 26,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Apple Watch Ultra 4 49mm (5G) Viền Titan Dây Titan Size L. Công nghệ màn hình: Màn hình Retina OLED LTPO3 luôn bật, tần số quét 1Hz; Đường kính mặt: 49 mm; Kích thước cổ tay phù hợp: Vừa với cổ tay 18 - 21 cm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: Màn hình Retina OLED LTPO3 luôn bật, tần số quét 1Hz
+- Đường kính mặt: 49 mm
+- Kích thước cổ tay phù hợp: Vừa với cổ tay 18 - 21 cm
+- Nghe,gọi: Nghe gọi qua eSim
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo điện tâm đồ, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thở, Nhắc nhở ít vận động, Thiền, Bài tập thư giãn, Phát hiện chứng ngưng thở khi ngủ, Theo dõi chỉ số AGEs
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: iPhone 11 trở lên, bao gồm iPhone SE (thế hệ thứ 2 trở lên), sử dụng iOS 27 trở lên
+- Thời lượng pin: Thời lượng pin lên đến 50 giờ khi sử dụng bình thường Chế độ nguồn điện thấp lên đến 84 giờ Tập luyện ngoài trời lên đến 18 giờ Theo dõi bài tập kéo dài lên đến 25 giờ Theo dõi bài tập kéo dài tối đa lên đến 45 giờ
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Apple Watch Ultra 4 49mm (5G) Viền Titan Dây Titan Size L — https://cellphones.com.vn/apple-watch-ultra-4-49mm-5g-vien-titan-day-titan-size-l.html
+
+---
+
+# Đồng hồ thông minh Huawei Watch Ultimate 2 47.8mm
+
+## Thông tin chung
+
+Hãng: Huawei
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 21,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh Huawei Watch Ultimate 2 47.8mm. Công nghệ màn hình: LTPO 2.0 AMOLED; Kích thước màn hình: 1.5 inch; Đường kính mặt: Không công bố.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: LTPO 2.0 AMOLED
+- Kích thước màn hình: 1.5 inch
+- Đường kính mặt: Không công bố
+- Kích thước cổ tay phù hợp: Từ 14 – 21 cm
+- Nghe,gọi: Nghe gọi qua eSim
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo điện tâm đồ, Tình trạng HRV (Heart Rate Variability), Bài tập thở, Thiền, Bài tập thư giãn
+- Tương thích: Android 9.0 trở lên iOS 13.0 trở lên
+- Thời lượng pin: Android: 4.5 ngày (thông thường) / 3 ngày (AOD) iPhone: 3.5 ngày / 2.5 ngày (AOD) Tiết kiệm pin: 11 ngày (nhẹ) / 6 ngày (thông thường) / 4 ngày (AOD) Lặn: 18 giờ (sonar tắt) / 12 giờ (sonar bật) Thám hiểm: 40 giờ Golf: 24 giờ
+- Hãng sản xuất: Huawei
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh Huawei Watch Ultimate 2 47.8mm — https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-ultimate-2-47-8mm.html
+
+---
+
+# Apple Watch Ultra 3 49mm (5G) Viền Titan Dây Alpine Size S
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 20,990,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Apple Watch Ultra 3 49mm (5G) Viền Titan Dây Alpine Size S. Công nghệ màn hình: Màn hình Retina Luôn Bật với OLED góc rộng và LTPO3 Tốc độ làm mới 1Hz; Đường kính mặt: 49 mm; Kích thước cổ tay phù hợp: Vừa với cổ tay cỡ 13 – 16 cm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: Màn hình Retina Luôn Bật với OLED góc rộng và LTPO3 Tốc độ làm mới 1Hz
+- Đường kính mặt: 49 mm
+- Kích thước cổ tay phù hợp: Vừa với cổ tay cỡ 13 – 16 cm
+- Nghe,gọi: Nghe gọi qua eSim
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo điện tâm đồ, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Nhắc nhở ít vận động, Bài tập thư giãn, Phát hiện chứng ngưng thở khi ngủ
+- Tương thích: iPhone 11 trở lên, bao gồm iPhone SE (thế hệ thứ 2 trở lên), sử dụng iOS 26 trở lên
+- Thời lượng pin: Pin dùng nhiều ngày, lên đến 42 giờ khi sử dụng bình thường Lên đến 72 giờ ở Chế Độ Nguồn Điện Thấp
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Apple Watch Ultra 3 49mm (5G) Viền Titan Dây Alpine Size S | Chính hãng Apple Việt Nam — https://cellphones.com.vn/apple-watch-ultra-3-49mm-5g-vien-titan-day-alpine-size-s.html
+
+---
+
+# Apple Watch Series 11 42mm (5G) Viền Nhôm Dây Cao Su Size S/M
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 13,490,000 VNĐ
+
+Bảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Apple Watch Series 11 42mm (5G) Viền Nhôm Dây Cao Su Size S/M. Công nghệ màn hình: Màn hình Retina Luôn Bật với OLED góc rộng và LTPO3 Độ sáng đỉnh lên đến 2000 nit Độ sáng tối thiểu 1 nit Mật độ 326 pixel mỗi inch; Đường kính mặt: 42 mm; Kích thước cổ tay phù hợp: Vừa với cổ tay cỡ 13 – 18 cm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: Màn hình Retina Luôn Bật với OLED góc rộng và LTPO3 Độ sáng đỉnh lên đến 2000 nit Độ sáng tối thiểu 1 nit Mật độ 326 pixel mỗi inch
+- Đường kính mặt: 42 mm
+- Kích thước cổ tay phù hợp: Vừa với cổ tay cỡ 13 – 18 cm
+- Nghe,gọi: Nghe gọi qua eSim
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo điện tâm đồ, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Theo dõi chu kỳ, Nhắc nhở ít vận động, Phát hiện chứng ngưng thở khi ngủ
+- Tương thích: iPhone 11 trở lên, bao gồm iPhone SE (thế hệ thứ 2 trở lên), sử dụng iOS 26 trở lên
+- Thời lượng pin: Pin dùng cả ngày, lên đến 24 giờ khi sử dụng bình thường Lên đến 38 giờ ở Chế Độ Nguồn Điện Thấp
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Apple Watch Series 11 42mm (5G) Viền Nhôm Dây Cao Su Size S/M | Chính hãng Apple Việt Nam — https://cellphones.com.vn/apple-watch-series-11-42mm-5g.html
+
+---
+
+# Đồng hồ thông minh Suunto Race
+
+## Thông tin chung
+
+Hãng: Suunto
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 11,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh Suunto Race. Công nghệ màn hình: AMOLED; Kích thước màn hình: 1.43 inch; Đường kính mặt: 49mm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: AMOLED
+- Kích thước màn hình: 1.43 inch
+- Đường kính mặt: 49mm
+- Kích thước cổ tay phù hợp: Từ 12.5 - 17.5 cm (dây đeo phụ kiện -21.5 cm)
+- Nghe,gọi: Không
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Tình trạng HRV (Heart Rate Variability)
+- Thời lượng pin: Chế độ đồng hồ thông minh: lên đến 16 ngày Chỉ chế độ chờ: lên đến 26 ngày Chế độ GNSS toàn hệ thống + Đa ​​băng tần: lên đến 50h Chế độ GNSS toàn hệ thống + Băng tần đơn: lên đến 65h Chế độ GNSS tiết kiệm điện: lên đến 200h
+- Hãng sản xuất: Suunto
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh Suunto Race — https://cellphones.com.vn/dong-ho-thong-minh-suunto-race.html
+
+---
+
+# Đồng hồ thể thao định vị Suunto Run
+
+## Thông tin chung
+
+Hãng: Suunto
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 5,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thể thao định vị Suunto Run. Công nghệ màn hình: AMOLED; Kích thước màn hình: 1.32 inch; Đường kính mặt: Không công bố.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: AMOLED
+- Kích thước màn hình: 1.32 inch
+- Đường kính mặt: Không công bố
+- Kích thước cổ tay phù hợp: Từ 12.5 - 17.5 cm (dây đeo phụ kiện -21.5 cm)
+- Nghe,gọi: Không
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Tình trạng HRV (Heart Rate Variability), Bài tập thư giãn
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: Android, iOS
+- Thời lượng pin: Chế độ thông minh: 12 ngày Chỉ chế độ chờ: 20 ngày Chế độ GNSS toàn hệ thống + Đa ​​băng tần: 20 giờ Chế độ GNSS toàn hệ thống + Đơn băng tần: 30 giờ Tất cả các chế độ: 20 giờ / 30 giờ / 40 giờ Chế độ GNSS tiết kiệm điện: 40 giờ
+- Hãng sản xuất: Suunto
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thể thao định vị Suunto Run — https://cellphones.com.vn/dong-ho-thong-minh-suunto-run.html
+
+---
+
+# Đồng hồ thông minh OPPO Watch S Dây Vải
+
+## Thông tin chung
+
+Hãng: OPPO
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 3,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh OPPO Watch S Dây Vải. Công nghệ màn hình: AMOLED; Kích thước màn hình: 1.46 inch; Kích thước cổ tay phù hợp: Từ 14 – 21 cm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: AMOLED
+- Kích thước màn hình: 1.46 inch
+- Kích thước cổ tay phù hợp: Từ 14 – 21 cm
+- Nghe,gọi: Nghe gọi qua Bluetooth
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Theo dõi chu kỳ, Bài tập thở, Nhắc nhở ít vận động
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: Hỗ trợ điện thoại Android 9.0 trở lên & iOS 14.0 trở lên
+- Thời lượng pin: Tối đa: 10 ngày (dựa trên mô phỏng) Trung bình: 7 ngày (sử dụng thông thường) Tối thiểu: 4 ngày (ở chế độ màn hình luôn bật AOD)
+- Hãng sản xuất: OPPO
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh OPPO Watch S Dây Vải — https://cellphones.com.vn/dong-ho-thong-minh-oppo-watch-s-day-det.html
+
+---
+
+# Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su
+
+## Thông tin chung
+
+Hãng: Huawei
+
+Danh mục: Đồng hồ thông minh
+
+Giá: 2,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su. Công nghệ màn hình: AMOLED; Kích thước màn hình: 1.82 inch; Kích thước cổ tay phù hợp: Tím: 12 - 19 cm Xám, Xanh Lá, Trắng và Đen: 13 - 21 cm.
+
+## Thông số kỹ thuật
+
+- Công nghệ màn hình: AMOLED
+- Kích thước màn hình: 1.82 inch
+- Kích thước cổ tay phù hợp: Tím: 12 - 19 cm Xám, Xanh Lá, Trắng và Đen: 13 - 21 cm
+- Nghe,gọi: Nghe gọi qua Bluetooth
+- Tiện ích sức khoẻ: Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thư giãn
+- GPS tích hợp: GPS tích hợp sẵn trên đồng hồ
+- Tương thích: Android 9.0 trở lênbr> iOS 13.0 trở lên
+- Thời lượng pin: Thời lượng pin tối đa 10 ngày (sử dụng cơ bản) Tối đa 7 ngày (sử dụng thường xuyên) Tối đa 4 ngày khi bật AOD
+- Hãng sản xuất: Huawei
+
+Nguồn tham khảo: CellphoneS – Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su — https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-fit-5.html
+
+---
+
+# Dán kính cường lực màn hình iPhone 18 Pro Max Zagg Chống Nhìn Trộm Invisibleshield Xtr (Không Viền)
+
+## Thông tin chung
+
+Hãng: ZAGG
+
+Danh mục: Dán màn hình
+
+Giá: 1,650,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 30 ngày, dán lại 1 lần cho tất cả các lỗi. - Dán mới lần 2 được giảm 30% trên giá niêm yết. - Dán PPF /Dán UV Loca chỉ được thực hiện ở cửa hàng. - Không áp dụng bảo hành cho đơn hàng giao tại nhà
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Dán kính cường lực màn hình iPhone 18 Pro Max Zagg Chống Nhìn Trộm Invisibleshield Xtr (Không Viền). Loại miếng dán: Dán cường lực; Dùng được cho: iPhone 18 Pro Max; Tính năng: Chống sốc, va đập Chống trầy xước.
+
+## Thông số kỹ thuật
+
+- Loại miếng dán: Dán cường lực
+- Dùng được cho: iPhone 18 Pro Max
+- Tính năng: Chống sốc, va đập Chống trầy xước
+- Hãng sản xuất: ZAGG
+
+Nguồn tham khảo: CellphoneS – Dán kính cường lực màn hình iPhone 18 Pro Max Zagg Chống Nhìn Trộm Invisibleshield Xtr (Không Viền) — https://cellphones.com.vn/dan-kinh-cuong-luc-man-hinh-iphone-18-pro-max-zagg-chong-nhin-trom-invisibleshield-xtr.html
+
+---
+
+# Dán kính cường lực màn hình iPhone 16 Pro Max Zagg Invisibleshield Xtr4 Đen (Không Viền)
+
+## Thông tin chung
+
+Hãng: ZAGG
+
+Danh mục: Dán màn hình
+
+Giá: 1,341,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 30 ngày, dán lại 1 lần cho tất cả các lỗi. - Dán mới lần 2 được giảm 30% trên giá niêm yết. - Dán PPF /Dán UV Loca chỉ được thực hiện ở cửa hàng. - Không áp dụng bảo hành cho đơn hàng giao tại nhà
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Dán kính cường lực màn hình iPhone 16 Pro Max Zagg Invisibleshield Xtr4 Đen (Không Viền). Dòng sản phẩm: iPhone 16 Pro Max; Loại miếng dán: Dán cường lực màn hình; Tính năng: Chống sốc, va đập, Bảo vệ mắt, Chống trầy xước.
+
+## Thông số kỹ thuật
+
+- Dòng sản phẩm: iPhone 16 Pro Max
+- Loại miếng dán: Dán cường lực màn hình
+- Tính năng: Chống sốc, va đập, Bảo vệ mắt, Chống trầy xước
+- Dùng được cho: iPhone 16 Pro Max
+- Hãng sản xuất: ZAGG
+
+Nguồn tham khảo: CellphoneS – Dán kính cường lực màn hình iPhone 16 Pro Max Zagg Invisibleshield Xtr4 Đen (Không Viền) — https://cellphones.com.vn/kinh-cuong-luc-iphone-16-pro-max-invisibleshield-xtr4.html
+
+---
+
+# Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp
+
+## Thông tin chung
+
+Hãng: Hoda
+
+Danh mục: Dán màn hình
+
+Giá: 1,200,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 30 ngày, dán lại 1 lần cho tất cả các lỗi. - Dán mới lần 2 được giảm 30% trên giá niêm yết. - Dán PPF /Dán UV Loca chỉ được thực hiện ở cửa hàng. - Không áp dụng bảo hành cho đơn hàng giao tại nhà
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp. Loại miếng dán: Dán cường lực; Dùng được cho: iPhone 18 Pro; Tính năng: Lọc ánh sáng xanh chuẩn TÜV Rheinland Đức, giảm mỏi mắt khi dùng lâu Chặn hơn 60% ánh sáng xanh có hại bước sóng 435–440nm Độ chênh lệch nhiệt độ màu dưới 500K, hiển thị gần như màn hình gốc Thiết kế viền cong Full Hemming bảo vệ toàn diện mép màn hình Hiển thị rõ nét dưới trời nắng gắt, không lo chói lóa Lớp phủ kháng nước, dầu mỡ và chống bám vân tay hiệu quả Thiết kế tràn viền che phủ 99%, ôm khít không hở sáng Gờ viền hoàn thiện tinh xảo, hạn chế bám bụi mép kính.
+
+## Thông số kỹ thuật
+
+- Loại miếng dán: Dán cường lực
+- Dùng được cho: iPhone 18 Pro
+- Tính năng: Lọc ánh sáng xanh chuẩn TÜV Rheinland Đức, giảm mỏi mắt khi dùng lâu Chặn hơn 60% ánh sáng xanh có hại bước sóng 435–440nm Độ chênh lệch nhiệt độ màu dưới 500K, hiển thị gần như màn hình gốc Thiết kế viền cong Full Hemming bảo vệ toàn diện mép màn hình Hiển thị rõ nét dưới trời nắng gắt, không lo chói lóa Lớp phủ kháng nước, dầu mỡ và chống bám vân tay hiệu quả Thiết kế tràn viền che phủ 99%, ôm khít không hở sáng Gờ viền hoàn thiện tinh xảo, hạn chế bám bụi mép kính
+- Đạt chứng nhận: Độ cứng 9H chống trầy xước từ dao rọc giấy, vật sắc nhọn
+- Chất liệu: Keo quang học OCA màu sáng, giữ màu sắc chân thực, không ám vàng
+- Kích thước: Độ mỏng ấn tượng chỉ 0.2mm, cảm ứng lướt mượt mà
+- Hãng sản xuất: Hoda
+
+Nguồn tham khảo: CellphoneS – Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp — https://cellphones.com.vn/dan-kinh-cuong-luc-man-hinh-iphone-18-pro-hoda-3d-chong-anh-sang-xanh-chong-choi-full-vien-den-cao-cap.html
+
+---
+
+# Dán kính cường lực màn hình Samsung Galaxy Tab S11/S10 LITE/S10 FE/S10/S9 FE/S9 Mipow Full Cao Cấp
+
+## Thông tin chung
+
+Hãng: Mipow
+
+Danh mục: Dán màn hình
+
+Giá: 441,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 30 ngày, dán lại 1 lần cho tất cả các lỗi. - Dán mới lần 2 được giảm 30% trên giá niêm yết. - Dán PPF /Dán UV Loca chỉ được thực hiện ở cửa hàng. - Không áp dụng bảo hành cho đơn hàng giao tại nhà
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Dán kính cường lực màn hình Samsung Galaxy Tab S11/S10 LITE/S10 FE/S10/S9 FE/S9 Mipow Full Cao Cấp. Dòng sản phẩm: Galaxy Tab S11 Series; Loại miếng dán: Dán cường lực màn hình; Tính năng: Bảo vệ mắt, Chống trầy xước.
+
+## Thông số kỹ thuật
+
+- Dòng sản phẩm: Galaxy Tab S11 Series
+- Loại miếng dán: Dán cường lực màn hình
+- Tính năng: Bảo vệ mắt, Chống trầy xước
+- Dùng được cho: Samsung Galaxy Tab S11 Samsung Galaxy Tab S10 Lite Samsung Galaxy Tab S10 FE Samsung Galaxy Tab S10 Samsung Galaxy Tab S9 FE Samsung Galaxy Tab S9
+- Hãng sản xuất: Mipow
+- Tiện ích: Độ cứng 9H bảo vệ màn hình khỏi mọi tác động Có khả năng chống nổ
+
+Nguồn tham khảo: CellphoneS – Dán kính cường lực màn hình Samsung Galaxy Tab S11/S10 LITE/S10 FE/S10/S9 FE/S9 Mipow Full Cao Cấp — https://cellphones.com.vn/kinh-cuong-luc-mipow-samsung-galaxy-tab-s8-s9-fe.html
+
+---
+
+# Dán kính cường lực màn hình Samsung Galaxy A05S S-case chống va đập full màn
+
+## Thông tin chung
+
+Hãng: S-Case
+
+Danh mục: Dán màn hình
+
+Giá: 105,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 30 ngày, dán lại 1 lần cho tất cả các lỗi. - Dán mới lần 2 được giảm 30% trên giá niêm yết. - Dán PPF /Dán UV Loca chỉ được thực hiện ở cửa hàng. - Không áp dụng bảo hành cho đơn hàng giao tại nhà
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Dán kính cường lực màn hình Samsung Galaxy A05S S-case chống va đập full màn. Dòng sản phẩm: Samsung khác; Loại miếng dán: Dán cường lực màn hình; Tính năng: Siêu mỏng, Chống sốc, va đập, Chống trầy xước.
+
+## Thông số kỹ thuật
+
+- Dòng sản phẩm: Samsung khác
+- Loại miếng dán: Dán cường lực màn hình
+- Tính năng: Siêu mỏng, Chống sốc, va đập, Chống trầy xước
+- Dùng được cho: Samsung Galaxy A05S
+- Hãng sản xuất: S-Case
+
+Nguồn tham khảo: CellphoneS – Dán kính cường lực màn hình Samsung Galaxy A05S S-case chống va đập full màn — https://cellphones.com.vn/kinh-cuong-luc-samsung-galaxy-a05s.html
+
+---
+
+# Trạm Sạc Dự Phòng Di Động Ecoflow 1000W 1920Wh Delta 3 Air 2000
+
+## Thông tin chung
+
+Hãng: Ecoflow
+
+Danh mục: Trạm sạc
+
+Giá: 23,270,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 5 năm chính hãng
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Trạm Sạc Dự Phòng Di Động Ecoflow 1000W 1920Wh Delta 3 Air 2000. Dung lượng pin: 1920Wh; Công suất sạc: 1000W; Cổng sạc ra: 2 x USB-C 2 x USB-A 2 x Ổ cắm.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 1920Wh
+- Công suất sạc: 1000W
+- Cổng sạc ra: 2 x USB-C 2 x USB-A 2 x Ổ cắm
+- Cổng sạc vào: 1 x AC 1 x Sạc năng lượng mặt trời
+- Tiện ích: Tích hợp cổng sạc năng lượng mặt trời Vận hành êm ái 44dB UPS tự động <10 ms Điều khiển thông minh qua App OASIS 3.0 Bảo vệ quá áp (Over Voltage) Bảo vệ quá tải (Overload) Bảo vệ quá nhiệt (Over Temperature) Bảo vệ ngắn mạch (Short Circuit) Bảo vệ nhiệt độ thấp (Low Temperature) Bảo vệ điện áp thấp (Low Voltage) Bảo vệ quá dòng (Overcurrent)
+- Lõi pin: LFP (LiFePO₄)
+- Kích thước: 22 x 22.3 x 42.6 cm
+- Trọng lượng: 17.8 kg
+- Hãng sản xuất: Ecoflow
+
+Nguồn tham khảo: CellphoneS – Trạm Sạc Dự Phòng Di Động Ecoflow 1000W 1920Wh Delta 3 Air 2000 — https://cellphones.com.vn/tram-sac-du-phong-ecoflow-delta-3-air-2000-1000w-1920wh.html
+
+---
+
+# Trạm Sạc Dự Phòng Di Động Energizer 1100Wh/1200W LMFP - PPS1100W2F
+
+## Thông tin chung
+
+Hãng: Energizer
+
+Danh mục: Trạm sạc
+
+Giá: 17,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 1 đổi 1 trong 12 tháng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Trạm Sạc Dự Phòng Di Động Energizer 1100Wh/1200W LMFP - PPS1100W2F. Dung lượng pin: 1100Wh; Công suất sạc: 1200W; Lõi pin: Lithium Manganese Iron Phosphate (LMFP).
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 1100Wh
+- Công suất sạc: 1200W
+- Lõi pin: Lithium Manganese Iron Phosphate (LMFP)
+- Hãng sản xuất: Energizer
+- Chất liệu: Nhựa chống cháy
+- Cổng giao tiếp: 2 x USB-A 2 x USB-C 3 x AC 2 x DC 1 x Car Charger Outlet
+- Công suất đầu ra: Cổng AC: 230Vac/ 50Hz 1200W Max. (Peak 2400W) Cổng DC: 12V/10A (10A Max) Cổng sạc xe hơi: 12V/10A Max Cổng USB-A: 12V/1.5A Cổng USB-C(1): 12V/1.5A (18W Max) Cổng USB-C(2+3): 20V/5A (100W Max)
+- Cổng sạc vào: Cổng DC: 24V/7.5A 180W Cổng AC: 230V/ 50Hz 1000W Sạc năng lượng mặt trời: MPPT 12V-30V (180W Max)
+- Tiện ích: PowerSafe Management đảm bảo chống đoản mạch, quá dòng, quá tải Tích hợp đèn pin chiếu sáng trong nhà và ngoài trời.
+
+Nguồn tham khảo: CellphoneS – Trạm Sạc Dự Phòng Di Động Energizer 1100Wh/1200W LMFP - PPS1100W2F — https://cellphones.com.vn/tram-sac-du-phong-di-dong-energizer-lmfp-pps1100w2f-1100wh-1200w.html
+
+---
+
+# Trạm sạc dự phòng DJI Power 1000 mini 1008Wh 300W
+
+## Thông tin chung
+
+Hãng: DJI
+
+Danh mục: Trạm sạc
+
+Giá: 13,000,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Trạm sạc dự phòng DJI Power 1000 mini 1008Wh 300W. Dung lượng pin: 1008 Wh; Công suất sạc: 300W; Cổng sạc ra: AC x 2 USB-C x 1 Cáp USB-C x 1, USB-A x 2, SDC × 1.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 1008 Wh
+- Công suất sạc: 300W
+- Cổng sạc ra: AC x 2 USB-C x 1 Cáp USB-C x 1, USB-A x 2, SDC × 1
+- Cổng sạc vào: AC x 1, USB-C x 1, SDC x 1, Sạc năng lượng mặt trời x 1
+- Tiện ích: Sạc nhanh Duy trì trên 80% công suất sau 4000 chu kỳ Hệ thống Intelligent Battery Management System với 10 cảm biến nhiệt độ Khả năng chống ngưng tụ Đèn LED có thể điều chỉnh độ sáng và chế độ UPS
+- Lõi pin: LFP (lithium ferrophosphate)
+- Kích thước: 31.4 × 21.2 × 21.6 cm
+- Trọng lượng: 11.5kg
+- Hãng sản xuất: DJI
+- Kết nối: Wi-Fi
+
+Nguồn tham khảo: CellphoneS – Trạm sạc dự phòng DJI Power 1000 mini 1008Wh 300W — https://cellphones.com.vn/tram-sac-du-phong-dji-power-1000-mini-1008wh-300w.html
+
+---
+
+# Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W
+
+## Thông tin chung
+
+Hãng: Ecoflow
+
+Danh mục: Trạm sạc
+
+Giá: 3,990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 5 năm chính hãng
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W. Dung lượng pin: 192Wh; Công suất sạc: 220W; Cổng sạc ra: 2 x USB-C 2 x USB-A.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 192Wh
+- Công suất sạc: 220W
+- Cổng sạc ra: 2 x USB-C 2 x USB-A
+- Cổng sạc vào: 2 x USB-C
+- Tiện ích: Khả năng chống bụi, nước IP30 Bảo vệ quá áp (Over Voltage) Bảo vệ quá tải (Overload) Bảo vệ quá nhiệt (Over Temperature) Bảo vệ ngắn mạch (Short Circuit) Bảo vệ nhiệt độ thấp (Low Temperature) Bảo vệ điện áp thấp (Low Voltage) Bảo vệ quá dòng (Overcurrent)
+- Lõi pin: LFP (LiFePO₄)
+- Kích thước: 167 x 115 x 126 mm
+- Trọng lượng: 1.83 kg
+- Hãng sản xuất: Ecoflow
+
+Nguồn tham khảo: CellphoneS – Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W — https://cellphones.com.vn/tram-sac-du-phong-ecoflow-trail-200-dc-192wh-220w.html
+
+---
+
+# Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED
+
+## Thông tin chung
+
+Hãng: Anker
+
+Danh mục: Sạc dự phòng
+
+Giá: 3,250,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 18 tháng chính hãng, 1 đổi 1
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED. Dung lượng pin: 20000mAh; Công suất sạc: Tối đa 220W; Cổng sạc ra: 2 x USB-C 1 x USB-A.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 20000mAh
+- Công suất sạc: Tối đa 220W
+- Cổng sạc ra: 2 x USB-C 1 x USB-A
+- Cổng sạc vào: 1 x USB-C
+- Tiện ích: Sạc nhanh Kiểm soát hoàn toàn thông qua ứng dụng Điều chỉnh phân phối điện năng Được mang theo khi bay Có thể thay đổi màn hình Kết nối qua Bluetooth Thiết lập tùy chọn sạc của bạn
+- Kích thước: 14.72 x 4.45 x 5.05 cm
+- Trọng lượng: 472g
+- Hãng sản xuất: Anker
+
+Nguồn tham khảo: CellphoneS – Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED — https://cellphones.com.vn/pin-sac-du-phong-anker-prime-20000mah-220w-a110b.html
+
+---
+
+# Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W
+
+## Thông tin chung
+
+Hãng: Anker
+
+Danh mục: Sạc dự phòng
+
+Giá: 2,850,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 18 tháng chính hãng, 1 đổi 1
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W. Dung lượng pin: 10000 mAh; Công suất sạc: Không dây: 25W Max Type-C: 45W; Cổng sạc ra: Không dây Type-C.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 10000 mAh
+- Công suất sạc: Không dây: 25W Max Type-C: 45W
+- Cổng sạc ra: Không dây Type-C
+- Cổng sạc vào: Type C
+- Tiện ích: Nhiệt độ mặt lưng khi sạc nhỏ hơn 36°C (96.8°F) trong suốt quá trình sạc Hệ thống tản nhiệt Graphene 3 lớp Sạc không dây chuẩn Qi2
+- Kích thước: 10.4 x 7.1 x 1.8 cm (Dài x rộng x cao)
+- Trọng lượng: 220g
+- Hãng sản xuất: Anker
+
+Nguồn tham khảo: CellphoneS – Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W — https://cellphones.com.vn/pin-sac-du-phong-khong-day-anker-maggo-2-pro-a110r-10000mah-qi2-25w-type-c-pd-45w.html
+
+---
+
+# Pin sạc dự phòng Apple iPhone Air Magsafe MGPG4VN/A chính hãng
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Sạc dự phòng
+
+Giá: 2,750,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Pin sạc dự phòng Apple iPhone Air Magsafe MGPG4VN/A chính hãng. Dung lượng pin: Sạc thêm tới 65% cho iPhone Air; Công suất sạc: Sạc nhanh không dây lên đến 12W; Cổng sạc ra: Sạc Magsafe.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: Sạc thêm tới 65% cho iPhone Air
+- Công suất sạc: Sạc nhanh không dây lên đến 12W
+- Cổng sạc ra: Sạc Magsafe
+- Cổng sạc vào: 1 x USB-C
+- Tiện ích: Thiết kế mỏng và nhẹ Tự động chọn thời điểm sạc phù hợp nhất Gắn Pin MagSafe và kết nối nó với bộ chuyển đổi nguồn 20W để sạc nhanh
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Pin sạc dự phòng Apple iPhone Air Magsafe MGPG4VN/A chính hãng — https://cellphones.com.vn/pin-sac-du-phong-apple-iphone-air-magsafe.html
+
+---
+
+# Pin sạc dự phòng BMX Solid-State Magsafe 10.000mAh Qi2 có màn hình LED
+
+## Thông tin chung
+
+Hãng: BMX
+
+Danh mục: Sạc dự phòng
+
+Giá: 2,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Pin sạc dự phòng BMX Solid-State Magsafe 10.000mAh Qi2 có màn hình LED. Dung lượng pin: 10.000mAh; Công suất sạc: 60W; Cổng sạc ra: 2 x USB-C 1 x MagSafe.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 10.000mAh
+- Công suất sạc: 60W
+- Cổng sạc ra: 2 x USB-C 1 x MagSafe
+- Cổng sạc vào: USB-C
+- Tiện ích: Công nghệ thể rắn, thiết kế chống cháy Màn hình LED hiển thị thông số Chế độ Airplane Mode chuyên biệt Tuân thủ quy định TSA carry-on An toàn hơn khi mang lên máy bay và lưu trữ
+- Lõi pin: Pin lithium
+- Kích thước: 10.27 × 6.8 × 1.89 cm
+- Trọng lượng: 209g
+- Hãng sản xuất: BMX
+
+Nguồn tham khảo: CellphoneS – Pin sạc dự phòng BMX Solid-State Magsafe 10.000mAh Qi2 có màn hình LED — https://cellphones.com.vn/pin-sac-du-phong-bmx-solid-state-magsafe-10000mah-qi2-led.html
+
+---
+
+# Pin sạc dự phòng Mophie Essentials Snap+ 10.000mAh có chân đứng và cáp USB-C
+
+## Thông tin chung
+
+Hãng: Mophie
+
+Danh mục: Sạc dự phòng
+
+Giá: 1,690,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng, 1 đổi 1.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Pin sạc dự phòng Mophie Essentials Snap+ 10.000mAh có chân đứng và cáp USB-C. Dung lượng pin: 10.000mAh; Công suất sạc: Cáp PD: 30W Sạc không dây: 15W; Cổng sạc ra: USB-C Cáp USB-C Không dây.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 10.000mAh
+- Công suất sạc: Cáp PD: 30W Sạc không dây: 15W
+- Cổng sạc ra: USB-C Cáp USB-C Không dây
+- Cổng sạc vào: USB-C Cáp USB-C
+- Tiện ích: Sạc nhanh Tương thích MagSafe Chân đế mở/ gập tiện lợi Đạt chứng nhận CCC
+- Kích thước: 11.06 x 7.163 x 2.025 cm (Cao x rộng x dày)
+- Trọng lượng: 218~3g
+- Hãng sản xuất: Mophie
+
+Nguồn tham khảo: CellphoneS – Pin sạc dự phòng Mophie Essentials Snap+ 10.000mAh có chân đứng và cáp USB-C — https://cellphones.com.vn/pin-du-phong-mophie-essentials-snap-10000mah-co-chan-dung-va-cap-usb-c.html
+
+---
+
+# Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W
+
+## Thông tin chung
+
+Hãng: Ugreen
+
+Danh mục: Sạc dự phòng
+
+Giá: 1,590,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 18 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W. Dung lượng pin: 20000mAh; Công suất sạc: 100W; Cổng sạc ra: 1 x USB-C 1 x USB-A 1 x cáp USB-C.
+
+## Thông số kỹ thuật
+
+- Dung lượng pin: 20000mAh
+- Công suất sạc: 100W
+- Cổng sạc ra: 1 x USB-C 1 x USB-A 1 x cáp USB-C
+- Cổng sạc vào: 1 x USB-C
+- Tiện ích: Tương thích với nhiều thiết bị khác nhau Tích hợp cáp USB-C trên pin dự phòng Sạc nhiều thiết bị cùng lúc Dùng sạc được cho laptop
+- Hiệu suất sạc: ≥ 80%
+- Lõi pin: Lithium-ion
+- Kích thước: 5.4 x 5.1 x 13.1 cm
+- Hãng sản xuất: Ugreen
+
+Nguồn tham khảo: CellphoneS – Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W — https://cellphones.com.vn/pin-sac-du-phong-ugreen-20000mah-100w-pb723-2c1a-tich-hop-cap-usb-c-100w.html
+
+---
+
+# Bàn phím Gaming Asus Rog Azoth Extreme Edition 20 ROG
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Bàn phím
+
+Giá: 19,900,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Gaming Asus Rog Azoth Extreme Edition 20 ROG. Loại bàn phím: Mini-size; Số phím: 81 phím; Tương thích: macOS ® 10.11 trở lên Windows ® 11.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Mini-size
+- Số phím: 81 phím
+- Tương thích: macOS ® 10.11 trở lên Windows ® 11
+- Kết nối: Cáp TypeC to TypeA USB receiver Bluetooth 5
+- Đèn LED: RGB cho từng phím
+- Thời gian dùng: 1600 giờ
+- Hãng sản xuất: ASUS
+
+Nguồn tham khảo: CellphoneS – Bàn phím Gaming Asus Rog Azoth Extreme Edition 20 ROG — https://cellphones.com.vn/ban-phim-co-asus-rog-azoth-extreme-edition-20.html
+
+---
+
+# Bàn phím iPad Pro 13 M4/M5 Apple Magic Keyboard + Trackpad
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Bàn phím
+
+Giá: 9,590,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng đổi sản phẩm mới tương đương theo chính sách Apple tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím iPad Pro 13 M4/M5 Apple Magic Keyboard + Trackpad. Loại bàn phím: Mini-size; Tương thích: iPad Pro 13 inch (M4) Yêu cầu iPadOS 17.4 trở lên.; Kết nối: Smart Connector.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Mini-size
+- Tương thích: iPad Pro 13 inch (M4) Yêu cầu iPadOS 17.4 trở lên.
+- Kết nối: Smart Connector
+- Đèn LED: LED đơn sắc
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Bàn phím iPad Pro 13 M4/M5 Apple Magic Keyboard + Trackpad — https://cellphones.com.vn/ban-phim-apple-magic-keyboard-ipad-pro-13-inch-m4.html
+
+---
+
+# Bàn phím iPad Air 13 M2/M3 Apple Magic Keyboard 2025 (MDFW4)
+
+## Thông tin chung
+
+Hãng: Apple Chính hãng
+
+Danh mục: Bàn phím
+
+Giá: 8,140,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng đổi sản phẩm mới tương đương theo chính sách Apple tại trung tâm bảo hành chính hãng Apple: CareS.vn
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím iPad Air 13 M2/M3 Apple Magic Keyboard 2025 (MDFW4). Loại bàn phím: Mini-size; Số phím: 80 phím; Tương thích: iPad Air 13 inch (M3, M2) Tương thích với các phiên bản iPad chạy iPadOS 14.5 trở lên.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Mini-size
+- Số phím: 80 phím
+- Tương thích: iPad Air 13 inch (M3, M2) Tương thích với các phiên bản iPad chạy iPadOS 14.5 trở lên
+- Kết nối: Smart Connector
+- Đèn LED: LED đơn sắc
+- Hãng sản xuất: Apple Chính hãng
+
+Nguồn tham khảo: CellphoneS – Bàn phím iPad Air 13 M2/M3 Apple Magic Keyboard 2025 (MDFW4) — https://cellphones.com.vn/ban-phim-apple-magic-keyboard-ipad-air-13-inch-m2-m3-mdfw4.html
+
+---
+
+# Bàn phím Surface Pro 12'' (Kèm bút)
+
+## Thông tin chung
+
+Hãng: Microsoft
+
+Danh mục: Bàn phím
+
+Giá: 7,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng tại các trung tâm bảo hành FPT Service toàn quốc. Đổi mới trong 30 ngày đầu nếu bị lỗi phần cứng nhà sản xuất.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Surface Pro 12'' (Kèm bút). Hãng sản xuất: Microsoft; Tính năng khác: Bút có thể gắn trực tiếp vào mặt sau Tích hợp tính năng sạc không dây; Tiện ích: Được gắn vào máy bằng nam châm Uốn cong 360 độ và nằm phẳng trên mặt sau của máy Bàn di chuột có chế độ cảm ứng thích ứng Truy cập nhanh chỉ với một nút bấm.
+
+## Thông số kỹ thuật
+
+- Hãng sản xuất: Microsoft
+- Tính năng khác: Bút có thể gắn trực tiếp vào mặt sau Tích hợp tính năng sạc không dây
+- Tiện ích: Được gắn vào máy bằng nam châm Uốn cong 360 độ và nằm phẳng trên mặt sau của máy Bàn di chuột có chế độ cảm ứng thích ứng Truy cập nhanh chỉ với một nút bấm
+
+Nguồn tham khảo: CellphoneS – Bàn phím Surface Pro 12'' (Kèm bút) — https://cellphones.com.vn/ban-phim-surface-pro-12-inch-kem-but.html
+
+---
+
+# Bàn phím Gaming có dây Logitech G512 X 98 LightSync RGB Dual Swap
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Bàn phím
+
+Giá: 5,390,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Gaming có dây Logitech G512 X 98 LightSync RGB Dual Swap. Loại bàn phím: Full-size; Số phím: 98 phím; Phím đặc biệt: Nút GAME MODE Nút quét Analog.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 98 phím
+- Phím đặc biệt: Nút GAME MODE Nút quét Analog
+- Tương thích: Windows 10 trở lên macOS 12 trở lên
+- Kết nối: Cáp USB-C to A
+- Khoảng cách kết nối (Độ dài dây): 1.8 mét
+- Đèn LED: Rainbow
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Bàn phím Gaming có dây Logitech G512 X 98 LightSync RGB Dual Swap — https://cellphones.com.vn/ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap.html
+
+---
+
+# Bàn phím Gaming có dây Logitech G512 X 75 LightSync RGB Dual Swap
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Bàn phím
+
+Giá: 4,890,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Gaming có dây Logitech G512 X 75 LightSync RGB Dual Swap. Loại bàn phím: Tenkeyless; Số phím: 81 phím; Phím đặc biệt: Nút GAME MODE Nút quét Analog.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Tenkeyless
+- Số phím: 81 phím
+- Phím đặc biệt: Nút GAME MODE Nút quét Analog
+- Tương thích: Windows 10 trở lên macOS 12 trở lên
+- Kết nối: Cáp USB-C to A
+- Khoảng cách kết nối (Độ dài dây): 1.8 mét
+- Đèn LED: Rainbow
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Bàn phím Gaming có dây Logitech G512 X 75 LightSync RGB Dual Swap — https://cellphones.com.vn/ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap.html
+
+---
+
+# Bàn phím Gaming Asus ROG Falchion RX Low Profile
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Bàn phím
+
+Giá: 3,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Gaming Asus ROG Falchion RX Low Profile. Loại bàn phím: Mini-size 65%; Số phím: 68 phím; Tương thích: macOS 10.11 or later Windows 11.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Mini-size 65%
+- Số phím: 68 phím
+- Tương thích: macOS 10.11 or later Windows 11
+- Kết nối: USB 2.0 (TypeC to TypeA) Bluetooth 5.1 RF 2.4GHz
+- Khoảng cách kết nối (Độ dài dây): 10 m
+- Đèn LED: LED RGB Per keys
+- Hãng sản xuất: ASUS
+
+Nguồn tham khảo: CellphoneS – Bàn phím Gaming Asus ROG Falchion RX Low Profile — https://cellphones.com.vn/ban-phim-gaming-asus-rog-falchion-rx-low-profile.html
+
+---
+
+# Bàn phím Bluetooth Logitech Signature Slim Solar+ K980
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Bàn phím
+
+Giá: 2,590,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng, 1 đổi 1
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Bluetooth Logitech Signature Slim Solar+ K980. Loại bàn phím: Full-size; Số phím: 99 phím; Tương thích: Windows 10, 11 trở lên; macOS 12 trở lên; ChromeOS; Linux; iPadOS 15 trở lên; iOS 15 trở lên; Android 12 trở lên.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 99 phím
+- Tương thích: Windows 10, 11 trở lên; macOS 12 trở lên; ChromeOS; Linux; iPadOS 15 trở lên; iOS 15 trở lên; Android 12 trở lên
+- Kết nối: Bluetooth, Đầu thu Logi USB
+- Khoảng cách kết nối (Độ dài dây): Lên đến 10 mét
+- Đèn LED: Không LED
+- Thời gian dùng: Thời lượng pin lên tới 4 tháng trong điều kiện tối hoàn toàn
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Bàn phím Bluetooth Logitech Signature Slim Solar+ K980 — https://cellphones.com.vn/ban-phim-bluetooth-logitech-signature-slim-solar-plus-k980.html
+
+---
+
+# Bàn phím cơ không dây Aula F87 Pro V2 Trắng Contour
+
+## Thông tin chung
+
+Hãng: Aula
+
+Danh mục: Bàn phím
+
+Giá: 2,489,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím cơ không dây Aula F87 Pro V2 Trắng Contour. Loại bàn phím: Tenkeyless; Số phím: 87 phím; Tương thích: WINXP/WIN7/WIN8/WIN10 (WIN 95, WIN98 có thể cần trình điều khiển).
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Tenkeyless
+- Số phím: 87 phím
+- Tương thích: WINXP/WIN7/WIN8/WIN10 (WIN 95, WIN98 có thể cần trình điều khiển)
+- Kết nối: 3 mode có dây Type-C, không dây 2.4G & BT
+- Khoảng cách kết nối (Độ dài dây): Dây dài khoảng 1.6m
+- Đèn LED: LED RGB, 22 loại hiệu ứng ánh sáng
+- Thời gian dùng: Thời gian sử dụng sau khi sạc đầy pin: Khoảng 75H (hiệu ứng ánh sáng mặc định) Khoảng 700H (tắt tất cả đèn)
+- Hãng sản xuất: Aula
+
+Nguồn tham khảo: CellphoneS – Bàn phím cơ không dây Aula F87 Pro V2 Trắng Contour — https://cellphones.com.vn/ban-phim-co-khong-day-aula-f87-pro-v2-trang-contour.html
+
+---
+
+# Bàn phím gaming có dây Logitech G316 X 75 đen
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Bàn phím
+
+Giá: 1,950,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng, 1 đổi 1
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím gaming có dây Logitech G316 X 75 đen. Loại bàn phím: Mini-size; Số phím: 84 phím; Tương thích: Windows 10 trở lên macOS 12 trở lên.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Mini-size
+- Số phím: 84 phím
+- Tương thích: Windows 10 trở lên macOS 12 trở lên
+- Kết nối: Cáp USB-A to USB-C
+- Khoảng cách kết nối (Độ dài dây): 1.8 m
+- Đèn LED: Đèn RGB trên mỗi phím
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Bàn phím gaming có dây Logitech G316 X 75 đen — https://cellphones.com.vn/ban-phim-gaming-co-day-logitech-g316-x-75-den.html
+
+---
+
+# Bàn phím gaming có dây Logitech G316 X 75 trắng
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Bàn phím
+
+Giá: 1,950,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím gaming có dây Logitech G316 X 75 trắng. Loại bàn phím: Tenkeyless 75%; Số phím: 84 phím; Tương thích: Windows 10 trở lên macOS 12 trở lên.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Tenkeyless 75%
+- Số phím: 84 phím
+- Tương thích: Windows 10 trở lên macOS 12 trở lên
+- Kết nối: Cáp USB-A to USB-C
+- Khoảng cách kết nối (Độ dài dây): 1.8 m
+- Đèn LED: Đèn RGB trên mỗi phím
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Bàn phím gaming có dây Logitech G316 X 75 trắng — https://cellphones.com.vn/ban-phim-gaming-co-day-logitech-g316-x-75-trang.html
+
+---
+
+# Bàn phím cơ không dây Mchose K99 V3 Tri-Mode Sky Blue
+
+## Thông tin chung
+
+Hãng: MCHOSE
+
+Danh mục: Bàn phím
+
+Giá: 1,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím cơ không dây Mchose K99 V3 Tri-Mode Sky Blue. Loại bàn phím: Full-size; Số phím: 99 phím; Tương thích: Windows, macOS.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 99 phím
+- Tương thích: Windows, macOS
+- Kết nối: Bluetooth 5.0, Wireless 2.4GHz, USB-C có dây
+- Khoảng cách kết nối (Độ dài dây): Không dây đến 10m (Bluetooth/2.4GHz)
+- Đèn LED: South-Facing RGB + 360° ARGB Ambient Lighting
+- Thời gian dùng: Lên đến 2500 giờ
+- Hãng sản xuất: MCHOSE
+
+Nguồn tham khảo: CellphoneS – Bàn phím cơ không dây Mchose K99 V3 Tri-Mode Sky Blue — https://cellphones.com.vn/ban-phim-co-khong-day-mchose-k99-v3-tri-mode-sky-blue.html
+
+---
+
+# Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient
+
+## Thông tin chung
+
+Hãng: Aula
+
+Danh mục: Bàn phím
+
+Giá: 1,690,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient. Loại bàn phím: Full-size; Số phím: 108 phím; Tương thích: Windows, macOS, Android, iOS.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 108 phím
+- Tương thích: Windows, macOS, Android, iOS
+- Kết nối: 3 mode có dây Type-C & không dây 2.4G & BT
+- Khoảng cách kết nối (Độ dài dây): Lên đến 10m
+- Đèn LED: LED RGB 22 hiệu ứng ánh sáng
+- Thời gian dùng: Thời gian sử dụng sau khi sạc đầy pin: ≥31 giờ (LED mặc định)/ ≥600 giờ (tắt LED)
+- Hãng sản xuất: Aula
+
+Nguồn tham khảo: CellphoneS – Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient — https://cellphones.com.vn/ban-phim-co-khong-day-aula-f108-pro-v2-xam-den-gradient.html
+
+---
+
+# Bàn phím cơ không dây Aula F108 đen xám vàng
+
+## Thông tin chung
+
+Hãng: Aula
+
+Danh mục: Bàn phím
+
+Giá: 1,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím cơ không dây Aula F108 đen xám vàng. Loại bàn phím: Full-size; Số phím: 108 phím; Tương thích: WINXP/WIN7/WIN8/WIN10/Android/IOS/MAC.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 108 phím
+- Tương thích: WINXP/WIN7/WIN8/WIN10/Android/IOS/MAC
+- Kết nối: 3 mode có dây Type-C & không dây 2.4G & BT
+- Khoảng cách kết nối (Độ dài dây): Lên đến 10m
+- Đèn LED: LED RGB 15 hiệu ứng ánh sáng
+- Hãng sản xuất: Aula
+
+Nguồn tham khảo: CellphoneS – Bàn phím cơ không dây Aula F108 đen xám vàng — https://cellphones.com.vn/ban-phim-co-khong-day-aula-f108-den-xam-vang.html
+
+---
+
+# Bàn phím Gaming có dây HE Magnetic Mchose Ace68 Air Rapid Trigger Snow White
+
+## Thông tin chung
+
+Hãng: MCHOSE
+
+Danh mục: Bàn phím
+
+Giá: 1,490,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Gaming có dây HE Magnetic Mchose Ace68 Air Rapid Trigger Snow White. Loại bàn phím: Tenlesskey; Số phím: 68 phím; Phím đặc biệt: SOCD, Rapid Trigger (RT), RS, DKS, MT, TGL, Macro Key.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Tenlesskey
+- Số phím: 68 phím
+- Phím đặc biệt: SOCD, Rapid Trigger (RT), RS, DKS, MT, TGL, Macro Key
+- Tương thích: Windows
+- Kết nối: Dây cáp rời USB-C
+- Đèn LED: LED RGB
+- Hãng sản xuất: MCHOSE
+
+Nguồn tham khảo: CellphoneS – Bàn phím Gaming có dây HE Magnetic Mchose Ace68 Air Rapid Trigger Snow White — https://cellphones.com.vn/ban-phim-gaming-co-day-mchose-ace68-air-he-magnetic-rapid-trigger-snow-white.html
+
+---
+
+# Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy
+
+## Thông tin chung
+
+Hãng: AKKO
+
+Danh mục: Bàn phím
+
+Giá: 1,390,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy. Loại bàn phím: Full-size; Số phím: 108 phím; Tương thích: Windows / macOS.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 108 phím
+- Tương thích: Windows / macOS
+- Kết nối: 2.4GHz / USB Type-C
+- Đèn LED: Không LED
+- Thời gian dùng: Ở chế độ 2.4GHz dùng pin lên đến 8 tháng
+- Hãng sản xuất: AKKO
+
+Nguồn tham khảo: CellphoneS – Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy — https://cellphones.com.vn/ban-phim-co-khong-day-akko-3108rf-v3-poco-piggy.html
+
+---
+
+# Bàn phím Bluetooth Logitech K580
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Bàn phím
+
+Giá: 990,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Bàn phím Bluetooth Logitech K580. Loại bàn phím: Full-size; Số phím: 102 phím; Tương thích: Windows 10,11 trở lên macOS 10.15 trở lên Linux Chrome OS iPadOS 14 trở lên iOS 14 trở lên 5 Android 8.0 trở lên Receiver: Windows 7,8,10 trở lên, macOS 10.10 trở lên Bluetooth: Windows 7,8,10 trở lên, macOS X 10.10 trở lên, iOS 5 trở lên, iPadOS 13.4 trở lên, Android 5.0 trở lên và Surface | Windows, MacOS, ChromeOS, iOS, Android, PadOS.
+
+## Thông số kỹ thuật
+
+- Loại bàn phím: Full-size
+- Số phím: 102 phím
+- Tương thích: Windows 10,11 trở lên macOS 10.15 trở lên Linux Chrome OS iPadOS 14 trở lên iOS 14 trở lên 5 Android 8.0 trở lên Receiver: Windows 7,8,10 trở lên, macOS 10.10 trở lên Bluetooth: Windows 7,8,10 trở lên, macOS X 10.10 trở lên, iOS 5 trở lên, iPadOS 13.4 trở lên, Android 5.0 trở lên và Surface | Windows, MacOS, ChromeOS, iOS, Android, PadOS
+- Kết nối: Đầu thu USB Unifying Bluetooth
+- Khoảng cách kết nối (Độ dài dây): 10 mét
+- Đèn LED: Không LED
+- Thời gian dùng: Tuổi thọ pin 24 tháng.
+- Cách kết nối: USB Receiver (Đầu thu USB), Bluetooth
+- Độ dài dây / Khoảng cách kết nối: 10 m
+- Kích thước bàn phím: Fullsize
+- Đèn nền LED: Không
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Bàn phím Bluetooth Logitech K580 — https://cellphones.com.vn/ban-phim-khong-day-logitech-k580.html
+
+---
+
+# Chuột Gaming không dây Logitech Pro X3 Superstrike Lightspeed
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 4,790,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột Gaming không dây Logitech Pro X3 Superstrike Lightspeed. Phím đặc biệt: Hai nút chuột chính hỗ trợ công nghệ HITS với điểm kích hoạt và điểm đặt lại có thể tùy chỉnh; Tương thích: Windows MacOS; Độ phân giải: 100 - 48000 DPI.
+
+## Thông số kỹ thuật
+
+- Phím đặc biệt: Hai nút chuột chính hỗ trợ công nghệ HITS với điểm kích hoạt và điểm đặt lại có thể tùy chỉnh
+- Tương thích: Windows MacOS
+- Độ phân giải: 100 - 48000 DPI
+- Kết nối: Không dây LIGHTSPEED Dây USB-A to C
+- Khoảng cách kết nối (Độ dài dây): Lên tới 10 mét
+- Thời gian dùng: Khoảng 135 giờ
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột Gaming không dây Logitech Pro X3 Superstrike Lightspeed — https://cellphones.com.vn/chuot-gaming-khong-day-logitech-pro-x3-superstrike-lightspeed.html
+
+---
+
+# Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 4,690,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed. Tương thích: Windows/ macOS; Độ phân giải: 100 – 44.000 DPI; Kết nối: USB receiver.
+
+## Thông số kỹ thuật
+
+- Tương thích: Windows/ macOS
+- Độ phân giải: 100 – 44.000 DPI
+- Kết nối: USB receiver
+- Đèn LED: Không đèn LED
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed — https://cellphones.com.vn/chuot-gaming-khong-day-logitech-pro-x2-superstrike-lightspeed.html
+
+---
+
+# Chuột Gaming không dây Logitech G502 X Plus Lightspeed
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 3,250,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột Gaming không dây Logitech G502 X Plus Lightspeed. Độ phân giải: 100 – 25.600 DPI; Khoảng cách kết nối (Độ dài dây): 10 m; Đèn LED: LED RGB.
+
+## Thông số kỹ thuật
+
+- Độ phân giải: 100 – 25.600 DPI
+- Khoảng cách kết nối (Độ dài dây): 10 m
+- Đèn LED: LED RGB
+- Tiện ích: 5 cấu hình bộ nhớ tích hợp Chân PTFE có độ ma sát thấp Pin có thể sạc lại bằng cáp USB-C Tương thích với Windows 10 trở lên, Mac 10.14 trở lên
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột Gaming không dây Logitech G502 X Plus Lightspeed — https://cellphones.com.vn/chuot-gaming-khong-day-logitech-g502-x-plus-lightspeed-rgb.html
+
+---
+
+# Chuột Gaming không dây Logitech Pro X Superlight 2C
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 3,190,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột Gaming không dây Logitech Pro X Superlight 2C. Tương thích: Windows 10 trở lên; Độ phân giải: 100 – 44.000 DPI; Kết nối: USB receiver.
+
+## Thông số kỹ thuật
+
+- Tương thích: Windows 10 trở lên
+- Độ phân giải: 100 – 44.000 DPI
+- Kết nối: USB receiver
+- Đèn LED: Không đèn LED
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột Gaming không dây Logitech Pro X Superlight 2C — https://cellphones.com.vn/chuot-gaming-khong-day-logitech-pro-x-superlight-2c.html
+
+---
+
+# Chuột không dây Logitech Mobi Fold
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 2,150,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột không dây Logitech Mobi Fold. Tương thích: Windows 10, 11 trở lên macOS 12 trở lên iPadOS 15 trở lên ChromeOS Android 12 trở lên Linux; Độ phân giải: 400-4000 DPI; Kết nối: Bluetooth 5.1.
+
+## Thông số kỹ thuật
+
+- Tương thích: Windows 10, 11 trở lên macOS 12 trở lên iPadOS 15 trở lên ChromeOS Android 12 trở lên Linux
+- Độ phân giải: 400-4000 DPI
+- Kết nối: Bluetooth 5.1
+- Khoảng cách kết nối (Độ dài dây): 10m
+- Đèn LED: Không LED
+- Thời gian dùng: 32 ngày
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột không dây Logitech Mobi Fold — https://cellphones.com.vn/chuot-khong-day-logitech-mobi-fold.html
+
+---
+
+# Chuột gaming không dây Logitech Lightspeed G705
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 2,090,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột gaming không dây Logitech Lightspeed G705. Tương thích: Windows 10 trở lên, Mac 10.15 trở lên, iPadOS 13.4 trở lên, iOS 14 trở lên; Độ phân giải: 100 - 8.200 DPI; Kết nối: Bluetooth USB Receiver.
+
+## Thông số kỹ thuật
+
+- Tương thích: Windows 10 trở lên, Mac 10.15 trở lên, iPadOS 13.4 trở lên, iOS 14 trở lên
+- Độ phân giải: 100 - 8.200 DPI
+- Kết nối: Bluetooth USB Receiver
+- Đèn LED: RGB LIGHTSYNC
+- Thời gian dùng: 40 giờ (khi bật đèn)
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột gaming không dây Logitech Lightspeed G705 — https://cellphones.com.vn/chuot-gaming-khong-day-logitech-lightspeed-g705.html
+
+---
+
+# Chuột chơi game không dây Logitech G703 LIGHTSPEED
+
+## Thông tin chung
+
+Hãng: Logitech
+
+Danh mục: Chuột
+
+Giá: 1,890,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột chơi game không dây Logitech G703 LIGHTSPEED. Tương thích: Windows® 7 trở lên macOS 10.11 trở lên ChromeOS | Windows, MacOS, ChromeOS; Độ phân giải: 100 – 25.600 DPI; Kết nối: USB receiver.
+
+## Thông số kỹ thuật
+
+- Tương thích: Windows® 7 trở lên macOS 10.11 trở lên ChromeOS | Windows, MacOS, ChromeOS
+- Độ phân giải: 100 – 25.600 DPI
+- Kết nối: USB receiver
+- Khoảng cách kết nối (Độ dài dây): 1.8 m
+- Đèn LED: RGB LIGHTSYNC
+- Thời gian dùng: Chiếu sáng mặc đinh: 35 giờ Không chiếu sáng: Lến đến 60 giờ
+- Cách kết nối: USB Receiver (Đầu thu USB)
+- Hãng sản xuất: Logitech
+
+Nguồn tham khảo: CellphoneS – Chuột chơi game không dây Logitech G703 LIGHTSPEED — https://cellphones.com.vn/chuot-gaming-khong-day-logitech-g703-lightspeed.html
+
+---
+
+# Chuột gaming không dây Aula SC800
+
+## Thông tin chung
+
+Hãng: Aula
+
+Danh mục: Chuột
+
+Giá: 1,090,000 VNĐ
+
+Bảo hành tham khảo: - Bảo hành 24 tháng chính hãng, đổi mới trong 6 tháng đầu nếu có lỗi từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột gaming không dây Aula SC800. Độ phân giải: 400-800-1200-1600-3200-5000DPI; Kết nối: Bluetooth USB receiver Type-C; Đèn LED: Không Led.
+
+## Thông số kỹ thuật
+
+- Độ phân giải: 400-800-1200-1600-3200-5000DPI
+- Kết nối: Bluetooth USB receiver Type-C
+- Đèn LED: Không Led
+- Hãng sản xuất: Aula
+
+Nguồn tham khảo: CellphoneS – Chuột gaming không dây Aula SC800 — https://cellphones.com.vn/chuot-gaming-khong-day-aula-sc800.html
+
+---
+
+# Chuột gaming không dây Asus ROG Strix Impact III WL
+
+## Thông tin chung
+
+Hãng: ASUS
+
+Danh mục: Chuột
+
+Giá: 1,090,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 12 tháng chính hãng tại CellphoneS, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ nhà sản xuất
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột gaming không dây Asus ROG Strix Impact III WL. Tương thích: Windows ® 10/Windows ® 11; Độ phân giải: 36000 DPI; Kết nối: Bluetooth 5.1 Tần số vô tuyến 2,4 GHz.
+
+## Thông số kỹ thuật
+
+- Tương thích: Windows ® 10/Windows ® 11
+- Độ phân giải: 36000 DPI
+- Kết nối: Bluetooth 5.1 Tần số vô tuyến 2,4 GHz
+- Khoảng cách kết nối (Độ dài dây): 10 m
+- Đèn LED: LED RGB
+- Thời gian dùng: 450 giờ không chiếu sáng
+- Hãng sản xuất: ASUS
+
+Nguồn tham khảo: CellphoneS – Chuột gaming không dây Asus ROG Strix Impact III WL — https://cellphones.com.vn/chuot-gaming-khong-day-asus-rog-strix-impact-iii-wl.html
+
+---
+
+# Chuột không dây Bluetooth Rapoo MT560
+
+## Thông tin chung
+
+Hãng: Rapoo
+
+Danh mục: Chuột
+
+Giá: 690,000 VNĐ
+
+Bảo hành tham khảo: Bảo hành 24 tháng chính hãng, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX.
+
+Dữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.
+
+## Mô tả
+
+Chuột không dây Bluetooth Rapoo MT560. Độ phân giải: 50 - 4000 DPI; Kết nối: Bluetooth Wireless 2.4G Có dây; Đèn LED: Không.
+
+## Thông số kỹ thuật
+
+- Độ phân giải: 50 - 4000 DPI
+- Kết nối: Bluetooth Wireless 2.4G Có dây
+- Đèn LED: Không
+- Thời gian dùng: Wireless 2.4GHz: Lên đến 160 giờ Bluetooth: Lên đến 150 giờ
+- Cách kết nối: USB Receiver (Đầu thu USB)
+- Hãng sản xuất: Rapoo
+
+Nguồn tham khảo: CellphoneS – Chuột không dây Bluetooth Rapoo MT560 — https://cellphones.com.vn/chuot-khong-day-bluetooth-rapoo-mt560.html
+
+---

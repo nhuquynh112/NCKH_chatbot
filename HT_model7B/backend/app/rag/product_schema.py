@@ -54,6 +54,9 @@ class ProductRecord:
     source_urls: tuple[dict[str, str], ...] = field(default_factory=tuple)
     verification_note: str = ""
     source_file: str = ""
+    warranty_source_text: str = ""
+    price_basis: str = ""
+    collected_at: str = ""
 
     @classmethod
     def from_raw(
@@ -83,6 +86,9 @@ class ProductRecord:
                 source_urls=tuple(raw.get("source_urls") or []),
                 verification_note=_safe_text(raw.get("verification_note")),
                 source_file=str(source_path),
+                warranty_source_text=_safe_text(raw.get("warranty_source_text")),
+                price_basis=_safe_text(raw.get("price_basis")),
+                collected_at=_safe_text(raw.get("collected_at")),
             ),
             issues,
         )
@@ -99,7 +105,7 @@ class ProductRecord:
             "price": price_text,
             "price_value": self.price,
             "warranty_months": self.warranty_months,
-            "warranty": f"{self.warranty_months} tháng" if self.warranty_months else "",
+            "warranty": self.warranty_source_text or (f"{self.warranty_months} tháng" if self.warranty_months else ""),
             "description": self.description,
             "specifications": self.specifications,
             "use_case": self.description,

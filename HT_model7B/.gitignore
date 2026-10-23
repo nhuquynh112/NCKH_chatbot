@@ -55,6 +55,7 @@ docs/history/DATASET_CANDIDATES.md
 docs/history/EVALUATION_REPORT.md
 # Export output, not an input in Settings.knowledge_paths or benchmark corpus.
 backend/rag_data/faq_generated.md
+backend/rag_data_150/faq_generated.md
 
 # Only the selected release weights are distributed via Git LFS
 *.gguf

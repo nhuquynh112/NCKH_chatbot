@@ -15,6 +15,7 @@ from app.rag.website_service import (
 from app.rag.embedding import OllamaError
 from app.website_transport import WebsiteOllamaClient, website_request
 from app.services.ai_service import AIService
+from tests.catalog_fixture import historical_settings, pin_historical_catalog
 
 
 def hit(key, title, content, source="technical.md", score=.9):
@@ -83,7 +84,8 @@ class TechnicalEvidenceTests(unittest.TestCase):
 
 class WebsiteRouteTests(unittest.TestCase):
     def setUp(self):
-        self.service = create_website_chat_service()
+        self.service = create_website_chat_service(historical_settings())
+        pin_historical_catalog(self.service.guardrails.product_catalog)
         self.service.retriever.semantic_enabled = False
         self.service.llm_client = Mock()
 

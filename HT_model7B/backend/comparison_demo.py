@@ -43,6 +43,7 @@ def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume
         return context
 
     from app.config import BASELINE_CHAT_MODEL
+    from app.config import settings
     from app.rag.embedding import OllamaClient
     from benchmark.chapter5 import code_hashes
     from benchmark.methods import ollama_identity
@@ -56,7 +57,7 @@ def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume
     corpus = out / "corpus"
     corpus.mkdir()
     for name in CORPUS_FILES:
-        shutil.copyfile(BACKEND / "rag_data" / name, corpus / name)
+        shutil.copyfile(settings.products_path.parent / name, corpus / name)
     shutil.copyfile(BACKEND / "benchmark/prompts/plain.txt", out / "plain_prompt.txt")
     timestamp = datetime.now(timezone.utc).isoformat()
     database = out / "frozen_products.db"
@@ -68,11 +69,16 @@ def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume
     if process.returncode:
         raise RuntimeError("Snapshot initialization failed; inspect " + str(out / "snapshot.log"))
     verify_saved_database(database, corpus, timestamp)
+    from app.rag.vector_store import load_markdown_documents
+    document_count = len(load_markdown_documents([
+        corpus / "knowledge_base.md", corpus / "product_catalog_extended.md", corpus / "faq_curated.json",
+    ]))
     (out / "sessions").mkdir()
     context = {"interactive": True, "instance_id": out.name, "output": str(out), "database": str(database),
         "database_sha256": digest(database), "corpus": str(corpus), "corpus_sha256": {name: digest(corpus / name) for name in CORPUS_FILES},
         "snapshot_timestamp": timestamp, "plain_prompt": str(out / "plain_prompt.txt"), "plain_prompt_sha256": digest(out / "plain_prompt.txt"),
-        "expected_identity": identity, "timeout": timeout, "api_port": port, "frontend_port": frontend_port,
+        "expected_identity": identity, "expected_documents": document_count,
+        "dataset": settings.products_path.parent.name, "timeout": timeout, "api_port": port, "frontend_port": frontend_port,
         "methods": {method: method_spec(method) for method in METHODS}, "cases": {},
         "code_sha256": code_hashes(), "harness_sha256": {name: digest(BACKEND / name) for name in ("local_demo.py", "comparison_demo.py")},
         "input_source": "Câu hỏi và lịch sử do nhóm nhập; lưu nguyên nội dung theo mã câu trong phiên test."}

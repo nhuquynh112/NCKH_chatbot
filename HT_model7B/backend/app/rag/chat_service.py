@@ -369,6 +369,7 @@ class ChatService:
 
     def _verified_source_hits(self, product: dict) -> list[SearchResult]:
         hits: list[SearchResult] = []
+        retailer = product.get("verification_status") == "retailer_reported"
         for index, source in enumerate(product.get("source_urls") or [], start=1):
             title = str(source.get("title") or "").strip()
             url = str(source.get("url") or "").strip()
@@ -378,11 +379,11 @@ class ChatService:
                 SearchResult(
                     score=1.0,
                     document=Document(
-                        id=f"official-{product.get('slug') or product.get('sku')}-{index}",
+                        id=f"{'retailer' if retailer else 'official'}-{product.get('slug') or product.get('sku')}-{index}",
                         title=title,
-                        content=f"Nguồn hãng cho {product.get('name', '')}",
+                        content=f"Nguồn {'nhà bán lẻ tham khảo' if retailer else 'hãng'} cho {product.get('name', '')}",
                         metadata={
-                            "source": "official_manufacturer",
+                            "source": "retailer_reference" if retailer else "official_manufacturer",
                             "url": url,
                             "verified_at": str(product.get("verified_at") or ""),
                         },

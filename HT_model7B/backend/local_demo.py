@@ -161,7 +161,7 @@ def execute_worker(request_path, response_path):
                 if identity.get("model") != request["expected_identity"]["model"] or identity.get("digest") != request["expected_identity"]["digest"]:
                     raise RuntimeError("Base model differs from the recorded benchmark; inference refused")
             if method in {"B2", "P"}:
-                if not identity.get("semantic_enabled") or identity.get("documents") != 195:
+                if not identity.get("semantic_enabled") or identity.get("documents") != request.get("expected_documents", 195):
                     raise RuntimeError("Matching semantic index is not ready")
                 if identity["embedding_identity"]["digest"] != request["expected_identity"]["embedding_identity"]["digest"]:
                     raise RuntimeError("Embedding model differs from the recorded benchmark")
@@ -238,7 +238,9 @@ def create_demo_app(context):
                 "interactive": interactive,
                 "cases": [] if interactive else [context["cases"][cid]["input"] for cid in CASE_IDS],
                 "model": context["expected_identity"]["model"] + " · " + context["expected_identity"].get("details", {}).get("quantization_level", "chưa xác minh precision") + " · Ollama", "embedding": "nomic-embed-text · 768 chiều",
-                "documents": 195, "generation": {"temperature": 0, "context": 4096, "max_output": 384, "repeat_penalty": 1},
+                "documents": context.get("expected_documents", 195),
+                "dataset": context.get("dataset", "historical_snapshot"),
+                "generation": {"temperature": 0, "context": 4096, "max_output": 384, "repeat_penalty": 1},
                 "timeout_seconds": context["timeout"], "input_source": context.get("input_source") if interactive else str(Path(context["study"]) / "package/test_inputs.jsonl"),
                 "output": context["output"], "snapshot_time": context["snapshot_timestamp"],
                 "snapshot_verified": True, "customer_database_used": False,
@@ -318,7 +320,8 @@ def create_demo_app(context):
                 "corpus": context["corpus"], "database": context["database"], "timeout": context["timeout"],
                 "snapshot_timestamp": context["snapshot_timestamp"], "ollama_url": "http://127.0.0.1:11434",
                 "hf_url": "http://127.0.0.1:8011", "plain_prompt": Path(context["plain_prompt"]).read_text(encoding="utf-8"),
-                "expected_identity": context["expected_identity"]}
+                "expected_identity": context["expected_identity"],
+                "expected_documents": context.get("expected_documents", 195)}
             write_new(work / "request.json", request_data)
             started = time.perf_counter()
             command = [sys.executable, "-B", str(Path(__file__).resolve()), "--worker", str(work / "request.json"), str(work / "response.json")]
