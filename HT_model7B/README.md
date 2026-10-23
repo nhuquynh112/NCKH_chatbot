@@ -4,6 +4,8 @@ Bản này chuyển model chat sang `qwen2.5:7b-instruct-fp16` qua Ollama, khôn
 
 Website React/Vite gọi FastAPI. Chatbot trả lời bằng luật/catalog/FAQ hoặc RAG hybrid semantic/BM25 + LLM; có lịch sử hội thoại, ticket và quản trị FAQ/ticket. Sản phẩm/giá/chính sách là dữ liệu mô phỏng nghiên cứu.
 
+Website có lớp xử lý giao tiếp riêng, gồm tư vấn điện thoại chung theo ngân sách và xử lý lời góp ý sau danh sách gợi ý. Lớp này ưu tiên smartphone có thông tin Android/iOS trong catalog, không mặc định chọn máy phổ thông rẻ nhất. Các yêu cầu thông số cụ thể vẫn đi qua luồng nghiệp vụ hiện có. Pipeline P của benchmark vẫn dùng factory gốc, không nhận bản sửa website này; không trộn kết quả giữa hai luồng. Sửa code backend cần khởi động lại Uvicorn để nhận thay đổi.
+
 ## Cài đặt
 
 Cần Python, Node.js và Ollama. Môi trường dùng kiểm tra: Python 3.14.3, Node.js 24.14.0; Vite yêu cầu Node `^20.19.0 || >=22.12.0`. Từ thư mục `HT_model7B`:

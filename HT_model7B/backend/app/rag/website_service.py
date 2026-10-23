@@ -5,7 +5,7 @@ import time
 from app.config import settings as app_settings
 from app.rag.chat_service import ChatService, ChatResult, create_default_chat_service
 from app.rag.grounding import unsupported_claims
-from app.rag.guardrails import GuardrailPolicy
+from app.rag.guardrails import GuardrailPolicy, parse_price
 from app.rag.lexical import bm25_search
 from app.rag.prompt import FALLBACK_ANSWER
 from app.rag.query_rewriter import strip_accents
@@ -98,6 +98,106 @@ def admit_technical(intent, ranked, top_k):
 class WebsiteChatService(ChatService):
     observer = None
 
+    def _phone_recommendation(self, question, history, product_id):
+        """Website shopping defaults; never used by the frozen benchmark factory."""
+        if (product_id or self.guardrails.mentioned_products(question)
+                or self.guardrails.looks_like_unknown_model(question)
+                or self.guardrails.is_unknown_product_availability_question(question)):
+            return None
+        text = folded(question)
+        # The shared matcher treats "cấp" in "cao cấp" as the accessory
+        # keyword "cáp". Remove only that adjective when resolving this turn.
+        category = self.guardrails.find_category(re.sub(r"\bcao cap\b", " ", text))
+        if re.search(r"\b(?:iphone|galaxy|pixel)\s*(?:[a-z]\s*)?\d", text):
+            return ChatResult(
+                "Mình chưa tìm thấy đúng model bạn nêu trong danh mục hiện tại. "
+                "Bạn kiểm tra lại tên model hoặc gửi link sản phẩm để mình đối chiếu nhé.",
+                [], False, "clarification",
+            )
+        phone_category = self.guardrails.find_category("điện thoại")
+        previous_category = None
+        previous_budget = None
+        previous_question = ""
+        for turn in reversed(history or []):
+            if turn.get("role") != "user":
+                continue
+            content = turn.get("content", "")
+            found = self.guardrails.find_category(content)
+            if found:
+                previous_category = found
+                previous_budget = self.guardrails.extract_budget(content)
+                previous_question = content
+                break
+        correction = any(contains(text, term) for term in (
+            "re qua", "cao cap hon", "tot hon", "trieu lan", "may cai ban tu van",
+            "toan may re", "toan dien thoai re", "sat ngan sach",
+        ))
+        if category != phone_category and not (
+                category is None and previous_category == phone_category and correction):
+            return None
+        if not correction and not self.guardrails.is_recommendation_question(question):
+            return None
+        # Precise model/spec/use-case requests keep their existing route. This
+        # general-shopping handler must not silently discard extra constraints.
+        if re.search(r"\b(?:ram|gb|tb|mah|hz|mp|camera|chup|game|gaming|pin|ios|android|"
+                     r"re nhat|gia re|tiet kiem|pho thong|bam phim|nghe goi|cuc gach|"
+                     r"may cu|hang cu|da qua su dung|man hinh|oled|amoled|5g|4g|sac|sim|nfc|chong nuoc)\b", text) \
+                or re.search(r"\btu\s+\d+.*\bden\s+\d+|\bmau\s+(?:sac|do|xanh|den|trang|tim|hong|vang)\b", text):
+            return None
+        budget = self.guardrails.extract_budget(question)
+        changing_budget = any(contains(text, term) for term in (
+            "giam", "ha ngan sach", "doi ngan sach", "chuyen sang", "toi da", "chi co",
+        ))
+        # A complaint may quote the sub-million prices just shown by the bot;
+        # those amounts are not a new spending limit.
+        if correction and previous_budget and not changing_budget:
+            budget = previous_budget
+        if budget is None:
+            return None
+        products = self.guardrails.products_by_category(phone_category)
+        brand_context = text if category else text + " " + folded(previous_question)
+        brands = {p["brand"] for p in products if p.get("brand") and contains(brand_context, folded(p["brand"]))}
+        if contains(brand_context, "iphone"):
+            brands = {"Apple"}
+        elif contains(brand_context, "galaxy"):
+            brands = {"Samsung"}
+        if brands:
+            products = [p for p in products if p.get("brand") in brands]
+        smartphones = [p for p in products
+                       if re.search(r"\b(?:android|ios)\b", folded(p.get("specs", "")))
+                       and 0 < parse_price(p["price"]) <= budget]
+        budget_text = f"{budget:,}".replace(",", ".") + " VND"
+        if not smartphones:
+            return ChatResult(
+                f"Mình chưa tìm thấy smartphone có thông tin Android/iOS xác nhận trong ngân sách {budget_text}"
+                + (" của hãng bạn yêu cầu" if brands else "")
+                + ". Bạn muốn xem điện thoại phổ thông hay điều chỉnh ngân sách?",
+                [], False, "clarification",
+            )
+        ordered = sorted(smartphones, key=lambda p: (-parse_price(p["price"]), p["sku"]))
+        shown = ordered[:1 if correction else 3]
+        lines = [f"Với ngân sách tối đa {budget_text}, mình ưu tiên smartphone Android/iOS "
+                 "và xếp các mẫu gần mức ngân sách trước:"]
+        for product in shown:
+            specs = [part.strip() for part in product.get("specs", "").split(",")
+                     if re.search(r"\b(?:chipset|chip|ram|bo nho trong)\b", folded(part))][:3]
+            lines.append(f"- {product['name']} — {product['price']}" + (": " + "; ".join(specs) if specs else "") + ".")
+        if correction:
+            lines.append(f"{shown[0]['name']} là smartphone có giá gần ngân sách nhất "
+                         "trong các mẫu đang niêm yết phù hợp; mình chưa có mẫu khác gần trần giá hơn để giới thiệu.")
+        lines.append("Bạn ưu tiên chụp ảnh, chơi game hay pin để mình tư vấn tiếp? "
+                     "Cần đối chiếu thêm nhu cầu sử dụng trước khi chốt mẫu phù hợp nhất.")
+        hits = []
+        for product in shown:
+            source = next((s for s in product.get("source_urls", []) if s.get("url")), {})
+            metadata = {"source": "product_catalog", "type": "recommended_product", "slug": product["slug"]}
+            if source:
+                metadata["url"] = source["url"]
+            hits.append(SearchResult(1.0, Document(
+                "catalog-" + product["sku"], product["name"], self._product_context(product), metadata,
+            )))
+        return ChatResult("\n".join(lines), hits, False, "rule+rag")
+
     def _check_question_echo(self, result, question, history):
         if result.mode != "llm+rag":
             return result
@@ -164,6 +264,10 @@ class WebsiteChatService(ChatService):
                        or self.guardrails.is_support_issue(question) or self.guardrails.is_order_lookup(question)
                        or self.guardrails.is_human_request(question) or self.guardrails.is_clearly_out_of_scope(question))
             if not intent and not preempt:
+                recommendation = self._phone_recommendation(question, history, product_id)
+                if recommendation is not None:
+                    emit("website_route", route="phone_recommendation")
+                    return recommendation
                 catalog_result = self._catalog_dialogue(question, product_id)
                 if catalog_result is not None:
                     emit("website_route", route="catalog_dialogue")
