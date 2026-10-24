@@ -1,5 +1,5 @@
 {
-  "version": "1.1-draft",
+  "version": "3.1-draft",
   "status": "agent_authored_pending_human_review",
   "cases": [
     {
@@ -304,153 +304,128 @@
     },
     {
       "id": "H01",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em đang hỏi iPhone 18 Pro 256GB."
-        },
-        {
-          "role": "assistant",
-          "content": "Mình ghi nhận bạn đang hỏi iPhone 18 Pro 256GB."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Máy đó giá bao nhiêu theo catalog?",
+      "history_questions": [
+        "Tôi đang xem iPhone 18 Pro 256GB.",
+        "Máy đó thuộc hãng nào?",
+        "Tôi vẫn giữ đúng dung lượng vừa nói, chưa đổi sang bản khác."
       ],
-      "question": "Máy đó giá bao nhiêu?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H02",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em muốn biết giá iPhone 18 Pro 256GB."
-        },
-        {
-          "role": "assistant",
-          "content": "Giá tham khảo của bản 256GB là 38.990.000 đồng."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Từ bản đầu lên bản thứ hai thì em cần thêm bao nhiêu?",
+      "history_questions": [
+        "Em muốn biết giá iPhone 18 Pro 256GB.",
+        "Nếu đổi sang bản 512GB thì giá thế nào?",
+        "Em đang so sánh đúng hai bản vừa nói nhé.",
+        "Giá đó là giá tham khảo hay giá trực tiếp?"
       ],
-      "question": "Nếu chuyển sang bản 512GB thì em cần thêm bao nhiêu?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H03",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em hỏi Samsung Galaxy S26 5G 12GB 256GB."
-        },
-        {
-          "role": "assistant",
-          "content": "Mình đã ghi nhận mẫu Galaxy S26 bạn hỏi."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Báo lại tên và giá mẫu em vừa sửa nhé.",
+      "history_questions": [
+        "Em hỏi Samsung Galaxy S26 5G 12GB 256GB.",
+        "Mẫu đó giá bao nhiêu?",
+        "À em sửa lại, em muốn vivo Y16 4GB 128GB."
       ],
-      "question": "À em sửa lại, em hỏi vivo Y16 4GB 128GB, giá bao nhiêu? "
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H04",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em đang xem Sony WH-1000XM6 và Sony WH-CH520."
-        },
-        {
-          "role": "assistant",
-          "content": "Mình ghi nhận hai mẫu Sony WH-1000XM6 và Sony WH-CH520."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Mẫu em chọn tên gì và giá bao nhiêu?",
+      "history_questions": [
+        "Em đang xem Sony WH-1000XM6 và Sony WH-CH520, theo đúng thứ tự đó.",
+        "Hai mẫu đó có cùng hãng không?",
+        "Báo giá riêng từng mẫu giúp em.",
+        "Em muốn lấy mẫu thứ hai trong danh sách em nêu ban đầu."
       ],
-      "question": "Con đó giá bao nhiêu?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H05",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em cần 2 laptop không quá 20 triệu đồng mỗi máy."
-        },
-        {
-          "role": "assistant",
-          "content": "Mình sẽ giữ giới hạn 20 triệu đồng mỗi laptop."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Chốt giúp em 2 model đáp ứng các điều kiện trên và giá từng máy.",
+      "history_questions": [
+        "Em cần 2 laptop không quá 20 triệu đồng mỗi máy.",
+        "Chỉ xem hãng HP thôi nhé.",
+        "Ngân sách đó tính cho mỗi chiếc, không phải tổng cả hai."
       ],
-      "question": "Chỉ chọn hãng HP giúp em, ghi đúng model và giá."
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H06",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em đang tìm laptop HP dưới 20 triệu."
-        },
-        {
-          "role": "assistant",
-          "content": "Mình đã ghi nhận nhu cầu laptop HP của bạn."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Nhắc lại tên và giá sản phẩm em đang hỏi hiện tại nhé.",
+      "history_questions": [
+        "Em đang tìm laptop HP dưới 20 triệu.",
+        "Cho em biết một mẫu trong catalog đáp ứng điều kiện đó.",
+        "Giờ em chuyển sang chuột Rapoo MT560, không mua laptop nữa.",
+        "Mẫu chuột đó thuộc hãng nào?"
       ],
-      "question": "Giờ chuyển qua chuột Rapoo MT560 nhé, mẫu này bao nhiêu?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H07",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em muốn hỏi hoàn tiền chuyển khoản."
-        },
-        {
-          "role": "assistant",
-          "content": "Theo chính sách demo, dự kiến 3–7 ngày làm việc sau khi yêu cầu được xác nhận."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Vậy khoảng bao lâu và tính từ lúc em gửi yêu cầu hay lúc shop xác nhận?",
+      "history_questions": [
+        "Theo chính sách demo, hoàn tiền chuyển khoản dự kiến mất bao lâu?",
+        "Em vừa gửi yêu cầu nhưng cửa hàng chưa xác nhận.",
+        "Ngày nghỉ có tính vào khoảng dự kiến đó không?"
       ],
-      "question": "Vậy tính từ lúc em nhắn yêu cầu hay từ lúc shop xác nhận?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H08",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em xem iPhone 18 Pro 256GB."
-        },
-        {
-          "role": "assistant",
-          "content": "Giá tham khảo theo catalog là 38.990.000 đồng."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Có giá trong catalog nghĩa là máy đó chắc chắn còn hàng để giao ngay đúng không?",
+      "history_questions": [
+        "Em xem iPhone 18 Pro 256GB.",
+        "Máy đó giá tham khảo bao nhiêu?",
+        "Giá đó được thu thập ngày nào?",
+        "Em muốn mua đúng bản đã hỏi, không đổi dung lượng."
       ],
-      "question": "Vậy giá đó đảm bảo máy đang còn hàng đúng không?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H09",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Em chọn iPhone 18 Pro 256GB màu Đỏ Burgundy trong catalog."
-        },
-        {
-          "role": "assistant",
-          "content": "Mình ghi nhận bản 256GB màu Đỏ Burgundy."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Cho em SKU và link nguồn đúng bản đó.",
+      "history_questions": [
+        "Em chọn iPhone 18 Pro 256GB màu Đỏ Burgundy trong catalog.",
+        "Giá tham khảo của đúng bản đó là bao nhiêu?",
+        "Em giữ nguyên màu và dung lượng vừa chọn."
       ],
-      "question": "Cho em SKU và link nguồn đúng bản đó."
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "H10",
-      "group": "Theo dõi lịch sử",
-      "history": [
-        {
-          "role": "user",
-          "content": "Tên Alldocube iPlay 80 mini Turbo ghi 256GB nhưng thông số ghi 128GB."
-        },
-        {
-          "role": "assistant",
-          "content": "Hai trường đang mâu thuẫn, cần xác minh trước khi chốt dung lượng."
-        }
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "question": "Cứ chọn 256GB rồi tư vấn chắc chắn cho em được không?",
+      "history_questions": [
+        "Tên Alldocube iPlay 80 mini Turbo ghi 256GB nhưng thông số ghi 128GB.",
+        "Vậy hiện dữ liệu đang khẳng định chắc dung lượng nào?",
+        "Em đang cần dung lượng 256GB nên hơi lo thông tin bị nhầm.",
+        "Chưa có nguồn mới để xác minh thêm nhé."
       ],
-      "question": "Cứ chọn 256GB rồi tư vấn chắc chắn cho em được không?"
+      "history_mode": "generated_in_same_session"
     },
     {
       "id": "O01",
@@ -571,6 +546,192 @@
       "group": "Ngoài nguồn — thiếu dữ liệu nghiệp vụ",
       "history": [],
       "question": "Cho em tên và số điện thoại riêng của kỹ thuật viên sẽ sửa máy cho em ngày mai."
+    },
+    {
+      "id": "H11",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em đang xem Logitech G316 X 75 bản đen và bản trắng.",
+        "Giá của hai bản này khác nhau không?",
+        "Em đổi lựa chọn từ đen sang trắng."
+      ],
+      "question": "Nhắc lại đúng màu em đã chọn và giá bản đó nhé.",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H12",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em cần chuột không quá 1,2 triệu đồng.",
+        "Em đang cân nhắc Aula SC800 và Rapoo MT560.",
+        "Chỉ so sánh hai mẫu em vừa nêu thôi nhé.",
+        "Em muốn chọn mẫu rẻ hơn trong hai mẫu đó."
+      ],
+      "question": "Mẫu em nên chọn là gì, giá bao nhiêu và rẻ hơn mẫu còn lại bao nhiêu?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H13",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em muốn mua hai laptop HP 250R G9 AX3C8AT, giá theo catalog.",
+        "Em có tổng ngân sách 35 triệu đồng cho cả hai.",
+        "Chưa tính ship và chưa áp dụng ưu đãi nào nhé."
+      ],
+      "question": "Tổng tiền hai máy là bao nhiêu, ngân sách còn dư hay thiếu bao nhiêu?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H14",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em xem bàn phím Logitech G512 X 98 và G512 X 75.",
+        "Báo giá từng mẫu theo catalog giúp em.",
+        "Em chọn bản 98 trước.",
+        "Giờ em đổi sang bản 75, không lấy bản 98 nữa."
+      ],
+      "question": "Tên mẫu em chọn hiện tại là gì và tiết kiệm bao nhiêu so với lựa chọn trước?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H15",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em đang xem Garmin Fenix 9 Pro 43mm AMOLED viền Titanium.",
+        "So với bản 47mm Solar viền titan thì giá thế nào?",
+        "Em chọn bản Solar, không lấy bản AMOLED vừa hỏi đầu tiên."
+      ],
+      "question": "Nhắc lại đúng phiên bản, kích thước và giá mẫu em chọn nhé.",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H16",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em muốn mua vivo Y16 4GB 128GB.",
+        "Cho em giá theo catalog.",
+        "Nếu đặt đúng máy đó thì có trả góp không?",
+        "Em thấy quảng cáo trả góp 0% nên đang cân nhắc."
+      ],
+      "question": "Vậy tổng tiền trả góp cho máy đó chắc chắn bằng giá catalog và không có phí gì đúng không?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H17",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em mua laptop HP 250R G9 AX3C8AT cho công ty.",
+        "Shop có hỗ trợ hóa đơn VAT theo chính sách demo không?",
+        "Em chưa gửi thông tin xuất hóa đơn."
+      ],
+      "question": "Em cần cung cấp thông tin gì, và chatbot có thể tự xuất hóa đơn ngay chưa?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H18",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em cần dán màn hình cho Samsung Galaxy A05S.",
+        "Báo giá mẫu S-case trong catalog giúp em.",
+        "Em mua 3 miếng cùng loại, không đổi dòng máy.",
+        "Chưa có khuyến mãi và chưa tính vận chuyển nhé."
+      ],
+      "question": "Tổng tiền của số lượng em vừa nói là bao nhiêu?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H19",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em xem pin sạc dự phòng Anker Prime A110B 20000mAh 220W.",
+        "Em muốn so giá với Ugreen PB723 20000mAh 100W trong catalog.",
+        "Em đổi sang mẫu Ugreen vừa nêu."
+      ],
+      "question": "Mẫu em đang chọn giá bao nhiêu và rẻ hơn mẫu Anker ban đầu bao nhiêu?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "H20",
+      "group": "Hội thoại thực tế",
+      "history": [],
+      "history_questions": [
+        "Em hỏi thời gian giao hàng về tỉnh theo chính sách demo.",
+        "Khoảng dự kiến đó tính theo ngày làm việc đúng không?",
+        "Bây giờ em chuyển sang hỏi hoàn tiền chuyển khoản, không hỏi giao hàng nữa.",
+        "Em đã nhận được xác nhận yêu cầu hoàn tiền từ cửa hàng."
+      ],
+      "question": "Với việc em đang hỏi hiện tại, thời gian dự kiến là bao lâu và mốc bắt đầu tính là khi nào?",
+      "history_mode": "generated_in_same_session"
+    },
+    {
+      "id": "T01",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Đm, đơn TC-TEST-7788 của tao chờ mãi chưa tới! Hàng đang ở đâu, đừng trả lời vòng vo nữa."
+    },
+    {
+      "id": "T02",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Mẹ kiếp, shop xác nhận hoàn tiền chuyển khoản cho tao hôm qua rồi mà giờ chưa thấy! Tiền đâu?"
+    },
+    {
+      "id": "T03",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Cái điện thoại chết tiệt này vừa mua đã lỗi, chúng mày bán đồ rác à? Đổi máy mới ngay cho tao!"
+    },
+    {
+      "id": "T04",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Trả góp 0% mà còn lòi phí, lừa đảo vãi! Giải thích cho tao tổng tiền kiểu gì?"
+    },
+    {
+      "id": "T05",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Máy tao rơi vào nước, giờ bảo không bảo hành miễn phí? Chính sách như cứt, sửa miễn phí ngay đi!"
+    },
+    {
+      "id": "T06",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Con bot ngu này, tao hỏi hotline TechCare chứ có hỏi mày kể lể đâu! Đưa số ngay!"
+    },
+    {
+      "id": "T07",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Mã giảm giá hết hạn có một ngày mà đéo dùng được, vô lý vãi! Gia hạn cho tao ngay."
+    },
+    {
+      "id": "T08",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Ship gì mà đắt vãi, một cái laptop gửi Đà Nẵng thì hết bao nhiêu? Báo đúng số, đừng có chém!"
+    },
+    {
+      "id": "T09",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Đm, giao COD mà không cho tao bóc seal dùng thử thì mua làm đéo gì? Cho mở ngay!"
+    },
+    {
+      "id": "T10",
+      "group": "Khách hàng tiêu cực và lời thô tục",
+      "history": [],
+      "question": "Cái laptop này tao chán rồi, muốn trả lại ngay! Đừng có lằng nhằng, chính sách kiểu quái gì vậy?"
     }
-  ]
+  ],
+  "history_protocol": "20 H scenarios, 4–5 user turns each. Fresh chat per scenario; generate and retain all actual assistant replies. Score only the final reply using actual context and reference meaning."
 }

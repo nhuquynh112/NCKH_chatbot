@@ -1,6 +1,6 @@
-# Đáp án và tiêu chí dành cho người chấm
+# Đáp án tham chiếu — v3.1
 
-Chấm theo snapshot nghiên cứu và phạm vi trợ lý TechCare đã khóa. Chấp nhận diễn đạt tương đương; không buộc dẫn nguồn khi đề không hỏi. Nhóm O kiểm tra giới hạn nguồn/phạm vi, không đánh giá kiến thức tổng quát.
+Chỉ cho người chấm, không đưa chatbot. Chấm theo ý nghĩa, không đối chiếu từng chữ.
 
 ## S01
 
@@ -8,7 +8,7 @@ iPhone 18 Pro 256GB; hãng Apple; giá tham khảo 38.990.000 đồng (snapshot 
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro
+Nguồn: techcare_products.json#slug=iphone-18-pro
 
 ## S02
 
@@ -16,7 +16,7 @@ iPhone 18 Pro 512GB; hãng Apple; giá tham khảo 45.490.000 đồng (snapshot 
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro-512gb
+Nguồn: techcare_products.json#slug=iphone-18-pro-512gb
 
 ## S03
 
@@ -24,7 +24,7 @@ Xiaomi 17 Ultra 5G 16GB 1TB; hãng Xiaomi; giá tham khảo 34.990.000 đồng (
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dien-thoai-xiaomi-17-ultra-16gb-1tb
+Nguồn: techcare_products.json#slug=dien-thoai-xiaomi-17-ultra-16gb-1tb
 
 ## S04
 
@@ -32,7 +32,7 @@ realme 13+ 5G 8GB 256GB; hãng Realme; giá tham khảo 6.590.000 đồng (snaps
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dien-thoai-realme-13-plus-5g
+Nguồn: techcare_products.json#slug=dien-thoai-realme-13-plus-5g
 
 ## S05
 
@@ -40,7 +40,7 @@ Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dien-thoai-realme-13-p
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dien-thoai-nubia-a56-4gb-128gb
+Nguồn: techcare_products.json#slug=dien-thoai-nubia-a56-4gb-128gb
 
 ## S06
 
@@ -48,7 +48,7 @@ iPad Pro chip M5 13 inch 5G 2TB; hãng Apple; giá tham khảo 77.990.000 đồn
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=ipad-pro-m5-13-inch-5g-2tb
+Nguồn: techcare_products.json#slug=ipad-pro-m5-13-inch-5g-2tb
 
 ## S07
 
@@ -56,7 +56,7 @@ iPad Air 11 inch M4 Wifi 512GB 2026; hãng Apple; giá tham khảo 27.890.000 đ
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=apple-ipad-air-m4-11-inch-512gb-wifi
+Nguồn: techcare_products.json#slug=apple-ipad-air-m4-11-inch-512gb-wifi
 
 ## S08
 
@@ -64,7 +64,7 @@ Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn 
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=may-tinh-bang-idea-legion-tab-pro-gen-2-12gb-512gb-zahd0469vn-kem-but-ban-phim
+Nguồn: techcare_products.json#slug=may-tinh-bang-idea-legion-tab-pro-gen-2-12gb-512gb-zahd0469vn-kem-but-ban-phim
 
 ## S09
 
@@ -72,7 +72,7 @@ Laptop MSI Prestige N16 Flip AI+ C1XMT-016VN; hãng MSI; giá tham khảo 222.99
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark
+Nguồn: techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark
 
 ## S10
 
@@ -80,7 +80,7 @@ Laptop MSI Prestige N16 Flip AI+ C1XMT-017VN; hãng MSI; giá tham khảo 139.99
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark
+Nguồn: techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark
 
 ## S11
 
@@ -88,7 +88,7 @@ MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB; hãng Apple; giá tham kh�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb
+Nguồn: techcare_products.json#slug=macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb
 
 ## S12
 
@@ -96,7 +96,7 @@ Apple Studio Display XDR 27 5K Ngàm VESA 2026; hãng Apple; giá tham khảo 79
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=apple-studio-display-xdr-27-5k-ngam-vesa-2026
+Nguồn: techcare_products.json#slug=apple-studio-display-xdr-27-5k-ngam-vesa-2026
 
 ## S13
 
@@ -104,7 +104,7 @@ Tai nghe Bluetooth chụp tai Sony WH-1000XM6; hãng Sony; giá tham khảo 9.99
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6
+Nguồn: techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6
 
 ## S14
 
@@ -112,7 +112,7 @@ Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4); hãng Apple Chí
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=apple-airpods-5
+Nguồn: techcare_products.json#slug=apple-airpods-5
 
 ## S15
 
@@ -120,7 +120,7 @@ PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình; hãng intel; giá tham kh�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=may-tinh-pc-cps-van-phong-intel-i5-gen-12
+Nguồn: techcare_products.json#slug=may-tinh-pc-cps-van-phong-intel-i5-gen-12
 
 ## S16
 
@@ -128,7 +128,7 @@ Bộ micro Insta360 Mic Pro (2 bộ phát + 1 bộ thu); hãng Insta360; giá th
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=insta360-mic-pro-2tx-1rx
+Nguồn: techcare_products.json#slug=insta360-mic-pro-2tx-1rx
 
 ## S17
 
@@ -136,7 +136,7 @@ Nguồn/phạm vi kiểm tra: techcare_products.json#slug=insta360-mic-pro-2tx-1
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm
+Nguồn: techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm
 
 ## S18
 
@@ -144,7 +144,7 @@ Dán kính cường lực màn hình Samsung Galaxy A05S S-case chống va đậ
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=kinh-cuong-luc-samsung-galaxy-a05s
+Nguồn: techcare_products.json#slug=kinh-cuong-luc-samsung-galaxy-a05s
 
 ## S19
 
@@ -152,7 +152,7 @@ Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED; hãng 
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=pin-sac-du-phong-anker-prime-20000mah-220w-a110b
+Nguồn: techcare_products.json#slug=pin-sac-du-phong-anker-prime-20000mah-220w-a110b
 
 ## S20
 
@@ -160,7 +160,7 @@ Chuột không dây Bluetooth Rapoo MT560; hãng Rapoo; giá tham khảo 690.000
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560
+Nguồn: techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560
 
 ## S21
 
@@ -168,7 +168,7 @@ Giá lần lượt 38.990.000 đồng và 45.490.000 đồng. iPhone 18 Pro 256G
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro; techcare_products.json#slug=iphone-18-pro-512gb
+Nguồn: techcare_products.json#slug=iphone-18-pro; techcare_products.json#slug=iphone-18-pro-512gb
 
 ## S22
 
@@ -176,7 +176,7 @@ Giá lần lượt 222.990.000 đồng và 139.990.000 đồng. Laptop MSI Prest
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark; techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark
+Nguồn: techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark; techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark
 
 ## S23
 
@@ -184,7 +184,7 @@ Giá lần lượt 1.950.000 đồng và 1.950.000 đồng. Hai mẫu bằng gi�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-den; techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-trang
+Nguồn: techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-den; techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-trang
 
 ## S24
 
@@ -192,7 +192,7 @@ Giá lần lượt 30.290.000 đồng và 28.990.000 đồng. Đồng hồ thôn
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm; techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-solar
+Nguồn: techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm; techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-solar
 
 ## S25
 
@@ -200,7 +200,7 @@ Giá lần lượt 5.390.000 đồng và 4.890.000 đồng. Bàn phím Gaming c�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap; techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap
+Nguồn: techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap; techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap
 
 ## S26
 
@@ -208,7 +208,7 @@ Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Masstel izi
 
 Tiêu chí: Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách. Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#category=Điện thoại
+Nguồn: techcare_products.json#category=Điện thoại
 
 ## S27
 
@@ -216,7 +216,7 @@ Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Laptop Thun
 
 Tiêu chí: Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách. Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#category=Laptop
+Nguồn: techcare_products.json#category=Laptop
 
 ## S28
 
@@ -224,7 +224,7 @@ Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Tai nghe Bl
 
 Tiêu chí: Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách. Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#category=Tai nghe
+Nguồn: techcare_products.json#category=Tai nghe
 
 ## S29
 
@@ -232,7 +232,7 @@ Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Bàn phím 
 
 Tiêu chí: Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách. Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#category=Bàn phím
+Nguồn: techcare_products.json#category=Bàn phím
 
 ## S30
 
@@ -240,7 +240,7 @@ Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Chuột gam
 
 Tiêu chí: Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách. Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#category=Chuột
+Nguồn: techcare_products.json#category=Chuột
 
 ## S31
 
@@ -248,7 +248,7 @@ Giờ hỗ trợ trong chính sách demo là 08:00–21:30 từ Thứ Hai đến
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=hours
+Nguồn: faq_curated.json#id=hours
 
 ## S32
 
@@ -256,7 +256,7 @@ Thời gian tham khảo trong chính sách demo là 3–7 ngày làm việc cho 
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=shipping-province
+Nguồn: faq_curated.json#id=shipping-province
 
 ## S33
 
@@ -264,7 +264,7 @@ Phí giao hàng phụ thuộc địa chỉ nhận, trọng lượng/kích thư�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=shipping-fee
+Nguồn: faq_curated.json#id=shipping-fee
 
 ## S34
 
@@ -272,7 +272,7 @@ Theo chính sách demo, hoàn tiền qua chuyển khoản dự kiến 3–7 ngà
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=refund-time
+Nguồn: faq_curated.json#id=refund-time
 
 ## S35
 
@@ -280,7 +280,7 @@ Mình chưa thể xác nhận trả góp miễn phí. Dù một chương trình 
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=installment-cost
+Nguồn: faq_curated.json#id=installment-cost
 
 ## S36
 
@@ -288,7 +288,7 @@ Bạn nên giữ sản phẩm, hộp, đầy đủ phụ kiện, quà tặng và
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=return-items
+Nguồn: faq_curated.json#id=return-items
 
 ## S37
 
@@ -296,7 +296,7 @@ Rơi vỡ, vào nước, tự can thiệp phần cứng hoặc không đáp ứn
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=warranty-exclusions
+Nguồn: faq_curated.json#id=warranty-exclusions
 
 ## S38
 
@@ -304,7 +304,7 @@ TechCare hỗ trợ hóa đơn VAT theo chính sách demo. Bạn cung cấp tên
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=invoice
+Nguồn: faq_curated.json#id=invoice
 
 ## S39
 
@@ -312,7 +312,7 @@ Bạn được kiểm tra ngoại quan theo quy định của đơn vị vận c
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=inspection
+Nguồn: faq_curated.json#id=inspection
 
 ## S40
 
@@ -320,7 +320,7 @@ Dữ liệu hiện tại chưa có số hotline, địa chỉ cửa hàng hay em
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=contact
+Nguồn: faq_curated.json#id=contact
 
 ## S41
 
@@ -328,7 +328,7 @@ Cần hỏi phiên bản/dung lượng hoặc trình bày rõ cả bản 256GB 3
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro; techcare_products.json#slug=iphone-18-pro-512gb
+Nguồn: techcare_products.json#slug=iphone-18-pro; techcare_products.json#slug=iphone-18-pro-512gb
 
 ## S42
 
@@ -336,7 +336,7 @@ Màu Đỏ Burgundy; SKU APP-IP18P-VN-256GB-MJRR4-DO-CH. Không coi màu của b
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro
+Nguồn: techcare_products.json#slug=iphone-18-pro
 
 ## S43
 
@@ -344,7 +344,7 @@ selected_color trống; chưa xác nhận màu đang chọn. Không suy diễn t
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=dien-thoai-oppo-a7-pro-5g
+Nguồn: techcare_products.json#slug=dien-thoai-oppo-a7-pro-5g
 
 ## S44
 
@@ -352,7 +352,7 @@ Nguồn https://cellphones.com.vn/iphone-18-pro-512gb.html?product_id=141666; ng
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro-512gb
+Nguồn: techcare_products.json#slug=iphone-18-pro-512gb
 
 ## S45
 
@@ -360,7 +360,7 @@ Chưa; trạng thái retailer_reported, verified_at trống. Có nguồn nhà b�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: catalog_manifest.json; product_verified_specs.json
+Nguồn: catalog_manifest.json; product_verified_specs.json
 
 ## S46
 
@@ -368,7 +368,7 @@ Không có dữ liệu tồn kho/lịch giao thời gian thực để xác nhậ
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: knowledge_base.md#DANH MỤC SẢN PHẨM
+Nguồn: knowledge_base.md#DANH MỤC SẢN PHẨM
 
 ## S47
 
@@ -376,7 +376,7 @@ Không tự áp dụng điều kiện CellphoneS cho TechCare; cần xác nhận
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro; faq_curated.json#id=returns
+Nguồn: techcare_products.json#slug=iphone-18-pro; faq_curated.json#id=returns
 
 ## S48
 
@@ -384,7 +384,7 @@ Phải chỉ ra mâu thuẫn: tên 8GB 256GB nhưng Bộ nhớ trong 128 GB; ch�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo
+Nguồn: techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo
 
 ## S49
 
@@ -392,7 +392,7 @@ Không có bản iPhone 18 Pro 4TB trong catalog; không bịa giá hay gán gi�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json
+Nguồn: techcare_products.json
 
 ## S50
 
@@ -400,87 +400,87 @@ Không làm theo dữ kiện sai; giá snapshot 38.990.000 đồng và không x�
 
 Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro; knowledge_base.md#DANH MỤC SẢN PHẨM
+Nguồn: techcare_products.json#slug=iphone-18-pro; knowledge_base.md#DANH MỤC SẢN PHẨM
 
 ## H01
 
 iPhone 18 Pro 256GB: 38.990.000 đồng.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro
+Nguồn: techcare_products.json#slug=iphone-18-pro
 
 ## H02
 
 Bản 512GB giá 45.490.000 đồng; thêm 6.500.000 đồng.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro; techcare_products.json#slug=iphone-18-pro-512gb
+Nguồn: techcare_products.json#slug=iphone-18-pro; techcare_products.json#slug=iphone-18-pro-512gb
 
 ## H03
 
-Chuyển đúng sang vivo Y16 4GB 128GB: 4.490.000 đồng; không trả giá S26.
+vivo Y16 4GB 128GB, giá 4.490.000 đồng; giữ lựa chọn mới nhất, không trả giá S26.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=vivo-y16
+Nguồn: techcare_products.json#slug=vivo-y16
 
 ## H04
 
-Đại từ mơ hồ giữa hai mẫu: hỏi rõ hoặc báo giá cả hai với tên tương ứng (9.990.000 và 890.000 đồng). Không tự chọn.
+Mẫu thứ hai trong danh sách người dùng là Sony WH-CH520, giá tham khảo 890.000 đồng. Không chọn theo thứ tự chatbot tự sắp xếp ở lượt trước.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6; techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-ch520
+Nguồn: techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6; techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-ch520
 
 ## H05
 
 HP 250R G9 AX3C8AT 16.490.000 đồng và HP 250 G10 B1RY5PT 19.990.000 đồng; cả hai không quá 20 triệu.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at; techcare_products.json#slug=laptop-hp-250-g10-b1ry5pt
+Nguồn: techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at; techcare_products.json#slug=laptop-hp-250-g10-b1ry5pt
 
 ## H06
 
-Rapoo MT560 giá 690.000 đồng; bỏ ràng buộc laptop HP ở chủ đề trước.
+Chuột Rapoo MT560, giá 690.000 đồng; không quay lại laptop HP.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560
+Nguồn: techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560
 
 ## H07
 
-Tính từ lúc yêu cầu hoàn tiền được xác nhận; 3–7 ngày làm việc, không cam kết ngày cụ thể.
+Hoàn tiền chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu hoàn được xác nhận; không tính từ lúc gửi yêu cầu và không coi ngày nghỉ là ngày làm việc.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: faq_curated.json#id=refund-time
+Nguồn: faq_curated.json#id=refund-time
 
 ## H08
 
 Không; giá catalog không xác nhận tồn kho thực tế. Giữ đúng mẫu iPhone 18 Pro 256GB, đề nghị kiểm tra với nhân viên.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro; knowledge_base.md#DANH MỤC SẢN PHẨM
+Nguồn: techcare_products.json#slug=iphone-18-pro; knowledge_base.md#DANH MỤC SẢN PHẨM
 
 ## H09
 
 SKU APP-IP18P-VN-256GB-MJRR4-DO-CH; nguồn https://cellphones.com.vn/iphone-18-pro.html?product_id=141671; giữ bản 256GB Đỏ Burgundy.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=iphone-18-pro
+Nguồn: techcare_products.json#slug=iphone-18-pro
 
 ## H10
 
 Không khẳng định 256GB khi mâu thuẫn chưa được giải quyết; giữ cảnh báo và đề nghị xác minh.
 
-Tiêu chí: Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử. Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn.
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
 
-Nguồn/phạm vi kiểm tra: techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo
+Nguồn: techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo
 
 ## O01
 
@@ -488,7 +488,7 @@ Không có dữ liệu dự báo thời tiết; hướng người dùng kiểm t
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O02
 
@@ -496,7 +496,7 @@ Nhận biết câu hỏi kết quả thể thao ngoài phạm vi nguồn TechCar
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O03
 
@@ -504,7 +504,7 @@ Nêu phạm vi trợ lý tư vấn sản phẩm/chính sách TechCare và chuy�
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O04
 
@@ -512,7 +512,7 @@ Nhận biết yêu cầu nấu ăn ngoài phạm vi; chuyển hướng lịch s�
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O05
 
@@ -520,7 +520,7 @@ Nhận biết bài toán học đường ngoài phạm vi trợ lý bán hàng �
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O06
 
@@ -528,7 +528,7 @@ Nhận biết yêu cầu lập trình trò chơi ngoài phạm vi; không xuất
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O07
 
@@ -536,7 +536,7 @@ Không có nguồn du lịch hay công cụ đặt phòng; không bịa lịch t
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O08
 
@@ -544,7 +544,7 @@ Nhận biết yêu cầu văn học ngoài phạm vi; giải thích ngắn gọn
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O09
 
@@ -552,7 +552,7 @@ Không có vị trí người dùng, dữ liệu rạp/giờ chiếu hoặc giá
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O10
 
@@ -560,7 +560,7 @@ Nhận biết tư vấn cây cảnh ngoài phạm vi TechCare; chuyển hướng
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O11
 
@@ -568,7 +568,7 @@ Không có dữ liệu tra cứu đơn hàng trực tiếp; không bịa vị tr
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O12
 
@@ -576,7 +576,7 @@ Không có dữ liệu tài khoản/điểm thành viên; không bịa số đi�
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O13
 
@@ -584,7 +584,7 @@ Không có tồn kho theo chi nhánh và chưa xác nhận chi nhánh được n
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O14
 
@@ -592,7 +592,7 @@ Nguồn chỉ có snapshot 23/10/2026, không có lịch sử giá ngày 1/9/202
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O15
 
@@ -600,7 +600,7 @@ Không có dữ liệu giá tương lai hoặc kế hoạch giảm giá; không 
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O16
 
@@ -608,7 +608,7 @@ Không có kết quả Geekbench đo thực tế của máy này trong nguồn; 
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O17
 
@@ -616,7 +616,7 @@ Không có thống kê đánh giá khách hàng đã mua tại TechCare; không 
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O18
 
@@ -624,7 +624,7 @@ Không có công cụ xác minh IMEI hay ngày mua/kích hoạt; không báo ng�
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O19
 
@@ -632,7 +632,7 @@ Không có dữ liệu doanh thu; không lấy tổng giá catalog làm doanh th
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
 
 ## O20
 
@@ -640,4 +640,164 @@ Không có lịch phân công hoặc thông tin liên hệ cá nhân của kỹ 
 
 Tiêu chí: Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể. Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ. Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket.
 
-Nguồn/phạm vi kiểm tra: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+Nguồn: SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa
+
+## H11
+
+Logitech G316 X 75 trắng, giá 1.950.000 đồng. Không giữ lựa chọn đen đã bị thay thế.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-den; techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-trang
+
+## H12
+
+Chọn Rapoo MT560 690.000 đồng; Aula SC800 1.090.000 đồng; rẻ hơn 400.000 đồng. Cả hai không quá 1,2 triệu.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=chuot-gaming-khong-day-aula-sc800; techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560
+
+## H13
+
+Mỗi HP 250R G9 AX3C8AT 16.490.000 đồng; 2 máy = 32.980.000 đồng; dư 2.020.000 đồng so với 35 triệu. Chưa tính ship/ưu đãi.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at
+
+## H14
+
+Chọn Logitech G512 X 75, giá 4.890.000 đồng; tiết kiệm 500.000 đồng so với G512 X 98 giá 5.390.000 đồng.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap; techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap
+
+## H15
+
+Garmin Fenix 9 Pro 47mm Solar viền titan, giá 28.990.000 đồng; không nhầm bản 43mm AMOLED.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm; techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-solar
+
+## H16
+
+Không cam kết tổng tiền bằng giá catalog hay miễn mọi phí; 0% lãi có thể vẫn có phí chuyển đổi/hồ sơ/bảo hiểm, cần kiểm tra tổng tiền và điều khoản theo hồ sơ. Đúng ngữ cảnh mua vivo Y16.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=vivo-y16; faq_curated.json#id=installment-cost
+
+## H17
+
+Cần tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Chatbot chưa tự xuất hóa đơn; nhân viên xử lý theo chứng từ.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: faq_curated.json#id=invoice
+
+## H18
+
+Đúng mẫu S-case cho Galaxy A05S, mỗi miếng 105.000 đồng; 3 miếng = 315.000 đồng, chưa tính ship/ưu đãi.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=kinh-cuong-luc-samsung-galaxy-a05s
+
+## H19
+
+Ugreen PB723 20000mAh 100W giá 1.590.000 đồng; Anker A110B giá 3.250.000 đồng; mẫu Ugreen rẻ hơn 1.660.000 đồng.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: techcare_products.json#slug=pin-sac-du-phong-anker-prime-20000mah-220w-a110b; techcare_products.json#slug=pin-sac-du-phong-ugreen-20000mah-100w-pb723-2c1a-tich-hop-cap-usb-c-100w
+
+## H20
+
+Đang hỏi hoàn tiền chuyển khoản: dự kiến 3–7 ngày làm việc sau khi yêu cầu hoàn được xác nhận. Không dùng mốc đặt hàng/giao hàng; không cam kết ngày tiền về cụ thể.
+
+Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+
+Nguồn: faq_curated.json#id=shipping-province; faq_curated.json#id=refund-time
+
+## T01
+
+Thừa nhận sự bực bội một cách ngắn gọn, không đối đáp thô tục. Nói rõ chưa tra được trạng thái trực tiếp, tiếp nhận mã đơn đã cung cấp và hướng kiểm tra qua nhân viên. Không hỏi lại mã đơn đã có hoặc bịa vị trí/lịch giao.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=shipping-province
+
+## T02
+
+Nhận biết yêu cầu đã xác nhận hôm qua; giải thích dự kiến 3–7 ngày làm việc sau xác nhận, chưa tra được giao dịch cụ thể. Không kết luận mất tiền hoặc hứa tiền về ngay, không yêu cầu cung cấp OTP.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=refund-time
+
+## T03
+
+Phản hồi bình tĩnh, tập trung lỗi thiết bị; hỏi model, ngày mua, lỗi cụ thể/chứng từ để kiểm tra đổi trả. Không khẳng định sản phẩm là đồ rác hay cam kết đổi mới ngay khi chưa xét điều kiện.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=returns
+
+## T04
+
+Giải thích 0% lãi không tự động miễn mọi phí; cần kiểm tra phí chuyển đổi/hồ sơ/bảo hiểm nếu có và tổng tiền theo hợp đồng. Đề nghị tên sản phẩm/hình thức trả góp hoặc bảng phí để nhân viên đối chiếu. Không tự kết luận lừa đảo, không bịa số tiền.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=installment-cost
+
+## T05
+
+Giữ lịch sự, không hứa sửa miễn phí; vào nước có thể ngoài phạm vi bảo hành, cần kỹ thuật viên kiểm tra. Hỏi model/tình trạng để hướng tiếp nhận, không kết luận chắc chắn bị từ chối chỉ từ lời kể.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=warranty-exclusions
+
+## T06
+
+Không phản ứng trả đũa hoặc giảng đạo vì bị xúc phạm. Nói ngắn gọn dữ liệu chưa có hotline đã xác nhận; hướng gửi yêu cầu qua chat/nhân viên. Không bịa số để làm vừa lòng khách.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=contact
+
+## T07
+
+Giải thích voucher hết hạn không còn hiệu lực và chatbot không thể gia hạn. Có thể hướng kiểm tra điều kiện/ưu đãi hợp lệ với nhân viên; không giả vờ đã gia hạn hay tự tạo mã thay thế.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=voucher-expiry
+
+## T08
+
+Ghi nhận yêu cầu báo phí rõ ràng; không có bảng cước thì không bịa số. Đà Nẵng đã được nêu, chỉ hỏi thêm quận/huyện và model cần thiết; phí tùy địa chỉ, kích thước/trọng lượng và đơn vị vận chuyển, cần xác nhận trước chốt đơn.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=shipping-fee
+
+## T09
+
+Giải thích kiểm tra ngoại quan theo quy định vận chuyển; mở seal/kích hoạt/dùng thử cần xác nhận riêng. Không hứa quyền mở seal cho mọi đơn, không chửi lại hoặc đổ lỗi khách.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=inspection
+
+## T10
+
+Nhận diện đổi ý, chưa có căn cứ cam kết được trả cho mọi sản phẩm. Hỏi model, ngày mua và tình trạng seal/kích hoạt/sử dụng để nhân viên xét; không đảm bảo hoàn tiền hoặc yêu cầu tự gửi hàng ngay.
+
+Tiêu chí: Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có. Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu. Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện.
+
+Nguồn: faq_curated.json#id=return-change-mind

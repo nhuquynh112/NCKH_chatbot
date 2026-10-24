@@ -1,8 +1,8 @@
 {
-  "dataset_version": "1.1-draft",
+  "dataset_version": "3.1-draft",
   "created_at": "2026-10-23",
-  "single_turn": 70,
-  "fixed_history_cases": 10,
+  "single_turn": 80,
+  "fixed_history_cases": 0,
   "source_root": "../../../backend/rag_data_150",
   "sources_sha256": {
     "techcare_products.json": "f643a27ccf6bd1ed9cd3d8894cb090689be5414cf2922d5dd50a81ae8f2a7dc2",
@@ -17,9 +17,10 @@
     "Lọc ngân sách": 5,
     "Chính sách demo": 10,
     "Thiếu dữ liệu, nguồn và chống bịa": 10,
-    "Theo dõi lịch sử": 10,
     "Ngoài nguồn — ngoài phạm vi": 10,
-    "Ngoài nguồn — thiếu dữ liệu nghiệp vụ": 10
+    "Ngoài nguồn — thiếu dữ liệu nghiệp vụ": 10,
+    "Hội thoại thực tế": 20,
+    "Khách hàng tiêu cực và lời thô tục": 10
   },
   "limitations": [
     "Agent-authored; pending human validation; not an independently authored holdout.",
@@ -28,7 +29,13 @@
   ],
   "original_single_turn": 50,
   "out_of_source_single_turn": 20,
-  "total_cases": 80,
+  "total_cases": 100,
   "evaluation_scope": "Frozen-source TechCare assistant, not open-domain general knowledge. O01–O10 measure scope adherence; O11–O20 measure missing business data handling.",
-  "directory_note": "Directory name blind_60_20261023 retained for existing links; v1.1 contains 80 cases."
+  "directory_note": "Historical folder name retained. v3.1: 100 cases, including 20 generated conversations of 4–5 user turns and 10 negative-attitude cases.",
+  "updated_at": "2026-10-24",
+  "generated_history_cases": 20,
+  "total_user_turns_per_method": 170,
+  "scored_responses_per_method": 100,
+  "history_protocol": "20 H scenarios, 4–5 user turns each. Fresh chat per scenario; generate and retain all actual assistant replies. Score only the final reply using actual context and reference meaning.",
+  "negative_attitude_single_turn": 10
 }

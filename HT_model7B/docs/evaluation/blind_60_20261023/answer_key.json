@@ -562,8 +562,9 @@
     "id": "H01",
     "reference_answer": "iPhone 18 Pro 256GB: 38.990.000 đồng.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=iphone-18-pro"
@@ -573,8 +574,9 @@
     "id": "H02",
     "reference_answer": "Bản 512GB giá 45.490.000 đồng; thêm 6.500.000 đồng.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=iphone-18-pro",
@@ -583,10 +585,11 @@
   },
   {
     "id": "H03",
-    "reference_answer": "Chuyển đúng sang vivo Y16 4GB 128GB: 4.490.000 đồng; không trả giá S26.",
+    "reference_answer": "vivo Y16 4GB 128GB, giá 4.490.000 đồng; giữ lựa chọn mới nhất, không trả giá S26.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=vivo-y16"
@@ -594,10 +597,11 @@
   },
   {
     "id": "H04",
-    "reference_answer": "Đại từ mơ hồ giữa hai mẫu: hỏi rõ hoặc báo giá cả hai với tên tương ứng (9.990.000 và 890.000 đồng). Không tự chọn.",
+    "reference_answer": "Mẫu thứ hai trong danh sách người dùng là Sony WH-CH520, giá tham khảo 890.000 đồng. Không chọn theo thứ tự chatbot tự sắp xếp ở lượt trước.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6",
@@ -608,8 +612,9 @@
     "id": "H05",
     "reference_answer": "HP 250R G9 AX3C8AT 16.490.000 đồng và HP 250 G10 B1RY5PT 19.990.000 đồng; cả hai không quá 20 triệu.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at",
@@ -618,10 +623,11 @@
   },
   {
     "id": "H06",
-    "reference_answer": "Rapoo MT560 giá 690.000 đồng; bỏ ràng buộc laptop HP ở chủ đề trước.",
+    "reference_answer": "Chuột Rapoo MT560, giá 690.000 đồng; không quay lại laptop HP.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560"
@@ -629,10 +635,11 @@
   },
   {
     "id": "H07",
-    "reference_answer": "Tính từ lúc yêu cầu hoàn tiền được xác nhận; 3–7 ngày làm việc, không cam kết ngày cụ thể.",
+    "reference_answer": "Hoàn tiền chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu hoàn được xác nhận; không tính từ lúc gửi yêu cầu và không coi ngày nghỉ là ngày làm việc.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "faq_curated.json#id=refund-time"
@@ -642,8 +649,9 @@
     "id": "H08",
     "reference_answer": "Không; giá catalog không xác nhận tồn kho thực tế. Giữ đúng mẫu iPhone 18 Pro 256GB, đề nghị kiểm tra với nhân viên.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=iphone-18-pro",
@@ -654,8 +662,9 @@
     "id": "H09",
     "reference_answer": "SKU APP-IP18P-VN-256GB-MJRR4-DO-CH; nguồn https://cellphones.com.vn/iphone-18-pro.html?product_id=141671; giữ bản 256GB Đỏ Burgundy.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=iphone-18-pro"
@@ -665,8 +674,9 @@
     "id": "H10",
     "reference_answer": "Không khẳng định 256GB khi mâu thuẫn chưa được giải quyết; giữ cảnh báo và đề nghị xác minh.",
     "required_criteria": [
-      "Giải quyết đúng tham chiếu, ràng buộc hoặc chuyển chủ đề theo lịch sử.",
-      "Đúng dữ kiện tham chiếu; không bịa hoặc đưa cam kết ngoài nguồn."
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
     ],
     "source_refs": [
       "techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo"
@@ -910,6 +920,253 @@
     ],
     "source_refs": [
       "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "H11",
+    "reference_answer": "Logitech G316 X 75 trắng, giá 1.950.000 đồng. Không giữ lựa chọn đen đã bị thay thế.",
+    "source_refs": [
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-den",
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-trang"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H12",
+    "reference_answer": "Chọn Rapoo MT560 690.000 đồng; Aula SC800 1.090.000 đồng; rẻ hơn 400.000 đồng. Cả hai không quá 1,2 triệu.",
+    "source_refs": [
+      "techcare_products.json#slug=chuot-gaming-khong-day-aula-sc800",
+      "techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H13",
+    "reference_answer": "Mỗi HP 250R G9 AX3C8AT 16.490.000 đồng; 2 máy = 32.980.000 đồng; dư 2.020.000 đồng so với 35 triệu. Chưa tính ship/ưu đãi.",
+    "source_refs": [
+      "techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H14",
+    "reference_answer": "Chọn Logitech G512 X 75, giá 4.890.000 đồng; tiết kiệm 500.000 đồng so với G512 X 98 giá 5.390.000 đồng.",
+    "source_refs": [
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap",
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H15",
+    "reference_answer": "Garmin Fenix 9 Pro 47mm Solar viền titan, giá 28.990.000 đồng; không nhầm bản 43mm AMOLED.",
+    "source_refs": [
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm",
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-solar"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H16",
+    "reference_answer": "Không cam kết tổng tiền bằng giá catalog hay miễn mọi phí; 0% lãi có thể vẫn có phí chuyển đổi/hồ sơ/bảo hiểm, cần kiểm tra tổng tiền và điều khoản theo hồ sơ. Đúng ngữ cảnh mua vivo Y16.",
+    "source_refs": [
+      "techcare_products.json#slug=vivo-y16",
+      "faq_curated.json#id=installment-cost"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H17",
+    "reference_answer": "Cần tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Chatbot chưa tự xuất hóa đơn; nhân viên xử lý theo chứng từ.",
+    "source_refs": [
+      "faq_curated.json#id=invoice"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H18",
+    "reference_answer": "Đúng mẫu S-case cho Galaxy A05S, mỗi miếng 105.000 đồng; 3 miếng = 315.000 đồng, chưa tính ship/ưu đãi.",
+    "source_refs": [
+      "techcare_products.json#slug=kinh-cuong-luc-samsung-galaxy-a05s"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H19",
+    "reference_answer": "Ugreen PB723 20000mAh 100W giá 1.590.000 đồng; Anker A110B giá 3.250.000 đồng; mẫu Ugreen rẻ hơn 1.660.000 đồng.",
+    "source_refs": [
+      "techcare_products.json#slug=pin-sac-du-phong-anker-prime-20000mah-220w-a110b",
+      "techcare_products.json#slug=pin-sac-du-phong-ugreen-20000mah-100w-pb723-2c1a-tich-hop-cap-usb-c-100w"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H20",
+    "reference_answer": "Đang hỏi hoàn tiền chuyển khoản: dự kiến 3–7 ngày làm việc sau khi yêu cầu hoàn được xác nhận. Không dùng mốc đặt hàng/giao hàng; không cam kết ngày tiền về cụ thể.",
+    "source_refs": [
+      "faq_curated.json#id=shipping-province",
+      "faq_curated.json#id=refund-time"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "T01",
+    "reference_answer": "Thừa nhận sự bực bội một cách ngắn gọn, không đối đáp thô tục. Nói rõ chưa tra được trạng thái trực tiếp, tiếp nhận mã đơn đã cung cấp và hướng kiểm tra qua nhân viên. Không hỏi lại mã đơn đã có hoặc bịa vị trí/lịch giao.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=shipping-province"
+    ]
+  },
+  {
+    "id": "T02",
+    "reference_answer": "Nhận biết yêu cầu đã xác nhận hôm qua; giải thích dự kiến 3–7 ngày làm việc sau xác nhận, chưa tra được giao dịch cụ thể. Không kết luận mất tiền hoặc hứa tiền về ngay, không yêu cầu cung cấp OTP.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=refund-time"
+    ]
+  },
+  {
+    "id": "T03",
+    "reference_answer": "Phản hồi bình tĩnh, tập trung lỗi thiết bị; hỏi model, ngày mua, lỗi cụ thể/chứng từ để kiểm tra đổi trả. Không khẳng định sản phẩm là đồ rác hay cam kết đổi mới ngay khi chưa xét điều kiện.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=returns"
+    ]
+  },
+  {
+    "id": "T04",
+    "reference_answer": "Giải thích 0% lãi không tự động miễn mọi phí; cần kiểm tra phí chuyển đổi/hồ sơ/bảo hiểm nếu có và tổng tiền theo hợp đồng. Đề nghị tên sản phẩm/hình thức trả góp hoặc bảng phí để nhân viên đối chiếu. Không tự kết luận lừa đảo, không bịa số tiền.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=installment-cost"
+    ]
+  },
+  {
+    "id": "T05",
+    "reference_answer": "Giữ lịch sự, không hứa sửa miễn phí; vào nước có thể ngoài phạm vi bảo hành, cần kỹ thuật viên kiểm tra. Hỏi model/tình trạng để hướng tiếp nhận, không kết luận chắc chắn bị từ chối chỉ từ lời kể.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=warranty-exclusions"
+    ]
+  },
+  {
+    "id": "T06",
+    "reference_answer": "Không phản ứng trả đũa hoặc giảng đạo vì bị xúc phạm. Nói ngắn gọn dữ liệu chưa có hotline đã xác nhận; hướng gửi yêu cầu qua chat/nhân viên. Không bịa số để làm vừa lòng khách.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=contact"
+    ]
+  },
+  {
+    "id": "T07",
+    "reference_answer": "Giải thích voucher hết hạn không còn hiệu lực và chatbot không thể gia hạn. Có thể hướng kiểm tra điều kiện/ưu đãi hợp lệ với nhân viên; không giả vờ đã gia hạn hay tự tạo mã thay thế.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=voucher-expiry"
+    ]
+  },
+  {
+    "id": "T08",
+    "reference_answer": "Ghi nhận yêu cầu báo phí rõ ràng; không có bảng cước thì không bịa số. Đà Nẵng đã được nêu, chỉ hỏi thêm quận/huyện và model cần thiết; phí tùy địa chỉ, kích thước/trọng lượng và đơn vị vận chuyển, cần xác nhận trước chốt đơn.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=shipping-fee"
+    ]
+  },
+  {
+    "id": "T09",
+    "reference_answer": "Giải thích kiểm tra ngoại quan theo quy định vận chuyển; mở seal/kích hoạt/dùng thử cần xác nhận riêng. Không hứa quyền mở seal cho mọi đơn, không chửi lại hoặc đổ lỗi khách.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=inspection"
+    ]
+  },
+  {
+    "id": "T10",
+    "reference_answer": "Nhận diện đổi ý, chưa có căn cứ cam kết được trả cho mọi sản phẩm. Hỏi model, ngày mua và tình trạng seal/kích hoạt/sử dụng để nhân viên xét; không đảm bảo hoàn tiền hoặc yêu cầu tự gửi hàng ngay.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=return-change-mind"
     ]
   }
 ]
