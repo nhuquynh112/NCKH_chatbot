@@ -189,6 +189,7 @@ def create_demo_app(context):
     from pydantic import BaseModel, ConfigDict, Field
     from typing import Literal
     from benchmark.schema import HistoryTurn
+    from blind_review import create_systems, public_record, public_systems
 
     class FixedRunInput(BaseModel):
         model_config = ConfigDict(extra="forbid")
@@ -204,9 +205,19 @@ def create_demo_app(context):
         question: str = Field(min_length=1, max_length=6000, pattern=r"\S")
         history: list[HistoryTurn] = Field(default_factory=list, max_length=40)
 
+    class BlindRunInput(BaseModel):
+        model_config = ConfigDict(extra="forbid")
+        session_id: UUID
+        system_id: UUID
+        case_id: str = Field(min_length=1, max_length=80, pattern=r"^[A-Za-z0-9_-]+$")
+        question: str = Field(min_length=1, max_length=6000, pattern=r"\S")
+        history: list[HistoryTurn] = Field(default_factory=list, max_length=40)
+
     interactive = context.get("interactive", False)
+    blinded = context.get("blinded", False)
     RunInput = ManualRunInput if interactive else FixedRunInput
-    app = FastAPI(title="TechCare local benchmark demo")
+    app = FastAPI(title="TechCare local benchmark demo", openapi_url=None if blinded else "/openapi.json",
+                  docs_url=None if blinded else "/docs", redoc_url=None if blinded else "/redoc")
     origins = {f"http://127.0.0.1:{context['frontend_port']}", f"http://localhost:{context['frontend_port']}"}
     app.add_middleware(CORSMiddleware, allow_origins=sorted(origins), allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
     gate = asyncio.Lock()
@@ -222,6 +233,8 @@ def create_demo_app(context):
             return JSONResponse({"detail": "Local development only"}, status_code=403)
         if request.headers.get("origin") and request.headers["origin"] not in origins:
             return JSONResponse({"detail": "Origin is not the local demo frontend"}, status_code=403)
+        if blinded and request.url.path == "/api/demo/runs":
+            return JSONResponse({"detail": "Not available in anonymous review"}, status_code=404)
         return await call_next(request)
 
     def session_path(session_id):
@@ -232,6 +245,10 @@ def create_demo_app(context):
 
     @app.get("/api/demo/config")
     def configuration():
+        if blinded:
+            return {"instance_id": context["instance_id"], "interactive": True, "blinded": True,
+                    "cases": [], "timeout_seconds": context["timeout"], "snapshot_verified": True,
+                    "notice": "Mã trợ lý được xáo trộn riêng cho mỗi phiên; giữ nguyên nội dung phản hồi khi chấm."}
         return {"instance_id": context["instance_id"], "methods": [
                     {"id": method, "pipeline": PIPELINES[method], "model": None if method == "B0" else context["expected_identity"]["model"]}
                     for method in METHODS],
@@ -253,11 +270,19 @@ def create_demo_app(context):
         folder.mkdir()
         record = {"session_id": str(sid), "created_at": datetime.now(timezone.utc).isoformat(), "demo_only": True}
         write_new(folder / "session.json", record)
+        if blinded:
+            # This file is private to the local coordinator, not an API export.
+            write_new(folder / "mapping_RIENG.json", create_systems(METHODS))
+            return get_session(sid)
         return {**record, "runs": []}
 
     @app.get("/api/demo/sessions/{session_id}")
     def get_session(session_id: UUID):
         folder = session_path(session_id)
+        if blinded:
+            systems = read_json(folder / "mapping_RIENG.json")
+            return {**read_json(folder / "session.json"), "blinded": True, "systems": public_systems(systems),
+                    "runs": [public_record(read_json(path), systems) for path in sorted(folder.glob("*/result.json"))]}
         return {**read_json(folder / "session.json"), "runs": [read_json(path) for path in sorted(folder.glob("*/result.json"))]}
 
     @app.get("/api/demo/sessions/{session_id}/runs/{run_id}")
@@ -265,12 +290,26 @@ def create_demo_app(context):
         path = session_path(session_id) / str(run_id) / "result.json"
         if not path.is_file():
             raise HTTPException(404, "Demo run not found")
+        if blinded:
+            return public_record(read_json(path), read_json(path.parent.parent / "mapping_RIENG.json"))
         return read_json(path)
 
     @app.get("/api/demo/sessions/{session_id}/export.csv")
     def export_session(session_id: UUID):
         folder = session_path(session_id)
         stream = io.StringIO(newline="")
+        if blinded:
+            systems = read_json(folder / "mapping_RIENG.json")
+            fields = ["run_id", "case_id", "system_id", "system_label", "question", "history", "answer", "status", "score_0_2", "reviewer", "notes"]
+            writer = csv.DictWriter(stream, fieldnames=fields)
+            writer.writeheader()
+            for path in sorted(folder.glob("*/result.json")):
+                record = public_record(read_json(path), systems)
+                writer.writerow({**{key: record[key] for key in ("run_id", "case_id", "system_id", "system_label", "question")},
+                                 "history": json.dumps(record["fixed_history"], ensure_ascii=False),
+                                 "answer": record["result"]["answer"], "status": record["result"]["status"]})
+            return Response(content=stream.getvalue().encode("utf-8-sig"), media_type="text/csv",
+                            headers={"Content-Disposition": f'attachment; filename="techcare-review-{session_id}.csv"'})
         fields = ["run_id", "case_id", "method", "question", "history", "answer", "status", "mode", "llm_called", "latency_ms", "model", "digest", "sources", "score_0_2", "reviewer", "notes"]
         writer = csv.DictWriter(stream, fieldnames=fields)
         writer.writeheader()
@@ -303,7 +342,8 @@ def create_demo_app(context):
                         "history": [turn.model_dump() for turn in body.history], "history_questions": []}
                 for path in folder.glob("*/result.json"):
                     previous = read_json(path)
-                    if previous["case_id"] == body.case_id and (previous["question"] != case["question"] or previous["fixed_history"] != case["history"]):
+                    if previous["case_id"] == body.case_id and (previous["question"] != case["question"] or
+                            ((not blinded or previous["method"] == body.method) and previous["fixed_history"] != case["history"])):
                         raise HTTPException(409, "Case ID already has a different question/history. Reuse the saved input or choose a new ID.")
             else:
                 from benchmark.chapter5 import verify_study
@@ -343,8 +383,24 @@ def create_demo_app(context):
                 "wall_ms": (time.perf_counter() - started) * 1000, "new_web_run": True,
                 "architecture": context["methods"][body.method], "result": result}
             write_new(work / "result.json", record)
-            print(f"DEMO_RUN {body.method} {body.case_id} {result['status']} pipeline={result.get('pipeline_class')} run={run_id}", flush=True)
+            if blinded:
+                status = "ok" if result["status"] == "no_rule_match" else result["status"]
+                print(f"REVIEW_RUN {body.case_id} {status} run={run_id}", flush=True)
+            else:
+                print(f"DEMO_RUN {body.method} {body.case_id} {result['status']} pipeline={result.get('pipeline_class')} run={run_id}", flush=True)
             return record
+
+    @app.post("/api/demo/blind/runs")
+    async def run_blind_case(body: BlindRunInput):
+        if not blinded or not interactive:
+            raise HTTPException(404, "Anonymous review is not enabled")
+        systems = read_json(session_path(body.session_id) / "mapping_RIENG.json")
+        system = next((row for row in systems if row["system_id"] == str(body.system_id)), None)
+        if system is None:
+            raise HTTPException(404, "Anonymous system not found in this session")
+        original = ManualRunInput(session_id=body.session_id, method=system["method"], case_id=body.case_id,
+                                  question=body.question, history=body.history)
+        return public_record(await run_case(original), systems)
 
     return app
 

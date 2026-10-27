@@ -58,7 +58,7 @@ Khi pull catalog và chỉ mục đã đóng gói, chỉ cần lệnh đồng b�
 
 ## So sánh nghiên cứu
 
-Nhóm muốn tự nhập 50 câu và chạy **từng phương pháp trên web**: xem [TEST_4_PHUONG_PHAP.md](docs/TEST_4_PHUONG_PHAP.md). Backend dùng `python comparison_demo.py`, frontend dùng `npm.cmd run test:methods`; kết quả mới tách khỏi lịch sử khách hàng và benchmark cũ.
+Nhóm tự nhập câu hỏi và chạy **từng trợ lý trên web**: xem [TEST_4_PHUONG_PHAP.md](docs/TEST_4_PHUONG_PHAP.md). Backend dùng `python comparison_demo.py`, frontend dùng `npm.cmd run test:methods`. Mặc định là một khung chat ẩn danh với mã trợ lý được xáo trộn theo phiên; bảng quy đổi và raw metadata chỉ giữ ở backend. Người điều phối thêm `--coordinator` để mở giao diện có nhãn trong workspace riêng. Kết quả mới tách khỏi lịch sử khách hàng và benchmark cũ; giữ nguyên workspace trước đây, không chuyển chế độ khi đang chấm.
 
 | Phương pháp | Model của lượt chạy mới |
 |---|---|

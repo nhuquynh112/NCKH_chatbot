@@ -26,7 +26,7 @@ def verify_context(context):
         raise ValueError("Source changed during testing. Start a new test workspace; keep the old results.")
 
 
-def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume=None):
+def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume=None, blinded=True):
     require_local_environment()
     root = Path(resume if resume else work_dir).resolve()
     if root.is_relative_to(REPOSITORY):
@@ -37,6 +37,8 @@ def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume
         context = read_json(root / "demo_config.json")
         if not context.get("interactive") or Path(context["output"]).resolve() != root:
             raise ValueError("Not a saved manual comparison workspace")
+        if bool(context.get("blinded")) != blinded:
+            raise ValueError("Saved workspace uses a different review mode. Keep it and start a new workspace.")
         verify_context(context)
         verify_saved_database(Path(context["database"]), Path(context["corpus"]), context["snapshot_timestamp"])
         context.update(api_port=port, frontend_port=frontend_port)
@@ -74,13 +76,13 @@ def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume
         corpus / "knowledge_base.md", corpus / "product_catalog_extended.md", corpus / "faq_curated.json",
     ]))
     (out / "sessions").mkdir()
-    context = {"interactive": True, "instance_id": out.name, "output": str(out), "database": str(database),
+    context = {"interactive": True, "blinded": blinded, "instance_id": out.name, "output": str(out), "database": str(database),
         "database_sha256": digest(database), "corpus": str(corpus), "corpus_sha256": {name: digest(corpus / name) for name in CORPUS_FILES},
         "snapshot_timestamp": timestamp, "plain_prompt": str(out / "plain_prompt.txt"), "plain_prompt_sha256": digest(out / "plain_prompt.txt"),
         "expected_identity": identity, "expected_documents": document_count,
         "dataset": settings.products_path.parent.name, "timeout": timeout, "api_port": port, "frontend_port": frontend_port,
         "methods": {method: method_spec(method) for method in METHODS}, "cases": {},
-        "code_sha256": code_hashes(), "harness_sha256": {name: digest(BACKEND / name) for name in ("local_demo.py", "comparison_demo.py")},
+        "code_sha256": code_hashes(), "harness_sha256": {name: digest(BACKEND / name) for name in ("local_demo.py", "comparison_demo.py", "blind_review.py")},
         "input_source": "Câu hỏi và lịch sử do nhóm nhập; lưu nguyên nội dung theo mã câu trong phiên test."}
     write_new(out / "demo_config.json", context)
     return context
@@ -90,6 +92,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--work-dir", type=Path, default=Path(os.environ.get("CHATBOT_WORK_DIR", tempfile.gettempdir())) / "TechCare/comparison_test")
     parser.add_argument("--resume", type=Path, help="Resume the printed web-... workspace without overwriting previous runs")
+    parser.add_argument("--coordinator", action="store_true", help="Show method identities for the coordinator instead of the default anonymous review UI")
     parser.add_argument("--port", type=int, default=8012)
     parser.add_argument("--frontend-port", type=int, default=5174)
     parser.add_argument("--timeout", type=int, default=120, choices=range(10, 121), metavar="10..120")
@@ -103,9 +106,10 @@ def main():
         from benchmark.worker import seed_snapshot
         seed_snapshot(corpus, database, timestamp).dispose()
         return
-    context = prepare_context(args.work_dir, args.port, args.frontend_port, args.timeout, args.resume)
+    context = prepare_context(args.work_dir, args.port, args.frontend_port, args.timeout, args.resume, blinded=not args.coordinator)
     print(json.dumps({"website": f"http://127.0.0.1:{args.frontend_port}/benchmark-demo", "output": context["output"],
-        "resume": f'python comparison_demo.py --resume "{context["output"]}"', "model": context["expected_identity"]["model"]}, ensure_ascii=False), flush=True)
+        "resume": f'python comparison_demo.py --resume "{context["output"]}"' + (" --coordinator" if args.coordinator else ""),
+        "model": context["expected_identity"]["model"]}, ensure_ascii=False), flush=True)
     import uvicorn
     uvicorn.run(create_demo_app(context), host="127.0.0.1", port=args.port)
 

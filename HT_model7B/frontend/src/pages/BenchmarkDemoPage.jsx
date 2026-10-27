@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Bot, Send, X } from 'lucide-react';
+import BlindReviewPage from './BlindReviewPage';
 import './BenchmarkDemoPage.css';
 
 const API = import.meta.env.VITE_BENCHMARK_API_URL || 'http://127.0.0.1:8012';
@@ -50,6 +51,7 @@ export default function BenchmarkDemoPage() {
   const [question, setQuestion] = useState('');
   const [historyText, setHistoryText] = useState('[]');
   const [showAll, setShowAll] = useState(false);
+  const [blindSession, setBlindSession] = useState(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -64,6 +66,12 @@ export default function BenchmarkDemoPage() {
         }
         if (!current) current = await request('/api/demo/sessions', {});
         if (cancelled) return;
+        if (settings.blinded) {
+          localStorage.setItem(storageKey, current.session_id);
+          setConfig(settings);
+          setBlindSession(current);
+          return;
+        }
         const saved = {};
         for (const run of current.runs || []) {
           const key = `${run.case_id}:${run.method}`;
@@ -145,6 +153,19 @@ export default function BenchmarkDemoPage() {
         setRecords(previous => ({ ...previous, [`${caseId}:${currentMethod}`]: record }));
       }
     } catch (err) { setError(err.message); } finally { setBusy(''); }
+  }
+
+  if (!config || (config.blinded && !blindSession)) {
+    return <main className="benchmark-demo"><header className="bd-header"><div><p className="bd-brand">TechCare Electronics</p><h1>Đánh giá phản hồi chatbot</h1></div></header>
+      {error ? <p className="bd-error" role="alert">{error}</p> : <p className="bd-progress" role="status">Đang kết nối…</p>}</main>;
+  }
+
+  if (config.blinded && blindSession) {
+    return <BlindReviewPage key={blindSession.session_id} config={{ ...config, api: API }} initialSession={blindSession}
+      requestApi={request} MessageView={Message} onSessionChange={current => {
+        localStorage.setItem(`techcare_benchmark_demo:${config.instance_id}`, current.session_id);
+        setBlindSession(current);
+      }} />;
   }
 
   return (

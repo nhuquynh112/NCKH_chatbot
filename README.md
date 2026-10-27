@@ -68,7 +68,7 @@ Frontend tại `HT_model7B/frontend`:
 npm.cmd run test:methods
 ```
 
-Mở [web test](http://127.0.0.1:5174/benchmark-demo). Chọn B0, B1, B2 hoặc P, nhập cùng câu hỏi/lịch sử rồi xuất CSV để nhóm chấm. B0 dùng luật; B1 dùng 7B không RAG; B2 dùng RAG cơ bản; P dùng pipeline đề xuất với cùng 7B gốc. P+FT không thuộc bốn phương pháp chính.
+Mở [web test](http://127.0.0.1:5174/benchmark-demo). Mặc định là giao diện chấm mù với một khung chat, chọn Trợ lý A/B/C/D; bảng quy đổi phương pháp được xáo trộn theo phiên và giữ riêng ở backend. API/CSV dành cho người chấm không có tên phương pháp hoặc model. Người điều phối có thể thêm `--coordinator` vào lệnh backend để mở giao diện đối chiếu có nhãn trong workspace riêng. Các pipeline vẫn là B0 dùng luật; B1 dùng 7B không RAG; B2 dùng RAG cơ bản; P dùng pipeline đề xuất với cùng 7B gốc. P+FT không thuộc bốn phương pháp chính.
 
 Kết quả test được lưu riêng ngoài repository và ngoài lịch sử khách hàng. Hai người có thể chạy trên hai máy với cùng commit, corpus, model và bộ câu hỏi/lịch sử. Không cập nhật code hoặc đổi dữ liệu giữa một lượt chấm. Các bản sửa giao tiếp của website bình thường được tách khỏi pipeline P benchmark; không coi hai luồng là cùng một cấu hình. Xem [hướng dẫn test đầy đủ](HT_model7B/docs/TEST_4_PHUONG_PHAP.md).
 

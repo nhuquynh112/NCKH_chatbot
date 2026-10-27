@@ -70,5 +70,8 @@
 .benchmark-demo .bd-manual p{color:#65738a;line-height:1.6;margin:9px 0 0}
 .benchmark-demo .bd-manual details{margin-top:12px}
 .benchmark-demo .bd-toolbar .bd-check{flex-direction:row;align-items:center}
+.benchmark-demo.bd-blind-review .bd-header,.benchmark-demo.bd-blind-review .bd-toolbar,.benchmark-demo.bd-blind-review .bd-manual{max-width:900px}
+.benchmark-demo .bd-blind-submit{display:inline-flex;align-items:center;gap:7px;margin-top:12px}
+.benchmark-demo.bd-blind-review .bd-card-heading{min-height:42px}
 @media(max-width:850px){.benchmark-demo{padding:18px 14px}.benchmark-demo .bd-grid{grid-template-columns:repeat(4,minmax(220px,1fr));overflow-x:auto}.benchmark-demo .bd-header{display:block}.benchmark-demo .bd-status{display:inline-block;margin-top:12px}.benchmark-demo h1{font-size:23px}}
 @media print{.benchmark-demo{padding:0;background:white}.benchmark-demo .bd-toolbar,.benchmark-demo .bd-storage{display:none}.benchmark-demo .bd-card{break-inside:avoid;box-shadow:none}.benchmark-demo .bd-card-footer details{display:none}}
