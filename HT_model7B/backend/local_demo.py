@@ -168,6 +168,22 @@ def execute_worker(request_path, response_path):
             return identity
 
         runner.preflight = checked_preflight
+        ask_original = runner.ask
+        setup_count = len(request["case"].get("history_questions", []))
+        setup_index = 0
+
+        def traced_ask(question, history):
+            nonlocal setup_index
+            if setup_index >= setup_count:
+                return ask_original(question, history)
+            setup_index += 1
+            prefix = Path(response_path).parent / f"setup-{setup_index:02}"
+            write_new(str(prefix) + "-started.json", {"question": question, "history": deepcopy(history)})
+            response = ask_original(question, history)
+            write_new(str(prefix) + "-completed.json", {"question": question, "history": deepcopy(history), "answer": response["answer"]})
+            return response
+
+        runner.ask = traced_ask
         return runner
 
     # Only the harness hooks change: the existing worker still calls the
@@ -213,6 +229,12 @@ def create_demo_app(context):
         question: str = Field(min_length=1, max_length=6000, pattern=r"\S")
         history: list[HistoryTurn] = Field(default_factory=list, max_length=40)
 
+    class DatasetRunInput(BaseModel):
+        model_config = ConfigDict(extra="forbid")
+        session_id: UUID
+        method: Literal["B0", "B1", "B2", "P"]
+        case_id: str
+
     interactive = context.get("interactive", False)
     blinded = context.get("blinded", False)
     RunInput = ManualRunInput if interactive else FixedRunInput
@@ -253,12 +275,14 @@ def create_demo_app(context):
                     {"id": method, "pipeline": PIPELINES[method], "model": None if method == "B0" else context["expected_identity"]["model"]}
                     for method in METHODS],
                 "interactive": interactive,
+                "test_cases": list(context.get("test_cases", {}).values()),
                 "cases": [] if interactive else [context["cases"][cid]["input"] for cid in CASE_IDS],
                 "model": context["expected_identity"]["model"] + " · " + context["expected_identity"].get("details", {}).get("quantization_level", "chưa xác minh precision") + " · Ollama", "embedding": "nomic-embed-text · 768 chiều",
                 "documents": context.get("expected_documents", 195),
                 "dataset": context.get("dataset", "historical_snapshot"),
                 "generation": {"temperature": 0, "context": 4096, "max_output": 384, "repeat_penalty": 1},
                 "timeout_seconds": context["timeout"], "input_source": context.get("input_source") if interactive else str(Path(context["study"]) / "package/test_inputs.jsonl"),
+                "conversation_timeout_seconds": context.get("conversation_timeout", context["timeout"]),
                 "output": context["output"], "snapshot_time": context["snapshot_timestamp"],
                 "snapshot_verified": True, "customer_database_used": False,
                 "notice": "Nhóm tự nhập câu hỏi; dùng cùng câu hỏi/lịch sử cho B0/B1/B2/P. Đây là lượt test mới, chưa được chấm điểm." if interactive else "Lượt chạy web mới trên snapshot benchmark. Không phải phát lại kết quả benchmark cũ. P+FT không thuộc bốn phương pháp chính."}
@@ -285,6 +309,13 @@ def create_demo_app(context):
                     "runs": [public_record(read_json(path), systems) for path in sorted(folder.glob("*/result.json"))]}
         return {**read_json(folder / "session.json"), "runs": [read_json(path) for path in sorted(folder.glob("*/result.json"))]}
 
+    @app.get("/api/demo/sessions")
+    def saved_sessions():
+        if blinded:
+            raise HTTPException(404, "Coordinator only")
+        return [{**read_json(path), "run_count": len(list(path.parent.glob("*/result.json")))}
+                for path in sorted((out / "sessions").glob("*/session.json"), key=lambda p: p.stat().st_mtime, reverse=True)]
+
     @app.get("/api/demo/sessions/{session_id}/runs/{run_id}")
     def get_run(session_id: UUID, run_id: UUID):
         path = session_path(session_id) / str(run_id) / "result.json"
@@ -306,7 +337,7 @@ def create_demo_app(context):
             for path in sorted(folder.glob("*/result.json")):
                 record = public_record(read_json(path), systems)
                 writer.writerow({**{key: record[key] for key in ("run_id", "case_id", "system_id", "system_label", "question")},
-                                 "history": json.dumps(record["fixed_history"], ensure_ascii=False),
+                "history": json.dumps(record.get("actual_history", record["fixed_history"]), ensure_ascii=False),
                                  "answer": record["result"]["answer"], "status": record["result"]["status"]})
             return Response(content=stream.getvalue().encode("utf-8-sig"), media_type="text/csv",
                             headers={"Content-Disposition": f'attachment; filename="techcare-review-{session_id}.csv"'})
@@ -318,7 +349,7 @@ def create_demo_app(context):
             result = record["result"]
             identity = result.get("identity") or {}
             writer.writerow({"run_id": record["run_id"], "case_id": record["case_id"], "method": record["method"],
-                "question": record["question"], "history": json.dumps(record["fixed_history"], ensure_ascii=False),
+                "question": record["question"], "history": json.dumps(record.get("actual_history", record["fixed_history"]), ensure_ascii=False),
                 "answer": result.get("answer", ""), "status": result["status"], "mode": result.get("mode"),
                 "llm_called": result.get("llm_called", False), "latency_ms": result.get("latency_ms"),
                 "model": identity.get("model"), "digest": identity.get("digest"),
@@ -328,6 +359,9 @@ def create_demo_app(context):
 
     @app.post("/api/demo/runs")
     async def run_case(body: RunInput):
+        return await perform_run(body)
+
+    async def perform_run(body, preset=None):
         folder = session_path(body.session_id)
         if gate.locked():
             raise HTTPException(409, "Another local inference is running; wait for it to finish")
@@ -340,8 +374,12 @@ def create_demo_app(context):
                     raise HTTPException(409, str(exc)) from exc
                 case = {"id": body.case_id, "category": "human_test", "question": body.question,
                         "history": [turn.model_dump() for turn in body.history], "history_questions": []}
+                if preset is not None:
+                    case = deepcopy(preset)
                 for path in folder.glob("*/result.json"):
                     previous = read_json(path)
+                    if previous["case_id"] == body.case_id and (previous.get("input_mode") == "test_pack") != (preset is not None):
+                        raise HTTPException(409, "This case was recorded with another input mode; use a new session.")
                     if previous["case_id"] == body.case_id and (previous["question"] != case["question"] or
                             ((not blinded or previous["method"] == body.method) and previous["fixed_history"] != case["history"])):
                         raise HTTPException(409, "Case ID already has a different question/history. Reuse the saved input or choose a new ID.")
@@ -363,11 +401,12 @@ def create_demo_app(context):
                 "expected_identity": context["expected_identity"],
                 "expected_documents": context.get("expected_documents", 195)}
             write_new(work / "request.json", request_data)
+            case_deadline = context.get("conversation_timeout", context["timeout"]) if case.get("history_questions") else context["timeout"]
             started = time.perf_counter()
             command = [sys.executable, "-B", str(Path(__file__).resolve()), "--worker", str(work / "request.json"), str(work / "response.json")]
             env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1", "PYTHONIOENCODING": "utf-8"}
             try:
-                process = await asyncio.to_thread(subprocess.run, command, cwd=BACKEND, env=env, capture_output=True, timeout=context["timeout"])
+                process = await asyncio.to_thread(subprocess.run, command, cwd=BACKEND, env=env, capture_output=True, timeout=case_deadline)
                 (work / "worker.log").write_bytes(process.stdout + b"\n" + process.stderr)
                 if process.returncode or not (work / "response.json").is_file():
                     raise RuntimeError("Worker failed; inspect the saved worker.log")
@@ -377,11 +416,24 @@ def create_demo_app(context):
                 result = {"status": "timeout", "answer": "", "error": {"type": "ProcessTimeout", "message": "Whole-case deadline exceeded"}}
             except Exception as exc:
                 result = {"status": "error", "answer": "", "error": {"type": type(exc).__name__, "message": str(exc)}}
+            actual_history = result.get("history", case["history"])
+            if case.get("history_questions") and not actual_history:
+                progress = sorted(work.glob("setup-*-started.json"))
+                if progress:
+                    last = read_json(progress[-1])
+                    actual_history = last["history"] + [{"role": "user", "content": last["question"]}]
+                    completed = progress[-1].with_name(progress[-1].name.replace("-started", "-completed"))
+                    if completed.exists():
+                        actual_history += [{"role": "assistant", "content": read_json(completed)["answer"]}]
             record = {"run_id": str(run_id), "session_id": str(body.session_id), "method": body.method,
                 "case_id": body.case_id, "question": request_data["case"]["question"],
                 "fixed_history": request_data["case"]["history"], "created_at": datetime.now(timezone.utc).isoformat(),
                 "wall_ms": (time.perf_counter() - started) * 1000, "new_web_run": True,
                 "architecture": context["methods"][body.method], "result": result}
+            record["case_deadline_seconds"] = case_deadline
+            if preset is not None:
+                record.update(input_mode="test_pack", actual_history=actual_history,
+                              history_questions=case.get("history_questions", []))
             write_new(work / "result.json", record)
             if blinded:
                 status = "ok" if result["status"] == "no_rule_match" else result["status"]
@@ -389,6 +441,17 @@ def create_demo_app(context):
             else:
                 print(f"DEMO_RUN {body.method} {body.case_id} {result['status']} pipeline={result.get('pipeline_class')} run={run_id}", flush=True)
             return record
+
+    @app.post("/api/demo/dataset/runs")
+    async def run_dataset_case(body: DatasetRunInput):
+        if blinded or not interactive:
+            raise HTTPException(404, "Coordinator only")
+        case = context.get("test_cases", {}).get(body.case_id)
+        if case is None:
+            raise HTTPException(404, "Case not in the frozen test pack")
+        original = ManualRunInput(session_id=body.session_id, method=body.method, case_id=body.case_id,
+                                  question=case["question"], history=case["history"])
+        return await perform_run(original, preset=case)
 
     @app.post("/api/demo/blind/runs")
     async def run_blind_case(body: BlindRunInput):

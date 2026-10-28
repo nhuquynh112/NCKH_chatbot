@@ -65,7 +65,26 @@ Mở **http://127.0.0.1:5174/benchmark-demo**. Chế độ ẩn danh không mở
 
 Người chấm chỉ thấy một khung, không có nút hiện cả bốn phương pháp hoặc liên kết raw JSON. Giao diện đối chiếu cũ vẫn dành riêng cho người điều phối: thêm `--coordinator` khi khởi động backend trong workspace mới. Chế độ đó hiện tên phương pháp/model và mở API docs, không dùng để chấm mù.
 
-Câu độc lập không tự nối lịch sử câu trước. Với ca H của bộ v4.0-draft, nhập từng câu theo kịch bản; dùng mã riêng cho mỗi lượt, rồi truyền đúng các cặp user/assistant thực tế của chính trợ lý đó trong **Lịch sử đầu vào** khi hỏi tiếp. Không chèn đáp án mẫu. Trang không tự sinh hay nối hội thoại H; người điều phối cần giữ log và xác định phản hồi cuối để chấm.
+### Người điều phối: nạp 100 ca và tự chạy hội thoại
+
+Nếu chỉ chấm bộ phản hồi đã thu, lấy [hai phiếu đã điền sẵn](CHAM_MU_TUNG_BUOC.md#phiếu-đã-có-phản-hồi-để-chấm-ngay); không cần chạy lại model. Muốn thu một bộ phản hồi mới, tại `backend` chạy:
+
+```powershell
+& .\.venv\Scripts\python.exe comparison_demo.py --coordinator --work-dir D:\TechCareTest
+```
+
+Chạy frontend và mở URL như bước 2. Trong chế độ này:
+
+1. Giữ chọn **Dùng bộ 100 ca gốc (tự chạy hội thoại H)**. Bộ đề được sao chép từ `docs/evaluation/blind_60_20261023/benchmark_input.json`, chỉ nạp câu hỏi và đầu vào hội thoại, không nạp đáp án vào model.
+2. Chọn B0/B1/B2/P và mã ca, rồi chạy một ca hoặc **Chạy các ca chưa có kết quả của ...**. Nút chạy hàng loạt bỏ qua mọi ca đã có kết quả, kể cả lỗi; không tự chọn lại câu trả lời tốt hơn.
+3. Với H, backend tự gửi đúng chuỗi câu hỏi gốc, lưu các cặp user/assistant thực tế của phương pháp đó, rồi hỏi câu cuối. Không cần dán JSON, không dùng lịch sử của phương pháp khác. CSV điều phối chứa lịch sử thực tế này.
+4. **Phiên demo mới** tạo phiên trống, không xóa phiên trước hoặc bộ đề. Chọn **Phiên đã lưu** để mở lại kết quả trong cùng workspace. Muốn mở lại sau khi tắt backend, dùng `--resume '<output-thật>' --coordinator`; không có `--resume` sẽ tạo workspace khác.
+
+Ca đơn/mỗi lần gọi model mặc định 120 giây; ca có `history_questions` được tối đa **600 giây cho toàn hội thoại**, giống nhau cho bốn phương pháp. Có thể đặt rõ `--conversation-timeout 600`. Không đổi model, prompt, giới hạn sinh hoặc thuật toán để làm câu trả lời đẹp hơn. Workspace lưu hash code, corpus và đầu vào; khi chúng thay đổi cần giữ kết quả cũ và tạo workspace mới.
+
+Chế độ điều phối có tên phương pháp, raw JSON và metadata; chỉ phát hai phiếu ẩn danh cho người chấm. Bỏ chọn bộ đề để nhập câu thủ công; cùng mã ca không được đổi qua lại giữa đầu vào thủ công và bộ đề trong một phiên.
+
+Câu độc lập không tự nối lịch sử câu trước. Với **giao diện ẩn danh hoặc nhập thủ công**, ca H của bộ v4.0-draft cần nhập từng câu theo kịch bản; dùng mã riêng cho mỗi lượt, rồi truyền đúng các cặp user/assistant thực tế của chính trợ lý đó trong **Lịch sử đầu vào** khi hỏi tiếp. Không chèn đáp án mẫu. Luồng thủ công không tự nối hội thoại H; người điều phối cần giữ log và xác định phản hồi cuối để chấm. Chế độ bộ đề tự động ở trên xử lý chuỗi H trong backend.
 
 ### Hai người test trên hai máy
 
@@ -105,4 +124,4 @@ Ctrl+C để dừng từng terminal. Để tiếp tục đúng thư mục test �
 
 Thay bằng `output` thật; chạy frontend như bước 2, dùng cùng trình duyệt để mở lại phiên. Không xóa localStorage khi test. Không có `--resume` sẽ tạo workspace mới; dữ liệu cũ vẫn trên đĩa. Workspace cũ trước bản chấm mù cần được giữ riêng và tạo lượt mới; không chuyển qua lại chế độ trong workspace đã lưu. Nếu code/corpus/model đổi, hệ thống có thể từ chối tiếp tục để tránh trộn cấu hình.
 
-Nếu lỗi kết nối: kiểm tra Ollama, backend 8012 và frontend 5174. Nếu cổng bận, dừng tiến trình test cũ của mình. Deadline mặc định **120 giây/ca**, áp dụng như nhau cho bốn phương pháp; đây là cấu hình test thủ công mới, không phải benchmark 24 câu cũ. Thiếu RAM/VRAM hoặc quá hạn phải ghi lỗi, không âm thầm chuyển Q4/3B. Không đưa câu hỏi/đáp án đánh giá vào RAG hoặc huấn luyện.
+Nếu lỗi kết nối: kiểm tra Ollama, backend 8012 và frontend 5174. Nếu cổng bận, dừng tiến trình test cũ của mình. Deadline mặc định **120 giây cho câu đơn/ca nhập thủ công**, **600 giây cho ca H chạy từ bộ đề tự động**, áp dụng như nhau cho bốn phương pháp; đây không phải benchmark 24 câu cũ. Mỗi lần gọi model vẫn có giới hạn 120 giây. Thiếu RAM/VRAM hoặc quá hạn phải ghi lỗi, không âm thầm chuyển Q4/3B. Không đưa câu hỏi/đáp án đánh giá vào RAG hoặc huấn luyện.

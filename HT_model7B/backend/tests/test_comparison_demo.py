@@ -94,6 +94,88 @@ class ManualComparisonTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "outside"):
                     prepare_context(target)
 
+    def load_pack(self):
+        from demo_cases import load_test_inputs
+        from local_demo import BACKEND
+        self.context["test_cases"] = load_test_inputs(BACKEND.parent / "docs/evaluation/blind_60_20261023/benchmark_input.json")
+        return self.context["test_cases"]
+
+    def test_pack_has_100_original_inputs_without_answer_keys(self):
+        cases = self.load_pack()
+        self.assertEqual(len(cases), 100)
+        self.assertEqual(len(cases["H01"]["history_questions"]), 3)
+        self.assertEqual(cases["H01"]["question"], "Máy đó giá bao nhiêu theo catalog?")
+        for row in cases.values():
+            self.assertEqual(set(row), {"id", "category", "question", "history", "history_questions"})
+        self.assertEqual(len(self.client.get("/api/demo/config").json()["test_cases"]), 100)
+
+    def test_new_session_does_not_delete_old_runs_or_case_library(self):
+        self.load_pack()
+        self.assertEqual(self.ask(self.payload()).status_code, 200)
+        other = self.client.post("/api/demo/sessions").json()
+        listing = self.client.get("/api/demo/sessions").json()
+        self.assertEqual({row["session_id"] for row in listing}, {self.sid, other["session_id"]})
+        self.assertEqual(len(self.client.get(f"/api/demo/sessions/{self.sid}").json()["runs"]), 1)
+        self.assertEqual(other["runs"], [])
+        self.assertEqual(len(self.client.get("/api/demo/config").json()["test_cases"]), 100)
+
+    def test_dataset_h_uses_exact_script_in_one_original_worker_and_exports_generated_history(self):
+        cases = self.load_pack()
+        seen = []
+        generated = []
+        for question in cases["H01"]["history_questions"]:
+            generated += [{"role": "user", "content": question}, {"role": "assistant", "content": "Worker test fixture"}]
+        def worker(command, **kwargs):
+            request = json.loads(Path(command[-2]).read_text(encoding="utf-8"))
+            seen.append(request)
+            write_new(command[-1], {"status": "ok", "answer": "Final worker test fixture", "history": generated})
+            return subprocess.CompletedProcess(command, 0, b"", b"")
+        with patch("comparison_demo.verify_context"), patch("local_demo.subprocess.run", side_effect=worker):
+            response = self.client.post("/api/demo/dataset/runs", json={"session_id": self.sid, "method": "B0", "case_id": "H01"})
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(seen), 1)
+        self.assertEqual(seen[0]["case"], cases["H01"])
+        self.assertEqual(response.json()["actual_history"], generated)
+        self.assertEqual(response.json()["input_mode"], "test_pack")
+        rows = list(csv.DictReader(io.StringIO(self.client.get(f"/api/demo/sessions/{self.sid}/export.csv").content.decode("utf-8-sig"))))
+        self.assertEqual(json.loads(rows[0]["history"]), generated)
+        self.assertEqual(rows[0]["answer"], "Final worker test fixture")
+        self.assertEqual(self.ask(self.payload(case_id="H01", question=cases["H01"]["question"])).status_code, 409)
+
+    def test_dataset_rejects_overrides_and_unknown_cases(self):
+        self.load_pack()
+        body = {"session_id": self.sid, "method": "B0", "case_id": "H01"}
+        for extra in ({"question": "override"}, {"history": []}, {"expected_answer": "gold"}):
+            self.assertEqual(self.client.post("/api/demo/dataset/runs", json={**body, **extra}).status_code, 422)
+        self.assertEqual(self.client.post("/api/demo/dataset/runs", json={**body, "case_id": "UNKNOWN"}).status_code, 404)
+
+    def test_setup_timeout_keeps_completed_actual_turns(self):
+        self.load_pack()
+        def timed_out(command, **kwargs):
+            folder = Path(command[-1]).parent
+            write_new(folder / "setup-01-started.json", {"question": "Actual test question", "history": []})
+            write_new(folder / "setup-01-completed.json", {"question": "Actual test question", "history": [], "answer": "Actual test response"})
+            raise subprocess.TimeoutExpired(command, 120)
+        with patch("comparison_demo.verify_context"), patch("local_demo.subprocess.run", side_effect=timed_out):
+            response = self.client.post("/api/demo/dataset/runs", json={"session_id": self.sid, "method": "B0", "case_id": "H01"})
+        self.assertEqual(response.json()["result"]["status"], "timeout")
+        self.assertEqual(response.json()["result"]["answer"], "")
+        self.assertEqual(response.json()["actual_history"], [{"role": "user", "content": "Actual test question"}, {"role": "assistant", "content": "Actual test response"}])
+
+    def test_conversation_budget_does_not_change_single_call_model_timeout(self):
+        self.load_pack()
+        self.context["conversation_timeout"] = 600
+        seen = []
+        def worker(command, **kwargs):
+            request = json.loads(Path(command[-2]).read_text(encoding="utf-8"))
+            seen.append((request["case"]["id"], request["timeout"], kwargs["timeout"]))
+            return self.worker(command, **kwargs)
+        with patch("comparison_demo.verify_context"), patch("local_demo.subprocess.run", side_effect=worker):
+            for cid in ("S01", "H01"):
+                response = self.client.post("/api/demo/dataset/runs", json={"session_id": self.sid, "method": "B0", "case_id": cid})
+                self.assertEqual(response.status_code, 200)
+        self.assertEqual(seen, [("S01", 120, 120), ("H01", 120, 600)])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Bot, Send, X } from 'lucide-react';
 import BlindReviewPage from './BlindReviewPage';
 import './BenchmarkDemoPage.css';
@@ -52,6 +52,10 @@ export default function BenchmarkDemoPage() {
   const [historyText, setHistoryText] = useState('[]');
   const [showAll, setShowAll] = useState(false);
   const [blindSession, setBlindSession] = useState(null);
+  const [usePack, setUsePack] = useState(false);
+  const [sessions, setSessions] = useState([]);
+  const [batchProgress, setBatchProgress] = useState('');
+  const stopBatch = useRef(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -81,12 +85,15 @@ export default function BenchmarkDemoPage() {
         setConfig(settings);
         setSession(current.session_id);
         setRecords(saved);
+        setUsePack(!!settings.test_cases?.length);
+        setSessions(await request('/api/demo/sessions'));
         if (settings.interactive) {
           setMethod('B0');
           const latest = (current.runs || []).at(-1);
           setCaseId(latest?.case_id || 'TEST01');
           setQuestion(latest?.question || '');
           setHistoryText(JSON.stringify(latest?.fixed_history || [], null, 2));
+          if (settings.test_cases?.length) setCaseId(settings.test_cases.some(row => row.id === latest?.case_id) ? latest.case_id : settings.test_cases[0].id);
         }
       } catch (err) {
         if (!cancelled) setError(err.message);
@@ -98,7 +105,10 @@ export default function BenchmarkDemoPage() {
 
   let manualHistory = [];
   try { manualHistory = JSON.parse(historyText); } catch { /* Validated before sending. */ }
-  const selectedCase = config?.interactive
+  const packedCase = config?.test_cases?.find(row => row.id === caseId);
+  const selectedCase = usePack && packedCase
+    ? { case_id: packedCase.id, question: packedCase.question, history: packedCase.history, group: packedCase.category }
+    : config?.interactive
     ? { case_id: caseId, group: 'Câu hỏi do nhóm nhập', question, history: Array.isArray(manualHistory) ? manualHistory : [] }
     : config?.cases.find(item => item.case_id === caseId);
   const savedCases = [...new Map(Object.values(records).map(record => [record.case_id, record])).values()]
@@ -114,6 +124,12 @@ export default function BenchmarkDemoPage() {
   }
 
   function nextCase() {
+    if (usePack) {
+      const items = config.test_cases;
+      setCaseId(items[(items.findIndex(row => row.id === caseId) + 1) % items.length].id);
+      setError('');
+      return;
+    }
     let number = 1;
     while (savedCases.some(item => item.case_id === `TEST${String(number).padStart(2, '0')}`)) number++;
     setCaseId(`TEST${String(number).padStart(2, '0')}`);
@@ -130,7 +146,8 @@ export default function BenchmarkDemoPage() {
       localStorage.setItem(`techcare_benchmark_demo:${config.instance_id}`, current.session_id);
       setSession(current.session_id);
       setRecords({});
-      if (config.interactive) { setCaseId('TEST01'); setQuestion(''); setHistoryText('[]'); }
+      setSessions(await request('/api/demo/sessions'));
+      if (config.interactive) { setCaseId(usePack ? config.test_cases[0].id : 'TEST01'); setQuestion(''); setHistoryText('[]'); }
     } catch (err) { setError(err.message); } finally { setBusy(''); }
   }
 
@@ -138,7 +155,7 @@ export default function BenchmarkDemoPage() {
     setError('');
     try {
       const input = { case_id: caseId };
-      if (config.interactive) {
+      if (config.interactive && !usePack) {
         if (!/^[A-Za-z0-9_-]{1,80}$/.test(caseId) || !question.trim()) throw new Error('Nhập mã câu hợp lệ và câu hỏi.');
         const history = JSON.parse(historyText);
         if (!Array.isArray(history) || history.some(turn => !['user', 'assistant'].includes(turn.role) || typeof turn.content !== 'string' || !turn.content.trim())) {
@@ -149,10 +166,41 @@ export default function BenchmarkDemoPage() {
       }
       for (const currentMethod of selectedMethods) {
         setBusy(currentMethod);
-        const record = await request('/api/demo/runs', { session_id: session, method: currentMethod, ...input }, (config.timeout_seconds + 20) * 1000);
+        const limit = usePack && packedCase?.history_questions.length ? (config.conversation_timeout_seconds || config.timeout_seconds) : config.timeout_seconds;
+        const record = await request(usePack ? '/api/demo/dataset/runs' : '/api/demo/runs', { session_id: session, method: currentMethod, ...input }, (limit + 20) * 1000);
         setRecords(previous => ({ ...previous, [`${caseId}:${currentMethod}`]: record }));
       }
     } catch (err) { setError(err.message); } finally { setBusy(''); }
+  }
+
+  async function reopenSession(id) {
+    setBusy('session'); setError('');
+    try {
+      const current = await request(`/api/demo/sessions/${id}`);
+      const saved = {};
+      for (const row of [...current.runs].sort((a, b) => a.created_at.localeCompare(b.created_at))) saved[`${row.case_id}:${row.method}`] = row;
+      localStorage.setItem(`techcare_benchmark_demo:${config.instance_id}`, current.session_id);
+      setSession(current.session_id); setRecords(saved);
+      const latest = [...current.runs].sort((a, b) => a.created_at.localeCompare(b.created_at)).at(-1);
+      if (latest) {
+        setUsePack(latest.input_mode === 'test_pack'); setCaseId(latest.case_id); setMethod(latest.method);
+        setQuestion(latest.question); setHistoryText(JSON.stringify(latest.fixed_history, null, 2));
+      }
+    } catch (err) { setError(err.message); } finally { setBusy(''); }
+  }
+
+  async function runRemaining() {
+    stopBatch.current = false; setError('');
+    try {
+      const pending = config.test_cases.filter(row => !records[`${row.id}:${method}`]);
+      for (const [index, row] of pending.entries()) {
+        if (stopBatch.current) break;
+        setBusy(method); setCaseId(row.id); setBatchProgress(`${index + 1}/${pending.length} · ${row.id}`);
+        const limit = row.history_questions.length ? (config.conversation_timeout_seconds || config.timeout_seconds) : config.timeout_seconds;
+        const record = await request('/api/demo/dataset/runs', { session_id: session, method, case_id: row.id }, (limit + 20) * 1000);
+        setRecords(previous => ({ ...previous, [`${row.id}:${method}`]: record }));
+      }
+    } catch (err) { setError(err.message); } finally { setBusy(''); setBatchProgress(''); }
   }
 
   if (!config || (config.blinded && !blindSession)) {
@@ -193,12 +241,27 @@ export default function BenchmarkDemoPage() {
         <button className="bd-secondary" disabled={!!busy || !session} onClick={() => run([method])}>Chạy phương pháp</button>
         <button className="bd-primary" disabled={!!busy || !session} onClick={() => run(METHODS)}>Chạy cả 4 phương pháp</button>
         <button className="bd-secondary" disabled={!!busy || !config} onClick={newSession}>Phiên demo mới</button>
+        {config.interactive && <label>Phiên đã lưu<select aria-label="Phiên đã lưu" value={session || ''} disabled={!!busy} onChange={event => reopenSession(event.target.value)}>
+          {sessions.map(row => <option key={row.session_id} value={row.session_id}>{row.created_at} · {row.run_count} lượt · {row.session_id.slice(0, 8)}</option>)}
+        </select></label>}
         {config?.interactive && <label className="bd-check"><input type="checkbox" checked={showAll} onChange={event => setShowAll(event.target.checked)} disabled={!!busy} />Hiện cả 4 khung</label>}
         {session && <a href={`${API}/api/demo/sessions/${session}/export.csv`} download>Tải CSV chấm điểm</a>}
         {session && <a href={`${API}/api/demo/sessions/${session}`} target="_blank" rel="noreferrer">Kết quả JSON</a>}
       </section>
 
-      {config?.interactive && <section className="bd-manual" aria-label="Nhập câu kiểm thử">
+      {config?.interactive && !!config.test_cases?.length && <section className="bd-manual">
+        <label><span><input type="checkbox" checked={usePack} disabled={!!busy} onChange={event => { setUsePack(event.target.checked); setCaseId(event.target.checked ? config.test_cases[0].id : 'TEST01'); }} /> Dùng bộ {config.test_cases.length} ca gốc (tự chạy hội thoại H)</span></label>
+        {usePack && <><label>Ca trong bộ đề<select aria-label="Ca trong bộ đề" disabled={!!busy} value={caseId} onChange={event => setCaseId(event.target.value)}>
+          {config.test_cases.map(row => <option key={row.id} value={row.id}>{row.id} · {row.question}</option>)}
+        </select></label><p>{packedCase?.question}</p>
+          {!!packedCase?.history_questions.length && <p>Hệ thống tự hỏi {packedCase.history_questions.length} lượt trước, giữ câu trả lời thật của phương pháp đang chạy, rồi hỏi câu cuối. Không cần dán JSON.</p>}
+          <button disabled={!!busy} onClick={nextCase}>Ca tiếp theo</button>{' '}
+          <button disabled={!!busy || !session} onClick={runRemaining}>Chạy các ca chưa có kết quả của {method}</button>{' '}
+          {!!batchProgress && <button onClick={() => { stopBatch.current = true; }}>Dừng sau ca đang chạy</button>}
+          {batchProgress && <p role="status">{batchProgress}</p>}</>}
+      </section>}
+
+      {config?.interactive && !usePack && <section className="bd-manual" aria-label="Nhập câu kiểm thử">
         <div className="bd-manual-row">
           <label>Mã câu<input aria-label="Mã câu" value={caseId} disabled={!!busy} onChange={event => setCaseId(event.target.value)} /></label>
           <label>Câu đã lưu ({savedCases.length})<select aria-label="Câu đã lưu" value={savedCases.some(item => item.case_id === caseId) ? caseId : ''} disabled={!!busy} onChange={event => loadCase(event.target.value)}>
@@ -235,7 +298,7 @@ export default function BenchmarkDemoPage() {
           const result = record?.result;
           const failed = result && !['ok', 'no_rule_match'].includes(result.status);
           const methodModel = config?.methods?.find(entry => entry.id === item)?.model;
-          const displayedCase = record ? { question: record.question, history: record.fixed_history } : selectedCase;
+          const displayedCase = record ? { question: record.question, history: record.actual_history || record.fixed_history } : selectedCase;
           return (
             <article key={item} className={`bd-card ${item === method ? 'bd-selected' : ''}`} data-method={item} data-case={caseId}>
               <div className="bd-card-heading"><span className="bd-panel-letter">{String.fromCharCode(65 + index)}</span><div><h2>{item} — {NAMES[item]}</h2><p>{caseId} · {item === 'B0' ? 'Luật và FAQ' : `${methodModel || 'Chưa xác minh model'} · model gốc`}</p></div></div>
@@ -264,7 +327,7 @@ export default function BenchmarkDemoPage() {
                 {result.latency_ms != null && <span>{new Intl.NumberFormat('vi-VN', { maximumFractionDigits: 0 }).format(result.latency_ms)} ms trong pipeline</span>}
                 <details><summary>Nguồn và bằng chứng lượt chạy</summary>
                   <p>Pipeline thực tế: <code>{result.pipeline_class || 'chưa khởi tạo'}</code></p>
-                  <p>Model: {result.identity?.model || 'không dùng LLM'} · Lịch sử: {result.history_matches_fixture ? 'khớp đầu vào' : 'chưa xác minh'}</p>
+                  <p>Model: {result.identity?.model || 'không dùng LLM'} · Lịch sử: {record.history_questions?.length ? 'tự sinh từ hội thoại thực tế' : result.history_matches_fixture ? 'khớp đầu vào' : 'chưa xác minh'}</p>
                   <p>Mã lượt chạy: {record.run_id}</p>
                   <ul>{(result.sources || []).map((source, sourceIndex) => <li key={`${source.id}-${sourceIndex}`}>{source.title}</li>)}</ul>
                   <a href={`${API}/api/demo/sessions/${session}/runs/${record.run_id}`} target="_blank" rel="noreferrer">Mở JSON kết quả thực tế</a>

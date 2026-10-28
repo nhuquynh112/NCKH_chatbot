@@ -24,9 +24,11 @@ def verify_context(context):
     from benchmark.chapter5 import code_hashes
     if code_hashes() != context["code_sha256"] or any(digest(BACKEND / name) != value for name, value in context["harness_sha256"].items()):
         raise ValueError("Source changed during testing. Start a new test workspace; keep the old results.")
+    if context.get("test_input_path") and digest(context["test_input_path"]) != context["test_input_sha256"]:
+        raise ValueError("Test inputs changed. Keep the old workspace and start a new one.")
 
 
-def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume=None, blinded=True):
+def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume=None, blinded=True, conversation_timeout=600):
     require_local_environment()
     root = Path(resume if resume else work_dir).resolve()
     if root.is_relative_to(REPOSITORY):
@@ -76,13 +78,18 @@ def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume
         corpus / "knowledge_base.md", corpus / "product_catalog_extended.md", corpus / "faq_curated.json",
     ]))
     (out / "sessions").mkdir()
+    from demo_cases import load_test_inputs
+    test_input = BACKEND.parent / "docs/evaluation/blind_60_20261023/benchmark_input.json"
+    shutil.copyfile(test_input, out / "test_inputs.json")
     context = {"interactive": True, "blinded": blinded, "instance_id": out.name, "output": str(out), "database": str(database),
+        "test_cases": load_test_inputs(out / "test_inputs.json"), "test_input_path": str(out / "test_inputs.json"),
+        "test_input_sha256": digest(out / "test_inputs.json"),
         "database_sha256": digest(database), "corpus": str(corpus), "corpus_sha256": {name: digest(corpus / name) for name in CORPUS_FILES},
         "snapshot_timestamp": timestamp, "plain_prompt": str(out / "plain_prompt.txt"), "plain_prompt_sha256": digest(out / "plain_prompt.txt"),
         "expected_identity": identity, "expected_documents": document_count,
-        "dataset": settings.products_path.parent.name, "timeout": timeout, "api_port": port, "frontend_port": frontend_port,
+        "dataset": settings.products_path.parent.name, "timeout": timeout, "conversation_timeout": conversation_timeout, "api_port": port, "frontend_port": frontend_port,
         "methods": {method: method_spec(method) for method in METHODS}, "cases": {},
-        "code_sha256": code_hashes(), "harness_sha256": {name: digest(BACKEND / name) for name in ("local_demo.py", "comparison_demo.py", "blind_review.py")},
+        "code_sha256": code_hashes(), "harness_sha256": {name: digest(BACKEND / name) for name in ("local_demo.py", "comparison_demo.py", "blind_review.py", "demo_cases.py")},
         "input_source": "Câu hỏi và lịch sử do nhóm nhập; lưu nguyên nội dung theo mã câu trong phiên test."}
     write_new(out / "demo_config.json", context)
     return context
@@ -96,6 +103,7 @@ def main():
     parser.add_argument("--port", type=int, default=8012)
     parser.add_argument("--frontend-port", type=int, default=5174)
     parser.add_argument("--timeout", type=int, default=120, choices=range(10, 121), metavar="10..120")
+    parser.add_argument("--conversation-timeout", type=int, default=600, choices=range(120, 601), metavar="120..600")
     parser.add_argument("--snapshot", nargs=3, metavar=("CORPUS", "DATABASE", "TIMESTAMP"), help=argparse.SUPPRESS)
     args = parser.parse_args()
     if args.snapshot:
@@ -106,7 +114,8 @@ def main():
         from benchmark.worker import seed_snapshot
         seed_snapshot(corpus, database, timestamp).dispose()
         return
-    context = prepare_context(args.work_dir, args.port, args.frontend_port, args.timeout, args.resume, blinded=not args.coordinator)
+    context = prepare_context(args.work_dir, args.port, args.frontend_port, args.timeout, args.resume, blinded=not args.coordinator,
+                              conversation_timeout=args.conversation_timeout)
     print(json.dumps({"website": f"http://127.0.0.1:{args.frontend_port}/benchmark-demo", "output": context["output"],
         "resume": f'python comparison_demo.py --resume "{context["output"]}"' + (" --coordinator" if args.coordinator else ""),
         "model": context["expected_identity"]["model"]}, ensure_ascii=False), flush=True)

@@ -1,6 +1,21 @@
 # Chấm mù từng bước — bản cập nhật 28/10/2026
 
-Đối chiếu với code commit `6415b22`, nhánh `chatbotv1-demo`. Đây là hướng dẫn thao tác, không phải kết quả đã chạy hoặc điểm đã chấm.
+Hướng dẫn trên nhánh `chatbotv1-demo`. Phần thao tác thủ công bên dưới vẫn dùng cho giao diện ẩn danh; người điều phối có thêm chế độ nạp bộ đề tự động trong `TEST_4_PHUONG_PHAP.md`.
+
+## Phiếu đã có phản hồi để chấm ngay
+
+Bộ phản hồi ngày 28/10/2026 đã được điền vào hai **bản sao** sau; các mẫu trống trong `outputs/kappa_4_methods_20261023` vẫn được giữ nguyên:
+
+- [Phiếu người chấm 1](../../outputs/cham_mu_100_20261028/Phieu_R1.xlsx)
+- [Phiếu người chấm 2](../../outputs/cham_mu_100_20261028/Phieu_R2.xlsx)
+
+Mỗi phiếu có 400 dòng, tương ứng 100 ca v4.0-draft × 4 phương pháp. Hai phiếu chứa cùng phản hồi theo mã ẩn danh, thứ tự riêng cho mỗi người; chưa có điểm chất lượng. Người chấm không cần chạy web, Ollama hoặc tự hỏi lại chatbot.
+
+Trong `Phieu_cham`, đọc câu hỏi, phản hồi và tiêu chí; điền **cột H = 0/1/2**, **cột I = lý do**. Với ca H, mở sheet `Hoi_thoai`, lọc theo **mã chấm ở cột A** để đọc đủ từng lượt. Đoạn dài được chia thành các phần liên tiếp, giữ nguyên văn; chỉ chấm phản hồi cuối. Không đổi mã, thứ tự, lịch sử hoặc nội dung phản hồi. Trạng thái `ok` chỉ ghi nhận hoàn tất thực thi, không phải điểm đúng/sai.
+
+Lượt thu thập này dùng model gốc 7B FP16 cho các nhánh LLM. Ca đơn và mỗi lần gọi model có giới hạn 120 giây; toàn bộ ca H có giới hạn 600 giây, áp dụng cho cả bốn phương pháp. Tất cả 20 ca H của mỗi phương pháp đã chạy lại theo giới hạn này; 130 kết quả câu đơn hoàn tất trước đó được giữ nguyên vì cấu hình câu đơn không đổi. Các lượt cũ và log gốc được người điều phối giữ riêng. Đây là dữ liệu để hai người chấm, chưa phải kết quả đánh giá chất lượng.
+
+Chỉ gửi riêng một phiếu cho mỗi người. CSV có nhãn phương pháp, bảng quy đổi và log thô không nằm trong thư mục hai phiếu trên. Repository vẫn có tài liệu điều phối/bảng quy đổi từ trước; người có quyền đọc toàn bộ repository có thể giải mã, nên không coi Git là cơ chế bảo mật chấm mù.
 
 ## 1. Hiểu đúng việc cần làm
 
