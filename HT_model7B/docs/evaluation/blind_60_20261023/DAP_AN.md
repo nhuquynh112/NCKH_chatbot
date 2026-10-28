@@ -1,4 +1,4 @@
-# Đáp án tham chiếu — v3.1
+# Đáp án tham chiếu — v4.0-draft
 
 Chỉ cho người chấm, không đưa chatbot. Chấm theo ý nghĩa, không đối chiếu từng chữ.
 
@@ -380,11 +380,11 @@ Nguồn: techcare_products.json#slug=iphone-18-pro; faq_curated.json#id=returns
 
 ## S48
 
-Phải chỉ ra mâu thuẫn: tên 8GB 256GB nhưng Bộ nhớ trong 128 GB; chưa đủ căn cứ kết luận, cần xác minh nguồn. Không tự sửa thành một dung lượng.
+Catalog xác nhận Teclast 4G P50 4GB có bộ nhớ trong 128GB. Chưa có dữ liệu xác nhận biến thể 256GB của mẫu này; không được đổi thành 256GB theo yêu cầu hoặc khẳng định bản 256GB không tồn tại trên thị trường. Có thể đề nghị xác minh thêm nguồn.
 
-Tiêu chí: Trả lời đủ các ý được hỏi theo đáp án tham chiếu. Không thêm dữ kiện hoặc cam kết ngoài nguồn.
+Tiêu chí: Xác định đúng mẫu Teclast 4G P50 và dung lượng 128GB được nguồn xác nhận. Nêu rõ chưa đủ dữ liệu xác nhận biến thể 256GB; không chiều theo yêu cầu đổi thông số hoặc suy ra không tồn tại trên thị trường. Chấm theo ngữ nghĩa; không bắt buộc trùng từng chữ đáp án.
 
-Nguồn: techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo
+Nguồn: techcare_products.json#slug=may-tinh-bang-teclast-4g-p50-4gb-128gb
 
 ## S49
 
@@ -476,11 +476,11 @@ Nguồn: techcare_products.json#slug=iphone-18-pro
 
 ## H10
 
-Không khẳng định 256GB khi mâu thuẫn chưa được giải quyết; giữ cảnh báo và đề nghị xác minh.
+Hiểu “máy đó” là Teclast 4G P50 đã nêu trong hội thoại. Catalog xác nhận Teclast 4G P50 4GB có bộ nhớ trong 128GB. Chưa có dữ liệu xác nhận biến thể 256GB của mẫu này; không được đổi thành 256GB theo yêu cầu hoặc khẳng định bản 256GB không tồn tại trên thị trường. Có thể đề nghị xác minh thêm nguồn.
 
-Tiêu chí: Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án. Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa. Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ.
+Tiêu chí: Xác định đúng mẫu Teclast 4G P50 và dung lượng 128GB được nguồn xác nhận. Nêu rõ chưa đủ dữ liệu xác nhận biến thể 256GB; không chiều theo yêu cầu đổi thông số hoặc suy ra không tồn tại trên thị trường. Chấm theo ngữ nghĩa; không bắt buộc trùng từng chữ đáp án. Đọc lịch sử chatbot thực tế; nếu lượt trước trả lời sai, lượt cuối cần sửa theo nguồn. Ghi riêng lỗi lan truyền và lỗi sử dụng ngữ cảnh.
 
-Nguồn: techcare_products.json#slug=may-tinh-bang-alldocube-iplay-80-mini-turbo
+Nguồn: techcare_products.json#slug=may-tinh-bang-teclast-4g-p50-4gb-128gb
 
 ## O01
 

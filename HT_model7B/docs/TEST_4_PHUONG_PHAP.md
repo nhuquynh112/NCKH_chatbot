@@ -4,7 +4,7 @@ Dùng bản `HT_model7B`. B1/B2/P gọi **Qwen2.5-7B-Instruct FP16 gốc**, khô
 
 Lượt web mới lấy snapshot từ `backend/rag_data_150`: 150 sản phẩm CellphoneS đang sử dụng, từ 151 link nguồn thu thập 23/10/2026; đã loại một mẫu có thông số không nhất quán. B0/B2/P dùng cùng snapshot này; B1 không dùng RAG. Kho `rag_data` và kết quả 24 câu cũ được giữ nguyên. Phải tạo workspace mới khi đổi corpus; không dùng kết quả mới như kết quả của study cũ.
 
-Bộ [100 ca v3.1](evaluation/blind_60_20261023/HUONG_DAN.md) vẫn tham chiếu snapshot **151 sản phẩm** trước khi gỡ Alldocube. Manifest nguồn không khớp catalog 150 hiện tại; riêng S48 và H10 còn tham chiếu Alldocube. Snapshot nguồn cũ có tại commit `c621cb8`. Nếu chấm catalog 150 mới, nhóm cần duyệt lại các ca bị ảnh hưởng và khóa phiên bản đề/đáp án/manifest mới trước khi chạy; không trộn hai phiên bản kết quả. Không đưa câu hỏi hoặc đáp án vào RAG. Release này không sửa bộ đề, đáp án hoặc Excel.
+Bộ [100 ca v4.0-draft](evaluation/blind_60_20261023/HUONG_DAN.md) đã đồng bộ catalog **150 sản phẩm**, gồm đề, đáp án, manifest và hai phiếu Excel. S48/H10 dùng Teclast 128GB và biến thể 256GB chưa được xác nhận. Nhóm cần duyệt và khóa bản dự thảo trước khi chạy; tạo lượt mới, không trộn kết quả phiên bản cũ. Không đưa câu hỏi hoặc đáp án vào RAG.
 
 `comparison_demo.py` mặc định mở **chế độ chấm mù**: một khung chat, chọn Trợ lý A/B/C/D. Ánh xạ được xáo trộn riêng cho mỗi phiên và lưu ở backend; không suy ra phương pháp từ chữ A/B/C/D. Trang, API trả kết quả và CSV cho người chấm không có tên phương pháp, model, pipeline, nhánh luật, cờ gọi LLM hoặc thời gian xử lý. Phản hồi được giữ nguyên. Trạng thái hoàn tất `no_rule_match` được hiển thị chung là `ok`; trạng thái gốc vẫn có trong file điều phối, điểm chất lượng luôn để người chấm nhập.
 
@@ -65,7 +65,7 @@ Mở **http://127.0.0.1:5174/benchmark-demo**. Chế độ ẩn danh không mở
 
 Người chấm chỉ thấy một khung, không có nút hiện cả bốn phương pháp hoặc liên kết raw JSON. Giao diện đối chiếu cũ vẫn dành riêng cho người điều phối: thêm `--coordinator` khi khởi động backend trong workspace mới. Chế độ đó hiện tên phương pháp/model và mở API docs, không dùng để chấm mù.
 
-Câu độc lập không tự nối lịch sử câu trước. Với ca H của bộ v3.1, nhập từng câu theo kịch bản; dùng mã riêng cho mỗi lượt, rồi truyền đúng các cặp user/assistant thực tế của chính trợ lý đó trong **Lịch sử đầu vào** khi hỏi tiếp. Không chèn đáp án mẫu. Trang không tự sinh hay nối hội thoại H; người điều phối cần giữ log và xác định phản hồi cuối để chấm.
+Câu độc lập không tự nối lịch sử câu trước. Với ca H của bộ v4.0-draft, nhập từng câu theo kịch bản; dùng mã riêng cho mỗi lượt, rồi truyền đúng các cặp user/assistant thực tế của chính trợ lý đó trong **Lịch sử đầu vào** khi hỏi tiếp. Không chèn đáp án mẫu. Trang không tự sinh hay nối hội thoại H; người điều phối cần giữ log và xác định phản hồi cuối để chấm.
 
 ### Hai người test trên hai máy
 
@@ -84,7 +84,7 @@ Mở **Lịch sử đầu vào**, dán lịch sử gốc với đúng vai trò, 
 ]
 ```
 
-Đây chỉ là ví dụ schema, không phải hội thoại để chấm. Với bộ v3.1 dùng lịch sử do chính trợ lý đang chọn đã trả lời, giữ đúng vai trò; không nhập lời assistant thành user hoặc tạo đáp án thay thế. Đổi trợ lý không tự mang lịch sử trợ lý trước sang. Câu cuối cần chấm nhập vào ô “Câu hỏi”; câu độc lập để lịch sử `[]`.
+Đây chỉ là ví dụ schema, không phải hội thoại để chấm. Với bộ v4.0-draft dùng lịch sử do chính trợ lý đang chọn đã trả lời, giữ đúng vai trò; không nhập lời assistant thành user hoặc tạo đáp án thay thế. Đổi trợ lý không tự mang lịch sử trợ lý trước sang. Câu cuối cần chấm nhập vào ô “Câu hỏi”; câu độc lập để lịch sử `[]`.
 
 ## 4. Lưu và chấm điểm
 

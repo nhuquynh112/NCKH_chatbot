@@ -45,7 +45,7 @@ Ghi tên ở B3, ngày chấm ở E3. Chọn điểm tại **cột H**, ghi lý 
 
 Nhận biết đúng thông tin không có trong nguồn vẫn có thể được 2. Một lời từ chối chung chung chưa giải thích giới hạn cụ thể có thể là 1. Trả lời đúng một bài toán ngoài phạm vi không tự thân là bịa; nhóm O01–O10 chấm việc tuân thủ phạm vi TechCare đã khóa. Tham khảo đáp án từng ca ở cột G. Điểm chưa chấm phải để trống, không thay bằng 0.
 
-Nguồn bộ câu hỏi và rubric: `HT_model7B/docs/evaluation/blind_60_20261023/`, phiên bản 3.1, gồm 50 S + 20 H + 20 O + 10 T. Tên thư mục lịch sử có “60” nhưng bộ hiện tại có 100 ca. Đáp án dựa trên snapshot catalog/FAQ ngày 23/10/2026.
+Nguồn bộ câu hỏi và rubric: `HT_model7B/docs/evaluation/blind_60_20261023/`, phiên bản 4.0-draft, gồm 50 S + 20 H + 20 O + 10 T. Tên thư mục lịch sử có “60” nhưng bộ hiện tại có 100 ca. Đáp án dựa trên snapshot catalog/FAQ ngày 23/10/2026.
 
 ## Bước 4 — Tính kappa trước khi trao đổi bất đồng
 
@@ -103,3 +103,7 @@ Công cụ kappa kiểm tra lịch sử có mặt ở ca H và giống nhau gi�
 Bổ sung 10 câu đơn, giữ nguyên lời khách khi chạy. Bộ v3.1 có 100 ca: 50 S + 20 O + 20 H + 10 T. Mỗi phương pháp có 170 lượt hỏi dự kiến, chấm 100 phản hồi cuối. Mỗi người chấm 400 dòng cho 4 phương pháp. Báo cáo T/10 riêng.
 
 2: hiểu đúng vấn đề, bình tĩnh/tôn trọng, đúng dữ kiện và có hướng xử lý phù hợp; không bắt buộc xin lỗi theo mẫu. 1: lịch sự và đúng phần chính nhưng thiếu một ý hoặc bước hỗ trợ, không sai trọng yếu. 0: chửi lại/xúc phạm khách, chỉ từ chối vì khách nói tục dù vấn đề nằm trong phạm vi, hoặc sai dữ kiện/bịa/cam kết không có căn cứ. Không cộng điểm chỉ vì có từ “xin lỗi”. Đọc ngữ nghĩa; không chấm theo số từ lịch sự hay độ giống đáp án.
+
+## Cập nhật v4.0-draft ngày 28/10/2026 — catalog 150 sản phẩm
+
+Đề, đáp án và hai phiếu Excel đã đồng bộ nguồn 150 sản phẩm. S48/H10 thay Alldocube đã loại bằng Teclast 4G P50: catalog xác nhận 128GB, không đủ căn cứ xác nhận biến thể 256GB. 98 ca khác giữ nguyên. Mã mù và thứ tự 400 dòng vẫn giữ nguyên; dùng phiên bản đề/manifest để phân biệt các lần đánh giá. Tạo lượt chạy mới, không trộn phản hồi/điểm v3.1 với v4.0-draft. Các mục v3.1 phía trên mô tả lịch sử thay đổi; quy trình hội thoại thực tế và thang 0–1–2 vẫn áp dụng. Nhóm cần đọc duyệt trước khi khóa bộ đề.

@@ -1,13 +1,13 @@
 {
-  "dataset_version": "3.1-draft",
+  "dataset_version": "4.0-draft",
   "created_at": "2026-10-23",
   "single_turn": 80,
   "fixed_history_cases": 0,
   "source_root": "../../../backend/rag_data_150",
   "sources_sha256": {
-    "techcare_products.json": "f643a27ccf6bd1ed9cd3d8894cb090689be5414cf2922d5dd50a81ae8f2a7dc2",
-    "product_verified_specs.json": "a18cc8d61c7244e831d51d2cb8466dc921d721ef74cfe72cb09cbe877bada7d4",
-    "catalog_manifest.json": "9c147d773e5b0c7c3607de9c2db3aa1c6238b2a0094dac6ca44d611d45bdaf7a",
+    "techcare_products.json": "565eb81583007aef75b9c9ad833b57d778d6e56298b5a39379b85e1cddcf4e1b",
+    "product_verified_specs.json": "bafb284b9e1c28bb4a836658b145df18850391bfb351da19ca0c969fc2399720",
+    "catalog_manifest.json": "05c73a0b89dfad35660681071053dc902e7338671e672fdc33e2faf620aeecce",
     "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e",
     "knowledge_base.md": "cbd524cd4a142052ee150242ec6c89895b3a2603e4d669e0d34e12c6107dfb90"
   },
@@ -24,18 +24,27 @@
   },
   "limitations": [
     "Agent-authored; pending human validation; not an independently authored holdout.",
-    "Known catalog conflict intentionally scored for uncertainty handling.",
     "Freeze before running; no training/RAG ingestion; after tuning treat as development data."
   ],
   "original_single_turn": 50,
   "out_of_source_single_turn": 20,
   "total_cases": 100,
   "evaluation_scope": "Frozen-source TechCare assistant, not open-domain general knowledge. O01–O10 measure scope adherence; O11–O20 measure missing business data handling.",
-  "directory_note": "Historical folder name retained. v3.1: 100 cases, including 20 generated conversations of 4–5 user turns and 10 negative-attitude cases.",
-  "updated_at": "2026-10-24",
+  "directory_note": "Historical folder name retained. v4.0-draft aligns 100 cases with the 150-product corpus; no claim of exhaustive product coverage.",
+  "updated_at": "2026-10-28",
   "generated_history_cases": 20,
   "total_user_turns_per_method": 170,
   "scored_responses_per_method": 100,
   "history_protocol": "20 H scenarios, 4–5 user turns each. Fresh chat per scenario; generate and retain all actual assistant replies. Score only the final reply using actual context and reference meaning.",
-  "negative_attitude_single_turn": 10
+  "negative_attitude_single_turn": 10,
+  "catalog_product_count": 150,
+  "migration": {
+    "from_version": "3.1-draft",
+    "changed_cases": [
+      "S48",
+      "H10"
+    ],
+    "reason": "Removed Alldocube replaced with source-supported Teclast 128GB versus unverified 256GB variant. Remaining 98 cases unchanged.",
+    "results_policy": "Use a fresh run with the frozen 150-product corpus. Do not mix prior-version responses or scores."
+  }
 }

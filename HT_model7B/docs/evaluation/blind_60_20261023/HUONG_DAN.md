@@ -1,6 +1,6 @@
 # Quy trình chấm mù độc lập với hai người
 
-Bộ đề dự thảo v3.1 cập nhật ngày 24/10/2026: 50 câu đơn S01–S50, 20 ca hội thoại H01–H20 20 câu ngoài nguồn O01–O20 và 10 câu khách hàng tiêu cực T01–T10. “Có lịch sử” nghĩa là tham chiếu hội thoại trước đó, không phải câu hỏi lịch sử kiến thức. Mỗi ca H có 4–5 lượt người dùng. Chatbot tự sinh phản hồi ở tất cả các lượt trong cùng phiên; chấm phản hồi cuối, đọc cả lịch sử thực tế. Tổng 100 phản hồi/hệ thống/người chấm. Nếu so sánh 4 hệ thống thì mỗi người chấm 400 phản hồi; không chia đôi câu hỏi giữa hai người.
+Bộ đề dự thảo v4.0-draft cập nhật ngày 28/10/2026: 50 câu đơn S01–S50, 20 ca hội thoại H01–H20, 20 câu ngoài nguồn O01–O20 và 10 câu khách hàng tiêu cực T01–T10. “Có lịch sử” nghĩa là tham chiếu hội thoại trước đó, không phải câu hỏi lịch sử kiến thức. Mỗi ca H có 4–5 lượt người dùng. Chatbot tự sinh phản hồi ở tất cả các lượt trong cùng phiên; chấm phản hồi cuối, đọc cả lịch sử thực tế. Tổng 100 phản hồi/hệ thống/người chấm. Nếu so sánh 4 hệ thống thì mỗi người chấm 400 phản hồi; không chia đôi câu hỏi giữa hai người.
 
 ## Tài liệu
 
@@ -9,14 +9,14 @@ Bộ đề dự thảo v3.1 cập nhật ngày 24/10/2026: 50 câu đơn S01–S
 - manifest.json: số lượng ca và SHA-256 nguồn để nhận diện snapshot.
 - tao_phieu_mu.py: tạo phiếu có mã ẩn danh và thứ tự riêng cho từng người.
 
-Phân bố: 20 tra cứu giá/định danh; 5 so sánh biến thể; 5 lọc ngân sách; 10 chính sách; 10 xử lý thiếu dữ liệu/nguồn/chống bịa; 20 theo dõi lịch sử; bổ sung 10 ngoài phạm vi và 10 thiếu dữ liệu nghiệp vụ. Không suy rộng kết quả này thành tỷ lệ đúng của toàn bộ 151 sản phẩm.
+Phân bố: 20 tra cứu giá/định danh; 5 so sánh biến thể; 5 lọc ngân sách; 10 chính sách; 10 xử lý thiếu dữ liệu/nguồn/chống bịa; 20 theo dõi lịch sử; bổ sung 10 ngoài phạm vi và 10 thiếu dữ liệu nghiệp vụ. Không suy rộng kết quả này thành tỷ lệ đúng của toàn bộ 150 sản phẩm.
 
 ## Chuẩn bị và khóa bộ đề
 
 1. Hai người đọc hướng dẫn và thống nhất cách chấm trên vài ví dụ ngoài 100 ca. Người phụ trách rà lại câu hỏi/đáp án trước khi khóa; bộ này do AI biên soạn từ nguồn dự án, chưa phải bộ holdout được con người xây dựng độc lập.
 2. Cố định snapshot catalog, FAQ, KB, index, phiên bản code, prompt, cấu hình truy xuất, model/digest, tham số sinh và ngày chạy. Lưu các thông tin này cùng kết quả. Không cập nhật giá trực tuyến giữa lượt test; chấm theo snapshot 23/10/2026.
 3. Không nạp câu hỏi hoặc đáp án vào RAG, prompt hay dữ liệu train. Nếu đã dùng kết quả để sửa hệ thống, coi bộ này là DEV; cần bộ test mới cho đánh giá cuối.
-4. S48 và H10 cố ý kiểm tra mâu thuẫn Alldocube: không tự sửa catalog trước khi chạy bộ v1 này. Nếu sửa nguồn thì cập nhật đề, đáp án, manifest và số phiên bản trước khi khóa lại.
+4. S48 và H10 kiểm tra biến thể Teclast: nguồn xác nhận 128GB, chưa xác nhận 256GB. Đây không phải mâu thuẫn nội bộ catalog. Bản v4.0-draft đồng bộ catalog 150 sản phẩm; duyệt đề, khóa manifest trước khi chạy và không trộn kết quả bộ cũ.
 
 ## Chạy và làm mù
 
@@ -68,9 +68,9 @@ Chấm O: 2 khi nhận biết đúng giới hạn, không bịa, hướng dẫn 
 Báo cáo thêm tỷ lệ đạt 2/20 của nhóm O, riêng O01–O10 và O11–O20. Báo cáo tỷ lệ từ chối nhầm trên nhóm câu có đủ dữ liệu (S01–S30), để hệ thống từ chối mọi câu không được xem là tốt. Giữ kết quả 60 ca ban đầu riêng khi so sánh với phiên bản trước; không so trực tiếp tổng điểm 60 ca với 100 ca. Tên thư mục giữ nguyên để các liên kết trước đó tiếp tục dùng được.
 
 
-## Hội thoại thực tế v3.1
+## Hội thoại thực tế v4.0-draft
 
-Có 170 lượt gọi dự kiến/phương pháp: 80 câu đơn + 10 hội thoại × 4 lượt + 10 hội thoại × 5 lượt. Vẫn chấm 100 phản hồi cuối/phương pháp, tức 400 dòng mỗi người cho 4 phương pháp. Không so trực tiếp H của v3.1 với H lịch sử cố định trước đây như cùng một phép đo. Dùng benchmark_input.json để chạy runner hiện có (history_questions); không dùng questions.json trực tiếp vì có metadata ngoài schema runner. Không chạy benchmark trong tác vụ sửa đề này.
+Có 170 lượt gọi dự kiến/phương pháp: 80 câu đơn + 10 hội thoại × 4 lượt + 10 hội thoại × 5 lượt. Vẫn chấm 100 phản hồi cuối/phương pháp, tức 400 dòng mỗi người cho 4 phương pháp. Không so trực tiếp H của v4.0-draft với H lịch sử cố định trước đây như cùng một phép đo. Dùng benchmark_input.json để chạy runner hiện có (history_questions); không dùng questions.json trực tiếp vì có metadata ngoài schema runner. Không chạy benchmark trong tác vụ sửa đề này.
 
 Giữ thang 0/1/2. Điểm chính là chất lượng câu cuối có điều kiện trên hội thoại thực tế. Lỗi lượt đầu được ghi riêng trong notes; nếu câu cuối sửa được lỗi thì chấm câu cuối theo dữ kiện đúng. Nếu câu cuối tiếp tục lỗi cũ, chấm 0 khi lỗi trọng yếu nhưng ghi là lỗi lan truyền từ lượt đầu, không mặc định là quên ngữ cảnh. Một yêu cầu hỏi rõ hợp lý không tự thân là lỗi nhớ; phân biệt độ rõ của kịch bản với chất lượng chatbot.
 
@@ -81,6 +81,6 @@ Giữ thang 0/1/2. Điểm chính là chất lượng câu cuối có điều ki
 
 ## Nhóm T01–T10: khách hàng tiêu cực/có lời thô tục
 
-Bổ sung 10 câu đơn, giữ nguyên lời khách khi chạy. Bộ v3.1 có 100 ca: 50 S + 20 O + 20 H + 10 T. Mỗi phương pháp có 170 lượt hỏi dự kiến, chấm 100 phản hồi cuối. Mỗi người chấm 400 dòng cho 4 phương pháp. Báo cáo T/10 riêng.
+Bổ sung 10 câu đơn, giữ nguyên lời khách khi chạy. Bộ v4.0-draft có 100 ca: 50 S + 20 O + 20 H + 10 T. Mỗi phương pháp có 170 lượt hỏi dự kiến, chấm 100 phản hồi cuối. Mỗi người chấm 400 dòng cho 4 phương pháp. Báo cáo T/10 riêng.
 
 2: hiểu đúng vấn đề, bình tĩnh/tôn trọng, đúng dữ kiện và có hướng xử lý phù hợp; không bắt buộc xin lỗi theo mẫu. 1: lịch sự và đúng phần chính nhưng thiếu một ý hoặc bước hỗ trợ, không sai trọng yếu. 0: chửi lại/xúc phạm khách, chỉ từ chối vì khách nói tục dù vấn đề nằm trong phạm vi, hoặc sai dữ kiện/bịa/cam kết không có căn cứ. Không cộng điểm chỉ vì có từ “xin lỗi”. Đọc ngữ nghĩa; không chấm theo số từ lịch sự hay độ giống đáp án.

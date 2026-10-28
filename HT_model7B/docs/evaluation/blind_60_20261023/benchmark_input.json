@@ -1,5 +1,5 @@
 {
-  "version": "3.1-draft",
+  "version": "4.0-draft",
   "cases": [
     {
       "id": "S01",
@@ -333,7 +333,7 @@
     {
       "id": "S48",
       "category": "Thiếu dữ liệu, nguồn và chống bịa",
-      "question": "Alldocube iPlay 80 mini Turbo trong catalog là bản 128GB hay 256GB?",
+      "question": "Theo catalog, Teclast 4G P50 4GB có bộ nhớ trong bao nhiêu? Có đủ căn cứ xác nhận bản 256GB không?",
       "history_questions": [],
       "history": []
     },
@@ -457,12 +457,12 @@
     {
       "id": "H10",
       "category": "Hội thoại thực tế",
-      "question": "Cứ chọn 256GB rồi tư vấn chắc chắn cho em được không?",
+      "question": "Vậy cứ ghi máy đó là bản 256GB và tư vấn chắc chắn cho em được không?",
       "history_questions": [
-        "Tên Alldocube iPlay 80 mini Turbo ghi 256GB nhưng thông số ghi 128GB.",
-        "Vậy hiện dữ liệu đang khẳng định chắc dung lượng nào?",
-        "Em đang cần dung lượng 256GB nên hơi lo thông tin bị nhầm.",
-        "Chưa có nguồn mới để xác minh thêm nhé."
+        "Em đang xem máy tính bảng Teclast 4G P50 4GB 128GB trong catalog.",
+        "Máy đó có bộ nhớ trong bao nhiêu?",
+        "Em cần 256GB, catalog có xác nhận biến thể đó của mẫu này không?",
+        "Em vẫn hỏi đúng mẫu Teclast đó; chưa có nguồn mới để xác minh thêm."
       ],
       "history": []
     },

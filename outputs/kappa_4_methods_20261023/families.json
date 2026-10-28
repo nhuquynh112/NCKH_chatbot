@@ -1,5 +1,5 @@
 {
-  "rule": "v3.1: union shared explicit SKU/FAQ evidence, including negative-attitude paraphrases; iPhone O03/O04/O05 linked. Predeclared before scoring.",
+  "rule": "v4.0-draft: union shared explicit SKU/FAQ evidence, including negative-attitude paraphrases; iPhone O03/O04/O05 linked. Predeclared before scoring.",
   "case_to_family": {
     "S01": "H01",
     "S02": "H01",

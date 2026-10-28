@@ -1,4 +1,4 @@
-# Bộ 100 ca — v3.1
+# Bộ 100 ca — v4.0-draft
 
 50 câu đơn gốc + 20 câu ngoài nguồn + 20 hội thoại (4–5 lượt) + 10 câu khách hàng tiêu cực/có lời thô tục. Chấm theo ngữ nghĩa và ngữ cảnh; chỉ chấm phản hồi cuối của mỗi ca.
 
@@ -286,7 +286,7 @@
 
 ## S48
 
-**Người dùng — lượt 1 (chấm):** Alldocube iPlay 80 mini Turbo trong catalog là bản 128GB hay 256GB?
+**Người dùng — lượt 1 (chấm):** Theo catalog, Teclast 4G P50 4GB có bộ nhớ trong bao nhiêu? Có đủ căn cứ xác nhận bản 256GB không?
 
 **Chatbot:** tự trả lời; giữ nguyên trong cùng phiên.
 
@@ -482,23 +482,23 @@
 
 ## H10
 
-**Người dùng — lượt 1:** Tên Alldocube iPlay 80 mini Turbo ghi 256GB nhưng thông số ghi 128GB.
+**Người dùng — lượt 1:** Em đang xem máy tính bảng Teclast 4G P50 4GB 128GB trong catalog.
 
 **Chatbot:** tự trả lời; giữ nguyên trong cùng phiên.
 
-**Người dùng — lượt 2:** Vậy hiện dữ liệu đang khẳng định chắc dung lượng nào?
+**Người dùng — lượt 2:** Máy đó có bộ nhớ trong bao nhiêu?
 
 **Chatbot:** tự trả lời; giữ nguyên trong cùng phiên.
 
-**Người dùng — lượt 3:** Em đang cần dung lượng 256GB nên hơi lo thông tin bị nhầm.
+**Người dùng — lượt 3:** Em cần 256GB, catalog có xác nhận biến thể đó của mẫu này không?
 
 **Chatbot:** tự trả lời; giữ nguyên trong cùng phiên.
 
-**Người dùng — lượt 4:** Chưa có nguồn mới để xác minh thêm nhé.
+**Người dùng — lượt 4:** Em vẫn hỏi đúng mẫu Teclast đó; chưa có nguồn mới để xác minh thêm.
 
 **Chatbot:** tự trả lời; giữ nguyên trong cùng phiên.
 
-**Người dùng — lượt 5 (chấm):** Cứ chọn 256GB rồi tư vấn chắc chắn cho em được không?
+**Người dùng — lượt 5 (chấm):** Vậy cứ ghi máy đó là bản 256GB và tư vấn chắc chắn cho em được không?
 
 **Chatbot:** tự trả lời; giữ nguyên trong cùng phiên.
 
