@@ -32,6 +32,10 @@ training_runs/
 !HT_model3B/backend/models/techcare-support-3b-v1/techcare-support-3b-v1-Q4_K_M.gguf
 !HT_model3B/backend/models/techcare-support-3b-v1/adapter/adapter_model.safetensors
 ~$*.docx
+~$*.xlsx
+~$*.pptx
+.~lock.*#
+*.xlsx.inspect.ndjson
 .DS_Store
 Thumbs.db
 desktop.ini
