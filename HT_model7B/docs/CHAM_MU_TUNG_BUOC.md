@@ -160,13 +160,17 @@ Giữ bản gốc hai người nộp, sao chép để phân tích. Không sửa 
 
 ## 10. Tính kappa và khoảng tin cậy
 
-Đặt hai file đã chấm cạnh tinh_kappa.py, mapping_RIENG.json, families.json. Tại thư mục đó chạy:
+Hai phiếu đã chấm nằm trong `outputs/cham_mu_100_20261028/`; script và bảng quy đổi nằm trong `outputs/kappa_4_methods_20261023/`. Kết quả ngày 01/11/2026 đã được lưu trong [outputs/ket_qua_kappa_20261101](../../outputs/ket_qua_kappa_20261101/BAO_CAO.md), gồm `BAO_CAO.md`, `statistics.json` và `bat_dong.json`. Đây là kết quả chấm, không phải log nội bộ hoặc phản hồi do model chạy lại.
 
-```bash
-python3 tinh_kappa.py Phieu_R1.xlsx Phieu_R2.xlsx --out ket_qua_kappa_lan1
+Để tính lại, đứng tại **thư mục gốc repository** rồi chạy lệnh sau. Các đường dẫn đều tương đối, không phụ thuộc ổ đĩa trên máy tác giả:
+
+```powershell
+python outputs/kappa_4_methods_20261023/tinh_kappa.py outputs/cham_mu_100_20261028/Phieu_R1.xlsx outputs/cham_mu_100_20261028/Phieu_R2.xlsx --mapping outputs/kappa_4_methods_20261023/mapping_RIENG.json --families outputs/kappa_4_methods_20261023/families.json --out outputs/ket_qua_kappa_lan2
 ```
 
-Windows có thể dùng `python`. Không cần cài thư viện thêm. Công cụ yêu cầu đủ 400 dòng và cặp phản hồi/lịch sử trùng nhau; ô thiếu hoặc mã sai sẽ bị báo lỗi. Không coi ô trống là 0. Tên thư mục kết quả phải mới.
+Linux có thể dùng `python3` thay `python`. Không cần cài thư viện thêm. Công cụ yêu cầu đủ 400 dòng và cặp phản hồi/lịch sử trùng nhau; ô thiếu hoặc mã sai sẽ bị báo lỗi. Không coi ô trống là 0. Tên thư mục kết quả phải mới; lần sau đổi `lan2` thành tên khác để giữ nguyên kết quả trước.
+
+Khi chia sẻ qua Git, cần đưa cả hai phiếu đã chấm và thư mục kết quả vào cùng phiên bản để người nhận có đủ đầu vào tính lại. Không thay điểm độc lập bằng điểm hòa giải trong hai phiếu này. `bat_dong.json` chứa tên phương pháp và hai điểm, chỉ mở sau khi khóa điểm độc lập.
 
 Đọc BAO_CAO.md để xem đồng thuận, kappa tuyến tính và CI 95%; statistics.json có chi tiết; bat_dong.json liệt kê ca chấm khác. Kappa đo sự đồng thuận giữa hai người, không phải độ chính xác của chatbot. CI dùng bootstrap theo family, không coi 400 phản hồi là 400 câu hỏi độc lập.
 

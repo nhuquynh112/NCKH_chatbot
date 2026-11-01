@@ -1,0 +1,902 @@
+[
+  {
+    "blind_id": "K9258F19478",
+    "method": "B0",
+    "case_id": "S26",
+    "R1_row": 76,
+    "R2_row": 321,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K30E71B741A",
+    "method": "B0",
+    "case_id": "S27",
+    "R1_row": 314,
+    "R2_row": 163,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KA24CE873C3",
+    "method": "B0",
+    "case_id": "S28",
+    "R1_row": 280,
+    "R2_row": 151,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KCCC3BFFC8C",
+    "method": "B0",
+    "case_id": "S29",
+    "R1_row": 16,
+    "R2_row": 304,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KB41B1F9F77",
+    "method": "B0",
+    "case_id": "S30",
+    "R1_row": 262,
+    "R2_row": 284,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K7CF7A14424",
+    "method": "B0",
+    "case_id": "S33",
+    "R1_row": 174,
+    "R2_row": 221,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "KC7434772C0",
+    "method": "B0",
+    "case_id": "S35",
+    "R1_row": 249,
+    "R2_row": 205,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K90A167FB25",
+    "method": "B0",
+    "case_id": "S38",
+    "R1_row": 159,
+    "R2_row": 224,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K04484D06AD",
+    "method": "B0",
+    "case_id": "S41",
+    "R1_row": 91,
+    "R2_row": 260,
+    "R1": 0,
+    "R2": 2
+  },
+  {
+    "blind_id": "K13563F3016",
+    "method": "B0",
+    "case_id": "S43",
+    "R1_row": 181,
+    "R2_row": 288,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K330A9C8106",
+    "method": "B0",
+    "case_id": "S46",
+    "R1_row": 10,
+    "R2_row": 120,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KA1F2353953",
+    "method": "B0",
+    "case_id": "S50",
+    "R1_row": 178,
+    "R2_row": 167,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "K67E4E34209",
+    "method": "B0",
+    "case_id": "O16",
+    "R1_row": 287,
+    "R2_row": 58,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K5ED7DE2628",
+    "method": "B0",
+    "case_id": "O18",
+    "R1_row": 232,
+    "R2_row": 61,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "KC474004E28",
+    "method": "B0",
+    "case_id": "O19",
+    "R1_row": 17,
+    "R2_row": 65,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K029A119669",
+    "method": "B1",
+    "case_id": "S04",
+    "R1_row": 105,
+    "R2_row": 52,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KD96AEBBFA8",
+    "method": "B1",
+    "case_id": "S06",
+    "R1_row": 288,
+    "R2_row": 47,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KF0FB97D63D",
+    "method": "B1",
+    "case_id": "S14",
+    "R1_row": 300,
+    "R2_row": 79,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KF6156260F3",
+    "method": "B1",
+    "case_id": "S16",
+    "R1_row": 86,
+    "R2_row": 189,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K14E8E184A9",
+    "method": "B1",
+    "case_id": "S32",
+    "R1_row": 52,
+    "R2_row": 253,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K0B97CBA956",
+    "method": "B1",
+    "case_id": "S33",
+    "R1_row": 9,
+    "R2_row": 241,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KADA36FC13E",
+    "method": "B1",
+    "case_id": "S35",
+    "R1_row": 100,
+    "R2_row": 243,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "K6F9AED20A3",
+    "method": "B1",
+    "case_id": "S36",
+    "R1_row": 47,
+    "R2_row": 238,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K8795C46DD6",
+    "method": "B1",
+    "case_id": "S37",
+    "R1_row": 137,
+    "R2_row": 150,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "KD4670D1CBA",
+    "method": "B1",
+    "case_id": "S38",
+    "R1_row": 230,
+    "R2_row": 200,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K94956100CD",
+    "method": "B1",
+    "case_id": "S40",
+    "R1_row": 127,
+    "R2_row": 126,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KAD6E5CAFB3",
+    "method": "B1",
+    "case_id": "S43",
+    "R1_row": 313,
+    "R2_row": 86,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "KB1BCF0795C",
+    "method": "B1",
+    "case_id": "S44",
+    "R1_row": 218,
+    "R2_row": 193,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K3AF1D06816",
+    "method": "B1",
+    "case_id": "S45",
+    "R1_row": 284,
+    "R2_row": 100,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K3C9E6F22B0",
+    "method": "B1",
+    "case_id": "S47",
+    "R1_row": 305,
+    "R2_row": 178,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "K054DAA8088",
+    "method": "B1",
+    "case_id": "S48",
+    "R1_row": 24,
+    "R2_row": 252,
+    "R1": 0,
+    "R2": 2
+  },
+  {
+    "blind_id": "KE9AB009C0B",
+    "method": "B1",
+    "case_id": "S49",
+    "R1_row": 158,
+    "R2_row": 123,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KB16B95CEB4",
+    "method": "B1",
+    "case_id": "S50",
+    "R1_row": 48,
+    "R2_row": 164,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K945640284A",
+    "method": "B1",
+    "case_id": "H09",
+    "R1_row": 291,
+    "R2_row": 132,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "K0C5BC8ECA3",
+    "method": "B1",
+    "case_id": "H10",
+    "R1_row": 211,
+    "R2_row": 270,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K206664567C",
+    "method": "B1",
+    "case_id": "O01",
+    "R1_row": 26,
+    "R2_row": 102,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "K7955A1918A",
+    "method": "B1",
+    "case_id": "O11",
+    "R1_row": 139,
+    "R2_row": 160,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "K06CAE3CE89",
+    "method": "B1",
+    "case_id": "O16",
+    "R1_row": 175,
+    "R2_row": 166,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "K96667A6394",
+    "method": "B1",
+    "case_id": "O17",
+    "R1_row": 130,
+    "R2_row": 196,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K14DC9586B8",
+    "method": "B1",
+    "case_id": "O19",
+    "R1_row": 155,
+    "R2_row": 310,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "K13BA709030",
+    "method": "B1",
+    "case_id": "O20",
+    "R1_row": 140,
+    "R2_row": 201,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "K354881FED5",
+    "method": "B2",
+    "case_id": "S22",
+    "R1_row": 199,
+    "R2_row": 244,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "KAD1AB14B75",
+    "method": "B2",
+    "case_id": "S23",
+    "R1_row": 200,
+    "R2_row": 268,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "KF521682169",
+    "method": "B2",
+    "case_id": "S24",
+    "R1_row": 254,
+    "R2_row": 67,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "KAA161E8CCA",
+    "method": "B2",
+    "case_id": "S25",
+    "R1_row": 220,
+    "R2_row": 124,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K89219FFE96",
+    "method": "B2",
+    "case_id": "S26",
+    "R1_row": 25,
+    "R2_row": 101,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K6A610C85F1",
+    "method": "B2",
+    "case_id": "S31",
+    "R1_row": 180,
+    "R2_row": 231,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K6C39476B80",
+    "method": "B2",
+    "case_id": "S33",
+    "R1_row": 95,
+    "R2_row": 57,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K37141BA36D",
+    "method": "B2",
+    "case_id": "S41",
+    "R1_row": 282,
+    "R2_row": 19,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K96CB3CF7D0",
+    "method": "B2",
+    "case_id": "S45",
+    "R1_row": 61,
+    "R2_row": 103,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K7524C65BD8",
+    "method": "B2",
+    "case_id": "H02",
+    "R1_row": 214,
+    "R2_row": 56,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K4AF35D6B8D",
+    "method": "B2",
+    "case_id": "H06",
+    "R1_row": 56,
+    "R2_row": 277,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K9AA1D6C34D",
+    "method": "B2",
+    "case_id": "O01",
+    "R1_row": 255,
+    "R2_row": 240,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KE5F38234FF",
+    "method": "B2",
+    "case_id": "O04",
+    "R1_row": 122,
+    "R2_row": 206,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "KE3B51605EE",
+    "method": "B2",
+    "case_id": "O09",
+    "R1_row": 106,
+    "R2_row": 259,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KC05556EDA1",
+    "method": "B2",
+    "case_id": "O12",
+    "R1_row": 289,
+    "R2_row": 280,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K21A9B4636F",
+    "method": "P",
+    "case_id": "S16",
+    "R1_row": 14,
+    "R2_row": 76,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K702B58E0C3",
+    "method": "P",
+    "case_id": "S26",
+    "R1_row": 248,
+    "R2_row": 212,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K1512736220",
+    "method": "P",
+    "case_id": "S27",
+    "R1_row": 113,
+    "R2_row": 26,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KAC106DD5D0",
+    "method": "P",
+    "case_id": "S28",
+    "R1_row": 74,
+    "R2_row": 302,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KA898A15031",
+    "method": "P",
+    "case_id": "S30",
+    "R1_row": 110,
+    "R2_row": 64,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K7381A1772A",
+    "method": "P",
+    "case_id": "S31",
+    "R1_row": 208,
+    "R2_row": 216,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "KAEE3314DAA",
+    "method": "P",
+    "case_id": "S44",
+    "R1_row": 168,
+    "R2_row": 267,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KAFCA449027",
+    "method": "P",
+    "case_id": "S46",
+    "R1_row": 46,
+    "R2_row": 119,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K50E1717949",
+    "method": "P",
+    "case_id": "S47",
+    "R1_row": 145,
+    "R2_row": 34,
+    "R1": 0,
+    "R2": 2
+  },
+  {
+    "blind_id": "K5B4EDB3B2F",
+    "method": "P",
+    "case_id": "H10",
+    "R1_row": 189,
+    "R2_row": 298,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KF4F48E2156",
+    "method": "P",
+    "case_id": "O07",
+    "R1_row": 93,
+    "R2_row": 179,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K94A29489CD",
+    "method": "P",
+    "case_id": "O13",
+    "R1_row": 244,
+    "R2_row": 326,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KA0685098BF",
+    "method": "P",
+    "case_id": "O15",
+    "R1_row": 112,
+    "R2_row": 40,
+    "R1": 0,
+    "R2": 2
+  },
+  {
+    "blind_id": "K54AFD25C48",
+    "method": "P",
+    "case_id": "O17",
+    "R1_row": 264,
+    "R2_row": 185,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K1E33F94B5C",
+    "method": "P",
+    "case_id": "O20",
+    "R1_row": 222,
+    "R2_row": 254,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "K27FB7289F2",
+    "method": "B0",
+    "case_id": "H17",
+    "R1_row": 364,
+    "R2_row": 351,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K42243C566F",
+    "method": "B1",
+    "case_id": "H12",
+    "R1_row": 356,
+    "R2_row": 345,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "KDB7680EA79",
+    "method": "B1",
+    "case_id": "H14",
+    "R1_row": 366,
+    "R2_row": 339,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K4A2E34011C",
+    "method": "B1",
+    "case_id": "H15",
+    "R1_row": 329,
+    "R2_row": 356,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "KD44E292330",
+    "method": "B1",
+    "case_id": "H16",
+    "R1_row": 335,
+    "R2_row": 367,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "KD78E258B8D",
+    "method": "B1",
+    "case_id": "H18",
+    "R1_row": 342,
+    "R2_row": 363,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K3870D16B9A",
+    "method": "B1",
+    "case_id": "H19",
+    "R1_row": 337,
+    "R2_row": 344,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K7E68115A15",
+    "method": "B1",
+    "case_id": "H20",
+    "R1_row": 361,
+    "R2_row": 341,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "KD01CBF19A7",
+    "method": "B2",
+    "case_id": "H12",
+    "R1_row": 330,
+    "R2_row": 359,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "KC05E13951E",
+    "method": "B2",
+    "case_id": "H14",
+    "R1_row": 338,
+    "R2_row": 362,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K6DA6219D05",
+    "method": "B2",
+    "case_id": "H15",
+    "R1_row": 360,
+    "R2_row": 336,
+    "R1": 2,
+    "R2": 0
+  },
+  {
+    "blind_id": "K7EA7AF03B4",
+    "method": "B2",
+    "case_id": "H17",
+    "R1_row": 367,
+    "R2_row": 361,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K23721B6DDF",
+    "method": "B2",
+    "case_id": "H18",
+    "R1_row": 363,
+    "R2_row": 353,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K983AB21A40",
+    "method": "B2",
+    "case_id": "H19",
+    "R1_row": 362,
+    "R2_row": 330,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K6622F6641B",
+    "method": "P",
+    "case_id": "H12",
+    "R1_row": 352,
+    "R2_row": 355,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "KC217EA692C",
+    "method": "P",
+    "case_id": "H14",
+    "R1_row": 350,
+    "R2_row": 368,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K9472F52F7C",
+    "method": "P",
+    "case_id": "H16",
+    "R1_row": 351,
+    "R2_row": 329,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K50CA7AB18B",
+    "method": "B0",
+    "case_id": "T04",
+    "R1_row": 399,
+    "R2_row": 382,
+    "R1": 1,
+    "R2": 0
+  },
+  {
+    "blind_id": "K910CCB4419",
+    "method": "B0",
+    "case_id": "T06",
+    "R1_row": 405,
+    "R2_row": 371,
+    "R1": 0,
+    "R2": 1
+  },
+  {
+    "blind_id": "K9FD9F0C957",
+    "method": "B1",
+    "case_id": "T02",
+    "R1_row": 401,
+    "R2_row": 381,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KB3C29BB6C3",
+    "method": "B1",
+    "case_id": "T04",
+    "R1_row": 407,
+    "R2_row": 393,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K548F91369F",
+    "method": "B1",
+    "case_id": "T05",
+    "R1_row": 400,
+    "R2_row": 404,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KB73BD72C00",
+    "method": "B1",
+    "case_id": "T06",
+    "R1_row": 386,
+    "R2_row": 406,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K3D29521320",
+    "method": "B1",
+    "case_id": "T09",
+    "R1_row": 406,
+    "R2_row": 403,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "K906041B36A",
+    "method": "B2",
+    "case_id": "T03",
+    "R1_row": 403,
+    "R2_row": 384,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "KC3FF0E82A2",
+    "method": "P",
+    "case_id": "T01",
+    "R1_row": 389,
+    "R2_row": 369,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "KAC93D18499",
+    "method": "P",
+    "case_id": "T07",
+    "R1_row": 371,
+    "R2_row": 387,
+    "R1": 1,
+    "R2": 2
+  },
+  {
+    "blind_id": "K9E3385B774",
+    "method": "P",
+    "case_id": "T08",
+    "R1_row": 404,
+    "R2_row": 386,
+    "R1": 2,
+    "R2": 1
+  },
+  {
+    "blind_id": "KE2220ADD9E",
+    "method": "P",
+    "case_id": "T09",
+    "R1_row": 373,
+    "R2_row": 399,
+    "R1": 1,
+    "R2": 2
+  }
+]
