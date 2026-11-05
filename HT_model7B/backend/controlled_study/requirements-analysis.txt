@@ -1,0 +1,2 @@
+# Optional: reading human rating workbooks; inference dependencies stay unchanged.
+openpyxl==3.1.5

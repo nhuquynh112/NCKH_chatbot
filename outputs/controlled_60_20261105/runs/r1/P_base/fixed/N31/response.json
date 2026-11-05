@@ -1,0 +1,116 @@
+{
+  "status": "ok",
+  "answer": "Tai nghe Bluetooth True Wireless GOOJODOQ J241: giá 159.000 VND; bảo hành 3 tháng.",
+  "sources": [
+    {
+      "id": "retailer-tai-nghe-bluetooth-goojodoq-j241-1",
+      "title": "CellphoneS – Tai nghe Bluetooth True Wireless GOOJODOQ J241",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Tai nghe Bluetooth True Wireless GOOJODOQ J241",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/tai-nghe-bluetooth-goojodoq-j241.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_013",
+      "title": "Tai nghe",
+      "score": 1.0,
+      "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Tai nghe\n\n## Tai nghe\n\nThương hiệu trong catalog: Apple Chính hãng, Goojodoq, Havit, HyperX, Robot, Sony.\n\n---",
+      "metadata": {
+        "source": "knowledge_base.md",
+        "parent": "DANH MỤC SẢN PHẨM",
+        "title": "Tai nghe"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [
+    {
+      "role": "user",
+      "content": "Tôi từng xem Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4). Giá catalog 3,790,000 VND. Bảo hành trong catalog: 12 tháng."
+    },
+    {
+      "role": "user",
+      "content": "Giờ ưu tiên Tai nghe Bluetooth True Wireless GOOJODOQ J241."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Tai nghe Bluetooth True Wireless GOOJODOQ J241. Giá catalog 159,000 VND. Bảo hành trong catalog: 3 tháng."
+    }
+  ],
+  "latency_ms": 452.6194999998552,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "base",
+    "adapter_loaded": false,
+    "active_adapters": [],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T14:27:00.910242+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "tai-nghe-bluetooth-goojodoq-j241",
+      "use_history_for_retrieval": true,
+      "retrieval_question": "Chiếc bluetooth giá thấp này có được hưởng bảo hành 12 tháng giống mẫu trước không?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nTai nghe Bluetooth True Wireless GOOJODOQ J241 (tai-nghe-bluetooth-goojodoq-j241), nhóm Tai nghe, giá 159.000 VND.\nTai nghe Bluetooth True Wireless GOOJODOQ J241. Micro: Có; Thời lượng sử dụng Pin: Tai nghe: 6 giờ Hộp sạc: 30 giờ; Phương thức điều khiển: Cảm ứng chạm — Micro: Có, Thời lượng sử dụng Pin: Tai nghe: 6 giờ Hộp sạc: 30 giờ, Phương thức điều khiển: Cảm ứng chạm, Hãng sản xuất: Goojodoq",
+      "history_messages": 4
+    }
+  ],
+  "whole_worker_ms": 1096.2393000008888,
+  "study_condition": "base"
+}

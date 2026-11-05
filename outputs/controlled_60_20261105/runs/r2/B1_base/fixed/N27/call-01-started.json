@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Ban đầu tôi hỏi vivo Y16 4GB 128GB.\nassistant: Mẫu đang trao đổi: vivo Y16 4GB 128GB. Giá catalog 4,490,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Bây giờ xem Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W.\nassistant: Mẫu đang trao đổi: Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W. Giá catalog 3,990,000 VND. Bảo hành trong catalog: 60 tháng.\n\nTrạm sạc đó được ghi bảo hành bao lâu? Tôi đã chuyển chủ đề khỏi điện thoại rồi nhé.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Nếu dùng Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W chạy tủ lạnh nhà tôi thì chắc được mấy ngày? Tôi chưa cung cấp công suất tủ lạnh.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Để trả lời câu hỏi của bạn, tôi cần biết công suất tiêu thụ điện của tủ lạnh nhà bạn. Tuy nhiên, tôi có thể cung cấp một số thông tin để bạn tính toán.\n\nTrạm Sạc Dự Phòng Di Động Ecoflow Trail 200 có dung lượng 192Wh và công suất 220W. Dung lượng 192Wh tương đương với 0.192 kWh.\n\nĐể tính toán thời gian hoạt động, bạn cần biết công suất tiêu thụ điện của tủ lạnh. Ví dụ, nếu tủ lạnh tiêu thụ 1 kWh/ngày, thì thời gian hoạt động dự kiến sẽ là:\n\n192Wh / 1000Wh = 0.192 kWh\n0.192 kWh / 1 kWh = 0.192 ngày\n\nNhư vậy, với công suất tiêu thụ 1 kWh/ngày, trạm sạc dự phòng có thể cung cấp năng lượng cho tủ lạnh trong khoảng 0.192 ngày.\n\nBạn có thể sử dụng công thức sau để tính toán:\n\nThời gian hoạt động (ngày) = Dung lượng trạm sạc (kWh) / Công suất tiêu thụ của tủ lạnh (kWh/ngày)\n\nBạn có thể cung cấp công suất tiêu thụ của tủ lạnh để tôi có thể tính toán chính xác hơn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 24019.358200006536,
+    "input_tokens": 127,
+    "output_tokens": 294,
+    "peak_allocated_bytes": 8878078464,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 24034.51910000149,
+  "phase": "final"
+}

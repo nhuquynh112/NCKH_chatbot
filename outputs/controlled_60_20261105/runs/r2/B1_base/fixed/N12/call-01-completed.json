@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Tôi đọc tên Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W có chữ 192Wh và 220W. Hãy phân biệt hai con số này theo các trường dung lượng/công suất trong catalog.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Trong mô tả sản phẩm Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200, hai con số 192Wh và 220W có ý nghĩa khác nhau:\n\n1. **192Wh (Wh)**: Đây là dung lượng pin của trạm sạc. Dung lượng pin đo lường năng lượng mà pin có thể lưu trữ, thường được đo bằng watt-hour (Wh). Trong trường hợp này, pin có dung lượng 192Wh, nghĩa là nó có thể cung cấp năng lượng cho thiết bị trong 192 giờ với công suất 1 watt, hoặc trong 32 giờ với công suất 6 watts, và v.v.\n\n2. **220W (W)**: Đây là công suất tối đa mà trạm sạc có thể cung cấp. Công suất đo lường năng lượng được cung cấp trong một giây, thường được đo bằng watt (W). Trong trường hợp này, trạm sạc có thể cung cấp tối đa 220W, nghĩa là nó có thể cung cấp năng lượng cho thiết bị có công suất lên đến 220W trong một giây.\n\nNếu bạn cần thêm thông tin hoặc có câu hỏi khác về sản phẩm, hãy cho tôi biết nhé!",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 22349.005300005956,
+    "input_tokens": 139,
+    "output_tokens": 276,
+    "peak_allocated_bytes": 8885268480,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 22351.396499994735,
+  "phase": "final"
+}

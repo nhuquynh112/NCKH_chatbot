@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi từng xem Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4).\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4). Giá catalog 3,790,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Giờ ưu tiên Tai nghe Bluetooth True Wireless GOOJODOQ J241.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth True Wireless GOOJODOQ J241. Giá catalog 159,000 VND. Bảo hành trong catalog: 3 tháng.\n\nChiếc bluetooth giá thấp này có được hưởng bảo hành 12 tháng giống mẫu trước không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Dựa trên thông tin tôi có, mẫu tai nghe GOOJODOQ J241 có bảo hành trong catalog là 3 tháng, không phải 12 tháng như mẫu AirPods. \n\nNếu bạn muốn được bảo hành 12 tháng, bạn có thể cân nhắc mua mẫu AirPods. Hoặc bạn có thể hỏi thêm về chính sách bảo hành từ nhà cung cấp để có thông tin chính xác nhất.\n\nBạn có muốn tôi tìm thêm thông tin về chính sách bảo hành của mẫu GOOJODOQ J241 không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 10074.80950000172,
+    "input_tokens": 255,
+    "output_tokens": 120,
+    "peak_allocated_bytes": 8872804864,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 10089.8692999981,
+  "phase": "final"
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi từng xem Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4).\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4). Giá catalog 3,790,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Giờ ưu tiên Tai nghe Bluetooth True Wireless GOOJODOQ J241.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth True Wireless GOOJODOQ J241. Giá catalog 159,000 VND. Bảo hành trong catalog: 3 tháng.\n\nChiếc bluetooth giá thấp này có được hưởng bảo hành 12 tháng giống mẫu trước không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

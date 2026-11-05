@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "answer": "Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W: giá 1.590.000 VND; Dung lượng pin: 20000mAh; Lõi pin: Lithium-ion. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+  "sources": [
+    {
+      "id": "retailer-pin-sac-du-phong-ugreen-20000mah-100w-pb723-2c1a-tich-hop-cap-usb-c-100w-1",
+      "title": "CellphoneS – Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/pin-sac-du-phong-ugreen-20000mah-100w-pb723-2c1a-tich-hop-cap-usb-c-100w.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_011",
+      "title": "PC",
+      "score": 1.0,
+      "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: PC\n\n## PC\n\nThương hiệu trong catalog: AMD, ASUS, Apple, Gigabyte, Hãng khác, MSI, intel.\n\n---",
+      "metadata": {
+        "source": "knowledge_base.md",
+        "parent": "DANH MỤC SẢN PHẨM",
+        "title": "PC"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 229.4742000012775,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T15:20:03.269250+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "pin-du-phong-ugreen-20000mah-100w-pb723-2c1a",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Nếu mua Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W lúc này, giá sau mọi ưu đãi cá nhân của tôi chính xác là bao nhiêu?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nPin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W (pin-du-phong-ugreen-20000mah-100w-pb723-2c1a), nhóm Sạc dự phòng, giá 1.590.000 VND.\nPin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W. Dung lượng pin: 20000mAh; Công suất sạc: 100W; Cổng sạc ra: 1 x USB-C 1 x USB-A 1 x cáp USB-C — Dung lượng pin: 20000mAh, Công suất sạc: 100W, Cổng sạc ra: 1 x USB-C 1 x USB-A 1 x cáp USB-C, Cổng sạc vào: 1 x USB-C, Tiện ích: Tương thích với nhiều thiết bị khác nhau Tích hợp cáp USB-C trên pin dự phòng Sạc nhiều thiết bị cùng lúc Dùng sạc được cho laptop, Hiệu suất sạc: ≥ 80%, Lõi pin: Lithium-ion, Kích thước: 5.4 x 5.1 x 13.1 cm, Hãng sản xuất: Ugreen",
+      "history_messages": 0
+    }
+  ],
+  "whole_worker_ms": 713.0176999999094,
+  "study_condition": "ft"
+}

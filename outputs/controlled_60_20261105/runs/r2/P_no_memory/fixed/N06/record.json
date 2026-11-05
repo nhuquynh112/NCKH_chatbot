@@ -1,0 +1,114 @@
+{
+  "repeat": 2,
+  "configuration": "P_no_memory",
+  "phase": "fixed",
+  "case_id": "N06",
+  "family": "S-159",
+  "category": "S",
+  "question": "Đồng hồ thông minh Suunto Race đắt hơn Đồng hồ thể thao định vị Suunto Run bao nhiêu và màn hình hai chiếc có cùng loại công nghệ không?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Đồng hồ thông minh Suunto Race: Công nghệ màn hình: AMOLED, Kích thước màn hình: 1.43 inch. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+    "sources": [
+      {
+        "id": "retailer-dong-ho-thong-minh-suunto-race-1",
+        "title": "CellphoneS – Đồng hồ thông minh Suunto Race",
+        "score": 1.0,
+        "content": "Nguồn nhà bán lẻ tham khảo cho Đồng hồ thông minh Suunto Race",
+        "metadata": {
+          "source": "retailer_reference",
+          "url": "https://cellphones.com.vn/dong-ho-thong-minh-suunto-race.html",
+          "verified_at": ""
+        }
+      },
+      {
+        "id": "doc_015",
+        "title": "Đồng hồ thông minh",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Đồng hồ thông minh\n\n## Đồng hồ thông minh\n\nThương hiệu trong catalog: Apple Chính hãng, Garmin, Huawei, OPPO, Suunto.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Đồng hồ thông minh"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 258.7671000001137,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:27:25.406606+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": false,
+        "resolved_product": null,
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Đồng hồ thông minh Suunto Race đắt hơn Đồng hồ thể thao định vị Suunto Run bao nhiêu và màn hình hai chiếc có cùng loại công nghệ không?",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 795.9562000032747,
+    "study_condition": "base"
+  },
+  "wall_ms": 1367.061199998716,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 880 MiB, 32 %, 68",
+  "finished_utc": "2026-11-05T15:36:41.207367+00:00"
+}

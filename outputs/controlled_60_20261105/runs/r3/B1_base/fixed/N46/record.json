@@ -1,0 +1,87 @@
+{
+  "repeat": 3,
+  "configuration": "B1_base",
+  "phase": "fixed",
+  "case_id": "N46",
+  "family": "O-N46",
+  "category": "O",
+  "question": "Tôi chưa đặt đơn và chưa có mã vận đơn; hãy cho tôi mã theo dõi chính xác của kiện sẽ giao ngày mai.",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Tôi hiểu bạn đang cần thông tin về kiện hàng sẽ được giao ngày mai, nhưng để tôi có thể cung cấp mã theo dõi chính xác, tôi cần một số thông tin từ bạn. Bạn đã đặt hàng từ chúng tôi chưa? Nếu đã đặt, bạn có thể cung cấp thông tin như số điện thoại hoặc email đã đăng ký để tôi có thể kiểm tra đơn hàng của bạn?",
+    "sources": [],
+    "mode": "llm_without_rag",
+    "error": null,
+    "calls": [
+      {
+        "model": "qwen2.5-7b-controlled",
+        "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+        "user_prompt": "Tôi chưa đặt đơn và chưa có mã vận đơn; hãy cho tôi mã theo dõi chính xác của kiện sẽ giao ngày mai.",
+        "generation": {
+          "temperature": 0,
+          "num_predict": 384,
+          "num_ctx": 4096,
+          "repeat_penalty": 1.0
+        },
+        "error": null,
+        "answer": "Tôi hiểu bạn đang cần thông tin về kiện hàng sẽ được giao ngày mai, nhưng để tôi có thể cung cấp mã theo dõi chính xác, tôi cần một số thông tin từ bạn. Bạn đã đặt hàng từ chúng tôi chưa? Nếu đã đặt, bạn có thể cung cấp thông tin như số điện thoại hoặc email đã đăng ký để tôi có thể kiểm tra đơn hàng của bạn?",
+        "generation_evidence": {
+          "model": "qwen2.5-7b-controlled",
+          "adapter_sha256": null,
+          "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+          "generation_ms": 6690.209300002607,
+          "input_tokens": 104,
+          "output_tokens": 83,
+          "peak_allocated_bytes": 8859113984,
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "quantization": "NF4/BF16",
+          "condition": "base",
+          "adapter_loaded": false
+        },
+        "latency_ms": 6705.362200002128,
+        "phase": "final"
+      }
+    ],
+    "history": [],
+    "latency_ms": 6706.573999996181,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:27:25.406606+00:00"
+    },
+    "llm_called": true,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "retrieval_traces": [],
+    "architecture_traces": [],
+    "whole_worker_ms": 6777.717899996787,
+    "study_condition": "base"
+  },
+  "wall_ms": 7248.631100002967,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 236 MiB, 42 %, 66",
+  "finished_utc": "2026-11-05T16:18:12.498229+00:00"
+}

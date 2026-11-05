@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi cân nhắc Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient.\nassistant: Mẫu đang trao đổi: Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient. Giá catalog 1,690,000 VND. Bảo hành trong catalog: 24 tháng.\nuser: Thôi chuyển sang Bàn phím Bluetooth Logitech K580.\nassistant: Mẫu đang trao đổi: Bàn phím Bluetooth Logitech K580. Giá catalog 990,000 VND. Bảo hành trong catalog: 12 tháng.\n\nChốt theo chiếc Logitech mới chọn: ngân sách 1 triệu trước ship còn dư hay thiếu bao nhiêu?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

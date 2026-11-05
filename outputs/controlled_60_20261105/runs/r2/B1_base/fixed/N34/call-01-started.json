@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi xem Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED.\nassistant: Mẫu đang trao đổi: Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED. Giá catalog 3,250,000 VND. Bảo hành trong catalog: 18 tháng.\nuser: Thêm Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W để đối chiếu.\nassistant: Mẫu đang trao đổi: Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W. Giá catalog 1,590,000 VND. Bảo hành trong catalog: 18 tháng.\n\nTrong hai pin vừa xem, chiếc mang thông số 100W và dung lượng 20000mAh đang có giá nào?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Ngân sách 46 triệu trước phí có mua được OPPO Find X9 Ultra 12GB 512GB theo giá lưu không? Mẫu này có mấy GB RAM và bảo hành mấy tháng?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

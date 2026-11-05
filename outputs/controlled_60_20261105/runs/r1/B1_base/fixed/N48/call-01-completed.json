@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Tôi muốn Lenovo Legion Tab Gen 5 12GB 256GB nhưng đổi RAM thành 32GB ngay tại shop; kho có đúng phiên bản đó không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi rất vui khi hỗ trợ bạn. Để đảm bảo thông tin chính xác, tôi cần xác nhận một số điểm:\n\n1. Bạn đang muốn mua Lenovo Legion Tab Gen 5 với cấu hình sau:\n- RAM: 32GB\n- Lưu trữ: 256GB\n\n2. Bạn muốn thay đổi cấu hình này tại shop của Lenovo?\n\n3. Bạn muốn biết liệu Lenovo có cung cấp phiên bản này tại thời điểm hiện tại không?\n\nTôi cần xác nhận thông tin này để có thể cung cấp thông tin chính xác cho bạn. Cảm ơn bạn đã hợp tác!",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 10878.116700005194,
+    "input_tokens": 114,
+    "output_tokens": 131,
+    "peak_allocated_bytes": 8857890304,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 10892.939999997907,
+  "phase": "final"
+}

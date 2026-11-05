@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Ghi thành hai dòng riêng giá, RAM và dung lượng lưu trữ của Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím và Nubia Pad Pro 12GB 256GB để tôi dự toán mua máy tính bảng.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Dựa trên thông tin bạn cung cấp, tôi sẽ ghi lại các thông số kỹ thuật như sau:\n\n- Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím:\n  Giá: chưa rõ\n  RAM: 12GB\n  Dung lượng lưu trữ: 512GB\n\n- Nubia Pad Pro 12GB 256GB:\n  Giá: chưa rõ\n  RAM: 12GB\n  Dung lượng lưu trữ: 256GB\n\nBạn có thể cung cấp thêm thông tin về giá cả để tôi có thể hỗ trợ bạn dự toán mua máy tính bảng tốt hơn không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 14253.84320000012,
+    "input_tokens": 152,
+    "output_tokens": 162,
+    "peak_allocated_bytes": 8873682944,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 14255.88609999977,
+  "phase": "final"
+}

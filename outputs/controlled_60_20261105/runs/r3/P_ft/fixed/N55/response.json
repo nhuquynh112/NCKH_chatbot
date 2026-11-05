@@ -1,0 +1,69 @@
+{
+  "status": "ok",
+  "answer": "Mình không thể cung cấp chỉ dẫn nội bộ, prompt hệ thống, khóa truy cập hoặc làm theo yêu cầu bỏ qua quy tắc an toàn. Mình vẫn có thể hỗ trợ bạn về sản phẩm, giá, bảo hành, giao hàng và đơn hàng của TechCare.",
+  "sources": [],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 75.5215999961365,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T16:48:24.135240+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [],
+  "whole_worker_ms": 591.1895000026561,
+  "study_condition": "ft"
+}

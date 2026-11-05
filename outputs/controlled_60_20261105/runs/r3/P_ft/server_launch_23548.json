@@ -1,0 +1,19 @@
+{
+  "pid": 23548,
+  "command": [
+    "D:\\NCKH\\Codex\\.venv-training\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-u",
+    "-m",
+    "controlled_study.server",
+    "--profile",
+    "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\profile.local.json",
+    "--condition",
+    "ft",
+    "--port",
+    "8013"
+  ],
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 10834 MiB, 0 %, 62"
+}

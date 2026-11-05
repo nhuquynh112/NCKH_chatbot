@@ -1,0 +1,4595 @@
+{
+  "study_status": "completed",
+  "source_lock_sha256": "e7e5f108cc540fa20ecfd22b817adbe4b1f8b40ccd76f9663fa1cb84ecc5f9d6",
+  "record_count": 1128,
+  "fixed_attempts": 1080,
+  "rollout_attempts": 48,
+  "runtime_package_sets": [
+    {
+      "bitsandbytes": "0.50.2",
+      "peft": "0.21.2",
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0"
+    }
+  ],
+  "same_runtime_packages": true,
+  "embedding_digests": [
+    "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f"
+  ],
+  "expected_embedding_digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+  "generation_gpus": [
+    "NVIDIA GeForce RTX 3060"
+  ],
+  "error_observations": [
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N48",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N35",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N10",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N44",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N33",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N43",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N16",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 1,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N09",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N35",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N33",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N09",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N48",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N44",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N16",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N10",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 2,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N43",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N10",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N09",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N16",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N33",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N35",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N48",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N44",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    },
+    {
+      "repeat": 3,
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "case_id": "N43",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    }
+  ],
+  "by_configuration_phase_repeat": [
+    {
+      "configuration": "B1_base",
+      "phase": "fixed",
+      "repeat": 1,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 60,
+      "all_llm_request_attempts": 60,
+      "final_llm_request_attempts": 60,
+      "successful_final_generations": 60,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 8869,
+      "output_tokens_successful_final_generations": 8295,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 11564.342431666833,
+        "median": 11047.611199996027,
+        "p95": 23399.12076499786
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 60,
+        "mean": 11554.743876665816,
+        "median": 11031.536200000119,
+        "p95": 23395.419690002018
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 12129.003150000304,
+        "median": 11654.60985000027,
+        "p95": 23939.49273999824
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 60
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B1_base",
+      "phase": "fixed",
+      "repeat": 2,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 60,
+      "all_llm_request_attempts": 60,
+      "final_llm_request_attempts": 60,
+      "successful_final_generations": 60,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 8869,
+      "output_tokens_successful_final_generations": 8295,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 11315.797308332913,
+        "median": 11195.385850001912,
+        "p95": 22367.106874999445
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 60,
+        "mean": 11305.046589999984,
+        "median": 11178.680950000853,
+        "p95": 22363.556420005625
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 11867.880806666653,
+        "median": 11735.367249999399,
+        "p95": 22908.090144998278
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 60
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B1_base",
+      "phase": "fixed",
+      "repeat": 3,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 60,
+      "all_llm_request_attempts": 60,
+      "final_llm_request_attempts": 60,
+      "successful_final_generations": 60,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 8869,
+      "output_tokens_successful_final_generations": 8295,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 11285.01443666743,
+        "median": 11111.755600002652,
+        "p95": 22190.38557499916
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 60,
+        "mean": 11274.714263333226,
+        "median": 11101.840100000118,
+        "p95": 22174.51271500176
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 11837.143258333163,
+        "median": 11656.672199998866,
+        "p95": 22735.518874998885
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 60
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "repeat": 1,
+      "attempts": 60,
+      "statuses": {
+        "error": 8,
+        "ok": 52
+      },
+      "error_rate": 0.13333333333333333,
+      "final_llm_attempted_cases": 60,
+      "all_llm_request_attempts": 60,
+      "final_llm_request_attempts": 60,
+      "successful_final_generations": 52,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 126926,
+      "output_tokens_successful_final_generations": 3105,
+      "final_pipeline_ms_successful": {
+        "n": 52,
+        "mean": 7579.604861538638,
+        "median": 6948.338850001164,
+        "p95": 11711.489019999128
+      },
+      "final_pipeline_ms_failed": {
+        "n": 8,
+        "mean": 1161.1693624990949,
+        "median": 1154.7522500004561,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 52,
+        "mean": 7437.435323076547,
+        "median": 6843.3427499985555,
+        "p95": 11573.184614997437
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 52,
+        "mean": 8619.006792308377,
+        "median": 8018.4821500006365,
+        "p95": 12767.323380002555
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 8,
+        "mean": 2247.7091874998223,
+        "median": 2218.535650001286,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 60
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "repeat": 2,
+      "attempts": 60,
+      "statuses": {
+        "ok": 52,
+        "error": 8
+      },
+      "error_rate": 0.13333333333333333,
+      "final_llm_attempted_cases": 60,
+      "all_llm_request_attempts": 60,
+      "final_llm_request_attempts": 60,
+      "successful_final_generations": 52,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 126926,
+      "output_tokens_successful_final_generations": 3105,
+      "final_pipeline_ms_successful": {
+        "n": 52,
+        "mean": 7418.907449999656,
+        "median": 6914.6762499985925,
+        "p95": 11454.390024998424
+      },
+      "final_pipeline_ms_failed": {
+        "n": 8,
+        "mean": 779.484249998859,
+        "median": 1153.603299997485,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 52,
+        "mean": 7278.400978846688,
+        "median": 6756.549499998073,
+        "p95": 11327.670664996544
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 52,
+        "mean": 8469.555075000104,
+        "median": 7929.422350000095,
+        "p95": 12492.12084999744
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 8,
+        "mean": 1838.093512501473,
+        "median": 2210.9890500032634,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 60
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "repeat": 3,
+      "attempts": 60,
+      "statuses": {
+        "ok": 52,
+        "error": 8
+      },
+      "error_rate": 0.13333333333333333,
+      "final_llm_attempted_cases": 60,
+      "all_llm_request_attempts": 60,
+      "final_llm_request_attempts": 60,
+      "successful_final_generations": 52,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 126926,
+      "output_tokens_successful_final_generations": 3105,
+      "final_pipeline_ms_successful": {
+        "n": 52,
+        "mean": 7687.816617307292,
+        "median": 7121.387750001304,
+        "p95": 11804.070644997402
+      },
+      "final_pipeline_ms_failed": {
+        "n": 8,
+        "mean": 1110.2810750007848,
+        "median": 1104.6480000004522,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 52,
+        "mean": 7562.627413461507,
+        "median": 7005.359649996535,
+        "p95": 11696.545135002083
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 52,
+        "mean": 8739.096978846086,
+        "median": 8152.33470000021,
+        "p95": 12818.909829997567
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 8,
+        "mean": 2192.4403000011807,
+        "median": 2177.7052500037826,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 60
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "fixed",
+      "repeat": 1,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 13,
+      "all_llm_request_attempts": 13,
+      "final_llm_request_attempts": 13,
+      "successful_final_generations": 13,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 17163,
+      "output_tokens_successful_final_generations": 729,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 2157.820813333334,
+        "median": 292.85485000218614,
+        "p95": 10759.778689997982
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 13,
+        "mean": 7750.7813923092235,
+        "median": 8767.425800004276,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 3703.172316665829,
+        "median": 1979.28094999952,
+        "p95": 12539.686069998788
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 47,
+        "llm_attempt": 13
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "fixed",
+      "repeat": 2,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 13,
+      "all_llm_request_attempts": 13,
+      "final_llm_request_attempts": 13,
+      "successful_final_generations": 13,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 17163,
+      "output_tokens_successful_final_generations": 729,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 1822.9411199995714,
+        "median": 253.5765499997069,
+        "p95": 8908.110964996375
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 13,
+        "mean": 6549.472130768453,
+        "median": 6484.8855000018375,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 2916.272406665788,
+        "median": 1361.9070499989903,
+        "p95": 10053.726684998037
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 47,
+        "llm_attempt": 13
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "fixed",
+      "repeat": 3,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 13,
+      "all_llm_request_attempts": 13,
+      "final_llm_request_attempts": 13,
+      "successful_final_generations": 13,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 17163,
+      "output_tokens_successful_final_generations": 729,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 1794.8775249997805,
+        "median": 263.12969999708,
+        "p95": 8171.588394997158
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 13,
+        "mean": 6614.974500000803,
+        "median": 6787.825500003237,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 2886.4240883334182,
+        "median": 1352.7403500011133,
+        "p95": 9238.452484999285
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 47,
+        "llm_attempt": 13
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "rollout",
+      "repeat": 1,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 5,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 234.5894500012946,
+        "median": 235.57685000196216,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 12346.850825000729,
+        "median": 11345.809100002953,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "rollout",
+      "repeat": 2,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 5,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 239.35490000076243,
+        "median": 247.91805000131717,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 13197.418724999807,
+        "median": 12167.681700000685,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "rollout",
+      "repeat": 3,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 5,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 231.26837500058173,
+        "median": 232.18909999923198,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 13328.941225001472,
+        "median": 12221.34240000014,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "fixed",
+      "repeat": 1,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 13,
+      "all_llm_request_attempts": 13,
+      "final_llm_request_attempts": 13,
+      "successful_final_generations": 13,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 17163,
+      "output_tokens_successful_final_generations": 720,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 1834.6634350005236,
+        "median": 262.29994999812334,
+        "p95": 8359.540285001272
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 13,
+        "mean": 6812.173261539451,
+        "median": 6540.358100006415,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 2955.9510899998713,
+        "median": 1382.3693000013009,
+        "p95": 9441.65400999627
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 47,
+        "llm_attempt": 13
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "fixed",
+      "repeat": 2,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 13,
+      "all_llm_request_attempts": 13,
+      "final_llm_request_attempts": 13,
+      "successful_final_generations": 13,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 17163,
+      "output_tokens_successful_final_generations": 720,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 1838.262108332492,
+        "median": 258.3608999993885,
+        "p95": 8711.231344995755
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 13,
+        "mean": 6819.626053845031,
+        "median": 6690.884999996342,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 2937.4544366667883,
+        "median": 1361.9073999980174,
+        "p95": 9778.634270001201
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 47,
+        "llm_attempt": 13
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "fixed",
+      "repeat": 3,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 13,
+      "all_llm_request_attempts": 13,
+      "final_llm_request_attempts": 13,
+      "successful_final_generations": 13,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 17163,
+      "output_tokens_successful_final_generations": 720,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 1831.6751166667625,
+        "median": 259.5567999960622,
+        "p95": 8397.830879999305
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 13,
+        "mean": 6790.392353846423,
+        "median": 6589.357899996685,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 2955.2108650002388,
+        "median": 1393.396200004645,
+        "p95": 9464.12195499724
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 47,
+        "llm_attempt": 13
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "rollout",
+      "repeat": 1,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 5,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 233.85349999989558,
+        "median": 234.71955000059097,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 18431.875225000113,
+        "median": 13043.20110000117,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "rollout",
+      "repeat": 2,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 5,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 236.09962499904213,
+        "median": 233.22674999872106,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 18079.83740000236,
+        "median": 13311.767500003043,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "rollout",
+      "repeat": 3,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 5,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 237.4882999993133,
+        "median": 230.87194999607163,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 18486.29405000065,
+        "median": 13719.350300001679,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "fixed",
+      "repeat": 1,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 21,
+      "all_llm_request_attempts": 21,
+      "final_llm_request_attempts": 21,
+      "successful_final_generations": 21,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 38154,
+      "output_tokens_successful_final_generations": 1219,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 2906.3287333335516,
+        "median": 289.44495000177994,
+        "p95": 10183.455839999442
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 21,
+        "mean": 7016.553061905142,
+        "median": 7114.937700003793,
+        "p95": 9849.6887999936
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 3980.62830333353,
+        "median": 1398.1171000014,
+        "p95": 11228.996470000857
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 39,
+        "llm_attempt": 21
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "fixed",
+      "repeat": 2,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 21,
+      "all_llm_request_attempts": 21,
+      "final_llm_request_attempts": 21,
+      "successful_final_generations": 21,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 38154,
+      "output_tokens_successful_final_generations": 1219,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 2589.464983333528,
+        "median": 294.8657999986608,
+        "p95": 9314.100594999036
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 21,
+        "mean": 6169.6371809528155,
+        "median": 6110.552199999802,
+        "p95": 8962.077600001066
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 3673.771818333504,
+        "median": 1415.457700000843,
+        "p95": 10336.170039998615
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 21,
+        "rules_or_faq": 39
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "fixed",
+      "repeat": 3,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 21,
+      "all_llm_request_attempts": 21,
+      "final_llm_request_attempts": 21,
+      "successful_final_generations": 21,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 38154,
+      "output_tokens_successful_final_generations": 1219,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 2901.4219366666416,
+        "median": 296.19984999953886,
+        "p95": 10372.947199996997
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 21,
+        "mean": 7026.5501095238415,
+        "median": 7053.513699996984,
+        "p95": 9835.59360000072
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 3990.0343233344756,
+        "median": 1425.0300500025332,
+        "p95": 11386.113945000761
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 39,
+        "llm_attempt": 21
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "rollout",
+      "repeat": 1,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 2,
+      "all_llm_request_attempts": 7,
+      "final_llm_request_attempts": 2,
+      "successful_final_generations": 2,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 2273,
+      "output_tokens_successful_final_generations": 169,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 4680.01647500023,
+        "median": 4328.066850001051,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 2,
+        "mean": 8576.809099999082,
+        "median": 8576.809099999082,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 20327.053400002114,
+        "median": 17892.57390000421,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 2,
+        "llm_attempt": 2
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "rollout",
+      "repeat": 2,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 2,
+      "all_llm_request_attempts": 7,
+      "final_llm_request_attempts": 2,
+      "successful_final_generations": 2,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 2273,
+      "output_tokens_successful_final_generations": 169,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 4224.3147249973845,
+        "median": 3878.02549999833,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 2,
+        "mean": 7730.790149998938,
+        "median": 7730.790149998938,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 18761.127200001283,
+        "median": 16173.843500000658,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 2,
+        "llm_attempt": 2
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "rollout",
+      "repeat": 3,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 2,
+      "all_llm_request_attempts": 7,
+      "final_llm_request_attempts": 2,
+      "successful_final_generations": 2,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 2273,
+      "output_tokens_successful_final_generations": 169,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 4725.565800001277,
+        "median": 4377.487400000973,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 2,
+        "mean": 8677.106800001638,
+        "median": 8677.106800001638,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 20811.77795000076,
+        "median": 18671.775350001553,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 2,
+        "llm_attempt": 2
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "fixed",
+      "repeat": 1,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 59,
+      "all_llm_request_attempts": 59,
+      "final_llm_request_attempts": 59,
+      "successful_final_generations": 59,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 75644,
+      "output_tokens_successful_final_generations": 3548,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 7294.91239833369,
+        "median": 7209.099550000246,
+        "p95": 10362.272700002359
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 59,
+        "mean": 6794.604823728397,
+        "median": 6643.066399999952,
+        "p95": 9786.246709997067
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 8349.546506667199,
+        "median": 8331.284899999446,
+        "p95": 11393.094289999499
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 59,
+        "other_without_llm": 1
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "fixed",
+      "repeat": 2,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 59,
+      "all_llm_request_attempts": 59,
+      "final_llm_request_attempts": 59,
+      "successful_final_generations": 59,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 75644,
+      "output_tokens_successful_final_generations": 3548,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 6379.78397833358,
+        "median": 6144.215700001951,
+        "p95": 9618.433790002382
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 59,
+        "mean": 5914.397467796935,
+        "median": 5628.515500000503,
+        "p95": 9067.939659998956
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 7452.287556667095,
+        "median": 7185.502100001031,
+        "p95": 10698.169205002341
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 59,
+        "other_without_llm": 1
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "fixed",
+      "repeat": 3,
+      "attempts": 60,
+      "statuses": {
+        "ok": 60
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 59,
+      "all_llm_request_attempts": 59,
+      "final_llm_request_attempts": 59,
+      "successful_final_generations": 59,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 75644,
+      "output_tokens_successful_final_generations": 3548,
+      "final_pipeline_ms_successful": {
+        "n": 60,
+        "mean": 7311.475358333216,
+        "median": 7071.484000003693,
+        "p95": 10626.047420003306
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 59,
+        "mean": 6812.687661016475,
+        "median": 6465.769700000237,
+        "p95": 10070.945010000285
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 60,
+        "mean": 8365.010573334197,
+        "median": 8115.110900002037,
+        "p95": 11639.26845500464
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 59,
+        "other_without_llm": 1
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "rollout",
+      "repeat": 1,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 4,
+      "all_llm_request_attempts": 12,
+      "final_llm_request_attempts": 4,
+      "successful_final_generations": 4,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 5238,
+      "output_tokens_successful_final_generations": 148,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 5188.905750002959,
+        "median": 5106.139850002364,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 4,
+        "mean": 4833.8893250002,
+        "median": 4749.789249999594,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 21607.258750002075,
+        "median": 19897.67800000118,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "rollout",
+      "repeat": 2,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 4,
+      "all_llm_request_attempts": 12,
+      "final_llm_request_attempts": 4,
+      "successful_final_generations": 4,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 5238,
+      "output_tokens_successful_final_generations": 148,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 4197.141524999097,
+        "median": 4123.427999998967,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 4,
+        "mean": 3898.517699995864,
+        "median": 3829.6903999944334,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 18682.533274997695,
+        "median": 16939.705949997006,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 4
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "rollout",
+      "repeat": 3,
+      "attempts": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 4,
+      "all_llm_request_attempts": 12,
+      "final_llm_request_attempts": 4,
+      "successful_final_generations": 4,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 5238,
+      "output_tokens_successful_final_generations": 148,
+      "final_pipeline_ms_successful": {
+        "n": 4,
+        "mean": 5177.075074998356,
+        "median": 5130.331849999493,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 4,
+        "mean": 4837.485899997773,
+        "median": 4782.502699996257,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 4,
+        "mean": 21652.624125003058,
+        "median": 19901.012150003226,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 4
+      },
+      "retrieval_error_cases": 0
+    }
+  ],
+  "by_configuration_phase": [
+    {
+      "configuration": "P_base",
+      "phase": "fixed",
+      "attempts": 180,
+      "statuses": {
+        "ok": 180
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 39,
+      "all_llm_request_attempts": 39,
+      "final_llm_request_attempts": 39,
+      "successful_final_generations": 39,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 51489,
+      "output_tokens_successful_final_generations": 2187,
+      "final_pipeline_ms_successful": {
+        "n": 180,
+        "mean": 1925.213152777562,
+        "median": 265.2340999993612,
+        "p95": 9844.252924997265
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 39,
+        "mean": 6971.742674359493,
+        "median": 7095.651099996758,
+        "p95": 10408.146959999433
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 180,
+        "mean": 3168.6229372216785,
+        "median": 1450.4784500022652,
+        "p95": 11314.235364998967
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 141,
+        "llm_attempt": 39
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "rollout",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 15,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 235.07090833421293,
+        "median": 244.60929999986547,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 12957.736925000669,
+        "median": 11725.451100002829,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 12
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "fixed",
+      "attempts": 180,
+      "statuses": {
+        "ok": 180
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 39,
+      "all_llm_request_attempts": 39,
+      "final_llm_request_attempts": 39,
+      "successful_final_generations": 39,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 51489,
+      "output_tokens_successful_final_generations": 2160,
+      "final_pipeline_ms_successful": {
+        "n": 180,
+        "mean": 1834.8668866665928,
+        "median": 260.0037499978498,
+        "p95": 8711.231344995742
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 39,
+        "mean": 6807.397223076968,
+        "median": 6589.357899996685,
+        "p95": 10821.22401000015
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 180,
+        "mean": 2949.5387972222993,
+        "median": 1382.3693000013009,
+        "p95": 9778.634270001186
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 141,
+        "llm_attempt": 39
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "rollout",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 15,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 235.81380833275034,
+        "median": 232.86329999973532,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 18332.66889166771,
+        "median": 13132.389549999061,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 12
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B1_base",
+      "phase": "fixed",
+      "attempts": 180,
+      "statuses": {
+        "ok": 180
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 180,
+      "all_llm_request_attempts": 180,
+      "final_llm_request_attempts": 180,
+      "successful_final_generations": 180,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 26607,
+      "output_tokens_successful_final_generations": 24885,
+      "final_pipeline_ms_successful": {
+        "n": 180,
+        "mean": 11388.384725555727,
+        "median": 11178.051999999298,
+        "p95": 23219.445699998683
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 180,
+        "mean": 11378.168243333008,
+        "median": 11161.514249997708,
+        "p95": 23216.36212999983
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 180,
+        "mean": 11944.675738333373,
+        "median": 11724.298799999815,
+        "p95": 23744.19646000242
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 180
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "attempts": 180,
+      "statuses": {
+        "error": 24,
+        "ok": 156
+      },
+      "error_rate": 0.13333333333333333,
+      "final_llm_attempted_cases": 180,
+      "all_llm_request_attempts": 180,
+      "final_llm_request_attempts": 180,
+      "successful_final_generations": 156,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 380778,
+      "output_tokens_successful_final_generations": 9315,
+      "final_pipeline_ms_successful": {
+        "n": 156,
+        "mean": 7562.109642948529,
+        "median": 6961.257750001096,
+        "p95": 12247.1874999992
+      },
+      "final_pipeline_ms_failed": {
+        "n": 24,
+        "mean": 1016.9782291662463,
+        "median": 1140.7749000027252,
+        "p95": 1219.158860000607
+      },
+      "server_generation_ms_successful": {
+        "n": 156,
+        "mean": 7426.154571794914,
+        "median": 6843.3427499985555,
+        "p95": 12157.068299999082
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 156,
+        "mean": 8609.219615384856,
+        "median": 8018.623050000315,
+        "p95": 13286.139374999038
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 24,
+        "mean": 2092.747666667492,
+        "median": 2201.737450002838,
+        "p95": 2337.3452399977396
+      },
+      "routes": {
+        "llm_attempt": 180
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "fixed",
+      "attempts": 180,
+      "statuses": {
+        "ok": 180
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 63,
+      "all_llm_request_attempts": 63,
+      "final_llm_request_attempts": 63,
+      "successful_final_generations": 63,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 114462,
+      "output_tokens_successful_final_generations": 3657,
+      "final_pipeline_ms_successful": {
+        "n": 180,
+        "mean": 2799.0718844445737,
+        "median": 294.11754999819095,
+        "p95": 9703.515090002102
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 63,
+        "mean": 6737.5801174605995,
+        "median": 6612.113000002864,
+        "p95": 9834.542710000824
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 180,
+        "mean": 3881.4781483338365,
+        "median": 1412.5577000013436,
+        "p95": 10812.400139994854
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 117,
+        "llm_attempt": 63
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "rollout",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 6,
+      "all_llm_request_attempts": 21,
+      "final_llm_request_attempts": 6,
+      "successful_final_generations": 6,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 6819,
+      "output_tokens_successful_final_generations": 507,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 4543.298999999631,
+        "median": 3878.02549999833,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 6,
+        "mean": 8328.235349999886,
+        "median": 8200.482800002646,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 19966.652850001385,
+        "median": 17670.406750003167,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 6,
+        "llm_attempt": 6
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "fixed",
+      "attempts": 180,
+      "statuses": {
+        "ok": 180
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 177,
+      "all_llm_request_attempts": 177,
+      "final_llm_request_attempts": 177,
+      "successful_final_generations": 177,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 226932,
+      "output_tokens_successful_final_generations": 10644,
+      "final_pipeline_ms_successful": {
+        "n": 180,
+        "mean": 6995.390578333496,
+        "median": 6680.367750002915,
+        "p95": 10396.57196000262
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 177,
+        "mean": 6507.2299841806025,
+        "median": 6223.814299999503,
+        "p95": 9821.580140003061
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 180,
+        "mean": 8055.614878889497,
+        "median": 7778.276650002226,
+        "p95": 11444.015210004727
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 177,
+        "other_without_llm": 3
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "rollout",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 12,
+      "all_llm_request_attempts": 36,
+      "final_llm_request_attempts": 12,
+      "successful_final_generations": 12,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 15714,
+      "output_tokens_successful_final_generations": 444,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 4854.374116666804,
+        "median": 4997.082949998003,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 12,
+        "mean": 4523.2976416646125,
+        "median": 4663.513949999469,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 20647.472050000943,
+        "median": 18351.52685000139,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 12
+      },
+      "retrieval_error_cases": 0
+    }
+  ],
+  "paired_operational_differences": {
+    "P_ft minus P_base": {
+      "final_pipeline_ms": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": -90.34626611096928,
+        "ci95": [
+          -171.08544515239265,
+          -21.677574402671475
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "llm_request_attempts": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "final_pipeline_ms_both_call_llm_all_three": {
+        "cases": 13,
+        "families": 13,
+        "difference_mean": -380.5149102561884,
+        "ci95": [
+          -676.9472657683968,
+          -92.03497346044064
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "latency_cases_without_complete_successful_pairs": 0,
+      "quality_and_human_hypothesis_labels": "pending"
+    },
+    "B1_base minus P_base": {
+      "final_pipeline_ms": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 9463.171572778163,
+        "ci95": [
+          7860.398805930538,
+          11103.457298569769
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "llm_request_attempts": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 0.7833333333333333,
+        "ci95": [
+          0.6833333333333333,
+          0.8833333333333333
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "final_pipeline_ms_both_call_llm_all_three": {
+        "cases": 13,
+        "families": 13,
+        "difference_mean": 3678.540748718474,
+        "ci95": [
+          721.6512348071219,
+          6715.808946538839
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "latency_cases_without_complete_successful_pairs": 0,
+      "quality_and_human_hypothesis_labels": "pending"
+    },
+    "B2_base minus P_base": {
+      "final_pipeline_ms": {
+        "cases": 52,
+        "families": 52,
+        "difference_mean": 5379.520069230868,
+        "ci95": [
+          4006.9570238616775,
+          6684.338399166833
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "llm_request_attempts": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 0.7833333333333333,
+        "ci95": [
+          0.6833333333333333,
+          0.8833333333333333
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "final_pipeline_ms_both_call_llm_all_three": {
+        "cases": 13,
+        "families": 13,
+        "difference_mean": -2118.467241024728,
+        "ci95": [
+          -3786.611244548368,
+          -618.3069780773559
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "latency_cases_without_complete_successful_pairs": 8,
+      "quality_and_human_hypothesis_labels": "pending"
+    },
+    "P_no_memory minus P_base": {
+      "final_pipeline_ms": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 873.8587316670116,
+        "ci95": [
+          272.2090695836374,
+          1536.5254650832842
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "llm_request_attempts": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 0.13333333333333333,
+        "ci95": [
+          0.05,
+          0.21666666666666667
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "final_pipeline_ms_both_call_llm_all_three": {
+        "cases": 13,
+        "families": 13,
+        "difference_mean": -129.05115640937856,
+        "ci95": [
+          -1169.1465375622774,
+          1212.0596151276015
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "latency_cases_without_complete_successful_pairs": 0,
+      "quality_and_human_hypothesis_labels": "pending"
+    },
+    "P_no_rules minus P_base": {
+      "final_pipeline_ms": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 5070.177425555933,
+        "ci95": [
+          4088.441712639079,
+          6072.613299722794
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "llm_request_attempts": {
+        "cases": 60,
+        "families": 60,
+        "difference_mean": 0.7666666666666667,
+        "ci95": [
+          0.65,
+          0.8666666666666667
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "final_pipeline_ms_both_call_llm_all_three": {
+        "cases": 13,
+        "families": 13,
+        "difference_mean": -1130.9324256396321,
+        "ci95": [
+          -1405.604858139705,
+          -834.0137101920565
+        ],
+        "bootstrap_repetitions": 5000,
+        "seed": 20261105,
+        "unit": "paired case means across three repetitions, resampled by family"
+      },
+      "latency_cases_without_complete_successful_pairs": 0,
+      "quality_and_human_hypothesis_labels": "pending"
+    }
+  },
+  "paired_prompt_checks": [
+    {
+      "repeat": 1,
+      "case_id": "N01",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N02",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N03",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N04",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N05",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N06",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N07",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N08",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N09",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N10",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N11",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N12",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N13",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N14",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N15",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N16",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N17",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N18",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N19",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N20",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N21",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N22",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N23",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N24",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N25",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N26",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N27",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N28",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N29",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N30",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N31",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N32",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N33",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N34",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N35",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N36",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N37",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N38",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N39",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N40",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N41",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N42",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N43",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N44",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N45",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N46",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N47",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N48",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N49",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N50",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N51",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N52",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N53",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N54",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N55",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N56",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N57",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N58",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 1,
+      "case_id": "N59",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 1,
+      "case_id": "N60",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N01",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N02",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N03",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N04",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N05",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N06",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N07",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N08",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N09",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N10",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N11",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N12",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N13",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N14",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N15",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N16",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N17",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N18",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N19",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N20",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N21",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N22",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N23",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N24",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N25",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N26",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N27",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N28",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N29",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N30",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N31",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N32",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N33",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N34",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N35",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N36",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N37",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N38",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N39",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N40",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N41",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N42",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N43",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N44",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N45",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N46",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N47",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N48",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N49",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N50",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N51",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N52",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N53",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N54",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N55",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N56",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N57",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N58",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 2,
+      "case_id": "N59",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 2,
+      "case_id": "N60",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N01",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N02",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N03",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N04",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N05",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N06",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N07",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N08",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N09",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N10",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N11",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N12",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N13",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N14",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N15",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N16",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N17",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N18",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N19",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N20",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N21",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N22",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N23",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N24",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N25",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N26",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N27",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N28",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N29",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N30",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N31",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N32",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N33",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N34",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N35",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N36",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N37",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N38",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N39",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N40",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N41",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N42",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N43",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N44",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N45",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N46",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N47",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N48",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N49",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N50",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N51",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N52",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N53",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N54",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N55",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N56",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N57",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N58",
+      "same": true,
+      "base_calls": 0,
+      "ft_calls": 0
+    },
+    {
+      "repeat": 3,
+      "case_id": "N59",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    },
+    {
+      "repeat": 3,
+      "case_id": "N60",
+      "same": true,
+      "base_calls": 1,
+      "ft_calls": 1
+    }
+  ],
+  "adapter_prompt_mismatches": 0,
+  "adapter_pairs_with_any_llm_attempt": 39,
+  "adapter_pairs_without_llm_calls": 141,
+  "non_llm_adapter_answer_mismatches": [],
+  "by_configuration_phase_route": [
+    {
+      "configuration": "P_base",
+      "phase": "fixed",
+      "route": "llm_attempt",
+      "attempts": 39,
+      "statuses": {
+        "ok": 39
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 39,
+      "all_llm_request_attempts": 39,
+      "final_llm_request_attempts": 39,
+      "successful_final_generations": 39,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 51489,
+      "output_tokens_successful_final_generations": 2187,
+      "final_pipeline_ms_successful": {
+        "n": 39,
+        "mean": 7930.783438460471,
+        "median": 7902.84850000171,
+        "p95": 11294.647719999195
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 39,
+        "mean": 6971.742674359493,
+        "median": 7095.651099996758,
+        "p95": 10408.146959999433
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 39,
+        "mean": 9133.041389743037,
+        "median": 8961.813499998243,
+        "p95": 12904.377749997368
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 39
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "fixed",
+      "route": "rules_or_faq",
+      "attempts": 141,
+      "statuses": {
+        "ok": 141
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 0,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 141,
+        "mean": 264.09796737590625,
+        "median": 251.93030000082217,
+        "p95": 437.5672000023769
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 141,
+        "mean": 1518.8901737583235,
+        "median": 1368.9305999942007,
+        "p95": 2405.54699999484
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 141
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_base",
+      "phase": "rollout",
+      "route": "rules_or_faq",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 15,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 235.07090833421293,
+        "median": 244.60929999986547,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 12957.736925000669,
+        "median": 11725.451100002829,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 12
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "fixed",
+      "route": "llm_attempt",
+      "attempts": 39,
+      "statuses": {
+        "ok": 39
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 39,
+      "all_llm_request_attempts": 39,
+      "final_llm_request_attempts": 39,
+      "successful_final_generations": 39,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 51489,
+      "output_tokens_successful_final_generations": 2160,
+      "final_pipeline_ms_successful": {
+        "n": 39,
+        "mean": 7550.268528204283,
+        "median": 7346.076499998162,
+        "p95": 11521.139639998728
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 39,
+        "mean": 6807.397223076968,
+        "median": 6589.357899996685,
+        "p95": 10821.22401000015
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 39,
+        "mean": 8635.660476922707,
+        "median": 8405.862100000377,
+        "p95": 12591.482779997023
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 39
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "fixed",
+      "route": "rules_or_faq",
+      "attempts": 141,
+      "statuses": {
+        "ok": 141
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 0,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 141,
+        "mean": 254.0111134753167,
+        "median": 249.4818999985,
+        "p95": 435.51640000077896
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 141,
+        "mean": 1376.7817368796334,
+        "median": 1361.577199997555,
+        "p95": 1581.371100000979
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 141
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_ft",
+      "phase": "rollout",
+      "route": "rules_or_faq",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 15,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 235.81380833275034,
+        "median": 232.86329999973532,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 18332.66889166771,
+        "median": 13132.389549999061,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 12
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B1_base",
+      "phase": "fixed",
+      "route": "llm_attempt",
+      "attempts": 180,
+      "statuses": {
+        "ok": 180
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 180,
+      "all_llm_request_attempts": 180,
+      "final_llm_request_attempts": 180,
+      "successful_final_generations": 180,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 26607,
+      "output_tokens_successful_final_generations": 24885,
+      "final_pipeline_ms_successful": {
+        "n": 180,
+        "mean": 11388.384725555727,
+        "median": 11178.051999999298,
+        "p95": 23219.445699998683
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 180,
+        "mean": 11378.168243333008,
+        "median": 11161.514249997708,
+        "p95": 23216.36212999983
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 180,
+        "mean": 11944.675738333373,
+        "median": 11724.298799999815,
+        "p95": 23744.19646000242
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 180
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "B2_base",
+      "phase": "fixed",
+      "route": "llm_attempt",
+      "attempts": 180,
+      "statuses": {
+        "error": 24,
+        "ok": 156
+      },
+      "error_rate": 0.13333333333333333,
+      "final_llm_attempted_cases": 180,
+      "all_llm_request_attempts": 180,
+      "final_llm_request_attempts": 180,
+      "successful_final_generations": 156,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 380778,
+      "output_tokens_successful_final_generations": 9315,
+      "final_pipeline_ms_successful": {
+        "n": 156,
+        "mean": 7562.109642948529,
+        "median": 6961.257750001096,
+        "p95": 12247.1874999992
+      },
+      "final_pipeline_ms_failed": {
+        "n": 24,
+        "mean": 1016.9782291662463,
+        "median": 1140.7749000027252,
+        "p95": 1219.158860000607
+      },
+      "server_generation_ms_successful": {
+        "n": 156,
+        "mean": 7426.154571794914,
+        "median": 6843.3427499985555,
+        "p95": 12157.068299999082
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 156,
+        "mean": 8609.219615384856,
+        "median": 8018.623050000315,
+        "p95": 13286.139374999038
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 24,
+        "mean": 2092.747666667492,
+        "median": 2201.737450002838,
+        "p95": 2337.3452399977396
+      },
+      "routes": {
+        "llm_attempt": 180
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "fixed",
+      "route": "llm_attempt",
+      "attempts": 63,
+      "statuses": {
+        "ok": 63
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 63,
+      "all_llm_request_attempts": 63,
+      "final_llm_request_attempts": 63,
+      "successful_final_generations": 63,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 114462,
+      "output_tokens_successful_final_generations": 3657,
+      "final_pipeline_ms_successful": {
+        "n": 63,
+        "mean": 7490.627339682038,
+        "median": 7315.334099999745,
+        "p95": 10617.573219999758
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 63,
+        "mean": 6737.5801174605995,
+        "median": 6612.113000002864,
+        "p95": 9834.542710000824
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 63,
+        "mean": 8561.020006349454,
+        "median": 8519.632299998193,
+        "p95": 11708.163570000033
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 63
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "fixed",
+      "route": "rules_or_faq",
+      "attempts": 117,
+      "statuses": {
+        "ok": 117
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 0,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 117,
+        "mean": 272.8497162397849,
+        "median": 268.5159999964526,
+        "p95": 443.459599999187
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 117,
+        "mean": 1361.724840171581,
+        "median": 1361.7340000055265,
+        "p95": 1530.3171600040514
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 117
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "rollout",
+      "route": "llm_attempt",
+      "attempts": 6,
+      "statuses": {
+        "ok": 6
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 6,
+      "all_llm_request_attempts": 12,
+      "final_llm_request_attempts": 6,
+      "successful_final_generations": 6,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 6819,
+      "output_tokens_successful_final_generations": 507,
+      "final_pipeline_ms_successful": {
+        "n": 6,
+        "mean": 8762.55330000034,
+        "median": 8626.500499998656,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 6,
+        "mean": 8328.235349999886,
+        "median": 8200.482800002646,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 6,
+        "mean": 17579.397583335474,
+        "median": 17670.406750003167,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 6
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_memory",
+      "phase": "rollout",
+      "route": "rules_or_faq",
+      "attempts": 6,
+      "statuses": {
+        "ok": 6
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 9,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 6,
+        "mean": 324.0446999989217,
+        "median": 325.8920999978727,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 6,
+        "mean": 22353.9081166673,
+        "median": 21861.728350002522,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "rules_or_faq": 6
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "fixed",
+      "route": "llm_attempt",
+      "attempts": 177,
+      "statuses": {
+        "ok": 177
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 177,
+      "all_llm_request_attempts": 177,
+      "final_llm_request_attempts": 177,
+      "successful_final_generations": 177,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 226932,
+      "output_tokens_successful_final_generations": 10644,
+      "final_pipeline_ms_successful": {
+        "n": 177,
+        "mean": 7104.327562712056,
+        "median": 6789.828799999668,
+        "p95": 10397.171840001829
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 177,
+        "mean": 6507.2299841806025,
+        "median": 6223.814299999503,
+        "p95": 9821.580140003061
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 177,
+        "mean": 8164.194738418706,
+        "median": 7846.12930000003,
+        "p95": 11444.74814000423
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 177
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "fixed",
+      "route": "other_without_llm",
+      "attempts": 3,
+      "statuses": {
+        "ok": 3
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 0,
+      "all_llm_request_attempts": 0,
+      "final_llm_request_attempts": 0,
+      "successful_final_generations": 0,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 0,
+      "output_tokens_successful_final_generations": 0,
+      "final_pipeline_ms_successful": {
+        "n": 3,
+        "mean": 568.1084999984402,
+        "median": 564.4169000006514,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 3,
+        "mean": 1649.4031666661613,
+        "median": 1651.128700003028,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "other_without_llm": 3
+      },
+      "retrieval_error_cases": 0
+    },
+    {
+      "configuration": "P_no_rules",
+      "phase": "rollout",
+      "route": "llm_attempt",
+      "attempts": 12,
+      "statuses": {
+        "ok": 12
+      },
+      "error_rate": 0.0,
+      "final_llm_attempted_cases": 12,
+      "all_llm_request_attempts": 36,
+      "final_llm_request_attempts": 12,
+      "successful_final_generations": 12,
+      "final_generations_reaching_output_cap": 0,
+      "input_tokens_successful_final_generations": 15714,
+      "output_tokens_successful_final_generations": 444,
+      "final_pipeline_ms_successful": {
+        "n": 12,
+        "mean": 4854.374116666804,
+        "median": 4997.082949998003,
+        "p95": null
+      },
+      "final_pipeline_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "server_generation_ms_successful": {
+        "n": 12,
+        "mean": 4523.2976416646125,
+        "median": 4663.513949999469,
+        "p95": null
+      },
+      "whole_case_wall_ms_successful": {
+        "n": 12,
+        "mean": 20647.472050000943,
+        "median": 18351.52685000139,
+        "p95": null
+      },
+      "whole_case_wall_ms_failed": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p95": null
+      },
+      "routes": {
+        "llm_attempt": 12
+      },
+      "retrieval_error_cases": 0
+    }
+  ],
+  "repeated_output_variation": [],
+  "primary_quality_repeat": 1,
+  "human_quality_scores": null,
+  "human_claim_labels": null,
+  "H1_H2_H3_quality_conclusions": "Await two independent human raters; operational measures alone do not establish these hypotheses.",
+  "limits": [
+    "New exploratory AI-authored set; not an independently authored external holdout.",
+    "Lexical duplicate checks cannot exclude semantic/template overlap.",
+    "Baseline P FP16/Ollama and old human scores remain external historical system controls.",
+    "No quality, factuality, confusion, false-refusal or H1-H3 conclusion until human labels exist."
+  ],
+  "ci_note": "Exploratory, unadjusted 95% family bootstrap intervals; repeated runs are not independent questions."
+}

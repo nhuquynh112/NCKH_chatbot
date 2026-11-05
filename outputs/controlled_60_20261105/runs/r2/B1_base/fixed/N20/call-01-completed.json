@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Hãy đối chiếu giá và thời hạn bảo hành của Tai nghe Bluetooth True Wireless GOOJODOQ J241 với Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4). Mốc 3 tháng thuộc mẫu nào?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Để đối chiếu giá và thời hạn bảo hành của hai mẫu tai nghe bạn đề cập, tôi cần thêm một số thông tin:\n\n1. Giá của Tai nghe Bluetooth True Wireless GOOJODOQ J241 và Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4).\n2. Thời hạn bảo hành của cả hai mẫu tai nghe.\n\nVề thời hạn bảo hành, thông thường:\n\n- Tai nghe True Wireless thường có thời hạn bảo hành từ 6 tháng đến 1 năm.\n- Apple AirPods thường có thời hạn bảo hành từ 1 đến 2 năm.\n\nTuy nhiên, thời hạn bảo hành chính xác phụ thuộc vào chính sách bảo hành của nhà sản xuất và nơi bán hàng. \n\nBạn có thể cung cấp thêm thông tin về giá và thời hạn bảo hành của cả hai mẫu tai nghe để tôi có thể so sánh chính xác hơn không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 16253.331799998705,
+    "input_tokens": 138,
+    "output_tokens": 200,
+    "peak_allocated_bytes": 8876436480,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 16255.396499997005,
+  "phase": "final"
+}

@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi hỏi Tai nghe Bluetooth chụp tai Sony WH-CH520 trước.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth chụp tai Sony WH-CH520. Giá catalog 890,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Chọn lại Tai nghe Bluetooth True Wireless GOOJODOQ J241 nhé.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth True Wireless GOOJODOQ J241. Giá catalog 159,000 VND. Bảo hành trong catalog: 3 tháng.\n\nTôi vừa đổi lựa chọn rồi. Hãy nhắc đúng tên chiếc cuối, thời hạn bảo hành và giá của nó.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Mẫu đang trao đổi: Tai nghe Bluetooth True Wireless GOOJODOQ J241. Giá catalog 159,000 VND. Thời hạn bảo hành trong catalog: 3 tháng.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 4249.057000000903,
+    "input_tokens": 233,
+    "output_tokens": 48,
+    "peak_allocated_bytes": 8869899776,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 4263.9733999967575,
+  "phase": "final"
+}

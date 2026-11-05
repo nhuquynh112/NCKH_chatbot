@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi hỏi Tai nghe Bluetooth chụp tai Sony WH-CH520 trước.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth chụp tai Sony WH-CH520. Giá catalog 890,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Chọn lại Tai nghe Bluetooth True Wireless GOOJODOQ J241 nhé.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth True Wireless GOOJODOQ J241. Giá catalog 159,000 VND. Bảo hành trong catalog: 3 tháng.\n\nTôi vừa đổi lựa chọn rồi. Hãy nhắc đúng tên chiếc cuối, thời hạn bảo hành và giá của nó.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

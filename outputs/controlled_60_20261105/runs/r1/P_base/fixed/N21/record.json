@@ -1,0 +1,136 @@
+{
+  "repeat": 1,
+  "configuration": "P_base",
+  "phase": "fixed",
+  "case_id": "N21",
+  "family": "S-N21",
+  "category": "S",
+  "question": "Tôi trả bằng thẻ rồi xin hoàn tiền. Khoảng 3–7 ngày làm việc có được áp dụng chắc chắn như hoàn chuyển khoản không?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Mình gợi ý 3 lựa chọn cho văn phòng/học tập:\n- PC CPS văn phòng AMD R5 3400G kèm màn hình — 8.090.000 VND: Dung lượng RAM: 8GB; Màn hình: Màn hình VSP V2204H 120HZ 22 inch; Chip: CPU AMD Ryzen 5 3400G; RAM: Ram PC VSP DDR4 3200MHZ 8GB (1*8GB).\n- PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình — 12.390.000 VND: Dung lượng RAM: 8GB; Màn hình: Màn hình VSP IP2404S 24 (FHD/IPS/120HZ/1MS); Chip: CPU Intel Core i5 12400; RAM: RAM PC VSP DDR4 3200MHZ 8GB (1*8GB).\n- Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN — 20.990.000 VND: Dung lượng RAM: 8GB; Loại RAM: DDR4; Số khe ram: 2 x DDR4 3200MHz SO-DIMMs; Ổ cứng: SSD 250GB.",
+    "sources": [
+      {
+        "id": "doc_011",
+        "title": "PC",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: PC\n\n## PC\n\nThương hiệu trong catalog: AMD, ASUS, Apple, Gigabyte, Hãng khác, MSI, intel.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "PC"
+        }
+      },
+      {
+        "id": "doc_012",
+        "title": "Màn hình",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Màn hình\n\n## Màn hình\n\nThương hiệu trong catalog: Apple.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Màn hình"
+        }
+      },
+      {
+        "id": "doc_202",
+        "title": "Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN",
+        "score": 1.0,
+        "content": "Nguồn: product_catalog_extended.md\nChủ đề: Danh mục sản phẩm\nMục: Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN\n\n# Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN\n\n## Thông tin chung\n\nHãng: MSI\n\nDanh mục: PC\n\nGiá: 20,990,000 VNĐ\n\nBảo hành tham khảo: Bảo hành 12 tháng chính hãng.\n\nDữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n## Mô tả\n\nMáy tính All In One văn phòng MSI PRO-AP242-12M-213VN. Loại card đồ họa: Intel UHD Graphics; Dung lượng RAM: 8GB; Loại RAM: DDR4.\n\n## Thông số kỹ thuật\n\n- Loại card đồ họa: Intel UHD Graphics\n- Dung lượng RAM: 8GB\n- Loại RAM: DDR4\n- Số khe ram: 2 x DDR4 3200MHz SO-DIMMs, hỗ trợ đến 64GB\n- Ổ cứng: SSD 250GB\n- Kích thước màn hình: 23.8 inches\n- Hệ điều hành: Windows 11 Home SL\n- Độ phân giải màn hình: 1920 x 1080 pixels (FullHD)\n- Cổng I/O mặt sau: 1x USB 3.2 Gen 2 Type C 1x USB 3.2 Gen 2 Type A 2x USB 3.2 Gen 1 Type A 2x USB 2.0 Type A 1x RJ45 1x HDMI 1x DP 1x Mic- vào\n- Loại CPU: Intel® Core™ i5 12400\n\nNguồn tham khảo: CellphoneS – Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN — https://cellphones.com.vn/may-tinh-all-in-one-msi-pro-ap242-12m-213vn.html",
+        "metadata": {
+          "source": "product_catalog_extended.md",
+          "parent": "Danh mục sản phẩm",
+          "title": "Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN"
+        }
+      },
+      {
+        "id": "doc_204",
+        "title": "PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình",
+        "score": 1.0,
+        "content": "Nguồn: product_catalog_extended.md\nChủ đề: Danh mục sản phẩm\nMục: PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình\n\n# PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình\n\n## Thông tin chung\n\nHãng: intel\n\nDanh mục: PC\n\nGiá: 12,390,000 VNĐ\n\nBảo hành tham khảo: Bảo hành theo linh kiện\n\nDữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n## Mô tả\n\nPC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình. Dung lượng RAM: 8GB; Màn hình: Màn hình VSP IP2404S 24 (FHD/IPS/120HZ/1MS); CPU: CPU Intel Core i5 12400.\n\n## Thông số kỹ thuật\n\n- Dung lượng RAM: 8GB\n- Màn hình: Màn hình VSP IP2404S 24 (FHD/IPS/120HZ/1MS)\n- CPU: CPU Intel Core i5 12400\n- VGA: Onboard\n- RAM: RAM PC VSP DDR4 3200MHZ 8GB (1*8GB)\n- SSD: Ổ cứng SSD VSP 860G SATA III 2.5\" 256GB\n- Mainboard: Mainboard ASRock H610M-HVS/M.2 R2.0\n- Socket: LGA 1700\n- Tản nhiệt: Tản nhiệt khí CPU Jonsbo CR-1200E RGB\n- Chipset (PC lắp ráp): H610M\n\nNguồn tham khảo: CellphoneS – PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình — https://cellphones.com.vn/may-tinh-pc-cps-van-phong-intel-i5-gen-12.html",
+        "metadata": {
+          "source": "product_catalog_extended.md",
+          "parent": "Danh mục sản phẩm",
+          "title": "PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 502.3220000002766,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T14:27:00.910242+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": null,
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Tôi trả bằng thẻ rồi xin hoàn tiền. Khoảng 3–7 ngày làm việc có được áp dụng chắc chắn như hoàn chuyển khoản không?",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 1057.3270000022603,
+    "study_condition": "base"
+  },
+  "wall_ms": 1648.2162000029348,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 536 MiB, 0 %, 59",
+  "finished_utc": "2026-11-05T14:30:57.906675+00:00"
+}

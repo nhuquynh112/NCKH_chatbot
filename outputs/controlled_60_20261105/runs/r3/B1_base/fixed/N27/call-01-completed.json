@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Ban đầu tôi hỏi vivo Y16 4GB 128GB.\nassistant: Mẫu đang trao đổi: vivo Y16 4GB 128GB. Giá catalog 4,490,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Bây giờ xem Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W.\nassistant: Mẫu đang trao đổi: Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W. Giá catalog 3,990,000 VND. Bảo hành trong catalog: 60 tháng.\n\nTrạm sạc đó được ghi bảo hành bao lâu? Tôi đã chuyển chủ đề khỏi điện thoại rồi nhé.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi vì sự nhầm lẫn. Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W được bảo hành trong thời gian là 60 tháng theo thông tin catalog.\n\nNếu bạn có thêm câu hỏi về sản phẩm này hoặc cần hỗ trợ gì khác, tôi rất sẵn lòng giúp đỡ. Bạn có muốn biết thêm thông tin về sản phẩm này hay không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 7870.305500000541,
+    "input_tokens": 264,
+    "output_tokens": 94,
+    "peak_allocated_bytes": 8878733312,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 7872.559000003093,
+  "phase": "final"
+}

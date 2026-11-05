@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-05T14:24:27.546142+00:00",
+  "preregistration_commit": "d26700766c95efef2c805b933ed99c88b21f7b72",
+  "lock_sha256": "e7e5f108cc540fa20ecfd22b817adbe4b1f8b40ccd76f9663fa1cb84ecc5f9d6",
+  "protocol_sha256": "a4e3492e401cc986e4b4766e821ef1016ae5abc2a7454d707f42636c0b678b06",
+  "worker_python": "C:\\Python314\\python.exe",
+  "gpu_python": "D:\\NCKH\\Codex\\.venv-training\\Scripts\\python.exe",
+  "model_profile_sha256": "0e240a45fe91bb9edf0c366b15355d4ef4f74757e3b59e72206caef2684eaff6",
+  "gpu_at_start": "NVIDIA GeForce RTX 3060, 12288 MiB, 10314 MiB, 37 %, 55",
+  "expected_fixed_input_attempts": 1080,
+  "expected_rollout_attempts": 48,
+  "quality_scores": "pending two independent humans; no automatic grades",
+  "attempts": 1128,
+  "finished_utc": "2026-11-05T16:53:03.605849+00:00"
+}

@@ -1,0 +1,148 @@
+{
+  "repeat": 1,
+  "configuration": "P_base",
+  "phase": "fixed",
+  "case_id": "N25",
+  "family": "H-N25",
+  "category": "H",
+  "question": "Mẫu tai nghe nhét tai vừa chuyển sang có giá và bảo hành như thế nào, đừng lấy lại giá của chiếc chụp tai đầu tiên.",
+  "input_history": [
+    {
+      "role": "user",
+      "content": "Cho tôi xem Tai nghe Bluetooth chụp tai Sony WH-CH520."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Tai nghe Bluetooth chụp tai Sony WH-CH520. Giá catalog 890,000 VND. Bảo hành trong catalog: 12 tháng."
+    },
+    {
+      "role": "user",
+      "content": "Đổi sang Tai nghe Sony không dây chống ồn WF-1000XM6, tôi muốn loại nhét tai."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Tai nghe Sony không dây chống ồn WF-1000XM6. Giá catalog 7,490,000 VND. Bảo hành trong catalog: 12 tháng."
+    }
+  ],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Tai nghe Sony không dây chống ồn WF-1000XM6: giá 7.490.000 VND; bảo hành 12 tháng.",
+    "sources": [
+      {
+        "id": "retailer-tai-nghe-khong-day-sony-wf-1000xm6-1",
+        "title": "CellphoneS – Tai nghe Sony không dây chống ồn WF-1000XM6",
+        "score": 1.0,
+        "content": "Nguồn nhà bán lẻ tham khảo cho Tai nghe Sony không dây chống ồn WF-1000XM6",
+        "metadata": {
+          "source": "retailer_reference",
+          "url": "https://cellphones.com.vn/tai-nghe-khong-day-sony-wf-1000xm6.html",
+          "verified_at": ""
+        }
+      },
+      {
+        "id": "doc_013",
+        "title": "Tai nghe",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Tai nghe\n\n## Tai nghe\n\nThương hiệu trong catalog: Apple Chính hãng, Goojodoq, Havit, HyperX, Robot, Sony.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Tai nghe"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [
+      {
+        "role": "user",
+        "content": "Cho tôi xem Tai nghe Bluetooth chụp tai Sony WH-CH520."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Tai nghe Bluetooth chụp tai Sony WH-CH520. Giá catalog 890,000 VND. Bảo hành trong catalog: 12 tháng."
+      },
+      {
+        "role": "user",
+        "content": "Đổi sang Tai nghe Sony không dây chống ồn WF-1000XM6, tôi muốn loại nhét tai."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Tai nghe Sony không dây chống ồn WF-1000XM6. Giá catalog 7,490,000 VND. Bảo hành trong catalog: 12 tháng."
+      }
+    ],
+    "latency_ms": 552.6954000015394,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T14:27:00.910242+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": "tai-nghe-khong-day-sony-wf-1000xm6",
+        "use_history_for_retrieval": true,
+        "retrieval_question": "Mẫu tai nghe nhét tai vừa chuyển sang có giá và bảo hành như thế nào, đừng lấy lại giá của chiếc chụp tai đầu tiên.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nTai nghe Sony không dây chống ồn WF-1000XM6 (tai-nghe-khong-day-sony-wf-1000xm6), nhóm Tai nghe, giá 7.490.000 VND.\nTai nghe Sony không dây chống ồn WF-1000XM6. Trọng lượng: Tai nghe: 6.5g Hộp sạc: 47g; Micro: Có; Thời lượng sử dụng Pin: Tai nghe: 5 giờ Hộp sạc: 5.5 giờ (Bật ANC) Tai nghe: 8 giờ Hộp sạc: 12 giờ (Tắt ANC) — Trọng lượng: Tai nghe: 6.5g Hộp sạc: 47g, Micro: Có, Thời lượng sử dụng Pin: Tai nghe: 5 giờ Hộp sạc: 5.5 giờ (Bật ANC) Tai nghe: 8 giờ Hộp sạc: 12 giờ (Tắt ANC), Tính năng khác: Kháng nước: IPX4 Kết nối đa điểm DSEE EXTREME, Hãng sản xuất: Sony",
+        "history_messages": 4
+      }
+    ],
+    "whole_worker_ms": 1083.902999998827,
+    "study_condition": "base"
+  },
+  "wall_ms": 1672.7590000009513,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 544 MiB, 4 %, 58",
+  "finished_utc": "2026-11-05T14:28:31.527359+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi đang xem OPPO Find X9 Ultra 12GB 512GB.\nassistant: Mẫu đang trao đổi: OPPO Find X9 Ultra 12GB 512GB. Giá catalog 45,990,000 VND. Bảo hành trong catalog: 24 tháng.\nuser: Xem thêm Tai nghe chụp tai Gaming HyperX Cloud Stinger 2 Core.\nassistant: Mẫu đang trao đổi: Tai nghe chụp tai Gaming HyperX Cloud Stinger 2 Core. Giá catalog 750,000 VND. Bảo hành trong catalog: 24 tháng.\n\nQuay lại chiếc điện thoại OPPO Find X9 Ultra 12GB 512GB đã nhắc lúc đầu: thời hạn bảo hành của nó là gì?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

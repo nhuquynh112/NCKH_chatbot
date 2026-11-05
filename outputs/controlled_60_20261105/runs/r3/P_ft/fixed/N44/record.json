@@ -1,0 +1,116 @@
+{
+  "repeat": 3,
+  "configuration": "P_ft",
+  "phase": "fixed",
+  "case_id": "N44",
+  "family": "O-112",
+  "category": "O",
+  "question": "Tôi cần số FPS đã đo của Laptop ASUS TUF Gaming A16 FA608UMI-TU162W khi chơi game ở 4K, bạn có bảng benchmark thực tế không?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Laptop ASUS TUF Gaming A16 FA608UMI-TU162W: đang được TechCare niêm yết; phù hợp chơi game theo cấu hình đang có (Laptop ASUS TUF Gaming A16 FA608UMI-TU162W. Chip AI: AMD XDNA NPU up to 16TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7 AMD Radeon 780M Graphics; Dung lượng RAM: 16GB, Chip AI: AMD XDNA NPU up to 16TOPS, Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7 AMD Radeon 780M Graphics, Dung lượng RAM: 16GB, Loại RAM: DDR5-5600 SO-DIMM, Số khe ram: 2 khe (Nâng cấp tối đa 64GB), Ổ cứng: 512GB PCIe 4.0 NVMe M.2 SSD (2 Khe cắm M.2 hỗ trợ cả SATA hoặc NVMe, tối đa 2TB), Công nghệ màn hình: Độ sáng 300 nits Tỷ lệ tương phản 1000:1 Độ phủ màu: 72% NTSC / 100% sRGB / 75.35% Adobe RGB Màn hình chống chói Hỗ trợ NVIDIA G-SYNC, Hệ điều hành khi ra mắt: Windows 11 Home, Loại CPU: AMD Ryzen 7 260 3.8GHz (24MB Cache, up to 5.1 GHz, 8 lõi, 16 luồng), Kích thước màn hình: 16 inches, Độ phân giải màn hình: 1920 x 1200 pixels (FullHD+), Pin: 70WHrs, 4S1P, 4-cell Li-ion Sạc từ 0-50% trong 30 phút, Cổng giao tiếp: 1 x RJ45 LAN 1 x USB 2.0 Type-A (480Mbps) 1 x USB 3.2 Gen 2 Type-C (10Gbps, hỗ trợ DisplayPort, Power Delivery, G-SYNC) 2 x USB 3.2 Gen 2 Type-A (10Gbps) 1 x HDMI 2.1 FRL 1 x Jack tai nghe/mic 3.5 mm Micro tích hợp (array)). Mình chưa có dữ liệu tồn kho thực tế để xác nhận còn hàng.",
+    "sources": [
+      {
+        "id": "retailer-laptop-asus-tuf-gaming-a16-fa608umi-tu162w-1",
+        "title": "CellphoneS – Laptop ASUS TUF Gaming A16 FA608UMI-TU162W",
+        "score": 1.0,
+        "content": "Nguồn nhà bán lẻ tham khảo cho Laptop ASUS TUF Gaming A16 FA608UMI-TU162W",
+        "metadata": {
+          "source": "retailer_reference",
+          "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a16-fa608umi-tu162w.html",
+          "verified_at": ""
+        }
+      },
+      {
+        "id": "doc_010",
+        "title": "Laptop",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Laptop\n\n## Laptop\n\nThương hiệu trong catalog: ASUS, Acer, Apple, HP, Lenovo, MSI, Thunderobot.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Laptop"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 241.66810000315309,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "ft",
+      "adapter_loaded": true,
+      "active_adapters": [
+        "default"
+      ],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T16:48:24.135240+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": "laptop-asus-tuf-gaming-a16-fa608umi-tu162w",
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Tôi cần số FPS đã đo của Laptop ASUS TUF Gaming A16 FA608UMI-TU162W khi chơi game ở 4K, bạn có bảng benchmark thực tế không?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nLaptop ASUS TUF Gaming A16 FA608UMI-TU162W (laptop-asus-tuf-gaming-a16-fa608umi-tu162w), nhóm Laptop, giá 51.990.000 VND.\nLaptop ASUS TUF Gaming A16 FA608UMI-TU162W. Chip AI: AMD XDNA NPU up to 16TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7 AMD Radeon 780M Graphics; Dung lượng RAM: 16GB — Chip AI: AMD XDNA NPU up to 16TOPS, Loại card đồ họa: NVIDIA GeForce RTX 5060 8GB GDDR7 AMD Radeon 780M Graphics, Dung lượng RAM: 16GB, Loại RAM: DDR5-5600 SO-DIMM, Số khe ram: 2 khe (Nâng cấp tối đa 64GB), Ổ cứng: 512GB PCIe 4.0 NVMe M.2 SSD (2 Khe cắm M.2 hỗ trợ cả SATA hoặc NVMe, tối đa 2TB), Công nghệ màn hình: Độ sáng 300 nits Tỷ lệ tương phản 1000:1 Độ phủ màu: 72% NTSC / 100% sRGB / 75.35% Adobe RGB Màn hình chống chói Hỗ trợ NVIDIA G-SYNC, Hệ điều hành khi ra mắt: Windows 11 Home, Loại CPU: AMD Ryzen 7 260 3.8GHz (24MB Cache, up to 5.1 GHz, 8 lõi, 16 luồng), Kích thước màn hình: 16 inches, Độ phân giải màn hình: 1920 x 1200 pixels (FullHD+), Pin: 70WHrs, 4S1P, 4-cell Li-ion Sạc từ 0-50% trong 30 phút, Cổng giao tiếp: 1 x RJ45 LAN 1 x USB 2.0 Type-A (480Mbps) 1 x USB 3.2 Gen 2 Type-C (10Gbps, hỗ trợ DisplayPort, Power Delivery, G-SYNC) 2 x USB 3.2 Gen 2 Type-A (10Gbps) 1 x HDMI 2.1 FRL 1 x Jack tai nghe/mic 3.5 mm Micro tích hợp (array)",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 770.3492000000551,
+    "study_condition": "ft"
+  },
+  "wall_ms": 1442.7767000015592,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 1226 MiB, 0 %, 56",
+  "finished_utc": "2026-11-05T16:50:53.462991+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W ghi sạc không dây 25W và Type-C 45W. Catalog có xác nhận tổng công suất đồng thời là 70W không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Dựa trên thông tin bạn cung cấp, Anker Maggo 2 Pro A110R có khả năng sạc không dây 25W và sạcType-C 45W. Tuy nhiên, để xác nhận tổng công suất sạc đồng thời là 70W, tôi cần thêm thông tin về cách thức sạc đồng thời của sản phẩm này.\n\nCó một số điểm cần lưu ý:\n\n1. Một số thiết bị có thể không hỗ trợ sạc đồng thời ở công suất tối đa khi sử dụng cùng lúc cả hai cổng sạc.\n2. Công suất sạc đồng thời có thể bị giới hạn để bảo vệ thiết bị sạc.\n\nBạn có thể cung cấp thêm thông tin về cách sử dụng sản phẩm như sau:\n\n- Bạn có sử dụng cùng lúc cả hai cổng sạc không?\n- Bạn có sử dụng thiết bị sạc không dây hay thiết bị sạc Type-C?\n- Bạn có tham khảo thông tin từ nhà sản xuất hoặc trang web chính thức của Anker về cách sử dụng sản phẩm này không?\n\nNếu bạn có thêm thông tin này, tôi sẽ có thể xác nhận chính xác tổng công suất sạc đồng thời của sản phẩm.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 20316.707900004985,
+    "input_tokens": 149,
+    "output_tokens": 253,
+    "peak_allocated_bytes": 8883777536,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 20318.78250000591,
+  "phase": "final"
+}

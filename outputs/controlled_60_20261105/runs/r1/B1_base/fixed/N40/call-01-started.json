@@ -1,0 +1,11 @@
+{
+  "phase": "final",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Trước đó tôi xem TECNO Spark 40 Pro+ 8GB 256GB.\nassistant: Mẫu đang trao đổi: TECNO Spark 40 Pro+ 8GB 256GB. Giá catalog 5,190,000 VND. Bảo hành trong catalog: 13 tháng.\n\nBỏ chuyện điện thoại trước đó, chỉ nói Chuột không dây Bluetooth Rapoo MT560: giá và kết nối nào được ghi trong catalog?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  }
+}

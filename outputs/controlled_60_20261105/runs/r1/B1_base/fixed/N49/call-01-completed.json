@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Lãi suất và phí trả góp của riêng hồ sơ tín dụng tôi sẽ được duyệt là bao nhiêu? Tôi chưa chọn ngân hàng.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi hiểu bạn đang quan tâm đến lãi suất và phí trả góp cho hồ sơ tín dụng của mình. Tuy nhiên, để có thể cung cấp thông tin chính xác, tôi cần thêm một số thông tin từ bạn:\n\n1. Bạn đang có ý định vay mua loại sản phẩm gì (như nhà, xe, máy móc,...)?\n2. Thời gian trả góp dự kiến là bao lâu?\n3. Mức giá trị của tài sản bạn dự định mua là bao nhiêu?\n\nLãi suất và phí trả góp có thể thay đổi tùy thuộc vào từng ngân hàng và sản phẩm tín dụng cụ thể. Các ngân hàng thường có các gói sản phẩm khác nhau với lãi suất và phí khác nhau.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 13112.855799998215,
+    "input_tokens": 104,
+    "output_tokens": 158,
+    "peak_allocated_bytes": 8859841024,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 13114.889000004041,
+  "phase": "final"
+}

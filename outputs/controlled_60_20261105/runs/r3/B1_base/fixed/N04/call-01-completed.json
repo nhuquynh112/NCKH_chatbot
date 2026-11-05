@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Chênh lệch giá niêm yết giữa Tai nghe Bluetooth chụp tai Sony WH-1000XM6 và Tai nghe Bluetooth chụp tai Sony WH-CH520 là bao nhiêu? Viết phép trừ để tôi kiểm tra.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Để tôi có thể giúp bạn tính toán chênh lệch giá niêm yết giữa hai sản phẩm này, tôi cần biết giá niêm yết của mỗi sản phẩm. Bạn có thể cung cấp thông tin về giá niêm yết của Tai nghe Bluetooth chụp tai Sony WH-1000XM6 và Sony WH-CH520 không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 6483.016799997131,
+    "input_tokens": 130,
+    "output_tokens": 79,
+    "peak_allocated_bytes": 8861639680,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 6498.328399997263,
+  "phase": "final"
+}

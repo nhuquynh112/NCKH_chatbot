@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Nếu mua Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W lúc này, giá sau mọi ưu đãi cá nhân của tôi chính xác là bao nhiêu?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi rất vui được hỗ trợ bạn. Tuy nhiên, để xác định chính xác giá sau ưu đãi của sản phẩm Ugreen 20000mAh 100W PB723 2C1A, tôi cần thêm một số thông tin:\n\n1. Bạn đang mua sản phẩm ở đâu? (Website, cửa hàng trực tuyến, cửa hàng vật lý)\n2. Bạn có là thành viên của chương trình khách hàng thân thiết của cửa hàng đó không?\n3. Bạn có bất kỳ mã giảm giá nào đang áp dụng không?\n\nNếu bạn cung cấp thêm thông tin này, tôi sẽ có thể giúp bạn tính toán chính xác giá sau ưu đãi.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12509.782799999812,
+    "input_tokens": 140,
+    "output_tokens": 149,
+    "peak_allocated_bytes": 8862939136,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12512.048299999151,
+  "phase": "final"
+}

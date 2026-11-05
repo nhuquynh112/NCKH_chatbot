@@ -1,0 +1,11 @@
+{
+  "scope": "Complete business source snapshot for human review; not method-specific retrieved context",
+  "files": {
+    "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e",
+    "knowledge_base.md": "4a918ddfbf93371a61b801f1f8a1f2d8e035d83d0e79437f04894fcf254355e6",
+    "product_catalog_extended.md": "e4e1ba91ad83a194053df980f756e34176ee460bfe20cfe09f1e7a849fd3968b",
+    "product_verified_specs.json": "c8483f6bd7b006b85e573d5f6c7b837007b1ddd964d3365dada8edf75fabc035",
+    "techcare_products.json": "448731b0b07196f303210f690b3a2a36b0f8b2790cdc65d9c18df3d20dec5c8c",
+    "techcare_rag_documents.json": "357f00e36a2507d3cb4dcefe792bbf80e4ad9dd3a6d8c0562be85702c50403a4"
+  }
+}

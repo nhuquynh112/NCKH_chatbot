@@ -1,0 +1,114 @@
+{
+  "repeat": 2,
+  "configuration": "P_base",
+  "phase": "fixed",
+  "case_id": "N13",
+  "family": "S-173",
+  "category": "S",
+  "question": "Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W ghi sạc không dây 25W và Type-C 45W. Catalog có xác nhận tổng công suất đồng thời là 70W không?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W: Dung lượng pin: 10000 mAh. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+    "sources": [
+      {
+        "id": "retailer-pin-sac-du-phong-khong-day-anker-maggo-2-pro-a110r-10000mah-qi2-25w-type-c-pd-45w-1",
+        "title": "CellphoneS – Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W",
+        "score": 1.0,
+        "content": "Nguồn nhà bán lẻ tham khảo cho Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W",
+        "metadata": {
+          "source": "retailer_reference",
+          "url": "https://cellphones.com.vn/pin-sac-du-phong-khong-day-anker-maggo-2-pro-a110r-10000mah-qi2-25w-type-c-pd-45w.html",
+          "verified_at": ""
+        }
+      },
+      {
+        "id": "doc_018",
+        "title": "Sạc dự phòng",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Sạc dự phòng\n\n## Sạc dự phòng\n\nThương hiệu trong catalog: Anker, Apple Chính hãng, BMX, Mophie, Ugreen.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Sạc dự phòng"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 237.6637999986997,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:27:25.406606+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": "sac-du-phong-khong-day-anker-maggo-2-pro-a110r-10000mah-qi2-25w",
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Pin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W ghi sạc không dây 25W và Type-C 45W. Catalog có xác nhận tổng công suất đồng thời là 70W không?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nPin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W (sac-du-phong-khong-day-anker-maggo-2-pro-a110r-10000mah-qi2-25w), nhóm Sạc dự phòng, giá 2.850.000 VND.\nPin sạc dự phòng không dây Anker Maggo 2 Pro A110R 10000mAh Qi2 25W Type-C PD 45W. Dung lượng pin: 10000 mAh; Công suất sạc: Không dây: 25W Max Type-C: 45W; Cổng sạc ra: Không dây Type-C — Dung lượng pin: 10000 mAh, Công suất sạc: Không dây: 25W Max Type-C: 45W, Cổng sạc ra: Không dây Type-C, Cổng sạc vào: Type C, Tiện ích: Nhiệt độ mặt lưng khi sạc nhỏ hơn 36°C (96.8°F) trong suốt quá trình sạc Hệ thống tản nhiệt Graphene 3 lớp Sạc không dây chuẩn Qi2, Kích thước: 10.4 x 7.1 x 1.8 cm (Dài x rộng x cao), Trọng lượng: 220g, Hãng sản xuất: Anker",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 731.4795999991475,
+    "study_condition": "base"
+  },
+  "wall_ms": 1359.8752999969292,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 487 MiB, 0 %, 65",
+  "finished_utc": "2026-11-05T16:01:36.911379+00:00"
+}

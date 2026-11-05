@@ -1,0 +1,116 @@
+{
+  "repeat": 3,
+  "configuration": "P_ft",
+  "phase": "fixed",
+  "case_id": "N19",
+  "family": "S-88",
+  "category": "S",
+  "question": "Tôi cần đúng Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím kèm bàn phím: trong catalog tên bộ có bàn phím không, RAM và bộ nhớ là bao nhiêu?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím: đang được TechCare niêm yết; Dung lượng RAM: 12 GB; Bộ nhớ trong: 256 GB. Cập nhật catalog: 28/10/2026 16:13 (GMT+7). Mình chưa có dữ liệu tồn kho thực tế để xác nhận còn hàng.",
+    "sources": [
+      {
+        "id": "retailer-may-tinh-bang-huawei-matepad-12-x-kem-ban-phim-1",
+        "title": "CellphoneS – Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím",
+        "score": 1.0,
+        "content": "Nguồn nhà bán lẻ tham khảo cho Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím",
+        "metadata": {
+          "source": "retailer_reference",
+          "url": "https://cellphones.com.vn/may-tinh-bang-huawei-matepad-12-x-kem-ban-phim.html",
+          "verified_at": ""
+        }
+      },
+      {
+        "id": "doc_019",
+        "title": "Bàn phím",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Bàn phím\n\n## Bàn phím\n\nThương hiệu trong catalog: AKKO, ASUS, Apple Chính hãng, Aula, Logitech, MCHOSE, Microsoft.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Bàn phím"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 249.5074999969802,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "ft",
+      "adapter_loaded": true,
+      "active_adapters": [
+        "default"
+      ],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T16:48:24.135240+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": "may-tinh-bang-huawei-matepad-12-x-kem-ban-phim",
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Tôi cần đúng Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím kèm bàn phím: trong catalog tên bộ có bàn phím không, RAM và bộ nhớ là bao nhiêu?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nHuawei MatePad 12 X 12GB 256GB - Kèm bàn phím (may-tinh-bang-huawei-matepad-12-x-kem-ban-phim), nhóm Máy tính bảng, giá 13.990.000 VND.\nHuawei MatePad 12 X 12GB 256GB - Kèm bàn phím. Hệ điều hành khi ra mắt: HarmonyOS 4.3; Dung lượng RAM: 12 GB; Bộ nhớ trong: 256 GB — Hệ điều hành khi ra mắt: HarmonyOS 4.3, Dung lượng RAM: 12 GB, Bộ nhớ trong: 256 GB, Kích thước màn hình: 12 inches, Công nghệ màn hình: PaperMatte (IPS), Độ phân giải màn hình: 2800 x 1840 pixels, Tính năng màn hình: Tần số quét 144 Hz 280 PPI Độ sáng 1000 nit 16.7 triệu màu Gam màu rộng P3 Chống lóa Chứng nhận TÜV Rheinland và SGS, Camera sau: 50 MP (f/1.8, AF), Camera trước: 8 MP (f/2.2, FF), Pin: 10.100 mAh",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 745.0322000004235,
+    "study_condition": "ft"
+  },
+  "wall_ms": 1345.8067999963532,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 1222 MiB, 0 %, 60",
+  "finished_utc": "2026-11-05T16:49:25.531115+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-11-05T16:59:14.699539+00:00",
+  "identity": {
+    "model": "qwen2.5-7b-finetuned",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a"
+  },
+  "no_weights_copied": true,
+  "files": {
+    "adapter_config.json": "4a7cc412d455ba7c2b21ee6c06797f01d7cb62280745f9f0c13c312b9e16d6f9",
+    "base_config.json": "c9b481809ae2e99227ac323b77a9da0b5387a0a21f46329327132273435fa3f7",
+    "checkpoint_manifest.json": "d52c0b2345d02e8d7b179115b2056477fc1b3ceb40fd9ba2c9b9442a49bbc70e",
+    "generation_config.json": "424e77633729a4c63a0810e0fa32e3344b03499cd3a0b2fc626bfae19e7eb923",
+    "training_run.original.json": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a"
+  },
+  "note": "Small metadata copied after collection from artifacts verified by the same loader. Historical profile benchmark_role is not the new study design; see protocol.json."
+}

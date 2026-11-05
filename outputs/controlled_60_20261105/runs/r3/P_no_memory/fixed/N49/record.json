@@ -1,0 +1,125 @@
+{
+  "repeat": 3,
+  "configuration": "P_no_memory",
+  "phase": "fixed",
+  "case_id": "N49",
+  "family": "O-N49",
+  "category": "O",
+  "question": "Lãi suất và phí trả góp của riêng hồ sơ tín dụng tôi sẽ được duyệt là bao nhiêu? Tôi chưa chọn ngân hàng.",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Hồ sơ trả góp có thể cần CCCD/CMND còn hiệu lực, số điện thoại chính chủ và giấy tờ bổ sung theo yêu cầu của đơn vị tài chính.",
+    "sources": [
+      {
+        "id": "doc_008",
+        "title": "Điện thoại",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Điện thoại\n\n## Điện thoại\n\nThương hiệu trong catalog: Apple, Huawei, Itel, Masstel, Nokia, Nubia, OPPO, Realme, Samsung, Sony, Tecno, Vivo, Xiaomi.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Điện thoại"
+        }
+      },
+      {
+        "id": "doc_041",
+        "title": "TRẢ GÓP",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TRẢ GÓP\nMục: TRẢ GÓP\n\n# TRẢ GÓP",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TRẢ GÓP",
+          "title": "TRẢ GÓP"
+        }
+      },
+      {
+        "id": "doc_044",
+        "title": "Hồ sơ trả góp",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TRẢ GÓP\nMục: Hồ sơ trả góp\n\n## Hồ sơ trả góp\n\nKhách hàng có thể cần chuẩn bị:\n\n- CCCD hoặc CMND còn hiệu lực.\n- Số điện thoại chính chủ.\n- Một số giấy tờ khác theo yêu cầu của đơn vị tài chính.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TRẢ GÓP",
+          "title": "Hồ sơ trả góp"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 236.02709999977378,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:27:25.406606+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": false,
+        "resolved_product": null,
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Lãi suất và phí trả góp của riêng hồ sơ tín dụng tôi sẽ được duyệt là bao nhiêu? Tôi chưa chọn ngân hàng.",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 742.3041000001831,
+    "study_condition": "base"
+  },
+  "wall_ms": 1346.3937999986229,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 232 MiB, 0 %, 61",
+  "finished_utc": "2026-11-05T16:43:19.547434+00:00"
+}

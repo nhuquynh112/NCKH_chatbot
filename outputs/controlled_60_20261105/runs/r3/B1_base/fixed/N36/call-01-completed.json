@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi đã chuyển sang Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím.\nassistant: Mẫu đang trao đổi: Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím. Giá catalog 13,990,000 VND. Bảo hành trong catalog: 12 tháng.\n\nKhông tra mẫu tôi tự đặt tên nữa; chiếc Huawei cuối cùng được ghi kèm phụ kiện gì trong tên và có bao nhiêu RAM?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Dựa trên thông tin bạn cung cấp, tôi có thể xác định được một số điểm chính:\n\n1. Bạn đã chuyển sang sử dụng Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím.\n2. Mẫu này có 12GB RAM và 256GB bộ nhớ trong.\n3. Phụ kiện đi kèm là bàn phím.\n\nTuy nhiên, tôi cần thêm thông tin về mẫu Huawei MatePad cuối cùng bạn sử dụng trước đây để có thể cung cấp thông tin chính xác về phụ kiện đi kèm và dung lượng RAM. Bạn có thể cung cấp thêm thông tin về mẫu Huawei MatePad bạn sử dụng trước đây không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12247.675600003276,
+    "input_tokens": 194,
+    "output_tokens": 148,
+    "peak_allocated_bytes": 8876896768,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12250.293899996905,
+  "phase": "final"
+}

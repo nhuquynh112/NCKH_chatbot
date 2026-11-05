@@ -1,0 +1,114 @@
+{
+  "repeat": 1,
+  "configuration": "P_base",
+  "phase": "fixed",
+  "case_id": "N10",
+  "family": "S-120",
+  "category": "S",
+  "question": "Chỉ xét RAM, Laptop Acer Swift Air 14 SFA14-I31-55NR hơn Laptop Thunderobot T-Book 15A bao nhiêu GB? Tôi chưa hỏi nâng cấp máy.",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Laptop Acer Swift Air 14 SFA14-I31-55NR: Dung lượng RAM: 12GB, Loại RAM: LPDDR5X 7467 MT/s Onboard, Số khe ram: Không nâng cấp. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+    "sources": [
+      {
+        "id": "retailer-laptop-acer-swift-air-14-sfa14-i31-55nr-1",
+        "title": "CellphoneS – Laptop Acer Swift Air 14 SFA14-I31-55NR",
+        "score": 1.0,
+        "content": "Nguồn nhà bán lẻ tham khảo cho Laptop Acer Swift Air 14 SFA14-I31-55NR",
+        "metadata": {
+          "source": "retailer_reference",
+          "url": "https://cellphones.com.vn/laptop-acer-swift-air-14-sfa14-i31-55nr.html",
+          "verified_at": ""
+        }
+      },
+      {
+        "id": "doc_010",
+        "title": "Laptop",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Laptop\n\n## Laptop\n\nThương hiệu trong catalog: ASUS, Acer, Apple, HP, Lenovo, MSI, Thunderobot.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Laptop"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 263.6936999988393,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T14:27:00.910242+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": "laptop-acer-swift-air-14-sfa14-i31-55nr",
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Chỉ xét RAM, Laptop Acer Swift Air 14 SFA14-I31-55NR hơn Laptop Thunderobot T-Book 15A bao nhiêu GB? Tôi chưa hỏi nâng cấp máy.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nLaptop Acer Swift Air 14 SFA14-I31-55NR (laptop-acer-swift-air-14-sfa14-i31-55nr), nhóm Laptop, giá 24.990.000 VND.\nLaptop Acer Swift Air 14 SFA14-I31-55NR. Loại card đồ họa: Intel Graphics; Dung lượng RAM: 12GB; Loại RAM: LPDDR5X 7467 MT/s Onboard — Loại card đồ họa: Intel Graphics, Dung lượng RAM: 12GB, Loại RAM: LPDDR5X 7467 MT/s Onboard, Số khe ram: Không nâng cấp, Ổ cứng: 512GB PCIe NVMe SSD (Nâng cấp tối đa 2TB), Công nghệ màn hình: Độ sáng 350 nits Tỉ lệ màn hình 16:10 Độ phủ màu 100% sRGB Góc nhìn 170° Màn hình LED-backlit TFT LCD, Hệ điều hành khi ra mắt: Windows 11 Home, Loại CPU: Intel Core 5 320 (6 lõi / 6 luồng, Tần số cơ bản của nhân hiệu năng cao 1.5 GHz, 3.0 up to 4.6 GHz, 6 MB Smart Cache), Kích thước màn hình: 14 inches, Độ phân giải màn hình: 1920 x 1200 pixels (WUXGA), Pin: 70 Wh 3-cell Li-ion battery 3-pin 100 W PD PCR 50%, TCO 9.0 AC adapter, Cổng giao tiếp: 2x USB-C (USB4 40Gbps, Thunderbolt 4, sạc 5V/3A) 1x USB-C (DC-in 20V/100W) 1x USB-A 3.2 Gen 1",
+        "history_messages": 0
+      }
+    ],
+    "whole_worker_ms": 1091.9789000035962,
+    "study_condition": "base"
+  },
+  "wall_ms": 1977.3376000011922,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 543 MiB, 5 %, 56",
+  "finished_utc": "2026-11-05T14:28:37.144380+00:00"
+}

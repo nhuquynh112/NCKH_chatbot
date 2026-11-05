@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Trong hồ sơ của realme 13+ 5G 8GB 256GB, dung lượng RAM và bộ nhớ trong là bao nhiêu? Đừng lấy thông số từ bản 12GB.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Trong hồ sơ của Realme 13+ 5G với cấu hình 8GB RAM và 256GB bộ nhớ trong, dung lượng RAM là 8GB và bộ nhớ trong là 256GB. Bạn có cần thêm thông tin về các tính năng khác củaRealme 13+ 5G không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 5938.02620000497,
+    "input_tokens": 123,
+    "output_tokens": 73,
+    "peak_allocated_bytes": 8852270592,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 5940.107700000226,
+  "phase": "final"
+}

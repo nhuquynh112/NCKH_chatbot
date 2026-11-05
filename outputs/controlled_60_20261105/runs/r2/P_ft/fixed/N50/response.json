@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "answer": "Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp: màn hình: Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp. Loại miếng dán: Dán cường lực; Dùng được cho: iPhone 18 Pro; Tính năng: Lọc ánh sáng xanh chuẩn TÜV Rheinland Đức, giảm mỏi mắt khi dùng lâu Chặn hơn 60% ánh sáng xanh có hại bước sóng 435–440nm Độ chênh lệch nhiệt độ màu dưới 500K, hiển thị gần như màn hình gốc Thiết kế viền cong Full Hemming bảo vệ toàn diện mép màn hình Hiển thị rõ nét dưới trời nắng gắt, không lo chói lóa Lớp phủ kháng nước, dầu mỡ và chống bám vân tay hiệu quả Thiết kế tràn viền che phủ 99%, ôm khít không hở sáng Gờ viền hoàn thiện tinh xảo, hạn chế bám bụi mép kính; Loại miếng dán: Dán cường lực, Dùng được cho: iPhone 18 Pro, Tính năng: Lọc ánh sáng xanh chuẩn TÜV Rheinland Đức, giảm mỏi mắt khi dùng lâu Chặn hơn 60% ánh sáng xanh có hại bước sóng 435–440nm Độ chênh lệch nhiệt độ màu dưới 500K, hiển thị gần như màn hình gốc Thiết kế viền cong Full Hemming bảo vệ toàn diện mép màn hình Hiển thị rõ nét dưới trời nắng gắt, không lo chói lóa Lớp phủ kháng nước, dầu mỡ và chống bám vân tay hiệu quả Thiết kế tràn viền che phủ 99%, ôm khít không hở sáng Gờ viền hoàn thiện tinh xảo, hạn chế bám bụi mép kính, Đạt chứng nhận: Độ cứng 9H chống trầy xước từ dao rọc giấy, vật sắc nhọn, Chất liệu: Keo quang học OCA màu sáng, giữ màu sắc chân thực, không ám vàng, Kích thước: Độ mỏng ấn tượng chỉ 0.2mm, cảm ứng lướt mượt mà, Hãng sản xuất: Hoda. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+  "sources": [
+    {
+      "id": "retailer-dan-kinh-cuong-luc-man-hinh-iphone-18-pro-hoda-3d-chong-anh-sang-xanh-chong-choi-full-vien-den-cao-cap-1",
+      "title": "CellphoneS – Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/dan-kinh-cuong-luc-man-hinh-iphone-18-pro-hoda-3d-chong-anh-sang-xanh-chong-choi-full-vien-den-cao-cap.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_012",
+      "title": "Màn hình",
+      "score": 1.0,
+      "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Màn hình\n\n## Màn hình\n\nThương hiệu trong catalog: Apple.\n\n---",
+      "metadata": {
+        "source": "knowledge_base.md",
+        "parent": "DANH MỤC SẢN PHẨM",
+        "title": "Màn hình"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 235.3914999985136,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T15:20:03.269250+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "DA.IP23.07",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp có vừa chiếc điện thoại Android tôi đang dùng không? Tôi chưa cung cấp model Android.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nDán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp (DA.IP23.07), nhóm Dán màn hình, giá 1.200.000 VND.\nDán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp. Loại miếng dán: Dán cường lực; Dùng được cho: iPhone 18 Pro; Tính năng: Lọc ánh sáng xanh chuẩn TÜV Rheinland Đức, giảm mỏi mắt khi dùng lâu Chặn hơn 60% ánh sáng xanh có hại bước sóng 435–440nm Độ chênh lệch nhiệt độ màu dưới 500K, hiển thị gần như màn hình gốc Thiết kế viền cong Full Hemming bảo vệ toàn diện mép màn hình Hiển thị rõ nét dưới trời nắng gắt, không lo chói lóa Lớp phủ kháng nước, dầu mỡ và chống bám vân tay hiệu quả Thiết kế tràn viền che phủ 99%, ôm khít không hở sáng Gờ viền hoàn thiện tinh xảo, hạn chế bám bụi mép kính — Loại miếng dán: Dán cường lực, Dùng được cho: iPhone 18 Pro, Tính năng: Lọc ánh sáng xanh chuẩn TÜV Rheinland Đức, giảm mỏi mắt khi dùng lâu Chặn hơn 60% ánh sáng xanh có hại bước sóng 435–440nm Độ chênh lệch nhiệt độ màu dưới 500K, hiển thị gần như màn hình gốc Thiết kế viền cong Full Hemming bảo vệ toàn diện mép màn hình Hiển thị rõ nét dưới trời nắng gắt, không lo chói lóa Lớp phủ kháng nước, dầu mỡ và chống bám vân tay hiệu quả Thiết kế tràn viền che phủ 99%, ôm khít không hở sáng Gờ viền hoàn thiện tinh xảo, hạn chế bám bụi mép kính, Đạt chứng nhận: Độ cứng 9H chống trầy xước từ dao rọc giấy, vật sắc nhọn, Chất liệu: Keo quang học OCA màu sáng, giữ màu sắc chân thực, không ám vàng, Kích thước: Độ mỏng ấn tượng chỉ 0.2mm, cảm ứng lướt mượt mà, Hãng sản xuất: Hoda",
+      "history_messages": 0
+    }
+  ],
+  "whole_worker_ms": 729.5503999994253,
+  "study_condition": "ft"
+}

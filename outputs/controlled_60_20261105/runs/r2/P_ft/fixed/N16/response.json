@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "answer": "Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS: bảo hành Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng (áp dụng cho hóa đơn mua từ 1.1.2025, các máy mua trước đó áp dụng bảo hành 12 tháng). 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.; phù hợp chơi game theo cấu hình đang có (Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS. Chip AI: Hiệu suất AI GPU (TOPs) 992 TOPS Hiệu suất AI NPU (TOPs) 13 TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5070 Ti với 12 GB GDDR7 VRAM chuyên dụng, hỗ trợ 5888 lõi NVIDIA CUDA; Dung lượng RAM: 64GB, Chip AI: Hiệu suất AI GPU (TOPs) 992 TOPS Hiệu suất AI NPU (TOPs) 13 TOPS, Loại card đồ họa: NVIDIA GeForce RTX 5070 Ti với 12 GB GDDR7 VRAM chuyên dụng, hỗ trợ 5888 lõi NVIDIA CUDA, Dung lượng RAM: 64GB, Loại RAM: DDR5 Up to 6400 MT/s, Số khe ram: 2 khe (2x 32GB, Nâng cấp tối đa 96GB), Ổ cứng: 2 TB M.2 NVMe (2 khe, 1TB*2), Công nghệ màn hình: AcerCineCrystal True Black HDR 500(@HDR 500 Có khả năng Nvidia Advanced Optimus Độ phủ màu 100% DCI-P3 Độ sáng 500nits, Hệ điều hành khi ra mắt: Windows 11 Home Single Language, Loại CPU: Intel Core Ultra 9 275HX (24 lõi / 24 luồng, 4.6 GHz (e-core) 5.4 GHz 36MB Cache), Kích thước màn hình: 16 inches, Độ phân giải màn hình: 2560 x 1600 pixels (2K), Pin: 76Wh 4-cell Li-ion 230W 5.5 PHY PCR 50% AC adapter, Cổng giao tiếp: 2x USB Type-C 3x USB-A 1x HDMI 2.1 hỗ trợ HDCP 1x Ethernet (RJ-45) 1x đầu đọc thẻ Micro SD 1x giắc cắm DC-in cho bộ đổi nguồn AC 1x giắc cắm tai nghe/loa 3.5 mm, hỗ trợ tai nghe có tích hợp micrô).",
+  "sources": [
+    {
+      "id": "retailer-laptop-acer-gaming-predator-helios-neo-16s-ai-phn16s-71-95ms-1",
+      "title": "CellphoneS – Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/laptop-acer-gaming-predator-helios-neo-16s-ai-phn16s-71-95ms.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_010",
+      "title": "Laptop",
+      "score": 1.0,
+      "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Laptop\n\n## Laptop\n\nThương hiệu trong catalog: ASUS, Acer, Apple, HP, Lenovo, MSI, Thunderobot.\n\n---",
+      "metadata": {
+        "source": "knowledge_base.md",
+        "parent": "DANH MỤC SẢN PHẨM",
+        "title": "Laptop"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 236.6182999976445,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T15:20:03.269250+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "laptop-acer-gaming-predator-helios-neo-16s-ai-phn16s-71-95ms",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Với Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS, trường thời hạn bảo hành có được xác nhận trong dữ liệu không? Nếu trống hãy nói trống, không lấy mốc của Acer khác.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nLaptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS (laptop-acer-gaming-predator-helios-neo-16s-ai-phn16s-71-95ms), nhóm Laptop, giá 115.000.000 VND.\nLaptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS. Chip AI: Hiệu suất AI GPU (TOPs) 992 TOPS Hiệu suất AI NPU (TOPs) 13 TOPS; Loại card đồ họa: NVIDIA GeForce RTX 5070 Ti với 12 GB GDDR7 VRAM chuyên dụng, hỗ trợ 5888 lõi NVIDIA CUDA; Dung lượng RAM: 64GB — Chip AI: Hiệu suất AI GPU (TOPs) 992 TOPS Hiệu suất AI NPU (TOPs) 13 TOPS, Loại card đồ họa: NVIDIA GeForce RTX 5070 Ti với 12 GB GDDR7 VRAM chuyên dụng, hỗ trợ 5888 lõi NVIDIA CUDA, Dung lượng RAM: 64GB, Loại RAM: DDR5 Up to 6400 MT/s, Số khe ram: 2 khe (2x 32GB, Nâng cấp tối đa 96GB), Ổ cứng: 2 TB M.2 NVMe (2 khe, 1TB*2), Công nghệ màn hình: AcerCineCrystal True Black HDR 500(@HDR 500 Có khả năng Nvidia Advanced Optimus Độ phủ màu 100% DCI-P3 Độ sáng 500nits, Hệ điều hành khi ra mắt: Windows 11 Home Single Language, Loại CPU: Intel Core Ultra 9 275HX (24 lõi / 24 luồng, 4.6 GHz (e-core) 5.4 GHz 36MB Cache), Kích thước màn hình: 16 inches, Độ phân giải màn hình: 2560 x 1600 pixels (2K), Pin: 76Wh 4-cell Li-ion 230W 5.5 PHY PCR 50% AC adapter, Cổng giao tiếp: 2x USB Type-C 3x USB-A 1x HDMI 2.1 hỗ trợ HDCP 1x Ethernet (RJ-45) 1x đầu đọc thẻ Micro SD 1x giắc cắm DC-in cho bộ đổi nguồn AC 1x giắc cắm tai nghe/loa 3.5 mm, hỗ trợ tai nghe có tích hợp micrô",
+      "history_messages": 0
+    }
+  ],
+  "whole_worker_ms": 732.8573999984656,
+  "study_condition": "ft"
+}

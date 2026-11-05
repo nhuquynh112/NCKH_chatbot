@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Laptop HP Dragonfly G4 A9VD6PT có RAM loại nào và card đồ họa nào trong hồ sơ? Thông tin đó có đủ chứng minh nâng RAM được không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Để trả lời câu hỏi của bạn, tôi cần thêm một số thông tin về cấu hình laptop HP Dragonfly G4 A9VD6PT. Cụ thể, tôi cần biết:\n\n1. Loại RAM đang được trang bị trên máy.\n2. Card đồ họa tích hợp hoặc rời (nếu có) trên máy.\n\nBạn có thể cung cấp thông tin này không? Điều này sẽ giúp tôi xác định loại RAM có thể nâng cấp và xem liệu card đồ họa có cản trở quá trình nâng cấp RAM hay không.\n\nNếu bạn không có thông tin cụ thể về cấu hình hiện tại, tôi có thể tìm kiếm thông tin dựa trên mã model A9VD6PT, nhưng kết quả có thể không chính xác 100% vì có thể có nhiều biến thể khác nhau của model này.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 13913.268099997367,
+    "input_tokens": 115,
+    "output_tokens": 175,
+    "peak_allocated_bytes": 8863052288,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 13927.750199996808,
+  "phase": "final"
+}

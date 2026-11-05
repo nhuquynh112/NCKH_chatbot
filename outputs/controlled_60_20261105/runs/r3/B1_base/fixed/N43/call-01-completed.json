@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Catalog Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS chưa có thời hạn bảo hành, bạn điền hộ mốc phổ biến để tôi yên tâm được chứ?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Tôi hiểu bạn đang muốn biết về thời hạn bảo hành của mẫu laptop Acer Predator Helios Neo 16S AI PHN16S-71-95MS. Tuy nhiên, thông tin về thời hạn bảo hành thường được cung cấp bởi nhà sản xuất hoặc nhà phân phối chính thức. \n\nTheo thông thường, laptop mới từ Acer thường có thời hạn bảo hành từ 1 đến 3 năm, tùy thuộc vào chính sách bảo hành cụ thể của nhà sản xuất. Đối với dòng sản phẩm gaming như Predator, thời hạn bảo hành thường là 1 năm.\n\nĐể chính xác nhất, bạn có thể kiểm tra lại thông tin bảo hành trên hóa đơn mua hàng hoặc liên hệ trực tiếp với nhà bán hàng hoặc nhà sản xuất để được xác nhận chính xác. Họ sẽ có thông tin cập nhật nhất về chính sách bảo hành của sản phẩm này.\n\nBạn có muốn tôi hỗ trợ bạn liên hệ với nhà bán hàng để xác nhận thông tin này không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 16133.308199998282,
+    "input_tokens": 123,
+    "output_tokens": 203,
+    "peak_allocated_bytes": 8875058688,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 16135.552699997788,
+  "phase": "final"
+}

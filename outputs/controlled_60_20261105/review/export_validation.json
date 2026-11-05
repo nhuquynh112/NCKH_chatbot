@@ -1,0 +1,28 @@
+{
+  "workbooks": [
+    {
+      "file": "Phieu_R1.xlsx",
+      "sha256": "95296c225d8efaa298ad9b900813568c47485c0f2cd4839de8de8fe95263840f",
+      "primary_rows": 360,
+      "blank_quality_scores": 360,
+      "blank_claim_labels": 1156,
+      "native_tables": 4,
+      "formula_cache_count": 0,
+      "source_values_exact": true
+    },
+    {
+      "file": "Phieu_R2.xlsx",
+      "sha256": "743a70b0b0fa59e80c81a2145884c552684e8dab6ac70febec7fc366a910c197",
+      "primary_rows": 360,
+      "blank_quality_scores": 360,
+      "blank_claim_labels": 1156,
+      "native_tables": 4,
+      "formula_cache_count": 0,
+      "source_values_exact": true
+    }
+  ],
+  "quality_grades_created": 0,
+  "claim_labels_created": 0,
+  "same_primary_responses_different_order": true,
+  "rendered_tabs_visually_reviewed": true
+}

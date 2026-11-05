@@ -1,0 +1,19 @@
+{
+  "method": "P",
+  "condition": "base",
+  "case": {
+    "id": "N08",
+    "category": "S",
+    "question": "Ghi thành hai dòng riêng giá, RAM và dung lượng lưu trữ của Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím và Nubia Pad Pro 12GB 256GB để tôi dự toán mua máy tính bảng.",
+    "history": [],
+    "history_questions": []
+  },
+  "database": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\frozen_products.db",
+  "corpus": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\corpus",
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "timeout": 120,
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8013",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "journal_dir": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\runs\\r3\\P_base\\fixed\\N08"
+}

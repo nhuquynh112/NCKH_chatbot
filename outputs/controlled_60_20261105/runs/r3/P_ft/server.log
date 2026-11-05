@@ -1,0 +1,497 @@
+127.0.0.1 - - [05/Nov/2026 23:45:13] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:14] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:15] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:17] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:20] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:29] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:32] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:35] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:38] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:39] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:40] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:42] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:54] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:55] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:57] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:45:59] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:07] "GET /health HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52630)
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+127.0.0.1 - - [05/Nov/2026 23:46:07] "GET /health HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52631)
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+127.0.0.1 - - [05/Nov/2026 23:46:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:09] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:16] "GET /health HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52638)
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+127.0.0.1 - - [05/Nov/2026 23:46:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:17] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:19] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:20] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:29] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:32] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:35] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:38] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:39] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:40] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:42] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:54] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:55] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:57] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:46:59] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:00] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:01] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:02] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:03] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:04] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:05] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:07] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:08] "GET /health HTTP/1.1" 200 -
+W1105 23:47:09.135000 31676 Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+127.0.0.1 - - [05/Nov/2026 23:47:09] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:10] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:12] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:14] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:34] "GET /health HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58280)
+127.0.0.1 - - [05/Nov/2026 23:47:34] "GET /health HTTP/1.1" 200 -
+Traceback (most recent call last):
+----------------------------------------  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception occurred during processing of request from127.0.0.1 - - [05/Nov/2026 23:47:34] "GET /health HTTP/1.1" 200 -
+ ('127.0.0.1', 51558)  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+
+----------------------------------------
+Exception occurred during processing of request from   File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+127.0.0.1 - - [05/Nov/2026 23:47:34] "GET /health HTTP/1.1" 200 -
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+----------------------------------------
+('127.0.0.1', 58750)  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+Exception occurred during processing of request from----------------------------------------  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+ 
+('127.0.0.1', 58751)  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+127.0.0.1 - - [05/Nov/2026 23:47:34] "GET /health HTTP/1.1" 200 -
+
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+----------------------------------------  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+Exception occurred during processing of request fromTraceback (most recent call last):
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+   File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+('127.0.0.1', 58754)  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+----------------------------------------
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]127.0.0.1 - - [05/Nov/2026 23:47:35] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:47:36] "GET /health HTTP/1.1" 200 -
+Loading weights:   0%|          | 1/339 [00:02<15:57,  2.83s/it]127.0.0.1 - - [05/Nov/2026 23:47:38] "GET /health HTTP/1.1" 200 -
+Loading weights:   1%|          | 4/339 [00:03<03:54,  1.43it/s]Loading weights:   2%|▏         | 6/339 [00:03<02:26,  2.28it/s]Loading weights:   3%|▎         | 9/339 [00:03<01:31,  3.59it/s]127.0.0.1 - - [05/Nov/2026 23:47:39] "GET /health HTTP/1.1" 200 -
+Loading weights:   3%|▎         | 10/339 [00:04<01:54,  2.88it/s]Loading weights:   4%|▎         | 12/339 [00:04<01:32,  3.54it/s]Loading weights:   4%|▍         | 14/339 [00:05<01:06,  4.85it/s]Loading weights:   5%|▍         | 16/339 [00:05<00:56,  5.72it/s]Loading weights:   5%|▌         | 17/339 [00:05<00:59,  5.39it/s]Loading weights:   6%|▌         | 21/339 [00:06<00:59,  5.31it/s]127.0.0.1 - - [05/Nov/2026 23:47:41] "GET /health HTTP/1.1" 200 -
+Loading weights:   6%|▋         | 22/339 [00:06<01:12,  4.37it/s]Loading weights:   7%|▋         | 24/339 [00:07<01:09,  4.51it/s]Loading weights:   8%|▊         | 28/339 [00:07<00:42,  7.30it/s]127.0.0.1 - - [05/Nov/2026 23:47:42] "GET /health HTTP/1.1" 200 -
+Loading weights:   9%|▉         | 30/339 [00:07<00:46,  6.71it/s]Loading weights:  10%|▉         | 33/339 [00:08<00:44,  6.90it/s]Loading weights:  10%|█         | 34/339 [00:08<01:03,  4.83it/s]127.0.0.1 - - [05/Nov/2026 23:47:43] "GET /health HTTP/1.1" 200 -
+Loading weights:  11%|█         | 36/339 [00:09<01:03,  4.74it/s]Loading weights:  11%|█         | 38/339 [00:09<00:49,  6.02it/s]Loading weights:  12%|█▏        | 40/339 [00:09<00:47,  6.30it/s]Loading weights:  12%|█▏        | 41/339 [00:09<00:44,  6.68it/s]127.0.0.1 - - [05/Nov/2026 23:47:44] "GET /health HTTP/1.1" 200 -
+Loading weights:  12%|█▏        | 42/339 [00:09<00:54,  5.42it/s]Loading weights:  13%|█▎        | 45/339 [00:10<00:53,  5.45it/s]Loading weights:  14%|█▎        | 46/339 [00:10<01:06,  4.39it/s]127.0.0.1 - - [05/Nov/2026 23:47:46] "GET /health HTTP/1.1" 200 -
+Loading weights:  14%|█▍        | 48/339 [00:11<00:55,  5.27it/s]Loading weights:  15%|█▍        | 50/339 [00:11<00:43,  6.59it/s]Loading weights:  15%|█▌        | 52/339 [00:11<00:38,  7.37it/s]Loading weights:  16%|█▌        | 53/339 [00:11<00:59,  4.77it/s]127.0.0.1 - - [05/Nov/2026 23:47:47] "GET /health HTTP/1.1" 200 -
+Loading weights:  16%|█▌        | 54/339 [00:12<01:18,  3.63it/s]Loading weights:  17%|█▋        | 57/339 [00:12<00:53,  5.24it/s]Loading weights:  17%|█▋        | 58/339 [00:12<00:50,  5.57it/s]Loading weights:  18%|█▊        | 62/339 [00:13<00:33,  8.34it/s]Loading weights:  19%|█▉        | 64/339 [00:13<00:40,  6.76it/s]127.0.0.1 - - [05/Nov/2026 23:47:48] "GET /health HTTP/1.1" 200 -
+Loading weights:  19%|█▉        | 65/339 [00:14<00:50,  5.42it/s]Loading weights:  19%|█▉        | 66/339 [00:14<01:21,  3.37it/s]127.0.0.1 - - [05/Nov/2026 23:47:49] "GET /health HTTP/1.1" 200 -
+Loading weights:  21%|██        | 70/339 [00:14<00:42,  6.37it/s]Loading weights:  21%|██        | 72/339 [00:15<00:35,  7.61it/s]Loading weights:  22%|██▏       | 74/339 [00:15<00:28,  9.18it/s]Loading weights:  22%|██▏       | 76/339 [00:15<00:36,  7.21it/s]127.0.0.1 - - [05/Nov/2026 23:47:50] "GET /health HTTP/1.1" 200 -
+Loading weights:  23%|██▎       | 78/339 [00:16<01:05,  3.96it/s]Loading weights:  24%|██▍       | 82/339 [00:16<00:39,  6.52it/s]Loading weights:  25%|██▍       | 84/339 [00:16<00:33,  7.68it/s]Loading weights:  26%|██▌       | 88/339 [00:17<00:32,  7.71it/s]127.0.0.1 - - [05/Nov/2026 23:47:52] "GET /health HTTP/1.1" 200 -
+Loading weights:  27%|██▋       | 90/339 [00:18<00:54,  4.60it/s]Loading weights:  27%|██▋       | 93/339 [00:18<00:42,  5.72it/s]Loading weights:  28%|██▊       | 95/339 [00:18<00:36,  6.68it/s]Loading weights:  29%|██▊       | 97/339 [00:19<00:38,  6.24it/s]127.0.0.1 - - [05/Nov/2026 23:47:54] "GET /health HTTP/1.1" 200 -
+Loading weights:  29%|██▉       | 98/339 [00:19<00:54,  4.45it/s]Loading weights:  29%|██▉       | 99/339 [00:20<01:06,  3.64it/s]127.0.0.1 - - [05/Nov/2026 23:47:55] "GET /health HTTP/1.1" 200 -
+Loading weights:  29%|██▉       | 100/339 [00:20<00:58,  4.12it/s]Loading weights:  30%|██▉       | 101/339 [00:20<00:57,  4.17it/s]Loading weights:  30%|███       | 102/339 [00:20<00:50,  4.68it/s]Loading weights:  31%|███▏      | 106/339 [00:21<00:30,  7.73it/s]Loading weights:  32%|███▏      | 108/339 [00:21<00:25,  8.99it/s]127.0.0.1 - - [05/Nov/2026 23:47:56] "GET /health HTTP/1.1" 200 -
+Loading weights:  32%|███▏      | 110/339 [00:21<00:29,  7.78it/s]Loading weights:  33%|███▎      | 112/339 [00:22<00:37,  6.04it/s]Loading weights:  35%|███▍      | 117/339 [00:22<00:26,  8.33it/s]127.0.0.1 - - [05/Nov/2026 23:47:57] "GET /health HTTP/1.1" 200 -
+Loading weights:  35%|███▍      | 118/339 [00:22<00:28,  7.64it/s]Loading weights:  36%|███▌      | 122/339 [00:23<00:26,  8.33it/s]Loading weights:  37%|███▋      | 124/339 [00:23<00:29,  7.34it/s]127.0.0.1 - - [05/Nov/2026 23:47:58] "GET /health HTTP/1.1" 200 -
+Loading weights:  37%|███▋      | 125/339 [00:23<00:33,  6.36it/s]Loading weights:  38%|███▊      | 129/339 [00:23<00:24,  8.45it/s]Loading weights:  39%|███▉      | 132/339 [00:24<00:26,  7.92it/s]Loading weights:  40%|███▉      | 134/339 [00:24<00:30,  6.78it/s]127.0.0.1 - - [05/Nov/2026 23:47:59] "GET /health HTTP/1.1" 200 -
+Loading weights:  40%|████      | 136/339 [00:25<00:33,  6.12it/s]Loading weights:  41%|████      | 138/339 [00:25<00:28,  7.01it/s]Loading weights:  42%|████▏     | 142/339 [00:25<00:19,  9.94it/s]Loading weights:  42%|████▏     | 144/339 [00:25<00:23,  8.43it/s]127.0.0.1 - - [05/Nov/2026 23:48:00] "GET /health HTTP/1.1" 200 -
+Loading weights:  43%|████▎     | 146/339 [00:26<00:23,  8.11it/s]Loading weights:  44%|████▎     | 148/339 [00:26<00:27,  6.85it/s]Loading weights:  44%|████▍     | 150/339 [00:26<00:23,  8.09it/s]Loading weights:  45%|████▌     | 153/339 [00:26<00:18, 10.29it/s]127.0.0.1 - - [05/Nov/2026 23:48:01] "GET /health HTTP/1.1" 200 -
+Loading weights:  46%|████▌     | 155/339 [00:27<00:24,  7.64it/s]Loading weights:  46%|████▋     | 157/339 [00:27<00:26,  6.75it/s]127.0.0.1 - - [05/Nov/2026 23:48:03] "GET /health HTTP/1.1" 200 -
+Loading weights:  47%|████▋     | 158/339 [00:28<00:32,  5.54it/s]Loading weights:  47%|████▋     | 161/339 [00:28<00:23,  7.46it/s]Loading weights:  48%|████▊     | 162/339 [00:28<00:27,  6.50it/s]Loading weights:  49%|████▊     | 165/339 [00:28<00:24,  7.18it/s]Loading weights:  49%|████▉     | 166/339 [00:29<00:33,  5.11it/s]127.0.0.1 - - [05/Nov/2026 23:48:04] "GET /health HTTP/1.1" 200 -
+Loading weights:  50%|████▉     | 168/339 [00:29<00:32,  5.27it/s]Loading weights:  51%|█████     | 172/339 [00:30<00:22,  7.58it/s]Loading weights:  51%|█████     | 173/339 [00:30<00:22,  7.47it/s]Loading weights:  52%|█████▏    | 177/339 [00:30<00:20,  7.88it/s]127.0.0.1 - - [05/Nov/2026 23:48:05] "GET /health HTTP/1.1" 200 -
+Loading weights:  53%|█████▎    | 178/339 [00:31<00:27,  5.86it/s]Loading weights:  53%|█████▎    | 180/339 [00:31<00:29,  5.37it/s]127.0.0.1 - - [05/Nov/2026 23:48:06] "GET /health HTTP/1.1" 200 -
+Loading weights:  54%|█████▎    | 182/339 [00:31<00:23,  6.72it/s]Loading weights:  55%|█████▍    | 185/339 [00:31<00:16,  9.28it/s]Loading weights:  55%|█████▌    | 187/339 [00:32<00:24,  6.09it/s]Loading weights:  56%|█████▌    | 189/339 [00:32<00:25,  5.91it/s]127.0.0.1 - - [05/Nov/2026 23:48:07] "GET /health HTTP/1.1" 200 -
+Loading weights:  57%|█████▋    | 192/339 [00:32<00:18,  8.15it/s]Loading weights:  57%|█████▋    | 194/339 [00:33<00:15,  9.32it/s]Loading weights:  58%|█████▊    | 197/339 [00:33<00:16,  8.79it/s]Loading weights:  59%|█████▊    | 199/339 [00:34<00:24,  5.76it/s]127.0.0.1 - - [05/Nov/2026 23:48:09] "GET /health HTTP/1.1" 200 -
+Loading weights:  60%|█████▉    | 202/339 [00:34<00:18,  7.49it/s]Loading weights:  60%|██████    | 204/339 [00:34<00:16,  8.10it/s]Loading weights:  61%|██████    | 206/339 [00:34<00:18,  7.27it/s]Loading weights:  61%|██████▏   | 208/339 [00:35<00:18,  7.01it/s]127.0.0.1 - - [05/Nov/2026 23:48:10] "GET /health HTTP/1.1" 200 -
+Loading weights:  62%|██████▏   | 209/339 [00:35<00:24,  5.32it/s]Loading weights:  63%|██████▎   | 213/339 [00:35<00:14,  8.65it/s]Loading weights:  63%|██████▎   | 215/339 [00:35<00:12, 10.04it/s]Loading weights:  64%|██████▍   | 218/339 [00:36<00:11, 10.17it/s]127.0.0.1 - - [05/Nov/2026 23:48:11] "GET /health HTTP/1.1" 200 -
+Loading weights:  65%|██████▌   | 221/339 [00:36<00:18,  6.43it/s]Loading weights:  66%|██████▋   | 225/339 [00:37<00:12,  9.01it/s]127.0.0.1 - - [05/Nov/2026 23:48:12] "GET /health HTTP/1.1" 200 -
+Loading weights:  68%|██████▊   | 230/339 [00:37<00:10, 10.19it/s]Loading weights:  68%|██████▊   | 232/339 [00:37<00:11,  9.31it/s]Loading weights:  69%|██████▉   | 234/339 [00:38<00:13,  8.07it/s]Loading weights:  70%|███████   | 238/339 [00:38<00:09, 10.64it/s]Loading weights:  71%|███████▏  | 242/339 [00:38<00:08, 11.67it/s]127.0.0.1 - - [05/Nov/2026 23:48:13] "GET /health HTTP/1.1" 200 -
+Loading weights:  72%|███████▏  | 244/339 [00:39<00:13,  7.19it/s]Loading weights:  73%|███████▎  | 246/339 [00:39<00:11,  8.32it/s]Loading weights:  73%|███████▎  | 249/339 [00:39<00:09,  9.55it/s]127.0.0.1 - - [05/Nov/2026 23:48:14] "GET /health HTTP/1.1" 200 -
+Loading weights:  74%|███████▍  | 252/339 [00:39<00:09,  9.43it/s]Loading weights:  75%|███████▍  | 254/339 [00:40<00:09,  8.79it/s]Loading weights:  76%|███████▌  | 256/339 [00:40<00:11,  7.47it/s]127.0.0.1 - - [05/Nov/2026 23:48:15] "GET /health HTTP/1.1" 200 -
+Loading weights:  77%|███████▋  | 261/339 [00:40<00:06, 11.43it/s]Loading weights:  78%|███████▊  | 264/339 [00:41<00:06, 10.80it/s]Loading weights:  78%|███████▊  | 266/339 [00:41<00:08,  8.93it/s]127.0.0.1 - - [05/Nov/2026 23:48:16] "GET /health HTTP/1.1" 200 -
+Loading weights:  79%|███████▉  | 268/339 [00:41<00:09,  7.59it/s]Loading weights:  80%|███████▉  | 270/339 [00:42<00:07,  8.98it/s]Loading weights:  81%|████████  | 274/339 [00:42<00:05, 12.98it/s]Loading weights:  81%|████████▏ | 276/339 [00:42<00:05, 10.61it/s]Loading weights:  82%|████████▏ | 278/339 [00:42<00:06,  9.51it/s]127.0.0.1 - - [05/Nov/2026 23:48:18] "GET /health HTTP/1.1" 200 -
+Loading weights:  83%|████████▎ | 280/339 [00:43<00:08,  7.14it/s]Loading weights:  83%|████████▎ | 282/339 [00:43<00:07,  7.51it/s]Loading weights:  84%|████████▍ | 286/339 [00:43<00:05,  8.85it/s]Loading weights:  85%|████████▍ | 288/339 [00:44<00:07,  7.25it/s]127.0.0.1 - - [05/Nov/2026 23:48:19] "GET /health HTTP/1.1" 200 -
+Loading weights:  86%|████████▌ | 290/339 [00:44<00:06,  7.31it/s]Loading weights:  86%|████████▋ | 293/339 [00:44<00:04,  9.41it/s]Loading weights:  87%|████████▋ | 295/339 [00:44<00:04, 10.08it/s]Loading weights:  88%|████████▊ | 297/339 [00:45<00:04,  9.12it/s]Loading weights:  88%|████████▊ | 299/339 [00:45<00:04,  8.50it/s]127.0.0.1 - - [05/Nov/2026 23:48:20] "GET /health HTTP/1.1" 200 -
+Loading weights:  88%|████████▊ | 300/339 [00:45<00:06,  5.78it/s]Loading weights:  90%|████████▉ | 305/339 [00:46<00:03,  9.67it/s]Loading weights: 100%|██████████| 339/339 [00:46<00:00,  7.36it/s]
+127.0.0.1 - - [05/Nov/2026 23:48:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:23] "GET /health HTTP/1.1" 200 -
+2026-11-05 23:48:24,135 INFO MODEL_READY {"model": "qwen2.5-7b-controlled", "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit", "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d", "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7", "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d", "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a", "status": "ready", "condition": "ft", "adapter_loaded": true, "active_adapters": ["default"], "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7", "gpu": "NVIDIA GeForce RTX 3060", "quantization": "NF4/BF16", "seed": 20261014, "attention": "sdpa", "cpu_offload": false, "packages": {"torch": "2.14.1+cu126", "transformers": "5.19.0", "peft": "0.21.2", "bitsandbytes": "0.50.2"}, "loaded_at": "2026-11-05T16:48:24.135240+00:00"}
+127.0.0.1 - - [05/Nov/2026 23:48:24] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:48:40] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:48:44] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:50] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:48:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:48:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:49:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:04] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:07] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:49:19] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:20] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:26] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:49:31] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:32] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:36] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:49:43] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:49:53] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:49:59] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:00] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:50:08] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:09] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:11] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:50:22] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:26] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:50:32] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:39] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:50:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:54] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:55] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:57] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:50:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:00] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:51:07] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:10] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:51:17] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:20] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:31] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:51:41] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:42] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:51:50] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:52:05] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:52:07] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:52:16] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:52:17] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:52:29] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:52:53] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:52:54] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 23:53:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 23:53:03] "POST /shutdown HTTP/1.1" 200 -

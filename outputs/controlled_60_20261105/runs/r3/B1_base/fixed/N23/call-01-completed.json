@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Đơn giao huyện đảo có được đảm bảo miễn ship và nhận trong ngày theo chính sách demo không? Tôi chưa cung cấp địa chỉ cụ thể.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi cần thêm một số thông tin để có thể trả lời chính xác câu hỏi của bạn. \n\n1. Bạn đang đặt hàng từ đâu và giao hàng đến đâu?\n2. Bạn đã tham gia chương trình demo chưa? \n3. Bạn đặt hàng qua kênh nào (website, ứng dụng, cửa hàng vật lý,...)?\n4. Thời gian đặt hàng của bạn là khi nào?\n\nThông tin này sẽ giúp tôi xác định chính sách giao hàng và miễn phí ship của đơn hàng của bạn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 9015.320200000133,
+    "input_tokens": 109,
+    "output_tokens": 109,
+    "peak_allocated_bytes": 8862670336,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 9030.210500000976,
+  "phase": "final"
+}

@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Trước đó tôi xem TECNO Spark 40 Pro+ 8GB 256GB.\nassistant: Mẫu đang trao đổi: TECNO Spark 40 Pro+ 8GB 256GB. Giá catalog 5,190,000 VND. Bảo hành trong catalog: 13 tháng.\n\nBỏ chuyện điện thoại trước đó, chỉ nói Chuột không dây Bluetooth Rapoo MT560: giá và kết nối nào được ghi trong catalog?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi, tôi cần thêm thông tin về sản phẩm chuột không dây Bluetooth Rapoo MT560 để có thể cung cấp thông tin chính xác. Bạn có thể cho tôi biết giá và thông tin về kết nối của sản phẩm này trong catalog không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 4613.792200005264,
+    "input_tokens": 186,
+    "output_tokens": 56,
+    "peak_allocated_bytes": 8865424384,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 4629.142400001001,
+  "phase": "final"
+}

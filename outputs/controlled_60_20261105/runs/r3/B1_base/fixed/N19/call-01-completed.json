@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Tôi cần đúng Huawei MatePad 12 X 12GB 256GB - Kèm bàn phím kèm bàn phím: trong catalog tên bộ có bàn phím không, RAM và bộ nhớ là bao nhiêu?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Dựa trên thông tin bạn cung cấp, tôi có thể xác nhận:\n\n- Thiết bị là Huawei MatePad 12 X 12GB 256GB\n- Bộ sản phẩm bao gồm máy平板和键盘\n\n关于RAM和存储空间：\n- RAM: 12GB\n- 存储空间: 256GB\n\n不过，为了确认产品名称是否包含键盘，我需要进一步确认。您能否提供产品的完整名称或型号，以便我能够准确地回答您的问题？例如，产品名称是否明确包含“带键盘”或“附带键盘”等字样？\n另外，您也可以提供购买渠道或产品页面的链接，这样我可以直接查看产品详情。",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12258.519800001523,
+    "input_tokens": 126,
+    "output_tokens": 149,
+    "peak_allocated_bytes": 8869208576,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12273.371600000246,
+  "phase": "final"
+}

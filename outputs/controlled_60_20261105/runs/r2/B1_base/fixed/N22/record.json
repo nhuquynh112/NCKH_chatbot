@@ -1,0 +1,87 @@
+{
+  "repeat": 2,
+  "configuration": "B1_base",
+  "phase": "fixed",
+  "case_id": "N22",
+  "family": "S-N22",
+  "category": "S",
+  "question": "Nếu đơn COD đến nơi, tôi được kiểm tra vỏ hộp hay chắc chắn được bóc seal và kích hoạt trước khi trả tiền?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Khi sử dụng hình thức thanh toán COD (Cash On Delivery), bạn sẽ thanh toán trực tiếp khi nhận hàng tại nơi giao hàng. Tuy nhiên, về việc kiểm tra vỏ hộp và bóc seal trước khi trả tiền, điều này phụ thuộc vào chính sách của nhà cung cấp hoặc công ty vận chuyển.\n\nThông thường, bạn nên kiểm tra vỏ hộp bên ngoài trước khi ký nhận hàng để đảm bảo rằng hàng hóa không bị hư hỏng trong quá trình vận chuyển. Tuy nhiên, về việc bóc seal và kích hoạt sản phẩm, điều này thường không được khuyến nghị vì:\n\n1. Có thể làm hỏng sản phẩm.\n2. Có thể làm mất bảo hành.\n3. Có thể gây ra rủi ro về an toàn.\n\nNếu bạn muốn kiểm tra sản phẩm trước khi thanh toán, bạn nên liên hệ với nhà cung cấp để xác nhận chính sách của họ. Một số nhà cung cấp có thể cho phép bạn kiểm tra sản phẩm trước khi thanh toán, nhưng điều này thường không phải là quy định chung.\n\nBạn có thể hỏi nhà cung cấp của bạn về chính sách kiểm tra sản phẩm COD để có thông tin chính xác nhất.",
+    "sources": [],
+    "mode": "llm_without_rag",
+    "error": null,
+    "calls": [
+      {
+        "model": "qwen2.5-7b-controlled",
+        "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+        "user_prompt": "Nếu đơn COD đến nơi, tôi được kiểm tra vỏ hộp hay chắc chắn được bóc seal và kích hoạt trước khi trả tiền?",
+        "generation": {
+          "temperature": 0,
+          "num_predict": 384,
+          "num_ctx": 4096,
+          "repeat_penalty": 1.0
+        },
+        "error": null,
+        "answer": "Khi sử dụng hình thức thanh toán COD (Cash On Delivery), bạn sẽ thanh toán trực tiếp khi nhận hàng tại nơi giao hàng. Tuy nhiên, về việc kiểm tra vỏ hộp và bóc seal trước khi trả tiền, điều này phụ thuộc vào chính sách của nhà cung cấp hoặc công ty vận chuyển.\n\nThông thường, bạn nên kiểm tra vỏ hộp bên ngoài trước khi ký nhận hàng để đảm bảo rằng hàng hóa không bị hư hỏng trong quá trình vận chuyển. Tuy nhiên, về việc bóc seal và kích hoạt sản phẩm, điều này thường không được khuyến nghị vì:\n\n1. Có thể làm hỏng sản phẩm.\n2. Có thể làm mất bảo hành.\n3. Có thể gây ra rủi ro về an toàn.\n\nNếu bạn muốn kiểm tra sản phẩm trước khi thanh toán, bạn nên liên hệ với nhà cung cấp để xác nhận chính sách của họ. Một số nhà cung cấp có thể cho phép bạn kiểm tra sản phẩm trước khi thanh toán, nhưng điều này thường không phải là quy định chung.\n\nBạn có thể hỏi nhà cung cấp của bạn về chính sách kiểm tra sản phẩm COD để có thông tin chính xác nhất.",
+        "generation_evidence": {
+          "model": "qwen2.5-7b-controlled",
+          "adapter_sha256": null,
+          "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+          "generation_ms": 19657.37259999878,
+          "input_tokens": 104,
+          "output_tokens": 247,
+          "peak_allocated_bytes": 8877925888,
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "quantization": "NF4/BF16",
+          "condition": "base",
+          "adapter_loaded": false
+        },
+        "latency_ms": 19659.48170000047,
+        "phase": "final"
+      }
+    ],
+    "history": [],
+    "latency_ms": 19660.60070000094,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:27:25.406606+00:00"
+    },
+    "llm_called": true,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "retrieval_traces": [],
+    "architecture_traces": [],
+    "whole_worker_ms": 19721.849100002146,
+    "study_condition": "base"
+  },
+  "wall_ms": 20209.577500005253,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 506 MiB, 40 %, 68",
+  "finished_utc": "2026-11-05T15:56:22.705650+00:00"
+}

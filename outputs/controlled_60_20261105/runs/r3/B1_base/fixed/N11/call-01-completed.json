@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Hồ sơ TECNO Spark Go 3 4GB 64GB ghi bảo hành khác mốc 12 tháng thông thường chỗ nào? Kèm giá hiện có trong snapshot.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi hiểu bạn đang muốn tìm hiểu về bảo hành của mẫu TECNO Spark Go 3 4GB 64GB và giá hiện tại. Tuy nhiên, tôi cần thêm một số thông tin để có thể cung cấp thông tin chính xác cho bạn:\n\n1. Bạn muốn tìm hiểu về bảo hành ở đâu trên sản phẩm? (ví dụ: mặt trước, mặt sau, trong hộp...)\n2. Bạn muốn biết giá hiện tại ở đâu? (trang web cụ thể, cửa hàng cụ thể...)\n3. Bạn có thể cung cấp thêm thông tin về nguồn gốc của snapshot mà bạn đề cập không?\n\nVới những thông tin này, tôi sẽ có thể hỗ trợ bạn tốt hơn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12195.88030000159,
+    "input_tokens": 118,
+    "output_tokens": 150,
+    "peak_allocated_bytes": 8868405760,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12210.718700000143,
+  "phase": "final"
+}

@@ -1,0 +1,36 @@
+{
+  "method": "P",
+  "condition": "base",
+  "case": {
+    "id": "N25",
+    "category": "H",
+    "question": "Mẫu tai nghe nhét tai vừa chuyển sang có giá và bảo hành như thế nào, đừng lấy lại giá của chiếc chụp tai đầu tiên.",
+    "history": [
+      {
+        "role": "user",
+        "content": "Cho tôi xem Tai nghe Bluetooth chụp tai Sony WH-CH520."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Tai nghe Bluetooth chụp tai Sony WH-CH520. Giá catalog 890,000 VND. Bảo hành trong catalog: 12 tháng."
+      },
+      {
+        "role": "user",
+        "content": "Đổi sang Tai nghe Sony không dây chống ồn WF-1000XM6, tôi muốn loại nhét tai."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Tai nghe Sony không dây chống ồn WF-1000XM6. Giá catalog 7,490,000 VND. Bảo hành trong catalog: 12 tháng."
+      }
+    ],
+    "history_questions": []
+  },
+  "database": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\frozen_products.db",
+  "corpus": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\corpus",
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "timeout": 120,
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8013",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "journal_dir": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\runs\\r1\\P_base\\fixed\\N25"
+}

@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Tôi cần số FPS đã đo của Laptop ASUS TUF Gaming A16 FA608UMI-TU162W khi chơi game ở 4K, bạn có bảng benchmark thực tế không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi, tôi không có thông tin cụ thể về số FPS đã đo của ASUS TUF Gaming A16 FA608UMI-TU162W khi chơi game ở độ phân giải 4K. Để có được thông tin chính xác, chúng ta cần kiểm tra các benchmark thực tế hoặc đánh giá từ người dùng.\n\nBạn có thể cung cấp thêm thông tin như:\n1. Game cụ thể bạn muốn chơi.\n2. Cài đặt đồ họa (ví dụ: chất lượng hình ảnh, độ phân giải, cài đặt anti-aliasing, v.v.).\n3. Có bất kỳ phần mềm benchmark nào bạn đã sử dụng không?\n\nThông tin này sẽ giúp tôi tìm kiếm thông tin chính xác hơn cho bạn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12547.805700000026,
+    "input_tokens": 119,
+    "output_tokens": 156,
+    "peak_allocated_bytes": 8869208576,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12549.881700004335,
+  "phase": "final"
+}

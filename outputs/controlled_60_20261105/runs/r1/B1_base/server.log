@@ -1,0 +1,911 @@
+127.0.0.1 - - [05/Nov/2026 21:39:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:29] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:32] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:35] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:38] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:39] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:40] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:42] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:54] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:55] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:57] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:39:59] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:00] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:01] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:02] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:03] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:04] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:05] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:07] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:09] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:10] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:12] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:13] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:14] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:15] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:17] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:19] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:20] "GET /health HTTP/1.1" 200 -
+W1105 21:40:21.033000 21976 Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+127.0.0.1 - - [05/Nov/2026 21:40:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:40:44] "GET /health HTTP/1.1" 200 -
+----------------------------------------
+127.0.0.1 - - [05/Nov/2026 21:40:44] "GET /health HTTP/1.1" 200 -
+Exception occurred during processing of request from ('127.0.0.1', 59350)
+----------------------------------------
+127.0.0.1 - - [05/Nov/2026 21:40:44] "GET /health HTTP/1.1" 200 -
+Exception occurred during processing of request from ('127.0.0.1', 59351)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59352)
+127.0.0.1 - - [05/Nov/2026 21:40:44] "GET /health HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59353)
+127.0.0.1 - - [05/Nov/2026 21:40:44] "GET /health HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+Traceback (most recent call last):
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+----------------------------------------  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+----------------------------------------
+
+  File "C:\Python314\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 170, in do_GET
+    self.send_json(200, runtime.state) if self.path == "/health" else self.send_json(404, {"error":"Not found"})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\NCKH\2026_Chatbot\Code\NCKH_chatbot\HT_model7B\backend\model_serving\server.py", line 165, in send_json
+    self.wfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+--------------------------------------------------------------------------------
+
+127.0.0.1 - - [05/Nov/2026 21:40:45] "GET /health HTTP/1.1" 200 -
+Loading weights:   0%|          | 1/339 [00:01<06:50,  1.21s/it]Loading weights:   1%|          | 4/339 [00:01<02:18,  2.42it/s]Loading weights:   2%|▏         | 6/339 [00:02<01:27,  3.80it/s]127.0.0.1 - - [05/Nov/2026 21:40:46] "GET /health HTTP/1.1" 200 -
+Loading weights:   3%|▎         | 10/339 [00:02<00:49,  6.59it/s]Loading weights:   4%|▎         | 12/339 [00:02<00:48,  6.81it/s]Loading weights:   4%|▍         | 14/339 [00:02<00:46,  7.00it/s]Loading weights:   7%|▋         | 24/339 [00:03<00:22, 14.15it/s]127.0.0.1 - - [05/Nov/2026 21:40:47] "GET /health HTTP/1.1" 200 -
+Loading weights:   8%|▊         | 26/339 [00:03<00:26, 11.77it/s]Loading weights:   8%|▊         | 28/339 [00:03<00:29, 10.40it/s]Loading weights:   9%|▉         | 30/339 [00:03<00:28, 10.92it/s]Loading weights:  10%|▉         | 33/339 [00:04<00:29, 10.53it/s]127.0.0.1 - - [05/Nov/2026 21:40:49] "GET /health HTTP/1.1" 200 -
+Loading weights:  10%|█         | 35/339 [00:04<00:33,  9.11it/s]Loading weights:  11%|█         | 36/339 [00:05<00:56,  5.36it/s]Loading weights:  12%|█▏        | 40/339 [00:05<00:36,  8.22it/s]127.0.0.1 - - [05/Nov/2026 21:40:50] "GET /health HTTP/1.1" 200 -
+Loading weights:  13%|█▎        | 45/339 [00:05<00:24, 12.01it/s]Loading weights:  14%|█▍        | 48/339 [00:05<00:28, 10.36it/s]Loading weights:  15%|█▍        | 50/339 [00:06<00:32,  8.99it/s]Loading weights:  15%|█▌        | 52/339 [00:06<00:37,  7.75it/s]127.0.0.1 - - [05/Nov/2026 21:40:51] "GET /health HTTP/1.1" 200 -
+Loading weights:  16%|█▌        | 54/339 [00:06<00:35,  8.07it/s]Loading weights:  17%|█▋        | 58/339 [00:07<00:24, 11.40it/s]Loading weights:  18%|█▊        | 60/339 [00:07<00:31,  8.78it/s]127.0.0.1 - - [05/Nov/2026 21:40:52] "GET /health HTTP/1.1" 200 -
+Loading weights:  18%|█▊        | 62/339 [00:08<00:49,  5.59it/s]Loading weights:  19%|█▉        | 66/339 [00:08<00:31,  8.56it/s]Loading weights:  20%|██        | 69/339 [00:08<00:26, 10.18it/s]Loading weights:  21%|██        | 72/339 [00:08<00:30,  8.78it/s]Loading weights:  22%|██▏       | 74/339 [00:09<00:36,  7.34it/s]127.0.0.1 - - [05/Nov/2026 21:40:54] "GET /health HTTP/1.1" 200 -
+Loading weights:  22%|██▏       | 76/339 [00:09<00:43,  6.10it/s]Loading weights:  23%|██▎       | 77/339 [00:09<00:41,  6.25it/s]Loading weights:  24%|██▍       | 81/339 [00:10<00:27,  9.33it/s]Loading weights:  24%|██▍       | 83/339 [00:10<00:34,  7.32it/s]127.0.0.1 - - [05/Nov/2026 21:40:55] "GET /health HTTP/1.1" 200 -
+Loading weights:  25%|██▌       | 85/339 [00:11<00:38,  6.52it/s]Loading weights:  25%|██▌       | 86/339 [00:11<00:51,  4.96it/s]Loading weights:  26%|██▋       | 89/339 [00:11<00:35,  7.00it/s]127.0.0.1 - - [05/Nov/2026 21:40:56] "GET /health HTTP/1.1" 200 -
+Loading weights:  27%|██▋       | 91/339 [00:11<00:32,  7.73it/s]Loading weights:  28%|██▊       | 96/339 [00:12<00:26,  9.09it/s]Loading weights:  29%|██▉       | 98/339 [00:12<00:30,  7.87it/s]127.0.0.1 - - [05/Nov/2026 21:40:57] "GET /health HTTP/1.1" 200 -
+Loading weights:  29%|██▉       | 100/339 [00:13<00:34,  7.01it/s]Loading weights:  30%|██▉       | 101/339 [00:13<00:32,  7.23it/s]Loading weights:  31%|███▏      | 106/339 [00:13<00:25,  9.29it/s]Loading weights:  32%|███▏      | 108/339 [00:13<00:29,  7.91it/s]127.0.0.1 - - [05/Nov/2026 21:40:58] "GET /health HTTP/1.1" 200 -
+Loading weights:  32%|███▏      | 110/339 [00:14<00:28,  8.13it/s]Loading weights:  34%|███▎      | 114/339 [00:14<00:18, 11.93it/s]Loading weights:  35%|███▍      | 118/339 [00:14<00:18, 11.87it/s]Loading weights:  35%|███▌      | 120/339 [00:14<00:20, 10.91it/s]127.0.0.1 - - [05/Nov/2026 21:40:59] "GET /health HTTP/1.1" 200 -
+Loading weights:  36%|███▌      | 122/339 [00:15<00:22,  9.83it/s]Loading weights:  37%|███▋      | 126/339 [00:15<00:16, 13.27it/s]Loading weights:  38%|███▊      | 129/339 [00:15<00:16, 13.00it/s]Loading weights:  39%|███▊      | 131/339 [00:15<00:19, 10.66it/s]Loading weights:  40%|███▉      | 134/339 [00:16<00:18, 11.10it/s]127.0.0.1 - - [05/Nov/2026 21:41:00] "GET /health HTTP/1.1" 200 -
+Loading weights:  41%|████      | 138/339 [00:16<00:13, 14.42it/s]Loading weights:  42%|████▏     | 142/339 [00:16<00:13, 14.90it/s]Loading weights:  42%|████▏     | 144/339 [00:16<00:16, 12.17it/s]Loading weights:  43%|████▎     | 146/339 [00:16<00:18, 10.71it/s]Loading weights:  44%|████▍     | 149/339 [00:17<00:15, 12.32it/s]127.0.0.1 - - [05/Nov/2026 21:41:02] "GET /health HTTP/1.1" 200 -
+Loading weights:  45%|████▌     | 153/339 [00:17<00:13, 13.54it/s]Loading weights:  46%|████▌     | 155/339 [00:17<00:15, 11.76it/s]Loading weights:  46%|████▋     | 157/339 [00:17<00:17, 10.47it/s]Loading weights:  47%|████▋     | 161/339 [00:18<00:12, 14.08it/s]Loading weights:  49%|████▊     | 165/339 [00:18<00:13, 13.16it/s]127.0.0.1 - - [05/Nov/2026 21:41:03] "GET /health HTTP/1.1" 200 -
+Loading weights:  49%|████▉     | 167/339 [00:18<00:21,  8.15it/s]Loading weights:  50%|█████     | 170/339 [00:19<00:16, 10.16it/s]Loading weights:  52%|█████▏    | 177/339 [00:19<00:12, 13.09it/s]Loading weights:  53%|█████▎    | 179/339 [00:19<00:15, 10.52it/s]127.0.0.1 - - [05/Nov/2026 21:41:04] "GET /health HTTP/1.1" 200 -
+Loading weights:  53%|█████▎    | 181/339 [00:20<00:17,  9.16it/s]Loading weights:  55%|█████▍    | 185/339 [00:20<00:12, 12.65it/s]Loading weights:  56%|█████▌    | 189/339 [00:20<00:11, 12.58it/s]127.0.0.1 - - [05/Nov/2026 21:41:05] "GET /health HTTP/1.1" 200 -
+Loading weights:  56%|█████▋    | 191/339 [00:20<00:14, 10.45it/s]Loading weights:  57%|█████▋    | 193/339 [00:21<00:16,  8.98it/s]Loading weights:  58%|█████▊    | 196/339 [00:21<00:13, 10.79it/s]Loading weights:  58%|█████▊    | 198/339 [00:21<00:14, 10.06it/s]Loading weights:  59%|█████▉    | 201/339 [00:21<00:13, 10.27it/s]127.0.0.1 - - [05/Nov/2026 21:41:06] "GET /health HTTP/1.1" 200 -
+Loading weights:  60%|█████▉    | 203/339 [00:22<00:14,  9.57it/s]Loading weights:  61%|██████    | 206/339 [00:22<00:11, 11.74it/s]Loading weights:  61%|██████▏   | 208/339 [00:22<00:12, 10.40it/s]Loading weights:  62%|██████▏   | 210/339 [00:23<00:18,  6.95it/s]127.0.0.1 - - [05/Nov/2026 21:41:07] "GET /health HTTP/1.1" 200 -
+Loading weights:  64%|██████▎   | 216/339 [00:23<00:09, 12.92it/s]Loading weights:  65%|██████▍   | 220/339 [00:23<00:08, 13.54it/s]Loading weights:  66%|██████▌   | 223/339 [00:24<00:12,  9.47it/s]127.0.0.1 - - [05/Nov/2026 21:41:09] "GET /health HTTP/1.1" 200 -
+Loading weights:  67%|██████▋   | 226/339 [00:24<00:09, 11.44it/s]Loading weights:  68%|██████▊   | 232/339 [00:24<00:07, 13.98it/s]Loading weights:  69%|██████▉   | 234/339 [00:25<00:11,  9.54it/s]Loading weights:  71%|███████   | 240/339 [00:25<00:07, 13.76it/s]127.0.0.1 - - [05/Nov/2026 21:41:10] "GET /health HTTP/1.1" 200 -
+Loading weights:  72%|███████▏  | 243/339 [00:25<00:07, 13.58it/s]Loading weights:  72%|███████▏  | 245/339 [00:26<00:10,  9.30it/s]Loading weights:  75%|███████▍  | 254/339 [00:26<00:05, 14.52it/s]Loading weights:  76%|███████▌  | 256/339 [00:26<00:06, 12.38it/s]127.0.0.1 - - [05/Nov/2026 21:41:11] "GET /health HTTP/1.1" 200 -
+Loading weights:  76%|███████▌  | 258/339 [00:26<00:07, 10.81it/s]Loading weights:  77%|███████▋  | 262/339 [00:27<00:05, 13.73it/s]Loading weights:  78%|███████▊  | 266/339 [00:27<00:05, 14.39it/s]Loading weights:  79%|███████▉  | 268/339 [00:27<00:07,  9.60it/s]Loading weights:  81%|████████  | 273/339 [00:27<00:04, 14.12it/s]127.0.0.1 - - [05/Nov/2026 21:41:12] "GET /health HTTP/1.1" 200 -
+Loading weights:  82%|████████▏ | 278/339 [00:28<00:04, 14.78it/s]Loading weights:  83%|████████▎ | 281/339 [00:28<00:05, 10.55it/s]Loading weights:  84%|████████▍ | 286/339 [00:28<00:03, 14.50it/s]Loading weights:  86%|████████▌ | 290/339 [00:29<00:03, 14.82it/s]127.0.0.1 - - [05/Nov/2026 21:41:13] "GET /health HTTP/1.1" 200 -
+Loading weights:  86%|████████▋ | 293/339 [00:29<00:04, 10.22it/s]Loading weights:  88%|████████▊ | 300/339 [00:29<00:02, 16.29it/s]Loading weights:  90%|████████▉ | 304/339 [00:30<00:02, 16.10it/s]127.0.0.1 - - [05/Nov/2026 21:41:15] "GET /health HTTP/1.1" 200 -
+Loading weights:  91%|█████████ | 307/339 [00:30<00:02, 11.53it/s]Loading weights:  91%|█████████▏| 310/339 [00:30<00:02, 12.85it/s]Loading weights:  92%|█████████▏| 313/339 [00:31<00:02, 12.67it/s]Loading weights:  93%|█████████▎| 315/339 [00:31<00:02, 11.01it/s]127.0.0.1 - - [05/Nov/2026 21:41:16] "GET /health HTTP/1.1" 200 -
+Loading weights:  94%|█████████▎| 317/339 [00:31<00:02,  9.86it/s]Loading weights:  99%|█████████▉| 336/339 [00:31<00:00, 33.88it/s]Loading weights: 100%|██████████| 339/339 [00:31<00:00, 10.69it/s]
+127.0.0.1 - - [05/Nov/2026 21:41:17] "GET /health HTTP/1.1" 200 -
+2026-11-05 21:41:17,626 INFO MODEL_READY {"model": "qwen2.5-7b-controlled", "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit", "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d", "adapter_sha256": null, "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d", "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a", "status": "ready", "condition": "base", "adapter_loaded": false, "active_adapters": [], "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7", "gpu": "NVIDIA GeForce RTX 3060", "quantization": "NF4/BF16", "seed": 20261014, "attention": "sdpa", "cpu_offload": false, "packages": {"torch": "2.14.1+cu126", "transformers": "5.19.0", "peft": "0.21.2", "bitsandbytes": "0.50.2"}, "loaded_at": "2026-11-05T14:41:17.626670+00:00"}
+127.0.0.1 - - [05/Nov/2026 21:41:18] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:41:27] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:41:30] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:41:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:41:32] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:41:43] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:41:43] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:41:50] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:41:50] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:41:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:41:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:42:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:42:12] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:42:24] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:42:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:42:31] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:42:32] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:42:35] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:42:36] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:42:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:42:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:42:53] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:42:54] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:43:06] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:43:06] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:43:15] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:43:15] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:43:23] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:43:24] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:43:30] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:43:31] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:43:45] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:43:46] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:44:07] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:44:07] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:44:21] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:44:22] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:44:33] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:44:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:44:42] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:44:43] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:44:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:44:48] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:44:54] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:44:55] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:45:13] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:45:14] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:45:27] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:45:27] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:45:42] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:45:43] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:45:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:45:48] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:46:12] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:46:12] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:46:36] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:46:37] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:46:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:46:48] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:46:57] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:46:58] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:47:05] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:47:05] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:47:22] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:47:23] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:47:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:47:47] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:47:57] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:47:58] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:48:24] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:48:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:48:29] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:48:30] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:48:36] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:48:37] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:48:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:48:47] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:49:00] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:49:01] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:49:24] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:49:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:49:29] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:49:30] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:49:35] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:49:36] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:49:52] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:49:53] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:50:05] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:50:06] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:50:26] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:50:26] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:50:33] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:50:34] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:50:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:50:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:51:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:51:03] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:51:16] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:51:17] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:51:30] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:51:30] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:51:36] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:51:37] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:51:54] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:51:54] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:52:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:52:12] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:52:25] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:52:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:52:41] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:52:42] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:52:46] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:52:47] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:52:53] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:52:54] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:04] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:04] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:18] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:19] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:25] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:26] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:32] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:44] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:48] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:53:51] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:52] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:53:55] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 21:53:56] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:01] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:02] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:02] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 21:54:03] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:09] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:11] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:18] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:19] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:26] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:27] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:33] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:34] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:40] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:41] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:54:52] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:54:53] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:04] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:12] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:19] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:20] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:31] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:32] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:39] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:42] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 21:55:43] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:50] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:51] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:55:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:55:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:56:06] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:07] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:56:13] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:14] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:56:23] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:25] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 21:56:26] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:56:40] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:41] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:56:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:48] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:56:56] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:56:57] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:08] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:09] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:20] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:21] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:28] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:29] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:34] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:35] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:43] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:44] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:51] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:52] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:57:57] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:57:58] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:09] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:10] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:18] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:19] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:21] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 21:58:22] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:27] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:28] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:34] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:35] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:43] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:44] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:51] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:52] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:58:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:58:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:59:04] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:59:05] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:59:12] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:59:14] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:59:19] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:59:20] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:59:29] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:59:30] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:59:41] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:59:42] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 21:59:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 21:59:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:00:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:13] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:00:18] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:19] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:00:29] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:32] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 22:00:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:00:38] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:40] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:00:49] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:50] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:00:56] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:00:57] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:04] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:05] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:12] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:14] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 22:01:15] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:16] "POST /generate HTTP/1.1" 400 -
+127.0.0.1 - - [05/Nov/2026 22:01:17] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:24] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:34] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:35] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:43] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:46] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:49] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:50] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:52] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:01:56] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:01:58] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:02:04] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:05] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:08] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:02:16] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:17] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:02:25] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:27] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:02:36] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:37] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:02:43] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:44] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:02:54] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:55] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:57] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:02:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:00] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:03:07] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:10] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:11] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:03:23] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:32] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:03:41] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:42] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:47] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:03:55] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:03:56] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:04:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:04] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:07] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:04:14] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:15] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:16] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:04:23] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:04:36] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:38] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:04:46] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:47] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:04:57] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:04:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:00] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:01] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:05:08] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:09] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:12] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:14] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:15] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:05:21] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:05:30] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:39] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:40] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:42] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:43] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:05:54] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:05:55] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:06:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:06:05] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:06:14] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:06:24] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:06:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:06:50] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:06:59] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:01] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:07] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:15] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:19] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:22] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:23] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:32] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:38] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:39] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:45] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:46] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:07:52] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:07:53] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:00] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:01] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:09] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:10] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:18] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:19] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:27] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:29] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:34] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:36] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:46] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:47] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:08:55] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:08:57] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:04] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:05] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:12] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:20] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:21] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:32] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:42] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:43] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:09:57] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:09:58] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:05] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:06] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:12] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:13] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:22] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:23] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:33] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:34] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:40] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:41] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:10:54] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:10:55] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:04] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:06] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:15] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:16] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:23] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:32] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:39] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:40] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:42] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:47] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:48] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:11:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:11:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:05] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:06] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:11] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:12] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:22] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:23] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:30] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:31] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:39] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:40] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:12:54] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:12:55] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:02] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:03] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:09] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:10] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:17] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:18] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:24] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:25] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:33] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:34] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:48] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:49] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:13:56] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:13:57] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:04] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:18] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:19] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:27] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:28] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:32] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:33] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:42] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:44] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:51] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:52] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:14:58] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:14:59] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:15:03] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:15:04] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:15:13] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:15:15] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:15:21] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:15:22] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:15:33] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:15:34] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:15:41] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:15:42] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:15:49] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:15:50] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:02] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:15] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:20] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:16:22] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:26] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:31] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:36] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:16:37] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:50] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:16:55] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:17:00] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:17:02] "GET /health HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:17:06] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:17:10] "POST /generate HTTP/1.1" 200 -
+[transformers] Both `max_new_tokens` (=384) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+127.0.0.1 - - [05/Nov/2026 22:17:15] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 22:17:16] "POST /shutdown HTTP/1.1" 200 -

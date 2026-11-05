@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "answer": "TECNO Spark Go 3 4GB 64GB: giá 3.490.000 VND; bảo hành 13 tháng.",
+  "sources": [
+    {
+      "id": "retailer-dien-thoai-tecno-spark-go-3-1",
+      "title": "CellphoneS – TECNO Spark Go 3 4GB 64GB",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho TECNO Spark Go 3 4GB 64GB",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/dien-thoai-tecno-spark-go-3.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_139",
+      "title": "TECNO Spark Go 3 4GB 64GB",
+      "score": 1.0,
+      "content": "Nguồn: product_catalog_extended.md\nChủ đề: Danh mục sản phẩm\nMục: TECNO Spark Go 3 4GB 64GB\n\n# TECNO Spark Go 3 4GB 64GB\n\n## Thông tin chung\n\nHãng: Tecno\n\nDanh mục: Điện thoại\n\nGiá: 3,490,000 VNĐ\n\nBảo hành tham khảo: Bảo hành 13 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.\n\nDữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n## Mô tả\n\nTECNO Spark Go 3 4GB 64GB. Hệ điều hành khi ra mắt: Android 15; Chipset: UNISOC T7250; Dung lượng RAM: 4 GB.\n\n## Thông số kỹ thuật\n\n- Hệ điều hành khi ra mắt: Android 15\n- Chipset: UNISOC T7250\n- Dung lượng RAM: 4 GB\n- Bộ nhớ trong: 64 GB\n- Loại CPU: 2 nhân 2.2 GHz & 6 nhân 2.0 GHz\n- GPU: Mali-G57 MC2\n- Kích thước màn hình: 6.75 inches\n- Độ phân giải màn hình: 720 x 1600 pixel\n- Tính năng màn hình: Độ sáng tối đa 600 nits\n- Camera sau: 13 MP + đèn flash kép\n- Camera trước: 8 MP\n- Pin: 5000 mAh\n- Hỗ trợ mạng: 4G\n- Thẻ SIM: 2 Nano-SIM\n- Thời điểm ra mắt: 04/2026\n\nNguồn tham khảo: CellphoneS – TECNO Spark Go 3 4GB 64GB — https://cellphones.com.vn/dien-thoai-tecno-spark-go-3.html",
+      "metadata": {
+        "source": "product_catalog_extended.md",
+        "parent": "Danh mục sản phẩm",
+        "title": "TECNO Spark Go 3 4GB 64GB"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 198.1101999990642,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T16:48:24.135240+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "dien-thoai-tecno-spark-go-3",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Hồ sơ TECNO Spark Go 3 4GB 64GB ghi bảo hành khác mốc 12 tháng thông thường chỗ nào? Kèm giá hiện có trong snapshot.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nTECNO Spark Go 3 4GB 64GB (dien-thoai-tecno-spark-go-3), nhóm Điện thoại, giá 3.490.000 VND.\nTECNO Spark Go 3 4GB 64GB. Hệ điều hành khi ra mắt: Android 15; Chipset: UNISOC T7250; Dung lượng RAM: 4 GB — Hệ điều hành khi ra mắt: Android 15, Chipset: UNISOC T7250, Dung lượng RAM: 4 GB, Bộ nhớ trong: 64 GB, Loại CPU: 2 nhân 2.2 GHz & 6 nhân 2.0 GHz, GPU: Mali-G57 MC2, Kích thước màn hình: 6.75 inches, Độ phân giải màn hình: 720 x 1600 pixel, Tính năng màn hình: Độ sáng tối đa 600 nits, Camera sau: 13 MP + đèn flash kép, Camera trước: 8 MP, Pin: 5000 mAh, Hỗ trợ mạng: 4G, Thẻ SIM: 2 Nano-SIM, Thời điểm ra mắt: 04/2026",
+      "history_messages": 0
+    }
+  ],
+  "whole_worker_ms": 708.8816999967094,
+  "study_condition": "ft"
+}

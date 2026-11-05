@@ -1,0 +1,19 @@
+{
+  "method": "B1",
+  "condition": "base",
+  "case": {
+    "id": "N04",
+    "category": "S",
+    "question": "Chênh lệch giá niêm yết giữa Tai nghe Bluetooth chụp tai Sony WH-1000XM6 và Tai nghe Bluetooth chụp tai Sony WH-CH520 là bao nhiêu? Viết phép trừ để tôi kiểm tra.",
+    "history": [],
+    "history_questions": []
+  },
+  "database": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\frozen_products.db",
+  "corpus": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\corpus",
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "timeout": 120,
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8013",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "journal_dir": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\runs\\r1\\B1_base\\fixed\\N04"
+}

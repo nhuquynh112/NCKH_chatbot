@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "observations": 360,
+  "primary_repeat": 1,
+  "private_mapping_sha256": "a0cb2cf39ddddcbbc0bc1204a523758cb0f5657e1778848dae11817e55b12b6b",
+  "public_mapping": false,
+  "note": "Coordinator retains the mapping outside Git until both independent human ratings are complete. This commits to the assignment without exposing method labels."
+}

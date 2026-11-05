@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Tôi trả bằng thẻ rồi xin hoàn tiền. Khoảng 3–7 ngày làm việc có được áp dụng chắc chắn như hoàn chuyển khoản không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi hiểu bạn đang muốn biết về thời gian hoàn tiền khi trả bằng thẻ. Tuy nhiên, để có thể cung cấp thông tin chính xác, tôi cần thêm một số thông tin:\n\n1. Bạn đã mua hàng từ đâu? (Website, cửa hàng vật lý, ứng dụng...)\n2. Bạn đã sử dụng thẻ của tổ chức nào để thanh toán?\n3. Bạn đang muốn hoàn tiền về tài khoản của mình hay nhận tiền mặt?\n\nThông thường, thời gian hoàn tiền có thể thay đổi tùy thuộc vào chính sách của nhà cung cấp dịch vụ và phương thức thanh toán. Khoảng 3-7 ngày làm việc là thời gian thông thường, nhưng có thể nhanh hơn hoặc chậm hơn tùy thuộc vào từng trường hợp cụ thể.\n\nTôi sẽ cần thông tin trên để có thể trả lời chính xác hơn về thời gian hoàn tiền trong trường hợp của bạn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 15551.416100002825,
+    "input_tokens": 108,
+    "output_tokens": 193,
+    "peak_allocated_bytes": 8864313856,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 15553.581199994369,
+  "phase": "final"
+}

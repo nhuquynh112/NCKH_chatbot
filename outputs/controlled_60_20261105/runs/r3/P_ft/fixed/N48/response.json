@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "answer": "Lenovo Legion Tab Gen 5 12GB 256GB: Dung lượng RAM: 12 GB. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+  "sources": [
+    {
+      "id": "retailer-may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn-1",
+      "title": "CellphoneS – Lenovo Legion Tab Gen 5 12GB 256GB",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Lenovo Legion Tab Gen 5 12GB 256GB",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_148",
+      "title": "Lenovo Legion Tab Gen 5 12GB 256GB",
+      "score": 1.0,
+      "content": "Nguồn: product_catalog_extended.md\nChủ đề: Danh mục sản phẩm\nMục: Lenovo Legion Tab Gen 5 12GB 256GB\n\n# Lenovo Legion Tab Gen 5 12GB 256GB\n\n## Thông tin chung\n\nHãng: Lenovo\n\nDanh mục: Máy tính bảng\n\nGiá: 23,490,000 VNĐ\n\nBảo hành tham khảo: Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất.\n\nDữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n## Mô tả\n\nLenovo Legion Tab Gen 5 12GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: Snapdragon 8 Elite Gen 5; Dung lượng RAM: 12 GB.\n\n## Thông số kỹ thuật\n\n- Hệ điều hành khi ra mắt: Android 16\n- Chipset: Snapdragon 8 Elite Gen 5\n- Dung lượng RAM: 12 GB\n- Bộ nhớ trong: 256 GB\n- Loại CPU: 8 nhân, 2 nhân Prime tối đa 4.6GHz + 6 nhân Performance tối đa 3.62GHz\n- GPU: Qualcomm Adreno A840 GPU\n- Kích thước màn hình: 8.8 inches\n- Công nghệ màn hình: IPS LCD\n- Độ phân giải màn hình: 3040 x 1904 pixels\n- Tính năng màn hình: Tần số quét 165 Hz Độ sáng tối đa 800 nits Độ sáng 600 nits thông thường Tốc độ lấy mẫu cảm ứng lên đến 480Hz 99% DCI-P3 10 điểm chạm Độ phân giải cảm ứng 10x\n- Camera sau: 50MP\n- Camera trước: 8 MP\n- Pin: 9000 mAh\n- Thời điểm ra mắt: 01/2026\n\nNguồn tham khảo: CellphoneS – Lenovo Legion Tab Gen 5 12GB 256GB — https://cellphones.com.vn/may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn.html",
+      "metadata": {
+        "source": "product_catalog_extended.md",
+        "parent": "Danh mục sản phẩm",
+        "title": "Lenovo Legion Tab Gen 5 12GB 256GB"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 212.81940000335453,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T16:48:24.135240+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Tôi muốn Lenovo Legion Tab Gen 5 12GB 256GB nhưng đổi RAM thành 32GB ngay tại shop; kho có đúng phiên bản đó không?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nLenovo Legion Tab Gen 5 12GB 256GB (may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn), nhóm Máy tính bảng, giá 23.490.000 VND.\nLenovo Legion Tab Gen 5 12GB 256GB. Hệ điều hành khi ra mắt: Android 16; Chipset: Snapdragon 8 Elite Gen 5; Dung lượng RAM: 12 GB — Hệ điều hành khi ra mắt: Android 16, Chipset: Snapdragon 8 Elite Gen 5, Dung lượng RAM: 12 GB, Bộ nhớ trong: 256 GB, Loại CPU: 8 nhân, 2 nhân Prime tối đa 4.6GHz + 6 nhân Performance tối đa 3.62GHz, GPU: Qualcomm Adreno A840 GPU, Kích thước màn hình: 8.8 inches, Công nghệ màn hình: IPS LCD, Độ phân giải màn hình: 3040 x 1904 pixels, Tính năng màn hình: Tần số quét 165 Hz Độ sáng tối đa 800 nits Độ sáng 600 nits thông thường Tốc độ lấy mẫu cảm ứng lên đến 480Hz 99% DCI-P3 10 điểm chạm Độ phân giải cảm ứng 10x, Camera sau: 50MP, Camera trước: 8 MP, Pin: 9000 mAh, Thời điểm ra mắt: 01/2026",
+      "history_messages": 0
+    }
+  ],
+  "whole_worker_ms": 767.3189999986789,
+  "study_condition": "ft"
+}

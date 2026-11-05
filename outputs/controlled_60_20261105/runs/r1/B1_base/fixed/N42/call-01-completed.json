@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "OPPO Find X9 Ultra 12GB 512GB có chắc được tặng thêm tai nghe trong hôm nay không? Chỉ trả lời nếu kho tài liệu có chương trình đó.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Tôi cần thêm một số thông tin để trả lời câu hỏi của bạn. Hiện tại, tôi không có thông tin về việc có chương trình tặng tai nghe khi mua OPPO Find X9 Ultra 12GB 512GB trong hôm nay hay không. Bạn có thể đã bỏ qua một chương trình khuyến mãi đặc biệt nào đó hay không? \n\nNếu bạn có thêm thông tin về chương trình khuyến mãi này, tôi sẽ rất vui được hỗ trợ bạn. Ví dụ, bạn có thể cung cấp thêm thông tin về cửa hàng bạn đang mua sản phẩm, hoặc có bất kỳ chi tiết nào khác về chương trình khuyến mãi này.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 11184.955699995044,
+    "input_tokens": 117,
+    "output_tokens": 139,
+    "peak_allocated_bytes": 8859151872,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 11199.830999998085,
+  "phase": "final"
+}

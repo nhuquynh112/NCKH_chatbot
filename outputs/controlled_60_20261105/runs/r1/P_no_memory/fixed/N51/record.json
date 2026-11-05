@@ -1,0 +1,94 @@
+{
+  "repeat": 1,
+  "configuration": "P_no_memory",
+  "phase": "fixed",
+  "case_id": "N51",
+  "family": "O-N51",
+  "category": "O",
+  "question": "Tôi chưa mua gì nhưng chatbot có thể xác nhận đã nhận tiền và xuất hóa đơn cho tôi ngay được không?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "TechCare hỗ trợ hóa đơn VAT theo chính sách demo. Bạn cung cấp tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Nếu cần sửa thông tin hóa đơn đã lập, nhân viên phải kiểm tra chứng từ; chatbot chưa thể tự sửa hoặc xuất hóa đơn.",
+    "sources": [
+      {
+        "id": "curated-invoice",
+        "title": "Có xuất hóa đơn VAT không?",
+        "score": 1.0,
+        "content": "TechCare hỗ trợ hóa đơn VAT theo chính sách demo. Bạn cung cấp tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Nếu cần sửa thông tin hóa đơn đã lập, nhân viên phải kiểm tra chứng từ; chatbot chưa thể tự sửa hoặc xuất hóa đơn.",
+        "metadata": {
+          "source": "faq_curated.json",
+          "category": "Thanh toán",
+          "status": "research_demo_policy"
+        }
+      }
+    ],
+    "mode": "faq",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 126.0409999958938,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T14:41:17.626670+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [],
+    "whole_worker_ms": 651.6857000024174,
+    "study_condition": "base"
+  },
+  "wall_ms": 1226.9149999992806,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 245 MiB, 54 %, 65",
+  "finished_utc": "2026-11-05T15:05:10.114881+00:00"
+}

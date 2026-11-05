@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi đang cân nhắc Laptop HP Dragonfly G4 A9VD6PT.\nassistant: Mẫu đang trao đổi: Laptop HP Dragonfly G4 A9VD6PT. Giá catalog 54,990,000 VND. Bảo hành trong catalog: 36 tháng.\n\nTạm dừng laptop. Hãy cho tôi giá của HONOR Pad V9 Wifi 8GB 256GB, giữ đúng danh mục máy tính bảng.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi vì sự nhầm lẫn, nhưng tôi cần thêm thông tin để cung cấp chính xác giá cho sản phẩm HONOR Pad V9 Wifi 8GB 256GB. Bạn có thể cho tôi biết nguồn cung cấp hoặc cửa hàng cụ thể bạn đang tham khảo không? Điều này sẽ giúp tôi đưa ra thông tin chính xác nhất cho bạn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 6648.966699998709,
+    "input_tokens": 175,
+    "output_tokens": 79,
+    "peak_allocated_bytes": 8858924032,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 6650.976999997511,
+  "phase": "final"
+}

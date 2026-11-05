@@ -1,0 +1,118 @@
+{
+  "status": "ok",
+  "answer": "Chuột gaming không dây Asus ROG Strix Impact III WL: giá 1.090.000 VND; bảo hành 12 tháng.",
+  "sources": [
+    {
+      "id": "retailer-chuot-gaming-khong-day-asus-rog-strix-impact-iii-wl-1",
+      "title": "CellphoneS – Chuột gaming không dây Asus ROG Strix Impact III WL",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Chuột gaming không dây Asus ROG Strix Impact III WL",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/chuot-gaming-khong-day-asus-rog-strix-impact-iii-wl.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_020",
+      "title": "Chuột",
+      "score": 1.0,
+      "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Chuột\n\n## Chuột\n\nThương hiệu trong catalog: ASUS, Aula, Logitech, Rapoo.\n\n---",
+      "metadata": {
+        "source": "knowledge_base.md",
+        "parent": "DANH MỤC SẢN PHẨM",
+        "title": "Chuột"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [
+    {
+      "role": "user",
+      "content": "Tôi lấy Chuột gaming không dây Aula SC800."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Chuột gaming không dây Aula SC800. Giá catalog 1,090,000 VND. Bảo hành trong catalog: 24 tháng."
+    },
+    {
+      "role": "user",
+      "content": "Thêm một Chuột gaming không dây Asus ROG Strix Impact III WL."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Chuột gaming không dây Asus ROG Strix Impact III WL. Giá catalog 1,090,000 VND. Bảo hành trong catalog: 12 tháng."
+    }
+  ],
+  "latency_ms": 282.1016000016243,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-controlled",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "condition": "ft",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "seed": 20261014,
+    "attention": "sdpa",
+    "cpu_offload": false,
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-05T16:48:24.135240+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "chuot-gaming-khong-day-asus-rog-strix-impact-iii-wl",
+      "use_history_for_retrieval": true,
+      "retrieval_question": "Mỗi loại một chiếc thì tổng tiền hàng bao nhiêu? Trình bày riêng thời hạn bảo hành của từng loại.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nChuột gaming không dây Asus ROG Strix Impact III WL (chuot-gaming-khong-day-asus-rog-strix-impact-iii-wl), nhóm Chuột, giá 1.090.000 VND.\nChuột gaming không dây Asus ROG Strix Impact III WL. Tương thích: Windows ® 10/Windows ® 11; Độ phân giải: 36000 DPI; Kết nối: Bluetooth 5.1 Tần số vô tuyến 2,4 GHz — Tương thích: Windows ® 10/Windows ® 11, Độ phân giải: 36000 DPI, Kết nối: Bluetooth 5.1 Tần số vô tuyến 2,4 GHz, Khoảng cách kết nối (Độ dài dây): 10 m, Đèn LED: LED RGB, Thời gian dùng: 450 giờ không chiếu sáng, Hãng sản xuất: ASUS",
+      "history_messages": 4
+    }
+  ],
+  "whole_worker_ms": 816.1365000050864,
+  "study_condition": "ft"
+}

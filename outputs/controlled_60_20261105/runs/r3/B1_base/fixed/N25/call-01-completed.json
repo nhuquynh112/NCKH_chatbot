@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Cho tôi xem Tai nghe Bluetooth chụp tai Sony WH-CH520.\nassistant: Mẫu đang trao đổi: Tai nghe Bluetooth chụp tai Sony WH-CH520. Giá catalog 890,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Đổi sang Tai nghe Sony không dây chống ồn WF-1000XM6, tôi muốn loại nhét tai.\nassistant: Mẫu đang trao đổi: Tai nghe Sony không dây chống ồn WF-1000XM6. Giá catalog 7,490,000 VND. Bảo hành trong catalog: 12 tháng.\n\nMẫu tai nghe nhét tai vừa chuyển sang có giá và bảo hành như thế nào, đừng lấy lại giá của chiếc chụp tai đầu tiên.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Mẫu tai nghe Sony không dây chống ồn WF-1000XM6 nhét tai có giá catalog là 7,490,000 VND và bảo hành trong catalog là 12 tháng.\n\nBạn có muốn tôi tìm hiểu thêm thông tin về mẫu tai nghe này hay có gì khác cần hỗ trợ không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 6180.4846999948495,
+    "input_tokens": 255,
+    "output_tokens": 74,
+    "peak_allocated_bytes": 8875405824,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 6194.837199996982,
+  "phase": "final"
+}

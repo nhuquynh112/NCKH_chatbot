@@ -1,0 +1,36 @@
+{
+  "method": "P",
+  "condition": "base",
+  "case": {
+    "id": "N30",
+    "category": "H",
+    "question": "Mỗi loại một chiếc thì tổng tiền hàng bao nhiêu? Trình bày riêng thời hạn bảo hành của từng loại.",
+    "history": [
+      {
+        "role": "user",
+        "content": "Tôi lấy Chuột gaming không dây Aula SC800."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Chuột gaming không dây Aula SC800. Giá catalog 1,090,000 VND. Bảo hành trong catalog: 24 tháng."
+      },
+      {
+        "role": "user",
+        "content": "Thêm một Chuột gaming không dây Asus ROG Strix Impact III WL."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Chuột gaming không dây Asus ROG Strix Impact III WL. Giá catalog 1,090,000 VND. Bảo hành trong catalog: 12 tháng."
+      }
+    ],
+    "history_questions": []
+  },
+  "database": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\frozen_products.db",
+  "corpus": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\corpus",
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "timeout": 120,
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8013",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "journal_dir": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\runs\\r1\\P_base\\fixed\\N30"
+}

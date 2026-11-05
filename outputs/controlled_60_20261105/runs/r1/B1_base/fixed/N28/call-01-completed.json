@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Tôi xem Lenovo Legion Tab Gen 5 12GB 256GB.\nassistant: Mẫu đang trao đổi: Lenovo Legion Tab Gen 5 12GB 256GB. Giá catalog 23,490,000 VND. Bảo hành trong catalog: 24 tháng.\n\nBản đang xem chỉ 256GB. Bạn xác nhận giúp bản cùng tên 2TB có giá bao nhiêu, nếu chưa có thì nói chưa xác nhận.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi, tôi chưa tìm thấy thông tin về Lenovo Legion Tab Gen 5 với dung lượng lưu trữ 2TB. Bạn có thể cung cấp thêm thông tin về mẫu này không? Ví dụ như giá hoặc nguồn cung cấp để tôi có thể hỗ trợ bạn tốt hơn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 5158.25799999584,
+    "input_tokens": 185,
+    "output_tokens": 61,
+    "peak_allocated_bytes": 8858006528,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 5170.674599998165,
+  "phase": "final"
+}

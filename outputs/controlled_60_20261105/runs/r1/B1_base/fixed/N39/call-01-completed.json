@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "user: Xem Bàn phím Bluetooth Logitech K580.\nassistant: Mẫu đang trao đổi: Bàn phím Bluetooth Logitech K580. Giá catalog 990,000 VND. Bảo hành trong catalog: 12 tháng.\nuser: Đối chiếu thêm Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy.\nassistant: Mẫu đang trao đổi: Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy. Giá catalog 1,390,000 VND. Bảo hành trong catalog: 12 tháng.\n\nTôi muốn hỏi 'cái kia' chứ chưa nói rõ chiếc nào. Bạn cần hỏi lại hay được tự chọn một chiếc để báo giá?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi vì sự nhầm lẫn. Bạn muốn biết thông tin về bàn phím nào hơn: Bàn phím Bluetooth Logitech K580 hay Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy? Tôi sẽ cung cấp thông tin chính xác cho bạn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 6460.512599995127,
+    "input_tokens": 249,
+    "output_tokens": 68,
+    "peak_allocated_bytes": 8866151936,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 6462.746099998185,
+  "phase": "final"
+}

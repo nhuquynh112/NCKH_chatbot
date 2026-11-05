@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Nếu chọn Lenovo Legion Tab Gen 5 12GB 256GB thay cho HONOR Pad V9 Wifi 8GB 256GB, thời hạn bảo hành trong catalog thay đổi thế nào?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Để trả lời câu hỏi của bạn, tôi cần biết thêm một số thông tin:\n\n1. Thời hạn bảo hành của Lenovo Legion Tab Gen 5 12GB 256GB là bao lâu?\n2. Thời hạn bảo hành của HONOR Pad V9 Wifi 8GB 256GB là bao lâu?\n\nThông thường, thời hạn bảo hành của các sản phẩm từ các thương hiệu khác nhau có thể khác nhau. Tuy nhiên, thông thường, số lượng RAM và bộ nhớ trong không ảnh hưởng đến thời hạn bảo hành của sản phẩm.\n\nNếu bạn có thêm thông tin về thời hạn bảo hành của cả hai sản phẩm này, tôi sẽ có thể cung cấp câu trả lời chính xác hơn cho bạn.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12879.934800002957,
+    "input_tokens": 125,
+    "output_tokens": 158,
+    "peak_allocated_bytes": 8862249472,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12895.42960000108,
+  "phase": "final"
+}

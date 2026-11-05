@@ -1,0 +1,172 @@
+{
+  "repeat": 2,
+  "configuration": "P_ft",
+  "phase": "fixed",
+  "case_id": "N27",
+  "family": "H-N27",
+  "category": "H",
+  "question": "Trạm sạc đó được ghi bảo hành bao lâu? Tôi đã chuyển chủ đề khỏi điện thoại rồi nhé.",
+  "input_history": [
+    {
+      "role": "user",
+      "content": "Ban đầu tôi hỏi vivo Y16 4GB 128GB."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: vivo Y16 4GB 128GB. Giá catalog 4,490,000 VND. Bảo hành trong catalog: 12 tháng."
+    },
+    {
+      "role": "user",
+      "content": "Bây giờ xem Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W."
+    },
+    {
+      "role": "assistant",
+      "content": "Mẫu đang trao đổi: Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W. Giá catalog 3,990,000 VND. Bảo hành trong catalog: 60 tháng."
+    }
+  ],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Thời hạn bảo hành của nhóm điện thoại tùy mẫu, hiện gồm: 12 tháng, 13 tháng, 24 tháng. Bạn gửi tên model cụ thể để mình trả lời chính xác.",
+    "sources": [
+      {
+        "id": "doc_008",
+        "title": "Điện thoại",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Điện thoại\n\n## Điện thoại\n\nThương hiệu trong catalog: Apple, Huawei, Itel, Masstel, Nokia, Nubia, OPPO, Realme, Samsung, Sony, Tecno, Vivo, Xiaomi.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Điện thoại"
+        }
+      },
+      {
+        "id": "doc_032",
+        "title": "Điện thoại chụp ảnh",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TƯ VẤN SẢN PHẨM\nMục: Điện thoại chụp ảnh\n\n## Điện thoại chụp ảnh\n\nĐặc điểm:\n\n- Camera chất lượng cao.\n- Chống rung.\n- Quay video tốt.\n- AI Camera.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TƯ VẤN SẢN PHẨM",
+          "title": "Điện thoại chụp ảnh"
+        }
+      },
+      {
+        "id": "doc_033",
+        "title": "Điện thoại chơi game",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TƯ VẤN SẢN PHẨM\nMục: Điện thoại chơi game\n\n## Điện thoại chơi game\n\nĐặc điểm:\n\n- Chip mạnh.\n- RAM lớn.\n- Màn hình 120Hz.\n- Pin dung lượng cao.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TƯ VẤN SẢN PHẨM",
+          "title": "Điện thoại chơi game"
+        }
+      },
+      {
+        "id": "doc_137",
+        "title": "Điện thoại trẻ em Masstel Alfa 5",
+        "score": 1.0,
+        "content": "Nguồn: product_catalog_extended.md\nChủ đề: Danh mục sản phẩm\nMục: Điện thoại trẻ em Masstel Alfa 5\n\n# Điện thoại trẻ em Masstel Alfa 5\n\n## Thông tin chung\n\nHãng: Masstel\n\nDanh mục: Điện thoại\n\nGiá: 1,050,000 VNĐ\n\nBảo hành tham khảo: Bảo hành 12 tháng chính hãng.\n\nDữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n## Mô tả\n\nĐiện thoại trẻ em Masstel Alfa 5. Kích thước màn hình: 3.5 inches; Công nghệ màn hình: IPS LCD; Chipset: ASR.\n\n## Thông số kỹ thuật\n\n- Kích thước màn hình: 3.5 inches\n- Công nghệ màn hình: IPS LCD\n- Chipset: ASR\n- Bộ nhớ trong: 128 MB\n- Pin: 1750 mAh\n- Thẻ SIM: Nano-SIM\n- Độ phân giải màn hình: 240 x 320 pixels\n- Tính năng màn hình: 262K màu\n\nNguồn tham khảo: CellphoneS – Điện thoại trẻ em Masstel Alfa 5 — https://cellphones.com.vn/dien-thoai-masstel-alfa-5.html",
+        "metadata": {
+          "source": "product_catalog_extended.md",
+          "parent": "Danh mục sản phẩm",
+          "title": "Điện thoại trẻ em Masstel Alfa 5"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [
+      {
+        "role": "user",
+        "content": "Ban đầu tôi hỏi vivo Y16 4GB 128GB."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: vivo Y16 4GB 128GB. Giá catalog 4,490,000 VND. Bảo hành trong catalog: 12 tháng."
+      },
+      {
+        "role": "user",
+        "content": "Bây giờ xem Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W. Giá catalog 3,990,000 VND. Bảo hành trong catalog: 60 tháng."
+      }
+    ],
+    "latency_ms": 435.3112000026158,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "ft",
+      "adapter_loaded": true,
+      "active_adapters": [
+        "default"
+      ],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:20:03.269250+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": null,
+        "use_history_for_retrieval": true,
+        "retrieval_question": "Conversation History\nUser:\nBan đầu tôi hỏi vivo Y16 4GB 128GB.\n\nAssistant:\nMẫu đang trao đổi: vivo Y16 4GB 128GB. Giá catalog 4,490,000 VND. Bảo hành trong catalog: 12 tháng.\n\nUser:\nBây giờ xem Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W.\n\nAssistant:\nMẫu đang trao đổi: Trạm Sạc Dự Phòng Di Động Ecoflow Trail 200 DC 192Wh 220W. Giá catalog 3,990,000 VND. Bảo hành trong catalog: 60 tháng.\n\nCurrent User Question\nTrạm sạc đó được ghi bảo hành bao lâu? Tôi đã chuyển chủ đề khỏi điện thoại rồi nhé.",
+        "history_messages": 4
+      }
+    ],
+    "whole_worker_ms": 965.733299999556,
+    "study_condition": "ft"
+  },
+  "wall_ms": 1525.1158999963081,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 1151 MiB, 0 %, 57",
+  "finished_utc": "2026-11-05T15:21:59.298229+00:00"
+}

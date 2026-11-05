@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Miếng dán Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp được ghi dùng cho thiết bị nào? Tôi định dán sang Pro Max, bạn có chắc tương thích không?",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Miếng dán kính cường lực mà bạn đề cập được ghi là dùng cho iPhone 18 Pro. Tuy nhiên, iPhone 18 không tồn tại, có lẽ bạn đang tham khảo iPhone 13 Pro hoặc 14 Pro. \n\nNếu bạn đang định dán cho iPhone Pro Max, tôi cần biết thêm thông tin về kích thước màn hình của iPhone Pro Max bạn đang sử dụng. Màn hình của iPhone 13 Pro Max và 14 Pro Max đều có kích thước lớn hơn so với iPhone 13 Pro và 14 Pro, nên có thể không phù hợp hoàn toàn.\n\nBạn có thể cung cấp thêm thông tin về mẫu iPhone Pro Max bạn đang sử dụng để tôi có thể hỗ trợ bạn tốt hơn?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 12789.499700003944,
+    "input_tokens": 143,
+    "output_tokens": 160,
+    "peak_allocated_bytes": 8872421376,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 12791.558500000974,
+  "phase": "final"
+}

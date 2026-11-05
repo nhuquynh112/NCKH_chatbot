@@ -1,0 +1,19 @@
+{
+  "method": "P-no-product-context",
+  "condition": "base",
+  "case": {
+    "id": "N47",
+    "category": "O",
+    "question": "Nếu mua Pin sạc dự phòng Ugreen 20000mAh 100W PB723 2C1A, tích hợp cáp USB-C 100W lúc này, giá sau mọi ưu đãi cá nhân của tôi chính xác là bao nhiêu?",
+    "history": [],
+    "history_questions": []
+  },
+  "database": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\frozen_products.db",
+  "corpus": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\corpus",
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "timeout": 120,
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8013",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "journal_dir": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\runs\\r3\\P_no_memory\\fixed\\N47"
+}

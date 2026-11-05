@@ -1,0 +1,87 @@
+{
+  "repeat": 2,
+  "configuration": "B1_base",
+  "phase": "fixed",
+  "case_id": "N24",
+  "family": "S-N24",
+  "category": "S",
+  "question": "Chương trình ghi lãi suất trả góp 0%. Điều đó có tự động có nghĩa tổng tiền trả bằng đúng giá niêm yết, không thêm khoản phí nào không?",
+  "input_history": [],
+  "history_questions": [],
+  "result": {
+    "status": "ok",
+    "answer": "Chương trình ghi lãi suất trả góp 0% thường có nghĩa là bạn sẽ không phải trả thêm lãi suất cho khoản vay của mình. Tuy nhiên, điều này không nhất thiết có nghĩa là tổng số tiền bạn phải trả sẽ bằng chính giá niêm yết của sản phẩm. Có một số yếu tố khác cần xem xét:\n\n1. **Phí dịch vụ**: Một số nhà bán hàng có thể tính thêm phí dịch vụ hoặc phí bảo hiểm.\n2. **Phí bảo hiểm**: Nếu sản phẩm yêu cầu bảo hiểm, phí bảo hiểm cũng sẽ được tính vào tổng số tiền trả góp.\n3. **Phí đăng ký**: Một số chương trình có thể có phí đăng ký hoặc phí quản lý tài khoản.\n4. **Phí trả trước**: Một số chương trình có thể yêu cầu một khoản tiền trả trước.\n\nĐể chắc chắn, bạn nên kiểm tra chi tiết điều khoản và điều kiện của chương trình trả góp hoặc liên hệ trực tiếp với nhà bán hàng để được giải thích rõ ràng về các khoản phí có thể phát sinh.",
+    "sources": [],
+    "mode": "llm_without_rag",
+    "error": null,
+    "calls": [
+      {
+        "model": "qwen2.5-7b-controlled",
+        "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+        "user_prompt": "Chương trình ghi lãi suất trả góp 0%. Điều đó có tự động có nghĩa tổng tiền trả bằng đúng giá niêm yết, không thêm khoản phí nào không?",
+        "generation": {
+          "temperature": 0,
+          "num_predict": 384,
+          "num_ctx": 4096,
+          "repeat_penalty": 1.0
+        },
+        "error": null,
+        "answer": "Chương trình ghi lãi suất trả góp 0% thường có nghĩa là bạn sẽ không phải trả thêm lãi suất cho khoản vay của mình. Tuy nhiên, điều này không nhất thiết có nghĩa là tổng số tiền bạn phải trả sẽ bằng chính giá niêm yết của sản phẩm. Có một số yếu tố khác cần xem xét:\n\n1. **Phí dịch vụ**: Một số nhà bán hàng có thể tính thêm phí dịch vụ hoặc phí bảo hiểm.\n2. **Phí bảo hiểm**: Nếu sản phẩm yêu cầu bảo hiểm, phí bảo hiểm cũng sẽ được tính vào tổng số tiền trả góp.\n3. **Phí đăng ký**: Một số chương trình có thể có phí đăng ký hoặc phí quản lý tài khoản.\n4. **Phí trả trước**: Một số chương trình có thể yêu cầu một khoản tiền trả trước.\n\nĐể chắc chắn, bạn nên kiểm tra chi tiết điều khoản và điều kiện của chương trình trả góp hoặc liên hệ trực tiếp với nhà bán hàng để được giải thích rõ ràng về các khoản phí có thể phát sinh.",
+        "generation_evidence": {
+          "model": "qwen2.5-7b-controlled",
+          "adapter_sha256": null,
+          "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+          "generation_ms": 17934.849200006283,
+          "input_tokens": 113,
+          "output_tokens": 220,
+          "peak_allocated_bytes": 8875861504,
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "quantization": "NF4/BF16",
+          "condition": "base",
+          "adapter_loaded": false
+        },
+        "latency_ms": 17937.209700001404,
+        "phase": "final"
+      }
+    ],
+    "history": [],
+    "latency_ms": 17938.387800000783,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-controlled",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": null,
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "condition": "base",
+      "adapter_loaded": false,
+      "active_adapters": [],
+      "candidate_adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "seed": 20261014,
+      "attention": "sdpa",
+      "cpu_offload": false,
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-05T15:27:25.406606+00:00"
+    },
+    "llm_called": true,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "retrieval_traces": [],
+    "architecture_traces": [],
+    "whole_worker_ms": 17998.12660000316,
+    "study_condition": "base"
+  },
+  "wall_ms": 18492.694699998538,
+  "deadline_seconds": 180,
+  "gpu_before": "NVIDIA GeForce RTX 3060, 12288 MiB, 396 MiB, 42 %, 68",
+  "finished_utc": "2026-11-05T15:52:00.027384+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Dán kính cường lực màn hình iPhone 18 Pro Hoda 3d Chống Ánh Sáng Xanh Chống Chói Full Viền Đen Cao Cấp có vừa chiếc điện thoại Android tôi đang dùng không? Tôi chưa cung cấp model Android.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi, tôi cần biết model cụ thể của điện thoại Android bạn đang sử dụng để xác định kính cường lực có phù hợp hay không. Bạn có thể cung cấp model và kích thước màn hình của điện thoại Android của mình không?",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 4216.421199998877,
+    "input_tokens": 133,
+    "output_tokens": 51,
+    "peak_allocated_bytes": 8858771456,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 4231.812100006209,
+  "phase": "final"
+}

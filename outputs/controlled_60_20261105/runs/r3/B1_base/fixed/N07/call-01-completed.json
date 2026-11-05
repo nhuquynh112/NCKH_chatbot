@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Hai chuột Chuột gaming không dây Aula SC800 và Chuột gaming không dây Asus ROG Strix Impact III WL cùng giá phải không? So thêm thời hạn bảo hành, giữ đúng từng thương hiệu.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin chào! Tôi hiểu bạn muốn so sánh hai sản phẩm chuột gaming không dây: Aula SC800 và Asus ROG Strix Impact III WL. Tuy nhiên, để có thông tin chính xác nhất, tôi cần biết thêm một số thông tin:\n\n1. Giá của hai sản phẩm này là gì?\n2. Thời hạn bảo hành của mỗi sản phẩm là bao lâu?\n3. Bạn có thể cung cấp thêm thông tin về các tính năng chính của mỗi sản phẩm không?\n\nTôi sẽ rất vui được hỗ trợ bạn so sánh hai sản phẩm này một cách chính xác nhất.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 10452.361700001347,
+    "input_tokens": 123,
+    "output_tokens": 128,
+    "peak_allocated_bytes": 8866455040,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 10454.452999998466,
+  "phase": "final"
+}

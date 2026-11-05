@@ -1,0 +1,28 @@
+{
+  "model": "qwen2.5-7b-controlled",
+  "system_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "user_prompt": "Với Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS, trường thời hạn bảo hành có được xác nhận trong dữ liệu không? Nếu trống hãy nói trống, không lấy mốc của Acer khác.",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "error": null,
+  "answer": "Xin lỗi, tôi không có thông tin cụ thể về thời hạn bảo hành của mẫu Laptop Acer Gaming Predator Helios Neo 16S AI PHN16S-71-95MS trong dữ liệu hiện có. Thời hạn bảo hành thường được xác định dựa trên chính sách bảo hành của nhà sản xuất và có thể thay đổi tùy theo từng sản phẩm cụ thể.\n\nBạn có thể kiểm tra thông tin này trực tiếp trên trang web của Acer hoặc liên hệ với nhà bán hàng nơi bạn đã mua sản phẩm để xác nhận chính xác thời hạn bảo hành.",
+  "generation_evidence": {
+    "model": "qwen2.5-7b-controlled",
+    "adapter_sha256": null,
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "generation_ms": 9891.454900003737,
+    "input_tokens": 133,
+    "output_tokens": 123,
+    "peak_allocated_bytes": 8867030016,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "condition": "base",
+    "adapter_loaded": false
+  },
+  "latency_ms": 9907.368400003179,
+  "phase": "final"
+}

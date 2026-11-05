@@ -1,0 +1,36 @@
+{
+  "method": "P",
+  "condition": "ft",
+  "case": {
+    "id": "N39",
+    "category": "H",
+    "question": "Tôi muốn hỏi 'cái kia' chứ chưa nói rõ chiếc nào. Bạn cần hỏi lại hay được tự chọn một chiếc để báo giá?",
+    "history": [
+      {
+        "role": "user",
+        "content": "Xem Bàn phím Bluetooth Logitech K580."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Bàn phím Bluetooth Logitech K580. Giá catalog 990,000 VND. Bảo hành trong catalog: 12 tháng."
+      },
+      {
+        "role": "user",
+        "content": "Đối chiếu thêm Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy."
+      },
+      {
+        "role": "assistant",
+        "content": "Mẫu đang trao đổi: Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy. Giá catalog 1,390,000 VND. Bảo hành trong catalog: 12 tháng."
+      }
+    ],
+    "history_questions": []
+  },
+  "database": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\frozen_products.db",
+  "corpus": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\corpus",
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "timeout": 120,
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8013",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n",
+  "journal_dir": "D:\\NCKH\\2026_Chatbot\\Code\\NCKH_chatbot\\outputs\\controlled_60_20261105\\runs\\r3\\P_ft\\fixed\\N39"
+}
