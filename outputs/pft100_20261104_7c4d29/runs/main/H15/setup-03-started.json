@@ -1,0 +1,21 @@
+{
+  "question": "Em chọn bản Solar, không lấy bản AMOLED vừa hỏi đầu tiên.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em đang xem Garmin Fenix 9 Pro 43mm AMOLED viền Titanium."
+    },
+    {
+      "role": "assistant",
+      "content": "Đồng hồ thông minh Garmin Fenix 9 Pro 43mm AMOLED viền Titanium có giá 30,290,000 VNĐ. Bạn có muốn biết thêm thông tin về sản phẩm này không?"
+    },
+    {
+      "role": "user",
+      "content": "So với bản 47mm Solar viền titan thì giá thế nào?"
+    },
+    {
+      "role": "assistant",
+      "content": "Đồng hồ thông minh Garmin Fenix 9 Pro 43mm AMOLED viền Titanium có giá niêm yết 30.290.000 VND trong dữ liệu TechCare hiện tại. Cập nhật catalog: 28/10/2026 16:13 (GMT+7). Giá thực tế có thể thay đổi theo chương trình bán hàng."
+    }
+  ]
+}

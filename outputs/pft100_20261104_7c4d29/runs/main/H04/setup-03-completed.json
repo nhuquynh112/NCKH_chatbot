@@ -1,0 +1,22 @@
+{
+  "question": "Báo giá riêng từng mẫu giúp em.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em đang xem Sony WH-1000XM6 và Sony WH-CH520, theo đúng thứ tự đó."
+    },
+    {
+      "role": "assistant",
+      "content": "Sony WH-1000XM6 có giá 9,990,000 VNĐ. Sony WH-CH520 có giá 890,000 VNĐ."
+    },
+    {
+      "role": "user",
+      "content": "Hai mẫu đó có cùng hãng không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Mình chưa tìm thấy sản phẩm này trong danh mục TechCare nên không thể xác nhận giá hoặc nơi bán. Bạn có thể tham khảo nguồn bên ngoài:\n- Google: https://www.google.com/search?q=mua+Conversation+History+User+Em+%C4%91ang+xem+Sony+WH-1000XM6+v%C3%A0+Sony+WH-CH520+theo+%C4%91%C3%BAng+th%E1%BB%A9+t%E1%BB%B1+%C4%91%C3%B3.+Assistant+Sony+WH-1000XM6+gi%C3%A1+9+990+000+VN%C4%90.+Sony+WH-CH520+gi%C3%A1+890+000+VN%C4%90.+Current+User+Question+Hai+m%E1%BA%ABu+%C4%91%C3%B3+c%C3%B9ng+h%C3%A3ng+t%E1%BA%A1i+Vi%E1%BB%87t+Nam\n- Google Shopping: https://www.google.com/search?tbm=shop&q=mua+Conversation+History+User+Em+%C4%91ang+xem+Sony+WH-1000XM6+v%C3%A0+Sony+WH-CH520+theo+%C4%91%C3%BAng+th%E1%BB%A9+t%E1%BB%B1+%C4%91%C3%B3.+Assistant+Sony+WH-1000XM6+gi%C3%A1+9+990+000+VN%C4%90.+Sony+WH-CH520+gi%C3%A1+890+000+VN%C4%90.+Current+User+Question+Hai+m%E1%BA%ABu+%C4%91%C3%B3+c%C3%B9ng+h%C3%A3ng+t%E1%BA%A1i+Vi%E1%BB%87t+Nam\nLưu ý: đây là liên kết tham khảo bên ngoài; TechCare không xác minh giá, tồn kho hay độ uy tín của các bên bán trong kết quả."
+    }
+  ],
+  "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+}

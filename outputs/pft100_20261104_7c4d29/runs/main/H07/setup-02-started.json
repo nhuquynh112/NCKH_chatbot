@@ -1,0 +1,13 @@
+{
+  "question": "Em vừa gửi yêu cầu nhưng cửa hàng chưa xác nhận.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Theo chính sách demo, hoàn tiền chuyển khoản dự kiến mất bao lâu?"
+    },
+    {
+      "role": "assistant",
+      "content": "Theo chính sách demo, hoàn tiền qua chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu được xác nhận; tiền mặt theo thỏa thuận tại cửa hàng, thẻ theo thời gian xử lý của ngân hàng. Chatbot chưa tra được giao dịch hoàn tiền cụ thể. Nếu đã quá thời gian dự kiến, bạn gửi mã đơn và ngày được xác nhận hoàn để nhân viên kiểm tra."
+    }
+  ]
+}

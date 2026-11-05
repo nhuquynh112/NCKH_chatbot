@@ -1,0 +1,21 @@
+{
+  "method": "P+FT",
+  "case": {
+    "id": "H07",
+    "category": "Hội thoại thực tế",
+    "question": "Vậy khoảng bao lâu và tính từ lúc em gửi yêu cầu hay lúc shop xác nhận?",
+    "history": [],
+    "history_questions": [
+      "Theo chính sách demo, hoàn tiền chuyển khoản dự kiến mất bao lâu?",
+      "Em vừa gửi yêu cầu nhưng cửa hàng chưa xác nhận.",
+      "Ngày nghỉ có tính vào khoảng dự kiến đó không?"
+    ]
+  },
+  "database": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\frozen_products.db",
+  "corpus": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\corpus",
+  "timeout": 120,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8011",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n"
+}

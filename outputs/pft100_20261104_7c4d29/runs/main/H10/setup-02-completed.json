@@ -1,0 +1,14 @@
+{
+  "question": "Máy đó có bộ nhớ trong bao nhiêu?",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em đang xem máy tính bảng Teclast 4G P50 4GB 128GB trong catalog."
+    },
+    {
+      "role": "assistant",
+      "content": "Máy tính bảng Teclast 4G P50 4GB 128GB có giá 3.790.000 VND. Bạn có câu hỏi gì thêm không?"
+    }
+  ],
+  "answer": "Máy tính bảng Teclast 4G P50 4GB 128GB: Bộ nhớ trong: 128 GB. Cập nhật catalog: 28/10/2026 16:13 (GMT+7)."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "published",
+  "raw_main_attempts": 100,
+  "statuses": {
+    "ok": 99,
+    "error": 1
+  },
+  "failed_case": "S47",
+  "source_unchanged": true,
+  "published_files_sha256": {
+    "BAO_CAO.md": "14aa2815512999a1496b6bff823706dde543209c293c85ee3d2dbc81c5e1db64",
+    "comparison_P_PFT.csv": "e82d71153ac5690a693cbc1936aa70e265fbdaa0584260b364104bc053c36571",
+    "PFT_100.csv": "64613964ad4c27a4ef80165ed6bd8bf7266ebf0d2f686795ade849476395f871",
+    "statistics.json": "519292381a22b0766b47deece983ca1ef256505904021945f692bd9e5c9d9974"
+  },
+  "own_model_service_stopped": true,
+  "no_new_training": true
+}

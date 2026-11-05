@@ -1,0 +1,12 @@
+{
+  "method": "P+FT",
+  "phase": "main",
+  "attempts": 100,
+  "statuses": {
+    "ok": 99,
+    "error": 1
+  },
+  "final_llm_called_cases": 35,
+  "setup_llm_called_cases": 19,
+  "semantic_scores": "unreviewed"
+}

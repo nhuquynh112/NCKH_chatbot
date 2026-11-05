@@ -1,0 +1,14 @@
+{
+  "question": "Mẫu đó giá bao nhiêu?",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em hỏi Samsung Galaxy S26 5G 12GB 256GB."
+    },
+    {
+      "role": "assistant",
+      "content": "Samsung Galaxy S26 5G 12GB 256GB có giá 21.290.000 VND. Bạn có muốn biết thêm thông tin về sản phẩm này không?"
+    }
+  ],
+  "answer": "Samsung Galaxy S26 5G 12GB 256GB có giá niêm yết 21.290.000 VND trong dữ liệu TechCare hiện tại. Cập nhật catalog: 28/10/2026 16:13 (GMT+7). Giá thực tế có thể thay đổi theo chương trình bán hàng."
+}

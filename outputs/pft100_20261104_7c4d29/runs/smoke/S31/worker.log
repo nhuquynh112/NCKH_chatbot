@@ -1,0 +1,3 @@
+
+Cannot connect to Ollama at http://127.0.0.1:11434
+Semantic retrieval unavailable; using current BM25 documents

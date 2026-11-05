@@ -1,0 +1,12 @@
+{
+  "method": "P+FT",
+  "phase": "smoke",
+  "attempts": 3,
+  "statuses": {
+    "ok": 3
+  },
+  "final_llm_called_cases": 1,
+  "setup_llm_called_cases": 0,
+  "semantic_scores": "unreviewed",
+  "smoke_contract_passed": true
+}

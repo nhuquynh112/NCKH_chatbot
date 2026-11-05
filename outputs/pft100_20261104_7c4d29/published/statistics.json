@@ -1,0 +1,501 @@
+{
+  "role": "supplementary_P_FT_not_one_of_four_main_methods",
+  "dataset_version": "4.0-draft",
+  "cases": 100,
+  "product_count": 150,
+  "documents": 299,
+  "input_sha256": "676778f98cbe271512a553d5f4705c2d6853c033d8e75c35b08562b28c7f59a9",
+  "corpus_sha256": {
+    "knowledge_base.md": "4a918ddfbf93371a61b801f1f8a1f2d8e035d83d0e79437f04894fcf254355e6",
+    "product_catalog_extended.md": "e4e1ba91ad83a194053df980f756e34176ee460bfe20cfe09f1e7a849fd3968b",
+    "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e",
+    "techcare_products.json": "448731b0b07196f303210f690b3a2a36b0f8b2790cdc65d9c18df3d20dec5c8c",
+    "techcare_rag_documents.json": "357f00e36a2507d3cb4dcefe792bbf80e4ad9dd3a6d8c0562be85702c50403a4",
+    "product_verified_specs.json": "c8483f6bd7b006b85e573d5f6c7b837007b1ddd964d3365dada8edf75fabc035",
+    "system_prompt.txt": "fc970752acd70806074668ca16ea7289da5a62b15a10573014bd23983855dac4",
+    "vector_index.json": "09caed44aa7d3457354c60a3ec7826269d552cd49cc7ce4914612d7f10383efd"
+  },
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "deadlines": {
+    "single_case_seconds": 120,
+    "whole_conversation_seconds": 600,
+    "per_model_call_seconds": 120
+  },
+  "P_control": {
+    "attempts": 100,
+    "statuses": {
+      "ok": 100
+    },
+    "error_timeout_not_ready_rate": 0.0,
+    "final_llm_called_cases": 35,
+    "setup_llm_called_cases": 19,
+    "retrieval_error_cases": 0,
+    "final_pipeline_latency_successful": {
+      "n": 100,
+      "mean_ms": 5504.738390999919,
+      "median_ms": 242.2296999993705,
+      "p95_ms": 16173.883385000949
+    },
+    "whole_case_wall_successful": {
+      "n": 100,
+      "mean_ms": 14823.766297999791,
+      "median_ms": 1587.9919999988488,
+      "p95_ms": 60894.179780000915
+    }
+  },
+  "P_FT": {
+    "attempts": 100,
+    "statuses": {
+      "ok": 99,
+      "error": 1
+    },
+    "error_timeout_not_ready_rate": 0.01,
+    "final_llm_called_cases": 35,
+    "setup_llm_called_cases": 19,
+    "retrieval_error_cases": 0,
+    "final_pipeline_latency_successful": {
+      "n": 99,
+      "mean_ms": 4934.587920201011,
+      "median_ms": 274.62009999726433,
+      "p95_ms": 16216.16967999871
+    },
+    "whole_case_wall_successful": {
+      "n": 99,
+      "mean_ms": 12887.046933332882,
+      "median_ms": 1977.9780999961076,
+      "p95_ms": 51758.15429000649
+    }
+  },
+  "models": {
+    "P": {
+      "model": "qwen2.5:7b-instruct-fp16",
+      "digest": "59805ce4a4046be2d8f63231a78daacd2e66f5dccf1a64d0d138ebeeb26ff16c",
+      "details": {
+        "parent_model": "/Users/ollama/.ollama/models/blobs/sha256-678e1e0883636c4234928f23fd208337f790456121124a1986cbf1b806baeadb",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "F16",
+        "context_length": 32768,
+        "embedding_length": 3584,
+        "runner": "ggml"
+      },
+      "embedding_identity": {
+        "name": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      }
+    },
+    "P_FT": {
+      "model": "qwen2.5-7b-finetuned",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "adapter_loaded": true,
+      "active_adapters": [
+        "default"
+      ],
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-04T04:55:58.482734+00:00"
+    }
+  },
+  "training": {
+    "retrained_for_this_run": false,
+    "started_utc": "2026-10-14T09:53:28.103114+00:00",
+    "train_rows": 37,
+    "validation_rows": 9,
+    "epoch": 1.0,
+    "trainable_parameters": 2523136,
+    "lora": {
+      "rank": 8,
+      "alpha": 16,
+      "targets": [
+        "q_proj",
+        "v_proj"
+      ],
+      "learning_rate": 5e-05
+    },
+    "max_length": 512,
+    "historical_validation_loss_before": 3.7232754230499268,
+    "historical_validation_loss_after": 3.67547607421875,
+    "source": "ura-hcmut/Vietnamese-Customer-Support-QA",
+    "source_train_sha256": "3015d3178dff30acfde712d09657d3b66bec49811d193bf920aba6a2063b6c3e",
+    "source_validation_sha256": "166c79bfbaf0ea7e1e612f0ebaaa6205fb2d195e5118e8240e6ae998fdc24b52"
+  },
+  "validation": {
+    "same_100_input_scripts_as_P": true,
+    "same_frozen_corpus_and_database_as_P": true,
+    "verified_model_calls": 76,
+    "verified_actual_history_pairs": 70,
+    "semantic_review": "unreviewed",
+    "semantic_accuracy": null,
+    "quality_score_0_2": null
+  },
+  "exact_answer_matches_P": 70,
+  "harness_sha256": {
+    "parent": "a8caf67d500930d54953918c9285aad6d847890da8bb043d62e1d24c65dc6e77",
+    "worker": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+  },
+  "code_sha256": {
+    "app\\catalog_data.py": "87754f4698f64b9bbceeca4d1def49997e7541416ae1e4d4b1e75373cb270839",
+    "app\\config.py": "cce59e1954540ac661e9cbb43f0540d7ee7d30ba3c15980080f209980d6bff08",
+    "app\\core\\security.py": "a7b601e9b8d8298ab1a408c95f4b74cb1fbaf313b56cf407e8696afd7ce6ea67",
+    "app\\database.py": "175c92c96fd1e12eac0903a8a0cbd090e9526034a467ab2af9a65ebdc5c411dc",
+    "app\\main.py": "ec3a1e030bd18f129536f1f854a52ec3dcab57548ffba0442e908565b37a92d5",
+    "app\\middleware\\__init__.py": "436592b6869039638495ff6ce4ba695d88344af837c8ad12d7acbd0605b511d1",
+    "app\\middleware\\rate_limit.py": "1bec12e95075dd0de71ce043f2f34d136271ce5ac548684842c8d029c45672bc",
+    "app\\model_client.py": "d7c2d86644d1ecbcf6f76ffdce396af0b914281c78438e698ffa9494da448903",
+    "app\\models.py": "eb4faafd01b01d536c7326f273f0302c68382721748b822935b48bd5569a585a",
+    "app\\product_enrichment.py": "3f85f8778cb6ead4fdfee3074a8b118644d7e4a42ca76265c06225b92fbb7c31",
+    "app\\rag\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app\\rag\\chat_service.py": "813a6cf7f4591f5dd512a83e42e65f21c4a490c58a826410758e81df1387162e",
+    "app\\rag\\chroma_store.py": "a001d0f12dfa008904b27d72b2afa7036c9e9f42d3267414f323a4042f88a79b",
+    "app\\rag\\components.py": "35ff56c1e41b274116e74c6cc9d841526a205a84fd0f759c6c62b2d00ba002b8",
+    "app\\rag\\dataset_hash.py": "7145e62223c1f0b8cf013d81068ffb622fddec6f3dad1868623973bd76549e75",
+    "app\\rag\\document_builder.py": "2c0c912917f25ba031c39dcded025a9169775401a881365ebc09047d0825cf30",
+    "app\\rag\\embedding.py": "db851bcf01e969ba44f33c8668cbbc8a2a7f05ab4f3e7cb312575fc34c46845f",
+    "app\\rag\\faq_matcher.py": "c306345d0ebb7f55b27c1adf25ae1d9f43b7f82fcf4dc2604b83a26e9fd54f28",
+    "app\\rag\\grounding.py": "a42bde9c995e111f24f7bfb2832fa45c70333ab980f2d8d49a4a57066f354392",
+    "app\\rag\\guardrails.py": "7b85986e17deb8799eed2702ac8e4e74d931c588037e2c3db5b6ac4e393cb295",
+    "app\\rag\\json_store.py": "442fda5fe0b0adae2d599b07aa13649ab5df1cf5af1bba825557bec3dfae17e6",
+    "app\\rag\\lexical.py": "216d68986194d55612f8f9faf163c753633e8bd9e4f2670d368a9b15d3209f4f",
+    "app\\rag\\product_schema.py": "d757b29429c2bef178bfca061cceae2ea835f511c569d83e857b7fc287af707d",
+    "app\\rag\\prompt.py": "99e342302bf9274589aa943eec593d5a3cbdb50ddfa6ff429eedad5c505fce49",
+    "app\\rag\\query_rewriter.py": "4d3e549dad6490777674e231bbdcb3c01b43b48b51f8ed0d1b978b68a6b05848",
+    "app\\rag\\retriever.py": "7826007863dd158697b21359ed583558169ae94faa5336e277d3c54c92a2807f",
+    "app\\rag\\vector_store.py": "7922dda6666e29d0715dec71a659401882c5a0acdd5f6274e9bfec1339b284e1",
+    "app\\rag\\website_service.py": "1f30d8c69e9505997875263e5bcb8c97a4f2520cd6093dcaef51181db7ff81fe",
+    "app\\repositories\\chat_repository.py": "334dbd0a1f053fc46b75f9199f150d1086221a77e5a5164c42144b5fdcd55e8a",
+    "app\\repositories\\faq_repository.py": "8f8c181b8fa2c476251569f62a9a7c093ca9e44219b27d8b81b9d53cb9141dfb",
+    "app\\repositories\\product_repository.py": "7249cae3f85d7215d96909d1121a61cd945b5f3bd1ce2e962411cc3549841f94",
+    "app\\repositories\\ticket_repository.py": "a84899b2bab082fadcacfe6958df0ace3a6869d9ce71ea44285c75a1d59d72de",
+    "app\\routers\\auth.py": "5f93891e1a422c1bb215d6df63ca6d720ffec2e8d8d9edb612e74f82112bb86f",
+    "app\\routers\\chat.py": "abb0f7a7848e53629ff8844d6ce51cc3fb452d811e0dfd378a97fe1b7914ae26",
+    "app\\routers\\faqs.py": "0f2b2b9bd6ec6e30102982ca54b506893111f32f65308cd572efcf3789d5c8b0",
+    "app\\routers\\products.py": "80f81f6cbab0ff1146665fcfc304d5474eea112ae736def8e1c6ae0990b24a2d",
+    "app\\routers\\tickets.py": "116e0052461cf3ecf1c6f3664e570e1e804c6e3631e2f7cdd9d0d70d19cba329",
+    "app\\schemas\\__init__.py": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "app\\schemas\\chat.py": "68c1e7a7166b95b61303324e12a96c6af81fcd5bdd4d2d3d797c13c0aaac0b9c",
+    "app\\schemas\\common.py": "acd2aed71374782497657ff7f6b21e4360482c991fc1a565dd7e0d6c7ec440db",
+    "app\\schemas\\faq.py": "c92ed8330c18a05684da48a0e46dbaf349e5b83fc121dc31f4bf82f625741016",
+    "app\\schemas\\product.py": "39eb6712c572746040228a9ff0ac60a6121f21dc3133791b950965123e94bf4a",
+    "app\\schemas\\ticket.py": "3f5f95420c2be7ac54422a4a48c2dfa6bffec4fba3511c86ba4c793819b15983",
+    "app\\services\\ai_service.py": "bb36d76db6a7abbf1c17bea1aaa8f36b61b19b990f102d8b7ec287a412176f01",
+    "app\\services\\chat_service.py": "d1d9d5bbe79da8a5e8a78348378383852a9f0bd26351cc771a853fbc35133424",
+    "app\\services\\faq_service.py": "0aa5efa5b79c089dc33edd73e513b0ec27e2a2a50d74c351c3a4a89e212a2b52",
+    "app\\services\\product_service.py": "ff9715996a68d61316d2bb1322e6eae8ab8d02ddf85aca9ff3a91041bf5f035c",
+    "app\\services\\ticket_service.py": "71d6e79db41a174b45a8e2537dfb52e084b9249e8f54c5aaebb7b8a0929eb93c",
+    "app\\website_transport.py": "b95c5eeff438f2dc0df6ea95f7435727cc79d93e8b1598f07b8546e94022d56b",
+    "benchmark\\__init__.py": "ed1b15b1a8f4e4aa689e7a120bdc3187803cb9741d33c6db14b9cec8bb05295b",
+    "benchmark\\chapter5.py": "19c2418aeed148b4fd6a869cb8ad7d5c6c7ed1937f815a8e26c752a06d538c90",
+    "benchmark\\demo.py": "c3969d3c22c6e7409ba996396abae2bb3d8d3ab1382e49284b97b7e4156809d2",
+    "benchmark\\methods.py": "2247d244c00dfec1fd01da0ac2ce0695e0ab364bcc4489d3e38d99151bfd4114",
+    "benchmark\\protocol.py": "34cc240bc07686452ebc8d69979ca9b9a0df90027388c319a2ea33e41af3d9e4",
+    "benchmark\\review.py": "0a0d404c64fdb20055130b711c32af993022c51c60bb89538cea2774533cf8e9",
+    "benchmark\\run.py": "cc1e177dcda211a6ce137973e78b01bbc71c8de39093fbfc9d04301f5f12140e",
+    "benchmark\\schema.py": "bc3dc26e019220fc9fcb8bf8182ad54c22bc39867bb68c5760030bfa1b8bb0b9",
+    "benchmark\\scoring.py": "b960b521d8482057e0d8b1c1e9264afbc7ca57e2a1cf8c4f7283146eb53374cb",
+    "benchmark\\worker.py": "5793ac10f36b04b8da1d4be4327ccbabea07e2294b994f67e44149bc11aa76a4",
+    "model_serving\\__init__.py": "3c56e545a1ea319304baa8ab90cbad1a3fb02464b3694285e5f45715aca74fd3",
+    "model_serving\\server.py": "d38b526428dc5bd294410f98e04fd7bf0554bc51298d4f27f20f1effaa7bf5a1"
+  },
+  "limits": [
+    "Historical QLoRA NF4/BF16 adapter versus Ollama original FP16 P: precision, runtime and upstream checkpoint differ. No isolated fine-tuning causal claim.",
+    "Different collection dates and desktop GPU workloads; latency comparisons are descriptive only.",
+    "Three smoke cases preceded the P+FT main run, including a real model call. Smoke responses are retained separately, not selected as main answers.",
+    "100 author-constructed development cases, not an independently authored holdout. No automatic semantic quality score or human score is invented.",
+    "Every H method generates its own setup responses from the same user script; only final responses are scored when reviewed."
+  ],
+  "aggregation": {
+    "latency_population": "status ok/no_rule_match only; pipeline final turn excludes setup; whole-case wall time includes setup and subprocess overhead",
+    "p95_method": "linear interpolation at (n-1)*0.95; omitted for fewer than 20 successful samples",
+    "semantic_scores": "not inferred from successful execution, text equality, routing or keyword checks"
+  },
+  "paired_completed": {
+    "case_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S29",
+      "S30",
+      "S31",
+      "S32",
+      "S33",
+      "S34",
+      "S35",
+      "S36",
+      "S37",
+      "S38",
+      "S39",
+      "S40",
+      "S41",
+      "S42",
+      "S43",
+      "S44",
+      "S45",
+      "S46",
+      "S48",
+      "S49",
+      "S50",
+      "H01",
+      "H02",
+      "H03",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H10",
+      "O01",
+      "O02",
+      "O03",
+      "O04",
+      "O05",
+      "O06",
+      "O07",
+      "O08",
+      "O09",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T10"
+    ],
+    "P_control": {
+      "attempts": 99,
+      "statuses": {
+        "ok": 99
+      },
+      "error_timeout_not_ready_rate": 0.0,
+      "final_llm_called_cases": 34,
+      "setup_llm_called_cases": 19,
+      "retrieval_error_cases": 0,
+      "final_pipeline_latency_successful": {
+        "n": 99,
+        "mean_ms": 5397.910072727179,
+        "median_ms": 239.68349999995553,
+        "p95_ms": 15793.709469998417
+      },
+      "whole_case_wall_successful": {
+        "n": 99,
+        "mean_ms": 14799.516128282605,
+        "median_ms": 1569.2385000002105,
+        "p95_ms": 60983.66666000074
+      }
+    },
+    "P_FT": {
+      "attempts": 99,
+      "statuses": {
+        "ok": 99
+      },
+      "error_timeout_not_ready_rate": 0.0,
+      "final_llm_called_cases": 34,
+      "setup_llm_called_cases": 19,
+      "retrieval_error_cases": 0,
+      "final_pipeline_latency_successful": {
+        "n": 99,
+        "mean_ms": 4934.587920201011,
+        "median_ms": 274.62009999726433,
+        "p95_ms": 16216.16967999871
+      },
+      "whole_case_wall_successful": {
+        "n": 99,
+        "mean_ms": 12887.046933332882,
+        "median_ms": 1977.9780999961076,
+        "p95_ms": 51758.15429000649
+      }
+    }
+  },
+  "paired_final_llm_completed": {
+    "case_ids": [
+      "S31",
+      "S37",
+      "S39",
+      "S43",
+      "S45",
+      "S48",
+      "H02",
+      "H03",
+      "H05",
+      "H06",
+      "H07",
+      "H09",
+      "O01",
+      "O03",
+      "O05",
+      "O07",
+      "O08",
+      "O09",
+      "O10",
+      "O11",
+      "O13",
+      "O16",
+      "O19",
+      "O20",
+      "H11",
+      "H15",
+      "H18",
+      "H20",
+      "T01",
+      "T03",
+      "T05",
+      "T08",
+      "T09",
+      "T10"
+    ],
+    "P_control": {
+      "attempts": 34,
+      "statuses": {
+        "ok": 34
+      },
+      "error_timeout_not_ready_rate": 0.0,
+      "final_llm_called_cases": 34,
+      "setup_llm_called_cases": 10,
+      "retrieval_error_cases": 0,
+      "final_pipeline_latency_successful": {
+        "n": 34,
+        "mean_ms": 15290.594952941212,
+        "median_ms": 12683.190450001348,
+        "p95_ms": 34014.43689499971
+      },
+      "whole_case_wall_successful": {
+        "n": 34,
+        "mean_ms": 28172.482164705158,
+        "median_ms": 14665.049599998383,
+        "p95_ms": 68769.29429500029
+      }
+    },
+    "P_FT": {
+      "attempts": 34,
+      "statuses": {
+        "ok": 34
+      },
+      "error_timeout_not_ready_rate": 0.0,
+      "final_llm_called_cases": 34,
+      "setup_llm_called_cases": 10,
+      "retrieval_error_cases": 0,
+      "final_pipeline_latency_successful": {
+        "n": 34,
+        "mean_ms": 13886.200011764338,
+        "median_ms": 11978.540299998713,
+        "p95_ms": 26223.20224500359
+      },
+      "whole_case_wall_successful": {
+        "n": 34,
+        "mean_ms": 25025.16557352818,
+        "median_ms": 16058.87834999885,
+        "p95_ms": 55696.71065499495
+      }
+    }
+  },
+  "error_cases": [
+    {
+      "case_id": "S47",
+      "status": "error",
+      "error": {
+        "type": "ModelNotReady",
+        "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+      }
+    }
+  ],
+  "context_diagnostic": {
+    "case_id": "S47",
+    "input_tokens": 3758,
+    "reserved_output_tokens": 384,
+    "requested_context": 4096,
+    "required_total_tokens": 4142,
+    "source_error": {
+      "type": "ModelNotReady",
+      "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+    },
+    "diagnostic_only_no_generation": true
+  },
+  "source_git_head": "ddec788897f5e5a69e594d0de31aca7fa39ce140",
+  "source_files_sha256": {
+    "frozen_control_results_400_jsonl": "d79d6626f4afd4443cc8370342dbdb19d8be3e2134806eb75b238d02e47dd905",
+    "frozen_training_run_json": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "frozen_test_inputs_json": "676778f98cbe271512a553d5f4705c2d6853c033d8e75c35b08562b28c7f59a9"
+  }
+}

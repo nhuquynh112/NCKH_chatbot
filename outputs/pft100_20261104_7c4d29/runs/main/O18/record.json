@@ -1,0 +1,87 @@
+{
+  "method": "P+FT",
+  "case_id": "O18",
+  "question": "Chiếc iPhone em đang cầm, IMEI 000000000000000, còn bảo hành đến ngày nào?",
+  "history_questions": [],
+  "actual_history": [],
+  "case_deadline_seconds": 120,
+  "wall_ms": 1679.462500003865,
+  "result": {
+    "status": "ok",
+    "answer": "Mình chưa tìm thấy sản phẩm này trong danh mục TechCare nên không thể xác nhận giá hoặc nơi bán. Bạn có thể tham khảo nguồn bên ngoài:\n- Google: https://www.google.com/search?q=mua+Chi%E1%BA%BFc+iPhone+em+%C4%91ang+c%E1%BA%A7m+IMEI+000000000000000+c%C3%B2n+b%E1%BA%A3o+h%C3%A0nh+%C4%91%E1%BA%BFn+ng%C3%A0y+n%C3%A0o+t%E1%BA%A1i+Vi%E1%BB%87t+Nam\n- Google Shopping: https://www.google.com/search?tbm=shop&q=mua+Chi%E1%BA%BFc+iPhone+em+%C4%91ang+c%E1%BA%A7m+IMEI+000000000000000+c%C3%B2n+b%E1%BA%A3o+h%C3%A0nh+%C4%91%E1%BA%BFn+ng%C3%A0y+n%C3%A0o+t%E1%BA%A1i+Vi%E1%BB%87t+Nam\nLưu ý: đây là liên kết tham khảo bên ngoài; TechCare không xác minh giá, tồn kho hay độ uy tín của các bên bán trong kết quả.",
+    "sources": [],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 116.75020000257064,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-finetuned",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "adapter_loaded": true,
+      "active_adapters": [
+        "default"
+      ],
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-04T04:55:58.482734+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [],
+    "database_mode": "read-only frozen control snapshot",
+    "pipeline_class": "benchmark.methods.RagMethod",
+    "effective_config": {
+      "provider": "hf_lora",
+      "model": "qwen2.5-7b-finetuned",
+      "embedding": "nomic-embed-text",
+      "top_k": 5,
+      "threshold": 0.38,
+      "generation": {
+        "temperature": 0,
+        "num_predict": 384,
+        "num_ctx": 4096,
+        "repeat_penalty": 1.0
+      }
+    },
+    "harness_sha256": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+  }
+}

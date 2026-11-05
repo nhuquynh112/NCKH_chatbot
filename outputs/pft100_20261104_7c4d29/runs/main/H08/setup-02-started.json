@@ -1,0 +1,13 @@
+{
+  "question": "Máy đó giá tham khảo bao nhiêu?",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em xem iPhone 18 Pro 256GB."
+    },
+    {
+      "role": "assistant",
+      "content": "Có. TechCare có bán nhóm điện thoại. Một số mẫu: iPhone 18 Pro 256GB (38.990.000 VND), iPhone 18 Pro 512GB (45.490.000 VND), Samsung Galaxy Z Fold8 5G 12GB 256GB (40.490.000 VND), OPPO A7 PRO 5G (12.990.000 VND), Xiaomi 17 Ultra 5G 16GB 1TB (34.990.000 VND)."
+    }
+  ]
+}

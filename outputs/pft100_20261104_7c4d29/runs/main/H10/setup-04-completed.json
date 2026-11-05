@@ -1,0 +1,30 @@
+{
+  "question": "Em vẫn hỏi đúng mẫu Teclast đó; chưa có nguồn mới để xác minh thêm.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em đang xem máy tính bảng Teclast 4G P50 4GB 128GB trong catalog."
+    },
+    {
+      "role": "assistant",
+      "content": "Máy tính bảng Teclast 4G P50 4GB 128GB có giá 3.790.000 VND. Bạn có câu hỏi gì thêm không?"
+    },
+    {
+      "role": "user",
+      "content": "Máy đó có bộ nhớ trong bao nhiêu?"
+    },
+    {
+      "role": "assistant",
+      "content": "Máy tính bảng Teclast 4G P50 4GB 128GB: Bộ nhớ trong: 128 GB. Cập nhật catalog: 28/10/2026 16:13 (GMT+7)."
+    },
+    {
+      "role": "user",
+      "content": "Em cần 256GB, catalog có xác nhận biến thể đó của mẫu này không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Máy tính bảng Teclast 4G P50 4GB 128GB: giá 3.790.000 VND; Dung lượng RAM: 4 GB; Chipset: Unisoc T606; Loại CPU: 8-core; GPU: Mali-G57; Bộ nhớ trong: 128 GB; Kích thước màn hình: 11 inches; Công nghệ màn hình: IPS LCD; Độ phân giải màn hình: 1280 x 800 pixels; Tính năng màn hình: Hỗ trợ giảm ánh sáng xanh, chế độ bảo vệ mắt, Đa chạm, Không sử dụng PWM; Pin: 7000 mAh; Camera sau: 8MP; Camera trước: 5MP. Cập nhật catalog: 28/10/2026 16:13 (GMT+7)."
+    }
+  ],
+  "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+}

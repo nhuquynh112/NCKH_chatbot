@@ -1,0 +1,112 @@
+{
+  "status": "ok",
+  "answer": "Bạn muốn hỏi mẫu nào trong các mẫu vừa trao đổi: iPhone 18 Pro 256GB, iPhone 18 Pro 512GB, TECNO Spark 40 Pro+ 8GB 256GB? Bạn gửi tên mẫu để mình trả lời chính xác nhé.",
+  "sources": [],
+  "mode": "clarification",
+  "error": null,
+  "calls": [],
+  "history": [
+    {
+      "role": "user",
+      "content": "Tôi đang xem iPhone 18 Pro 256GB."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình gợi ý 3 lựa chọn cho chụp ảnh:\n- iPhone 18 Pro 256GB — 38.990.000 VND: Chipset: A20 Pro; Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất; GPU: GPU 7 lõi; Kích thước màn hình: 6.3 inches.\n- iPhone 18 Pro 512GB — 45.490.000 VND: Chipset: A20 Pro; Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất; GPU: GPU 7 lõi; Kích thước màn hình: 6.3 inches.\n- TECNO Spark 40 Pro+ 8GB 256GB — 5.190.000 VND: Kích thước màn hình: 6.78 inches; Công nghệ màn hình: AMOLED; Chipset: MediaTek Helio G200; Dung lượng RAM: 8 GB."
+    },
+    {
+      "role": "user",
+      "content": "Máy đó thuộc hãng nào?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn muốn hỏi mẫu nào trong các mẫu vừa trao đổi: iPhone 18 Pro 256GB, iPhone 18 Pro 512GB, TECNO Spark 40 Pro+ 8GB 256GB? Bạn gửi tên mẫu để mình trả lời chính xác nhé."
+    },
+    {
+      "role": "user",
+      "content": "Tôi vẫn giữ đúng dung lượng vừa nói, chưa đổi sang bản khác."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình chưa tìm thấy sản phẩm này trong danh mục TechCare nên không thể xác nhận giá hoặc nơi bán. Bạn có thể tham khảo nguồn bên ngoài:\n- Google: https://www.google.com/search?q=mua+T%C3%B4i+v%E1%BA%ABn+gi%E1%BB%AF+%C4%91%C3%BAng+dung+l%C6%B0%E1%BB%A3ng+v%E1%BB%ABa+n%C3%B3i+ch%C6%B0a+%C4%91%E1%BB%95i+sang+b%E1%BA%A3n+kh%C3%A1c.+t%E1%BA%A1i+Vi%E1%BB%87t+Nam\n- Google Shopping: https://www.google.com/search?tbm=shop&q=mua+T%C3%B4i+v%E1%BA%ABn+gi%E1%BB%AF+%C4%91%C3%BAng+dung+l%C6%B0%E1%BB%A3ng+v%E1%BB%ABa+n%C3%B3i+ch%C6%B0a+%C4%91%E1%BB%95i+sang+b%E1%BA%A3n+kh%C3%A1c.+t%E1%BA%A1i+Vi%E1%BB%87t+Nam\nLưu ý: đây là liên kết tham khảo bên ngoài; TechCare không xác minh giá, tồn kho hay độ uy tín của các bên bán trong kết quả."
+    }
+  ],
+  "latency_ms": 244.448099998408,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-finetuned",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-04T04:55:58.482734+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "APP-IP18P-VN-256GB-MJRR4-DO-CH",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Tôi đang xem iPhone 18 Pro 256GB.\nSản phẩm được nhắc tới trong lịch sử hội thoại:\niPhone 18 Pro 256GB (APP-IP18P-VN-256GB-MJRR4-DO-CH), nhóm Điện thoại, giá 38.990.000 VND.\niPhone 18 Pro 256GB. Hệ điều hành khi ra mắt: iOS 27; Chipset: A20 Pro; Bộ nhớ trong: 256 GB — Hệ điều hành khi ra mắt: iOS 27, Chipset: A20 Pro, Bộ nhớ trong: 256 GB, Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất, GPU: GPU 7 lõi, Kích thước màn hình: 6.3 inches, Công nghệ màn hình: Super Retina XDR, Độ phân giải màn hình: 2622 x 1206 pixels, Tính năng màn hình: Tần số quét 120 Hz Độ sáng tối đa 3000 nits ngoài trời Độ sáng 1000 nit tiêu chuẩn Độ sáng đỉnh 1600 nit HDR Độ sáng tối thiểu 1 nit Dynamic Island Màn hình Luôn Bật ProMotion HDR True Tone Dải màu rộng P3 Haptic Touch, Camera sau: 48 MP Fusion Main, f/1,48 / f/1,8 / f/2,8 / f/4,0 48 MP Fusion Ultra Wide, f/2,2 48 MP Fusion Telephoto, f/2,8 Telephoto 2x chất lượng quang học 12 MP Telephoto 8x chất lượng quang học 12 MP, f/2,8, Camera trước: 18 MP Center Stage f/1,9 Tự động lấy nét theo pha Focus Pixels, Pin: Pin lithium-ion tích hợp, Hỗ trợ mạng: 5G, Thẻ SIM: Nano-SIM + eSIM, Công nghệ NFC: Có, Thời điểm ra mắt: 09/2026",
+      "history_messages": 0
+    }
+  ],
+  "database_mode": "read-only frozen control snapshot",
+  "pipeline_class": "benchmark.methods.RagMethod",
+  "effective_config": {
+    "provider": "hf_lora",
+    "model": "qwen2.5-7b-finetuned",
+    "embedding": "nomic-embed-text",
+    "top_k": 5,
+    "threshold": 0.38,
+    "generation": {
+      "temperature": 0,
+      "num_predict": 384,
+      "num_ctx": 4096,
+      "repeat_penalty": 1.0
+    }
+  },
+  "harness_sha256": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+}

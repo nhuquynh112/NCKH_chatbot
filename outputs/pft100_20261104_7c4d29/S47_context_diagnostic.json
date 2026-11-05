@@ -1,0 +1,12 @@
+{
+  "case_id": "S47",
+  "input_tokens": 3758,
+  "reserved_output_tokens": 384,
+  "requested_context": 4096,
+  "required_total_tokens": 4142,
+  "source_error": {
+    "type": "ModelNotReady",
+    "message": "7B server HTTP 400: Context exceeds limit; no silent prompt truncation"
+  },
+  "diagnostic_only_no_generation": true
+}
