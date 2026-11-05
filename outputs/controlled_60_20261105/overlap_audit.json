@@ -1,0 +1,623 @@
+{
+  "normalization": "lowercase, accent folding, word tokens; compare full user script, not fixture assistant answers",
+  "thresholds": {
+    "sequence": 0.88,
+    "token_jaccard": 0.8
+  },
+  "sources": {
+    "train": {
+      "rows": 37,
+      "sha256": "3015d3178dff30acfde712d09657d3b66bec49811d193bf920aba6a2063b6c3e"
+    },
+    "validation": {
+      "rows": 9,
+      "sha256": "166c79bfbaf0ea7e1e612f0ebaaa6205fb2d195e5118e8240e6ae998fdc24b52"
+    }
+  },
+  "old_cases": 100,
+  "new_cases": 60,
+  "flags": [],
+  "closest_pairs": [
+    {
+      "case_id": "N01",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S04",
+        "sequence": 0.547486033519553,
+        "token_jaccard": 0.27586206896551724,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N02",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S46",
+        "sequence": 0.39195979899497485,
+        "token_jaccard": 0.0,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N03",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H19",
+        "sequence": 0.42328042328042326,
+        "token_jaccard": 0.24074074074074073,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N04",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S13",
+        "sequence": 0.5645161290322581,
+        "token_jaccard": 0.36666666666666664,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N05",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H01",
+        "sequence": 0.37662337662337664,
+        "token_jaccard": 0.07547169811320754,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N06",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S17",
+        "sequence": 0.4444444444444444,
+        "token_jaccard": 0.175,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N07",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S23",
+        "sequence": 0.44089456869009586,
+        "token_jaccard": 0.13333333333333333,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N08",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S08",
+        "sequence": 0.5919003115264797,
+        "token_jaccard": 0.3695652173913043,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N09",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S48",
+        "sequence": 0.4144144144144144,
+        "token_jaccard": 0.1,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N10",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S09",
+        "sequence": 0.4339622641509434,
+        "token_jaccard": 0.07692307692307693,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N11",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S04",
+        "sequence": 0.4198895027624309,
+        "token_jaccard": 0.08333333333333333,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N12",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H01",
+        "sequence": 0.4037854889589905,
+        "token_jaccard": 0.08771929824561403,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N13",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S19",
+        "sequence": 0.43661971830985913,
+        "token_jaccard": 0.17777777777777778,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N14",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S18",
+        "sequence": 0.425,
+        "token_jaccard": 0.17307692307692307,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N15",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S20",
+        "sequence": 0.4533333333333333,
+        "token_jaccard": 0.17647058823529413,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N16",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S48",
+        "sequence": 0.3882783882783883,
+        "token_jaccard": 0.15555555555555556,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N17",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S21",
+        "sequence": 0.38738738738738737,
+        "token_jaccard": 0.125,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N18",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S20",
+        "sequence": 0.6037735849056604,
+        "token_jaccard": 0.23333333333333334,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N19",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S23",
+        "sequence": 0.4460431654676259,
+        "token_jaccard": 0.175,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N20",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S14",
+        "sequence": 0.592057761732852,
+        "token_jaccard": 0.4444444444444444,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N21",
+      "closest": {
+        "split": "old_100",
+        "source_id": "T07",
+        "sequence": 0.46875,
+        "token_jaccard": 0.1111111111111111,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N22",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S39",
+        "sequence": 0.5,
+        "token_jaccard": 0.3103448275862069,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N23",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S47",
+        "sequence": 0.44019138755980863,
+        "token_jaccard": 0.125,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N24",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S35",
+        "sequence": 0.5164319248826291,
+        "token_jaccard": 0.29411764705882354,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N25",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H04",
+        "sequence": 0.43137254901960786,
+        "token_jaccard": 0.25,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N26",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S23",
+        "sequence": 0.47293447293447294,
+        "token_jaccard": 0.1509433962264151,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N27",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H18",
+        "sequence": 0.3863080684596577,
+        "token_jaccard": 0.05128205128205128,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N28",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S08",
+        "sequence": 0.45255474452554745,
+        "token_jaccard": 0.19047619047619047,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N29",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S24",
+        "sequence": 0.5077399380804953,
+        "token_jaccard": 0.2222222222222222,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N30",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H12",
+        "sequence": 0.40749414519906324,
+        "token_jaccard": 0.1076923076923077,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N31",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S14",
+        "sequence": 0.5512820512820513,
+        "token_jaccard": 0.30952380952380953,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N32",
+      "closest": {
+        "split": "train",
+        "source_id": "train:2563",
+        "sequence": 0.3768844221105528,
+        "token_jaccard": 0.043478260869565216,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N33",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H06",
+        "sequence": 0.37433155080213903,
+        "token_jaccard": 0.09523809523809523,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N34",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H19",
+        "sequence": 0.521551724137931,
+        "token_jaccard": 0.36363636363636365,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N35",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S09",
+        "sequence": 0.4149377593360996,
+        "token_jaccard": 0.044444444444444446,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N36",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S29",
+        "sequence": 0.41379310344827586,
+        "token_jaccard": 0.14285714285714285,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N37",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S13",
+        "sequence": 0.42214532871972316,
+        "token_jaccard": 0.21428571428571427,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N38",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H18",
+        "sequence": 0.38482384823848237,
+        "token_jaccard": 0.11594202898550725,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N39",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S23",
+        "sequence": 0.4314868804664723,
+        "token_jaccard": 0.1509433962264151,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N40",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S20",
+        "sequence": 0.4897959183673469,
+        "token_jaccard": 0.2857142857142857,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N41",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S13",
+        "sequence": 0.5784313725490197,
+        "token_jaccard": 0.23333333333333334,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N42",
+      "closest": {
+        "split": "old_100",
+        "source_id": "T10",
+        "sequence": 0.4434389140271493,
+        "token_jaccard": 0.06976744186046512,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N43",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S09",
+        "sequence": 0.4329004329004329,
+        "token_jaccard": 0.09302325581395349,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N44",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S35",
+        "sequence": 0.43137254901960786,
+        "token_jaccard": 0.07317073170731707,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N45",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S33",
+        "sequence": 0.509090909090909,
+        "token_jaccard": 0.1724137931034483,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N46",
+      "closest": {
+        "split": "old_100",
+        "source_id": "T05",
+        "sequence": 0.4842105263157895,
+        "token_jaccard": 0.05555555555555555,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N47",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S19",
+        "sequence": 0.47058823529411764,
+        "token_jaccard": 0.17391304347826086,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N48",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S44",
+        "sequence": 0.4537037037037037,
+        "token_jaccard": 0.0975609756097561,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N49",
+      "closest": {
+        "split": "old_100",
+        "source_id": "T09",
+        "sequence": 0.45555555555555555,
+        "token_jaccard": 0.025,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N50",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S18",
+        "sequence": 0.4364820846905538,
+        "token_jaccard": 0.16326530612244897,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N51",
+      "closest": {
+        "split": "old_100",
+        "source_id": "T03",
+        "sequence": 0.47619047619047616,
+        "token_jaccard": 0.10810810810810811,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N52",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S19",
+        "sequence": 0.41568627450980394,
+        "token_jaccard": 0.0851063829787234,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N53",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S20",
+        "sequence": 0.4691358024691358,
+        "token_jaccard": 0.0967741935483871,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N54",
+      "closest": {
+        "split": "old_100",
+        "source_id": "O09",
+        "sequence": 0.4235294117647059,
+        "token_jaccard": 0.08333333333333333,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N55",
+      "closest": {
+        "split": "old_100",
+        "source_id": "O01",
+        "sequence": 0.43312101910828027,
+        "token_jaccard": 0.0,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N56",
+      "closest": {
+        "split": "train",
+        "source_id": "train:2563",
+        "sequence": 0.44370860927152317,
+        "token_jaccard": 0.05263157894736842,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N57",
+      "closest": {
+        "split": "old_100",
+        "source_id": "O20",
+        "sequence": 0.445859872611465,
+        "token_jaccard": 0.029411764705882353,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N58",
+      "closest": {
+        "split": "old_100",
+        "source_id": "S34",
+        "sequence": 0.48,
+        "token_jaccard": 0.16666666666666666,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N59",
+      "closest": {
+        "split": "old_100",
+        "source_id": "O12",
+        "sequence": 0.4105960264900662,
+        "token_jaccard": 0.03125,
+        "exact": false
+      }
+    },
+    {
+      "case_id": "N60",
+      "closest": {
+        "split": "old_100",
+        "source_id": "H11",
+        "sequence": 0.4496124031007752,
+        "token_jaccard": 0.08695652173913043,
+        "exact": false
+      }
+    }
+  ],
+  "limitation": "Lexical screening is not a semantic independence proof; all cases are AI-authored and await independent review."
+}

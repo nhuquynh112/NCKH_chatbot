@@ -1,0 +1,4 @@
+!*.log
+!frozen_products.db
+# Private rater mapping stays outside the public results until grading closes.
+mapping_private*.json
