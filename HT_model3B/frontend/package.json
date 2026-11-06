@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test:methods": "vite --mode comparison --host 127.0.0.1 --port 5174 --strictPort",
     "build": "vite build",
     "lint": "oxlint src vite.config.js tailwind.config.js postcss.config.js",
     "preview": "vite preview"

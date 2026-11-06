@@ -1,4 +1,4 @@
-"""Repeatable M1-M4 benchmark with subprocess isolation and immutable per-run output."""
+"""Run the four original-3B methods B0/B1/B2/P with isolated, immutable results."""
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -15,7 +15,7 @@ from uuid import uuid4
 from benchmark.schema import load_cases, HumanReview
 from benchmark.scoring import objective_checks, summarize
 from app.config import BASELINE_CHAT_MODEL, HF_LORA_MODEL
-from benchmark.protocol import METHOD_NAMES, method_spec
+from benchmark.protocol import MAIN_METHODS, METHOD_NAMES, method_spec
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS_FILES = ["knowledge_base.md","product_catalog_extended.md","faq_curated.json","techcare_products.json",
@@ -50,7 +50,7 @@ def export_tables(directory, rows, reviews=()):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", type=Path, default=ROOT / "benchmark/datasets/techcare_v1.json")
-    parser.add_argument("--methods", nargs="+", choices=METHOD_NAMES, default=["M1","M2","M3","M4"])
+    parser.add_argument("--methods", nargs="+", choices=METHOD_NAMES, default=list(MAIN_METHODS))
     parser.add_argument("--corpus", type=Path, default=ROOT/"rag_data")
     parser.add_argument("--study-manifest", type=Path)
     parser.add_argument("--snapshot-timestamp", help="Freeze technical Product timestamps in isolated databases")
@@ -69,7 +69,7 @@ def main():
         if missing: parser.error(f"Unknown case IDs: {sorted(missing)}")
         cases = [c for c in cases if c.id in args.case_ids]
     if args.validate_only:
-        print(json.dumps({"status":"valid","cases":len(cases),"dataset_sha256":digest(args.dataset)}))
+        print(json.dumps({"status":"valid","cases":len(cases),"methods":args.methods,"chat_model":BASELINE_CHAT_MODEL,"dataset_sha256":digest(args.dataset)}))
         return
     if not 1 <= args.repeats <= 100 or not 10 <= args.timeout <= 120:
         parser.error("Use 1-100 repeats and a 10-120 second case deadline")
@@ -86,6 +86,7 @@ def main():
     (directory / "plain_prompt.txt").write_text(plain_prompt,encoding="utf-8")
     manifest = {"run_id":run_id,"started_utc":datetime.now(timezone.utc).isoformat(),
                 "methods":args.methods,"case_order":[c.id for c in cases],"repeats":args.repeats,
+                "chat_model":BASELINE_CHAT_MODEL,
                 "method_specs":{m:method_spec(m) for m in args.methods},
                 "timeout_seconds":args.timeout,"dataset_sha256":digest(args.dataset),
                 "corpus_sha256":{p.name:digest(p) for p in corpus.iterdir()},

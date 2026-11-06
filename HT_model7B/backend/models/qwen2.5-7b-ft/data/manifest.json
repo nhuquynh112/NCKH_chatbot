@@ -1,0 +1,42 @@
+{
+  "source": "ura-hcmut/Vietnamese-Customer-Support-QA",
+  "revision": "manual download: commit unknown; file SHA256 recorded",
+  "source_split": "train",
+  "manual_source_file_sha256": "03a6b01c16fba952852a38ee84247942a9436a4822f3aa8acffdd32d1f3cc954",
+  "official_train_rows": 8349,
+  "survey_rows": 200,
+  "seed": 20261014,
+  "survey_sha256": "021424c8b00ee49c0c4a71fbfab5eea61668aba9fc39e865a8b88caf38751a58",
+  "by_type": {
+    "Domain - Specific Complex": 65,
+    "Domain - Specific Simple": 65,
+    "Domain - Specific Simple\n": 1,
+    "Domain - Specific Simple ": 1,
+    "Domain - Specific complex": 1,
+    "Domain - Specific simple": 1,
+    "General": 64,
+    "general": 2
+  },
+  "flag_counts": {
+    "other_business_or_software": 84,
+    "unsupported_action_claim": 7,
+    "numeric_policy": 7,
+    "business_policy": 7,
+    "credential_content": 1
+  },
+  "license": "Apache-2.0; source access conditions and paper citation also apply",
+  "official_test_used_for_training": false,
+  "citation_doi": "10.1007/978-3-032-10202-7_33",
+  "review_sha256": "9092edee87f58d65e9809a922f1f744ec7cca7c68b24302b8651b662109f99a7",
+  "accepted": 46,
+  "excluded": 154,
+  "answer_origins": {
+    "original_human_source_answer": 12,
+    "agent_edited_source_pair": 34
+  },
+  "train_rows": 37,
+  "validation_rows": 9,
+  "train_sha256": "3015d3178dff30acfde712d09657d3b66bec49811d193bf920aba6a2063b6c3e",
+  "validation_sha256": "166c79bfbaf0ea7e1e612f0ebaaa6205fb2d195e5118e8240e6ae998fdc24b52",
+  "split_method": "Manual scenario families fixed before training; disjoint groups; validation from source train only"
+}

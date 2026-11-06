@@ -4,6 +4,10 @@ Website hiện tại và các baseline gốc mới dùng `qwen2.5:7b-instruct-fp
 
 Đọc [schema, rubric benchmark](../backend/benchmark/README.md) và [hướng dẫn tái lập](REPRODUCING_RESEARCH.md). Tích hợp này dùng lại adapter đã train ngày 14/10/2026; không huấn luyện mới, merge hoặc chuyển đổi weights.
 
+Kết quả bổ sung trên corpus 150 sản phẩm/299 tài liệu và 100 ca v4.0-draft ngày 04/11/2026 nằm trong [outputs/benchmark_pft_100_20261104](../../outputs/benchmark_pft_100_20261104/BAO_CAO.md). Gói gồm phản hồi P+FT, đối chiếu từng ca với P và thống kê thực thi. Có 99 ca hoàn tất, S47 bị từ chối do vượt ngân sách context. Điểm chất lượng P+FT chưa được chấm; không dùng lại điểm hoặc kappa của bộ B0/B1/B2/P. Báo cáo ghi rõ khác biệt NF4/BF16 với FP16/Ollama và đối chiếu latency trên cùng tập ca.
+
+Hai phiếu chấm bổ sung đã điền phản hồi nằm tại [Phieu_R1.xlsx](../../outputs/cham_bo_sung_100_20261104/Phieu_R1.xlsx) và [Phieu_R2.xlsx](../../outputs/cham_bo_sung_100_20261104/Phieu_R2.xlsx). Mỗi người chấm riêng đủ 100 dòng tại sheet `Phieu_cham`: cột H nhập 0/1/2, cột I ghi lý do; tên/ngày ở B3/E3. Với ca H, đọc đầy đủ sheet `Hoi_thoai`, lọc theo mã chấm, chỉ chấm câu trả lời cuối. S47 giữ trạng thái `error` và phản hồi trống; áp dụng rubric lỗi thực thi 0 điểm, các ô điểm vẫn để người chấm nhập. Hai phiếu chứa cùng bộ phản hồi nhưng thứ tự khác nhau, không có điểm cũ được sao chép. Giữ nguyên mã, câu hỏi, phản hồi, trạng thái và lịch sử; lưu rồi gửi lại file đã chấm. Bộ bổ sung cần phân tích riêng trên 100 cặp điểm, không đưa trực tiếp vào script kappa mặc định đang yêu cầu 400 dòng của bốn phương pháp chính. Không coi đây là đánh giá mù hoàn toàn vì nhóm đã biết phương pháp được thử nghiệm bổ sung.
+
 ## Môi trường và lựa chọn model
 
 Backend ứng dụng dùng `backend/requirements.txt`; frontend dùng `frontend/package-lock.json`. Giữ môi trường hiện có nếu đã cài. Với môi trường ứng dụng mới, chạy `python -m venv .venv`, kích hoạt rồi `pip install -r requirements.txt` trong `backend`; chạy `npm ci` trong `frontend`. Không cài thư viện GPU vào môi trường web.

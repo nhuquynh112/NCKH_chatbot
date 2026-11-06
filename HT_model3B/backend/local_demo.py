@@ -6,10 +6,12 @@ read-only mode instead of seeding products. Model algorithms remain unchanged.
 """
 import argparse
 import asyncio
+import csv
 from copy import deepcopy
 from datetime import datetime, timezone
 import hashlib
 import ipaddress
+import io
 import json
 import os
 import tempfile
@@ -21,9 +23,11 @@ import sys
 import time
 from uuid import UUID, uuid4
 
+from benchmark.protocol import MAIN_METHODS
+
 BACKEND = Path(__file__).resolve().parent
-REPOSITORY = BACKEND.parent
-METHODS = ("B0", "B1", "B2", "P")
+REPOSITORY = BACKEND.parent.parent if BACKEND.parent.name in {"HT_model3B", "HT_model7B"} else BACKEND.parent
+METHODS = MAIN_METHODS
 CASE_IDS = ("TC01", "TC11", "TC18", "TC21")
 PIPELINES = {"B0": "RuleMethod", "B1": "PlainLlmMethod", "B2": "BasicRagMethod", "P": "RagMethod"}
 
@@ -99,7 +103,7 @@ def prepare_context(study, work_dir, port, frontend_port):
         raise ValueError("Missing saved P/TC01 database; this harness will not seed a replacement")
     verify_saved_database(source_db, study / "corpus", protocol["snapshot_timestamp"])
     reference = jsonl(study.parent / "P_results.jsonl")[0]["identity"]
-    if reference["model"] != "qwen2.5:3b" or not reference.get("digest"):
+    if reference["model"] != protocol.get("chat_model", "qwen2.5:3b") or not reference.get("digest"):
         raise ValueError("Missing original base-model identity")
     out = work_dir / ("web-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "-" + uuid4().hex[:8])
     out.mkdir(parents=True, exist_ok=False)
@@ -156,7 +160,7 @@ def execute_worker(request_path, response_path):
         def checked_preflight():
             identity = original_preflight()
             if method != "B0":
-                if identity.get("model") != "qwen2.5:3b" or identity.get("digest") != request["expected_identity"]["digest"]:
+                if identity.get("model") != request["expected_identity"]["model"] or identity.get("digest") != request["expected_identity"]["digest"]:
                     raise RuntimeError("Base model differs from the recorded benchmark; inference refused")
             if method in {"B2", "P"}:
                 if not identity.get("semantic_enabled") or identity.get("documents") != 195:
@@ -183,16 +187,27 @@ def execute_worker(request_path, response_path):
 def create_demo_app(context):
     from fastapi import FastAPI, HTTPException, Request
     from fastapi.middleware.cors import CORSMiddleware
-    from fastapi.responses import JSONResponse
-    from pydantic import BaseModel, ConfigDict
+    from fastapi.responses import JSONResponse, Response
+    from pydantic import BaseModel, ConfigDict, Field
     from typing import Literal
+    from benchmark.schema import HistoryTurn
 
-    class RunInput(BaseModel):
+    class FixedRunInput(BaseModel):
         model_config = ConfigDict(extra="forbid")
         session_id: UUID
         method: Literal["B0", "B1", "B2", "P"]
         case_id: Literal["TC01", "TC11", "TC18", "TC21"]
 
+    class ManualRunInput(BaseModel):
+        model_config = ConfigDict(extra="forbid")
+        session_id: UUID
+        method: Literal["B0", "B1", "B2", "P"]
+        case_id: str = Field(min_length=1, max_length=80, pattern=r"^[A-Za-z0-9_-]+$")
+        question: str = Field(min_length=1, max_length=6000, pattern=r"\S")
+        history: list[HistoryTurn] = Field(default_factory=list, max_length=40)
+
+    interactive = context.get("interactive", False)
+    RunInput = ManualRunInput if interactive else FixedRunInput
     app = FastAPI(title="TechCare local benchmark demo")
     origins = {f"http://127.0.0.1:{context['frontend_port']}", f"http://localhost:{context['frontend_port']}"}
     app.add_middleware(CORSMiddleware, allow_origins=sorted(origins), allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
@@ -220,15 +235,16 @@ def create_demo_app(context):
     @app.get("/api/demo/config")
     def configuration():
         return {"instance_id": context["instance_id"], "methods": [
-                    {"id": method, "pipeline": PIPELINES[method], "model": None if method == "B0" else "qwen2.5:3b"}
+                    {"id": method, "pipeline": PIPELINES[method], "model": None if method == "B0" else context["expected_identity"]["model"]}
                     for method in METHODS],
-                "cases": [context["cases"][cid]["input"] for cid in CASE_IDS],
-                "model": "qwen2.5:3b · Q4_K_M · Ollama", "embedding": "nomic-embed-text · 768 chiều",
+                "interactive": interactive,
+                "cases": [] if interactive else [context["cases"][cid]["input"] for cid in CASE_IDS],
+                "model": context["expected_identity"]["model"] + " · " + context["expected_identity"].get("details", {}).get("quantization_level", "chưa xác minh precision") + " · Ollama", "embedding": "nomic-embed-text · 768 chiều",
                 "documents": 195, "generation": {"temperature": 0, "context": 4096, "max_output": 384, "repeat_penalty": 1},
-                "timeout_seconds": context["timeout"], "input_source": str(Path(context["study"]) / "package/test_inputs.jsonl"),
+                "timeout_seconds": context["timeout"], "input_source": context.get("input_source") if interactive else str(Path(context["study"]) / "package/test_inputs.jsonl"),
                 "output": context["output"], "snapshot_time": context["snapshot_timestamp"],
                 "snapshot_verified": True, "customer_database_used": False,
-                "notice": "Lượt chạy web mới trên snapshot benchmark. Không phải phát lại kết quả benchmark cũ. P+FT không thuộc bốn phương pháp chính."}
+                "notice": "Nhóm tự nhập câu hỏi; dùng cùng câu hỏi/lịch sử cho B0/B1/B2/P. Đây là lượt test mới, chưa được chấm điểm." if interactive else "Lượt chạy web mới trên snapshot benchmark. Không phải phát lại kết quả benchmark cũ. P+FT không thuộc bốn phương pháp chính."}
 
     @app.post("/api/demo/sessions")
     def new_session():
@@ -251,14 +267,48 @@ def create_demo_app(context):
             raise HTTPException(404, "Demo run not found")
         return read_json(path)
 
+    @app.get("/api/demo/sessions/{session_id}/export.csv")
+    def export_session(session_id: UUID):
+        folder = session_path(session_id)
+        stream = io.StringIO(newline="")
+        fields = ["run_id", "case_id", "method", "question", "history", "answer", "status", "mode", "llm_called", "latency_ms", "model", "digest", "sources", "score_0_2", "reviewer", "notes"]
+        writer = csv.DictWriter(stream, fieldnames=fields)
+        writer.writeheader()
+        for path in sorted(folder.glob("*/result.json")):
+            record = read_json(path)
+            result = record["result"]
+            identity = result.get("identity") or {}
+            writer.writerow({"run_id": record["run_id"], "case_id": record["case_id"], "method": record["method"],
+                "question": record["question"], "history": json.dumps(record["fixed_history"], ensure_ascii=False),
+                "answer": result.get("answer", ""), "status": result["status"], "mode": result.get("mode"),
+                "llm_called": result.get("llm_called", False), "latency_ms": result.get("latency_ms"),
+                "model": identity.get("model"), "digest": identity.get("digest"),
+                "sources": json.dumps(result.get("sources", []), ensure_ascii=False)})
+        return Response(content=stream.getvalue().encode("utf-8-sig"), media_type="text/csv",
+            headers={"Content-Disposition": f'attachment; filename="techcare-{session_id}.csv"'})
+
     @app.post("/api/demo/runs")
     async def run_case(body: RunInput):
         folder = session_path(body.session_id)
         if gate.locked():
             raise HTTPException(409, "Another local inference is running; wait for it to finish")
         async with gate:
-            from benchmark.chapter5 import verify_study
-            verify_study(Path(context["study"]))
+            if interactive:
+                from comparison_demo import verify_context
+                try:
+                    verify_context(context)
+                except (ValueError, OSError) as exc:
+                    raise HTTPException(409, str(exc)) from exc
+                case = {"id": body.case_id, "category": "human_test", "question": body.question,
+                        "history": [turn.model_dump() for turn in body.history], "history_questions": []}
+                for path in folder.glob("*/result.json"):
+                    previous = read_json(path)
+                    if previous["case_id"] == body.case_id and (previous["question"] != case["question"] or previous["fixed_history"] != case["history"]):
+                        raise HTTPException(409, "Case ID already has a different question/history. Reuse the saved input or choose a new ID.")
+            else:
+                from benchmark.chapter5 import verify_study
+                verify_study(Path(context["study"]))
+                case = deepcopy(context["cases"][body.case_id]["worker_case"])
             if digest(context["database"]) != context["database_sha256"] or digest(context["plain_prompt"]) != context["plain_prompt_sha256"]:
                 raise HTTPException(409, "The demo snapshot changed; restart from the frozen study")
             if any(digest(Path(context["corpus"]) / name) != h for name, h in context["corpus_sha256"].items()):
@@ -266,7 +316,7 @@ def create_demo_app(context):
             run_id = uuid4()
             work = folder / str(run_id)
             work.mkdir()
-            request_data = {"method": body.method, "case": deepcopy(context["cases"][body.case_id]["worker_case"]),
+            request_data = {"method": body.method, "case": case,
                 "corpus": context["corpus"], "database": context["database"], "timeout": context["timeout"],
                 "snapshot_timestamp": context["snapshot_timestamp"], "ollama_url": "http://127.0.0.1:11434",
                 "hf_url": "http://127.0.0.1:8011", "plain_prompt": Path(context["plain_prompt"]).read_text(encoding="utf-8"),

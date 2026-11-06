@@ -61,5 +61,14 @@
 .benchmark-demo .bd-error,.benchmark-demo .bd-progress{max-width:1520px;margin:0 auto 14px;border-radius:7px;padding:10px 12px;font-size:12px;line-height:1.6}
 .benchmark-demo .bd-error{background:#fff0f0;color:#a12525;border:1px solid #f1caca}
 .benchmark-demo .bd-progress{background:#eaf1ff;color:#245bd8}
+.benchmark-demo .bd-grid.bd-single{grid-template-columns:minmax(0,1fr);max-width:900px;overflow:visible}
+.benchmark-demo .bd-manual{max-width:1520px;margin:0 auto 16px;padding:16px;background:#fff;border:1px solid #dce3ee;border-radius:12px;font-size:12px}
+.benchmark-demo .bd-manual-row{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.benchmark-demo .bd-manual label{display:flex;flex-direction:column;gap:5px;color:#54627a}
+.benchmark-demo .bd-manual input,.benchmark-demo .bd-manual textarea{border:1px solid #cbd5e5;border-radius:7px;padding:9px;color:#17253e;font:inherit}
+.benchmark-demo .bd-manual textarea{width:100%;resize:vertical}
+.benchmark-demo .bd-manual p{color:#65738a;line-height:1.6;margin:9px 0 0}
+.benchmark-demo .bd-manual details{margin-top:12px}
+.benchmark-demo .bd-toolbar .bd-check{flex-direction:row;align-items:center}
 @media(max-width:850px){.benchmark-demo{padding:18px 14px}.benchmark-demo .bd-grid{grid-template-columns:repeat(4,minmax(220px,1fr));overflow-x:auto}.benchmark-demo .bd-header{display:block}.benchmark-demo .bd-status{display:inline-block;margin-top:12px}.benchmark-demo h1{font-size:23px}}
 @media print{.benchmark-demo{padding:0;background:white}.benchmark-demo .bd-toolbar,.benchmark-demo .bd-storage{display:none}.benchmark-demo .bd-card{break-inside:avoid;box-shadow:none}.benchmark-demo .bd-card-footer details{display:none}}

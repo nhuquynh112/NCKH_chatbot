@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     CHAT_PROVIDER: Literal["ollama", "hf_lora"] = "ollama"
     HF_LORA_BASE_URL: str = "http://127.0.0.1:8011"
     CHAT_MODEL: str = BASELINE_CHAT_MODEL
-    USE_PROJECT_CHAT_MODEL: bool = True
+    USE_PROJECT_CHAT_MODEL: bool = False
     CHAT_MODEL_PROFILE_PATH: Path = Path("rag_data/model_profile.json")
     EMBEDDING_MODEL: str = "nomic-embed-text"
     CHROMA_COLLECTION: str = "techcare_rag"

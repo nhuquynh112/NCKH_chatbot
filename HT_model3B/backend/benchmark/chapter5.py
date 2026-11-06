@@ -13,11 +13,12 @@ import subprocess
 import sys
 from uuid import uuid4
 
-from benchmark.protocol import ABLATIONS, METHOD_NAMES, method_spec
+from app.config import BASELINE_CHAT_MODEL
+from benchmark.protocol import ABLATIONS, MAIN_METHODS, METHOD_NAMES, method_spec
 from benchmark.run import CORPUS_FILES, ROOT, digest, write_json
 from benchmark.schema import Case
 
-MAIN = ["B0", "B1", "B2", "P"]
+MAIN = list(MAIN_METHODS)
 SMOKE_IDS = ["TC05", "TC11", "TC23"]
 ERRORS = {"error", "timeout", "not_ready"}
 
@@ -89,7 +90,8 @@ def prepare(package, study, approval):
         shutil.copyfile(package/"sources"/name,corpus/name)
     write_json(study/"inputs.adapter.json", {"version":"approved24-schema-adapter-v1", "cases":adapt_inputs(inputs)})
     snapshot_timestamp=datetime.now(timezone.utc).isoformat()
-    protocol = {"version":"chapter5-approved24-v2", "created_utc":snapshot_timestamp,
+    protocol = {"version":"chapter5-approved24-v3", "created_utc":snapshot_timestamp,
+        "chat_model":BASELINE_CHAT_MODEL,
         "snapshot_timestamp":snapshot_timestamp,
         "timestamp_role":"Technical database snapshot creation time, identical across workers; not manufacturer verification time or a new business fact.",
         "approval":confirmation,"original_manifest":original_manifest,"source_equivalence":equivalence,

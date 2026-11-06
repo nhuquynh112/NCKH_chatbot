@@ -27,7 +27,7 @@ class LocalModelProfileTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=temporary_directory()) as work:
             profile = Path(work) / "model_profile.json"
             profile.write_text(json.dumps({"enabled": True, "base_model": "qwen2.5:3b", "model": "techcare-support:3b-v1"}), encoding="utf-8")
-            config = Settings(_env_file=None, ENVIRONMENT="test", CHAT_MODEL_PROFILE_PATH=profile, CHAT_MODEL="qwen2.5:3b")
+            config = Settings(_env_file=None, ENVIRONMENT="test", CHAT_MODEL_PROFILE_PATH=profile, CHAT_MODEL="qwen2.5:3b", USE_PROJECT_CHAT_MODEL=True)
             self.assertEqual(config.chat_model, "techcare-support:3b-v1")
             config.USE_PROJECT_CHAT_MODEL = False
             self.assertEqual(config.chat_model, "qwen2.5:3b")
@@ -39,7 +39,7 @@ class LocalModelProfileTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=temporary_directory()) as work:
             profile = Path(work) / "model_profile.json"
             profile.write_text(json.dumps({"enabled": True, "base_model": "qwen2.5:3b", "model": "example:cloud"}), encoding="utf-8")
-            config = Settings(_env_file=None, ENVIRONMENT="test", CHAT_MODEL_PROFILE_PATH=profile, CHAT_MODEL="qwen2.5:3b")
+            config = Settings(_env_file=None, ENVIRONMENT="test", CHAT_MODEL_PROFILE_PATH=profile, CHAT_MODEL="qwen2.5:3b", USE_PROJECT_CHAT_MODEL=True)
             with self.assertRaises(ValueError):
                 _ = config.chat_model
 

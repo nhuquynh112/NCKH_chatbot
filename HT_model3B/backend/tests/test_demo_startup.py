@@ -62,7 +62,8 @@ class DemoStartupTests(unittest.TestCase):
             settings.DATABASE_URL,
             f"sqlite:///{(BACKEND_ROOT / 'techcare.db').as_posix()}",
         )
-        self.assertEqual(settings.chat_model, "techcare-support:3b-v1")
+        self.assertEqual(settings.chat_model, "qwen2.5:3b")
+        self.assertFalse(settings.USE_PROJECT_CHAT_MODEL)
         self.assertTrue(settings.AUTO_SEED)
         self.assertEqual(settings.ENVIRONMENT, "development")
 
