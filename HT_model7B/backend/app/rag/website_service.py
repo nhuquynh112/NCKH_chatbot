@@ -253,16 +253,56 @@ class WebsiteChatService(ChatService):
         )) for item in shown]
         return ChatResult(answer, hits, False, "rule+rag")
 
+    def _listed_product_reference(self, question, history):
+        """Resolve an ordinal product reference from the latest assistant list."""
+        if self.guardrails.mentioned_products(question):
+            return None
+        text = folded(question)
+        if not any(contains(text, term) for term in (
+                "san pham", "mau", "laptop", "may tinh", "dien thoai", "model", "item", "product")):
+            return None
+
+        ordinals = (
+            (0, ("dau tien", "thu nhat", "so 1", "so mot", "first")),
+            (1, ("thu hai", "so 2", "so hai", "second")),
+            (2, ("thu ba", "so 3", "so ba", "third")),
+            (3, ("thu tu", "so 4", "so bon", "fourth")),
+            (4, ("thu nam", "so 5", "so nam", "fifth")),
+        )
+        ordinal = next((index for index, phrases in ordinals
+                        if any(contains(text, phrase) for phrase in phrases)), None)
+        if ordinal is None:
+            return None
+
+        for message in reversed(history or []):
+            if message.get("role") != "assistant":
+                continue
+            products = self.guardrails.mentioned_products(str(message.get("content", "")))
+            if products:
+                return products[ordinal] if ordinal < len(products) else None
+        return None
+
     def ask(self, question, top_k=4, history=None, product_id=None, session_id=None, extra_documents=None):
         question = question.strip()
         if not question:
             raise ValueError("Question must not be empty")
+        original_question = question
         started = time.perf_counter()
         with self.guardrails.product_catalog.snapshot():
             intent = technical_intent(question)
             preempt = (self.guardrails.is_prompt_injection(question) or self.guardrails.is_unrelated_request(question)
                        or self.guardrails.is_support_issue(question) or self.guardrails.is_order_lookup(question)
                        or self.guardrails.is_human_request(question) or self.guardrails.is_clearly_out_of_scope(question))
+            listed_product = None if preempt else self._listed_product_reference(question, history)
+            if listed_product is not None:
+                selected_id = listed_product.get("id")
+                if selected_id is not None:
+                    product_id = selected_id
+                question = f"{question}\nSản phẩm được tham chiếu từ danh sách trước: {listed_product['name']}."
+                emit("website_route", route="listed_product_followup",
+                     product_sku=listed_product.get("sku"))
+                result = super()._ask(question, top_k, history, product_id, session_id, extra_documents)
+                return self._check_question_echo(result, original_question, history)
             if not intent and not preempt:
                 recommendation = self._phone_recommendation(question, history, product_id)
                 if recommendation is not None:
@@ -275,7 +315,7 @@ class WebsiteChatService(ChatService):
             if not intent or preempt or self.guardrails.mentioned_products(question) or product_id:
                 emit("website_route", route="existing_business", preprocessing_ms=(time.perf_counter() - started) * 1000)
                 result = super()._ask(question, top_k, history, product_id, session_id, extra_documents)
-                return self._check_question_echo(result, question, history)
+                return self._check_question_echo(result, original_question, history)
             emit("website_route", route="technical_evidence", intent=intent,
                  preprocessing_ms=(time.perf_counter() - started) * 1000)
             search_start = time.perf_counter()
