@@ -277,9 +277,44 @@ class WebsiteChatService(ChatService):
         for message in reversed(history or []):
             if message.get("role") != "assistant":
                 continue
-            products = self.guardrails.mentioned_products(str(message.get("content", "")))
+            answer = str(message.get("content", ""))
+            answer_text = folded(answer)
+            if any(contains(answer_text, phrase) for phrase in (
+                    "chua co du thong tin", "tao ticket", "chuyen noi dung cho nhan vien")):
+                continue
+            products = self.guardrails.mentioned_products(answer)
             if products:
                 return products[ordinal] if ordinal < len(products) else None
+        return None
+
+    def _recent_product_followup(self, question, history):
+        """Recover a product selected earlier when the user asks a follow-up."""
+        if not history or self.guardrails.mentioned_products(question):
+            return None
+        text = folded(question)
+        explicit_reference = any(contains(text, phrase) for phrase in (
+            "mau minh vua hoi", "san pham minh vua hoi", "may minh vua hoi",
+            "cai minh vua hoi", "mau vua hoi", "san pham vua hoi",
+        ))
+        if not explicit_reference and not self.prompt_builder.is_context_dependent(question):
+            return None
+
+        for index in range(len(history) - 1, -1, -1):
+            message = history[index]
+            if message.get("role") != "user":
+                continue
+            prior_question = str(message.get("content", ""))
+            category = self.guardrails.find_category(prior_question)
+            if (category and (self.guardrails.is_category_availability_question(prior_question)
+                              or self.guardrails.is_recommendation_question(prior_question))):
+                # A newer category search starts a fresh product-selection context.
+                return None
+            named_products = self.guardrails.mentioned_products(prior_question)
+            if named_products:
+                return named_products[-1]
+            selected = self._listed_product_reference(prior_question, history[:index])
+            if selected is not None:
+                return selected
         return None
 
     def ask(self, question, top_k=4, history=None, product_id=None, session_id=None, extra_documents=None):
@@ -303,6 +338,12 @@ class WebsiteChatService(ChatService):
                      product_sku=listed_product.get("sku"))
                 result = super()._ask(question, top_k, history, product_id, session_id, extra_documents)
                 return self._check_question_echo(result, original_question, history)
+            if not preempt and product_id is None:
+                prior_product = self._recent_product_followup(question, history)
+                if prior_product is not None and prior_product.get("id") is not None:
+                    product_id = prior_product["id"]
+                    emit("website_route", route="context_product_followup",
+                         product_sku=prior_product.get("sku"))
             if not intent and not preempt:
                 recommendation = self._phone_recommendation(question, history, product_id)
                 if recommendation is not None:
