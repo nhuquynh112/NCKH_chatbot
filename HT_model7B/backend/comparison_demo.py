@@ -28,7 +28,7 @@ def verify_context(context):
         raise ValueError("Test inputs changed. Keep the old workspace and start a new one.")
 
 
-def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=120, resume=None, blinded=True, conversation_timeout=600):
+def prepare_context(work_dir, port=8012, frontend_port=5174, timeout=300, resume=None, blinded=True, conversation_timeout=1500):
     require_local_environment()
     root = Path(resume if resume else work_dir).resolve()
     if root.is_relative_to(REPOSITORY):
@@ -102,8 +102,8 @@ def main():
     parser.add_argument("--coordinator", action="store_true", help="Show method identities for the coordinator instead of the default anonymous review UI")
     parser.add_argument("--port", type=int, default=8012)
     parser.add_argument("--frontend-port", type=int, default=5174)
-    parser.add_argument("--timeout", type=int, default=120, choices=range(10, 121), metavar="10..120")
-    parser.add_argument("--conversation-timeout", type=int, default=600, choices=range(120, 601), metavar="120..600")
+    parser.add_argument("--timeout", type=int, default=300, choices=range(10, 301), metavar="10..300")
+    parser.add_argument("--conversation-timeout", type=int, default=1500, choices=range(120, 1501), metavar="120..1500")
     parser.add_argument("--snapshot", nargs=3, metavar=("CORPUS", "DATABASE", "TIMESTAMP"), help=argparse.SUPPRESS)
     args = parser.parse_args()
     if args.snapshot:
