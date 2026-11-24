@@ -1,0 +1,22 @@
+{
+  "question": "Em mua 3 miếng cùng loại, không đổi dòng máy.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em cần dán màn hình cho Samsung Galaxy A05S."
+    },
+    {
+      "role": "assistant",
+      "content": "ACTIVE PRODUCT: Dán kính cường lực màn hình Samsung Galaxy A05S S-case chống va đập full màn\n\nGiá: 105,000 VNĐ"
+    },
+    {
+      "role": "user",
+      "content": "Báo giá mẫu S-case trong catalog giúp em."
+    },
+    {
+      "role": "assistant",
+      "content": "Giá của mẫu S-case dán kính cường lực màn hình Samsung Galaxy A05S là 105,000 VNĐ."
+    }
+  ],
+  "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+}

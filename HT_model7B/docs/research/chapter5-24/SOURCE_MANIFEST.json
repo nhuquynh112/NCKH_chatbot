@@ -1,0 +1,110 @@
+[
+  {
+    "path": "main_results_96.jsonl",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\main_results_96.jsonl",
+    "sha256": "71d15cd03bfac15905b8ca3809e4920aec6c81237120236fb435955b95283fed",
+    "bytes": 792908
+  },
+  {
+    "path": "main_scores_ai_preliminary.jsonl",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\main_scores_ai_preliminary.jsonl",
+    "sha256": "680dc63d0c1aa571bd13a3943279d1f3bb83cce40a0dd6a85423ed512e1c0188",
+    "bytes": 125710
+  },
+  {
+    "path": "main_scores_ai_preliminary.csv",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\main_scores_ai_preliminary.csv",
+    "sha256": "4e93a14de3620819e42aeeb4088829c495d29cbe24d9971bb302b860897e247a",
+    "bytes": 48201
+  },
+  {
+    "path": "summary_main.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\summary_main.json",
+    "sha256": "18ee277b46a9486638883d4d3a9c30085573125110e395ec4eb5378584d804af",
+    "bytes": 33578
+  },
+  {
+    "path": "summary_main.csv",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\summary_main.csv",
+    "sha256": "30dd01012101c52c32d18d3b0ee49d56db974bf1719af60f215696d3ba78514e",
+    "bytes": 730
+  },
+  {
+    "path": "supplementary_PFT_results_24.jsonl",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\supplementary_PFT_results_24.jsonl",
+    "sha256": "323ca90a3c48ebb1e05f352fbf8d80a49132acbceea6287aec6f023d2868948d",
+    "bytes": 336219
+  },
+  {
+    "path": "supplementary_PFT_scores_ai_preliminary.jsonl",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\supplementary_PFT_scores_ai_preliminary.jsonl",
+    "sha256": "61c857a0b8e46965ecc709188d6ae8cfcafba617462c5224d59ec6a9fb6b29f0",
+    "bytes": 28796
+  },
+  {
+    "path": "summary_supplementary_PFT.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\summary_supplementary_PFT.json",
+    "sha256": "b3770e896491df197f41c0b25842170fd3ef0d8978d444ec9219b64a79057c29",
+    "bytes": 8927
+  },
+  {
+    "path": "summary_supplementary_PFT.csv",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\summary_supplementary_PFT.csv",
+    "sha256": "02e5feaf22bce7beb176dd27f26eaa3cd942100549365df9a165d4daae087ac1",
+    "bytes": 341
+  },
+  {
+    "path": "AI_SCORING_PROTOCOL.md",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\AI_SCORING_PROTOCOL.md",
+    "sha256": "899ea9af567f15106f35726752cf17b707758eeb7d334ab8c8acf855b28850e6",
+    "bytes": 3133
+  },
+  {
+    "path": "AI_REVIEW_ADDENDUM.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\AI_REVIEW_ADDENDUM.json",
+    "sha256": "bfe852224ac6705c7722d41525d627bbfe1ec1ef94f81c8195dd3faf7680b635",
+    "bytes": 1939
+  },
+  {
+    "path": "comparison_consistency.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\comparison_consistency.json",
+    "sha256": "8aeb3fbce6031d0c6459f305839b4daba5e968c0be551f61cf47d7ce38fe8e96",
+    "bytes": 1147
+  },
+  {
+    "path": "metadata_clarifications.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\metadata_clarifications.json",
+    "sha256": "58d329478c7e837ffb3e00c48eebcfaf729a71b20124374123263d3ca54b592b",
+    "bytes": 651
+  },
+  {
+    "path": "P_vs_PFT_trace_comparison.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\P_vs_PFT_trace_comparison.json",
+    "sha256": "403ca57fc88340195327b6b2275ca97ff54c91b5c1c601a31463068179f89ab9",
+    "bytes": 8296
+  },
+  {
+    "path": "protocol_validation.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\protocol_validation.json",
+    "sha256": "414820a56a43b3bd53e318474b9515164e2e2f6ec491c12fc641ba1e9eee194e",
+    "bytes": 10116
+  },
+  {
+    "path": "validation_summary.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\validation_summary.json",
+    "sha256": "8fdec76de51f402a948e79700759dc88b1c5d795d8323eda59301fbcfd47b66c",
+    "bytes": 253
+  },
+  {
+    "path": "P_ARCHITECTURE_VERIFIED.md",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\P_ARCHITECTURE_VERIFIED.md",
+    "sha256": "a88deb1993289611e95f34dd26b5d38c2faab6dbf22db16d95ebed966c878774",
+    "bytes": 1525
+  },
+  {
+    "path": "protocol_P_original.json",
+    "source": "D:\\NCKH\\Codex\\comparison24_P_20261016T065655Z_e0611f3d\\study\\protocol.json",
+    "sha256": "a2159b0dee0d4ee6dedbca500468042b51bad13d3bf48930903a97de404bd178",
+    "bytes": 18145
+  }
+]

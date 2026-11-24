@@ -1,0 +1,22 @@
+{
+  "question": "Ngày nghỉ có tính vào khoảng dự kiến đó không?",
+  "history": [
+    {
+      "role": "user",
+      "content": "Theo chính sách demo, hoàn tiền chuyển khoản dự kiến mất bao lâu?"
+    },
+    {
+      "role": "assistant",
+      "content": "Theo chính sách demo, hoàn tiền qua chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu được xác nhận; tiền mặt theo thỏa thuận tại cửa hàng, thẻ theo thời gian xử lý của ngân hàng. Chatbot chưa tra được giao dịch hoàn tiền cụ thể. Nếu đã quá thời gian dự kiến, bạn gửi mã đơn và ngày được xác nhận hoàn để nhân viên kiểm tra."
+    },
+    {
+      "role": "user",
+      "content": "Em vừa gửi yêu cầu nhưng cửa hàng chưa xác nhận."
+    },
+    {
+      "role": "assistant",
+      "content": "Theo chính sách demo, hoàn tiền qua chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu được xác nhận; tiền mặt theo thỏa thuận tại cửa hàng, thẻ theo thời gian xử lý của ngân hàng. Chatbot chưa tra được giao dịch hoàn tiền cụ thể. Nếu đã quá thời gian dự kiến, bạn gửi mã đơn và ngày được xác nhận hoàn để nhân viên kiểm tra."
+    }
+  ],
+  "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+}

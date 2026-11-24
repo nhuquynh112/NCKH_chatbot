@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "answer": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB: giá 18.790.000 VND; Loại CPU: Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện; Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s. Cập nhật catalog: 28/10/2026 16:13 (GMT+7).",
+  "sources": [
+    {
+      "id": "retailer-macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb-1",
+      "title": "CellphoneS – MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB | Chính hãng Apple Việt Nam",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_183",
+      "title": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB",
+      "score": 1.0,
+      "content": "Nguồn: product_catalog_extended.md\nChủ đề: Danh mục sản phẩm\nMục: MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB\n\n# MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB\n\n## Thông tin chung\n\nHãng: Apple\n\nDanh mục: Laptop\n\nGiá: 18,790,000 VNĐ\n\nBảo hành tham khảo: 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn\n\nDữ liệu tham khảo CellphoneS ngày 2026-10-23; giá dùng cho demo, không xác nhận tồn kho/giá thực tế hoặc chính sách TechCare.\n\n## Mô tả\n\nMacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB. Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s; Dung lượng RAM: 8GB; Ổ cứng: 256GB.\n\n## Thông số kỹ thuật\n\n- Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s\n- Dung lượng RAM: 8GB\n- Ổ cứng: 256GB\n- Công nghệ màn hình: Màn hình Liquid Retina Màn hình có đèn nền LED Mật độ 219 pixel mỗi inch Độ sáng 500 nit Hỗ trợ 1 tỷ màu Màu sRGB Hỗ trợ một màn hình ngoài có độ phân giải gốc lên đến 4K ở tần số 60Hz\n- Hệ điều hành khi ra mắt: macOS\n- Loại CPU: Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện\n- Kích thước màn hình: 13 inches\n- Độ phân giải màn hình: 2408 x 1506 pixels\n- Pin: Thời gian xem video trực tuyến lên đến 16 giờ Thời gian duyệt web trên mạng không dây lên đến 11 giờ Pin lithium-ion 36.5 watt‑giờ tích hợp\n- Cổng giao tiếp: Một cổng USB 3 (USB-C) hỗ trợ: Sạc / DisplayPort / USB 3 (lên đến 10Gb/s) Một cổng USB 2 (USB-C) hỗ trợ: Sạc / USB 2 (lên đến 480Mb/s) Jack cắm tai nghe 3,5 mm\n\nNguồn tham khảo: CellphoneS – MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB | Chính hãng Apple Việt Nam — https://cellphones.com.vn/macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb.html",
+      "metadata": {
+        "source": "product_catalog_extended.md",
+        "parent": "Danh mục sản phẩm",
+        "title": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 309.2828999942867,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-finetuned",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-04T04:55:58.482734+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Theo catalog, MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB giá bao nhiêu và thuộc hãng nào?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nMacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB (macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb), nhóm Laptop, giá 18.790.000 VND.\nMacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB. Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s; Dung lượng RAM: 8GB; Ổ cứng: 256GB — Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s, Dung lượng RAM: 8GB, Ổ cứng: 256GB, Công nghệ màn hình: Màn hình Liquid Retina Màn hình có đèn nền LED Mật độ 219 pixel mỗi inch Độ sáng 500 nit Hỗ trợ 1 tỷ màu Màu sRGB Hỗ trợ một màn hình ngoài có độ phân giải gốc lên đến 4K ở tần số 60Hz, Hệ điều hành khi ra mắt: macOS, Loại CPU: Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện, Kích thước màn hình: 13 inches, Độ phân giải màn hình: 2408 x 1506 pixels, Pin: Thời gian xem video trực tuyến lên đến 16 giờ Thời gian duyệt web trên mạng không dây lên đến 11 giờ Pin lithium-ion 36.5 watt‑giờ tích hợp, Cổng giao tiếp: Một cổng USB 3 (USB-C) hỗ trợ: Sạc / DisplayPort / USB 3 (lên đến 10Gb/s) Một cổng USB 2 (USB-C) hỗ trợ: Sạc / USB 2 (lên đến 480Mb/s) Jack cắm tai nghe 3,5 mm",
+      "history_messages": 0
+    }
+  ],
+  "database_mode": "read-only frozen control snapshot",
+  "pipeline_class": "benchmark.methods.RagMethod",
+  "effective_config": {
+    "provider": "hf_lora",
+    "model": "qwen2.5-7b-finetuned",
+    "embedding": "nomic-embed-text",
+    "top_k": 5,
+    "threshold": 0.38,
+    "generation": {
+      "temperature": 0,
+      "num_predict": 384,
+      "num_ctx": 4096,
+      "repeat_penalty": 1.0
+    }
+  },
+  "harness_sha256": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+}

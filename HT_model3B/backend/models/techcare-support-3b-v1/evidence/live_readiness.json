@@ -1,0 +1,11 @@
+{
+  "backend": {
+    "status": "ready",
+    "database": "ok",
+    "ai": "ok",
+    "chat_model": "techcare-support:3b-v1",
+    "deterministic_answers_available": true,
+    "vector_store": "json"
+  },
+  "frontend_status": 200
+}

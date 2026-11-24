@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "model": "techcare-support:3b-v1",
+  "base_model": "qwen2.5:3b",
+  "gguf_file": "techcare-support-3b-v1-Q4_K_M.gguf",
+  "gguf_path": "backend/models/techcare-support-3b-v1/techcare-support-3b-v1-Q4_K_M.gguf",
+  "gguf_sha256": "87710c00e7b1da9c873d2ba0ddc89e89eb24075f81ebfba55ed527832ecc3b18",
+  "gguf_bytes": 1929902496,
+  "quantization": "Q4_K_M",
+  "license": "Qwen Research License; retain license embedded in Modelfile.techcare3b",
+  "training": {
+    "source": "CSConDa approved filtered survey + synthetic context-grounding examples",
+    "train_rows": 170,
+    "validation_rows": 9,
+    "synthetic_test_rows": 21,
+    "epochs": 2,
+    "lora_rank": 16,
+    "lora_targets": "all-linear",
+    "learning_rate": 0.0001,
+    "max_length": 512,
+    "checkpoint_repo": "unsloth/Qwen2.5-3B-Instruct-bnb-4bit",
+    "checkpoint_revision": "2672b588848527e456d320c11926c794539f47d5",
+    "train_sha256": "df18c7d4acae78af68161f231fcbdf96051c9b3251bdd273647f8752d64ff502",
+    "test_sha256": "b15734939f7a2754b89186055a2542baaea91d3cb46126c0f9db7bc6c9d170a1"
+  },
+  "evaluation_status": "Validated: real local LLM+RAG call, isolated API flows and final regression workflow passed",
+  "evaluation": {
+    "fresh_synthetic_rows": 12,
+    "fresh_test_sha256": "994297f21596b6a985b8d834edb48607f113c9a6d6b9820a4e7f947e9ed7989f",
+    "base_passed": 10,
+    "trained_passed": 12,
+    "metric": "Frozen synthetic factual/required-content checks, not real-user accuracy",
+    "repeat_penalty": 1.0,
+    "prompt": "Training-aligned system prompt + conversation memory rules",
+    "first_configuration": {
+      "base_21_passed": 18,
+      "trained_21_passed": 12,
+      "note": "Rejected old prompt/repetition configuration; retained evidence"
+    },
+    "integrated_model_verified": true,
+    "unit_tests_passed": 105
+  }
+}

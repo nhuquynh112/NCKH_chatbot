@@ -1,0 +1,22 @@
+{
+  "method": "P+FT",
+  "case": {
+    "id": "H20",
+    "category": "Hội thoại thực tế",
+    "question": "Với việc em đang hỏi hiện tại, thời gian dự kiến là bao lâu và mốc bắt đầu tính là khi nào?",
+    "history": [],
+    "history_questions": [
+      "Em hỏi thời gian giao hàng về tỉnh theo chính sách demo.",
+      "Khoảng dự kiến đó tính theo ngày làm việc đúng không?",
+      "Bây giờ em chuyển sang hỏi hoàn tiền chuyển khoản, không hỏi giao hàng nữa.",
+      "Em đã nhận được xác nhận yêu cầu hoàn tiền từ cửa hàng."
+    ]
+  },
+  "database": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\frozen_products.db",
+  "corpus": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\corpus",
+  "timeout": 120,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8011",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n"
+}

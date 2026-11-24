@@ -1,0 +1,29 @@
+{
+  "question": "Em muốn chọn mẫu rẻ hơn trong hai mẫu đó.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em cần chuột không quá 1,2 triệu đồng."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình gợi ý 3 lựa chọn cho nhu cầu của bạn trong ngân sách tối đa 1.200.000 VND:\n- Chuột không dây Bluetooth Rapoo MT560 — 690.000 VND: Chuột không dây Bluetooth Rapoo MT560. Độ phân giải: 50 - 4000 DPI; Kết nối: Bluetooth Wireless 2.4G Có dây; Đèn LED: Không.\n- Chuột gaming không dây Aula SC800 — 1.090.000 VND: Chuột gaming không dây Aula SC800. Độ phân giải: 400-800-1200-1600-3200-5000DPI; Kết nối: Bluetooth USB receiver Type-C; Đèn LED: Không Led.\n- Chuột gaming không dây Asus ROG Strix Impact III WL — 1.090.000 VND: Chuột gaming không dây Asus ROG Strix Impact III WL. Tương thích: Windows ® 10/Windows ® 11; Độ phân giải: 36000 DPI; Kết nối: Bluetooth 5.1 Tần số vô tuyến 2,4 GHz."
+    },
+    {
+      "role": "user",
+      "content": "Em đang cân nhắc Aula SC800 và Rapoo MT560."
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn đang cân nhắc giữa chuột gaming không dây Aula SC800 và Rapoo MT560. Aula SC800 có độ phân giải cao hơn từ 400-5000 DPI, kết nối qua USB Type-C và không có đèn LED. Rapoo MT560 có độ phân giải từ 50-4000 DPI, kết nối qua Bluetooth 2.4G và có dây, cũng không có đèn LED. Bạn có muốn biết thêm thông tin về một trong hai mẫu này hay cần tư vấn thêm?"
+    },
+    {
+      "role": "user",
+      "content": "Chỉ so sánh hai mẫu em vừa nêu thôi nhé."
+    },
+    {
+      "role": "assistant",
+      "content": "Aula SC800 có độ phân giải cao hơn từ 400-5000 DPI so với Rapoo MT560 có độ phân giải từ 50-4000 DPI. Aula SC800 kết nối qua USB Type-C trong khi Rapoo MT560 kết nối qua Bluetooth 2.4G và có dây. Bạn cần thêm thông tin nào nữa không?"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "rubric_changed": false,
+  "prior_review_labels_changed": false,
+  "new_scored_method": "P",
+  "method_blinded": false,
+  "exact_answer_judgments_carried_forward": 17,
+  "generated_answers_semantically_reviewed": 7,
+  "human_approved": false,
+  "priority_review_cases": [
+    {
+      "method": "B1",
+      "case_id": "TC07",
+      "score": 0,
+      "notes": "Thiếu ngày làm việc; khẳng định thời gian hoàn toàn phụ thuộc ngân hàng và ngân hàng sẽ kiểm tra thông tin là quy trình không được nguồn xác nhận."
+    },
+    {
+      "method": "B1",
+      "case_id": "TC24",
+      "score": 0,
+      "notes": "Không cam kết cứng nhưng đoán có thể về ngày mai không được khoảng dự kiến3–7ngày hoặc trạng thái giao dịch hỗ trợ."
+    },
+    {
+      "method": "B2",
+      "case_id": "TC08",
+      "score": 2,
+      "notes": "Đúng dự kiến3–7 ngày làm việc; hiểu ngày nghỉ cuối tuần là những ngày thực sự nghỉ, không nêu cố định thứ Bảy/Chủ nhật cho mọi hãng. Cần nhóm duyệt cách diễn giải này."
+    },
+    {
+      "method": "P",
+      "case_id": "TC08",
+      "score": 0,
+      "notes": "Có ngày làm việc nhưng tự loại toàn bộ các ngày cuối tuần, trong khi nguồn không quy định lịch nghỉ; thay khoảng dự kiến bằng cách nói chỉ hỗ trợ trong 3–7 ngày và lạc sang giao trong ngày. Cần nhóm duyệt cách hiểu lịch nghỉ; B2/TC08 cũ có chữ “ngày nghỉ cuối tuần”, được chấm 2 với độ chắc chắn trung bình và vẫn giữ nguyên để không sửa kết quả cũ."
+    }
+  ],
+  "note": "In TC08 P says all weekend days excluded; B2 old says weekend rest days. This wording interpretation and their different preliminary labels require group review; no prior label was silently changed."
+}

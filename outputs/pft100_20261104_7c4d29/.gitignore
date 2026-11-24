@@ -1,0 +1,3 @@
+# Only archived research logs and the audited product-only snapshot are publishable here.
+!*.log
+!frozen_products.db

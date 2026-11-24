@@ -1,0 +1,34 @@
+{
+  "source": "Approved CSConDa survey + agent-authored TechCare context-grounding simulations",
+  "source_split": "train",
+  "official_test_used_for_training": false,
+  "accepted": 200,
+  "train_rows": 170,
+  "validation_rows": 9,
+  "test_rows": 21,
+  "source_counts": {
+    "csconda_original_or_edited": 46,
+    "synthetic_train": 133,
+    "synthetic_test": 21
+  },
+  "train_sha256": "df18c7d4acae78af68161f231fcbdf96051c9b3251bdd273647f8752d64ff502",
+  "validation_sha256": "166c79bfbaf0ea7e1e612f0ebaaa6205fb2d195e5118e8240e6ae998fdc24b52",
+  "test_sha256": "b15734939f7a2754b89186055a2542baaea91d3cb46126c0f9db7bc6c9d170a1",
+  "subject_holdout_catalog_ids": [
+    1,
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46,
+    51
+  ],
+  "catalog_sha256": "2d1647ea89fab2d5e54f8d761e6e218bad635b4731039cb8d8446173447a5a29",
+  "split_method": "CSConDa validation families unchanged. Synthetic test has held catalog subjects and new manually varied questions; no official CSConDa test used.",
+  "synthetic_prices": "Vary per supplied context, explicitly simulation; never used as live store facts.",
+  "note": "21 synthetic test rows frozen before this round; not customer trial data. Original 8 cases remain a development benchmark."
+}

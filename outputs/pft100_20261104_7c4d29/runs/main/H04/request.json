@@ -1,0 +1,22 @@
+{
+  "method": "P+FT",
+  "case": {
+    "id": "H04",
+    "category": "Hội thoại thực tế",
+    "question": "Mẫu em chọn tên gì và giá bao nhiêu?",
+    "history": [],
+    "history_questions": [
+      "Em đang xem Sony WH-1000XM6 và Sony WH-CH520, theo đúng thứ tự đó.",
+      "Hai mẫu đó có cùng hãng không?",
+      "Báo giá riêng từng mẫu giúp em.",
+      "Em muốn lấy mẫu thứ hai trong danh sách em nêu ban đầu."
+    ]
+  },
+  "database": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\frozen_products.db",
+  "corpus": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\corpus",
+  "timeout": 120,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8011",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n"
+}

@@ -1,0 +1,22 @@
+{
+  "question": "Bây giờ em chuyển sang hỏi hoàn tiền chuyển khoản, không hỏi giao hàng nữa.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em hỏi thời gian giao hàng về tỉnh theo chính sách demo."
+    },
+    {
+      "role": "assistant",
+      "content": "Thời gian tham khảo trong chính sách demo là 3–7 ngày làm việc cho đơn giao tỉnh, tùy địa chỉ và đơn vị vận chuyển. Đây là khoảng dự kiến, chưa phải lịch giao của đơn cụ thể. Bạn ở tỉnh/thành nào và cần nhận trước ngày nào?"
+    },
+    {
+      "role": "user",
+      "content": "Khoảng dự kiến đó tính theo ngày làm việc đúng không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Mình gợi ý 3 lựa chọn cho văn phòng/học tập:\n- PC CPS văn phòng AMD R5 3400G kèm màn hình — 8.090.000 VND: Dung lượng RAM: 8GB; Màn hình: Màn hình VSP V2204H 120HZ 22 inch; Chip: CPU AMD Ryzen 5 3400G; RAM: Ram PC VSP DDR4 3200MHZ 8GB (1*8GB).\n- PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình — 12.390.000 VND: Dung lượng RAM: 8GB; Màn hình: Màn hình VSP IP2404S 24 (FHD/IPS/120HZ/1MS); Chip: CPU Intel Core i5 12400; RAM: RAM PC VSP DDR4 3200MHZ 8GB (1*8GB).\n- Máy tính All In One văn phòng MSI PRO-AP242-12M-213VN — 20.990.000 VND: Dung lượng RAM: 8GB; Loại RAM: DDR4; Số khe ram: 2 x DDR4 3200MHz SO-DIMMs; Ổ cứng: SSD 250GB."
+    }
+  ],
+  "answer": "Theo chính sách demo, hoàn tiền qua chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu được xác nhận; tiền mặt theo thỏa thuận tại cửa hàng, thẻ theo thời gian xử lý của ngân hàng. Chatbot chưa tra được giao dịch hoàn tiền cụ thể. Nếu đã quá thời gian dự kiến, bạn gửi mã đơn và ngày được xác nhận hoàn để nhân viên kiểm tra."
+}

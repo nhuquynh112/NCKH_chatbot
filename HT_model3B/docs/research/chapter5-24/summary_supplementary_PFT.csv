@@ -1,0 +1,2 @@
+﻿method,n,full_2_points,full_rate_pct,mean_score_0_2,score_counts,unsupported_count,unsupported_rate_pct,operational_errors,median_ms,p95_ms,llm_called_cases,llm_call_rate_pct
+P+FT,24,14,58.333333333333336,1.4166666666666667,"{""2"": 14, ""1"": 6, ""0"": 4}",1,4.166666666666667,0,62.985099999878,7973.1596999999965,7,29.166666666666668

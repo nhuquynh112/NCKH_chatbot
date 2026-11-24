@@ -1,0 +1,30 @@
+{
+  "question": "Giờ em đổi sang bản 75, không lấy bản 98 nữa.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em xem bàn phím Logitech G512 X 98 và G512 X 75."
+    },
+    {
+      "role": "assistant",
+      "content": "Bàn phím Logitech G512 X 98 có giá 5,390,000 VNĐ và có 98 phím. Bàn phím Logitech G512 X 75 có giá 4,890,000 VNĐ và có 81 phím. Bạn cần tư vấn thêm không?"
+    },
+    {
+      "role": "user",
+      "content": "Báo giá từng mẫu theo catalog giúp em."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+    },
+    {
+      "role": "user",
+      "content": "Em chọn bản 98 trước."
+    },
+    {
+      "role": "assistant",
+      "content": "Bàn phím Logitech G512 X 98 LightSync RGB Dual Swap có giá 5,390,000 VNĐ. Bạn có cần tư vấn thêm không?"
+    }
+  ],
+  "answer": "Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient có giá 1,690,000 VNĐ. Bạn có cần tư vấn thêm không?"
+}

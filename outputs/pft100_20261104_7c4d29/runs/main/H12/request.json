@@ -1,0 +1,22 @@
+{
+  "method": "P+FT",
+  "case": {
+    "id": "H12",
+    "category": "Hội thoại thực tế",
+    "question": "Mẫu em nên chọn là gì, giá bao nhiêu và rẻ hơn mẫu còn lại bao nhiêu?",
+    "history": [],
+    "history_questions": [
+      "Em cần chuột không quá 1,2 triệu đồng.",
+      "Em đang cân nhắc Aula SC800 và Rapoo MT560.",
+      "Chỉ so sánh hai mẫu em vừa nêu thôi nhé.",
+      "Em muốn chọn mẫu rẻ hơn trong hai mẫu đó."
+    ]
+  },
+  "database": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\frozen_products.db",
+  "corpus": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\corpus",
+  "timeout": 120,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8011",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n"
+}

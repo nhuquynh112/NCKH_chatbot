@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "model": "qwen2.5-7b-finetuned",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a"
+  },
+  "training_status": "completed",
+  "train_rows": 37,
+  "validation_rows": 9,
+  "training_steps": null,
+  "checkpoint_path": "D:\\NCKH\\Codex\\training_cache\\qwen25_7b_nf4",
+  "adapter_path": "D:\\NCKH\\Codex\\training_runs\\csconda_7b_epoch1_20261014\\adapter",
+  "code_matches_control": true,
+  "case_count": 100,
+  "documents": 299,
+  "smoke_ids": [
+    "S01",
+    "S31",
+    "H01"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "model": "qwen2.5:7b-instruct-fp16",
+  "base_model": "qwen2.5:7b-instruct-fp16",
+  "provider": "ollama",
+  "fine_tuned_by_group": false,
+  "quantization": "F16",
+  "source_url": "https://ollama.com/library/qwen2.5:7b-instruct-fp16",
+  "model_manifest": "backend/models/qwen2.5-7b/model_manifest.json",
+  "note": "Original published 7B FP16 weights, not upcast from Q4; no group training or LoRA adapter. Historical 3B system is in HT_model3B. Previous Q4 runs remain separate."
+}

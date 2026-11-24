@@ -1,0 +1,406 @@
+[
+  {
+    "method": "P",
+    "case_id": "TC01",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC02",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC03",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC04",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC05",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC06",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC07",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC08",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC09",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC10",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC11",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC12",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC13",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC14",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC15",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC16",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC17",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC18",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC19",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC20",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC21",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_product_context": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC22",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC23",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  },
+  {
+    "method": "P",
+    "case_id": "TC24",
+    "checks": {
+      "input_question": true,
+      "fixed_history": true,
+      "architecture": true,
+      "no_system_error": true,
+      "snapshot_timestamp": true,
+      "database_fixed_timestamps": true,
+      "database_product_truth": true,
+      "model": true,
+      "trace_bm25": true,
+      "trace_ranking": true,
+      "trace_product_context": true,
+      "trace_postcheck": true
+    },
+    "passed": true
+  }
+]

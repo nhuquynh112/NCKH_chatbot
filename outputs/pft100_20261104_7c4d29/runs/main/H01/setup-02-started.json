@@ -1,0 +1,13 @@
+{
+  "question": "Máy đó thuộc hãng nào?",
+  "history": [
+    {
+      "role": "user",
+      "content": "Tôi đang xem iPhone 18 Pro 256GB."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình gợi ý 3 lựa chọn cho chụp ảnh:\n- iPhone 18 Pro 256GB — 38.990.000 VND: Chipset: A20 Pro; Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất; GPU: GPU 7 lõi; Kích thước màn hình: 6.3 inches.\n- iPhone 18 Pro 512GB — 45.490.000 VND: Chipset: A20 Pro; Loại CPU: CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất; GPU: GPU 7 lõi; Kích thước màn hình: 6.3 inches.\n- TECNO Spark 40 Pro+ 8GB 256GB — 5.190.000 VND: Kích thước màn hình: 6.78 inches; Công nghệ màn hình: AMOLED; Chipset: MediaTek Helio G200; Dung lượng RAM: 8 GB."
+    }
+  ]
+}

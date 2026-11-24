@@ -1,0 +1,22 @@
+{
+  "question": "Giờ em chuyển sang chuột Rapoo MT560, không mua laptop nữa.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em đang tìm laptop HP dưới 20 triệu."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình gợi ý 3 lựa chọn cho nhu cầu của bạn trong ngân sách tối đa 20.000.000 VND:\n- Laptop Thunderobot T-Book 15A — 13.490.000 VND: Loại card đồ họa: AMD Radeon Vega 3 (Integrated GPU); Dung lượng RAM: 8GB; Loại RAM: DDR4 SODIMM; Ổ cứng: 512 GB PCIe SSD.\n- Laptop HP 250R G9 AX3C8AT — 16.490.000 VND: Dung lượng RAM: 8GB; Loại RAM: DDR4 3200MHz; Số khe ram: 2 khe (1 x 8GB); Ổ cứng: 512GB SSD PCIe (M.2 2280).\n- MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB — 18.790.000 VND: Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s; Dung lượng RAM: 8GB; Công nghệ màn hình: Màn hình Liquid Retina Màn hình có đèn nền LED Mật độ 219 pixel mỗi inch Độ sáng 500 nit Hỗ trợ 1 tỷ màu Màu sRGB Hỗ trợ một màn hình ngoài có độ phân giải gốc lên đến 4K ở tần số 60Hz; Loại CPU: Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện."
+    },
+    {
+      "role": "user",
+      "content": "Cho em biết một mẫu trong catalog đáp ứng điều kiện đó."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+    }
+  ],
+  "answer": "Chuột không dây Bluetooth Rapoo MT560 có giá 690,000 VNĐ."
+}

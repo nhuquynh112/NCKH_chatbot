@@ -1,0 +1,22 @@
+{
+  "method": "P+FT",
+  "case": {
+    "id": "H10",
+    "category": "Hội thoại thực tế",
+    "question": "Vậy cứ ghi máy đó là bản 256GB và tư vấn chắc chắn cho em được không?",
+    "history": [],
+    "history_questions": [
+      "Em đang xem máy tính bảng Teclast 4G P50 4GB 128GB trong catalog.",
+      "Máy đó có bộ nhớ trong bao nhiêu?",
+      "Em cần 256GB, catalog có xác nhận biến thể đó của mẫu này không?",
+      "Em vẫn hỏi đúng mẫu Teclast đó; chưa có nguồn mới để xác minh thêm."
+    ]
+  },
+  "database": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\frozen_products.db",
+  "corpus": "D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\corpus",
+  "timeout": 120,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "ollama_url": "http://127.0.0.1:11434",
+  "hf_url": "http://127.0.0.1:8011",
+  "plain_prompt": "Bạn là trợ lý hỗ trợ khách hàng bằng tiếng Việt. Trả lời đúng trọng tâm và lịch sự. Nếu thiếu thông tin để xác nhận, hãy nói rõ điều chưa biết và hỏi thêm thông tin cần thiết. Không tự nhận đã thực hiện giao dịch hoặc thao tác mà bạn chưa thực hiện.\n"
+}

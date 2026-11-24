@@ -1,0 +1,13 @@
+{
+  "question": "Shop có hỗ trợ hóa đơn VAT theo chính sách demo không?",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em mua laptop HP 250R G9 AX3C8AT cho công ty."
+    },
+    {
+      "role": "assistant",
+      "content": "Laptop HP 250R G9 AX3C8AT có giá 16.490.000 VND. Sản phẩm này phù hợp cho công việc văn phòng và học tập. Nếu có thêm câu hỏi, vui lòng liên hệ."
+    }
+  ]
+}

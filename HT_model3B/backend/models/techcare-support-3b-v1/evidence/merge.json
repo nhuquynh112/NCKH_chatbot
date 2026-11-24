@@ -1,0 +1,75 @@
+{
+  "source": "NF4 checkpoint dequantized to BF16, adapter merged; final GGUF must be evaluated independently",
+  "adapter": "D:\\NCKH\\Codex\\training_runs\\shop_3b_v1_20261014\\adapter",
+  "checkpoint": {
+    "repo": "unsloth/Qwen2.5-3B-Instruct-bnb-4bit",
+    "revision": "2672b588848527e456d320c11926c794539f47d5",
+    "license": "Follow upstream Qwen2.5-3B license; model card checked separately",
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 7625,
+        "local_sha256": "a9e4e235711d2e29e7942c2e36f1821e1dc895bec5107be239c4e39608c80021",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "added_tokens.json",
+        "bytes": 605,
+        "local_sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "config.json",
+        "bytes": 1337,
+        "local_sha256": "bed11cba5f84170418b779657b75cb23d030fc00dda8aa0b879f95c11a6766b7",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 271,
+        "local_sha256": "424e77633729a4c63a0810e0fa32e3344b03499cd3a0b2fc626bfae19e7eb923",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 1671853,
+        "local_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 2054625552,
+        "local_sha256": "f49f0825fce862ef2ee0d336751273b3c849b82a1854530c9399ff4e3df8abad",
+        "source_lfs_sha256": "f49f0825fce862ef2ee0d336751273b3c849b82a1854530c9399ff4e3df8abad"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 614,
+        "local_sha256": "b5acd1507cb3a3539e63369cb4a2b675a599cf13afe62282d371518288967797",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 11421896,
+        "local_sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+        "source_lfs_sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 7362,
+        "local_sha256": "0553ada6e92b1a29b4431c72782c6e5e6ab675ef0b20ceb2833cd1074c7fb932",
+        "source_lfs_sha256": null
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 2776833,
+        "local_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "source_lfs_sha256": null
+      }
+    ]
+  },
+  "seconds": 110.812,
+  "merged_bytes": 6171926440,
+  "cuda_peak_bytes": 9281846272,
+  "dtype": "bfloat16"
+}

@@ -1,0 +1,188 @@
+import asyncio
+import logging
+import re
+import threading
+from typing import Optional
+
+from pydantic import BaseModel, Field
+
+from app.config import settings
+from app.rag.chat_service import ChatResult
+from app.rag.website_service import create_website_chat_service as create_default_chat_service
+from app.website_transport import website_request
+from app.rag.chroma_store import ChromaUnavailableError
+from app.rag.embedding import OllamaError
+
+
+logger = logging.getLogger(__name__)
+
+
+class AIQueryRequest(BaseModel):
+    session_id: str
+    message: str
+    history: list = Field(default_factory=list)
+    product_id: Optional[int] = None
+    faq_documents: list[dict] = Field(default_factory=list)
+
+
+class AIQueryResponse(BaseModel):
+    answer: str
+    confidence: float
+    intent: Optional[str] = None
+    sources: list = Field(default_factory=list)
+    needs_human: bool = False
+
+
+class AIService:
+    _chatbot = None
+    _chatbot_lock = threading.Lock()
+
+    def __init__(self):
+        self.startup_error: Exception | None = None
+        try:
+            self.chatbot = self._get_or_create_chatbot()
+        except (OllamaError, ChromaUnavailableError, ValueError, RuntimeError) as exc:
+            logger.error("Local RAG chatbot initialization failed: %s", exc)
+            self.chatbot = None
+            self.startup_error = exc
+
+    @classmethod
+    def _get_or_create_chatbot(cls):
+        if cls._chatbot is not None:
+            return cls._chatbot
+
+        with cls._chatbot_lock:
+            if cls._chatbot is None:
+                logger.info("Initializing local RAG chatbot")
+                cls._chatbot = create_default_chat_service(
+                    config=settings,
+                    ensure_index=True,
+                )
+        return cls._chatbot
+
+    async def query(
+        self,
+        session_id: str,
+        message: str,
+        history: list | None = None,
+        product_id: Optional[int] = None,
+        faq_documents: list[dict] | None = None,
+    ) -> AIQueryResponse:
+        request_data = AIQueryRequest(
+            session_id=str(session_id),
+            message=message,
+            history=history or [],
+            product_id=product_id,
+            faq_documents=faq_documents or [],
+        )
+
+        if self.chatbot is None:
+            if self.startup_error is not None:
+                logger.error("Local AI service is unavailable: %s", self.startup_error)
+            return self._service_unavailable_response()
+
+        async with website_request(settings.ai_response_timeout_seconds, getattr(self.chatbot, "observer", None)):
+            return await self._query_once(request_data)
+
+    async def _query_once(self, request_data: AIQueryRequest) -> AIQueryResponse:
+        try:
+            if settings.CHAT_PROVIDER == "hf_lora":
+                # Surface unavailable/mismatched 7B even for a rule/FAQ answer.
+                await asyncio.to_thread(self.chatbot.llm_client.identity)
+            result = await asyncio.wait_for(
+                asyncio.to_thread(
+                    self.chatbot.ask,
+                    request_data.message,
+                    settings.RAG_TOP_K,
+                    request_data.history,
+                    request_data.product_id,
+                    request_data.session_id,
+                    request_data.faq_documents,
+                ),
+                timeout=settings.ai_response_timeout_seconds,
+            )
+            return self._to_ai_response(result)
+        except TimeoutError:
+            logger.error(
+                "Local AI service timed out after %.1f seconds",
+                settings.ai_response_timeout_seconds,
+            )
+            return self._service_unavailable_response()
+        except (OllamaError, ChromaUnavailableError, ValueError) as exc:
+            logger.error("Local AI service failed: %s", exc)
+            return self._service_unavailable_response()
+        except RuntimeError as exc:
+            logger.exception("Unexpected local AI runtime error")
+            return self._service_unavailable_response()
+
+    def _to_ai_response(self, result: ChatResult) -> AIQueryResponse:
+        return AIQueryResponse(
+            answer=self._clean_answer(result.answer),
+            confidence=self._confidence_from_result(result),
+            intent=result.mode,
+            sources=self._sources_from_result(result),
+            needs_human=result.needs_human,
+        )
+
+    def _confidence_from_result(self, result: ChatResult) -> float:
+        if result.mode == "fallback":
+            return 0.0
+        if result.sources:
+            return max(0.0, min(1.0, result.sources[0].score))
+        if result.mode == "rule+rag":
+            return 0.95
+        return 0.7
+
+    def _sources_from_result(self, result: ChatResult) -> list[dict]:
+        sources = []
+        seen: set[tuple[str, str]] = set()
+        for hit in result.sources:
+            title = str(hit.document.title or "").strip()
+            source_name = str(hit.document.metadata.get("source") or "").strip()
+            if not title:
+                continue
+            source_key = (title.casefold(), source_name.casefold())
+            if source_key in seen:
+                continue
+            seen.add(source_key)
+            sources.append(
+                {
+                    "id": hit.document.id,
+                    "title": title,
+                    "score": round(hit.score, 4),
+                    "metadata": hit.document.metadata,
+                }
+            )
+        return sources
+
+    @staticmethod
+    def _clean_answer(answer: str) -> str:
+        # Sources are rendered from trusted metadata in the UI. Remove only a
+        # malformed appendix containing a heading and empty Markdown bullets.
+        return re.sub(
+            r"\s*(?:\*\*)?Nguồn tham khảo:(?:\*\*)?\s*(?:\n\s*-\s*)+$",
+            "",
+            answer.strip(),
+            flags=re.IGNORECASE,
+        ).strip()
+
+    def _service_unavailable_response(self) -> AIQueryResponse:
+        return AIQueryResponse(
+            answer=(
+                ("Mô hình 7B đang được chọn nhưng chưa sẵn sàng. "
+                 if settings.CHAT_PROVIDER == "hf_lora" else "Xin lỗi, hệ thống AI đang gặp sự cố. ") +
+                "Mình sẽ tạo ticket để nhân viên hỗ trợ kiểm tra và phản hồi cho bạn."
+            ),
+            confidence=0.0,
+            intent="ai_unavailable",
+            needs_human=True,
+        )
+
+    async def generate_title(self, message: str) -> str:
+        """Sidebar titles do not need a model call or an additional timeout."""
+        return self._fallback_title(message)
+
+    @staticmethod
+    def _fallback_title(message: str) -> str:
+        words = re.findall(r"\w+", message, flags=re.UNICODE)[:6]
+        return " ".join(words).strip().capitalize() or "Đoạn chat mới"

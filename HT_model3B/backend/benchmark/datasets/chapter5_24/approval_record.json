@@ -1,0 +1,8 @@
+{
+  "approval": {
+    "source": "Direct current user attachment 56da437e-0b4f-4c01-b877-ee042a12e326 and prior explicit approval for preliminary AI scores",
+    "text": "Run P once on the original 24 cases, preserve prior B0/B1/B2/P+FT results, rewrite section5.5 only; do not edit DOCX/5.6 or commit/push."
+  },
+  "extracted_from": "comparison24_P_20261016T065655Z_e0611f3d/study/protocol.json",
+  "source_protocol_sha256": "a2159b0dee0d4ee6dedbca500468042b51bad13d3bf48930903a97de404bd178"
+}

@@ -1,97 +1,85 @@
-# TechCare Electronics — chatbot chăm sóc khách hàng
+# Chatbot hỗ trợ chăm sóc khách hàng cho website TechCare Electronics
 
-Ứng dụng demo gồm website bán thiết bị công nghệ, chatbox AI/RAG, lưu lịch sử hội thoại, tự tạo ticket khi không đủ dữ liệu và trang quản trị FAQ/ticket.
+Bản hiện tại nằm trong **`HT_model7B`**, sử dụng **Qwen2.5-7B-Instruct FP16 gốc** qua Ollama (`qwen2.5:7b-instruct-fp16`), **không fine-tune và không nạp adapter**. Embedding dùng `nomic-embed-text`.
 
-## Yêu cầu
+Hệ thống hỗ trợ hỏi đáp sản phẩm, giá, bảo hành và chính sách bằng luật nghiệp vụ, catalog/FAQ hoặc RAG kết hợp LLM. Website có danh mục sản phẩm, lịch sử hội thoại, ticket hỗ trợ và trang quản trị. Cập nhật sản phẩm là cập nhật dữ liệu và chỉ mục RAG, không phải huấn luyện lại LLM.
 
-- Python 3.11 trở lên
-- Node.js 20 trở lên
-- [Ollama](https://ollama.com/) với hai model `qwen2.5:3b` và `nomic-embed-text`
+## Cấu trúc chính
 
-## Chạy nhanh trên Windows
+| Thư mục | Nội dung |
+|---|---|
+| `HT_model7B/backend` | FastAPI, SQLite, chatbot/RAG và bộ so sánh bốn phương pháp |
+| `HT_model7B/backend/rag_data_150` | Catalog 150 sản phẩm, FAQ, nguồn và chỉ mục RAG hiện tại |
+| `HT_model7B/frontend` | React/Vite, giao diện website và ảnh sản phẩm |
+| `HT_model7B/docs` | Hướng dẫn chạy, test và tái lập nghiên cứu |
+| `HT_model3B` | Bản lưu lịch sử, có cấu hình/model riêng; không phải bản chạy hiện tại |
+| `BaoCao` | Tài liệu báo cáo của nhóm |
 
-Mở terminal thứ nhất:
+## Chuẩn bị một lần
+
+Cần Git/Git LFS, Python, Node.js và Ollama. Môi trường đã kiểm tra: Python 3.14.3, Node.js 24.14.0; Vite yêu cầu Node `^20.19.0 || >=22.12.0`.
 
 ```powershell
-cd backend
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-ollama pull qwen2.5:3b
+git lfs install
+git clone --branch chatbotv1-demo https://github.com/nhuquynh112/NCKH_chatbot.git
+Set-Location NCKH_chatbot
+python -m venv HT_model7B\backend\.venv
+& .\HT_model7B\backend\.venv\Scripts\python.exe -m pip install -r .\HT_model7B\backend\requirements.txt
+Set-Location HT_model7B\frontend
+npm.cmd ci
+Set-Location ..\..
+ollama pull qwen2.5:7b-instruct-fp16
 ollama pull nomic-embed-text
-python rebuild_rag.py
-uvicorn app.main:app --reload
 ```
 
-Mở terminal thứ hai:
+Model 7B FP16 khoảng 15,24 GB được Ollama quản lý ngoài Git. Git LFS trong repository phục vụ trọng số của bản lưu 3B. Không cần cài Transformers/PEFT hoặc tải checkpoint thử nghiệm để chạy bản 7B.
+
+## Chạy website bình thường
+
+Sau khi đã cài thư viện, giữ Ollama hoạt động. Terminal backend tại gốc repository:
 
 ```powershell
-cd frontend
-npm install
-npm run dev
+Set-Location HT_model7B\backend
+& .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
-Truy cập `http://localhost:5173`. API docs ở `http://localhost:8000/docs`.
-
-Nếu project đang có `backend/.env` trỏ tới PostgreSQL thì cấu hình đó vẫn được ưu tiên. Muốn chạy bản demo độc lập, sao chép `.env.example` thành `.env` hoặc đổi `DATABASE_URL` sang SQLite như ví dụ.
-
-Mặc định dự án dùng SQLite tại `backend/techcare.db` và tự nạp dữ liệu mẫu, nên không cần Docker/PostgreSQL. Nếu muốn dùng PostgreSQL, đặt lại `DATABASE_URL` trong `backend/.env` rồi chạy `python seed.py`.
-
-## Chạy kiểm thử
-
-Từ thư mục gốc dự án, cách đơn giản nhất:
+Terminal frontend mới tại gốc repository:
 
 ```powershell
-.\run_tests.ps1
+Set-Location HT_model7B\frontend
+npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort
 ```
 
-Script sẽ chạy unit test backend, một bộ đánh giá chatbot tổng hợp, kiểm tra API/tải đồng thời, frontend lint và production build. Hoặc chạy thủ công:
+Mở [website](http://127.0.0.1:5173/products), [hội thoại](http://127.0.0.1:5173/faqs), [API docs](http://127.0.0.1:8000/docs) và [readiness](http://127.0.0.1:8000/ready). `/ready` cần báo `status: ready`, `ai: ok`, `chat_model: qwen2.5:7b-instruct-fp16`.
+
+Backend tự tạo SQLite `HT_model7B/backend/techcare.db`, bảng và dữ liệu mẫu khi trống; không cần tạo database thủ công hoặc khai báo đường dẫn trên máy tác giả. Không cần `.env` cho cấu hình mặc định; nếu tùy chỉnh thì dùng `backend/.env.example`. Giữ database, `.env` và lịch sử phát sinh ngoài Git.
+
+## Chạy web test B0/B1/B2/P
+
+Backend tại `HT_model7B/backend`:
 
 ```powershell
-cd backend
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
-.\.venv\Scripts\python.exe evaluate_chatbot.py
-
-cd ..\frontend
-npm run lint
-npm run build
+& .\.venv\Scripts\python.exe comparison_demo.py --work-dir D:\TechCareTest
 ```
 
-`evaluate_chatbot.py` là file đánh giá duy nhất. Nó kiểm tra toàn bộ 53 sản phẩm, giá và bảo hành, câu có dấu/không dấu/sai chính tả, nhiều cách ghi ngân sách, tư vấn nhiều lượt, sản phẩm ngoài catalog, câu ngoài phạm vi, Việt–Anh, prompt-injection, giới hạn đầu vào, quyền riêng tư phiên chat và 16 yêu cầu API đồng thời. Kết quả duy nhất nằm tại `backend/EVALUATION_REPORT.md`.
-
-Đây là kiểm thử hồi quy trên dữ liệu TechCare, không phải cam kết rằng chatbot đúng 100% với mọi câu ngoài đời. Muốn dùng cho khách thật, quản trị viên phải cập nhật giá, sản phẩm active, thông số và chính sách trong database/FAQ; chatbot sẽ từ chối suy đoán trường dữ liệu chưa có.
-
-## Kiến trúc trả lời
-
-1. Lớp luật xử lý các dữ kiện cần chính xác tuyệt đối: giá, bảo hành, so sánh, ngân sách, tra cứu đơn và sự cố kỹ thuật.
-   Danh mục sản phẩm đang hoạt động được đọc trực tiếp từ bảng `products`; file JSON chỉ là dữ liệu dự phòng khi database chưa sẵn sàng.
-2. Retriever tìm ngữ cảnh trong Knowledge Base và catalog đồng bộ từ website.
-3. Ollama diễn đạt câu trả lời dựa trên ngữ cảnh; không có dữ liệu thì fallback và tạo ticket.
-4. Chỉ mục JSON là mặc định để demo chạy ổn định. Có thể cài `requirements-chroma.txt` và đặt `VECTOR_STORE_BACKEND=chroma` để dùng ChromaDB.
-5. Với model không có trong catalog, chatbot không đoán giá hoặc tồn kho mà tạo link tìm kiếm Google và Google Shopping theo tên sản phẩm. Giao diện tự hiển thị các URL này thành liên kết mở ở tab mới và kèm cảnh báo TechCare không xác minh nguồn bán bên ngoài.
-6. Tin nhắn có số điện thoại được che bớt trong lịch sử. Mật khẩu, OTP, CVV/CVC và số thẻ bị thay bằng nhãn đã ẩn, không được chuyển vào RAG hay tự động tạo ticket.
-7. Các yêu cầu tiết lộ prompt hệ thống, khóa truy cập hoặc bỏ qua quy tắc an toàn được chặn ở lớp luật trước khi gọi mô hình.
-8. Lời gọi AI có thời gian chờ tối đa; nếu Ollama treo hoặc mất kết nối, hệ thống trả lời an toàn và chuyển ticket thay vì để giao diện chờ vô hạn. Endpoint `/ready` cho biết riêng trạng thái database và Ollama.
-9. Mọi thao tác đọc, gửi, sửa hoặc xóa phiên chat đều phải có `X-Visitor-ID` trùng với chủ phiên; quản trị viên có JWT hợp lệ vẫn xem được hội thoại gắn với ticket.
-10. Endpoint đăng nhập và tạo phiên/tin nhắn có giới hạn tần suất. Endpoint tạo ticket trực tiếp chỉ dành cho quản trị viên; chatbot nội bộ vẫn tự tạo ticket khi thật sự cần.
-
-## Dữ liệu và lưu ý demo
-
-- `backend/seed.py` là dữ liệu khởi tạo website.
-- `backend/rag_data/product_verified_specs.json` là lớp hiệu chỉnh thông số có nguồn hãng và ngày đối chiếu; file này cũng được áp dụng khi tạo database mới.
-- `backend/PRODUCT_DATA_AUDIT.md` ghi tỷ lệ bao phủ và các sản phẩm còn cần SKU/part number.
-- `backend/rag_data/techcare_products.json` và `product_catalog_extended.md` là bản xuất dùng cho chatbot.
-- Giá, mô tả và tồn kho trong đề tài là dữ liệu mô phỏng phục vụ nghiên cứu, không phải cam kết bán hàng thực tế.
-- Sau khi duyệt thay đổi catalog/knowledge base, chạy trong thư mục `backend`:
+Frontend tại `HT_model7B/frontend`:
 
 ```powershell
-python sync_verified_products.py
-python export_rag.py
-python rebuild_rag.py
+npm.cmd run test:methods
 ```
 
-Không nhập tự động kết quả Google vào catalog. Google chỉ giúp tìm nguồn; thông số dùng để tư vấn phải được đối chiếu với trang hãng và lưu URL nguồn.
+Mở [web test](http://127.0.0.1:5174/benchmark-demo). Mặc định là giao diện chấm mù với một khung chat, chọn Trợ lý A/B/C/D; bảng quy đổi phương pháp được xáo trộn theo phiên và giữ riêng ở backend. API/CSV dành cho người chấm không có tên phương pháp hoặc model. Người điều phối có thể thêm `--coordinator` vào lệnh backend để mở giao diện đối chiếu có nhãn trong workspace riêng. Các pipeline vẫn là B0 dùng luật; B1 dùng 7B không RAG; B2 dùng RAG cơ bản; P dùng pipeline đề xuất với cùng 7B gốc. P+FT không thuộc bốn phương pháp chính.
 
-Tài khoản quản trị mặc định phục vụ demo: `admin` / `admin123`. Hãy đổi các biến tương ứng trong `.env` trước khi triển khai thật.
+Kết quả test được lưu riêng ngoài repository và ngoài lịch sử khách hàng. Hai người có thể chạy trên hai máy với cùng commit, corpus, model và bộ câu hỏi/lịch sử. Không cập nhật code hoặc đổi dữ liệu giữa một lượt chấm. Các bản sửa giao tiếp của website bình thường được tách khỏi pipeline P benchmark; không coi hai luồng là cùng một cấu hình. Xem [hướng dẫn test đầy đủ](HT_model7B/docs/TEST_4_PHUONG_PHAP.md).
 
-Khi triển khai thật, đặt `ENVIRONMENT=production`, `AUTO_SEED=false`, một `SECRET_KEY` riêng dài tối thiểu 32 ký tự, mật khẩu quản trị dài tối thiểu 12 ký tự và `CORS_ORIGINS` đúng tên miền website. Backend sẽ từ chối khởi động ở chế độ production nếu còn cấu hình demo không an toàn.
+## Dữ liệu và giới hạn
+
+Catalog hiện tại có 150 sản phẩm và 299 tài liệu trong chỉ mục, từ 151 link CellphoneS ban đầu do nhóm chọn, thu thập ngày 23/10/2026; đã loại một mẫu có thông số không nhất quán. Giá là snapshot phục vụ demo; dữ kiện do nhà bán lẻ công bố chưa được đối chiếu toàn bộ với hãng. Chính sách TechCare và các luồng nghiệp vụ là dữ liệu nghiên cứu. Kho `rag_data` và kết quả cũ được giữ riêng, không dùng để tuyên bố kết quả của catalog mới.
+
+Máy đã có database catalog cũ cần đồng bộ một lần theo [hướng dẫn cập nhật catalog](HT_model7B/README.md), rồi khởi động lại backend. Pull source không tự ghi đè database hoặc lịch sử đang có. Phiên test mới lấy snapshot 150 sản phẩm; giữ nguyên snapshot/code của lượt đang chấm.
+
+Để chạy lại bản 3B, dùng đường dẫn `HT_model3B` tương ứng và đọc [hướng dẫn 3B](HT_model3B/README.md). Trọng số 3B cũ vẫn được Git LFS quản lý. Cấu hình/lịch sử cá nhân có sẵn được giữ cùng bản 3B và bị Git bỏ qua; không sao chép `.env` đó sang bản 7B.
+
+Nếu kết nối lỗi, kiểm tra Ollama/model đã sẵn sàng và các cổng 8000/5173 (website) hoặc 8012/5174 (test). Khi sửa code backend cần dừng và mở lại tiến trình Uvicorn. Corpus kỹ thuật và thuật toán tư vấn còn giới hạn; đổi model không tự sửa các luật sai. FP16 có thể dùng cả CPU/RAM khi thiếu VRAM; chưa kiểm thử laptop RTX 3050 và chưa phải hệ thống production.
+
+[Hướng dẫn 7B và cập nhật catalog](HT_model7B/README.md) · [Giấy phép và nguồn bên thứ ba](HT_model7B/docs/THIRD_PARTY_NOTICES.md).

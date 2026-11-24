@@ -1,0 +1,30 @@
+{
+  "question": "Em thấy quảng cáo trả góp 0% nên đang cân nhắc.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em muốn mua vivo Y16 4GB 128GB."
+    },
+    {
+      "role": "assistant",
+      "content": "vivo Y16 4GB 128GB có giá 4.490.000 VND. Bạn có muốn biết thêm thông tin về sản phẩm hay không?"
+    },
+    {
+      "role": "user",
+      "content": "Cho em giá theo catalog."
+    },
+    {
+      "role": "assistant",
+      "content": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+    },
+    {
+      "role": "user",
+      "content": "Nếu đặt đúng máy đó thì có trả góp không?"
+    },
+    {
+      "role": "assistant",
+      "content": "TechCare có hỗ trợ trả góp theo chương trình của ngân hàng hoặc đơn vị tài chính. Lãi suất, phí, khoản trả trước và thời gian duyệt phụ thuộc sản phẩm và hồ sơ; mình chưa thể cam kết 0% hay duyệt trong 15 phút. Bạn muốn mua mẫu nào, trả trước khoảng bao nhiêu để nhân viên kiểm tra phương án phù hợp?"
+    }
+  ],
+  "answer": "Mình chưa thể xác nhận trả góp miễn phí. Dù một chương trình ghi lãi suất 0%, bạn vẫn cần kiểm tra phí chuyển đổi, phí hồ sơ, bảo hiểm nếu có và tổng số tiền phải trả trong hợp đồng. Bạn gửi tên sản phẩm và hình thức trả góp để nhân viên xác nhận từng khoản trước khi bạn đồng ý."
+}

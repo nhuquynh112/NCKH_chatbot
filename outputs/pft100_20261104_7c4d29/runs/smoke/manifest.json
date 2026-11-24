@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-04T04:56:22.960254+00:00",
+  "method": "P+FT",
+  "phase": "smoke",
+  "generation": {
+    "temperature": 0,
+    "num_predict": 384,
+    "num_ctx": 4096,
+    "repeat_penalty": 1.0
+  },
+  "single_case_deadline_seconds": 120,
+  "conversation_deadline_seconds": 600,
+  "each_model_call_timeout_seconds": 120,
+  "harness_sha256": {
+    "parent": "a8caf67d500930d54953918c9285aad6d847890da8bb043d62e1d24c65dc6e77",
+    "worker": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+  },
+  "limits": "Supplementary historical 7B QLoRA NF4/BF16, compared descriptively with original 7B FP16 P. Precision/runtime/upstream differ; not an isolated causal fine-tuning ablation. No retraining.",
+  "corpus_sha256": {
+    "knowledge_base.md": "4a918ddfbf93371a61b801f1f8a1f2d8e035d83d0e79437f04894fcf254355e6",
+    "product_catalog_extended.md": "e4e1ba91ad83a194053df980f756e34176ee460bfe20cfe09f1e7a849fd3968b",
+    "faq_curated.json": "05aad0e770513c56738cfb9a2a860fcda5309c2d5371d1e31127a01120569a5e",
+    "techcare_products.json": "448731b0b07196f303210f690b3a2a36b0f8b2790cdc65d9c18df3d20dec5c8c",
+    "techcare_rag_documents.json": "357f00e36a2507d3cb4dcefe792bbf80e4ad9dd3a6d8c0562be85702c50403a4",
+    "product_verified_specs.json": "c8483f6bd7b006b85e573d5f6c7b837007b1ddd964d3365dada8edf75fabc035",
+    "system_prompt.txt": "fc970752acd70806074668ca16ea7289da5a62b15a10573014bd23983855dac4",
+    "vector_index.json": "09caed44aa7d3457354c60a3ec7826269d552cd49cc7ce4914612d7f10383efd"
+  },
+  "input_sha256": "676778f98cbe271512a553d5f4705c2d6853c033d8e75c35b08562b28c7f59a9",
+  "control_source": "D:\\NCKH\\Codex\\case_library_20261028_bab1a96\\responses_400.jsonl",
+  "semantic_scores": "unreviewed; no human scores or accuracy inferred",
+  "warmup": "S01, S31 (forces a model call in the P control), H01; these smoke outputs are preserved separately and excluded from the main 100 observations.",
+  "finished_utc": "2026-11-04T04:56:53.853803+00:00",
+  "rows": 3
+}

@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "answer": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4) có giá niêm yết 3.790.000 VND trong dữ liệu TechCare hiện tại. Cập nhật catalog: 28/10/2026 16:13 (GMT+7). Giá thực tế có thể thay đổi theo chương trình bán hàng.",
+  "sources": [
+    {
+      "id": "retailer-apple-airpods-5-1",
+      "title": "CellphoneS – Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+      "score": 1.0,
+      "content": "Nguồn nhà bán lẻ tham khảo cho Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+      "metadata": {
+        "source": "retailer_reference",
+        "url": "https://cellphones.com.vn/apple-airpods-5.html",
+        "verified_at": ""
+      }
+    },
+    {
+      "id": "doc_013",
+      "title": "Tai nghe",
+      "score": 1.0,
+      "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Tai nghe\n\n## Tai nghe\n\nThương hiệu trong catalog: Apple Chính hãng, Goojodoq, Havit, HyperX, Robot, Sony.\n\n---",
+      "metadata": {
+        "source": "knowledge_base.md",
+        "parent": "DANH MỤC SẢN PHẨM",
+        "title": "Tai nghe"
+      }
+    }
+  ],
+  "mode": "rule+rag",
+  "error": null,
+  "calls": [],
+  "history": [],
+  "latency_ms": 281.33600000001024,
+  "retrieval_errors": [],
+  "identity": {
+    "model": "qwen2.5-7b-finetuned",
+    "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+    "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+    "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+    "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+    "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+    "status": "ready",
+    "adapter_loaded": true,
+    "active_adapters": [
+      "default"
+    ],
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "quantization": "NF4/BF16",
+    "packages": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.19.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2"
+    },
+    "loaded_at": "2026-11-04T04:55:58.482734+00:00",
+    "embedding_identity": {
+      "model": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16",
+        "context_length": 2048,
+        "embedding_length": 768,
+        "runner": "ggml"
+      }
+    },
+    "semantic_enabled": true,
+    "documents": 299,
+    "top_k": 5,
+    "min_retrieval_score": 0.38,
+    "vector_store": "json",
+    "embedding_model": "nomic-embed-text"
+  },
+  "llm_called": false,
+  "setup_llm_called": false,
+  "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+  "needs_human": false,
+  "retrieval_traces": [],
+  "architecture_traces": [
+    {
+      "stage": "product_context",
+      "enabled": true,
+      "resolved_product": "apple-airpods-5",
+      "use_history_for_retrieval": false,
+      "retrieval_question": "Theo catalog, Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4) giá bao nhiêu và thuộc hãng nào?\nSản phẩm được nhắc tới trong lịch sử hội thoại:\nTai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4) (apple-airpods-5), nhóm Tai nghe, giá 3.790.000 VND.\nTai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4). Kích thước: Tai nghe: 30.2 x 18.3 x 18.1 mm Hộp sạc: 46.2 x 50.1 x 21.2 mm; Trọng lượng: Tai nghe: 4.3g Hộp sạc: 34.7g; Công nghệ âm thanh: Trình điều khiển & bộ khuếch đại Apple tùy chỉnh Chủ Động Khử Tiếng Ồn Âm thanh thích ứng & xuyên âm Nhận biết cuộc hội thoại & tách lời nói Cá nhân hóa âm thanh EQ Thích ỨngGhi âm chuẩn studio Hệ thống thông hơi cân bằng áp suất — Kích thước: Tai nghe: 30.2 x 18.3 x 18.1 mm Hộp sạc: 46.2 x 50.1 x 21.2 mm, Trọng lượng: Tai nghe: 4.3g Hộp sạc: 34.7g, Công nghệ âm thanh: Trình điều khiển & bộ khuếch đại Apple tùy chỉnh Chủ Động Khử Tiếng Ồn Âm thanh thích ứng & xuyên âm Nhận biết cuộc hội thoại & tách lời nói Cá nhân hóa âm thanh EQ Thích ỨngGhi âm chuẩn studio Hệ thống thông hơi cân bằng áp suất, Micro: Có, Thời lượng sử dụng Pin: Thời lượng pin tai nghe: thời gian lên đến 4 giờ với một lần sạc khi bật Chủ Động Khử Tiếng Ồn Thời lượng pin với hộp sạc: thời gian đàm thoại lên đến 20 giờ khi bật Chủ Động Khử Tiếng Ồn, Phương thức điều khiển: Cảm biến lực, Chipset: Chip tai nghe H2, Hãng sản xuất: Apple Chính hãng, Tiện ích: Hỗ trợ Siri AI Dịch Trực Tiếp (Live Translation)",
+      "history_messages": 0
+    }
+  ],
+  "database_mode": "read-only frozen control snapshot",
+  "pipeline_class": "benchmark.methods.RagMethod",
+  "effective_config": {
+    "provider": "hf_lora",
+    "model": "qwen2.5-7b-finetuned",
+    "embedding": "nomic-embed-text",
+    "top_k": 5,
+    "threshold": 0.38,
+    "generation": {
+      "temperature": 0,
+      "num_predict": 384,
+      "num_ctx": 4096,
+      "repeat_penalty": 1.0
+    }
+  },
+  "harness_sha256": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+}

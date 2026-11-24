@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\NCKH\Codex\pft100_20261104_7c4d29\diagnose_S47.py", line 13, in <module>
+    assert diagnostic['required_total_tokens']>4096
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

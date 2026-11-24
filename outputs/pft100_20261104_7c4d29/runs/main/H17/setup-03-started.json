@@ -1,0 +1,21 @@
+{
+  "question": "Em chưa gửi thông tin xuất hóa đơn.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em mua laptop HP 250R G9 AX3C8AT cho công ty."
+    },
+    {
+      "role": "assistant",
+      "content": "Laptop HP 250R G9 AX3C8AT có giá 16.490.000 VND. Sản phẩm này phù hợp cho công việc văn phòng và học tập. Nếu có thêm câu hỏi, vui lòng liên hệ."
+    },
+    {
+      "role": "user",
+      "content": "Shop có hỗ trợ hóa đơn VAT theo chính sách demo không?"
+    },
+    {
+      "role": "assistant",
+      "content": "TechCare hỗ trợ hóa đơn VAT theo chính sách demo. Bạn cung cấp tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Nếu cần sửa thông tin hóa đơn đã lập, nhân viên phải kiểm tra chứng từ; chatbot chưa thể tự sửa hoặc xuất hóa đơn."
+    }
+  ]
+}

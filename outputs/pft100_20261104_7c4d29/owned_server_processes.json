@@ -1,0 +1,12 @@
+[
+  {
+    "ProcessId": 40460,
+    "ParentProcessId": 30408,
+    "CommandLine": "\"D:\\NCKH\\Codex\\.venv-training\\Scripts\\python.exe\" -X utf8 -B -u -m model_serving.server --profile D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\profile.local.json --port 8011"
+  },
+  {
+    "ProcessId": 21904,
+    "ParentProcessId": 40460,
+    "CommandLine": "\"D:\\NCKH\\Codex\\.venv-training\\Scripts\\python.exe\" -X utf8 -B -u -m model_serving.server --profile D:\\NCKH\\Codex\\pft100_20261104_7c4d29\\profile.local.json --port 8011"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "method": "P+FT",
+  "case_id": "S27",
+  "question": "Trong catalog, chọn giúp em 2 sản phẩm thuộc nhóm Laptop giá không quá 20,000,000 đồng mỗi sản phẩm, ghi rõ tên và giá.",
+  "history_questions": [],
+  "actual_history": [],
+  "case_deadline_seconds": 120,
+  "wall_ms": 2020.1069000031566,
+  "result": {
+    "status": "ok",
+    "answer": "Mình gợi ý 3 lựa chọn cho nhu cầu của bạn trong ngân sách tối đa 20.000.000 VND:\n- Laptop Thunderobot T-Book 15A — 13.490.000 VND: Loại card đồ họa: AMD Radeon Vega 3 (Integrated GPU); Dung lượng RAM: 8GB; Loại RAM: DDR4 SODIMM; Ổ cứng: 512 GB PCIe SSD.\n- Laptop HP 250R G9 AX3C8AT — 16.490.000 VND: Dung lượng RAM: 8GB; Loại RAM: DDR4 3200MHz; Số khe ram: 2 khe (1 x 8GB); Ổ cứng: 512GB SSD PCIe (M.2 2280).\n- MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB — 18.790.000 VND: Loại card đồ họa: GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s; Dung lượng RAM: 8GB; Công nghệ màn hình: Màn hình Liquid Retina Màn hình có đèn nền LED Mật độ 219 pixel mỗi inch Độ sáng 500 nit Hỗ trợ 1 tỷ màu Màu sRGB Hỗ trợ một màn hình ngoài có độ phân giải gốc lên đến 4K ở tần số 60Hz; Loại CPU: Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện.",
+    "sources": [
+      {
+        "id": "doc_010",
+        "title": "Laptop",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: DANH MỤC SẢN PHẨM\nMục: Laptop\n\n## Laptop\n\nThương hiệu trong catalog: ASUS, Acer, Apple, HP, Lenovo, MSI, Thunderobot.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "DANH MỤC SẢN PHẨM",
+          "title": "Laptop"
+        }
+      },
+      {
+        "id": "doc_028",
+        "title": "Laptop văn phòng",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TƯ VẤN SẢN PHẨM\nMục: Laptop văn phòng\n\n## Laptop văn phòng\n\nĐặc điểm:\n\n- Ưu tiên pin.\n- Máy mỏng nhẹ.\n- Hoạt động ổn định.\n- Phù hợp Word, Excel, PowerPoint.\n- Học tập.\n- Họp trực tuyến.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TƯ VẤN SẢN PHẨM",
+          "title": "Laptop văn phòng"
+        }
+      },
+      {
+        "id": "doc_029",
+        "title": "Laptop lập trình",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TƯ VẤN SẢN PHẨM\nMục: Laptop lập trình\n\n## Laptop lập trình\n\nĐặc điểm:\n\n- RAM tối thiểu 16GB.\n- SSD tốc độ cao.\n- CPU nhiều nhân.\n- Màn hình Full HD trở lên.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TƯ VẤN SẢN PHẨM",
+          "title": "Laptop lập trình"
+        }
+      },
+      {
+        "id": "doc_030",
+        "title": "Laptop đồ họa",
+        "score": 1.0,
+        "content": "Nguồn: knowledge_base.md\nChủ đề: TƯ VẤN SẢN PHẨM\nMục: Laptop đồ họa\n\n## Laptop đồ họa\n\nĐặc điểm:\n\n- GPU rời.\n- RAM lớn.\n- Màn hình màu sắc chính xác.\n- SSD dung lượng cao.\n\n---",
+        "metadata": {
+          "source": "knowledge_base.md",
+          "parent": "TƯ VẤN SẢN PHẨM",
+          "title": "Laptop đồ họa"
+        }
+      }
+    ],
+    "mode": "rule+rag",
+    "error": null,
+    "calls": [],
+    "history": [],
+    "latency_ms": 424.5348999975249,
+    "retrieval_errors": [],
+    "identity": {
+      "model": "qwen2.5-7b-finetuned",
+      "base_repo": "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
+      "base_revision": "bdd404162d94997f390efbfa660eb3f21cbbc81d",
+      "adapter_sha256": "b7650bf5a6a4eb02b902bb9a5758d178c3e4f32c5329013ca7c819045d8008b7",
+      "checkpoint_sha256": "99b85155b7bb40344d8c3938c8ec1147b27028804bca5d2e5559cb8e6533747d",
+      "run_sha256": "07dca6e1a4e4d2bdbdf8c394fc12a38ae6b8c4f4f27098621ca20d8c0448e92a",
+      "status": "ready",
+      "adapter_loaded": true,
+      "active_adapters": [
+        "default"
+      ],
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "quantization": "NF4/BF16",
+      "packages": {
+        "torch": "2.14.1+cu126",
+        "transformers": "5.19.0",
+        "peft": "0.21.2",
+        "bitsandbytes": "0.50.2"
+      },
+      "loaded_at": "2026-11-04T04:55:58.482734+00:00",
+      "embedding_identity": {
+        "model": "nomic-embed-text:latest",
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768,
+          "runner": "ggml"
+        }
+      },
+      "semantic_enabled": true,
+      "documents": 299,
+      "top_k": 5,
+      "min_retrieval_score": 0.38,
+      "vector_store": "json",
+      "embedding_model": "nomic-embed-text"
+    },
+    "llm_called": false,
+    "setup_llm_called": false,
+    "snapshot_timestamp": "2026-10-28T09:13:35.517911+00:00",
+    "needs_human": false,
+    "retrieval_traces": [],
+    "architecture_traces": [
+      {
+        "stage": "product_context",
+        "enabled": true,
+        "resolved_product": null,
+        "use_history_for_retrieval": false,
+        "retrieval_question": "Trong catalog, chọn giúp em 2 sản phẩm thuộc nhóm Laptop giá không quá 20,000,000 đồng mỗi sản phẩm, ghi rõ tên và giá.",
+        "history_messages": 0
+      }
+    ],
+    "database_mode": "read-only frozen control snapshot",
+    "pipeline_class": "benchmark.methods.RagMethod",
+    "effective_config": {
+      "provider": "hf_lora",
+      "model": "qwen2.5-7b-finetuned",
+      "embedding": "nomic-embed-text",
+      "top_k": 5,
+      "threshold": 0.38,
+      "generation": {
+        "temperature": 0,
+        "num_predict": 384,
+        "num_ctx": 4096,
+        "repeat_penalty": 1.0
+      }
+    },
+    "harness_sha256": "6b0a1a85fcd1f6edaeb5ecfadf8678b0775924af2dc3c3d7d61c6bd598e6fad9"
+  }
+}

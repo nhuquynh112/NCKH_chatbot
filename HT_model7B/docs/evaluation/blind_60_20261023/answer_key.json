@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "S01",
+    "reference_answer": "iPhone 18 Pro 256GB; hãng Apple; giá tham khảo 38.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro"
+    ]
+  },
+  {
+    "id": "S02",
+    "reference_answer": "iPhone 18 Pro 512GB; hãng Apple; giá tham khảo 45.490.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro-512gb"
+    ]
+  },
+  {
+    "id": "S03",
+    "reference_answer": "Xiaomi 17 Ultra 5G 16GB 1TB; hãng Xiaomi; giá tham khảo 34.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=dien-thoai-xiaomi-17-ultra-16gb-1tb"
+    ]
+  },
+  {
+    "id": "S04",
+    "reference_answer": "realme 13+ 5G 8GB 256GB; hãng Realme; giá tham khảo 6.590.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=dien-thoai-realme-13-plus-5g"
+    ]
+  },
+  {
+    "id": "S05",
+    "reference_answer": "Điện thoại Nubia A56 4GB 128GB; hãng Nubia; giá tham khảo 3.390.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=dien-thoai-nubia-a56-4gb-128gb"
+    ]
+  },
+  {
+    "id": "S06",
+    "reference_answer": "iPad Pro chip M5 13 inch 5G 2TB; hãng Apple; giá tham khảo 77.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=ipad-pro-m5-13-inch-5g-2tb"
+    ]
+  },
+  {
+    "id": "S07",
+    "reference_answer": "iPad Air 11 inch M4 Wifi 512GB 2026; hãng Apple; giá tham khảo 27.890.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=apple-ipad-air-m4-11-inch-512gb-wifi"
+    ]
+  },
+  {
+    "id": "S08",
+    "reference_answer": "Lenovo Idea Tab Pro Gen 2 Matte Edition 12GB 512GB ZAHD0469VN - Kèm bút, bàn phím; hãng Lenovo; giá tham khảo 18.290.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=may-tinh-bang-idea-legion-tab-pro-gen-2-12gb-512gb-zahd0469vn-kem-but-ban-phim"
+    ]
+  },
+  {
+    "id": "S09",
+    "reference_answer": "Laptop MSI Prestige N16 Flip AI+ C1XMT-016VN; hãng MSI; giá tham khảo 222.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark"
+    ]
+  },
+  {
+    "id": "S10",
+    "reference_answer": "Laptop MSI Prestige N16 Flip AI+ C1XMT-017VN; hãng MSI; giá tham khảo 139.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark"
+    ]
+  },
+  {
+    "id": "S11",
+    "reference_answer": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB; hãng Apple; giá tham khảo 18.790.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb"
+    ]
+  },
+  {
+    "id": "S12",
+    "reference_answer": "Apple Studio Display XDR 27 5K Ngàm VESA 2026; hãng Apple; giá tham khảo 79.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=apple-studio-display-xdr-27-5k-ngam-vesa-2026"
+    ]
+  },
+  {
+    "id": "S13",
+    "reference_answer": "Tai nghe Bluetooth chụp tai Sony WH-1000XM6; hãng Sony; giá tham khảo 9.990.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6"
+    ]
+  },
+  {
+    "id": "S14",
+    "reference_answer": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4); hãng Apple Chính hãng; giá tham khảo 3.790.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=apple-airpods-5"
+    ]
+  },
+  {
+    "id": "S15",
+    "reference_answer": "PC CPS văn phòng Intel i5 Gen 12 - Kèm màn hình; hãng intel; giá tham khảo 12.390.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=may-tinh-pc-cps-van-phong-intel-i5-gen-12"
+    ]
+  },
+  {
+    "id": "S16",
+    "reference_answer": "Bộ micro Insta360 Mic Pro (2 bộ phát + 1 bộ thu); hãng Insta360; giá tham khảo 9.650.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=insta360-mic-pro-2tx-1rx"
+    ]
+  },
+  {
+    "id": "S17",
+    "reference_answer": "Đồng hồ thông minh Garmin Fenix 9 Pro 43mm AMOLED viền Titanium; hãng Garmin; giá tham khảo 30.290.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm"
+    ]
+  },
+  {
+    "id": "S18",
+    "reference_answer": "Dán kính cường lực màn hình Samsung Galaxy A05S S-case chống va đập full màn; hãng S-Case; giá tham khảo 105.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=kinh-cuong-luc-samsung-galaxy-a05s"
+    ]
+  },
+  {
+    "id": "S19",
+    "reference_answer": "Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED; hãng Anker; giá tham khảo 3.250.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=pin-sac-du-phong-anker-prime-20000mah-220w-a110b"
+    ]
+  },
+  {
+    "id": "S20",
+    "reference_answer": "Chuột không dây Bluetooth Rapoo MT560; hãng Rapoo; giá tham khảo 690.000 đồng (snapshot 23/10/2026).",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560"
+    ]
+  },
+  {
+    "id": "S21",
+    "reference_answer": "Giá lần lượt 38.990.000 đồng và 45.490.000 đồng. iPhone 18 Pro 256GB rẻ hơn 6,500,000 đồng.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro",
+      "techcare_products.json#slug=iphone-18-pro-512gb"
+    ]
+  },
+  {
+    "id": "S22",
+    "reference_answer": "Giá lần lượt 222.990.000 đồng và 139.990.000 đồng. Laptop MSI Prestige N16 Flip AI+ C1XMT-017VN rẻ hơn 83,000,000 đồng.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-016vn-rtx-spark",
+      "techcare_products.json#slug=laptop-msi-prestige-n16-flip-ai-c1xmt-017vn-rtx-spark"
+    ]
+  },
+  {
+    "id": "S23",
+    "reference_answer": "Giá lần lượt 1.950.000 đồng và 1.950.000 đồng. Hai mẫu bằng giá.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-den",
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-trang"
+    ]
+  },
+  {
+    "id": "S24",
+    "reference_answer": "Giá lần lượt 30.290.000 đồng và 28.990.000 đồng. Đồng hồ thông minh Garmin Fenix 9 Pro 47mm Solar viền titan rẻ hơn 1,300,000 đồng.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm",
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-solar"
+    ]
+  },
+  {
+    "id": "S25",
+    "reference_answer": "Giá lần lượt 5.390.000 đồng và 4.890.000 đồng. Bàn phím Gaming có dây Logitech G512 X 75 LightSync RGB Dual Swap rẻ hơn 500,000 đồng.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap",
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap"
+    ]
+  },
+  {
+    "id": "S26",
+    "reference_answer": "Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Masstel izi S5 4G: 440,000 đồng; Nokia HMD 105 4G: 750,000 đồng; Nokia 110 4G Pro: 850,000 đồng; Điện thoại trẻ em Masstel Alfa 5: 1,050,000 đồng; Điện thoại Nubia A56 4GB 128GB: 3,390,000 đồng; TECNO Spark Go 3 4GB 64GB: 3,490,000 đồng; Điện thoại Itel P55 Plus NFC 8GB 256GB: 3,590,000 đồng. Không suy diễn tồn kho.",
+    "required_criteria": [
+      "Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách.",
+      "Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi."
+    ],
+    "source_refs": [
+      "techcare_products.json#category=Điện thoại"
+    ]
+  },
+  {
+    "id": "S27",
+    "reference_answer": "Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Laptop Thunderobot T-Book 15A: 13,490,000 đồng; Laptop HP 250R G9 AX3C8AT: 16,490,000 đồng; MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB: 18,790,000 đồng; Laptop HP 250 G10 B1RY5PT: 19,990,000 đồng. Không suy diễn tồn kho.",
+    "required_criteria": [
+      "Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách.",
+      "Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi."
+    ],
+    "source_refs": [
+      "techcare_products.json#category=Laptop"
+    ]
+  },
+  {
+    "id": "S28",
+    "reference_answer": "Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Tai nghe Bluetooth chụp tai Sony WH-CH520: 890,000 đồng; Tai nghe chụp tai Gaming HyperX Cloud Stinger 2 Core: 750,000 đồng; Tai nghe chụp tai có dây Gaming Havit H2040D: 250,000 đồng; Tai nghe chụp tai có dây ROBOT RH-P20: 159,000 đồng; Tai nghe có dây Havit E48P (Cổng jack 3.5): 120,000 đồng; Tai nghe Bluetooth True Wireless GOOJODOQ J241: 159,000 đồng; Tai nghe có dây Gaming HyperX Cloud Earbuds 3: 990,000 đồng. Không suy diễn tồn kho.",
+    "required_criteria": [
+      "Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách.",
+      "Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi."
+    ],
+    "source_refs": [
+      "techcare_products.json#category=Tai nghe"
+    ]
+  },
+  {
+    "id": "S29",
+    "reference_answer": "Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Bàn phím gaming có dây Logitech G316 X 75 đen: 1,950,000 đồng; Bàn phím gaming có dây Logitech G316 X 75 trắng: 1,950,000 đồng; Bàn phím cơ không dây Mchose K99 V3 Tri-Mode Sky Blue: 1,790,000 đồng; Bàn phím cơ không dây Aula F108 Pro V2 Xám Đen Gradient: 1,690,000 đồng; Bàn phím cơ không dây Aula F108 đen xám vàng: 1,490,000 đồng; Bàn phím Gaming có dây HE Magnetic Mchose Ace68 Air Rapid Trigger Snow White: 1,490,000 đồng; Bàn phím cơ không dây Akko 3108RF V3 Poco Piggy: 1,390,000 đồng; Bàn phím Bluetooth Logitech K580: 990,000 đồng. Không suy diễn tồn kho.",
+    "required_criteria": [
+      "Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách.",
+      "Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi."
+    ],
+    "source_refs": [
+      "techcare_products.json#category=Bàn phím"
+    ]
+  },
+  {
+    "id": "S30",
+    "reference_answer": "Chấp nhận bất kỳ 2 sản phẩm khác nhau trong danh sách: Chuột gaming không dây Aula SC800: 1,090,000 đồng; Chuột gaming không dây Asus ROG Strix Impact III WL: 1,090,000 đồng; Chuột không dây Bluetooth Rapoo MT560: 690,000 đồng. Không suy diễn tồn kho.",
+    "required_criteria": [
+      "Đúng 2 sản phẩm khác nhau, đúng nhóm và không vượt ngân sách.",
+      "Tên đúng biến thể, giá đúng snapshot; không tự thêm giá khuyến mãi."
+    ],
+    "source_refs": [
+      "techcare_products.json#category=Chuột"
+    ]
+  },
+  {
+    "id": "S31",
+    "reference_answer": "Giờ hỗ trợ trong chính sách demo là 08:00–21:30 từ Thứ Hai đến Chủ Nhật; ngày lễ có thể thay đổi. Chatbot tiếp nhận câu hỏi 24/7, còn nhân viên xử lý trong giờ làm việc. Nếu cần đến cửa hàng, bạn nên xác nhận giờ hoạt động và địa chỉ qua nhân viên trước.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=hours"
+    ]
+  },
+  {
+    "id": "S32",
+    "reference_answer": "Thời gian tham khảo trong chính sách demo là 3–7 ngày làm việc cho đơn giao tỉnh, tùy địa chỉ và đơn vị vận chuyển. Đây là khoảng dự kiến, chưa phải lịch giao của đơn cụ thể. Bạn ở tỉnh/thành nào và cần nhận trước ngày nào?",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=shipping-province"
+    ]
+  },
+  {
+    "id": "S33",
+    "reference_answer": "Phí giao hàng phụ thuộc địa chỉ nhận, trọng lượng/kích thước kiện hàng và đơn vị vận chuyển. Hiện mình chưa có bảng cước để báo một số tiền cụ thể. Bạn cho biết tỉnh/thành và quận/huyện; nhân viên sẽ xác nhận phí trước khi chốt đơn.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=shipping-fee"
+    ]
+  },
+  {
+    "id": "S34",
+    "reference_answer": "Theo chính sách demo, hoàn tiền qua chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu được xác nhận; tiền mặt theo thỏa thuận tại cửa hàng, thẻ theo thời gian xử lý của ngân hàng. Chatbot chưa tra được giao dịch hoàn tiền cụ thể. Nếu đã quá thời gian dự kiến, bạn gửi mã đơn và ngày được xác nhận hoàn để nhân viên kiểm tra.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=refund-time"
+    ]
+  },
+  {
+    "id": "S35",
+    "reference_answer": "Mình chưa thể xác nhận trả góp miễn phí. Dù một chương trình ghi lãi suất 0%, bạn vẫn cần kiểm tra phí chuyển đổi, phí hồ sơ, bảo hiểm nếu có và tổng số tiền phải trả trong hợp đồng. Bạn gửi tên sản phẩm và hình thức trả góp để nhân viên xác nhận từng khoản trước khi bạn đồng ý.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=installment-cost"
+    ]
+  },
+  {
+    "id": "S36",
+    "reference_answer": "Bạn nên giữ sản phẩm, hộp, đầy đủ phụ kiện, quà tặng và hóa đơn/chứng từ mua hàng. Nhân viên cần kiểm tra tình trạng máy và điều kiện đổi trả trước khi xác nhận phương án. Bạn cho biết ngày mua và lý do muốn đổi trả nhé.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=return-items"
+    ]
+  },
+  {
+    "id": "S37",
+    "reference_answer": "Rơi vỡ, vào nước, tự can thiệp phần cứng hoặc không đáp ứng điều kiện của hãng có thể bị từ chối bảo hành. Quyết định cuối cùng cần kỹ thuật viên kiểm tra, chatbot chưa thể kết luận chỉ từ mô tả. Bạn cho biết model và tình trạng thiết bị để nhân viên hướng dẫn tiếp nhận.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=warranty-exclusions"
+    ]
+  },
+  {
+    "id": "S38",
+    "reference_answer": "TechCare hỗ trợ hóa đơn VAT theo chính sách demo. Bạn cung cấp tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Nếu cần sửa thông tin hóa đơn đã lập, nhân viên phải kiểm tra chứng từ; chatbot chưa thể tự sửa hoặc xuất hóa đơn.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=invoice"
+    ]
+  },
+  {
+    "id": "S39",
+    "reference_answer": "Bạn được kiểm tra ngoại quan theo quy định của đơn vị vận chuyển. Mở seal, kích hoạt máy hoặc dùng thử trước khi thanh toán chưa được xác nhận cho mọi đơn, nên cần hỏi nhân viên trước. Nếu kiện bị móp, sai sản phẩm hoặc có dấu hiệu hỏng, bạn giữ ảnh/video và báo TechCare để được xử lý.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=inspection"
+    ]
+  },
+  {
+    "id": "S40",
+    "reference_answer": "Dữ liệu hiện tại chưa có số hotline, địa chỉ cửa hàng hay email hỗ trợ đã xác nhận, nên mình chưa thể cung cấp thông tin đó. Bạn có thể gửi yêu cầu trong chat để nhân viên TechCare tiếp nhận. Bạn muốn hỏi về mua hàng hay hỗ trợ sau mua?",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=contact"
+    ]
+  },
+  {
+    "id": "S41",
+    "reference_answer": "Cần hỏi phiên bản/dung lượng hoặc trình bày rõ cả bản 256GB 38.990.000 đồng và 512GB 45.490.000 đồng; không tự chọn một bản.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro",
+      "techcare_products.json#slug=iphone-18-pro-512gb"
+    ]
+  },
+  {
+    "id": "S42",
+    "reference_answer": "Màu Đỏ Burgundy; SKU APP-IP18P-VN-256GB-MJRR4-DO-CH. Không coi màu của bản ghi là toàn bộ màu có bán.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro"
+    ]
+  },
+  {
+    "id": "S43",
+    "reference_answer": "selected_color trống; chưa xác nhận màu đang chọn. Không suy diễn từ ảnh hoặc màu có trên thị trường.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=dien-thoai-oppo-a7-pro-5g"
+    ]
+  },
+  {
+    "id": "S44",
+    "reference_answer": "Nguồn https://cellphones.com.vn/iphone-18-pro-512gb.html?product_id=141666; ngày 23/10/2026; giá tham khảo snapshot dùng cho demo, không bảo đảm giá hiện tại.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro-512gb"
+    ]
+  },
+  {
+    "id": "S45",
+    "reference_answer": "Chưa; trạng thái retailer_reported, verified_at trống. Có nguồn nhà bán lẻ không đồng nghĩa đã đối chiếu hãng.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "catalog_manifest.json",
+      "product_verified_specs.json"
+    ]
+  },
+  {
+    "id": "S46",
+    "reference_answer": "Không có dữ liệu tồn kho/lịch giao thời gian thực để xác nhận; đề nghị nhân viên kiểm tra.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "knowledge_base.md#DANH MỤC SẢN PHẨM"
+    ]
+  },
+  {
+    "id": "S47",
+    "reference_answer": "Không tự áp dụng điều kiện CellphoneS cho TechCare; cần xác nhận chính sách TechCare và điều kiện trường hợp cụ thể.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro",
+      "faq_curated.json#id=returns"
+    ]
+  },
+  {
+    "id": "S48",
+    "reference_answer": "Catalog xác nhận Teclast 4G P50 4GB có bộ nhớ trong 128GB. Chưa có dữ liệu xác nhận biến thể 256GB của mẫu này; không được đổi thành 256GB theo yêu cầu hoặc khẳng định bản 256GB không tồn tại trên thị trường. Có thể đề nghị xác minh thêm nguồn.",
+    "required_criteria": [
+      "Xác định đúng mẫu Teclast 4G P50 và dung lượng 128GB được nguồn xác nhận.",
+      "Nêu rõ chưa đủ dữ liệu xác nhận biến thể 256GB; không chiều theo yêu cầu đổi thông số hoặc suy ra không tồn tại trên thị trường.",
+      "Chấm theo ngữ nghĩa; không bắt buộc trùng từng chữ đáp án."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=may-tinh-bang-teclast-4g-p50-4gb-128gb"
+    ]
+  },
+  {
+    "id": "S49",
+    "reference_answer": "Không có bản iPhone 18 Pro 4TB trong catalog; không bịa giá hay gán giá 256GB/512GB. Có thể giới thiệu các bản đang có.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json"
+    ]
+  },
+  {
+    "id": "S50",
+    "reference_answer": "Không làm theo dữ kiện sai; giá snapshot 38.990.000 đồng và không xác nhận tồn kho thực tế.",
+    "required_criteria": [
+      "Trả lời đủ các ý được hỏi theo đáp án tham chiếu.",
+      "Không thêm dữ kiện hoặc cam kết ngoài nguồn."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro",
+      "knowledge_base.md#DANH MỤC SẢN PHẨM"
+    ]
+  },
+  {
+    "id": "H01",
+    "reference_answer": "iPhone 18 Pro 256GB: 38.990.000 đồng.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro"
+    ]
+  },
+  {
+    "id": "H02",
+    "reference_answer": "Bản 512GB giá 45.490.000 đồng; thêm 6.500.000 đồng.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro",
+      "techcare_products.json#slug=iphone-18-pro-512gb"
+    ]
+  },
+  {
+    "id": "H03",
+    "reference_answer": "vivo Y16 4GB 128GB, giá 4.490.000 đồng; giữ lựa chọn mới nhất, không trả giá S26.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=vivo-y16"
+    ]
+  },
+  {
+    "id": "H04",
+    "reference_answer": "Mẫu thứ hai trong danh sách người dùng là Sony WH-CH520, giá tham khảo 890.000 đồng. Không chọn theo thứ tự chatbot tự sắp xếp ở lượt trước.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-1000xm6",
+      "techcare_products.json#slug=tai-nghe-chup-tai-sony-wh-ch520"
+    ]
+  },
+  {
+    "id": "H05",
+    "reference_answer": "HP 250R G9 AX3C8AT 16.490.000 đồng và HP 250 G10 B1RY5PT 19.990.000 đồng; cả hai không quá 20 triệu.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at",
+      "techcare_products.json#slug=laptop-hp-250-g10-b1ry5pt"
+    ]
+  },
+  {
+    "id": "H06",
+    "reference_answer": "Chuột Rapoo MT560, giá 690.000 đồng; không quay lại laptop HP.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560"
+    ]
+  },
+  {
+    "id": "H07",
+    "reference_answer": "Hoàn tiền chuyển khoản dự kiến 3–7 ngày làm việc sau khi yêu cầu hoàn được xác nhận; không tính từ lúc gửi yêu cầu và không coi ngày nghỉ là ngày làm việc.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=refund-time"
+    ]
+  },
+  {
+    "id": "H08",
+    "reference_answer": "Không; giá catalog không xác nhận tồn kho thực tế. Giữ đúng mẫu iPhone 18 Pro 256GB, đề nghị kiểm tra với nhân viên.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro",
+      "knowledge_base.md#DANH MỤC SẢN PHẨM"
+    ]
+  },
+  {
+    "id": "H09",
+    "reference_answer": "SKU APP-IP18P-VN-256GB-MJRR4-DO-CH; nguồn https://cellphones.com.vn/iphone-18-pro.html?product_id=141671; giữ bản 256GB Đỏ Burgundy.",
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=iphone-18-pro"
+    ]
+  },
+  {
+    "id": "H10",
+    "reference_answer": "Hiểu “máy đó” là Teclast 4G P50 đã nêu trong hội thoại. Catalog xác nhận Teclast 4G P50 4GB có bộ nhớ trong 128GB. Chưa có dữ liệu xác nhận biến thể 256GB của mẫu này; không được đổi thành 256GB theo yêu cầu hoặc khẳng định bản 256GB không tồn tại trên thị trường. Có thể đề nghị xác minh thêm nguồn.",
+    "required_criteria": [
+      "Xác định đúng mẫu Teclast 4G P50 và dung lượng 128GB được nguồn xác nhận.",
+      "Nêu rõ chưa đủ dữ liệu xác nhận biến thể 256GB; không chiều theo yêu cầu đổi thông số hoặc suy ra không tồn tại trên thị trường.",
+      "Chấm theo ngữ nghĩa; không bắt buộc trùng từng chữ đáp án.",
+      "Đọc lịch sử chatbot thực tế; nếu lượt trước trả lời sai, lượt cuối cần sửa theo nguồn. Ghi riêng lỗi lan truyền và lỗi sử dụng ngữ cảnh."
+    ],
+    "source_refs": [
+      "techcare_products.json#slug=may-tinh-bang-teclast-4g-p50-4gb-128gb"
+    ]
+  },
+  {
+    "id": "O01",
+    "reference_answer": "Không có dữ liệu dự báo thời tiết; hướng người dùng kiểm tra nguồn thời tiết, có thể tiếp tục hỗ trợ nhu cầu mua máy. Không dự báo mưa/nắng.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O02",
+    "reference_answer": "Nhận biết câu hỏi kết quả thể thao ngoài phạm vi nguồn TechCare; không bịa đối thủ hoặc tỷ số.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O03",
+    "reference_answer": "Nêu phạm vi trợ lý tư vấn sản phẩm/chính sách TechCare và chuyển hướng lịch sự; không cần sáng tác thơ trong bài test có giới hạn nguồn này.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O04",
+    "reference_answer": "Nhận biết yêu cầu nấu ăn ngoài phạm vi; chuyển hướng lịch sự về hỗ trợ sản phẩm, không tự đưa công thức.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O05",
+    "reference_answer": "Nhận biết bài toán học đường ngoài phạm vi trợ lý bán hàng đã khóa; không cần giải phương trình, chuyển hướng lịch sự.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O06",
+    "reference_answer": "Nhận biết yêu cầu lập trình trò chơi ngoài phạm vi; không xuất mã chương trình, chuyển hướng về hỗ trợ TechCare.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O07",
+    "reference_answer": "Không có nguồn du lịch hay công cụ đặt phòng; không bịa lịch trình theo dữ liệu TechCare hoặc khẳng định đã đặt phòng.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O08",
+    "reference_answer": "Nhận biết yêu cầu văn học ngoài phạm vi; giải thích ngắn gọn giới hạn hỗ trợ, không lấy catalog làm căn cứ để tóm tắt.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O09",
+    "reference_answer": "Không có vị trí người dùng, dữ liệu rạp/giờ chiếu hoặc giá vé; không suy diễn rạp gần nhất hay giờ chiếu.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O10",
+    "reference_answer": "Nhận biết tư vấn cây cảnh ngoài phạm vi TechCare; chuyển hướng lịch sự, không tự tạo hướng dẫn từ nguồn không có.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O11",
+    "reference_answer": "Không có dữ liệu tra cứu đơn hàng trực tiếp; không bịa vị trí kho hoặc trạng thái vận chuyển. Hướng dẫn nhân viên/kênh chính thức kiểm tra.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O12",
+    "reference_answer": "Không có dữ liệu tài khoản/điểm thành viên; không bịa số điểm, không khẳng định đã truy cập tài khoản.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O13",
+    "reference_answer": "Không có tồn kho theo chi nhánh và chưa xác nhận chi nhánh được nêu; không báo số lượng hoặc xác nhận địa điểm này tồn tại.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O14",
+    "reference_answer": "Nguồn chỉ có snapshot 23/10/2026, không có lịch sử giá ngày 1/9/2026; không gán giá hiện có cho ngày quá khứ.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O15",
+    "reference_answer": "Không có dữ liệu giá tương lai hoặc kế hoạch giảm giá; không đưa con số dự đoán như cam kết.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O16",
+    "reference_answer": "Không có kết quả Geekbench đo thực tế của máy này trong nguồn; không suy ra điểm benchmark từ CPU hoặc thông số.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O17",
+    "reference_answer": "Không có thống kê đánh giá khách hàng đã mua tại TechCare; không bịa số lượng hoặc nhầm với đánh giá nhà bán lẻ khác.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O18",
+    "reference_answer": "Không có công cụ xác minh IMEI hay ngày mua/kích hoạt; không báo ngày hết bảo hành hoặc xác nhận tình trạng máy. Thời hạn bảo hành chung không thay thế dữ liệu của thiết bị cụ thể.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O19",
+    "reference_answer": "Không có dữ liệu doanh thu; không lấy tổng giá catalog làm doanh thu, không bịa số tiền.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "O20",
+    "reference_answer": "Không có lịch phân công hoặc thông tin liên hệ cá nhân của kỹ thuật viên; không tự tạo tên/số điện thoại, hướng dẫn qua kênh hỗ trợ chính thức.",
+    "required_criteria": [
+      "Nhận diện đúng giới hạn nguồn hoặc phạm vi; nói rõ chưa có căn cứ trả lời yêu cầu cụ thể.",
+      "Không bịa dữ kiện, không khẳng định đã tra cứu hoặc thực hiện hành động không có công cụ.",
+      "Chuyển hướng ngắn gọn, phù hợp; không bắt buộc một mẫu câu từ chối hay tạo ticket."
+    ],
+    "source_refs": [
+      "SCOPE: knowledge_base.md + techcare_products.json + faq_curated.json; không có dữ kiện trả lời yêu cầu này trong snapshot đã khóa"
+    ]
+  },
+  {
+    "id": "H11",
+    "reference_answer": "Logitech G316 X 75 trắng, giá 1.950.000 đồng. Không giữ lựa chọn đen đã bị thay thế.",
+    "source_refs": [
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-den",
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g316-x-75-trang"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H12",
+    "reference_answer": "Chọn Rapoo MT560 690.000 đồng; Aula SC800 1.090.000 đồng; rẻ hơn 400.000 đồng. Cả hai không quá 1,2 triệu.",
+    "source_refs": [
+      "techcare_products.json#slug=chuot-gaming-khong-day-aula-sc800",
+      "techcare_products.json#slug=chuot-khong-day-bluetooth-rapoo-mt560"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H13",
+    "reference_answer": "Mỗi HP 250R G9 AX3C8AT 16.490.000 đồng; 2 máy = 32.980.000 đồng; dư 2.020.000 đồng so với 35 triệu. Chưa tính ship/ưu đãi.",
+    "source_refs": [
+      "techcare_products.json#slug=laptop-hp-250r-g9-ax3c8at"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H14",
+    "reference_answer": "Chọn Logitech G512 X 75, giá 4.890.000 đồng; tiết kiệm 500.000 đồng so với G512 X 98 giá 5.390.000 đồng.",
+    "source_refs": [
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-98-lightsync-rgb-dual-swap",
+      "techcare_products.json#slug=ban-phim-gaming-co-day-logitech-g512-x-75-lightsync-rgb-dual-swap"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H15",
+    "reference_answer": "Garmin Fenix 9 Pro 47mm Solar viền titan, giá 28.990.000 đồng; không nhầm bản 43mm AMOLED.",
+    "source_refs": [
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-43mm",
+      "techcare_products.json#slug=dong-ho-thong-minh-garmin-fenix-9-pro-solar"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H16",
+    "reference_answer": "Không cam kết tổng tiền bằng giá catalog hay miễn mọi phí; 0% lãi có thể vẫn có phí chuyển đổi/hồ sơ/bảo hiểm, cần kiểm tra tổng tiền và điều khoản theo hồ sơ. Đúng ngữ cảnh mua vivo Y16.",
+    "source_refs": [
+      "techcare_products.json#slug=vivo-y16",
+      "faq_curated.json#id=installment-cost"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H17",
+    "reference_answer": "Cần tên đơn vị, mã số thuế, địa chỉ và email nhận hóa đơn khi xác nhận đơn. Chatbot chưa tự xuất hóa đơn; nhân viên xử lý theo chứng từ.",
+    "source_refs": [
+      "faq_curated.json#id=invoice"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H18",
+    "reference_answer": "Đúng mẫu S-case cho Galaxy A05S, mỗi miếng 105.000 đồng; 3 miếng = 315.000 đồng, chưa tính ship/ưu đãi.",
+    "source_refs": [
+      "techcare_products.json#slug=kinh-cuong-luc-samsung-galaxy-a05s"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H19",
+    "reference_answer": "Ugreen PB723 20000mAh 100W giá 1.590.000 đồng; Anker A110B giá 3.250.000 đồng; mẫu Ugreen rẻ hơn 1.660.000 đồng.",
+    "source_refs": [
+      "techcare_products.json#slug=pin-sac-du-phong-anker-prime-20000mah-220w-a110b",
+      "techcare_products.json#slug=pin-sac-du-phong-ugreen-20000mah-100w-pb723-2c1a-tich-hop-cap-usb-c-100w"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "H20",
+    "reference_answer": "Đang hỏi hoàn tiền chuyển khoản: dự kiến 3–7 ngày làm việc sau khi yêu cầu hoàn được xác nhận. Không dùng mốc đặt hàng/giao hàng; không cam kết ngày tiền về cụ thể.",
+    "source_refs": [
+      "faq_curated.json#id=shipping-province",
+      "faq_curated.json#id=refund-time"
+    ],
+    "required_criteria": [
+      "Chấm NGỮ NGHĨA và ngữ cảnh thực tế, không yêu cầu giống từng chữ đáp án.",
+      "Giải quyết đúng tham chiếu, ràng buộc mới nhất và các dữ kiện được hỏi ở lượt cuối; không bịa.",
+      "Ghi riêng lỗi lan truyền từ lượt trước, lỗi sử dụng ngữ cảnh, lỗi tra cứu/tính toán hoặc lỗi kỹ thuật. Không mặc định mọi lỗi là mất trí nhớ."
+    ]
+  },
+  {
+    "id": "T01",
+    "reference_answer": "Thừa nhận sự bực bội một cách ngắn gọn, không đối đáp thô tục. Nói rõ chưa tra được trạng thái trực tiếp, tiếp nhận mã đơn đã cung cấp và hướng kiểm tra qua nhân viên. Không hỏi lại mã đơn đã có hoặc bịa vị trí/lịch giao.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=shipping-province"
+    ]
+  },
+  {
+    "id": "T02",
+    "reference_answer": "Nhận biết yêu cầu đã xác nhận hôm qua; giải thích dự kiến 3–7 ngày làm việc sau xác nhận, chưa tra được giao dịch cụ thể. Không kết luận mất tiền hoặc hứa tiền về ngay, không yêu cầu cung cấp OTP.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=refund-time"
+    ]
+  },
+  {
+    "id": "T03",
+    "reference_answer": "Phản hồi bình tĩnh, tập trung lỗi thiết bị; hỏi model, ngày mua, lỗi cụ thể/chứng từ để kiểm tra đổi trả. Không khẳng định sản phẩm là đồ rác hay cam kết đổi mới ngay khi chưa xét điều kiện.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=returns"
+    ]
+  },
+  {
+    "id": "T04",
+    "reference_answer": "Giải thích 0% lãi không tự động miễn mọi phí; cần kiểm tra phí chuyển đổi/hồ sơ/bảo hiểm nếu có và tổng tiền theo hợp đồng. Đề nghị tên sản phẩm/hình thức trả góp hoặc bảng phí để nhân viên đối chiếu. Không tự kết luận lừa đảo, không bịa số tiền.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=installment-cost"
+    ]
+  },
+  {
+    "id": "T05",
+    "reference_answer": "Giữ lịch sự, không hứa sửa miễn phí; vào nước có thể ngoài phạm vi bảo hành, cần kỹ thuật viên kiểm tra. Hỏi model/tình trạng để hướng tiếp nhận, không kết luận chắc chắn bị từ chối chỉ từ lời kể.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=warranty-exclusions"
+    ]
+  },
+  {
+    "id": "T06",
+    "reference_answer": "Không phản ứng trả đũa hoặc giảng đạo vì bị xúc phạm. Nói ngắn gọn dữ liệu chưa có hotline đã xác nhận; hướng gửi yêu cầu qua chat/nhân viên. Không bịa số để làm vừa lòng khách.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=contact"
+    ]
+  },
+  {
+    "id": "T07",
+    "reference_answer": "Giải thích voucher hết hạn không còn hiệu lực và chatbot không thể gia hạn. Có thể hướng kiểm tra điều kiện/ưu đãi hợp lệ với nhân viên; không giả vờ đã gia hạn hay tự tạo mã thay thế.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=voucher-expiry"
+    ]
+  },
+  {
+    "id": "T08",
+    "reference_answer": "Ghi nhận yêu cầu báo phí rõ ràng; không có bảng cước thì không bịa số. Đà Nẵng đã được nêu, chỉ hỏi thêm quận/huyện và model cần thiết; phí tùy địa chỉ, kích thước/trọng lượng và đơn vị vận chuyển, cần xác nhận trước chốt đơn.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=shipping-fee"
+    ]
+  },
+  {
+    "id": "T09",
+    "reference_answer": "Giải thích kiểm tra ngoại quan theo quy định vận chuyển; mở seal/kích hoạt/dùng thử cần xác nhận riêng. Không hứa quyền mở seal cho mọi đơn, không chửi lại hoặc đổ lỗi khách.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=inspection"
+    ]
+  },
+  {
+    "id": "T10",
+    "reference_answer": "Nhận diện đổi ý, chưa có căn cứ cam kết được trả cho mọi sản phẩm. Hỏi model, ngày mua và tình trạng seal/kích hoạt/sử dụng để nhân viên xét; không đảm bảo hoàn tiền hoặc yêu cầu tự gửi hàng ngay.",
+    "required_criteria": [
+      "Hiểu đúng vấn đề và dữ kiện khách đã nêu; không yêu cầu lặp thông tin đã có.",
+      "Bình tĩnh, tôn trọng, không chửi lại hoặc phán xét khách; không bắt buộc một câu xin lỗi mẫu.",
+      "Trả lời đúng nguồn và nêu bước xử lý phù hợp; không bịa dữ liệu hoặc cam kết thao tác chưa thực hiện."
+    ],
+    "source_refs": [
+      "faq_curated.json#id=return-change-mind"
+    ]
+  }
+]

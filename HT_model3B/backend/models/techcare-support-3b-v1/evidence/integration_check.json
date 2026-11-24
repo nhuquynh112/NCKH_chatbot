@@ -1,0 +1,116 @@
+{
+  "selected_model": "techcare-support:3b-v1",
+  "readiness": {
+    "status": "ready",
+    "database": "ok",
+    "ai": "ok",
+    "chat_model": "techcare-support:3b-v1",
+    "deterministic_answers_available": true,
+    "vector_store": "json"
+  },
+  "llm_mode": "llm+rag",
+  "llm_answer": "Dual-channel nghĩa là cách bộ nhớ sử dụng hai kênh truyền dữ liệu. Để dùng được cần cấu hình bộ nhớ và nền tảng tương thích. Mình chưa có thông số đo hiệu năng thực tế trong dữ liệu này. Bạn cần thông số nào của mẫu đang hỏi để xác nhận?",
+  "actual_ollama_chat_calls": [
+    {
+      "model": "techcare-support:3b-v1",
+      "answer": "Dual-channel nghĩa là cách bộ nhớ sử dụng hai kênh truyền dữ liệu. Để dùng được cần cấu hình bộ nhớ và nền tảng tương thích. Mình chưa có thông số đo hiệu năng thực tế trong dữ liệu này. Bạn cần thông số nào của mẫu đang hỏi để xác nhận?"
+    }
+  ],
+  "api_responses": [
+    {
+      "message": {
+        "id": 2,
+        "session_id": "26d01c83-54e2-49cf-b3ed-91bf7db3206a",
+        "role": "assistant",
+        "content": "iPhone 17 256GB có giá niêm yết 24.999.000 VND trong dữ liệu TechCare hiện tại. Thông số đã đối chiếu nguồn hãng ngày 16/09/2026. Giá thực tế có thể thay đổi theo chương trình bán hàng.",
+        "confidence": 1.0,
+        "response_time_ms": 128,
+        "sources": [
+          {
+            "id": "official-iphone-17-256gb-1",
+            "title": "Apple – Thông số kỹ thuật iPhone 17",
+            "score": 1.0,
+            "metadata": {
+              "source": "official_manufacturer",
+              "url": "https://www.apple.com/vn/iphone-17/specs/",
+              "verified_at": "2026-09-16"
+            }
+          },
+          {
+            "id": "official-iphone-17-256gb-2",
+            "title": "Apple Store Việt Nam – iPhone 17 256GB",
+            "score": 1.0,
+            "metadata": {
+              "source": "official_manufacturer",
+              "url": "https://www.apple.com/vn/shop/buy-iphone/iphone-17/m%C3%A0n-h%C3%ACnh-6%2C3-inch-256gb-%C4%91en",
+              "verified_at": "2026-09-16"
+            }
+          },
+          {
+            "id": "doc_119",
+            "title": "iPhone 17 256GB",
+            "score": 1.0,
+            "metadata": {
+              "source": "product_catalog_extended.md",
+              "parent": "Danh mục sản phẩm",
+              "title": "iPhone 17 256GB"
+            }
+          }
+        ],
+        "intent": "rule+rag",
+        "created_at": "2026-10-14T11:28:42.842095"
+      },
+      "ticket_created": false
+    },
+    {
+      "message": {
+        "id": 4,
+        "session_id": "26d01c83-54e2-49cf-b3ed-91bf7db3206a",
+        "role": "assistant",
+        "content": "Phí giao hàng phụ thuộc địa chỉ nhận, trọng lượng/kích thước kiện hàng và đơn vị vận chuyển. Hiện mình chưa có bảng cước để báo một số tiền cụ thể. Bạn cho biết tỉnh/thành và quận/huyện; nhân viên sẽ xác nhận phí trước khi chốt đơn.\n\nThời gian tham khảo trong chính sách demo là 3–7 ngày làm việc cho đơn giao tỉnh, tùy địa chỉ và đơn vị vận chuyển. Đây là khoảng dự kiến, chưa phải lịch giao của đơn cụ thể. Bạn ở tỉnh/thành nào và cần nhận trước ngày nào?",
+        "confidence": 1.0,
+        "response_time_ms": 58,
+        "sources": [
+          {
+            "id": "curated-shipping-fee",
+            "title": "Phí giao hàng tính thế nào?",
+            "score": 1.0,
+            "metadata": {
+              "source": "faq_curated.json",
+              "category": "Giao hàng",
+              "status": "research_demo_policy"
+            }
+          },
+          {
+            "id": "curated-shipping-province",
+            "title": "Giao hàng tỉnh mất bao lâu?",
+            "score": 1.0,
+            "metadata": {
+              "source": "faq_curated.json",
+              "category": "Giao hàng",
+              "status": "research_demo_policy"
+            }
+          }
+        ],
+        "intent": "faq",
+        "created_at": "2026-10-14T11:28:43.206741"
+      },
+      "ticket_created": false
+    },
+    {
+      "message": {
+        "id": 6,
+        "session_id": "26d01c83-54e2-49cf-b3ed-91bf7db3206a",
+        "role": "assistant",
+        "content": "Mình sẽ tạo ticket để nhân viên TechCare tiếp nhận yêu cầu. Bạn mô tả nội dung cần hỗ trợ và cung cấp số điện thoại liên hệ nếu muốn được gọi lại. Bạn không cần gửi mật khẩu, OTP hay thông tin thẻ.",
+        "confidence": 0.95,
+        "response_time_ms": 42,
+        "sources": [],
+        "intent": "rule+rag",
+        "created_at": "2026-10-14T11:28:43.494666"
+      },
+      "ticket_created": true
+    }
+  ],
+  "method": "Real local generation and real API code; isolated seeded SQLite. Context for the RAM explanation is synthetic test input."
+}

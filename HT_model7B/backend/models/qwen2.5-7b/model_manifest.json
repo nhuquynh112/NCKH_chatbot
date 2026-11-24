@@ -1,0 +1,35 @@
+{
+  "model": "qwen2.5:7b-instruct-fp16",
+  "provider": "ollama",
+  "group_fine_tuned": false,
+  "upstream_type": "Qwen2.5-7B-Instruct; original published weights, no group adapter",
+  "source_url": "https://ollama.com/library/qwen2.5:7b-instruct-fp16",
+  "ollama_digest": "59805ce4a4046be2d8f63231a78daacd2e66f5dccf1a64d0d138ebeeb26ff16c",
+  "size_bytes": 15237866977,
+  "details": {
+    "format": "gguf",
+    "family": "qwen2",
+    "families": [
+      "qwen2"
+    ],
+    "parameter_size": "7.6B",
+    "quantization_level": "F16"
+  },
+  "parameter_count": 7615616512,
+  "distribution": "Download with ollama pull qwen2.5:7b-instruct-fp16; FP16 weights stay in the Ollama model store outside Git.",
+  "license": "Apache-2.0",
+  "benchmark_generation": {
+    "temperature": 0,
+    "num_ctx": 4096,
+    "num_predict": 384,
+    "repeat_penalty": 1.0
+  },
+  "weight_precision": "float16",
+  "weights_blob_sha256": "678e1e0883636c4234928f23fd208337f790456121124a1986cbf1b806baeadb",
+  "tensor_type_counts": {
+    "F16": 198,
+    "F32": 141
+  },
+  "weights_source": "Published FP16 artifact; not upcast from Q4 and not fine-tuned by the group.",
+  "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175"
+}

@@ -1,0 +1,14 @@
+{
+  "question": "Cho em giá theo catalog.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em muốn mua vivo Y16 4GB 128GB."
+    },
+    {
+      "role": "assistant",
+      "content": "vivo Y16 4GB 128GB có giá 4.490.000 VND. Bạn có muốn biết thêm thông tin về sản phẩm hay không?"
+    }
+  ],
+  "answer": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+}

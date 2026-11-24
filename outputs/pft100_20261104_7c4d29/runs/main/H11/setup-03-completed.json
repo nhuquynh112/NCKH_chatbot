@@ -1,0 +1,22 @@
+{
+  "question": "Em đổi lựa chọn từ đen sang trắng.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em đang xem Logitech G316 X 75 bản đen và bản trắng."
+    },
+    {
+      "role": "assistant",
+      "content": "Bàn phím gaming có dây Logitech G316 X 75 trắng có giá 1,950,000 VNĐ. Bàn phím gaming có dây Logitech G316 X 75 đen cũng có giá 1,950,000 VNĐ. Bạn cần hỗ trợ gì thêm?"
+    },
+    {
+      "role": "user",
+      "content": "Giá của hai bản này khác nhau không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Mình chưa có đủ thông tin để xác nhận nội dung này trong dữ liệu hiện tại. Mình có thể tạo ticket để nhân viên TechCare kiểm tra và tư vấn chính xác hơn cho bạn."
+    }
+  ],
+  "answer": "Bạn muốn biết thông tin về sản phẩm nào?"
+}

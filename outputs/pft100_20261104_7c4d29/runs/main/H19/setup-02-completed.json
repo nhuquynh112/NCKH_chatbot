@@ -1,0 +1,14 @@
+{
+  "question": "Em muốn so giá với Ugreen PB723 20000mAh 100W trong catalog.",
+  "history": [
+    {
+      "role": "user",
+      "content": "Em xem pin sạc dự phòng Anker Prime A110B 20000mAh 220W."
+    },
+    {
+      "role": "assistant",
+      "content": "Pin sạc dự phòng Anker Prime A110B 20000mAh 220W có màn hình LED. Giá là 3,250,000 VNĐ."
+    }
+  ],
+  "answer": "Anker Prime A110B 20000mAh 220W có giá 3,250,000 VNĐ.\n\nUgreen PB723 20000mAh 100W có giá 1,590,000 VNĐ.\n\nGiá của Ugreen PB723 20000mAh 100W thấp hơn so với Anker Prime A110B 20000mAh 220W."
+}
