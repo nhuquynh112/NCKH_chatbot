@@ -259,7 +259,7 @@ class WebsiteChatService(ChatService):
             return None
         text = folded(question)
         if not any(contains(text, term) for term in (
-                "san pham", "mau", "laptop", "may tinh", "dien thoai", "model", "item", "product")):
+                "san pham", "mau", "may", "laptop", "dien thoai", "model", "item", "product")):
             return None
 
         ordinals = (
